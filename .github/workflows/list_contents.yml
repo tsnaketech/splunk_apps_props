@@ -1,0 +1,43 @@
+name: List Repository Contents
+
+on:
+  workflow_run:
+    workflows: ["Update Apps Data"]
+    types:
+      - completed
+  workflow_dispatch:
+
+jobs:
+  list-contents:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: List contents
+      run: |
+        echo "filename,latest_version,previous_version,updated" > contents-data.csv
+        git ls-tree -r --name-only HEAD:data | while read filename; do
+          path="data/$filename"
+          if [ -f "data/$filename" ]; then
+            latest_version=$(jq -r '.props.pageProps.appDetails.releases[0].release_name // "N/A"' $path)
+            previous_version=$(jq -r '.props.pageProps.appDetails.releases[1].release_name // "N/A"' $path)
+            iso_date=$(jq -r '.props.pageProps.appDetails.releases[0].updated_time // "N/A"' $path)
+            updated=$(date -d $iso_date "+%Y-%m-%d %H:%M:%S")
+            echo "$filename,$latest_version,$previous_version,$updated" >> contents-data.csv
+          fi
+        done
+
+    - name: Commit changes
+      run: |
+        # Configure Git user for commit
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+
+        # Add all changes to staging
+        git add .
+
+        # Attempt to commit. If no changes, display a message
+        git commit -m "Automatic update of Splunk data" || echo "No changes to commit"
+
+        # Push changes to remote repository
+        git push origin main

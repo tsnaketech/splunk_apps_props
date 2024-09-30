@@ -1,0 +1,49 @@
+name: Update Apps Data
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Run daily at midnight
+  workflow_dispatch:  # Allow manual execution
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:                # Job-level permissions configuration starts here
+      contents: write           # 'write' access to repository contents
+      pull-requests: write      # 'write' access to pull requests 
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Read CSV file and execute script for each entry
+      run: |
+        while IFS=',' read -r id name category output || [ -n "$id" ]; do
+          if [ "$id" != "id" ]; then  # Skip header
+            echo "Processing application $id"
+            python app_props.py -a "$id" -d "data" -o "$output"
+          fi
+        done < apps.csv
+
+    - name: Commit changes
+      run: |
+        # Configure Git user for commit
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+
+        # Add all changes to staging
+        git add .
+
+        # Attempt to commit. If no changes, display a message
+        git commit -m "Automatic update of Splunk data" || echo "No changes to commit"
+
+        # Push changes to remote repository
+        git push origin main
