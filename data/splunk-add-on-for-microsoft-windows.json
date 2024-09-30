@@ -1,0 +1,263 @@
+{
+  "props": {
+    "pageProps": {
+      "appId": "742",
+      "appDetails": {
+        "id": 742,
+        "access": "unrestricted",
+        "approved": true,
+        "categories": [
+          "it_operations_management",
+          "security_compliance"
+        ],
+        "contributors": [],
+        "collections": [],
+        "contact_email": "",
+        "contact_notes": "",
+        "display_author": {
+          "isPartner": false,
+          "name": "Splunk Inc.",
+          "redirectTo": "Splunk"
+        },
+        "description": "*** Important: Read upgrade instructions and test add-on update before deploying to production ***\nThe Splunk Add-on for Windows 5.0.0 introduced breaking changes. If you are upgrading from a version of the Splunk Add-on for Windows that is earlier than 5.0.0, you must follow the documented upgrade instructions to avoid data loss. A best practice is to test the upgraded version in a non-production environment before deploying to production.\n\nNeither the Splunk Add-on for Windows DNS version 1.0.1 nor the Splunk Add-on for Windows Active Directory version 1.0.0 is supported when installed alongside the Splunk Add-on for Windows version 6.0.0. The Splunk Add-on for Windows version 6.0.0 includes the Splunk Add-on for Windows DNS and the Splunk Add-on for Microsoft Active Directory.\n\nThe Splunk for Microsoft Windows add-on includes predefined inputs to collect data from Windows systems and maps to normalize the data to the Common Information Model.",
+        "documentation": "<p>To learn about the Splunk Add-on for Microsoft Windows, see the official documentation here on <a href=\"https://docs.splunk.com/Documentation/AddOns/released/Windows/\">docs.splunk.com</a>.</p>\n<p>For information on what has been fixed as well as known issues, see the <a href=\"https://docs.splunk.com/Documentation/AddOns/released/Windows/Releasenote\">release notes</a>.</p>",
+        "download_count": 527257,
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/bd6868d8-377a-11ef-9cfb-ee2d3594d11c.png",
+        "inquiry_buttontext": "",
+        "inquiry_url": "",
+        "is_archived": false,
+        "is_directory_listing": false,
+        "is_soar_certified": false,
+        "is_splunk_built": true,
+        "installation": "",
+        "license": {
+          "canonical_name": "sgt",
+          "display_name": "Splunk General Terms",
+          "url": "https://www.splunk.com/en_us/legal/splunk-general-terms.html"
+        },
+        "license_name": "sgt",
+        "license_url": "https://www.splunk.com/en_us/legal/splunk-general-terms.html",
+        "product": "splunk",
+        "product_types": [
+          "enterprise",
+          "cloud",
+          "itsi"
+        ],
+        "public": true,
+        "ranking": [
+          {
+            "rank": 2,
+            "category_name": "it_operations_management",
+            "category_display_name": "IT Operations"
+          },
+          {
+            "rank": 2,
+            "category_name": "security_compliance",
+            "category_display_name": "Security, Fraud & Compliance"
+          }
+        ],
+        "rating": {
+          "count": 45,
+          "average": 4
+        },
+        "release": {
+          "release_id": 33887,
+          "release_name": "8.9.0",
+          "notes": "",
+          "created_time": "2024-07-01T07:22:58.327035Z",
+          "published_time": "2024-07-15T16:46:05.782146Z",
+          "updated_time": "2024-07-15T16:46:20.077392Z",
+          "size": 153712,
+          "md5": "d8170d77d479546db74d64a3916ea18f",
+          "sha256": "a34d00f210c9319ed5c1e5b43a3380edf1ac58dba34ad0c4c446b6fb8598961e",
+          "filename": "splunk-add-on-for-microsoft-windows_890.tgz",
+          "signed_available": true,
+          "passed_validation": true,
+          "path": "https://splunkbase.splunk.com/app/742/release/8.9.0/download/",
+          "product_types": [
+            "enterprise",
+            "cloud"
+          ],
+          "fedramp_validation": "no",
+          "min_product_version_str": null,
+          "version_compatibility": [
+            "9.3",
+            "9.2",
+            "9.1",
+            "9.0"
+          ],
+          "actions": [],
+          "cim_compatibility": [
+            "4.x"
+          ],
+          "platform": "independent",
+          "appinspect_passed": false,
+          "product_compatibility": "splunk",
+          "cloud_compatible": true
+        },
+        "releases": [
+          {
+            "release_id": 33887,
+            "release_name": "8.9.0",
+            "notes": "",
+            "created_time": "2024-07-01T07:22:58.327035Z",
+            "published_time": "2024-07-15T16:46:05.782146Z",
+            "updated_time": "2024-07-15T16:46:20.077392Z",
+            "size": 153712,
+            "md5": "d8170d77d479546db74d64a3916ea18f",
+            "sha256": "a34d00f210c9319ed5c1e5b43a3380edf1ac58dba34ad0c4c446b6fb8598961e",
+            "filename": "splunk-add-on-for-microsoft-windows_890.tgz",
+            "signed_available": true,
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/742/release/8.9.0/download/",
+            "product_types": [
+              "enterprise",
+              "cloud"
+            ],
+            "fedramp_validation": "no",
+            "min_product_version_str": null,
+            "version_compatibility": [
+              "9.3",
+              "9.2",
+              "9.1",
+              "9.0"
+            ],
+            "actions": [],
+            "cim_compatibility": [
+              "4.x"
+            ],
+            "platform": "independent",
+            "appinspect_passed": false,
+            "product_compatibility": "splunk",
+            "cloud_compatible": true
+          },
+          {
+            "release_id": 30182,
+            "release_name": "8.8.0",
+            "notes": "",
+            "created_time": "2023-08-03T05:06:26.095974Z",
+            "published_time": "2023-08-03T05:06:26.095986Z",
+            "updated_time": "2023-12-07T14:55:04.551047Z",
+            "size": 152476,
+            "md5": "1476eef51edf98e0cc00da9c5b59cc31",
+            "sha256": "016c535c34d4f21ec9083c75b87ff125c8243cc2888bd030a3e047180cbc8e61",
+            "filename": "splunk-add-on-for-microsoft-windows_880.tgz",
+            "signed_available": true,
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/742/release/8.8.0/download/",
+            "product_types": [
+              "enterprise",
+              "cloud"
+            ],
+            "fedramp_validation": "no",
+            "min_product_version_str": null,
+            "version_compatibility": [
+              "9.3",
+              "9.2",
+              "9.1",
+              "9.0",
+              "8.2"
+            ],
+            "actions": [],
+            "cim_compatibility": [
+              "4.x"
+            ],
+            "platform": "independent",
+            "appinspect_passed": false,
+            "product_compatibility": "splunk",
+            "cloud_compatible": true
+          },
+          {
+            "release_id": 15894,
+            "release_name": "8.0.0",
+            "notes": "",
+            "created_time": "2020-03-30T07:03:06.843245Z",
+            "published_time": "2020-03-30T07:03:06.843279Z",
+            "updated_time": "2022-11-29T16:37:17.215990Z",
+            "size": 148123,
+            "md5": "7ca4de0ca511b1f3e2daa23a9a12a2d9",
+            "sha256": "bc214696ea911a264f43b577c3aab41fe0c196d19249426fe6e7c1b505ecaef2",
+            "filename": "splunk-add-on-for-microsoft-windows_800.tgz",
+            "signed_available": true,
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/742/release/8.0.0/download/",
+            "product_types": [
+              "cloud"
+            ],
+            "fedramp_validation": "yes",
+            "min_product_version_str": null,
+            "version_compatibility": [
+              "9.3",
+              "9.2",
+              "9.1",
+              "9.0",
+              "8.2",
+              "8.1",
+              "8.0",
+              "7.3",
+              "7.2",
+              "7.1"
+            ],
+            "actions": [],
+            "cim_compatibility": [
+              "4.x"
+            ],
+            "platform": "independent",
+            "appinspect_passed": false,
+            "product_compatibility": "splunk",
+            "cloud_compatible": true
+          }
+        ],
+        "repo_name": "",
+        "repo_url": "",
+        "screenshots": [],
+        "support": "splunk",
+        "title": "Splunk Add-on for Microsoft Windows",
+        "troubleshooting": "",
+        "type": "addon",
+        "updated_time": "2024-07-15T16:46:23.795166Z",
+        "video_link": null,
+        "app_type": "addon",
+        "schedule_release": null,
+        "name": "Splunk Add-on for Microsoft Windows",
+        "published_datetime": "2011-08-12T23:24:32Z",
+        "draft": false,
+        "display_editors": false
+      }
+    },
+    "__N_SSG": true
+  },
+  "page": "/app/[id]",
+  "query": {
+    "id": "742"
+  },
+  "buildId": "kHe2enay4ALzvMDedValA",
+  "assetPrefix": "https://cdn.splunkbase.splunk.com",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gsp": true,
+  "scriptLoader": [
+    {
+      "src": "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js",
+      "strategy": "afterInteractive"
+    },
+    {
+      "src": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+      "type": "text/javascript",
+      "charSet": "UTF-8",
+      "data-domain-script": "9ff638b7-8097-449d-9741-7b3c526b0da7",
+      "strategy": "afterInteractive"
+    },
+    {
+      "id": "cookie_snippet",
+      "type": "text/javascript",
+      "strategy": "afterInteractive",
+      "children": "\n              function OptanonWrapper() { }\n            "
+    },
+    {
+      "id": "gtm_script",
+      "strategy": "afterInteractive",
+      "children": "\n                (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n                })(window,document,'script','dataLayer','GTM-TPV7TP');\n            "
+    }
+  ]
+}

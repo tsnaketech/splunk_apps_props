@@ -1,0 +1,224 @@
+{
+  "props": {
+    "pageProps": {
+      "appId": "833",
+      "appDetails": {
+        "id": 833,
+        "access": "unrestricted",
+        "approved": true,
+        "categories": [
+          "it_operations_management",
+          "utilities"
+        ],
+        "contributors": [],
+        "collections": [],
+        "contact_email": "",
+        "contact_notes": "",
+        "display_author": {
+          "isPartner": false,
+          "name": "Splunk Inc.",
+          "redirectTo": "Splunk"
+        },
+        "description": "*** Important: Read upgrade Instructions and test add-on update before deploying to production ***\nThere are changes to default indexes and .conf changes in version 6.0 of Splunk Add-on for Unix and Linux that can break an existing installation if upgrade instructions are not followed in detail. If an existing Splunk Add-on for Unix and Linux is being upgraded, please test in a non-production environment first.\n\n\nThe Splunk Add-on for Unix and Linux works with the Splunk App for Unix and Linux to provide rapid insights and operational visibility into large-scale Unix and Linux environments.  With its new pre-packaged alerting capability, flexible service-based hosts grouping, and easy management of many data sources, it arms administrators with a powerful ability to quickly identify performance and capacity bottlenecks and outliers in Unix and Linux environments.",
+        "documentation": "<p>To learn about the Splunk Add-on for Unix and Linux, see the official documentation here on <a href=\"http://docs.splunk.com/Documentation/AddOns/released/UnixLinux/About\">docs.splunk.com</a>.</p>\n<p>For information on what has been fixed as well as known issues, see the <a href=\"http://docs.splunk.com/Documentation/AddOns/released/UnixLinux/Releasenotes\">release notes</a>.</p>",
+        "download_count": 348284,
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/c5b329a0-3de8-11ef-8e04-52751697b8c7.png",
+        "inquiry_buttontext": "",
+        "inquiry_url": "",
+        "is_archived": false,
+        "is_directory_listing": false,
+        "is_soar_certified": false,
+        "is_splunk_built": true,
+        "installation": "",
+        "license": {
+          "canonical_name": "Splunk General Terms",
+          "display_name": "Splunk General Terms",
+          "url": "https://www.splunk.com/en_us/legal/splunk-general-terms.html"
+        },
+        "license_name": "Splunk General Terms",
+        "license_url": "https://www.splunk.com/en_us/legal/splunk-general-terms.html",
+        "product": "splunk",
+        "product_types": [
+          "enterprise",
+          "cloud",
+          "itsi"
+        ],
+        "public": true,
+        "ranking": [
+          {
+            "rank": 4,
+            "category_name": "it_operations_management",
+            "category_display_name": "IT Operations"
+          },
+          {
+            "rank": 1,
+            "category_name": "utilities",
+            "category_display_name": "Utilities"
+          }
+        ],
+        "rating": {
+          "count": 52,
+          "average": 3
+        },
+        "release": {
+          "release_id": 33967,
+          "release_name": "9.2.0",
+          "notes": "",
+          "created_time": "2024-07-09T11:45:43.395163Z",
+          "published_time": "2024-07-12T18:17:19.176913Z",
+          "updated_time": "2024-07-12T18:17:19.238073Z",
+          "size": 135619,
+          "md5": "be809d95b78dbc8043a023dae054fc3e",
+          "sha256": "9387dd367c6e2417216eaf788b3523cdce8f2650eb7e6e243bd5c1126b151959",
+          "filename": "splunk-add-on-for-unix-and-linux_920.tgz",
+          "signed_available": true,
+          "passed_validation": true,
+          "path": "https://splunkbase.splunk.com/app/833/release/9.2.0/download/",
+          "product_types": [
+            "enterprise",
+            "cloud"
+          ],
+          "fedramp_validation": "no",
+          "min_product_version_str": null,
+          "version_compatibility": [
+            "9.3",
+            "9.2",
+            "9.1",
+            "9.0"
+          ],
+          "actions": [],
+          "cim_compatibility": [
+            "4.x"
+          ],
+          "platform": "independent",
+          "appinspect_passed": false,
+          "product_compatibility": "splunk",
+          "cloud_compatible": true
+        },
+        "releases": [
+          {
+            "release_id": 33967,
+            "release_name": "9.2.0",
+            "notes": "",
+            "created_time": "2024-07-09T11:45:43.395163Z",
+            "published_time": "2024-07-12T18:17:19.176913Z",
+            "updated_time": "2024-07-12T18:17:19.238073Z",
+            "size": 135619,
+            "md5": "be809d95b78dbc8043a023dae054fc3e",
+            "sha256": "9387dd367c6e2417216eaf788b3523cdce8f2650eb7e6e243bd5c1126b151959",
+            "filename": "splunk-add-on-for-unix-and-linux_920.tgz",
+            "signed_available": true,
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/833/release/9.2.0/download/",
+            "product_types": [
+              "enterprise",
+              "cloud"
+            ],
+            "fedramp_validation": "no",
+            "min_product_version_str": null,
+            "version_compatibility": [
+              "9.3",
+              "9.2",
+              "9.1",
+              "9.0"
+            ],
+            "actions": [],
+            "cim_compatibility": [
+              "4.x"
+            ],
+            "platform": "independent",
+            "appinspect_passed": false,
+            "product_compatibility": "splunk",
+            "cloud_compatible": true
+          },
+          {
+            "release_id": 25095,
+            "release_name": "8.5.0",
+            "notes": "",
+            "created_time": "2022-04-21T12:09:27.151539Z",
+            "published_time": "2022-04-21T12:09:27.151559Z",
+            "updated_time": "2022-11-14T05:40:50.939667Z",
+            "size": 125378,
+            "md5": "0b17154031f3f88c768bca5ba6b17f93",
+            "sha256": "d7ec0dad744747b82bd0422a3819553228877f31b14cf8e20ae650bf2f3855ab",
+            "filename": "splunk-add-on-for-unix-and-linux_850.tgz",
+            "signed_available": true,
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/833/release/8.5.0/download/",
+            "product_types": [
+              "enterprise",
+              "cloud"
+            ],
+            "fedramp_validation": "yes",
+            "min_product_version_str": null,
+            "version_compatibility": [
+              "9.3",
+              "9.2",
+              "9.1",
+              "9.0",
+              "8.2",
+              "8.1"
+            ],
+            "actions": [],
+            "cim_compatibility": [
+              "5.x"
+            ],
+            "platform": "independent",
+            "appinspect_passed": false,
+            "product_compatibility": "splunk",
+            "cloud_compatible": true
+          }
+        ],
+        "repo_name": "",
+        "repo_url": "",
+        "screenshots": [],
+        "support": "splunk",
+        "title": "Splunk Add-on for Unix and Linux",
+        "troubleshooting": "",
+        "type": "addon",
+        "updated_time": "2024-07-12T18:17:26.376677Z",
+        "video_link": null,
+        "app_type": "addon",
+        "schedule_release": null,
+        "name": "Splunk Add-on for Unix and Linux",
+        "published_datetime": "2011-11-08T00:14:10Z",
+        "draft": false,
+        "display_editors": false
+      }
+    },
+    "__N_SSG": true
+  },
+  "page": "/app/[id]",
+  "query": {
+    "id": "833"
+  },
+  "buildId": "kHe2enay4ALzvMDedValA",
+  "assetPrefix": "https://cdn.splunkbase.splunk.com",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gsp": true,
+  "scriptLoader": [
+    {
+      "src": "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js",
+      "strategy": "afterInteractive"
+    },
+    {
+      "src": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+      "type": "text/javascript",
+      "charSet": "UTF-8",
+      "data-domain-script": "9ff638b7-8097-449d-9741-7b3c526b0da7",
+      "strategy": "afterInteractive"
+    },
+    {
+      "id": "cookie_snippet",
+      "type": "text/javascript",
+      "strategy": "afterInteractive",
+      "children": "\n              function OptanonWrapper() { }\n            "
+    },
+    {
+      "id": "gtm_script",
+      "strategy": "afterInteractive",
+      "children": "\n                (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n                })(window,document,'script','dataLayer','GTM-TPV7TP');\n            "
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "props": {
+    "pageProps": {
+      "appId": "7066",
+      "appDetails": {
+        "id": 7066,
+        "access": "unrestricted",
+        "approved": true,
+        "categories": [
+          "security_compliance",
+          "siem"
+        ],
+        "contributors": [
+          {
+            "username": "ccloutier_splunk",
+            "display_name": "Christian Cloutier"
+          }
+        ],
+        "collections": [],
+        "contact_email": "",
+        "contact_notes": "",
+        "display_author": {
+          "isPartner": false,
+          "name": "Splunk Works",
+          "redirectTo": "splunklabs"
+        },
+        "description": "An application for Splunk Enterprise Security providing additional insights into everything surrounding and/or impacting your security detections.",
+        "documentation": "<p>See the application documentation <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/\">here</a> for more information on installing, configuring and using it.</p>\n<p>Credit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.</p>",
+        "download_count": 704,
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/57ad2800-ca90-11ee-8d70-26d62a4a3abc.png",
+        "inquiry_buttontext": "Learn More",
+        "inquiry_url": "",
+        "is_archived": false,
+        "is_directory_listing": false,
+        "is_soar_certified": false,
+        "is_splunk_built": false,
+        "installation": "<p>Please refer to the application documentation <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/\">here</a> for installation instructions.</p>",
+        "license": {
+          "canonical_name": "sgt",
+          "display_name": "Splunk General Terms",
+          "url": "https://www.splunk.com/en_us/legal/splunk-general-terms.html"
+        },
+        "license_name": "sgt",
+        "license_url": "https://www.splunk.com/en_us/legal/splunk-general-terms.html",
+        "product": "splunk",
+        "product_types": [
+          "enterprise",
+          "cloud"
+        ],
+        "public": true,
+        "ranking": [
+          {
+            "rank": 30,
+            "category_name": "siem",
+            "category_display_name": "SIEM"
+          },
+          {
+            "rank": 1010,
+            "category_name": "security_compliance",
+            "category_display_name": "Security, Fraud & Compliance"
+          }
+        ],
+        "rating": {
+          "count": 5,
+          "average": 4
+        },
+        "release": {
+          "release_id": 32223,
+          "release_name": "1.1.0",
+          "notes": "<ul>\n<li>Rework initial setup dialog to run prerequisite lookup generating searches automatically</li>\n<li>Add a check to look for the absence of summariesonly for tstats detections</li>\n<li>Add a filter for issues to the Detection Details Tab</li>\n<li>Add a filter for issues to the Scheduling Details Tab</li>\n<li>Add a new Tab for Data Models</li>\n<li>Add a new check to ensure RFC1918 addresses specified are correct</li>\n<li>Add a table of <strong>checks</strong> to the documentation</li>\n<li>Add an overview check for Default Notable values set</li>\n<li>Add check for CIM fields being used directly - e.g. src_ip</li>\n<li>Add check for detection using SPL commands that have known limits/performance limitations</li>\n<li>Add detection check for RBA Risk rules that do not have a Risk Object configured</li>\n<li>Add detection check for RBA Risk rules that do not have a Threat Object configured</li>\n<li>Add detection check for detections missing Next Steps</li>\n<li>Add new check for detections without a drilldown search</li>\n<li>Add new overview check for detections using indexed time</li>\n<li>Add panel and/or check around false positive</li>\n</ul>",
+          "created_time": "2024-02-13T16:52:59.305172Z",
+          "published_time": "2024-02-13T16:54:12.704694Z",
+          "updated_time": "2024-02-16T06:36:49.357366Z",
+          "size": 885500,
+          "md5": "cbbea2544c9af7109cde476adf4f35b5",
+          "sha256": "e46729e425f994d712a4b9917baeb39ca8ec4157749429b00a3661b6d64fadfb",
+          "filename": "sa-detectioninsights_110.tgz",
+          "signed_available": true,
+          "passed_validation": true,
+          "path": "https://splunkbase.splunk.com/app/7066/release/1.1.0/download/",
+          "product_types": [
+            "enterprise",
+            "cloud"
+          ],
+          "fedramp_validation": "no",
+          "min_product_version_str": null,
+          "version_compatibility": [
+            "9.3",
+            "9.2",
+            "9.1",
+            "9.0",
+            "8.2"
+          ],
+          "actions": [],
+          "cim_compatibility": [],
+          "platform": "independent",
+          "appinspect_passed": false,
+          "product_compatibility": "splunk",
+          "cloud_compatible": true
+        },
+        "releases": [
+          {
+            "release_id": 32223,
+            "release_name": "1.1.0",
+            "notes": "<ul>\n<li>Rework initial setup dialog to run prerequisite lookup generating searches automatically</li>\n<li>Add a check to look for the absence of summariesonly for tstats detections</li>\n<li>Add a filter for issues to the Detection Details Tab</li>\n<li>Add a filter for issues to the Scheduling Details Tab</li>\n<li>Add a new Tab for Data Models</li>\n<li>Add a new check to ensure RFC1918 addresses specified are correct</li>\n<li>Add a table of <strong>checks</strong> to the documentation</li>\n<li>Add an overview check for Default Notable values set</li>\n<li>Add check for CIM fields being used directly - e.g. src_ip</li>\n<li>Add check for detection using SPL commands that have known limits/performance limitations</li>\n<li>Add detection check for RBA Risk rules that do not have a Risk Object configured</li>\n<li>Add detection check for RBA Risk rules that do not have a Threat Object configured</li>\n<li>Add detection check for detections missing Next Steps</li>\n<li>Add new check for detections without a drilldown search</li>\n<li>Add new overview check for detections using indexed time</li>\n<li>Add panel and/or check around false positive</li>\n</ul>",
+            "created_time": "2024-02-13T16:52:59.305172Z",
+            "published_time": "2024-02-13T16:54:12.704694Z",
+            "updated_time": "2024-02-16T06:36:49.357366Z",
+            "size": 885500,
+            "md5": "cbbea2544c9af7109cde476adf4f35b5",
+            "sha256": "e46729e425f994d712a4b9917baeb39ca8ec4157749429b00a3661b6d64fadfb",
+            "filename": "sa-detectioninsights_110.tgz",
+            "signed_available": true,
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/7066/release/1.1.0/download/",
+            "product_types": [
+              "cloud",
+              "enterprise"
+            ],
+            "fedramp_validation": "no",
+            "min_product_version_str": null,
+            "version_compatibility": [
+              "9.3",
+              "9.2",
+              "9.1",
+              "9.0",
+              "8.2"
+            ],
+            "actions": [],
+            "cim_compatibility": [],
+            "platform": "independent",
+            "appinspect_passed": false,
+            "product_compatibility": "splunk",
+            "cloud_compatible": true
+          },
+          {
+            "release_id": 31525,
+            "release_name": "1.0.9",
+            "notes": "<ul>\n<li>Add a Quick Tour to help first time users get familiar with the application</li>\n<li>Add drilldowns from the MITRE Heatmap Viz</li>\n<li>Add panels to the RBA Details tab to allow user to see detections using particular ROs/TOs</li>\n<li>Make changes to comply with the Splunk Splunkworks guidelines</li>\n<li>Add button to manually update saved searches metadata</li>\n<li>Add macro for Provided by code quality</li>\n<li>Change check CHKDET0014 to disabled by default and improve Name</li>\n<li>Add an overview check for Detections without a Security Domain</li>\n<li>Add pre-requisites tab</li>\n<li>Update <code>contrib</code> lookups (ART, SigmaHQ, etc.)</li>\n<li>Other minor fixes</li>\n<li>Change License to SGT</li>\n</ul>",
+            "created_time": "2023-12-12T20:35:27.959835Z",
+            "published_time": "2023-12-12T20:35:27.959854Z",
+            "updated_time": "2024-01-04T13:26:11.161386Z",
+            "size": 601529,
+            "md5": "705c0db45a964397d577a50b9fb364e9",
+            "sha256": "79c1b6998b374543afe9afb4d5eb7b2438ab25d9d97ba4866e9e54d3e63bb1b5",
+            "filename": "sa-detectioninsights_109.tgz",
+            "signed_available": true,
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/7066/release/1.0.9/download/",
+            "product_types": [
+              "cloud",
+              "enterprise"
+            ],
+            "fedramp_validation": "no",
+            "min_product_version_str": null,
+            "version_compatibility": [
+              "9.3",
+              "9.2",
+              "9.1",
+              "9.0",
+              "8.2"
+            ],
+            "actions": [],
+            "cim_compatibility": [
+              "5.x",
+              "4.x"
+            ],
+            "platform": "independent",
+            "appinspect_passed": true,
+            "product_compatibility": "splunk",
+            "cloud_compatible": true
+          },
+          {
+            "release_id": 30813,
+            "release_name": "1.0.7",
+            "notes": "",
+            "created_time": "2023-10-10T19:43:40.599639Z",
+            "published_time": "2023-10-10T19:43:40.599652Z",
+            "updated_time": "2024-01-04T13:26:13.035778Z",
+            "size": 3947894,
+            "md5": "1b204935c835f226c3384a158beac514",
+            "sha256": "0b0ccb2dccd3ef926e21dc1f05e2e421a413461e8f2ab2d0283f24603abf4360",
+            "filename": "sa-detectioninsights_107.tgz",
+            "signed_available": true,
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/7066/release/1.0.7/download/",
+            "product_types": [
+              "cloud",
+              "enterprise"
+            ],
+            "fedramp_validation": "no",
+            "min_product_version_str": null,
+            "version_compatibility": [
+              "9.3",
+              "9.2",
+              "9.1",
+              "9.0",
+              "8.2"
+            ],
+            "actions": [],
+            "cim_compatibility": [
+              "5.x",
+              "4.x"
+            ],
+            "platform": "independent",
+            "appinspect_passed": true,
+            "product_compatibility": "splunk",
+            "cloud_compatible": true
+          },
+          {
+            "release_id": 30812,
+            "release_name": "1.0.6",
+            "notes": "",
+            "created_time": "2023-10-10T18:11:23.163023Z",
+            "published_time": "2023-10-10T18:11:23.163040Z",
+            "updated_time": "2024-01-04T13:26:15.368674Z",
+            "size": 3947872,
+            "md5": "942fe25ab78ed3fb212b9dc95f9ad291",
+            "sha256": "08530013962422fadef2a4cc06b91a415ccc58fbf214477765864f01a2e258e9",
+            "filename": "sa-detectioninsights_106.tgz",
+            "signed_available": true,
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/7066/release/1.0.6/download/",
+            "product_types": [
+              "enterprise"
+            ],
+            "fedramp_validation": "no",
+            "min_product_version_str": null,
+            "version_compatibility": [
+              "9.3",
+              "9.2",
+              "9.1",
+              "9.0",
+              "8.2"
+            ],
+            "actions": [],
+            "cim_compatibility": [
+              "5.x",
+              "4.x"
+            ],
+            "platform": "independent",
+            "appinspect_passed": true,
+            "product_compatibility": "splunk",
+            "cloud_compatible": false
+          }
+        ],
+        "repo_name": "",
+        "repo_url": "",
+        "screenshots": [
+          "https://cdn.splunkbase.splunk.com/media/public/screenshots/5b534456-679b-11ee-9c02-c26ae21d0286.png",
+          "https://cdn.splunkbase.splunk.com/media/public/screenshots/47ac22ce-679b-11ee-9403-1a068458b7cc.png",
+          "https://cdn.splunkbase.splunk.com/media/public/screenshots/264cc9c6-679b-11ee-b134-7a8c592fa49a.png",
+          "https://cdn.splunkbase.splunk.com/media/public/screenshots/1f2d1ccc-679b-11ee-946d-ba8f21b26b83.png",
+          "https://cdn.splunkbase.splunk.com/media/public/screenshots/0f478946-679b-11ee-bff6-fecd3f600a22.png"
+        ],
+        "support": "not_supported",
+        "title": "SA-DetectionInsights",
+        "troubleshooting": "<p>Please refer to the application documentation <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/\">here</a> for troubleshooting guidance.</p>",
+        "type": "app",
+        "updated_time": "2024-09-13T12:24:39.683781Z",
+        "video_link": null,
+        "app_type": "app",
+        "schedule_release": null,
+        "name": "SA-DetectionInsights",
+        "published_datetime": "2024-01-03T22:13:49.300525Z",
+        "draft": false,
+        "display_editors": true
+      }
+    },
+    "__N_SSG": true
+  },
+  "page": "/app/[id]",
+  "query": {
+    "id": "7066"
+  },
+  "buildId": "kHe2enay4ALzvMDedValA",
+  "assetPrefix": "https://cdn.splunkbase.splunk.com",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gsp": true,
+  "scriptLoader": [
+    {
+      "src": "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js",
+      "strategy": "afterInteractive"
+    },
+    {
+      "src": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+      "type": "text/javascript",
+      "charSet": "UTF-8",
+      "data-domain-script": "9ff638b7-8097-449d-9741-7b3c526b0da7",
+      "strategy": "afterInteractive"
+    },
+    {
+      "id": "cookie_snippet",
+      "type": "text/javascript",
+      "strategy": "afterInteractive",
+      "children": "\n              function OptanonWrapper() { }\n            "
+    },
+    {
+      "id": "gtm_script",
+      "strategy": "afterInteractive",
+      "children": "\n                (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n                })(window,document,'script','dataLayer','GTM-TPV7TP');\n            "
+    }
+  ]
+}
