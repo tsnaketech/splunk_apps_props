@@ -1,0 +1,25 @@
+filename,latest_version,previous_version,updated
+config-explorer.json,1.7.16,1.7.15,2024-05-31 06:44:41
+crypto-and-encoding-add-on.json,2.3.4,2.1,2024-05-07 07:32:31
+eventgen.json,8.1.2,8.0.1,2024-01-08 23:07:46
+infosec-app-for-splunk.json,1.7.0,1.6.4,2023-08-25 04:04:32
+mitre-attack-app-for-splunk.json,3.11.0,3.10.0,2024-05-14 10:18:22
+sa-detectioninsights.json,1.1.0,1.0.9,2024-02-16 06:36:49
+splunk-add-on-builder.json,4.3.0,3.0.1,2024-08-26 04:56:42
+splunk-add-on-for-apache-web-server.json,2.1.0,N/A,2022-11-12 08:16:47
+splunk-add-on-for-microsoft-windows.json,8.9.0,8.8.0,2024-07-15 16:46:20
+splunk-add-on-for-nginx.json,3.3.0,N/A,2024-09-13 05:43:55
+splunk-add-on-for-unix-and-linux.json,9.2.0,8.5.0,2024-07-12 18:17:19
+splunk-app-for-anomaly-detection.json,1.1.2,1.1.1,2024-03-28 05:26:24
+splunk-app-for-lookup-file-editing.json,4.0.4,4.0.2,2024-07-02 22:43:44
+splunk-app-for-splunk-attack-analyzer.json,1.2.0,1.1.1,2024-09-25 16:02:11
+splunk-common-information-model-cim.json,5.3.2,5.3.1,2024-03-27 17:25:49
+splunk-connect-for-syslog.json,N/A,N/A,1970-01-01 00:00:00
+splunk-dashboard-examples.json,8.2.6,N/A,2023-01-05 01:40:33
+splunk-enterprise-security.json,7.3.2,7.3.1,2024-06-28 18:27:26
+splunk-es-content-update.json,4.41.0,4.40.0,2024-09-26 17:25:52
+splunk-security-essentials.json,3.8.0,3.7.1,2024-03-26 16:12:43
+splunk-supporting-add-on-for-active-directory.json,3.1.0,3.0.8,2024-09-09 14:38:25
+stamus-networks-app-for-splunk.json,1.0.2,1.0.1,2024-09-17 09:52:52
+thehivecortex.json,3.5.0,3.4,2024-09-20 12:05:19
+threatquotient-app-for-splunk.json,2.8.0,2.7.0,2024-08-01 10:01:31
