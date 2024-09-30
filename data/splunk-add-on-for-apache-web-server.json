@@ -1,0 +1,185 @@
+{
+  "props": {
+    "pageProps": {
+      "appId": "3186",
+      "appDetails": {
+        "id": 3186,
+        "access": "unrestricted",
+        "approved": true,
+        "categories": [
+          "it_operations_management"
+        ],
+        "contributors": [],
+        "collections": [],
+        "contact_email": "",
+        "contact_notes": "",
+        "display_author": {
+          "isPartner": false,
+          "name": "Splunk Inc.",
+          "redirectTo": "Splunk"
+        },
+        "description": "The Splunk Add-on for Apache Web Server allows a Splunk software administrator to collect and analyze data from Apache Web Server using file monitoring. After the Splunk platform indexes the events, you can analyze the data using the prebuilt panels included with the add-on. \n\nThis add-on provides the inputs and CIM-compatible knowledge to use with other Splunk apps, such as Web.",
+        "documentation": "<p>Documentation for this add-on can be found here: <a href=\"http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About\">http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About</a></p>",
+        "download_count": 29464,
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/3c98c790-e360-11ec-8e51-128f1773c869.png",
+        "inquiry_buttontext": "Learn More",
+        "inquiry_url": "",
+        "is_archived": false,
+        "is_directory_listing": false,
+        "is_soar_certified": false,
+        "is_splunk_built": true,
+        "installation": "",
+        "license": {
+          "canonical_name": "Splunk General Terms",
+          "display_name": "Splunk General Terms",
+          "url": "https://www.splunk.com/en_us/legal/splunk-general-terms.html"
+        },
+        "license_name": "Splunk General Terms",
+        "license_url": "https://www.splunk.com/en_us/legal/splunk-general-terms.html",
+        "product": "splunk",
+        "product_types": [
+          "enterprise",
+          "cloud",
+          "itsi"
+        ],
+        "public": true,
+        "ranking": [
+          {
+            "rank": 59,
+            "category_name": "it_operations_management",
+            "category_display_name": "IT Operations"
+          }
+        ],
+        "rating": {
+          "count": 7,
+          "average": 3
+        },
+        "release": {
+          "release_id": 26105,
+          "release_name": "2.1.0",
+          "notes": "<p><a href=\"https://docs.splunk.com/Documentation/AddOns/released/ApacheWebServer/About\">https://docs.splunk.com/Documentation/AddOns/released/ApacheWebServer/About</a></p>",
+          "created_time": "2022-06-03T17:11:41.657130Z",
+          "published_time": "2022-06-03T17:11:41.657153Z",
+          "updated_time": "2022-11-12T08:16:47.077203Z",
+          "size": 39162,
+          "md5": "1201a87832882b5c4d5f3a39c21fa86b",
+          "sha256": "9d3eae223e3dcdd44ee3167f17963f57100dd8d5fffe1760ea713aaf95e0134f",
+          "filename": "splunk-add-on-for-apache-web-server_210.tgz",
+          "signed_available": true,
+          "passed_validation": true,
+          "path": "https://splunkbase.splunk.com/app/3186/release/2.1.0/download/",
+          "product_types": [
+            "enterprise",
+            "cloud"
+          ],
+          "fedramp_validation": "yes",
+          "min_product_version_str": null,
+          "version_compatibility": [
+            "9.3",
+            "9.2",
+            "9.1",
+            "9.0",
+            "8.2",
+            "8.1"
+          ],
+          "actions": [],
+          "cim_compatibility": [
+            "5.x"
+          ],
+          "platform": "independent",
+          "appinspect_passed": false,
+          "product_compatibility": "splunk",
+          "cloud_compatible": true
+        },
+        "releases": [
+          {
+            "release_id": 26105,
+            "release_name": "2.1.0",
+            "notes": "<p><a href=\"https://docs.splunk.com/Documentation/AddOns/released/ApacheWebServer/About\">https://docs.splunk.com/Documentation/AddOns/released/ApacheWebServer/About</a></p>",
+            "created_time": "2022-06-03T17:11:41.657130Z",
+            "published_time": "2022-06-03T17:11:41.657153Z",
+            "updated_time": "2022-11-12T08:16:47.077203Z",
+            "size": 39162,
+            "md5": "1201a87832882b5c4d5f3a39c21fa86b",
+            "sha256": "9d3eae223e3dcdd44ee3167f17963f57100dd8d5fffe1760ea713aaf95e0134f",
+            "filename": "splunk-add-on-for-apache-web-server_210.tgz",
+            "signed_available": true,
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/3186/release/2.1.0/download/",
+            "product_types": [
+              "enterprise",
+              "cloud"
+            ],
+            "fedramp_validation": "yes",
+            "min_product_version_str": null,
+            "version_compatibility": [
+              "9.3",
+              "9.2",
+              "9.1",
+              "9.0",
+              "8.2",
+              "8.1"
+            ],
+            "actions": [],
+            "cim_compatibility": [
+              "5.x"
+            ],
+            "platform": "independent",
+            "appinspect_passed": false,
+            "product_compatibility": "splunk",
+            "cloud_compatible": true
+          }
+        ],
+        "repo_name": "",
+        "repo_url": "",
+        "screenshots": [],
+        "support": "splunk",
+        "title": "Splunk Add-on for Apache Web Server",
+        "troubleshooting": "",
+        "type": "addon",
+        "updated_time": "2023-07-24T03:29:00.665311Z",
+        "video_link": null,
+        "app_type": "addon",
+        "schedule_release": null,
+        "name": "Splunk Add-on for Apache Web Server",
+        "published_datetime": "2016-06-07T23:37:51.978840Z",
+        "draft": false,
+        "display_editors": false
+      }
+    },
+    "__N_SSG": true
+  },
+  "page": "/app/[id]",
+  "query": {
+    "id": "3186"
+  },
+  "buildId": "kHe2enay4ALzvMDedValA",
+  "assetPrefix": "https://cdn.splunkbase.splunk.com",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gsp": true,
+  "scriptLoader": [
+    {
+      "src": "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js",
+      "strategy": "afterInteractive"
+    },
+    {
+      "src": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+      "type": "text/javascript",
+      "charSet": "UTF-8",
+      "data-domain-script": "9ff638b7-8097-449d-9741-7b3c526b0da7",
+      "strategy": "afterInteractive"
+    },
+    {
+      "id": "cookie_snippet",
+      "type": "text/javascript",
+      "strategy": "afterInteractive",
+      "children": "\n              function OptanonWrapper() { }\n            "
+    },
+    {
+      "id": "gtm_script",
+      "strategy": "afterInteractive",
+      "children": "\n                (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n                })(window,document,'script','dataLayer','GTM-TPV7TP');\n            "
+    }
+  ]
+}
