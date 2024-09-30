@@ -15,15 +15,16 @@ jobs:
 
     - name: List contents
       run: |
-        echo "filename,latest_version,previous_version,updated" > contents-data.csv
+        echo "title,filename,latest_version,previous_version,updated" > contents-data.csv
         git ls-tree -r --name-only HEAD:data | while read filename; do
           path="data/$filename"
-          if [ -f "data/$filename" ]; then
+          if [ -f $path ]; then
+            title=$(jq -r '.props.pageProps.appDetails.title // "N/A"' $path)
             latest_version=$(jq -r '.props.pageProps.appDetails.releases[0].release_name // "N/A"' $path)
             previous_version=$(jq -r '.props.pageProps.appDetails.releases[1].release_name // "N/A"' $path)
             iso_date=$(jq -r '.props.pageProps.appDetails.releases[0].updated_time // "1970-01-01"' $path)
             updated=$(date -d $iso_date "+%Y-%m-%d %H:%M:%S")
-            echo "$filename,$latest_version,$previous_version,$updated" >> contents-data.csv
+            echo "$title,$filename,$latest_version,$previous_version,$updated" >> contents-data.csv
           fi
         done
 
@@ -37,7 +38,7 @@ jobs:
         git add .
 
         # Attempt to commit. If no changes, display a message
-        git commit -m "Automatic update of Splunk data" || echo "No changes to commit"
+        git commit -m "Automatic update of contents-data.csv" || echo "No changes to commit"
 
         # Push changes to remote repository
         git push origin main

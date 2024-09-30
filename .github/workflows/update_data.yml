@@ -43,7 +43,7 @@ jobs:
         git add .
 
         # Attempt to commit. If no changes, display a message
-        git commit -m "Automatic update of Splunk data" || echo "No changes to commit"
+        git commit -m "Automatic update of apps data" || echo "No changes to commit"
 
         # Push changes to remote repository
         git push origin main
