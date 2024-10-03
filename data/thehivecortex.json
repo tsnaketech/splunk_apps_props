@@ -56,7 +56,7 @@
           }
         ],
         "rating": {
-          "count": 5,
+          "count": 6,
           "average": 3
         },
         "release": {
@@ -310,7 +310,7 @@
         "title": "TheHive/Cortex",
         "troubleshooting": "<p>You have a dedicated dashboard named \"Audit logs\" in order to check all logs.<br>\nIf you enable the debug mode (only for troubleshooting purposes), you will be able to see all the information and especially errors.</p>\n<p>If you need any assistance, you can contact me on the related Github: <a href=\"https://github.com/LetMeR00t/TA-thehive-cortex/issues\">https://github.com/LetMeR00t/TA-thehive-cortex/issues</a></p>",
         "type": "app",
-        "updated_time": "2024-09-20T12:05:23.057073Z",
+        "updated_time": "2024-10-02T15:52:45.216740Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
@@ -326,7 +326,7 @@
   "query": {
     "id": "5329"
   },
-  "buildId": "kHe2enay4ALzvMDedValA",
+  "buildId": "OVq5kltvQuCrR1wCdfyr5",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
