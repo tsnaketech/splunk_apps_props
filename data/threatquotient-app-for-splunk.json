@@ -20,7 +20,7 @@
         },
         "description": "The new ThreatQuotient App for Splunk improves on our previous capability while incorporating feedback collected from our customers around functionality and deployability.\n\nNote: The new ThreatQuotient App for Splunk requires the ThreatQuotient Add-on for Splunk as well as ThreatQ version 4.16 or later.\n\nThreatQuotient Splunk Support Documentation\nSee the Splunk Documentation located on the ThreatQuotient Help Center for more information.\n\n https://helpcenter.threatq.com/Integration_Documentation/app/Splunk.htm",
         "documentation": "<h3>Functionality includes:</h3>\n<p><strong>Ingestion of ThreatQ Data into Splunk</strong><br>\nEnable users to customize what data is ingested by leveraging ThreatQ exports and Splunk input filters. Customization continues for advanced users with the ability to modify leveraged indexes and Splunk saved searches that drive the ThreatQuotient App for Splunk to meet the needs of their environment.</p>\n<p><strong>Matching of Splunk Events with ThreatQ Indicators</strong><br>\nProvide context on possible malicious activity by matching Splunk Events with ThreatQ indicators. Matching is customizable by ThreatQ indicator status and score to meet the differing needs of customer environments and workflows.</p>\n<p><strong>Reporting of Matches in Splunk back to ThreatQ as Sighting Events</strong><br>\nSighting events in ThreatQ will show indicator matches from Splunk and will be grouped by indicator.</p>\n<p><strong>Workflow Actions</strong><br>\nUsers can modify ThreatQ data based on any indexed indicators within Splunk.</p>\n<p><strong>Workflow actions include:</strong><br>\n- ThreatQ: Add Indicator<br>\n- ThreatQ: Update Indicator Status<br>\n- ThreatQ: Lookup Indicator<br>\n- ThreatQ: Mark as False Positive<br>\n- ThreatQ: Mark as True Positive</p>\n<p><strong>Note:</strong> Support for ingesting ThreatQ data into Splunk Enterprise Security will be leveraged in the additional workflows provided within that application.</p>\n<h3>Deployability</h3>\n<p>The ThreatQuotient App for Splunk has been re-designed to scale to our customers' growing needs, supporting installations in Splunk deployments of all sizes.</p>",
-        "download_count": 3660,
+        "download_count": 3662,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/16802b10-4aa2-11ef-b6ee-aa37b693ef8d.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -576,7 +576,7 @@
   "query": {
     "id": "4418"
   },
-  "buildId": "OVq5kltvQuCrR1wCdfyr5",
+  "buildId": "sFysrv90w6xhVIS6ACcZs",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
