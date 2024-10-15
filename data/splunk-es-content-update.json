@@ -27,8 +27,8 @@
         },
         "description": "The Splunk ES Content Update (ESCU) app delivers pre-packaged Security Content. ESCU provides regular Security Content updates to help security practitioners address ongoing time-sensitive threats, attack methods, and other security issues.\n\nSecurity Content consists of tactics, techniques, and methodologies that help with detection, investigation, and response. Security Content enables security teams to directly operationalize detection searches, investigative searches, and other supporting details. ESCU can generate Notable/Risk Events in Splunk Enterprise Security. Security Content also contains easy-to-read background information and guidance, for key context on motivations and risks associated with attack techniques, as well as pragmatic advice on how to combat those techniques.\n\nThe analytic stories and their searches are also available at - https://github.com/splunk/security_content.",
         "documentation": "<p>For more information please visit the <a href=\"http://docs.splunk.com/Documentation/ESCU\">Splunk ES Content Update user documentation</a>.</p>",
-        "download_count": 126201,
-        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/70e397a6-7c1e-11ef-b348-1e577755bd4a.png",
+        "download_count": 126236,
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/86c5f70c-8a7a-11ef-8c2d-7215982f34f3.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "http://www.splunk.com/index.php/ask_expert/default/3174",
         "is_archived": false,
@@ -62,19 +62,19 @@
           "average": 5
         },
         "release": {
-          "release_id": 34886,
-          "release_name": "4.41.0",
-          "notes": "<p><a href=\"https://docs.splunk.com/Documentation/ESCU/4.41.0/RN/Enhancements\">https://docs.splunk.com/Documentation/ESCU/4.41.0/RN/Enhancements</a></p>",
-          "created_time": "2024-09-26T15:46:08.323895Z",
-          "published_time": "2024-09-26T17:25:51.929497Z",
-          "updated_time": "2024-10-10T01:11:40.153947Z",
-          "size": 2194899,
-          "md5": "59b694093e5003c221d9b37f024f437d",
-          "sha256": "bfd20eaa903390b376e74aa9f6b65a2952bf51b31fc3a7e47aab3907b48deb35",
-          "filename": "splunk-es-content-update_4410.tgz",
+          "release_id": 35121,
+          "release_name": "4.42.0",
+          "notes": "<p><a href=\"https://docs.splunk.com/Documentation/ESCU/4.42.0/RN/Enhancements\">https://docs.splunk.com/Documentation/ESCU/4.42.0/RN/Enhancements</a></p>",
+          "created_time": "2024-10-14T22:20:34.939841Z",
+          "published_time": "2024-10-14T23:34:09.307475Z",
+          "updated_time": "2024-10-14T23:34:09.404157Z",
+          "size": 2202785,
+          "md5": "b8e7048a4fa7c9f94b07bb33203072d5",
+          "sha256": "911ccc995eca4ec930140c25ef3fe15c0a3169331002865ab8d77f065bec019a",
+          "filename": "splunk-es-content-update_4420.tgz",
           "signed_available": true,
           "passed_validation": true,
-          "path": "https://splunkbase.splunk.com/app/3449/release/4.41.0/download/",
+          "path": "https://splunkbase.splunk.com/app/3449/release/4.42.0/download/",
           "product_types": [
             "enterprise",
             "cloud"
@@ -102,6 +102,46 @@
           "cloud_compatible": true
         },
         "releases": [
+          {
+            "release_id": 35121,
+            "release_name": "4.42.0",
+            "notes": "<p><a href=\"https://docs.splunk.com/Documentation/ESCU/4.42.0/RN/Enhancements\">https://docs.splunk.com/Documentation/ESCU/4.42.0/RN/Enhancements</a></p>",
+            "created_time": "2024-10-14T22:20:34.939841Z",
+            "published_time": "2024-10-14T23:34:09.307475Z",
+            "updated_time": "2024-10-14T23:34:09.404157Z",
+            "size": 2202785,
+            "md5": "b8e7048a4fa7c9f94b07bb33203072d5",
+            "sha256": "911ccc995eca4ec930140c25ef3fe15c0a3169331002865ab8d77f065bec019a",
+            "filename": "splunk-es-content-update_4420.tgz",
+            "signed_available": true,
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/3449/release/4.42.0/download/",
+            "product_types": [
+              "cloud",
+              "enterprise"
+            ],
+            "fedramp_validation": "no",
+            "min_product_version_str": null,
+            "version_compatibility": [
+              "9.3",
+              "9.2",
+              "9.1",
+              "9.0",
+              "8.2",
+              "8.1",
+              "8.0",
+              "7.3"
+            ],
+            "actions": [],
+            "cim_compatibility": [
+              "5.x",
+              "4.x"
+            ],
+            "platform": "independent",
+            "appinspect_passed": false,
+            "product_compatibility": "splunk",
+            "cloud_compatible": true
+          },
           {
             "release_id": 34886,
             "release_name": "4.41.0",
@@ -1268,7 +1308,7 @@
         "title": "Splunk ES Content Update",
         "troubleshooting": "<p>Open a Splunk Support Case or reach out to us directly at <a href=\"mailto:research@splunk.com\">research@splunk.com</a>.</p>",
         "type": "addon",
-        "updated_time": "2024-10-10T01:11:40.342116Z",
+        "updated_time": "2024-10-14T23:52:53.983729Z",
         "video_link": null,
         "app_type": "addon",
         "schedule_release": null,
@@ -1284,7 +1324,7 @@
   "query": {
     "id": "3449"
   },
-  "buildId": "O8r5zWVso0P7HnHeHgG5t",
+  "buildId": "w8gj14og_NhFKf74Vp_-j",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

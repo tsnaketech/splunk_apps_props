@@ -21,7 +21,7 @@
         },
         "description": "This TA allows to add interaction features between TheHive or Cortex (https://www.strangebee.com/) and Splunk. It allows to retrieve all kind of information from TheHive/Cortex and to perform actions on these instances using Splunk, from a search or from a predefined dashboard.\n\nThis TA is supporting only TheHive 5. For having an app supporting TheHive 3 or 4, please check the oldest releases. It's also supporting the Cortex 3 version.\n\nMore information here: https://github.com/LetMeR00t/TA-thehive-cortex",
         "documentation": "<p>The objective is to interface a SIEM tool such as Splunk in order to be able to perform automated tasks on observables/IOCs or TTPs.<br>\nThis TA has been designed in such a way that :</p>\n<ul>\n<li>You can pull events periodically from TheHive about the different cases/alerts that were created or updated</li>\n<li>You can create new alert or case from Splunk in TheHive using the power of Splunk whether in a search or in a predefined dashboard.</li>\n<li>You can run a function in TheHive from an alert action</li>\n<li>You can interface Splunk Enterprise Security with TheHive</li>\n<li>You can retrieve information from Cortex about the different jobs that are being performed on the scanners.</li>\n<li>You can run new tasks from Splunk in Cortex using the power of Splunk whether in a search or a predefined dashboard.</li>\n</ul>\n<p>If you need any documentation or help, please visit the related Github : <a href=\"https://github.com/LetMeR00t/TA-thehive-cortex\">https://github.com/LetMeR00t/TA-thehive-cortex</a></p>",
-        "download_count": 2698,
+        "download_count": 2701,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/d0bbfe1a-87b4-11ef-9f3a-4687505c3579.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -144,15 +144,16 @@
             "notes": "<h1>Release Notes for v3.6.0</h1>\n<ul>\n<li><code>Feature</code>: New modular inputs to manage more flexible and details logs about alerts or cases, observables (to ingest them in Splunk) and audit logs (most of the actions performed by users on the objects such as alerts, cases, tasks, attachments, pages etc.)</li>\n<li><code>Feature</code>: Possibility to customize the prefix for the attachment of the raw events</li>\n<li><code>Fix</code>: Issue when searching cases/alerts with a parameter not parsed as an integer</li>\n<li><code>Build</code>: Upgrading two librairies: importlib_metadata and thehive4py (2.0.0b6 customized with added features)</li>\n<li><code>Fix</code>: Small issues detailed in the commits that should not impact the existing features</li>\n</ul>\n<p><strong>Note</strong>: You can upgrade from v3.2 to v3.6.0 without the v3.2/v3.3/v3.4/v3.5.</p>\n<p>See the full release notes directly on Github: <a href=\"https://github.com/LetMeR00t/TA-thehive-cortex/releases/tag/v3.6.0\">https://github.com/LetMeR00t/TA-thehive-cortex/releases/tag/v3.6.0</a></p>",
             "created_time": "2024-10-09T20:09:14.549099Z",
             "published_time": "2024-10-10T05:00:24.655846Z",
-            "updated_time": "2024-10-10T05:00:24.802520Z",
-            "size": 3364716,
-            "md5": "c5961a11a089c00b948bd5268e5bc39c",
-            "sha256": "8c7114d0dff925fb72bd0cd333e84cb1d7cbe179f393e8b4a67be88182f1986c",
+            "updated_time": "2024-10-14T05:20:15.497137Z",
+            "size": 3364730,
+            "md5": "fd426c3514a788c2a18f400607d105cd",
+            "sha256": "ec7fba9433938923ca4946adc05d649ac1eaf03759ad80590046f9d5dc25b52d",
             "filename": "thehivecortex_360.tgz",
             "signed_available": true,
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/5329/release/3.6.0/download/",
             "product_types": [
+              "cloud",
               "enterprise"
             ],
             "fedramp_validation": "no",
@@ -175,7 +176,7 @@
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
-            "cloud_compatible": false
+            "cloud_compatible": true
           },
           {
             "release_id": 34801,
@@ -183,15 +184,16 @@
             "notes": "<h1>Release Notes for v3.5.0</h1>\n<ul>\n<li><code>Feature</code>: Capability to export the original events in JSON format as attachment</li>\n<li><code>Feature</code>: Capability to retry an alert/case creation failing with a customized parameter in the configuration</li>\n<li><code>Refactor</code>: Switch to the new branding of the main product</li>\n</ul>\n<p><strong>Note</strong>: You can upgrade from v3.2 to v3.5.0 without the v3.2/v3.3/v3.4.</p>\n<p>See the full release notes directly on Github: <a href=\"https://github.com/LetMeR00t/TA-thehive-cortex/releases/tag/v3.5.0\">https://github.com/LetMeR00t/TA-thehive-cortex/releases/tag/v3.5.0</a></p>",
             "created_time": "2024-09-20T09:35:50.498922Z",
             "published_time": "2024-09-20T12:05:19.234387Z",
-            "updated_time": "2024-09-20T12:05:19.381112Z",
-            "size": 3354097,
-            "md5": "f54dcb81b4610bd84bdad7bead428e32",
-            "sha256": "656726f808aa4fd0fb846ad5b6faaed0fc8cdfdf31fe526b86ec84e76576e47a",
+            "updated_time": "2024-10-14T05:20:14.668907Z",
+            "size": 3354111,
+            "md5": "b93d5b2f623bc2ed80cea098310d65dd",
+            "sha256": "6ddcec5ca8f419deeff6f884ab9a359d9cf20fe46f1bc1679d3718fe2efbf034",
             "filename": "thehivecortex_350.tgz",
             "signed_available": true,
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/5329/release/3.5.0/download/",
             "product_types": [
+              "cloud",
               "enterprise"
             ],
             "fedramp_validation": "no",
@@ -214,7 +216,7 @@
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
-            "cloud_compatible": false
+            "cloud_compatible": true
           },
           {
             "release_id": 34022,
@@ -388,7 +390,7 @@
         "title": "TheHive/Cortex",
         "troubleshooting": "<p>You have a dedicated dashboard named \"Audit logs\" in order to check all logs.<br>\nIf you enable the debug mode (only for troubleshooting purposes), you will be able to see all the information and especially errors.</p>\n<p>If you need any assistance, you can contact me on the related Github: <a href=\"https://github.com/LetMeR00t/TA-thehive-cortex/issues\">https://github.com/LetMeR00t/TA-thehive-cortex/issues</a></p>",
         "type": "app",
-        "updated_time": "2024-10-11T10:50:01.679148Z",
+        "updated_time": "2024-10-14T05:20:15.534724Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
@@ -404,7 +406,7 @@
   "query": {
     "id": "5329"
   },
-  "buildId": "O8r5zWVso0P7HnHeHgG5t",
+  "buildId": "w8gj14og_NhFKf74Vp_-j",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
