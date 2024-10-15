@@ -17,7 +17,7 @@ Splunk Common Information Model (CIM),splunk-common-information-model-cim.json,5
 Splunk Connect for Syslog,splunk-connect-for-syslog.json,N/A,N/A,1970-01-01 00:00:00
 Splunk Dashboard Examples,splunk-dashboard-examples.json,8.2.6,N/A,2023-01-05 01:40:33
 Splunk Enterprise Security,splunk-enterprise-security.json,7.3.2,7.3.1,2024-06-28 18:27:26
-Splunk ES Content Update,splunk-es-content-update.json,4.41.0,4.40.0,2024-10-10 01:11:40
+Splunk ES Content Update,splunk-es-content-update.json,4.42.0,4.41.0,2024-10-14 23:34:09
 Splunk Security Essentials,splunk-security-essentials.json,3.8.0,3.7.1,2024-03-26 16:12:43
 Splunk Supporting Add-on for Active Directory,splunk-supporting-add-on-for-active-directory.json,3.1.0,3.0.8,2024-09-09 14:38:25
 Stamus Networks App for Splunk,stamus-networks-app-for-splunk.json,1.0.2,1.0.1,2024-09-17 09:52:52
