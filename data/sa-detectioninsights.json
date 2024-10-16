@@ -26,7 +26,7 @@
         },
         "description": "An application for Splunk Enterprise Security providing additional insights into everything surrounding and/or impacting your security detections.",
         "documentation": "<p>See the application documentation <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/\">here</a> for more information on installing, configuring and using it.</p>\n<p>Credit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.</p>",
-        "download_count": 714,
+        "download_count": 716,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/57ad2800-ca90-11ee-8d70-26d62a4a3abc.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -273,7 +273,7 @@
   "query": {
     "id": "7066"
   },
-  "buildId": "w8gj14og_NhFKf74Vp_-j",
+  "buildId": "5UbIxEEja5gb6-NGQibiX",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
