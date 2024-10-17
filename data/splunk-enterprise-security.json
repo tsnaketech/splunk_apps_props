@@ -1,7 +1,6 @@
 {
   "props": {
     "pageProps": {
-      "appId": "263",
       "appDetails": {
         "id": 263,
         "access": "restricted",
@@ -80,15 +79,6 @@
           ],
           "fedramp_validation": "no",
           "min_product_version_str": null,
-          "version_compatibility": [
-            "9.3",
-            "9.2",
-            "9.1"
-          ],
-          "actions": [],
-          "cim_compatibility": [
-            "5.x"
-          ],
           "platform": "independent",
           "appinspect_passed": false,
           "product_compatibility": "splunk",
@@ -110,20 +100,11 @@
             "passed_validation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/7.3.2/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -144,19 +125,11 @@
             "passed_validation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/7.3.1/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "yes",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.2",
-              "9.1"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -177,20 +150,11 @@
             "passed_validation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/7.3.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.2",
-              "9.1",
-              "9.0"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -211,20 +175,11 @@
             "passed_validation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/7.1.2/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "yes",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.2",
-              "9.1",
-              "9.0"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -245,20 +200,11 @@
             "passed_validation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/7.2.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "yes",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.2",
-              "9.1",
-              "9.0"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -279,21 +225,11 @@
             "passed_validation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/7.1.1/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "yes",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -314,22 +250,11 @@
             "passed_validation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/7.1.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "yes",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -350,22 +275,11 @@
             "passed_validation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/7.0.2/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "yes",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -390,15 +304,6 @@
             ],
             "fedramp_validation": "yes",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.0",
-              "8.2",
-              "8.1"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -423,15 +328,6 @@
             ],
             "fedramp_validation": "yes",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.0",
-              "8.2",
-              "8.1"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -456,16 +352,6 @@
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -490,15 +376,6 @@
             ],
             "fedramp_validation": "yes",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "8.2",
-              "8.1",
-              "8.0"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -523,15 +400,6 @@
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "8.2",
-              "8.1",
-              "8.0"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -554,14 +422,6 @@
             "product_types": [],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "8.1",
-              "8.0"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -584,14 +444,6 @@
             "product_types": [],
             "fedramp_validation": "yes",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "8.1",
-              "8.0"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -616,13 +468,6 @@
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "8.0"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -645,15 +490,6 @@
             "product_types": [],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "8.0",
-              "7.3",
-              "7.2"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -676,14 +512,6 @@
             "product_types": [],
             "fedramp_validation": "yes",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "8.0"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "4.x",
-              "3.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -708,15 +536,6 @@
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "7.3",
-              "7.2",
-              "7.1"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -741,15 +560,6 @@
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "7.3",
-              "7.2",
-              "7.1"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -774,14 +584,6 @@
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "7.2",
-              "7.1"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -806,14 +608,6 @@
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "7.2",
-              "7.1"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -838,13 +632,6 @@
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "7.0"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -869,13 +656,6 @@
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "7.0"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -900,9 +680,6 @@
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [],
-            "actions": [],
-            "cim_compatibility": [],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -931,17 +708,17 @@
         "display_editors": false
       }
     },
-    "__N_SSG": true
+    "__N_SSP": true
   },
   "page": "/app/[id]",
   "query": {
     "id": "263"
   },
-  "buildId": "5UbIxEEja5gb6-NGQibiX",
+  "buildId": "3C8aBawXxam2HE7pWp543",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
-  "gsp": true,
+  "gssp": true,
   "scriptLoader": [
     {
       "src": "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js",

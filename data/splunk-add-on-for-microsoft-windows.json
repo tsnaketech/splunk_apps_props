@@ -1,7 +1,6 @@
 {
   "props": {
     "pageProps": {
-      "appId": "742",
       "appDetails": {
         "id": 742,
         "access": "unrestricted",
@@ -21,7 +20,7 @@
         },
         "description": "*** Important: Read upgrade instructions and test add-on update before deploying to production ***\nThe Splunk Add-on for Windows 5.0.0 introduced breaking changes. If you are upgrading from a version of the Splunk Add-on for Windows that is earlier than 5.0.0, you must follow the documented upgrade instructions to avoid data loss. A best practice is to test the upgraded version in a non-production environment before deploying to production.\n\nNeither the Splunk Add-on for Windows DNS version 1.0.1 nor the Splunk Add-on for Windows Active Directory version 1.0.0 is supported when installed alongside the Splunk Add-on for Windows version 6.0.0. The Splunk Add-on for Windows version 6.0.0 includes the Splunk Add-on for Windows DNS and the Splunk Add-on for Microsoft Active Directory.\n\nThe Splunk for Microsoft Windows add-on includes predefined inputs to collect data from Windows systems and maps to normalize the data to the Common Information Model.",
         "documentation": "<p>To learn about the Splunk Add-on for Microsoft Windows, see the official documentation here on <a href=\"https://docs.splunk.com/Documentation/AddOns/released/Windows/\">docs.splunk.com</a>.</p>\n<p>For information on what has been fixed as well as known issues, see the <a href=\"https://docs.splunk.com/Documentation/AddOns/released/Windows/Releasenote\">release notes</a>.</p>",
-        "download_count": 529319,
+        "download_count": 529888,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/bd6868d8-377a-11ef-9cfb-ee2d3594d11c.png",
         "inquiry_buttontext": "",
         "inquiry_url": "",
@@ -80,16 +79,6 @@
           ],
           "fedramp_validation": "no",
           "min_product_version_str": null,
-          "version_compatibility": [
-            "9.3",
-            "9.2",
-            "9.1",
-            "9.0"
-          ],
-          "actions": [],
-          "cim_compatibility": [
-            "4.x"
-          ],
           "platform": "independent",
           "appinspect_passed": false,
           "product_compatibility": "splunk",
@@ -116,16 +105,6 @@
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -151,17 +130,6 @@
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -186,21 +154,6 @@
             ],
             "fedramp_validation": "yes",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3",
-              "7.2",
-              "7.1"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -224,17 +177,17 @@
         "display_editors": false
       }
     },
-    "__N_SSG": true
+    "__N_SSP": true
   },
   "page": "/app/[id]",
   "query": {
     "id": "742"
   },
-  "buildId": "5UbIxEEja5gb6-NGQibiX",
+  "buildId": "3C8aBawXxam2HE7pWp543",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
-  "gsp": true,
+  "gssp": true,
   "scriptLoader": [
     {
       "src": "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js",

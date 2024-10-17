@@ -1,7 +1,6 @@
 {
   "props": {
     "pageProps": {
-      "appId": "2962",
       "appDetails": {
         "id": 2962,
         "access": "unrestricted",
@@ -21,7 +20,7 @@
         },
         "description": "The Splunk Add-on Builder is a Splunk app that helps you build and validate technology add-ons for your Splunk Enterprise deployment. \n\nThe goals of the Splunk Add-on Builder are to:\n* Guide you through all of the necessary steps of creating an add-on\n* Build alert actions and adaptive response actions for Splunk Enterprise Security\n* Reduce development and testing time\n* Follow best practices and naming conventions\n* Maintain CIM compliance\n* Maintain quality of add-ons\n*  Validate and test the add-on, helping you to check for certification readiness and to identify any limitations such as compatibilities and dependencies\n* Maintain a consistent look and feel while still making it easy for you to add branding",
         "documentation": "<p>For documentation, see the <a href=\"http://docs.splunk.com/Documentation/AddonBuilder/latest/UserGuide/Overview\">Splunk Add-on Builder User Guide</a>.</p>",
-        "download_count": 71117,
+        "download_count": 71133,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/2cf11794-5fb3-11ef-9264-d249a4f83e67.png",
         "inquiry_buttontext": "Join Pre-release Program",
         "inquiry_url": "http://goo.gl/forms/I0UQhn3U4C",
@@ -77,15 +76,6 @@
           ],
           "fedramp_validation": "no",
           "min_product_version_str": null,
-          "version_compatibility": [
-            "9.3",
-            "9.2",
-            "9.1"
-          ],
-          "actions": [],
-          "cim_compatibility": [
-            "5.x"
-          ],
           "platform": "independent",
           "appinspect_passed": false,
           "product_compatibility": "splunk",
@@ -111,15 +101,6 @@
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -142,16 +123,6 @@
             "product_types": [],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0"
-            ],
-            "actions": [],
-            "cim_compatibility": [],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -181,17 +152,17 @@
         "display_editors": false
       }
     },
-    "__N_SSG": true
+    "__N_SSP": true
   },
   "page": "/app/[id]",
   "query": {
     "id": "2962"
   },
-  "buildId": "5UbIxEEja5gb6-NGQibiX",
+  "buildId": "3C8aBawXxam2HE7pWp543",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
-  "gsp": true,
+  "gssp": true,
   "scriptLoader": [
     {
       "src": "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js",

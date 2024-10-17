@@ -1,7 +1,6 @@
 {
   "props": {
     "pageProps": {
-      "appId": "3186",
       "appDetails": {
         "id": 3186,
         "access": "unrestricted",
@@ -20,7 +19,7 @@
         },
         "description": "The Splunk Add-on for Apache Web Server allows a Splunk software administrator to collect and analyze data from Apache Web Server using file monitoring. After the Splunk platform indexes the events, you can analyze the data using the prebuilt panels included with the add-on. \n\nThis add-on provides the inputs and CIM-compatible knowledge to use with other Splunk apps, such as Web.",
         "documentation": "<p>Documentation for this add-on can be found here: <a href=\"http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About\">http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About</a></p>",
-        "download_count": 29575,
+        "download_count": 29589,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/3c98c790-e360-11ec-8e51-128f1773c869.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -74,18 +73,6 @@
           ],
           "fedramp_validation": "yes",
           "min_product_version_str": null,
-          "version_compatibility": [
-            "9.3",
-            "9.2",
-            "9.1",
-            "9.0",
-            "8.2",
-            "8.1"
-          ],
-          "actions": [],
-          "cim_compatibility": [
-            "5.x"
-          ],
           "platform": "independent",
           "appinspect_passed": false,
           "product_compatibility": "splunk",
@@ -112,18 +99,6 @@
             ],
             "fedramp_validation": "yes",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -147,17 +122,17 @@
         "display_editors": false
       }
     },
-    "__N_SSG": true
+    "__N_SSP": true
   },
   "page": "/app/[id]",
   "query": {
     "id": "3186"
   },
-  "buildId": "5UbIxEEja5gb6-NGQibiX",
+  "buildId": "3C8aBawXxam2HE7pWp543",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
-  "gsp": true,
+  "gssp": true,
   "scriptLoader": [
     {
       "src": "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js",

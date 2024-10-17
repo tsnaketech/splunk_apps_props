@@ -1,7 +1,6 @@
 {
   "props": {
     "pageProps": {
-      "appId": "3449",
       "appDetails": {
         "id": 3449,
         "access": "unrestricted",
@@ -27,7 +26,7 @@
         },
         "description": "The Splunk ES Content Update (ESCU) app delivers pre-packaged Security Content. ESCU provides regular Security Content updates to help security practitioners address ongoing time-sensitive threats, attack methods, and other security issues.\n\nSecurity Content consists of tactics, techniques, and methodologies that help with detection, investigation, and response. Security Content enables security teams to directly operationalize detection searches, investigative searches, and other supporting details. ESCU can generate Notable/Risk Events in Splunk Enterprise Security. Security Content also contains easy-to-read background information and guidance, for key context on motivations and risks associated with attack techniques, as well as pragmatic advice on how to combat those techniques.\n\nThe analytic stories and their searches are also available at - https://github.com/splunk/security_content.",
         "documentation": "<p>For more information please visit the <a href=\"http://docs.splunk.com/Documentation/ESCU\">Splunk ES Content Update user documentation</a>.</p>",
-        "download_count": 126308,
+        "download_count": 126521,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/86c5f70c-8a7a-11ef-8c2d-7215982f34f3.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "http://www.splunk.com/index.php/ask_expert/default/3174",
@@ -81,21 +80,6 @@
           ],
           "fedramp_validation": "no",
           "min_product_version_str": null,
-          "version_compatibility": [
-            "9.3",
-            "9.2",
-            "9.1",
-            "9.0",
-            "8.2",
-            "8.1",
-            "8.0",
-            "7.3"
-          ],
-          "actions": [],
-          "cim_compatibility": [
-            "5.x",
-            "4.x"
-          ],
           "platform": "independent",
           "appinspect_passed": false,
           "product_compatibility": "splunk",
@@ -117,26 +101,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/4.42.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -157,26 +126,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/4.41.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -197,26 +151,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/4.40.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -237,26 +176,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/4.39.1/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -277,26 +201,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/4.39.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -317,26 +226,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/4.38.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -357,25 +251,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/4.37.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -396,26 +276,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/4.36.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -436,25 +301,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/4.35.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -475,25 +326,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/4.34.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -514,25 +351,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/4.33.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -553,26 +376,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/4.32.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -593,26 +401,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/4.31.1/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -633,26 +426,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/4.31.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -673,26 +451,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/4.30.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -713,26 +476,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/4.29.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -753,26 +501,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/4.28.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -793,26 +526,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/4.27.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -833,26 +551,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/4.26.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -873,26 +576,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/4.25.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -913,26 +601,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/4.24.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -953,26 +626,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/4.23.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -993,26 +651,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/4.22.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -1033,26 +676,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/4.21.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -1073,26 +701,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/4.20.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -1113,26 +726,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/4.19.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -1153,26 +751,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/4.18.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -1193,25 +776,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/4.17.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -1232,25 +801,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/4.16.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -1271,26 +826,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/4.11.1/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -1318,17 +858,17 @@
         "display_editors": false
       }
     },
-    "__N_SSG": true
+    "__N_SSP": true
   },
   "page": "/app/[id]",
   "query": {
     "id": "3449"
   },
-  "buildId": "5UbIxEEja5gb6-NGQibiX",
+  "buildId": "3C8aBawXxam2HE7pWp543",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
-  "gsp": true,
+  "gssp": true,
   "scriptLoader": [
     {
       "src": "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js",

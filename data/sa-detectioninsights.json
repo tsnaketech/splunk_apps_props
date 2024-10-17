@@ -1,7 +1,6 @@
 {
   "props": {
     "pageProps": {
-      "appId": "7066",
       "appDetails": {
         "id": 7066,
         "access": "unrestricted",
@@ -26,7 +25,7 @@
         },
         "description": "An application for Splunk Enterprise Security providing additional insights into everything surrounding and/or impacting your security detections.",
         "documentation": "<p>See the application documentation <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/\">here</a> for more information on installing, configuring and using it.</p>\n<p>Credit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.</p>",
-        "download_count": 716,
+        "download_count": 717,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/57ad2800-ca90-11ee-8d70-26d62a4a3abc.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -84,15 +83,6 @@
           ],
           "fedramp_validation": "no",
           "min_product_version_str": null,
-          "version_compatibility": [
-            "9.3",
-            "9.2",
-            "9.1",
-            "9.0",
-            "8.2"
-          ],
-          "actions": [],
-          "cim_compatibility": [],
           "platform": "independent",
           "appinspect_passed": false,
           "product_compatibility": "splunk",
@@ -114,20 +104,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/7066/release/1.1.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2"
-            ],
-            "actions": [],
-            "cim_compatibility": [],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -148,23 +129,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/7066/release/1.0.9/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": true,
             "product_compatibility": "splunk",
@@ -185,23 +154,11 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/7066/release/1.0.7/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": true,
             "product_compatibility": "splunk",
@@ -226,18 +183,6 @@
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x"
-            ],
             "platform": "independent",
             "appinspect_passed": true,
             "product_compatibility": "splunk",
@@ -267,17 +212,17 @@
         "display_editors": true
       }
     },
-    "__N_SSG": true
+    "__N_SSP": true
   },
   "page": "/app/[id]",
   "query": {
     "id": "7066"
   },
-  "buildId": "5UbIxEEja5gb6-NGQibiX",
+  "buildId": "3C8aBawXxam2HE7pWp543",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
-  "gsp": true,
+  "gssp": true,
   "scriptLoader": [
     {
       "src": "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js",
