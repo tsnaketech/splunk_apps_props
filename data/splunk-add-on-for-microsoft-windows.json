@@ -20,8 +20,8 @@
         },
         "description": "*** Important: Read upgrade instructions and test add-on update before deploying to production ***\nThe Splunk Add-on for Windows 5.0.0 introduced breaking changes. If you are upgrading from a version of the Splunk Add-on for Windows that is earlier than 5.0.0, you must follow the documented upgrade instructions to avoid data loss. A best practice is to test the upgraded version in a non-production environment before deploying to production.\n\nNeither the Splunk Add-on for Windows DNS version 1.0.1 nor the Splunk Add-on for Windows Active Directory version 1.0.0 is supported when installed alongside the Splunk Add-on for Windows version 6.0.0. The Splunk Add-on for Windows version 6.0.0 includes the Splunk Add-on for Windows DNS and the Splunk Add-on for Microsoft Active Directory.\n\nThe Splunk for Microsoft Windows add-on includes predefined inputs to collect data from Windows systems and maps to normalize the data to the Common Information Model.",
         "documentation": "<p>To learn about the Splunk Add-on for Microsoft Windows, see the official documentation here on <a href=\"https://docs.splunk.com/Documentation/AddOns/released/Windows/\">docs.splunk.com</a>.</p>\n<p>For information on what has been fixed as well as known issues, see the <a href=\"https://docs.splunk.com/Documentation/AddOns/released/Windows/Releasenote\">release notes</a>.</p>",
-        "download_count": 533046,
-        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/bd6868d8-377a-11ef-9cfb-ee2d3594d11c.png",
+        "download_count": 533101,
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/3b2f7f20-94ed-11ef-9a28-b61c0e4ec1cf.png",
         "inquiry_buttontext": "",
         "inquiry_url": "",
         "is_archived": false,
@@ -79,6 +79,16 @@
           ],
           "fedramp_validation": "no",
           "min_product_version_str": null,
+          "version_compatibility": [
+            "9.3",
+            "9.2",
+            "9.1",
+            "9.0"
+          ],
+          "actions": [],
+          "cim_compatibility": [
+            "4.x"
+          ],
           "platform": "independent",
           "appinspect_passed": false,
           "product_compatibility": "splunk",
@@ -105,6 +115,16 @@
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
+            "version_compatibility": [
+              "9.3",
+              "9.2",
+              "9.1",
+              "9.0"
+            ],
+            "actions": [],
+            "cim_compatibility": [
+              "4.x"
+            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -130,6 +150,17 @@
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
+            "version_compatibility": [
+              "9.3",
+              "9.2",
+              "9.1",
+              "9.0",
+              "8.2"
+            ],
+            "actions": [],
+            "cim_compatibility": [
+              "4.x"
+            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -154,6 +185,21 @@
             ],
             "fedramp_validation": "yes",
             "min_product_version_str": null,
+            "version_compatibility": [
+              "9.2",
+              "9.1",
+              "9.0",
+              "8.2",
+              "8.1",
+              "8.0",
+              "7.3",
+              "7.2",
+              "7.1"
+            ],
+            "actions": [],
+            "cim_compatibility": [
+              "4.x"
+            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -167,7 +213,7 @@
         "title": "Splunk Add-on for Microsoft Windows",
         "troubleshooting": "",
         "type": "addon",
-        "updated_time": "2024-10-22T10:23:38.773154Z",
+        "updated_time": "2024-10-28T09:11:51.346683Z",
         "video_link": null,
         "app_type": "addon",
         "schedule_release": null,
@@ -183,7 +229,7 @@
   "query": {
     "id": "742"
   },
-  "buildId": "MSu_9Uuy5Ju0YJp8XOBcR",
+  "buildId": "R1F3CyJMiraPusKyrz29p",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

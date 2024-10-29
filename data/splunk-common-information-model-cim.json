@@ -19,7 +19,7 @@
         },
         "description": "The Common Information Model is a set of field names and tags which are expected to define the least common denominator of a domain of interest. It is implemented as documentation on the Splunk docs website and JSON data model files in this add-on. Use the CIM add-on when modeling data or building apps to ensure compatibility between apps, or to just take advantage of these data models to pivot and report.",
         "documentation": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/5.1/User/Releasenotes\">Release Notes</a><br>\nPlease see the <a href=\"http://docs.splunk.com/Documentation/CIM/latest/User/Overview\">Splunk Common Information Model Add-on user documentation</a>.</p>",
-        "download_count": 241690,
+        "download_count": 241711,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/c9ec7a4c-eb01-11ee-b24f-769232d283a7.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -72,6 +72,16 @@
           ],
           "fedramp_validation": "no",
           "min_product_version_str": null,
+          "version_compatibility": [
+            "9.3",
+            "9.2",
+            "9.1",
+            "9.0"
+          ],
+          "actions": [],
+          "cim_compatibility": [
+            "5.x"
+          ],
           "platform": "independent",
           "appinspect_passed": false,
           "product_compatibility": "splunk",
@@ -98,6 +108,16 @@
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
+            "version_compatibility": [
+              "9.3",
+              "9.2",
+              "9.1",
+              "9.0"
+            ],
+            "actions": [],
+            "cim_compatibility": [
+              "5.x"
+            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -123,6 +143,16 @@
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
+            "version_compatibility": [
+              "9.3",
+              "9.2",
+              "9.1",
+              "9.0"
+            ],
+            "actions": [],
+            "cim_compatibility": [
+              "5.x"
+            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -148,6 +178,17 @@
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
+            "version_compatibility": [
+              "9.3",
+              "9.2",
+              "9.1",
+              "9.0",
+              "8.2"
+            ],
+            "actions": [],
+            "cim_compatibility": [
+              "5.x"
+            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -173,6 +214,17 @@
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
+            "version_compatibility": [
+              "9.3",
+              "9.2",
+              "9.1",
+              "9.0",
+              "8.2"
+            ],
+            "actions": [],
+            "cim_compatibility": [
+              "5.x"
+            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -198,6 +250,17 @@
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
+            "version_compatibility": [
+              "9.3",
+              "9.2",
+              "9.1",
+              "9.0",
+              "8.2"
+            ],
+            "actions": [],
+            "cim_compatibility": [
+              "5.x"
+            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -220,6 +283,19 @@
             "product_types": [],
             "fedramp_validation": "no",
             "min_product_version_str": null,
+            "version_compatibility": [
+              "9.3",
+              "9.2",
+              "9.1",
+              "9.0",
+              "8.2",
+              "8.1",
+              "8.0"
+            ],
+            "actions": [],
+            "cim_compatibility": [
+              "4.x"
+            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -242,6 +318,21 @@
             "product_types": [],
             "fedramp_validation": "no",
             "min_product_version_str": null,
+            "version_compatibility": [
+              "9.3",
+              "9.2",
+              "9.1",
+              "9.0",
+              "8.2",
+              "8.1",
+              "8.0",
+              "7.3",
+              "7.2"
+            ],
+            "actions": [],
+            "cim_compatibility": [
+              "4.x"
+            ],
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
@@ -277,7 +368,7 @@
   "query": {
     "id": "1621"
   },
-  "buildId": "MSu_9Uuy5Ju0YJp8XOBcR",
+  "buildId": "R1F3CyJMiraPusKyrz29p",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
