@@ -27,7 +27,7 @@
         },
         "description": "The Splunk App for Anomaly Detection finds anomalies in time series datasets and provides an end-to-end workflow to manage and operationalize anomaly detection tasks. The app detects seasonal patterns and finds anomalies in just a couple of clicks.\n\n\nUsing the app, you can create anomaly detection jobs, run these jobs on a regular cadence, view SPL queries, and create alerts. The app works with any time series dataset that can be ingested into the Splunk platform, provided the points in the time series are evenly spaced.\n\n\nThe app uses machine learning to detect seasonality in the data without user inputs, lowering the barriers to realizing value. The app also performs health diagnostics on the time series to check whether the dataset is suitable for anomaly detection using our algorithm. If the dataset is not fit for anomaly detection with our algorithm, we have included steps to preprocess the data in the docs. (We are working on supporting more time series out of the box without preprocessing steps for the next version).\n\n\nWhen you create an anomaly detection job, the app generates an SPL query you can view and use elsewhere within Splunk.\n\n\nSimilar to other Splunk applications, the resource consumption of CPU and memory is commensurate with the size of the datasets that you use.\n\n\nThis app is available for both on-premise and cloud customers.",
         "documentation": "<p>For the Splunk App for Anomaly Detection documentation, see <a href=\"https://docs.splunk.com/Documentation/AnomalyApp\">https://docs.splunk.com/Documentation/AnomalyApp</a></p>\n<p><strong>Datasets</strong></p>\n<p>This application may contain certain sample files and datasets, which are provided for your convenience only. Such files and datasets contain information and data compiled by third parties, and Splunk makes no representation or warranty that the data contained in such files and datasets are true, accurate, complete, or sanitized.</p>",
-        "download_count": 2957,
+        "download_count": 2960,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/21bc8992-8405-11ee-8d26-7e3a32636d24.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -273,7 +273,7 @@
   "query": {
     "id": "6843"
   },
-  "buildId": "tbmJMT0wEtFKVmnQJUx-g",
+  "buildId": "Zhd-eFxAm3NfrZvTBlkIF",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
