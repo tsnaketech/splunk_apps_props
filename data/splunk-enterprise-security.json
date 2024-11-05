@@ -21,7 +21,7 @@
         "contact_notes": "",
         "display_author": {
           "isPartner": false,
-          "name": "Splunk Inc.",
+          "name": "Splunk LLC",
           "redirectTo": "Splunk"
         },
         "description": "Splunk Enterprise Security (ES) solves a wide range of security analytics and operations use cases including continuous security monitoring, advanced threat detection, compliance, incident investigation, forensics and incident response. Splunk ES delivers an end-to-end view of organizations\u2019 security postures with flexible investigations, unmatched performance, and the most flexible deployment options offered in the cloud, on-premises or hybrid deployment models. Splunk ES enables you to: \n\n- Conquer alert fatigue with high-fidelity Risk-Based Alerting.\n- Bring visibility across your hybrid environment with multicloud security monitoring.\n- Conduct flexible investigations for effective threat hunting across security, IT and DevOps data sources.\n\nSplunk ES is a premium security solution requiring a paid license.",
@@ -936,7 +936,7 @@
   "query": {
     "id": "263"
   },
-  "buildId": "jjU6q7jotWnQpuRnmMcKh",
+  "buildId": "4BvP9dpIEKLkNyKXPlky3",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
