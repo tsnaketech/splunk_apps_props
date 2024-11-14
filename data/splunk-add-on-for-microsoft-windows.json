@@ -20,8 +20,8 @@
         },
         "description": "*** Important: Read upgrade instructions and test add-on update before deploying to production ***\nThe Splunk Add-on for Windows 5.0.0 introduced breaking changes. If you are upgrading from a version of the Splunk Add-on for Windows that is earlier than 5.0.0, you must follow the documented upgrade instructions to avoid data loss. A best practice is to test the upgraded version in a non-production environment before deploying to production.\n\nNeither the Splunk Add-on for Windows DNS version 1.0.1 nor the Splunk Add-on for Windows Active Directory version 1.0.0 is supported when installed alongside the Splunk Add-on for Windows version 6.0.0. The Splunk Add-on for Windows version 6.0.0 includes the Splunk Add-on for Windows DNS and the Splunk Add-on for Microsoft Active Directory.\n\nThe Splunk for Microsoft Windows add-on includes predefined inputs to collect data from Windows systems and maps to normalize the data to the Common Information Model.",
         "documentation": "<p>To learn about the Splunk Add-on for Microsoft Windows, see the official documentation here on <a href=\"https://docs.splunk.com/Documentation/AddOns/released/Windows/\">docs.splunk.com</a>.</p>\n<p>For information on what has been fixed as well as known issues, see the <a href=\"https://docs.splunk.com/Documentation/AddOns/released/Windows/Releasenote\">release notes</a>.</p>",
-        "download_count": 536848,
-        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/97a2dcf4-a0b7-11ef-af6f-f2bd1470a528.png",
+        "download_count": 537314,
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/e8543eb6-a172-11ef-8a33-36a81105bd3e.png",
         "inquiry_buttontext": "",
         "inquiry_url": "",
         "is_archived": false,
@@ -46,13 +46,13 @@
         "ranking": [
           {
             "rank": 2,
-            "category_name": "security_compliance",
-            "category_display_name": "Security, Fraud & Compliance"
+            "category_name": "it_operations_management",
+            "category_display_name": "IT Operations"
           },
           {
             "rank": 2,
-            "category_name": "it_operations_management",
-            "category_display_name": "IT Operations"
+            "category_name": "security_compliance",
+            "category_display_name": "Security, Fraud & Compliance"
           }
         ],
         "rating": {
@@ -60,19 +60,19 @@
           "average": 4
         },
         "release": {
-          "release_id": 35262,
-          "release_name": "9.0.0",
+          "release_id": 35485,
+          "release_name": "9.0.1",
           "notes": "",
-          "created_time": "2024-10-28T05:26:50.256953Z",
-          "published_time": "2024-10-29T17:29:09.637916Z",
-          "updated_time": "2024-10-29T17:29:09.714044Z",
-          "size": 220240,
-          "md5": "34cd538335ec4cead81afcf2197898fd",
-          "sha256": "fef3214da64838039e11e3a163527c6d907d604ceddd1482850df546f3341047",
-          "filename": "splunk-add-on-for-microsoft-windows_900.tgz",
+          "created_time": "2024-11-13T03:53:57.128509Z",
+          "published_time": "2024-11-13T10:33:59.476002Z",
+          "updated_time": "2024-11-13T10:50:26.596827Z",
+          "size": 220256,
+          "md5": "9ca17eb3f7c978e558cefa33cfd4aef2",
+          "sha256": "ec9fc720fc3fa51b48ed8895fb9fad257a30f84a50b67fac1137989c261acd1e",
+          "filename": "splunk-add-on-for-microsoft-windows_901.tgz",
           "signed_available": true,
           "passed_validation": true,
-          "path": "https://splunkbase.splunk.com/app/742/release/9.0.0/download/",
+          "path": "https://splunkbase.splunk.com/app/742/release/9.0.1/download/",
           "product_types": [
             "enterprise",
             "cloud"
@@ -96,19 +96,19 @@
         },
         "releases": [
           {
-            "release_id": 35262,
-            "release_name": "9.0.0",
+            "release_id": 35485,
+            "release_name": "9.0.1",
             "notes": "",
-            "created_time": "2024-10-28T05:26:50.256953Z",
-            "published_time": "2024-10-29T17:29:09.637916Z",
-            "updated_time": "2024-10-29T17:29:09.714044Z",
-            "size": 220240,
-            "md5": "34cd538335ec4cead81afcf2197898fd",
-            "sha256": "fef3214da64838039e11e3a163527c6d907d604ceddd1482850df546f3341047",
-            "filename": "splunk-add-on-for-microsoft-windows_900.tgz",
+            "created_time": "2024-11-13T03:53:57.128509Z",
+            "published_time": "2024-11-13T10:33:59.476002Z",
+            "updated_time": "2024-11-13T10:50:26.596827Z",
+            "size": 220256,
+            "md5": "9ca17eb3f7c978e558cefa33cfd4aef2",
+            "sha256": "ec9fc720fc3fa51b48ed8895fb9fad257a30f84a50b67fac1137989c261acd1e",
+            "filename": "splunk-add-on-for-microsoft-windows_901.tgz",
             "signed_available": true,
             "passed_validation": true,
-            "path": "https://splunkbase.splunk.com/app/742/release/9.0.0/download/",
+            "path": "https://splunkbase.splunk.com/app/742/release/9.0.1/download/",
             "product_types": [
               "enterprise",
               "cloud"
@@ -212,7 +212,7 @@
         "title": "Splunk Add-on for Microsoft Windows",
         "troubleshooting": "",
         "type": "addon",
-        "updated_time": "2024-11-12T13:56:54.189587Z",
+        "updated_time": "2024-11-13T10:50:26.863493Z",
         "video_link": null,
         "app_type": "addon",
         "schedule_release": null,
