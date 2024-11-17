@@ -44,14 +44,14 @@
         "public": true,
         "ranking": [
           {
-            "rank": 215,
-            "category_name": "security_compliance",
-            "category_display_name": "Security, Fraud & Compliance"
-          },
-          {
             "rank": 16,
             "category_name": "network_security",
             "category_display_name": "Network Security"
+          },
+          {
+            "rank": 215,
+            "category_name": "security_compliance",
+            "category_display_name": "Security, Fraud & Compliance"
           }
         ],
         "rating": {
