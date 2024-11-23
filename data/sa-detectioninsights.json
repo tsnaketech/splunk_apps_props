@@ -24,8 +24,8 @@
           "redirectTo": "splunklabs"
         },
         "description": "An application for Splunk Enterprise Security providing additional insights into everything surrounding and/or impacting your security detections.",
-        "documentation": "<p>See the application documentation <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/\">here</a> for more information on installing, configuring and using it.</p>\n<p>Credit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.</p>",
-        "download_count": 805,
+        "documentation": "<p>See the application documentation <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/\">here</a> for more information on installing, configuring and using it.</p>\n<p>Credit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.<br>\nThanks to Dean Luxton for reporting issues, fixes and improvement ideas!</p>",
+        "download_count": 809,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/57ad2800-ca90-11ee-8d70-26d62a4a3abc.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -49,12 +49,12 @@
         "public": true,
         "ranking": [
           {
-            "rank": 29,
+            "rank": 28,
             "category_name": "siem",
             "category_display_name": "SIEM"
           },
           {
-            "rank": 942,
+            "rank": 937,
             "category_name": "security_compliance",
             "category_display_name": "Security, Fraud & Compliance"
           }
@@ -256,7 +256,7 @@
         "title": "SA-DetectionInsights",
         "troubleshooting": "<p>Please refer to the application documentation <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/\">here</a> for troubleshooting guidance.</p>",
         "type": "app",
-        "updated_time": "2024-09-13T12:24:39.683781Z",
+        "updated_time": "2024-11-22T13:37:29.649023Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
@@ -272,7 +272,7 @@
   "query": {
     "id": "7066"
   },
-  "buildId": "8g_tyLVMOa0NOYG_CJxEQ",
+  "buildId": "DIQkgqsiXVEQ-b6OD8rd6",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
