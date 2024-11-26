@@ -12,6 +12,7 @@
         "collections": [],
         "contact_email": "",
         "contact_notes": "",
+        "contact_notes_source": "",
         "display_author": {
           "isPartner": false,
           "name": "Splunk LLC",
@@ -19,7 +20,8 @@
         },
         "description": "The Splunk Event Generator (Eventgen) is a utility which allows its users to easily build real-time event generators.\n\nEventgen allows an app developer to get events into Splunk to test their applications. It provides a somewhat ridiculous amount of configurability to allow users to simulate real data.\n\nTo join the development community, please go to https://github.com/splunk/eventgen.\nFor documentation, please go to the Eventgen Documentation(http://splunk.github.io/eventgen/).",
         "documentation": "<h1>The Splunk Event Generator</h1>\n<p>The Splunk Event Generator is a utility which allows its user to easily build real-time event generators.<br>\nThe current maintainers of this project are Jack Meixensperger (<a href=\"mailto:jackm@splunk.com\">jackm@splunk.com</a>) and Michael Guenther (<a href=\"mailto:mguenther@splunk.com\">mguenther@splunk.com</a>).</p>\n<p>The goals of this project:</p>\n<ul>\n<li>Provide a single data generation solution that all Splunk Apps can leverage</li>\n<li>Enable portable and re-usable configurations that can be quickly adapted between use cases</li>\n<li>Allow every type of Splunk event or transaction to be modeled inside Eventgen</li>\n</ul>\n<h3>Documentation</h3>\n<p>Documentation is hosted at <a href=\"http://splunk.github.io/eventgen/\">Eventgen Documentation</a>.</p>\n<p>For more information, please go to <a href=\"https://github.com/splunk/eventgen\">Eventgen Github Repository</a>.</p>",
-        "download_count": 236412,
+        "documentation_source": "# The Splunk Event Generator\n\nThe Splunk Event Generator is a utility which allows its user to easily build real-time event generators.\nThe current maintainers of this project are Jack Meixensperger (jackm@splunk.com) and Michael Guenther (mguenther@splunk.com).\n\nThe goals of this project:\n\n* Provide a single data generation solution that all Splunk Apps can leverage\n* Enable portable and re-usable configurations that can be quickly adapted between use cases\n* Allow every type of Splunk event or transaction to be modeled inside Eventgen\n\n### Documentation\n\nDocumentation is hosted at [Eventgen Documentation](http://splunk.github.io/eventgen/).\n\nFor more information, please go to [Eventgen Github Repository](https://github.com/splunk/eventgen).",
+        "download_count": 236418,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/53e6a222-f960-11eb-97a2-3a6fb3f26e50.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "https://github.com/splunk/eventgen",
@@ -28,6 +30,7 @@
         "is_soar_certified": false,
         "is_splunk_built": true,
         "installation": "",
+        "installation_source": "",
         "license": {
           "canonical_name": "Splunk General Terms",
           "display_name": "Splunk General Terms",
@@ -701,6 +704,7 @@
         "support": "splunk",
         "title": "Eventgen",
         "troubleshooting": "",
+        "troubleshooting_source": "",
         "type": "app",
         "updated_time": "2024-01-29T06:06:17.779887Z",
         "video_link": null,
@@ -718,7 +722,7 @@
   "query": {
     "id": "1924"
   },
-  "buildId": "DIQkgqsiXVEQ-b6OD8rd6",
+  "buildId": "1SV-8EHA8FAOPRKls4qYp",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

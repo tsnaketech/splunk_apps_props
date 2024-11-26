@@ -13,6 +13,7 @@
         "collections": [],
         "contact_email": "",
         "contact_notes": "",
+        "contact_notes_source": "",
         "display_author": {
           "isPartner": false,
           "name": "Splunk LLC",
@@ -20,7 +21,8 @@
         },
         "description": "*** Important: Read upgrade instructions and test add-on update before deploying to production ***\nThe Splunk Add-on for Windows 5.0.0 introduced breaking changes. If you are upgrading from a version of the Splunk Add-on for Windows that is earlier than 5.0.0, you must follow the documented upgrade instructions to avoid data loss. A best practice is to test the upgraded version in a non-production environment before deploying to production.\n\nNeither the Splunk Add-on for Windows DNS version 1.0.1 nor the Splunk Add-on for Windows Active Directory version 1.0.0 is supported when installed alongside the Splunk Add-on for Windows version 6.0.0. The Splunk Add-on for Windows version 6.0.0 includes the Splunk Add-on for Windows DNS and the Splunk Add-on for Microsoft Active Directory.\n\nThe Splunk for Microsoft Windows add-on includes predefined inputs to collect data from Windows systems and maps to normalize the data to the Common Information Model.",
         "documentation": "<p>To learn about the Splunk Add-on for Microsoft Windows, see the official documentation here on <a href=\"https://docs.splunk.com/Documentation/AddOns/released/Windows/\">docs.splunk.com</a>.</p>\n<p>For information on what has been fixed as well as known issues, see the <a href=\"https://docs.splunk.com/Documentation/AddOns/released/Windows/Releasenote\">release notes</a>.</p>",
-        "download_count": 539785,
+        "documentation_source": "To learn about the Splunk Add-on for Microsoft Windows, see the official documentation here on [docs.splunk.com](https://docs.splunk.com/Documentation/AddOns/released/Windows/).\r\n\r\nFor information on what has been fixed as well as known issues, see the [release notes](https://docs.splunk.com/Documentation/AddOns/released/Windows/Releasenote).",
+        "download_count": 539842,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/e8543eb6-a172-11ef-8a33-36a81105bd3e.png",
         "inquiry_buttontext": "",
         "inquiry_url": "",
@@ -29,6 +31,7 @@
         "is_soar_certified": false,
         "is_splunk_built": true,
         "installation": "",
+        "installation_source": "",
         "license": {
           "canonical_name": "sgt",
           "display_name": "Splunk General Terms",
@@ -211,6 +214,7 @@
         "support": "splunk",
         "title": "Splunk Add-on for Microsoft Windows",
         "troubleshooting": "",
+        "troubleshooting_source": "",
         "type": "addon",
         "updated_time": "2024-11-13T10:50:26.863493Z",
         "video_link": null,
@@ -228,7 +232,7 @@
   "query": {
     "id": "742"
   },
-  "buildId": "DIQkgqsiXVEQ-b6OD8rd6",
+  "buildId": "1SV-8EHA8FAOPRKls4qYp",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

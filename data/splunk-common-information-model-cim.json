@@ -12,6 +12,7 @@
         "collections": [],
         "contact_email": "",
         "contact_notes": "",
+        "contact_notes_source": "",
         "display_author": {
           "isPartner": false,
           "name": "Splunk LLC",
@@ -19,7 +20,8 @@
         },
         "description": "The Common Information Model is a set of field names and tags which are expected to define the least common denominator of a domain of interest. It is implemented as documentation on the Splunk docs website and JSON data model files in this add-on. Use the CIM add-on when modeling data or building apps to ensure compatibility between apps, or to just take advantage of these data models to pivot and report.",
         "documentation": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/5.1/User/Releasenotes\">Release Notes</a><br>\nPlease see the <a href=\"http://docs.splunk.com/Documentation/CIM/latest/User/Overview\">Splunk Common Information Model Add-on user documentation</a>.</p>",
-        "download_count": 246538,
+        "documentation_source": "[Release Notes](https://docs.splunk.com/Documentation/CIM/5.1/User/Releasenotes)\nPlease see the [Splunk Common Information Model Add-on user documentation](http://docs.splunk.com/Documentation/CIM/latest/User/Overview).",
+        "download_count": 246576,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/67a24634-a7ce-11ef-94dd-b6deb6033f67.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -28,6 +30,7 @@
         "is_soar_certified": false,
         "is_splunk_built": true,
         "installation": "",
+        "installation_source": "",
         "license": {
           "canonical_name": "Splunk General Terms",
           "display_name": "Splunk General Terms",
@@ -386,6 +389,7 @@
         "support": "splunk",
         "title": "Splunk Common Information Model (CIM)",
         "troubleshooting": "",
+        "troubleshooting_source": "",
         "type": "addon",
         "updated_time": "2024-11-21T07:14:08.876904Z",
         "video_link": null,
@@ -403,7 +407,7 @@
   "query": {
     "id": "1621"
   },
-  "buildId": "DIQkgqsiXVEQ-b6OD8rd6",
+  "buildId": "1SV-8EHA8FAOPRKls4qYp",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

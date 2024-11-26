@@ -13,6 +13,7 @@
         "collections": [],
         "contact_email": "",
         "contact_notes": "",
+        "contact_notes_source": "",
         "display_author": {
           "isPartner": false,
           "name": "Splunk LLC",
@@ -20,7 +21,8 @@
         },
         "description": "The Splunk Add-on for NGINX allows a Splunk software administrator to collect Web server activities, performance metrics, and error logs using file monitoring and API inputs.\n\nThis add-on provides the inputs and CIM-compatible knowledge to use with other Splunk apps, such as Splunk Enterprise Security, the Splunk App for PCI Compliance, and Splunk IT Service Intelligence.",
         "documentation": "<p>Documentation for this Add-on is posted at <a href=\"http://docs.splunk.com/Documentation/AddOns/latest/nginx/About\" title=\"Splunk Docs\">Splunk Docs</a>.</p>",
-        "download_count": 42011,
+        "documentation_source": "Documentation for this Add-on is posted at [Splunk Docs](http://docs.splunk.com/Documentation/AddOns/latest/nginx/About \"Splunk Docs\").",
+        "download_count": 42014,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/43731336-6aa4-11ef-ab3b-faca7e54e553.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -29,6 +31,7 @@
         "is_soar_certified": false,
         "is_splunk_built": true,
         "installation": "",
+        "installation_source": "",
         "license": {
           "canonical_name": "Splunk General Terms",
           "display_name": "Splunk General Terms",
@@ -136,6 +139,7 @@
         "support": "splunk",
         "title": "Splunk Add-on for NGINX",
         "troubleshooting": "",
+        "troubleshooting_source": "",
         "type": "addon",
         "updated_time": "2024-09-13T05:43:55.950584Z",
         "video_link": null,
@@ -153,7 +157,7 @@
   "query": {
     "id": "3258"
   },
-  "buildId": "DIQkgqsiXVEQ-b6OD8rd6",
+  "buildId": "1SV-8EHA8FAOPRKls4qYp",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

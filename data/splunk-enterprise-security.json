@@ -19,6 +19,7 @@
         ],
         "contact_email": "",
         "contact_notes": "",
+        "contact_notes_source": "",
         "display_author": {
           "isPartner": false,
           "name": "Splunk LLC",
@@ -26,6 +27,7 @@
         },
         "description": "Splunk Enterprise Security (ES) solves a wide range of security analytics and operations use cases including continuous security monitoring, advanced threat detection, compliance, incident investigation, forensics and incident response. Splunk ES delivers an end-to-end view of organizations\u2019 security postures with flexible investigations, unmatched performance, and the most flexible deployment options offered in the cloud, on-premises or hybrid deployment models. Splunk ES enables you to: \n\n- Conquer alert fatigue with high-fidelity Risk-Based Alerting.\n- Bring visibility across your hybrid environment with multicloud security monitoring.\n- Conduct flexible investigations for effective threat hunting across security, IT and DevOps data sources.\n\nSplunk ES is a premium security solution requiring a paid license.",
         "documentation": "<p><a href=\"https://docs.splunk.com/Documentation/ES/7.3.1/RN/Enhancements\">Release Notes</a><br>\n<a href=\"http://docs.splunk.com/Documentation/ES/latest\">Splunk Enterprise Security Documentation</a></p>",
+        "documentation_source": "[Release Notes](https://docs.splunk.com/Documentation/ES/7.3.1/RN/Enhancements)\n[Splunk Enterprise Security Documentation](http://docs.splunk.com/Documentation/ES/latest)",
         "download_count": "N/A",
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/4f4c67a2-251c-11ef-aa96-ae4e248a2471.png",
         "inquiry_buttontext": "Learn More",
@@ -35,6 +37,7 @@
         "is_soar_certified": false,
         "is_splunk_built": true,
         "installation": "<p><a href=\"https://docs.splunk.com/Documentation/ES/7.3.1/Install/Overview\">https://docs.splunk.com/Documentation/ES/7.3.1/Install/Overview</a></p>\n<p>Please validate compatibility before installation and upgrade. <a href=\"https://docs.splunk.com/Documentation/VersionCompatibility/current/Matrix/CompatMatrix\">https://docs.splunk.com/Documentation/VersionCompatibility/current/Matrix/CompatMatrix</a></p>",
+        "installation_source": "https://docs.splunk.com/Documentation/ES/7.3.1/Install/Overview\n\nPlease validate compatibility before installation and upgrade. https://docs.splunk.com/Documentation/VersionCompatibility/current/Matrix/CompatMatrix",
         "license": {
           "canonical_name": "Splunk General Terms",
           "display_name": "Splunk General Terms",
@@ -919,6 +922,7 @@
         "support": "premium",
         "title": "Splunk Enterprise Security",
         "troubleshooting": "<p><a href=\"https://docs.splunk.com/Documentation/ES/7.3.1/Admin/Troubleshootscripterrors\">https://docs.splunk.com/Documentation/ES/7.3.1/Admin/Troubleshootscripterrors</a></p>",
+        "troubleshooting_source": "https://docs.splunk.com/Documentation/ES/7.3.1/Admin/Troubleshootscripterrors",
         "type": "app",
         "updated_time": "2024-11-21T18:32:55.827011Z",
         "video_link": null,
@@ -936,7 +940,7 @@
   "query": {
     "id": "263"
   },
-  "buildId": "DIQkgqsiXVEQ-b6OD8rd6",
+  "buildId": "1SV-8EHA8FAOPRKls4qYp",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

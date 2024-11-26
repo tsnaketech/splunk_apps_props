@@ -41,6 +41,7 @@
         "collections": [],
         "contact_email": "",
         "contact_notes": "",
+        "contact_notes_source": "",
         "display_author": {
           "isPartner": false,
           "name": "Splunk LLC",
@@ -48,7 +49,8 @@
         },
         "description": "Ever want to edit a lookup within Splunk with a user interface? Now you can. This app provides an Excel-like interface for editing, importing, and exporting lookup files (KV store and CSV-based).\n\nThis app also makes your lookups work in Search Head Clustered environments (edits to lookups will be propagated to other search heads).\n\nRevision history is maintained for lookups so that you can view or restore older lookups quickly in the interface.\n\nCheck out the Documentation site: \nhttps://docs.splunk.com/Documentation/LookupEditor\n\nhttps://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew",
         "documentation": "<ul>\n<li><a href=\"https://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew\">What's new</a></li>\n<li><a href=\"https://docs.splunk.com/Documentation/LookupEditor\">Documentation Site</a></li>\n</ul>",
-        "download_count": 187482,
+        "documentation_source": "*   [What's new](https://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew)\n*   [Documentation Site](https://docs.splunk.com/Documentation/LookupEditor)",
+        "download_count": 187503,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/3c6fdcba-37c1-11ef-ae33-7ad33457a85a.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -57,6 +59,7 @@
         "is_soar_certified": false,
         "is_splunk_built": true,
         "installation": "",
+        "installation_source": "",
         "license": {
           "canonical_name": "sgt",
           "display_name": "Splunk General Terms",
@@ -1339,6 +1342,7 @@
         "support": "splunk",
         "title": "Splunk App for Lookup File Editing",
         "troubleshooting": "",
+        "troubleshooting_source": "",
         "type": "app",
         "updated_time": "2024-11-05T20:52:27.727420Z",
         "video_link": null,
@@ -1356,7 +1360,7 @@
   "query": {
     "id": "1724"
   },
-  "buildId": "DIQkgqsiXVEQ-b6OD8rd6",
+  "buildId": "1SV-8EHA8FAOPRKls4qYp",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
