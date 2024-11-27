@@ -27,7 +27,7 @@
         "description": "An application for Splunk Enterprise Security providing additional insights into everything surrounding and/or impacting your security detections.",
         "documentation": "<p>See the application documentation <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/\">here</a> for more information on installing, configuring and using it.</p>\n<p>Credit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.<br>\nThanks to Dean Luxton for reporting issues, fixes and improvement ideas!</p>",
         "documentation_source": "See the application documentation [here](https://splunk.github.io/Splunk_App_for_Detection_Insights/) for more information on installing, configuring and using it.\n\nCredit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.\nThanks to Dean Luxton for reporting issues, fixes and improvement ideas!",
-        "download_count": 811,
+        "download_count": 814,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/2deee7ae-ab79-11ef-a425-b6262e59d253.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -57,7 +57,7 @@
             "category_display_name": "SIEM"
           },
           {
-            "rank": 935,
+            "rank": 934,
             "category_name": "security_compliance",
             "category_display_name": "Security, Fraud & Compliance"
           }
@@ -107,7 +107,7 @@
             "notes": "<h1>Detection Insights - Release Notes</h1>\n<h2>Version 1.2.0</h2>\n<h3>Enhancements/New features</h3>\n<ul>\n<li>Make the Security Domains Filter Dynamic (#58)</li>\n<li>Allow users to see current data sent to data models + suggested index allowlist (#106)</li>\n<li>Change the default display for ES Content Update - Macros (#124, Thanks Dean Luxton!)</li>\n<li>Add the ability to see lookups used in a detection (#127)</li>\n<li>Add new tab for <strong>Triggering Trends</strong> and related work (#33, #126)</li>\n</ul>\n<h3>New checks</h3>\n<ul>\n<li>Add check for use of ESCU detection marked Deprecated (#107)</li>\n<li>Add check for SPL comments (#111)</li>\n<li>Add check for \"Search has tokens with incorrect syntax\" (#112)</li>\n<li>Add check to see which ESCU detection filters have been modified/used (#114)</li>\n<li>Add check to look for raw detections not using an index (#125)</li>\n</ul>\n<h3>Fixed issues</h3>\n<ul>\n<li>Bug with prerequisites Tab on Splunk Cloud (#108)</li>\n<li>Ensure MITRE techniques with covered subtechniques are also marked covered (#109)</li>\n<li>A&amp;I based detections struggling to cater for IN clauses (#120, Thanks Dean Luxton!)</li>\n<li>Fix data issue</li>\n</ul>",
             "created_time": "2024-11-25T22:04:02.242772Z",
             "published_time": "2024-11-25T22:04:34.373396Z",
-            "updated_time": "2024-11-25T22:56:19.807657Z",
+            "updated_time": "2024-11-26T17:33:13.653572Z",
             "size": 937871,
             "md5": "fa656535312664220cfbabdbc06e619a",
             "sha256": "94934cc5d665e3562a57c65ad6585888edb491d9ba8b69af1cf06cface69aab7",
@@ -296,7 +296,7 @@
         "troubleshooting": "<p>Please refer to the application documentation <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/\">here</a> for troubleshooting guidance.</p>",
         "troubleshooting_source": "Please refer to the application documentation [here](https://splunk.github.io/Splunk_App_for_Detection_Insights/) for troubleshooting guidance.",
         "type": "app",
-        "updated_time": "2024-11-25T22:56:20.142613Z",
+        "updated_time": "2024-11-26T17:33:13.824114Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
@@ -312,7 +312,7 @@
   "query": {
     "id": "7066"
   },
-  "buildId": "1SV-8EHA8FAOPRKls4qYp",
+  "buildId": "12TNTjvHEw44PsToXuU-g",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
