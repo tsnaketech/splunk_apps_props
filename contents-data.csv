@@ -4,7 +4,7 @@ Crypto and Encoding Add-On,crypto-and-encoding-add-on.json,2.4.0,2.3.4,2024-10-1
 Eventgen,eventgen.json,8.1.2,8.0.1,2024-01-08 23:07:46
 InfoSec App for Splunk,infosec-app-for-splunk.json,1.7.0,1.6.4,2023-08-25 04:04:32
 MITRE ATTACK App for Splunk,mitre-attack-app-for-splunk.json,3.11.0,3.10.0,2024-05-14 10:18:22
-SA-DetectionInsights,sa-detectioninsights.json,1.2.0,1.1.0,2024-11-26 17:33:13
+SA-DetectionInsights,sa-detectioninsights.json,1.2.0,1.1.0,2024-11-27 14:44:23
 Splunk Add-on Builder,splunk-add-on-builder.json,4.3.0,3.0.1,2024-08-26 04:56:42
 Splunk Add-on for Apache Web Server,splunk-add-on-for-apache-web-server.json,2.1.0,N/A,2022-11-12 08:16:47
 Splunk Add-on for Microsoft Windows,splunk-add-on-for-microsoft-windows.json,9.0.1,8.9.0,2024-11-13 10:50:26
