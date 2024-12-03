@@ -4,7 +4,7 @@ Crypto and Encoding Add-On,crypto-and-encoding-add-on.json,2.4.0,2.3.4,2024-10-1
 Eventgen,eventgen.json,8.1.2,8.0.1,2024-01-08 23:07:46
 InfoSec App for Splunk,infosec-app-for-splunk.json,1.7.0,1.6.4,2023-08-25 04:04:32
 MITRE ATTACK App for Splunk,mitre-attack-app-for-splunk.json,3.11.0,3.10.0,2024-05-14 10:18:22
-SA-DetectionInsights,sa-detectioninsights.json,1.2.0,1.1.0,2024-11-29 04:38:03
+SA-DetectionInsights,sa-detectioninsights.json,1.2.0,1.1.0,2024-12-02 13:58:52
 Splunk Add-on Builder,splunk-add-on-builder.json,4.3.0,3.0.1,2024-08-26 04:56:42
 Splunk Add-on for Apache Web Server,splunk-add-on-for-apache-web-server.json,2.1.0,N/A,2022-11-12 08:16:47
 Splunk Add-on for Microsoft Windows,splunk-add-on-for-microsoft-windows.json,9.0.1,8.9.0,2024-11-13 10:50:26
@@ -20,6 +20,6 @@ Splunk Enterprise Security,splunk-enterprise-security.json,7.3.2,7.3.1,2024-06-2
 Splunk ES Content Update,splunk-es-content-update.json,4.43.0,4.42.0,2024-11-14 19:47:27
 Splunk Security Essentials,splunk-security-essentials.json,3.8.1,3.8.0,2024-10-24 15:33:13
 Splunk Supporting Add-on for Active Directory,splunk-supporting-add-on-for-active-directory.json,3.1.0,3.0.8,2024-09-09 14:38:25
-Stamus Networks App for Splunk,stamus-networks-app-for-splunk.json,1.0.4,1.0.3,2024-12-01 22:22:58
+Stamus Networks App for Splunk,stamus-networks-app-for-splunk.json,1.0.4,1.0.3,2024-12-02 22:42:35
 TheHive/Cortex,thehivecortex.json,3.6.1,3.6.0,2024-10-29 10:39:10
 ThreatQuotient App for Splunk,threatquotient-app-for-splunk.json,2.8.0,2.7.0,2024-08-01 10:01:31
