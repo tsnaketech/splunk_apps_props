@@ -27,7 +27,7 @@
         "description": "An application for Splunk Enterprise Security providing additional insights into everything surrounding and/or impacting your security detections.",
         "documentation": "<p>See the application documentation <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/\">here</a> for more information on installing, configuring and using it.</p>\n<p>Credit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.<br>\nThanks to Dean Luxton for reporting issues, fixes and improvement ideas!</p>",
         "documentation_source": "See the application documentation [here](https://splunk.github.io/Splunk_App_for_Detection_Insights/) for more information on installing, configuring and using it.\n\nCredit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.\nThanks to Dean Luxton for reporting issues, fixes and improvement ideas!",
-        "download_count": 873,
+        "download_count": 876,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/2deee7ae-ab79-11ef-a425-b6262e59d253.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -57,7 +57,7 @@
             "category_display_name": "SIEM"
           },
           {
-            "rank": 896,
+            "rank": 890,
             "category_name": "security_compliance",
             "category_display_name": "Security, Fraud & Compliance"
           }
@@ -67,19 +67,19 @@
           "average": 4
         },
         "release": {
-          "release_id": 32223,
-          "release_name": "1.1.0",
-          "notes": "<ul>\n<li>Rework initial setup dialog to run prerequisite lookup generating searches automatically</li>\n<li>Add a check to look for the absence of summariesonly for tstats detections</li>\n<li>Add a filter for issues to the Detection Details Tab</li>\n<li>Add a filter for issues to the Scheduling Details Tab</li>\n<li>Add a new Tab for Data Models</li>\n<li>Add a new check to ensure RFC1918 addresses specified are correct</li>\n<li>Add a table of <strong>checks</strong> to the documentation</li>\n<li>Add an overview check for Default Notable values set</li>\n<li>Add check for CIM fields being used directly - e.g. src_ip</li>\n<li>Add check for detection using SPL commands that have known limits/performance limitations</li>\n<li>Add detection check for RBA Risk rules that do not have a Risk Object configured</li>\n<li>Add detection check for RBA Risk rules that do not have a Threat Object configured</li>\n<li>Add detection check for detections missing Next Steps</li>\n<li>Add new check for detections without a drilldown search</li>\n<li>Add new overview check for detections using indexed time</li>\n<li>Add panel and/or check around false positive</li>\n</ul>",
-          "created_time": "2024-02-13T16:52:59.305172Z",
-          "published_time": "2024-02-13T16:54:12.704694Z",
-          "updated_time": "2024-02-16T06:36:49.357366Z",
-          "size": 885500,
-          "md5": "cbbea2544c9af7109cde476adf4f35b5",
-          "sha256": "e46729e425f994d712a4b9917baeb39ca8ec4157749429b00a3661b6d64fadfb",
-          "filename": "sa-detectioninsights_110.tgz",
-          "signed_available": true,
+          "release_id": 35738,
+          "release_name": "1.2.0",
+          "notes": "<h1>Detection Insights - Release Notes</h1>\n<p>See details <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/release_notes/\">here</a>.</p>",
+          "created_time": "2024-11-25T22:04:02.242772Z",
+          "published_time": "2024-11-25T22:04:34.373396Z",
+          "updated_time": "2024-12-13T18:41:23.029975Z",
+          "size": 937871,
+          "md5": "fa656535312664220cfbabdbc06e619a",
+          "sha256": "94934cc5d665e3562a57c65ad6585888edb491d9ba8b69af1cf06cface69aab7",
+          "filename": "sa-detectioninsights_120.tgz",
+          "signed_available": false,
           "passed_validation": true,
-          "path": "https://splunkbase.splunk.com/app/7066/release/1.1.0/download/",
+          "path": "https://splunkbase.splunk.com/app/7066/release/1.2.0/download/",
           "product_types": [
             "enterprise",
             "cloud"
@@ -94,7 +94,10 @@
             "8.2"
           ],
           "actions": [],
-          "cim_compatibility": [],
+          "cim_compatibility": [
+            "6.x",
+            "5.x"
+          ],
           "platform": "independent",
           "appinspect_passed": false,
           "product_compatibility": "splunk",
@@ -104,19 +107,20 @@
           {
             "release_id": 35738,
             "release_name": "1.2.0",
-            "notes": "<h1>Detection Insights - Release Notes</h1>\n<h2>Version 1.2.0</h2>\n<h3>Enhancements/New features</h3>\n<ul>\n<li>Make the Security Domains Filter Dynamic (#58)</li>\n<li>Allow users to see current data sent to data models + suggested index allowlist (#106)</li>\n<li>Change the default display for ES Content Update - Macros (#124, Thanks Dean Luxton!)</li>\n<li>Add the ability to see lookups used in a detection (#127)</li>\n<li>Add new tab for <strong>Triggering Trends</strong> and related work (#33, #126)</li>\n</ul>\n<h3>New checks</h3>\n<ul>\n<li>Add check for use of ESCU detection marked Deprecated (#107)</li>\n<li>Add check for SPL comments (#111)</li>\n<li>Add check for \"Search has tokens with incorrect syntax\" (#112)</li>\n<li>Add check to see which ESCU detection filters have been modified/used (#114)</li>\n<li>Add check to look for raw detections not using an index (#125)</li>\n</ul>\n<h3>Fixed issues</h3>\n<ul>\n<li>Bug with prerequisites Tab on Splunk Cloud (#108)</li>\n<li>Ensure MITRE techniques with covered subtechniques are also marked covered (#109)</li>\n<li>A&amp;I based detections struggling to cater for IN clauses (#120, Thanks Dean Luxton!)</li>\n<li>Fix data issue</li>\n</ul>",
+            "notes": "<h1>Detection Insights - Release Notes</h1>\n<p>See details <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/release_notes/\">here</a>.</p>",
             "created_time": "2024-11-25T22:04:02.242772Z",
             "published_time": "2024-11-25T22:04:34.373396Z",
-            "updated_time": "2024-12-06T14:47:20.392663Z",
-            "size": 937670,
-            "md5": "e882c043b686a1f5e82f5890312acd28",
-            "sha256": "378195c663e769a0407d83129f1b7c8b4051c28a7cd1b40bec1107d28e7ec41d",
+            "updated_time": "2024-12-13T18:41:23.029975Z",
+            "size": 937871,
+            "md5": "fa656535312664220cfbabdbc06e619a",
+            "sha256": "94934cc5d665e3562a57c65ad6585888edb491d9ba8b69af1cf06cface69aab7",
             "filename": "sa-detectioninsights_120.tgz",
-            "signed_available": true,
+            "signed_available": false,
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/7066/release/1.2.0/download/",
             "product_types": [
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
@@ -135,7 +139,7 @@
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
-            "cloud_compatible": false
+            "cloud_compatible": true
           },
           {
             "release_id": 32223,
@@ -296,7 +300,7 @@
         "troubleshooting": "<p>Please refer to the application documentation <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/\">here</a> for troubleshooting guidance.</p>",
         "troubleshooting_source": "Please refer to the application documentation [here](https://splunk.github.io/Splunk_App_for_Detection_Insights/) for troubleshooting guidance.",
         "type": "app",
-        "updated_time": "2024-12-06T14:47:20.530292Z",
+        "updated_time": "2024-12-13T18:41:23.442486Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
@@ -312,7 +316,7 @@
   "query": {
     "id": "7066"
   },
-  "buildId": "8RQHkLYYbCS4C1smcVCF_",
+  "buildId": "300m3JwMvXyKFcYyilFGP",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
