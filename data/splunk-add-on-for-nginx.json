@@ -47,14 +47,14 @@
         "public": true,
         "ranking": [
           {
-            "rank": 36,
-            "category_name": "security_compliance",
-            "category_display_name": "Security, Fraud & Compliance"
-          },
-          {
             "rank": 39,
             "category_name": "it_operations_management",
             "category_display_name": "IT Operations"
+          },
+          {
+            "rank": 36,
+            "category_name": "security_compliance",
+            "category_display_name": "Security, Fraud & Compliance"
           }
         ],
         "rating": {
