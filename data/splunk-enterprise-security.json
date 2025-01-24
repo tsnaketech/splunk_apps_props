@@ -59,7 +59,7 @@
           }
         ],
         "rating": {
-          "count": 219,
+          "count": 220,
           "average": 4
         },
         "release": {
@@ -959,7 +959,7 @@
         "troubleshooting": "<p><a href=\"https://docs.splunk.com/Documentation/ES/7.3.1/Admin/Troubleshootscripterrors\">https://docs.splunk.com/Documentation/ES/7.3.1/Admin/Troubleshootscripterrors</a></p>",
         "troubleshooting_source": "https://docs.splunk.com/Documentation/ES/7.3.1/Admin/Troubleshootscripterrors",
         "type": "app",
-        "updated_time": "2025-01-22T22:33:58.193036Z",
+        "updated_time": "2025-01-23T12:32:26.657178Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
@@ -975,7 +975,7 @@
   "query": {
     "id": "263"
   },
-  "buildId": "MYtJ5uuEhdH2k8Dc1PoiC",
+  "buildId": "uIYC8REne6l-WSF3KErSQ",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
