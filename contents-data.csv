@@ -1,6 +1,6 @@
 title,filename,latest_version,previous_version,updated
 Config Explorer,config-explorer.json,1.7.16,1.7.15,2024-05-31 06:44:41
-Crypto and Encoding Add-On,crypto-and-encoding-add-on.json,2.4.0,2.3.4,2024-10-16 13:13:23
+Crypto and Encoding Add-On,crypto-and-encoding-add-on.json,2.4.1,2.4.0,2025-01-29 08:06:15
 Eventgen,eventgen.json,8.1.2,8.0.1,2024-01-08 23:07:46
 InfoSec App for Splunk,infosec-app-for-splunk.json,1.7.0,1.6.4,2023-08-25 04:04:32
 MITRE ATTACK App for Splunk,mitre-attack-app-for-splunk.json,3.12.0,3.11.0,2025-01-10 07:38:41
