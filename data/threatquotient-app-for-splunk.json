@@ -40,8 +40,7 @@
         "license_url": "https://cdn.splunkbase.splunk.com/static/misc/eula.html",
         "product": "splunk",
         "product_types": [
-          "enterprise",
-          "cloud"
+          "enterprise"
         ],
         "public": true,
         "ranking": [
@@ -61,17 +60,16 @@
           "notes": "<p>ThreatQ Splunk App 2.8.0<br>\n  - Release Notes<br>\n    - Fixed Splunk connectivity issues by using the requests library</p>",
           "created_time": "2024-07-25T16:22:30.300346Z",
           "published_time": "2024-07-25T16:23:16.064671Z",
-          "updated_time": "2024-08-01T10:01:31.926865Z",
-          "size": 3878362,
-          "md5": "2a5930420dec74e5fe46dfa426ae1b7e",
-          "sha256": "15edd422879e2adc56648e50c26817cfe2ed67331f304865c19a2a644a791bc9",
+          "updated_time": "2025-01-30T10:05:02.408189Z",
+          "size": 3878354,
+          "md5": "d91b65e70fdd05815220b879679a2a2c",
+          "sha256": "979fd987b20461daf6020427b0212d7f1d8434291cbf6864ebca8b43cfee9ad7",
           "filename": "threatquotient-app-for-splunk_280.tgz",
           "signed_available": true,
           "passed_validation": true,
           "path": "https://splunkbase.splunk.com/app/4418/release/2.8.0/download/",
           "product_types": [
-            "enterprise",
-            "cloud"
+            "enterprise"
           ],
           "fedramp_validation": "no",
           "min_product_version_str": null,
@@ -84,7 +82,7 @@
           "platform": "independent",
           "appinspect_passed": false,
           "product_compatibility": "splunk",
-          "cloud_compatible": true
+          "cloud_compatible": false
         },
         "releases": [
           {
@@ -93,17 +91,16 @@
             "notes": "<p>ThreatQ Splunk App 2.8.0<br>\n  - Release Notes<br>\n    - Fixed Splunk connectivity issues by using the requests library</p>",
             "created_time": "2024-07-25T16:22:30.300346Z",
             "published_time": "2024-07-25T16:23:16.064671Z",
-            "updated_time": "2024-08-01T10:01:31.926865Z",
-            "size": 3878362,
-            "md5": "2a5930420dec74e5fe46dfa426ae1b7e",
-            "sha256": "15edd422879e2adc56648e50c26817cfe2ed67331f304865c19a2a644a791bc9",
+            "updated_time": "2025-01-30T10:05:02.408189Z",
+            "size": 3878354,
+            "md5": "d91b65e70fdd05815220b879679a2a2c",
+            "sha256": "979fd987b20461daf6020427b0212d7f1d8434291cbf6864ebca8b43cfee9ad7",
             "filename": "threatquotient-app-for-splunk_280.tgz",
             "signed_available": true,
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/4418/release/2.8.0/download/",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "enterprise"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
@@ -116,7 +113,7 @@
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
-            "cloud_compatible": true
+            "cloud_compatible": false
           },
           {
             "release_id": 31927,
@@ -124,17 +121,16 @@
             "notes": "<p>Release Notes<br>\n  - Updated Splunk SDK<br>\n  - Fixed app inspect warnings.<br>\nSupported versions<br>\n  - Browser: Google Chrome, Mozilla Firefox<br>\n  - OS: Linux (CentOs, Ubuntu) and Windows<br>\n  - Splunk Enterprise version: 9.1.x and 9.0.x<br>\n  - Supported Splunk Deployment: Splunk Cluster, Splunk Standalone, and Distributed Deployment</p>",
             "created_time": "2024-01-17T21:53:19.566844Z",
             "published_time": "2024-01-17T21:55:26.360861Z",
-            "updated_time": "2024-02-02T10:46:11.706351Z",
-            "size": 3877403,
-            "md5": "d2bca5aa40491b858dfba95aca1ef9cc",
-            "sha256": "6393a17538906539f2982a4af91872ead1c4707fadc8ddbba6c99eeb6930c216",
+            "updated_time": "2025-01-30T10:05:00.708746Z",
+            "size": 3877396,
+            "md5": "9c2179851e67355af88b0857042ea69f",
+            "sha256": "5c3a217487f0c556bbdbe0d4f1cbc7fa023361a89295664004646f47322cf058",
             "filename": "threatquotient-app-for-splunk_270.tgz",
             "signed_available": true,
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/4418/release/2.7.0/download/",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "enterprise"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
@@ -150,7 +146,7 @@
             "platform": "independent",
             "appinspect_passed": true,
             "product_compatibility": "splunk",
-            "cloud_compatible": true
+            "cloud_compatible": false
           },
           {
             "release_id": 29513,
@@ -572,7 +568,7 @@
         "troubleshooting": "",
         "troubleshooting_source": "",
         "type": "app",
-        "updated_time": "2024-08-01T10:01:32.187711Z",
+        "updated_time": "2025-01-30T10:05:02.478730Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
