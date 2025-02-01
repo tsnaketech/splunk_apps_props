@@ -28,7 +28,7 @@
         "description": "This app (also known as SA-ldapsearch) provides support functions to the Content Pack for Windows Dashboards and Reports (https://docs.splunk.com/Documentation/CPWindowsDash/latest/CP/About), Content Pack for Microsoft Exchange (https://docs.splunk.com/Documentation/CPExchange/latest/CP/About) that enable you to extract information from an Active Directory database. For instance, you can search Active Directory for records, presenting the records as events, or augment existing events with information from Active Directory based on information within the events.",
         "documentation": "<p>To learn about the Splunk Supporting Add-on for Active Directory, see the official documentation here on <a href=\"http://docs.splunk.com/Documentation/SA-LdapSearch/latest\">docs.splunk.com</a>.</p>\n<p>For information on what has been fixed as well as known issues, see the <a href=\"http://docs.splunk.com/Documentation/SA-LdapSearch/latest/User/ReleaseNotes\">release notes</a>.</p>",
         "documentation_source": "To learn about the Splunk Supporting Add-on for Active Directory, see the official documentation here on [docs.splunk.com](http://docs.splunk.com/Documentation/SA-LdapSearch/latest).\r\n\r\nFor information on what has been fixed as well as known issues, see the [release notes](http://docs.splunk.com/Documentation/SA-LdapSearch/latest/User/ReleaseNotes).",
-        "download_count": 162625,
+        "download_count": 162665,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/c6b2bc1c-b214-11ef-a1e5-6e40c79c81fa.png",
         "inquiry_buttontext": "",
         "inquiry_url": "",
@@ -47,8 +47,7 @@
         "license_url": "https://www.splunk.com/en_us/legal/splunk-general-terms.html",
         "product": "splunk",
         "product_types": [
-          "enterprise",
-          "cloud"
+          "enterprise"
         ],
         "public": true,
         "ranking": [
@@ -126,72 +125,6 @@
             "appinspect_passed": false,
             "product_compatibility": "splunk",
             "cloud_compatible": true
-          },
-          {
-            "release_id": 34099,
-            "release_name": "3.1.0",
-            "notes": "<p><a href=\"https://docs.splunk.com/Documentation/SA-LdapSearch/3.1.0/User/ReleaseNotes\">https://docs.splunk.com/Documentation/SA-LdapSearch/3.1.0/User/ReleaseNotes</a></p>",
-            "created_time": "2024-07-19T12:09:03.597868Z",
-            "published_time": "2024-08-13T13:57:02.037142Z",
-            "updated_time": "2024-09-09T14:38:25.500217Z",
-            "size": 801870,
-            "md5": "b3f0e8db54ae9063528d182d06eb9adc",
-            "sha256": "f0df012cf146d3df74c1b617be447092fb5b92b505a8fa935463f658d821169f",
-            "filename": "splunk-supporting-add-on-for-active-directory_310.tgz",
-            "signed_available": true,
-            "passed_validation": true,
-            "path": "https://splunkbase.splunk.com/app/1151/release/3.1.0/download/",
-            "product_types": [
-              "enterprise",
-              "cloud"
-            ],
-            "fedramp_validation": "no",
-            "min_product_version_str": null,
-            "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1"
-            ],
-            "actions": [],
-            "cim_compatibility": [],
-            "platform": "independent",
-            "appinspect_passed": false,
-            "product_compatibility": "splunk",
-            "cloud_compatible": true
-          },
-          {
-            "release_id": 30487,
-            "release_name": "3.0.8",
-            "notes": "<p><a href=\"https://docs.splunk.com/Documentation/SA-LdapSearch/3.0.8/User/ReleaseNotes\">https://docs.splunk.com/Documentation/SA-LdapSearch/3.0.8/User/ReleaseNotes</a></p>",
-            "created_time": "2023-09-06T13:20:45.135944Z",
-            "published_time": "2023-09-06T13:20:45.135957Z",
-            "updated_time": "2024-10-18T04:04:20.254042Z",
-            "size": 894634,
-            "md5": "fbd55d116fbccbcaf29257d1723701db",
-            "sha256": "eb9b80c288ba9ff76595ff1b0699733c51330b1acbcc3fd632fcd4d6b882f125",
-            "filename": "splunk-supporting-add-on-for-active-directory_308.tgz",
-            "signed_available": true,
-            "passed_validation": true,
-            "path": "https://splunkbase.splunk.com/app/1151/release/3.0.8/download/",
-            "product_types": [
-              "enterprise",
-              "cloud"
-            ],
-            "fedramp_validation": "no",
-            "min_product_version_str": null,
-            "version_compatibility": [
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2"
-            ],
-            "actions": [],
-            "cim_compatibility": [],
-            "platform": "independent",
-            "appinspect_passed": false,
-            "product_compatibility": "splunk",
-            "cloud_compatible": true
           }
         ],
         "repo_name": "",
@@ -202,7 +135,7 @@
         "troubleshooting": "",
         "troubleshooting_source": "",
         "type": "addon",
-        "updated_time": "2024-12-10T16:23:41.511950Z",
+        "updated_time": "2025-01-31T07:31:11.625358Z",
         "video_link": null,
         "app_type": "addon",
         "schedule_release": null,
