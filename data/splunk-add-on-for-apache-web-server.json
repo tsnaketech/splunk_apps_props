@@ -1,7 +1,6 @@
 {
   "props": {
     "pageProps": {
-      "appId": "3186",
       "appDetails": {
         "id": 3186,
         "access": "unrestricted",
@@ -13,14 +12,16 @@
         "collections": [],
         "contact_email": "",
         "contact_notes": "",
+        "contact_notes_source": "",
         "display_author": {
           "isPartner": false,
-          "name": "Splunk Inc.",
+          "name": "Splunk LLC",
           "redirectTo": "Splunk"
         },
         "description": "The Splunk Add-on for Apache Web Server allows a Splunk software administrator to collect and analyze data from Apache Web Server using file monitoring. After the Splunk platform indexes the events, you can analyze the data using the prebuilt panels included with the add-on. \n\nThis add-on provides the inputs and CIM-compatible knowledge to use with other Splunk apps, such as Web.",
         "documentation": "<p>Documentation for this add-on can be found here: <a href=\"http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About\">http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About</a></p>",
-        "download_count": 29464,
+        "documentation_source": "Documentation for this add-on can be found here: http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About",
+        "download_count": 30483,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/3c98c790-e360-11ec-8e51-128f1773c869.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -29,6 +30,7 @@
         "is_soar_certified": false,
         "is_splunk_built": true,
         "installation": "",
+        "installation_source": "",
         "license": {
           "canonical_name": "Splunk General Terms",
           "display_name": "Splunk General Terms",
@@ -45,7 +47,7 @@
         "public": true,
         "ranking": [
           {
-            "rank": 59,
+            "rank": 60,
             "category_name": "it_operations_management",
             "category_display_name": "IT Operations"
           }
@@ -75,6 +77,7 @@
           "fedramp_validation": "yes",
           "min_product_version_str": null,
           "version_compatibility": [
+            "9.4",
             "9.3",
             "9.2",
             "9.1",
@@ -113,6 +116,7 @@
             "fedramp_validation": "yes",
             "min_product_version_str": null,
             "version_compatibility": [
+              "9.4",
               "9.3",
               "9.2",
               "9.1",
@@ -136,6 +140,7 @@
         "support": "splunk",
         "title": "Splunk Add-on for Apache Web Server",
         "troubleshooting": "",
+        "troubleshooting_source": "",
         "type": "addon",
         "updated_time": "2023-07-24T03:29:00.665311Z",
         "video_link": null,
@@ -147,17 +152,17 @@
         "display_editors": false
       }
     },
-    "__N_SSG": true
+    "__N_SSP": true
   },
   "page": "/app/[id]",
   "query": {
     "id": "3186"
   },
-  "buildId": "kHe2enay4ALzvMDedValA",
+  "buildId": "O66W2gMpDg2QO-9xLw36i",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
-  "gsp": true,
+  "gssp": true,
   "scriptLoader": [
     {
       "src": "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js",

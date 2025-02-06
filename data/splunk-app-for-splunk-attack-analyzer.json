@@ -1,7 +1,6 @@
 {
   "props": {
     "pageProps": {
-      "appId": "7000",
       "appDetails": {
         "id": 7000,
         "access": "unrestricted",
@@ -13,14 +12,16 @@
         "collections": [],
         "contact_email": "",
         "contact_notes": "",
+        "contact_notes_source": "",
         "display_author": {
           "isPartner": false,
-          "name": "Splunk Inc.",
+          "name": "Splunk LLC",
           "redirectTo": "Splunk"
         },
         "description": "The Splunk App for Splunk Attack Analyzer provides reporting dashboards to track Attack Analyzer Usage. It is used in conjunction with the Splunk Add-On for Splunk Attack Analyzer.",
         "documentation": "<p>Documentation for this App is posted at <a href=\"https://docs.splunk.com/Documentation/SAAApp/latest/User/About\">Splunk Docs</a></p>\n<p>If the solution does not support specific analytics you wish to implement please provide feedback via the <a href=\"https://ideas.splunk.com/?category=7267657706569392725\">Splunk Ideas portal</a>.</p>",
-        "download_count": 831,
+        "documentation_source": "Documentation for this App is posted at [Splunk Docs](https://docs.splunk.com/Documentation/SAAApp/latest/User/About)\n\nIf the solution does not support specific analytics you wish to implement please provide feedback via the [Splunk Ideas portal](https://ideas.splunk.com/?category=7267657706569392725).",
+        "download_count": 1126,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/2af733fc-7b1e-11ef-8252-9a0c4cce87bc.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -29,6 +30,7 @@
         "is_soar_certified": false,
         "is_splunk_built": true,
         "installation": "<p>Documentation for this App is posted at <a href=\"https://docs.splunk.com/Documentation/SAAApp/latest/User/About\">Splunk Docs</a></p>",
+        "installation_source": "Documentation for this App is posted at [Splunk Docs](https://docs.splunk.com/Documentation/SAAApp/latest/User/About)",
         "license": {
           "canonical_name": "sgt",
           "display_name": "Splunk General Terms",
@@ -44,7 +46,7 @@
         "public": true,
         "ranking": [
           {
-            "rank": 902,
+            "rank": 752,
             "category_name": "security_compliance",
             "category_display_name": "Security, Fraud & Compliance"
           }
@@ -74,6 +76,7 @@
           "fedramp_validation": "no",
           "min_product_version_str": null,
           "version_compatibility": [
+            "9.4",
             "9.3",
             "9.2",
             "9.1",
@@ -102,12 +105,13 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/7000/release/1.2.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
             "version_compatibility": [
+              "9.4",
               "9.3",
               "9.2",
               "9.1",
@@ -135,12 +139,13 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/7000/release/1.1.1/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
             "version_compatibility": [
+              "9.4",
               "9.3",
               "9.2",
               "9.1",
@@ -168,12 +173,13 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/7000/release/1.1.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
             "version_compatibility": [
+              "9.4",
               "9.3",
               "9.2",
               "9.1",
@@ -201,12 +207,13 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/7000/release/1.0.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
             "version_compatibility": [
+              "9.4",
               "9.3",
               "9.2",
               "9.1",
@@ -226,6 +233,7 @@
         "support": "splunk",
         "title": "Splunk App for Splunk Attack Analyzer",
         "troubleshooting": "<p>Documentation for this App is posted at <a href=\"https://docs.splunk.com/Documentation/SAAApp/latest/User/About\">Splunk Docs</a></p>",
+        "troubleshooting_source": "Documentation for this App is posted at [Splunk Docs](https://docs.splunk.com/Documentation/SAAApp/latest/User/About)",
         "type": "app",
         "updated_time": "2024-09-25T18:18:35.204226Z",
         "video_link": null,
@@ -237,17 +245,17 @@
         "display_editors": false
       }
     },
-    "__N_SSG": true
+    "__N_SSP": true
   },
   "page": "/app/[id]",
   "query": {
     "id": "7000"
   },
-  "buildId": "kHe2enay4ALzvMDedValA",
+  "buildId": "O66W2gMpDg2QO-9xLw36i",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
-  "gsp": true,
+  "gssp": true,
   "scriptLoader": [
     {
       "src": "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js",

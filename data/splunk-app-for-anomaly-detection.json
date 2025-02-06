@@ -1,7 +1,6 @@
 {
   "props": {
     "pageProps": {
-      "appId": "6843",
       "appDetails": {
         "id": 6843,
         "access": "unrestricted",
@@ -21,14 +20,16 @@
         ],
         "contact_email": "",
         "contact_notes": "",
+        "contact_notes_source": "",
         "display_author": {
           "isPartner": false,
-          "name": "Splunk Inc.",
+          "name": "Splunk LLC",
           "redirectTo": "Splunk"
         },
         "description": "The Splunk App for Anomaly Detection finds anomalies in time series datasets and provides an end-to-end workflow to manage and operationalize anomaly detection tasks. The app detects seasonal patterns and finds anomalies in just a couple of clicks.\n\n\nUsing the app, you can create anomaly detection jobs, run these jobs on a regular cadence, view SPL queries, and create alerts. The app works with any time series dataset that can be ingested into the Splunk platform, provided the points in the time series are evenly spaced.\n\n\nThe app uses machine learning to detect seasonality in the data without user inputs, lowering the barriers to realizing value. The app also performs health diagnostics on the time series to check whether the dataset is suitable for anomaly detection using our algorithm. If the dataset is not fit for anomaly detection with our algorithm, we have included steps to preprocess the data in the docs. (We are working on supporting more time series out of the box without preprocessing steps for the next version).\n\n\nWhen you create an anomaly detection job, the app generates an SPL query you can view and use elsewhere within Splunk.\n\n\nSimilar to other Splunk applications, the resource consumption of CPU and memory is commensurate with the size of the datasets that you use.\n\n\nThis app is available for both on-premise and cloud customers.",
         "documentation": "<p>For the Splunk App for Anomaly Detection documentation, see <a href=\"https://docs.splunk.com/Documentation/AnomalyApp\">https://docs.splunk.com/Documentation/AnomalyApp</a></p>\n<p><strong>Datasets</strong></p>\n<p>This application may contain certain sample files and datasets, which are provided for your convenience only. Such files and datasets contain information and data compiled by third parties, and Splunk makes no representation or warranty that the data contained in such files and datasets are true, accurate, complete, or sanitized.</p>",
-        "download_count": 2887,
+        "documentation_source": "For the Splunk App for Anomaly Detection documentation, see https://docs.splunk.com/Documentation/AnomalyApp\n\n**Datasets**\n\nThis application may contain certain sample files and datasets, which are provided for your convenience only. Such files and datasets contain information and data compiled by third parties, and Splunk makes no representation or warranty that the data contained in such files and datasets are true, accurate, complete, or sanitized.",
+        "download_count": 3465,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/21bc8992-8405-11ee-8d26-7e3a32636d24.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -37,6 +38,7 @@
         "is_soar_certified": false,
         "is_splunk_built": true,
         "installation": "<p><strong>Requirements for the Splunk App for Anomaly Detection</strong></p>\n<p>In order to successfully run the Splunk App for Anomaly Detection, the following is required:\n* Splunk Enterprise 8.1.x or higher, or Splunk Cloud Platform.\n* Installation of the correct version of the Python for Scientific Computing (PSC) add-on from Splunkbase.\n* Installation of the Splunk Machine Learning Toolkit (MLTK) app version 5.4.0 or higher from Splunkbase.</p>\n<p><strong>Installation</strong></p>\n<p>To install an app within Splunk Enterprise:</p>\n<ol>\n<li>Log into Splunk Enterprise.</li>\n<li>Next to the Apps menu, click the Manage Apps icon.</li>\n<li>Click Install app from file.</li>\n<li>In the Upload app dialog box, click Choose File.</li>\n<li>Locate the .tar.gz or .tar file you just downloaded, then click Open or Choose.</li>\n<li>Click Upload.</li>\n</ol>",
+        "installation_source": "**Requirements for the Splunk App for Anomaly Detection**\n\nIn order to successfully run the Splunk App for Anomaly Detection, the following is required:\n* Splunk Enterprise 8.1.x or higher, or Splunk Cloud Platform.\n* Installation of the correct version of the Python for Scientific Computing (PSC) add-on from Splunkbase.\n* Installation of the Splunk Machine Learning Toolkit (MLTK) app version 5.4.0 or higher from Splunkbase.\n\n**Installation**\n\nTo install an app within Splunk Enterprise:\n\n1. Log into Splunk Enterprise.\n1. Next to the Apps menu, click the Manage Apps icon.\n1. Click Install app from file.\n1. In the Upload app dialog box, click Choose File.\n1. Locate the .tar.gz or .tar file you just downloaded, then click Open or Choose.\n1. Click Upload.",
         "license": {
           "canonical_name": "sgt",
           "display_name": "Splunk General Terms",
@@ -52,14 +54,14 @@
         "public": true,
         "ranking": [
           {
-            "rank": 346,
-            "category_name": "it_operations_management",
-            "category_display_name": "IT Operations"
-          },
-          {
-            "rank": 340,
+            "rank": 299,
             "category_name": "security_compliance",
             "category_display_name": "Security, Fraud & Compliance"
+          },
+          {
+            "rank": 308,
+            "category_name": "it_operations_management",
+            "category_display_name": "IT Operations"
           }
         ],
         "rating": {
@@ -87,6 +89,7 @@
           "fedramp_validation": "no",
           "min_product_version_str": null,
           "version_compatibility": [
+            "9.4",
             "9.3",
             "9.2",
             "9.1",
@@ -118,84 +121,13 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/6843/release/1.1.2/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
             "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0"
-            ],
-            "actions": [],
-            "cim_compatibility": [],
-            "platform": "independent",
-            "appinspect_passed": false,
-            "product_compatibility": "splunk",
-            "cloud_compatible": true
-          },
-          {
-            "release_id": 30449,
-            "release_name": "1.1.1",
-            "notes": "",
-            "created_time": "2023-09-01T04:18:59.877344Z",
-            "published_time": "2023-09-01T04:18:59.877357Z",
-            "updated_time": "2023-09-06T17:22:32.652118Z",
-            "size": 7833787,
-            "md5": "a0cd3b8602a27f1b1be5226c625d50de",
-            "sha256": "3ca65c983a37466ee85c11bd85fcf04290c35ec5b06ed2c5db3d01bb77b1d1be",
-            "filename": "splunk-app-for-anomaly-detection_111.tgz",
-            "signed_available": true,
-            "passed_validation": true,
-            "path": "https://splunkbase.splunk.com/app/6843/release/1.1.1/download/",
-            "product_types": [
-              "cloud",
-              "enterprise"
-            ],
-            "fedramp_validation": "no",
-            "min_product_version_str": null,
-            "version_compatibility": [
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0"
-            ],
-            "actions": [],
-            "cim_compatibility": [],
-            "platform": "independent",
-            "appinspect_passed": false,
-            "product_compatibility": "splunk",
-            "cloud_compatible": true
-          },
-          {
-            "release_id": 29922,
-            "release_name": "1.1.0",
-            "notes": "<p>This release of the Splunk App for Anomaly Detection comes with several enhancements, in both the app workflow and the machine learning algorithm that powers it.</p>\n<p>The app has a new remediation workflow.  We can detect whether the input time series has missing data or is unevenly spaced.  If the data is unevenly spaced, we provide an aggregation capability to create an evenly-spaced time series.  If there is missing data, we fill it in via linear interpolation.</p>\n<p>In this version, we expand our alert actions from email only to include \u201cLog event\u201d, \u201cOutput results to lookup\u201d, \u201cOutput results to telemetry endpoint\u201d, \u201cSend to Splunk Mobile\u201d, \u201cWebhook\u201d, and \u201cAdd to Triggered Alerts\u201d.</p>\n<p>We have also enhanced our Job Dashboard.  The dropdown for each job shows its properties, including the sensitivity, the saved search schedule, and the alert actions selected for both anomaly and missing data alerting.</p>\n<p>Behind the scenes, we have also significantly improved our anomaly detection algorithm.</p>",
-            "created_time": "2023-07-06T19:58:59.946425Z",
-            "published_time": "2023-07-06T19:58:59.946441Z",
-            "updated_time": "2023-09-01T05:12:37.390999Z",
-            "size": 8049256,
-            "md5": "fca23e9a48f79291b75542acc282378d",
-            "sha256": "af0bddc757a4c1894d5064985fe89b7ab8ad33806b614fe3c1eb91557487ae5c",
-            "filename": "splunk-app-for-anomaly-detection_110.tgz",
-            "signed_available": true,
-            "passed_validation": true,
-            "path": "https://splunkbase.splunk.com/app/6843/release/1.1.0/download/",
-            "product_types": [
-              "cloud",
-              "enterprise"
-            ],
-            "fedramp_validation": "no",
-            "min_product_version_str": null,
-            "version_compatibility": [
+              "9.4",
               "9.3",
               "9.2",
               "9.1",
@@ -217,21 +149,21 @@
             "notes": "<p>This is the first Splunk-supported GA version of the Splunk App for Anomaly Detection (AnomalyApp)<br>\nThis version lets you find anomalies in your time series dataset in just a couple of clicks<br>\nThis version includes sensitivity adjustment so that you can set the sensitivity of the anomaly detection to low, medium or high<br>\nIn this version, the app runs a health diagnostic on the time series to make sure the data is suitable for anomaly detection<br>\nThis version includes a whole host of features to operationalize the anomaly detection job once it is created - user can schedule the job to run at a regular cadence and set alerts to trigger on certain conditions</p>\n<p>Every anomaly has a confidence score associated with it to signify the severity of the anomaly</p>\n<p>The visualizations for the anomalies has been improved; the app shows both point and interval anomalies</p>",
             "created_time": "2023-04-04T21:46:01.866939Z",
             "published_time": "2023-04-04T21:46:01.866952Z",
-            "updated_time": "2023-04-06T21:08:58.664641Z",
-            "size": 9011571,
-            "md5": "9fe6c41f8e847658b43b9d0d277fb809",
-            "sha256": "450860ed121e6c567225cb8f9c716e80afb7a571e3b5e9db071846d8c3de5e19",
+            "updated_time": "2025-01-30T09:58:42.120564Z",
+            "size": 9011568,
+            "md5": "2162f701297f2ce5862e2b03738ccf1a",
+            "sha256": "ac184ad49aebe4cf919e88844cfd2101ad156bcdd7e8a40fe6638d0992432597",
             "filename": "splunk-app-for-anomaly-detection_100.tgz",
             "signed_available": true,
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/6843/release/1.0.0/download/",
             "product_types": [
-              "cloud",
               "enterprise"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
             "version_compatibility": [
+              "9.4",
               "9.3",
               "9.2",
               "9.1",
@@ -245,7 +177,7 @@
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
-            "cloud_compatible": true
+            "cloud_compatible": false
           }
         ],
         "repo_name": "",
@@ -257,8 +189,9 @@
         "support": "splunk",
         "title": "Splunk App for Anomaly Detection",
         "troubleshooting": "<p>For troubleshooting instructions, see <a href=\"https://docs.splunk.com/Documentation/AnomalyApp/1.0.0/User/Troubleshoot\">https://docs.splunk.com/Documentation/AnomalyApp/1.0.0/User/Troubleshoot</a></p>",
+        "troubleshooting_source": "For troubleshooting instructions, see https://docs.splunk.com/Documentation/AnomalyApp/1.0.0/User/Troubleshoot",
         "type": "app",
-        "updated_time": "2024-04-03T17:48:33.211369Z",
+        "updated_time": "2025-01-30T09:58:45.469735Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
@@ -268,17 +201,17 @@
         "display_editors": false
       }
     },
-    "__N_SSG": true
+    "__N_SSP": true
   },
   "page": "/app/[id]",
   "query": {
     "id": "6843"
   },
-  "buildId": "kHe2enay4ALzvMDedValA",
+  "buildId": "O66W2gMpDg2QO-9xLw36i",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
-  "gsp": true,
+  "gssp": true,
   "scriptLoader": [
     {
       "src": "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js",

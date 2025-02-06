@@ -1,7 +1,6 @@
 {
   "props": {
     "pageProps": {
-      "appId": "3258",
       "appDetails": {
         "id": 3258,
         "access": "unrestricted",
@@ -14,14 +13,16 @@
         "collections": [],
         "contact_email": "",
         "contact_notes": "",
+        "contact_notes_source": "",
         "display_author": {
           "isPartner": false,
-          "name": "Splunk Inc.",
+          "name": "Splunk LLC",
           "redirectTo": "Splunk"
         },
         "description": "The Splunk Add-on for NGINX allows a Splunk software administrator to collect Web server activities, performance metrics, and error logs using file monitoring and API inputs.\n\nThis add-on provides the inputs and CIM-compatible knowledge to use with other Splunk apps, such as Splunk Enterprise Security, the Splunk App for PCI Compliance, and Splunk IT Service Intelligence.",
         "documentation": "<p>Documentation for this Add-on is posted at <a href=\"http://docs.splunk.com/Documentation/AddOns/latest/nginx/About\" title=\"Splunk Docs\">Splunk Docs</a>.</p>",
-        "download_count": 36726,
+        "documentation_source": "Documentation for this Add-on is posted at [Splunk Docs](http://docs.splunk.com/Documentation/AddOns/latest/nginx/About \"Splunk Docs\").",
+        "download_count": 46335,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/43731336-6aa4-11ef-ab3b-faca7e54e553.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -30,6 +31,7 @@
         "is_soar_certified": false,
         "is_splunk_built": true,
         "installation": "",
+        "installation_source": "",
         "license": {
           "canonical_name": "Splunk General Terms",
           "display_name": "Splunk General Terms",
@@ -45,14 +47,14 @@
         "public": true,
         "ranking": [
           {
-            "rank": 43,
-            "category_name": "it_operations_management",
-            "category_display_name": "IT Operations"
+            "rank": 33,
+            "category_name": "security_compliance",
+            "category_display_name": "Security, Fraud & Compliance"
           },
           {
             "rank": 38,
-            "category_name": "security_compliance",
-            "category_display_name": "Security, Fraud & Compliance"
+            "category_name": "it_operations_management",
+            "category_display_name": "IT Operations"
           }
         ],
         "rating": {
@@ -80,6 +82,7 @@
           "fedramp_validation": "no",
           "min_product_version_str": null,
           "version_compatibility": [
+            "9.4",
             "9.3",
             "9.2",
             "9.1",
@@ -116,6 +119,7 @@
             "fedramp_validation": "no",
             "min_product_version_str": null,
             "version_compatibility": [
+              "9.4",
               "9.3",
               "9.2",
               "9.1",
@@ -137,6 +141,7 @@
         "support": "splunk",
         "title": "Splunk Add-on for NGINX",
         "troubleshooting": "",
+        "troubleshooting_source": "",
         "type": "addon",
         "updated_time": "2024-09-13T05:43:55.950584Z",
         "video_link": null,
@@ -148,17 +153,17 @@
         "display_editors": false
       }
     },
-    "__N_SSG": true
+    "__N_SSP": true
   },
   "page": "/app/[id]",
   "query": {
     "id": "3258"
   },
-  "buildId": "kHe2enay4ALzvMDedValA",
+  "buildId": "O66W2gMpDg2QO-9xLw36i",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
-  "gsp": true,
+  "gssp": true,
   "scriptLoader": [
     {
       "src": "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js",

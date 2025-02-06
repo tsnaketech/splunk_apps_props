@@ -1,7 +1,6 @@
 {
   "props": {
     "pageProps": {
-      "appId": "263",
       "appDetails": {
         "id": 263,
         "access": "restricted",
@@ -20,13 +19,15 @@
         ],
         "contact_email": "",
         "contact_notes": "",
+        "contact_notes_source": "",
         "display_author": {
           "isPartner": false,
-          "name": "Splunk Inc.",
+          "name": "Splunk LLC",
           "redirectTo": "Splunk"
         },
         "description": "Splunk Enterprise Security (ES) solves a wide range of security analytics and operations use cases including continuous security monitoring, advanced threat detection, compliance, incident investigation, forensics and incident response. Splunk ES delivers an end-to-end view of organizations\u2019 security postures with flexible investigations, unmatched performance, and the most flexible deployment options offered in the cloud, on-premises or hybrid deployment models. Splunk ES enables you to: \n\n- Conquer alert fatigue with high-fidelity Risk-Based Alerting.\n- Bring visibility across your hybrid environment with multicloud security monitoring.\n- Conduct flexible investigations for effective threat hunting across security, IT and DevOps data sources.\n\nSplunk ES is a premium security solution requiring a paid license.",
         "documentation": "<p><a href=\"https://docs.splunk.com/Documentation/ES/7.3.1/RN/Enhancements\">Release Notes</a><br>\n<a href=\"http://docs.splunk.com/Documentation/ES/latest\">Splunk Enterprise Security Documentation</a></p>",
+        "documentation_source": "[Release Notes](https://docs.splunk.com/Documentation/ES/7.3.1/RN/Enhancements)\n[Splunk Enterprise Security Documentation](http://docs.splunk.com/Documentation/ES/latest)",
         "download_count": "N/A",
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/4f4c67a2-251c-11ef-aa96-ae4e248a2471.png",
         "inquiry_buttontext": "Learn More",
@@ -36,6 +37,7 @@
         "is_soar_certified": false,
         "is_splunk_built": true,
         "installation": "<p><a href=\"https://docs.splunk.com/Documentation/ES/7.3.1/Install/Overview\">https://docs.splunk.com/Documentation/ES/7.3.1/Install/Overview</a></p>\n<p>Please validate compatibility before installation and upgrade. <a href=\"https://docs.splunk.com/Documentation/VersionCompatibility/current/Matrix/CompatMatrix\">https://docs.splunk.com/Documentation/VersionCompatibility/current/Matrix/CompatMatrix</a></p>",
+        "installation_source": "https://docs.splunk.com/Documentation/ES/7.3.1/Install/Overview\n\nPlease validate compatibility before installation and upgrade. https://docs.splunk.com/Documentation/VersionCompatibility/current/Matrix/CompatMatrix",
         "license": {
           "canonical_name": "Splunk General Terms",
           "display_name": "Splunk General Terms",
@@ -51,29 +53,29 @@
         "public": true,
         "ranking": [
           {
-            "rank": 15,
+            "rank": 17,
             "category_name": "security_compliance",
             "category_display_name": "Security, Fraud & Compliance"
           }
         ],
         "rating": {
-          "count": 218,
+          "count": 220,
           "average": 4
         },
         "release": {
-          "release_id": 33694,
-          "release_name": "7.3.2",
-          "notes": "<p><a href=\"https://docs.splunk.com/Documentation/ES/7.3.2/RN/Enhancements\">https://docs.splunk.com/Documentation/ES/7.3.2/RN/Enhancements</a></p>",
-          "created_time": "2024-06-07T22:21:59.925355Z",
-          "published_time": "2024-06-11T19:20:38.696237Z",
-          "updated_time": "2024-06-28T18:27:26.166644Z",
-          "size": 920287317,
-          "md5": "c29f2ea59b83cc4c4ac3bd9a7f2cc449",
-          "sha256": "37581ae057a26f9c7eac04e16f46c11ed8d7bf194491857ff478d874e6f8d1aa",
-          "filename": "splunk-enterprise-security_732.spl",
+          "release_id": 36251,
+          "release_name": "8.0.2",
+          "notes": "<p><a href=\"https://docs.splunk.com/Documentation/ES/8.0.2/RN/NewFeatures\">https://docs.splunk.com/Documentation/ES/8.0.2/RN/NewFeatures</a></p>",
+          "created_time": "2025-01-16T17:42:43.257363Z",
+          "published_time": "2025-01-22T22:33:53.368810Z",
+          "updated_time": "2025-01-22T22:33:53.452369Z",
+          "size": 695347741,
+          "md5": "9dd96c61f508c67d1fafb7f19632e10d",
+          "sha256": "4f996b12b7ff9ed8d27aebb8b0646864e06bca869b3e04472ff9a91dddeab5fe",
+          "filename": "splunk-enterprise-security_802.spl",
           "signed_available": false,
           "passed_validation": false,
-          "path": "https://splunkbase.splunk.com/app/263/release/7.3.2/download/",
+          "path": "https://splunkbase.splunk.com/app/263/release/8.0.2/download/",
           "product_types": [
             "enterprise",
             "cloud"
@@ -81,13 +83,13 @@
           "fedramp_validation": "no",
           "min_product_version_str": null,
           "version_compatibility": [
+            "9.4",
             "9.3",
-            "9.2",
-            "9.1"
+            "9.2"
           ],
           "actions": [],
           "cim_compatibility": [
-            "5.x"
+            "6.x"
           ],
           "platform": "independent",
           "appinspect_passed": false,
@@ -95,6 +97,40 @@
           "cloud_compatible": true
         },
         "releases": [
+          {
+            "release_id": 36251,
+            "release_name": "8.0.2",
+            "notes": "<p><a href=\"https://docs.splunk.com/Documentation/ES/8.0.2/RN/NewFeatures\">https://docs.splunk.com/Documentation/ES/8.0.2/RN/NewFeatures</a></p>",
+            "created_time": "2025-01-16T17:42:43.257363Z",
+            "published_time": "2025-01-22T22:33:53.368810Z",
+            "updated_time": "2025-01-22T22:33:53.452369Z",
+            "size": 695347741,
+            "md5": "9dd96c61f508c67d1fafb7f19632e10d",
+            "sha256": "4f996b12b7ff9ed8d27aebb8b0646864e06bca869b3e04472ff9a91dddeab5fe",
+            "filename": "splunk-enterprise-security_802.spl",
+            "signed_available": false,
+            "passed_validation": false,
+            "path": "https://splunkbase.splunk.com/app/263/release/8.0.2/download/",
+            "product_types": [
+              "enterprise",
+              "cloud"
+            ],
+            "fedramp_validation": "no",
+            "min_product_version_str": null,
+            "version_compatibility": [
+              "9.4",
+              "9.3",
+              "9.2"
+            ],
+            "actions": [],
+            "cim_compatibility": [
+              "6.x"
+            ],
+            "platform": "independent",
+            "appinspect_passed": false,
+            "product_compatibility": "splunk",
+            "cloud_compatible": true
+          },
           {
             "release_id": 33694,
             "release_name": "7.3.2",
@@ -110,12 +146,13 @@
             "passed_validation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/7.3.2/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
             "version_compatibility": [
+              "9.4",
               "9.3",
               "9.2",
               "9.1"
@@ -144,8 +181,8 @@
             "passed_validation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/7.3.1/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "yes",
             "min_product_version_str": null,
@@ -177,8 +214,8 @@
             "passed_validation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/7.3.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
@@ -211,8 +248,8 @@
             "passed_validation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/7.1.2/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "yes",
             "min_product_version_str": null,
@@ -245,8 +282,8 @@
             "passed_validation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/7.2.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "yes",
             "min_product_version_str": null,
@@ -279,8 +316,8 @@
             "passed_validation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/7.1.1/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "yes",
             "min_product_version_str": null,
@@ -314,8 +351,8 @@
             "passed_validation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/7.1.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "yes",
             "min_product_version_str": null,
@@ -350,8 +387,8 @@
             "passed_validation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/7.0.2/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "yes",
             "min_product_version_str": null,
@@ -920,8 +957,9 @@
         "support": "premium",
         "title": "Splunk Enterprise Security",
         "troubleshooting": "<p><a href=\"https://docs.splunk.com/Documentation/ES/7.3.1/Admin/Troubleshootscripterrors\">https://docs.splunk.com/Documentation/ES/7.3.1/Admin/Troubleshootscripterrors</a></p>",
+        "troubleshooting_source": "https://docs.splunk.com/Documentation/ES/7.3.1/Admin/Troubleshootscripterrors",
         "type": "app",
-        "updated_time": "2024-09-11T21:02:45.355226Z",
+        "updated_time": "2025-01-23T12:32:26.657178Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
@@ -931,17 +969,17 @@
         "display_editors": false
       }
     },
-    "__N_SSG": true
+    "__N_SSP": true
   },
   "page": "/app/[id]",
   "query": {
     "id": "263"
   },
-  "buildId": "kHe2enay4ALzvMDedValA",
+  "buildId": "O66W2gMpDg2QO-9xLw36i",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
-  "gsp": true,
+  "gssp": true,
   "scriptLoader": [
     {
       "src": "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js",

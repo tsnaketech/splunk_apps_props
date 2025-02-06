@@ -1,7 +1,6 @@
 {
   "props": {
     "pageProps": {
-      "appId": "7066",
       "appDetails": {
         "id": 7066,
         "access": "unrestricted",
@@ -19,15 +18,17 @@
         "collections": [],
         "contact_email": "",
         "contact_notes": "",
+        "contact_notes_source": "",
         "display_author": {
           "isPartner": false,
           "name": "Splunk Works",
           "redirectTo": "splunklabs"
         },
         "description": "An application for Splunk Enterprise Security providing additional insights into everything surrounding and/or impacting your security detections.",
-        "documentation": "<p>See the application documentation <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/\">here</a> for more information on installing, configuring and using it.</p>\n<p>Credit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.</p>",
-        "download_count": 704,
-        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/57ad2800-ca90-11ee-8d70-26d62a4a3abc.png",
+        "documentation": "<p>See the application documentation <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/\">here</a> for more information on installing, configuring and using it.</p>\n<p>Credit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.<br>\nThanks to Dean Luxton for reporting issues, fixes and improvement ideas!</p>",
+        "documentation_source": "See the application documentation [here](https://splunk.github.io/Splunk_App_for_Detection_Insights/) for more information on installing, configuring and using it.\n\nCredit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.\nThanks to Dean Luxton for reporting issues, fixes and improvement ideas!",
+        "download_count": 1068,
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/2deee7ae-ab79-11ef-a425-b6262e59d253.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
         "is_archived": false,
@@ -35,6 +36,7 @@
         "is_soar_certified": false,
         "is_splunk_built": false,
         "installation": "<p>Please refer to the application documentation <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/\">here</a> for installation instructions.</p>",
+        "installation_source": "Please refer to the application documentation [here](https://splunk.github.io/Splunk_App_for_Detection_Insights/) for installation instructions.",
         "license": {
           "canonical_name": "sgt",
           "display_name": "Splunk General Terms",
@@ -50,12 +52,12 @@
         "public": true,
         "ranking": [
           {
-            "rank": 30,
+            "rank": 27,
             "category_name": "siem",
             "category_display_name": "SIEM"
           },
           {
-            "rank": 1010,
+            "rank": 786,
             "category_name": "security_compliance",
             "category_display_name": "Security, Fraud & Compliance"
           }
@@ -65,19 +67,19 @@
           "average": 4
         },
         "release": {
-          "release_id": 32223,
-          "release_name": "1.1.0",
-          "notes": "<ul>\n<li>Rework initial setup dialog to run prerequisite lookup generating searches automatically</li>\n<li>Add a check to look for the absence of summariesonly for tstats detections</li>\n<li>Add a filter for issues to the Detection Details Tab</li>\n<li>Add a filter for issues to the Scheduling Details Tab</li>\n<li>Add a new Tab for Data Models</li>\n<li>Add a new check to ensure RFC1918 addresses specified are correct</li>\n<li>Add a table of <strong>checks</strong> to the documentation</li>\n<li>Add an overview check for Default Notable values set</li>\n<li>Add check for CIM fields being used directly - e.g. src_ip</li>\n<li>Add check for detection using SPL commands that have known limits/performance limitations</li>\n<li>Add detection check for RBA Risk rules that do not have a Risk Object configured</li>\n<li>Add detection check for RBA Risk rules that do not have a Threat Object configured</li>\n<li>Add detection check for detections missing Next Steps</li>\n<li>Add new check for detections without a drilldown search</li>\n<li>Add new overview check for detections using indexed time</li>\n<li>Add panel and/or check around false positive</li>\n</ul>",
-          "created_time": "2024-02-13T16:52:59.305172Z",
-          "published_time": "2024-02-13T16:54:12.704694Z",
-          "updated_time": "2024-02-16T06:36:49.357366Z",
-          "size": 885500,
-          "md5": "cbbea2544c9af7109cde476adf4f35b5",
-          "sha256": "e46729e425f994d712a4b9917baeb39ca8ec4157749429b00a3661b6d64fadfb",
-          "filename": "sa-detectioninsights_110.tgz",
+          "release_id": 35738,
+          "release_name": "1.2.0",
+          "notes": "<h1>Detection Insights - Release Notes</h1>\n<p>See details <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/release_notes/\">here</a>.</p>",
+          "created_time": "2024-11-25T22:04:02.242772Z",
+          "published_time": "2024-11-25T22:04:34.373396Z",
+          "updated_time": "2024-12-20T09:40:34.340392Z",
+          "size": 937682,
+          "md5": "16ee88f83fdb20450d1b2af5d775556b",
+          "sha256": "d2d0006cdd7883ef9d56d3f9dcfc14d39010af63a856166ee88cf4778090c38c",
+          "filename": "sa-detectioninsights_120.tgz",
           "signed_available": true,
           "passed_validation": true,
-          "path": "https://splunkbase.splunk.com/app/7066/release/1.1.0/download/",
+          "path": "https://splunkbase.splunk.com/app/7066/release/1.2.0/download/",
           "product_types": [
             "enterprise",
             "cloud"
@@ -85,6 +87,7 @@
           "fedramp_validation": "no",
           "min_product_version_str": null,
           "version_compatibility": [
+            "9.4",
             "9.3",
             "9.2",
             "9.1",
@@ -92,13 +95,54 @@
             "8.2"
           ],
           "actions": [],
-          "cim_compatibility": [],
+          "cim_compatibility": [
+            "6.x",
+            "5.x"
+          ],
           "platform": "independent",
           "appinspect_passed": false,
           "product_compatibility": "splunk",
           "cloud_compatible": true
         },
         "releases": [
+          {
+            "release_id": 35738,
+            "release_name": "1.2.0",
+            "notes": "<h1>Detection Insights - Release Notes</h1>\n<p>See details <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/release_notes/\">here</a>.</p>",
+            "created_time": "2024-11-25T22:04:02.242772Z",
+            "published_time": "2024-11-25T22:04:34.373396Z",
+            "updated_time": "2024-12-20T09:40:34.340392Z",
+            "size": 937682,
+            "md5": "16ee88f83fdb20450d1b2af5d775556b",
+            "sha256": "d2d0006cdd7883ef9d56d3f9dcfc14d39010af63a856166ee88cf4778090c38c",
+            "filename": "sa-detectioninsights_120.tgz",
+            "signed_available": true,
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/7066/release/1.2.0/download/",
+            "product_types": [
+              "enterprise",
+              "cloud"
+            ],
+            "fedramp_validation": "no",
+            "min_product_version_str": null,
+            "version_compatibility": [
+              "9.4",
+              "9.3",
+              "9.2",
+              "9.1",
+              "9.0",
+              "8.2"
+            ],
+            "actions": [],
+            "cim_compatibility": [
+              "6.x",
+              "5.x"
+            ],
+            "platform": "independent",
+            "appinspect_passed": false,
+            "product_compatibility": "splunk",
+            "cloud_compatible": true
+          },
           {
             "release_id": 32223,
             "release_name": "1.1.0",
@@ -114,12 +158,13 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/7066/release/1.1.0/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
             "version_compatibility": [
+              "9.4",
               "9.3",
               "9.2",
               "9.1",
@@ -148,12 +193,13 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/7066/release/1.0.9/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
             "version_compatibility": [
+              "9.4",
               "9.3",
               "9.2",
               "9.1",
@@ -185,12 +231,13 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/7066/release/1.0.7/download/",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
             "version_compatibility": [
+              "9.4",
               "9.3",
               "9.2",
               "9.1",
@@ -227,6 +274,7 @@
             "fedramp_validation": "no",
             "min_product_version_str": null,
             "version_compatibility": [
+              "9.4",
               "9.3",
               "9.2",
               "9.1",
@@ -256,8 +304,9 @@
         "support": "not_supported",
         "title": "SA-DetectionInsights",
         "troubleshooting": "<p>Please refer to the application documentation <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/\">here</a> for troubleshooting guidance.</p>",
+        "troubleshooting_source": "Please refer to the application documentation [here](https://splunk.github.io/Splunk_App_for_Detection_Insights/) for troubleshooting guidance.",
         "type": "app",
-        "updated_time": "2024-09-13T12:24:39.683781Z",
+        "updated_time": "2024-12-20T09:40:34.374976Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
@@ -267,17 +316,17 @@
         "display_editors": true
       }
     },
-    "__N_SSG": true
+    "__N_SSP": true
   },
   "page": "/app/[id]",
   "query": {
     "id": "7066"
   },
-  "buildId": "kHe2enay4ALzvMDedValA",
+  "buildId": "O66W2gMpDg2QO-9xLw36i",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
-  "gsp": true,
+  "gssp": true,
   "scriptLoader": [
     {
       "src": "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js",

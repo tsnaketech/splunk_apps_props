@@ -1,7 +1,6 @@
 {
   "props": {
     "pageProps": {
-      "appId": "4418",
       "appDetails": {
         "id": 4418,
         "access": "unrestricted",
@@ -13,6 +12,7 @@
         "collections": [],
         "contact_email": "support@threatq.com",
         "contact_notes": "",
+        "contact_notes_source": "",
         "display_author": {
           "isPartner": false,
           "name": "ThreatQuotient Team",
@@ -20,7 +20,8 @@
         },
         "description": "The new ThreatQuotient App for Splunk improves on our previous capability while incorporating feedback collected from our customers around functionality and deployability.\n\nNote: The new ThreatQuotient App for Splunk requires the ThreatQuotient Add-on for Splunk as well as ThreatQ version 4.16 or later.\n\nThreatQuotient Splunk Support Documentation\nSee the Splunk Documentation located on the ThreatQuotient Help Center for more information.\n\n https://helpcenter.threatq.com/Integration_Documentation/app/Splunk.htm",
         "documentation": "<h3>Functionality includes:</h3>\n<p><strong>Ingestion of ThreatQ Data into Splunk</strong><br>\nEnable users to customize what data is ingested by leveraging ThreatQ exports and Splunk input filters. Customization continues for advanced users with the ability to modify leveraged indexes and Splunk saved searches that drive the ThreatQuotient App for Splunk to meet the needs of their environment.</p>\n<p><strong>Matching of Splunk Events with ThreatQ Indicators</strong><br>\nProvide context on possible malicious activity by matching Splunk Events with ThreatQ indicators. Matching is customizable by ThreatQ indicator status and score to meet the differing needs of customer environments and workflows.</p>\n<p><strong>Reporting of Matches in Splunk back to ThreatQ as Sighting Events</strong><br>\nSighting events in ThreatQ will show indicator matches from Splunk and will be grouped by indicator.</p>\n<p><strong>Workflow Actions</strong><br>\nUsers can modify ThreatQ data based on any indexed indicators within Splunk.</p>\n<p><strong>Workflow actions include:</strong><br>\n- ThreatQ: Add Indicator<br>\n- ThreatQ: Update Indicator Status<br>\n- ThreatQ: Lookup Indicator<br>\n- ThreatQ: Mark as False Positive<br>\n- ThreatQ: Mark as True Positive</p>\n<p><strong>Note:</strong> Support for ingesting ThreatQ data into Splunk Enterprise Security will be leveraged in the additional workflows provided within that application.</p>\n<h3>Deployability</h3>\n<p>The ThreatQuotient App for Splunk has been re-designed to scale to our customers' growing needs, supporting installations in Splunk deployments of all sizes.</p>",
-        "download_count": 3659,
+        "documentation_source": "### Functionality includes:\n\n**Ingestion of ThreatQ Data into Splunk**\nEnable users to customize what data is ingested by leveraging ThreatQ exports and Splunk input filters. Customization continues for advanced users with the ability to modify leveraged indexes and Splunk saved searches that drive the ThreatQuotient App for Splunk to meet the needs of their environment.\n\n**Matching of Splunk Events with ThreatQ Indicators**\nProvide context on possible malicious activity by matching Splunk Events with ThreatQ indicators. Matching is customizable by ThreatQ indicator status and score to meet the differing needs of customer environments and workflows.\n\n**Reporting of Matches in Splunk back to ThreatQ as Sighting Events**\nSighting events in ThreatQ will show indicator matches from Splunk and will be grouped by indicator.\n\n**Workflow Actions**\nUsers can modify ThreatQ data based on any indexed indicators within Splunk.\n\n**Workflow actions include:**\n- ThreatQ: Add Indicator\n- ThreatQ: Update Indicator Status\n- ThreatQ: Lookup Indicator\n- ThreatQ: Mark as False Positive\n- ThreatQ: Mark as True Positive\n\n\n**Note:** Support for ingesting ThreatQ data into Splunk Enterprise Security will be leveraged in the additional workflows provided within that application.\n\n### Deployability\nThe ThreatQuotient App for Splunk has been re-designed to scale to our customers' growing needs, supporting installations in Splunk deployments of all sizes.",
+        "download_count": 3881,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/16802b10-4aa2-11ef-b6ee-aa37b693ef8d.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -29,6 +30,7 @@
         "is_soar_certified": false,
         "is_splunk_built": false,
         "installation": "<p>ThreatQuotient Splunk Support Documentation<br>\nSee the Splunk Documentation located on the ThreatQuotient Help Center for more information.</p>\n<p><a href=\"https://helpcenter.threatq.com/Integration_Documentation/app/Splunk.htm\"> </a><a href=\"https://helpcenter.threatq.com/Integration_Documentation/app/Splunk.htm\">https://helpcenter.threatq.com/Integration_Documentation/app/Splunk.htm</a></p>",
+        "installation_source": "ThreatQuotient Splunk Support Documentation\nSee the Splunk Documentation located on the ThreatQuotient Help Center for more information.\n\n[ https://helpcenter.threatq.com/Integration_Documentation/app/Splunk.htm]( https://helpcenter.threatq.com/Integration_Documentation/app/Splunk.htm)",
         "license": {
           "canonical_name": "End User License Agreement for Third-Party Content",
           "display_name": "End User License Agreement for Third-Party Content",
@@ -38,13 +40,12 @@
         "license_url": "https://cdn.splunkbase.splunk.com/static/misc/eula.html",
         "product": "splunk",
         "product_types": [
-          "enterprise",
-          "cloud"
+          "enterprise"
         ],
         "public": true,
         "ranking": [
           {
-            "rank": 270,
+            "rank": 269,
             "category_name": "security_compliance",
             "category_display_name": "Security, Fraud & Compliance"
           }
@@ -59,17 +60,16 @@
           "notes": "<p>ThreatQ Splunk App 2.8.0<br>\n  - Release Notes<br>\n    - Fixed Splunk connectivity issues by using the requests library</p>",
           "created_time": "2024-07-25T16:22:30.300346Z",
           "published_time": "2024-07-25T16:23:16.064671Z",
-          "updated_time": "2024-08-01T10:01:31.926865Z",
-          "size": 3878362,
-          "md5": "2a5930420dec74e5fe46dfa426ae1b7e",
-          "sha256": "15edd422879e2adc56648e50c26817cfe2ed67331f304865c19a2a644a791bc9",
+          "updated_time": "2025-01-30T10:05:02.408189Z",
+          "size": 3878354,
+          "md5": "d91b65e70fdd05815220b879679a2a2c",
+          "sha256": "979fd987b20461daf6020427b0212d7f1d8434291cbf6864ebca8b43cfee9ad7",
           "filename": "threatquotient-app-for-splunk_280.tgz",
           "signed_available": true,
           "passed_validation": true,
           "path": "https://splunkbase.splunk.com/app/4418/release/2.8.0/download/",
           "product_types": [
-            "enterprise",
-            "cloud"
+            "enterprise"
           ],
           "fedramp_validation": "no",
           "min_product_version_str": null,
@@ -82,7 +82,7 @@
           "platform": "independent",
           "appinspect_passed": false,
           "product_compatibility": "splunk",
-          "cloud_compatible": true
+          "cloud_compatible": false
         },
         "releases": [
           {
@@ -91,16 +91,15 @@
             "notes": "<p>ThreatQ Splunk App 2.8.0<br>\n  - Release Notes<br>\n    - Fixed Splunk connectivity issues by using the requests library</p>",
             "created_time": "2024-07-25T16:22:30.300346Z",
             "published_time": "2024-07-25T16:23:16.064671Z",
-            "updated_time": "2024-08-01T10:01:31.926865Z",
-            "size": 3878362,
-            "md5": "2a5930420dec74e5fe46dfa426ae1b7e",
-            "sha256": "15edd422879e2adc56648e50c26817cfe2ed67331f304865c19a2a644a791bc9",
+            "updated_time": "2025-01-30T10:05:02.408189Z",
+            "size": 3878354,
+            "md5": "d91b65e70fdd05815220b879679a2a2c",
+            "sha256": "979fd987b20461daf6020427b0212d7f1d8434291cbf6864ebca8b43cfee9ad7",
             "filename": "threatquotient-app-for-splunk_280.tgz",
             "signed_available": true,
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/4418/release/2.8.0/download/",
             "product_types": [
-              "cloud",
               "enterprise"
             ],
             "fedramp_validation": "no",
@@ -114,7 +113,7 @@
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
-            "cloud_compatible": true
+            "cloud_compatible": false
           },
           {
             "release_id": 31927,
@@ -122,21 +121,21 @@
             "notes": "<p>Release Notes<br>\n  - Updated Splunk SDK<br>\n  - Fixed app inspect warnings.<br>\nSupported versions<br>\n  - Browser: Google Chrome, Mozilla Firefox<br>\n  - OS: Linux (CentOs, Ubuntu) and Windows<br>\n  - Splunk Enterprise version: 9.1.x and 9.0.x<br>\n  - Supported Splunk Deployment: Splunk Cluster, Splunk Standalone, and Distributed Deployment</p>",
             "created_time": "2024-01-17T21:53:19.566844Z",
             "published_time": "2024-01-17T21:55:26.360861Z",
-            "updated_time": "2024-02-02T10:46:11.706351Z",
-            "size": 3877403,
-            "md5": "d2bca5aa40491b858dfba95aca1ef9cc",
-            "sha256": "6393a17538906539f2982a4af91872ead1c4707fadc8ddbba6c99eeb6930c216",
+            "updated_time": "2025-01-30T10:05:00.708746Z",
+            "size": 3877396,
+            "md5": "9c2179851e67355af88b0857042ea69f",
+            "sha256": "5c3a217487f0c556bbdbe0d4f1cbc7fa023361a89295664004646f47322cf058",
             "filename": "threatquotient-app-for-splunk_270.tgz",
             "signed_available": true,
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/4418/release/2.7.0/download/",
             "product_types": [
-              "cloud",
               "enterprise"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
             "version_compatibility": [
+              "9.4",
               "9.3",
               "9.2",
               "9.1",
@@ -147,7 +146,7 @@
             "platform": "independent",
             "appinspect_passed": true,
             "product_compatibility": "splunk",
-            "cloud_compatible": true
+            "cloud_compatible": false
           },
           {
             "release_id": 29513,
@@ -169,6 +168,7 @@
             "fedramp_validation": "no",
             "min_product_version_str": null,
             "version_compatibility": [
+              "9.4",
               "9.3",
               "9.2",
               "9.1",
@@ -205,6 +205,7 @@
             "fedramp_validation": "no",
             "min_product_version_str": null,
             "version_compatibility": [
+              "9.4",
               "9.3",
               "9.2",
               "9.1",
@@ -240,6 +241,7 @@
             "fedramp_validation": "no",
             "min_product_version_str": null,
             "version_compatibility": [
+              "9.4",
               "9.3",
               "9.2",
               "9.1",
@@ -275,6 +277,7 @@
             "fedramp_validation": "no",
             "min_product_version_str": null,
             "version_compatibility": [
+              "9.4",
               "9.3",
               "9.2",
               "9.1",
@@ -310,6 +313,7 @@
             "fedramp_validation": "no",
             "min_product_version_str": null,
             "version_compatibility": [
+              "9.4",
               "9.3",
               "9.2",
               "9.1",
@@ -345,6 +349,7 @@
             "fedramp_validation": "no",
             "min_product_version_str": null,
             "version_compatibility": [
+              "9.4",
               "9.3",
               "9.2",
               "9.1",
@@ -380,6 +385,7 @@
             "fedramp_validation": "no",
             "min_product_version_str": null,
             "version_compatibility": [
+              "9.4",
               "9.3",
               "9.2",
               "9.1",
@@ -415,6 +421,7 @@
             "fedramp_validation": "no",
             "min_product_version_str": null,
             "version_compatibility": [
+              "9.4",
               "9.3",
               "9.2",
               "9.1",
@@ -559,8 +566,9 @@
         "support": "developer",
         "title": "ThreatQuotient App for Splunk",
         "troubleshooting": "",
+        "troubleshooting_source": "",
         "type": "app",
-        "updated_time": "2024-08-01T10:01:32.187711Z",
+        "updated_time": "2025-01-30T10:05:02.478730Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
@@ -570,17 +578,17 @@
         "display_editors": false
       }
     },
-    "__N_SSG": true
+    "__N_SSP": true
   },
   "page": "/app/[id]",
   "query": {
     "id": "4418"
   },
-  "buildId": "kHe2enay4ALzvMDedValA",
+  "buildId": "O66W2gMpDg2QO-9xLw36i",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
-  "gsp": true,
+  "gssp": true,
   "scriptLoader": [
     {
       "src": "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js",
