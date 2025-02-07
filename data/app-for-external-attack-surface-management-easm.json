@@ -1,0 +1,265 @@
+{
+  "props": {
+    "pageProps": {
+      "appDetails": {
+        "id": 7027,
+        "access": "unrestricted",
+        "approved": true,
+        "categories": [
+          "security_compliance",
+          "vulnerability_scanner"
+        ],
+        "contributors": [],
+        "collections": [],
+        "contact_email": "",
+        "contact_notes": "",
+        "contact_notes_source": "",
+        "display_author": {
+          "isPartner": false,
+          "name": "Greg Ford",
+          "redirectTo": "greg.ford.2@googlemail.com"
+        },
+        "description": "The Splunk App for External Attack Surface Management supports discovery of Internet-facing services and helps identify those that may require hardening. The app - and its associated external worker - perform:\n\n- subdomain discovery\n- open port discovery (passive)\n- open port discovery (active)\n- web service discovery\n- web technology discovery\n- web vulnerability scans\n- web spiders (crawls)",
+        "documentation": "<h1>Splunk App for External Attack Surface Management</h1>\n<h2>Overview</h2>\n<p>The App for External Attack Surface Management (EASM) is intended to:<br>\n- Discover your internet-facing assets and services, starting with nothing more than your domain name<br>\n- Alert on new subdomains, newly exposed ports and web app vulnerabilities<br>\n- Integrate with vulnerability management to patch and harden</p>\n<p>The App for EASM makes use of open-source recon tools from ProjectDiscovery.io, wrapped in a REST API that runs on a worker server external to Splunk. The worker has been designed to be easy to stand up - using Docker - is stateless and secured via HTTPS and API key-based auth.</p>\n<p>Requirements:<br>\n1. Splunk<br>\n2. Somewhere to run the EASM Worker server (\u201cworker\u201d) as a container<br>\n3. Some way of letting Splunk talk HTTPS to the worker, e.g. a reverse proxy terminating TLS and proxying traffic to the worker\u2019s ASGI web server</p>\n<p>For further details around standing up a worker, refer to <a href=\"https://github.com/gf13579/splunk_easm_worker\">gf13579/splunk_easm_worker (github.com)</a>.</p>\n<h2>Installation and Configuration Overview</h2>\n<ol>\n<li>Install the App for External Attack Surface Management from Splunk or a tgz release from github</li>\n<li>Create an index e.g. 'easm' or pick an existing index to use and update the <code>easm_index</code> macro as required, e.g. <code>index=your_index_here</code></li>\n<li>Setup a HEC input - and ensure port 8088 is accessible by our EASM worker. Leave the sourcetype set to Automatic and specify your target index (e.g. easm) as the default.</li>\n<li>Make a note of the HEC token and confirm that HEC is enabled, globally (by default it isn\u2019t).</li>\n<li>Use the app's setup page to configure details of your external worker - the base url:port and API key, along with a HEC URL and token to be passed to the worker during discovery</li>\n<li>Edit the app's lookups - via the app's UI - to configure your seeds i.e apex domains, IPs, IP ranges and known subdomains</li>\n<li>Create discovery jobs - modular inputs - again, via the app's UI for convenience</li>\n<li>Wait for results</li>\n</ol>\n<h2>App Configuration Steps</h2>\n<p>Use the setup page to configure the application</p>\n<table>\n<thead>\n<tr>\n<th><strong>Field</strong></th>\n<th><strong>Description</strong></th>\n<th><strong>Example</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Base URL of EASM Worker</td>\n<td>The URL of our EASM worker - starting with https, followed by the FQDN of our host.</td>\n<td><a href=\"https://some-easm-worker-host.spinningplates.net\">https://some-easm-worker-host.spinningplates.net</a></td>\n</tr>\n<tr>\n<td>API Key</td>\n<td>The value we configured in the .env file earlier</td>\n<td>some_super_secure_string</td>\n</tr>\n<tr>\n<td>HEC URL</td>\n<td>The URL of our HEC endpoint - which could be on this Splunk server, or another one</td>\n<td><a href=\"http://3.25.119.19:8088/services/collector/event\">http://3.25.119.19:8088/services/collector/event</a></td>\n</tr>\n<tr>\n<td>HEC Token</td>\n<td>The HEC token shown by Splunk when setting up a HEC input</td>\n<td>dd8f39b4-a93e-4d07-9a94-2128c4bcd0ab</td>\n</tr>\n</tbody>\n</table>\n<p>Now we can setup our seeds - typically one or more apex domains e.g. example.com and example.org.</p>\n<p>Seeds are managed via lookups. The EASM App\u2019s navigation menu includes links to edit those lookups using the Lookup Editor (\u201cSplunk App for Lookup File Editing\u201c) - if installed.</p>\n<p>Configuration \u2192 Seed Items \u2192 Edit Seed Domains</p>\n<p>Populate apex_domains.csv, for example:</p>\n<table>\n<thead>\n<tr>\n<th>entity</th>\n<th>target</th>\n<th>description</th>\n<th>out_of_scope</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>example</td>\n<td>example.com</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>example</td>\n<td>example.org</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>portswigger</td>\n<td>ginandjuice.shop</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>acunetix</td>\n<td>vulnweb.com</td>\n<td></td>\n<td></td>\n</tr>\n</tbody>\n</table>\n<p>Now we\u2019ll setup a basic discovery job - again, using the menu:</p>\n<p>Configuration \u2192 Data Inputs \u2192 Edit Discovery Jobs</p>\n<p>Give the discovery input a name, specify the types of discovery - or * for all basic discovery types. Specify an entity - which relates back to the entity field in the seed lookups and use the More settings option to specify a target index and the interval. As with all modular inputs, leave the interval blank to run the input a single time, or specify either a cron string or the number of seconds between inputs.</p>\n<p>On saving the input, Splunk will run it based on the schedule. If the schedule was left blank, Splunk will run it immediately and once only - which is handy for testing.</p>\n<p>The app typically needs to run discovery at least twice to start getting interesting data - the first time to discover an initial set of subdomains, which will be used in subsequent discovery of open ports, web services etc.</p>\n<h2>Troubleshooting</h2>\n<p>In the app, check the EASM Logs dashboard (Advanced -&gt; EASM Logs) to see Splunk invoking the modular inputs, and output from those inputs.</p>\n<p>On the worker node, you can view live log activity (stdout) using <code>docker-compose logs --follow --timestamps</code>.</p>",
+        "documentation_source": "# Splunk App for External Attack Surface Management\r\n\r\n## Overview\r\n\r\nThe App for External Attack Surface Management (EASM) is intended to:\r\n- Discover your internet-facing assets and services, starting with nothing more than your domain name\r\n- Alert on new subdomains, newly exposed ports and web app vulnerabilities\r\n- Integrate with vulnerability management to patch and harden\r\n\r\nThe App for EASM makes use of open-source recon tools from ProjectDiscovery.io, wrapped in a REST API that runs on a worker server external to Splunk. The worker has been designed to be easy to stand up - using Docker - is stateless and secured via HTTPS and API key-based auth.\r\n\r\nRequirements:\r\n1. Splunk\r\n2. Somewhere to run the EASM Worker server (\u201cworker\u201d) as a container\r\n3. Some way of letting Splunk talk HTTPS to the worker, e.g. a reverse proxy terminating TLS and proxying traffic to the worker\u2019s ASGI web server\r\n\r\nFor further details around standing up a worker, refer to [gf13579/splunk_easm_worker (github.com)](https://github.com/gf13579/splunk_easm_worker).\r\n\r\n## Installation and Configuration Overview\r\n\r\n1. Install the App for External Attack Surface Management from Splunk or a tgz release from github\r\n2. Create an index e.g. 'easm' or pick an existing index to use and update the `easm_index` macro as required, e.g. `index=your_index_here`\r\n3. Setup a HEC input - and ensure port 8088 is accessible by our EASM worker. Leave the sourcetype set to Automatic and specify your target index (e.g. easm) as the default.\r\n4. Make a note of the HEC token and confirm that HEC is enabled, globally (by default it isn\u2019t).\r\n2. Use the app's setup page to configure details of your external worker - the base url:port and API key, along with a HEC URL and token to be passed to the worker during discovery\r\n3. Edit the app's lookups - via the app's UI - to configure your seeds i.e apex domains, IPs, IP ranges and known subdomains\r\n4. Create discovery jobs - modular inputs - again, via the app's UI for convenience\r\n5. Wait for results\r\n\r\n## App Configuration Steps\r\n\r\nUse the setup page to configure the application\r\n\r\n|**Field**|**Description**|**Example**|\r\n|---|---|---|\r\n|Base URL of EASM Worker|The URL of our EASM worker - starting with https, followed by the FQDN of our host.|https://some-easm-worker-host.spinningplates.net|\r\n|API Key|The value we configured in the .env file earlier|some_super_secure_string|\r\n|HEC URL|The URL of our HEC endpoint - which could be on this Splunk server, or another one|http://3.25.119.19:8088/services/collector/event|\r\n|HEC Token|The HEC token shown by Splunk when setting up a HEC input|dd8f39b4-a93e-4d07-9a94-2128c4bcd0ab|\r\n\r\nNow we can setup our seeds - typically one or more apex domains e.g. example.com and example.org.\r\n\r\nSeeds are managed via lookups. The EASM App\u2019s navigation menu includes links to edit those lookups using the Lookup Editor (\u201cSplunk App for Lookup File Editing\u201c) - if installed.\r\n\r\nConfiguration \u2192 Seed Items \u2192 Edit Seed Domains\r\n\r\nPopulate apex_domains.csv, for example:\r\n\r\n|entity|target|description|out_of_scope|\r\n|---|---|---|---|\r\n|example|example.com|||\r\n|example|example.org|||\r\n|portswigger|ginandjuice.shop|||\r\n|acunetix|vulnweb.com|||\r\n\r\nNow we\u2019ll setup a basic discovery job - again, using the menu:\r\n\r\nConfiguration \u2192 Data Inputs \u2192 Edit Discovery Jobs\r\n\r\nGive the discovery input a name, specify the types of discovery - or * for all basic discovery types. Specify an entity - which relates back to the entity field in the seed lookups and use the More settings option to specify a target index and the interval. As with all modular inputs, leave the interval blank to run the input a single time, or specify either a cron string or the number of seconds between inputs.\r\n\r\nOn saving the input, Splunk will run it based on the schedule. If the schedule was left blank, Splunk will run it immediately and once only - which is handy for testing.\r\n\r\nThe app typically needs to run discovery at least twice to start getting interesting data - the first time to discover an initial set of subdomains, which will be used in subsequent discovery of open ports, web services etc.\r\n\r\n## Troubleshooting\r\n\r\nIn the app, check the EASM Logs dashboard (Advanced -> EASM Logs) to see Splunk invoking the modular inputs, and output from those inputs.\r\n\r\nOn the worker node, you can view live log activity (stdout) using `docker-compose logs --follow --timestamps`.",
+        "download_count": 340,
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/152eeb04-70ca-11ef-a937-6abe5102ade4.png",
+        "inquiry_buttontext": "Learn More",
+        "inquiry_url": "",
+        "is_archived": false,
+        "is_directory_listing": false,
+        "is_soar_certified": false,
+        "is_splunk_built": false,
+        "installation": "<h2>Installation and Configuration Overview</h2>\n<ol>\n<li>Install the App for External Attack Surface Management from Splunk or a tgz release from github</li>\n<li>Create an index e.g. 'easm' or pick an existing index to use and update the <code>easm_index</code> macro as required, e.g. <code>index=your_index_here</code></li>\n<li>Setup a HEC input - and ensure port 8088 is accessible by our EASM worker. Leave the sourcetype set to Automatic and specify your target index (e.g. easm) as the default.</li>\n<li>Make a note of the HEC token and confirm that HEC is enabled, globally (by default it isn\u2019t).</li>\n<li>Use the app's setup page to configure details of your external worker - the base url:port and API key, along with a HEC URL and token to be passed to the worker during discovery</li>\n<li>Edit the app's lookups - via the app's UI - to configure your seeds i.e apex domains, IPs, IP ranges and known subdomains</li>\n<li>Create discovery jobs - modular inputs - again, via the app's UI for convenience</li>\n<li>Wait for results</li>\n</ol>\n<h2>App Configuration Steps</h2>\n<p>Use the setup page to configure the application</p>\n<table>\n<thead>\n<tr>\n<th><strong>Field</strong></th>\n<th><strong>Description</strong></th>\n<th><strong>Example</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Base URL of EASM Worker</td>\n<td>The URL of our EASM worker - starting with https, followed by the FQDN of our host.</td>\n<td><a href=\"https://some-easm-worker-host.spinningplates.net\">https://some-easm-worker-host.spinningplates.net</a></td>\n</tr>\n<tr>\n<td>API Key</td>\n<td>The value we configured in the .env file earlier</td>\n<td>some_super_secure_string</td>\n</tr>\n<tr>\n<td>HEC URL</td>\n<td>The URL of our HEC endpoint - which could be on this Splunk server, or another one</td>\n<td><a href=\"http://3.25.119.19:8088/services/collector/event\">http://3.25.119.19:8088/services/collector/event</a></td>\n</tr>\n<tr>\n<td>HEC Token</td>\n<td>The HEC token shown by Splunk when setting up a HEC input</td>\n<td>dd8f39b4-a93e-4d07-9a94-2128c4bcd0ab</td>\n</tr>\n</tbody>\n</table>\n<p>Now we can setup our seeds - typically one or more apex domains e.g. example.com and example.org.</p>\n<p>Seeds are managed via lookups. The EASM App\u2019s navigation menu includes links to edit those lookups using the Lookup Editor (\u201cSplunk App for Lookup File Editing\u201c) - if installed.</p>\n<p>Configuration \u2192 Seed Items \u2192 Edit Seed Domains</p>\n<p>Populate apex_domains.csv, for example:</p>\n<table>\n<thead>\n<tr>\n<th>entity</th>\n<th>target</th>\n<th>description</th>\n<th>out_of_scope</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>example</td>\n<td>example.com</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>example</td>\n<td>example.org</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>portswigger</td>\n<td>ginandjuice.shop</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>acunetix</td>\n<td>vulnweb.com</td>\n<td></td>\n<td></td>\n</tr>\n</tbody>\n</table>\n<p>Now we\u2019ll setup a basic discovery job - again, using the menu:</p>\n<p>Configuration \u2192 Data Inputs \u2192 Edit Discovery Jobs</p>\n<p>Give the discovery input a name, specify the types of discovery - or * for all basic discovery types. Specify an entity - which relates back to the entity field in the seed lookups and use the More settings option to specify a target index and the interval. As with all modular inputs, leave the interval blank to run the input a single time, or specify either a cron string or the number of seconds between inputs.</p>\n<p>On saving the input, Splunk will run it based on the schedule. If the schedule was left blank, Splunk will run it immediately and once only - which is handy for testing.</p>\n<p>The app typically needs to run discovery at least twice to start getting interesting data - the first time to discover an initial set of subdomains, which will be used in subsequent discovery of open ports, web services etc.</p>",
+        "installation_source": "## Installation and Configuration Overview\n\n1. Install the App for External Attack Surface Management from Splunk or a tgz release from github\n2. Create an index e.g. 'easm' or pick an existing index to use and update the `easm_index` macro as required, e.g. `index=your_index_here`\n3. Setup a HEC input - and ensure port 8088 is accessible by our EASM worker. Leave the sourcetype set to Automatic and specify your target index (e.g. easm) as the default.\n4. Make a note of the HEC token and confirm that HEC is enabled, globally (by default it isn\u2019t).\n2. Use the app's setup page to configure details of your external worker - the base url:port and API key, along with a HEC URL and token to be passed to the worker during discovery\n3. Edit the app's lookups - via the app's UI - to configure your seeds i.e apex domains, IPs, IP ranges and known subdomains\n4. Create discovery jobs - modular inputs - again, via the app's UI for convenience\n5. Wait for results\n\n## App Configuration Steps\n\nUse the setup page to configure the application\n\n|**Field**|**Description**|**Example**|\n|---|---|---|\n|Base URL of EASM Worker|The URL of our EASM worker - starting with https, followed by the FQDN of our host.|https://some-easm-worker-host.spinningplates.net|\n|API Key|The value we configured in the .env file earlier|some_super_secure_string|\n|HEC URL|The URL of our HEC endpoint - which could be on this Splunk server, or another one|http://3.25.119.19:8088/services/collector/event|\n|HEC Token|The HEC token shown by Splunk when setting up a HEC input|dd8f39b4-a93e-4d07-9a94-2128c4bcd0ab|\n\nNow we can setup our seeds - typically one or more apex domains e.g. example.com and example.org.\n\nSeeds are managed via lookups. The EASM App\u2019s navigation menu includes links to edit those lookups using the Lookup Editor (\u201cSplunk App for Lookup File Editing\u201c) - if installed.\n\nConfiguration \u2192 Seed Items \u2192 Edit Seed Domains\n\nPopulate apex_domains.csv, for example:\n\n|entity|target|description|out_of_scope|\n|---|---|---|---|\n|example|example.com|||\n|example|example.org|||\n|portswigger|ginandjuice.shop|||\n|acunetix|vulnweb.com|||\n\nNow we\u2019ll setup a basic discovery job - again, using the menu:\n\nConfiguration \u2192 Data Inputs \u2192 Edit Discovery Jobs\n\nGive the discovery input a name, specify the types of discovery - or * for all basic discovery types. Specify an entity - which relates back to the entity field in the seed lookups and use the More settings option to specify a target index and the interval. As with all modular inputs, leave the interval blank to run the input a single time, or specify either a cron string or the number of seconds between inputs.\n\nOn saving the input, Splunk will run it based on the schedule. If the schedule was left blank, Splunk will run it immediately and once only - which is handy for testing.\n\nThe app typically needs to run discovery at least twice to start getting interesting data - the first time to discover an initial set of subdomains, which will be used in subsequent discovery of open ports, web services etc.",
+        "license": {
+          "canonical_name": "mit",
+          "display_name": "MIT License",
+          "url": "https://opensource.org/licenses/MIT"
+        },
+        "license_name": "mit",
+        "license_url": "https://opensource.org/licenses/MIT",
+        "product": "splunk",
+        "product_types": [
+          "enterprise",
+          "cloud"
+        ],
+        "public": true,
+        "ranking": [
+          {
+            "rank": 11,
+            "category_name": "vulnerability_scanner",
+            "category_display_name": "Vulnerability Scanner"
+          },
+          {
+            "rank": 1510,
+            "category_name": "security_compliance",
+            "category_display_name": "Security, Fraud & Compliance"
+          }
+        ],
+        "rating": {
+          "count": 1,
+          "average": 5
+        },
+        "release": {
+          "release_id": 34632,
+          "release_name": "1.1.2",
+          "notes": "<p>Updated splunklib</p>",
+          "created_time": "2024-09-12T05:44:31.610946Z",
+          "published_time": "2024-09-12T05:44:51.373217Z",
+          "updated_time": "2024-09-19T07:46:31.045418Z",
+          "size": 191361,
+          "md5": "cdeb5e55c91dfb16a319d9783010b969",
+          "sha256": "7d752f88fa1132bff6e35efd6ac2f51b10632704a065dea6fa3cdde53862a6d5",
+          "filename": "app-for-external-attack-surface-management-easm_112.tgz",
+          "signed_available": true,
+          "passed_validation": true,
+          "path": "https://splunkbase.splunk.com/app/7027/release/1.1.2/download/",
+          "product_types": [
+            "enterprise",
+            "cloud"
+          ],
+          "fedramp_validation": "no",
+          "min_product_version_str": null,
+          "version_compatibility": [
+            "9.4",
+            "9.3",
+            "9.2",
+            "9.1",
+            "9.0",
+            "8.2",
+            "8.1",
+            "8.0"
+          ],
+          "actions": [],
+          "cim_compatibility": [],
+          "platform": "independent",
+          "appinspect_passed": false,
+          "product_compatibility": "splunk",
+          "cloud_compatible": true
+        },
+        "releases": [
+          {
+            "release_id": 34632,
+            "release_name": "1.1.2",
+            "notes": "<p>Updated splunklib</p>",
+            "created_time": "2024-09-12T05:44:31.610946Z",
+            "published_time": "2024-09-12T05:44:51.373217Z",
+            "updated_time": "2024-09-19T07:46:31.045418Z",
+            "size": 191361,
+            "md5": "cdeb5e55c91dfb16a319d9783010b969",
+            "sha256": "7d752f88fa1132bff6e35efd6ac2f51b10632704a065dea6fa3cdde53862a6d5",
+            "filename": "app-for-external-attack-surface-management-easm_112.tgz",
+            "signed_available": true,
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/7027/release/1.1.2/download/",
+            "product_types": [
+              "enterprise",
+              "cloud"
+            ],
+            "fedramp_validation": "no",
+            "min_product_version_str": null,
+            "version_compatibility": [
+              "9.4",
+              "9.3",
+              "9.2",
+              "9.1",
+              "9.0",
+              "8.2",
+              "8.1",
+              "8.0"
+            ],
+            "actions": [],
+            "cim_compatibility": [],
+            "platform": "independent",
+            "appinspect_passed": false,
+            "product_compatibility": "splunk",
+            "cloud_compatible": true
+          },
+          {
+            "release_id": 31240,
+            "release_name": "1.1.1",
+            "notes": "<p>Removing a .old file for AppInspect compatibility.</p>",
+            "created_time": "2023-11-17T05:42:49.517947Z",
+            "published_time": "2023-11-17T05:42:49.517962Z",
+            "updated_time": "2025-01-30T10:11:43.619620Z",
+            "size": 192237,
+            "md5": "d520855d37f5a42b81edfbd0a743c32d",
+            "sha256": "5a772e23c03c6bfe82853910eb3c2a4611ecf0f1bb5ade48598eaedf2e86a89f",
+            "filename": "app-for-external-attack-surface-management-easm_111.tgz",
+            "signed_available": true,
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/7027/release/1.1.1/download/",
+            "product_types": [
+              "enterprise"
+            ],
+            "fedramp_validation": "no",
+            "min_product_version_str": null,
+            "version_compatibility": [
+              "9.4",
+              "9.3",
+              "9.2",
+              "9.1",
+              "9.0"
+            ],
+            "actions": [],
+            "cim_compatibility": [],
+            "platform": "independent",
+            "appinspect_passed": false,
+            "product_compatibility": "splunk",
+            "cloud_compatible": false
+          },
+          {
+            "release_id": 30509,
+            "release_name": "1.1",
+            "notes": "<p>2023-09-09 - First Splunkbase release for a port of app 7010 with a revised app id</p>",
+            "created_time": "2023-09-09T01:51:31.926971Z",
+            "published_time": "2023-09-09T01:51:31.926983Z",
+            "updated_time": "2024-01-09T13:21:57.591780Z",
+            "size": 195110,
+            "md5": "7987f31028534df3e4d005edc0d12a6d",
+            "sha256": "b31c8b5dc90ef7f938c235cfd8ee142ab691457c59a80a7a074c1a6f7f9a099a",
+            "filename": "app-for-external-attack-surface-management-easm_11.tgz",
+            "signed_available": true,
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/7027/release/1.1/download/",
+            "product_types": [
+              "enterprise"
+            ],
+            "fedramp_validation": "no",
+            "min_product_version_str": null,
+            "version_compatibility": [
+              "9.4",
+              "9.3",
+              "9.2",
+              "9.1",
+              "9.0"
+            ],
+            "actions": [],
+            "cim_compatibility": [],
+            "platform": "independent",
+            "appinspect_passed": true,
+            "product_compatibility": "splunk",
+            "cloud_compatible": false
+          }
+        ],
+        "repo_name": "splunk_app_for_easm",
+        "repo_url": "https://github.com/gf13579/splunk_app_for_easm",
+        "screenshots": [
+          "https://cdn.splunkbase.splunk.com/media/public/screenshots/595bbff6-4eb5-11ee-b4bc-6617529ac42a.png",
+          "https://cdn.splunkbase.splunk.com/media/public/screenshots/54e0cf84-4eb5-11ee-b86f-4a83fd80fad4.png",
+          "https://cdn.splunkbase.splunk.com/media/public/screenshots/7ecf434e-4eb4-11ee-85a4-4a615a83a434.png",
+          "https://cdn.splunkbase.splunk.com/media/public/screenshots/7cc9ca56-4eb4-11ee-a03d-66dcbf6b4336.png",
+          "https://cdn.splunkbase.splunk.com/media/public/screenshots/793d8e7c-4eb4-11ee-ae63-9e045355cc0b.png"
+        ],
+        "support": "developer",
+        "title": "App for External Attack Surface Management (EASM)",
+        "troubleshooting": "<p>In the app, check the EASM Logs dashboard (Advanced -&gt; EASM Logs) to see Splunk invoking the modular inputs, and output from those inputs.</p>\n<p>On the worker node, you can view live log activity (stdout) using <code>docker-compose logs --follow --timestamps</code>.</p>",
+        "troubleshooting_source": "In the app, check the EASM Logs dashboard (Advanced -> EASM Logs) to see Splunk invoking the modular inputs, and output from those inputs.\n\nOn the worker node, you can view live log activity (stdout) using `docker-compose logs --follow --timestamps`.",
+        "type": "app",
+        "updated_time": "2025-01-30T10:11:43.640623Z",
+        "video_link": null,
+        "app_type": "app",
+        "schedule_release": null,
+        "name": "App for External Attack Surface Management (EASM)",
+        "published_datetime": "2023-09-13T09:53:54.913844Z",
+        "draft": false,
+        "display_editors": false
+      }
+    },
+    "__N_SSP": true
+  },
+  "page": "/app/[id]",
+  "query": {
+    "id": "7027"
+  },
+  "buildId": "O66W2gMpDg2QO-9xLw36i",
+  "assetPrefix": "https://cdn.splunkbase.splunk.com",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gssp": true,
+  "scriptLoader": [
+    {
+      "src": "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js",
+      "strategy": "afterInteractive"
+    },
+    {
+      "src": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+      "type": "text/javascript",
+      "charSet": "UTF-8",
+      "data-domain-script": "9ff638b7-8097-449d-9741-7b3c526b0da7",
+      "strategy": "afterInteractive"
+    },
+    {
+      "id": "cookie_snippet",
+      "type": "text/javascript",
+      "strategy": "afterInteractive",
+      "children": "\n              function OptanonWrapper() { }\n            "
+    },
+    {
+      "id": "gtm_script",
+      "strategy": "afterInteractive",
+      "children": "\n                (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n                })(window,document,'script','dataLayer','GTM-TPV7TP');\n            "
+    }
+  ]
+}
