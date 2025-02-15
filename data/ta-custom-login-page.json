@@ -38,12 +38,13 @@
         },
         "license_name": "none",
         "license_url": "",
+        "license_agreement_read_required": false,
         "product": "splunk",
         "product_types": [],
         "public": true,
         "ranking": [
           {
-            "rank": 1150,
+            "rank": 1149,
             "category_name": "utilities",
             "category_display_name": "Utilities"
           }
@@ -104,7 +105,7 @@
   "query": {
     "id": "6157"
   },
-  "buildId": "O66W2gMpDg2QO-9xLw36i",
+  "buildId": "VhRBZsYqXFh5XkRx7qUPv",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

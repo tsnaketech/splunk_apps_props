@@ -22,7 +22,7 @@
         "description": "The Splunk Add-on for NGINX allows a Splunk software administrator to collect Web server activities, performance metrics, and error logs using file monitoring and API inputs.\n\nThis add-on provides the inputs and CIM-compatible knowledge to use with other Splunk apps, such as Splunk Enterprise Security, the Splunk App for PCI Compliance, and Splunk IT Service Intelligence.",
         "documentation": "<p>Documentation for this Add-on is posted at <a href=\"http://docs.splunk.com/Documentation/AddOns/latest/nginx/About\" title=\"Splunk Docs\">Splunk Docs</a>.</p>",
         "documentation_source": "Documentation for this Add-on is posted at [Splunk Docs](http://docs.splunk.com/Documentation/AddOns/latest/nginx/About \"Splunk Docs\").",
-        "download_count": 46705,
+        "download_count": 46751,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/43731336-6aa4-11ef-ab3b-faca7e54e553.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -39,6 +39,7 @@
         },
         "license_name": "Splunk General Terms",
         "license_url": "https://www.splunk.com/en_us/legal/splunk-general-terms.html",
+        "license_agreement_read_required": false,
         "product": "splunk",
         "product_types": [
           "enterprise",
@@ -47,12 +48,12 @@
         "public": true,
         "ranking": [
           {
-            "rank": 33,
+            "rank": 32,
             "category_name": "security_compliance",
             "category_display_name": "Security, Fraud & Compliance"
           },
           {
-            "rank": 38,
+            "rank": 37,
             "category_name": "it_operations_management",
             "category_display_name": "IT Operations"
           }
@@ -159,7 +160,7 @@
   "query": {
     "id": "3258"
   },
-  "buildId": "O66W2gMpDg2QO-9xLw36i",
+  "buildId": "VhRBZsYqXFh5XkRx7qUPv",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

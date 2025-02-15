@@ -45,6 +45,7 @@
         },
         "license_name": "Splunk General Terms",
         "license_url": "https://www.splunk.com/en_us/legal/splunk-general-terms.html",
+        "license_agreement_read_required": false,
         "product": "splunk",
         "product_types": [
           "enterprise",
@@ -1010,7 +1011,7 @@
   "query": {
     "id": "263"
   },
-  "buildId": "O66W2gMpDg2QO-9xLw36i",
+  "buildId": "VhRBZsYqXFh5XkRx7qUPv",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

@@ -39,6 +39,7 @@
         },
         "license_name": "mit",
         "license_url": "https://opensource.org/licenses/MIT",
+        "license_agreement_read_required": false,
         "product": "splunk",
         "product_types": [
           "enterprise",
@@ -47,7 +48,7 @@
         "public": true,
         "ranking": [
           {
-            "rank": 1504,
+            "rank": 1506,
             "category_name": "security_compliance",
             "category_display_name": "Security, Fraud & Compliance"
           },
@@ -233,7 +234,7 @@
   "query": {
     "id": "7027"
   },
-  "buildId": "O66W2gMpDg2QO-9xLw36i",
+  "buildId": "VhRBZsYqXFh5XkRx7qUPv",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
