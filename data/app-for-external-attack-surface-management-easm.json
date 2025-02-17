@@ -48,14 +48,14 @@
         "public": true,
         "ranking": [
           {
-            "rank": 1498,
-            "category_name": "security_compliance",
-            "category_display_name": "Security, Fraud & Compliance"
-          },
-          {
             "rank": 10,
             "category_name": "vulnerability_scanner",
             "category_display_name": "Vulnerability Scanner"
+          },
+          {
+            "rank": 1498,
+            "category_name": "security_compliance",
+            "category_display_name": "Security, Fraud & Compliance"
           }
         ],
         "rating": {
