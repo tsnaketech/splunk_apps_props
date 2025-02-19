@@ -309,7 +309,7 @@
             "notes": "<p><a href=\"https://docs.splunk.com/Documentation/ES/7.2.0/RN/Enhancements\">https://docs.splunk.com/Documentation/ES/7.2.0/RN/Enhancements</a></p>",
             "created_time": "2023-09-01T18:50:29.155309Z",
             "published_time": "2023-09-01T18:50:29.155321Z",
-            "updated_time": "2024-09-11T21:02:09.262161Z",
+            "updated_time": "2025-02-18T20:29:46.679422Z",
             "size": 957162226,
             "md5": "e251b6ad777254e098eb9e7aa2a86e9c",
             "sha256": "a0782af46e32e329bf4eaaf6996476a302a480e20d76255410f6970ce5f5687b",
@@ -324,7 +324,6 @@
             "fedramp_validation": "yes",
             "min_product_version_str": null,
             "version_compatibility": [
-              "9.2",
               "9.1",
               "9.0"
             ],
@@ -995,7 +994,7 @@
         "troubleshooting": "<p><a href=\"https://docs.splunk.com/Documentation/ES/7.3.1/Admin/Troubleshootscripterrors\">https://docs.splunk.com/Documentation/ES/7.3.1/Admin/Troubleshootscripterrors</a></p>",
         "troubleshooting_source": "https://docs.splunk.com/Documentation/ES/7.3.1/Admin/Troubleshootscripterrors",
         "type": "app",
-        "updated_time": "2025-02-12T19:46:53.041573Z",
+        "updated_time": "2025-02-18T20:29:46.849043Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
@@ -1011,7 +1010,7 @@
   "query": {
     "id": "263"
   },
-  "buildId": "P_qmo5Rrd4gbkKDtZG_Ty",
+  "buildId": "a7zd-eGVjfMkUYBr9q15-",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
