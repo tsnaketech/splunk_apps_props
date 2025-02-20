@@ -18,11 +18,11 @@
           "name": "ThreatQuotient Team",
           "redirectTo": "threatquotient"
         },
-        "description": "The new ThreatQuotient App for Splunk improves on our previous capability while incorporating feedback collected from our customers around functionality and deployability.\n\nNote: The new ThreatQuotient App for Splunk requires the ThreatQuotient Add-on for Splunk as well as ThreatQ version 4.16 or later.\n\nThreatQuotient Splunk Support Documentation\nSee the Splunk Documentation located on the ThreatQuotient Help Center for more information.\n\n https://helpcenter.threatq.com/Integration_Documentation/app/Splunk.htm",
+        "description": "The new ThreatQuotient App for Splunk improves on our previous capability while incorporating feedback collected from our customers around functionality and deployability.\n\nNote: The new ThreatQuotient App for Splunk requires the ThreatQuotient Add-on for Splunk as well as ThreatQ version 5.11 or later.\n\nThreatQuotient Splunk Support Documentation\nSee the Splunk Documentation located on the ThreatQuotient Help Center for more information.\n\n https://helpcenter.threatq.com/Integration_Documentation/app/Splunk.htm",
         "documentation": "<h3>Functionality includes:</h3>\n<p><strong>Ingestion of ThreatQ Data into Splunk</strong><br>\nEnable users to customize what data is ingested by leveraging ThreatQ exports and Splunk input filters. Customization continues for advanced users with the ability to modify leveraged indexes and Splunk saved searches that drive the ThreatQuotient App for Splunk to meet the needs of their environment.</p>\n<p><strong>Matching of Splunk Events with ThreatQ Indicators</strong><br>\nProvide context on possible malicious activity by matching Splunk Events with ThreatQ indicators. Matching is customizable by ThreatQ indicator status and score to meet the differing needs of customer environments and workflows.</p>\n<p><strong>Reporting of Matches in Splunk back to ThreatQ as Sighting Events</strong><br>\nSighting events in ThreatQ will show indicator matches from Splunk and will be grouped by indicator.</p>\n<p><strong>Workflow Actions</strong><br>\nUsers can modify ThreatQ data based on any indexed indicators within Splunk.</p>\n<p><strong>Workflow actions include:</strong><br>\n- ThreatQ: Add Indicator<br>\n- ThreatQ: Update Indicator Status<br>\n- ThreatQ: Lookup Indicator<br>\n- ThreatQ: Mark as False Positive<br>\n- ThreatQ: Mark as True Positive</p>\n<p><strong>Note:</strong> Support for ingesting ThreatQ data into Splunk Enterprise Security will be leveraged in the additional workflows provided within that application.</p>\n<h3>Deployability</h3>\n<p>The ThreatQuotient App for Splunk has been re-designed to scale to our customers' growing needs, supporting installations in Splunk deployments of all sizes.</p>",
         "documentation_source": "### Functionality includes:\n\n**Ingestion of ThreatQ Data into Splunk**\nEnable users to customize what data is ingested by leveraging ThreatQ exports and Splunk input filters. Customization continues for advanced users with the ability to modify leveraged indexes and Splunk saved searches that drive the ThreatQuotient App for Splunk to meet the needs of their environment.\n\n**Matching of Splunk Events with ThreatQ Indicators**\nProvide context on possible malicious activity by matching Splunk Events with ThreatQ indicators. Matching is customizable by ThreatQ indicator status and score to meet the differing needs of customer environments and workflows.\n\n**Reporting of Matches in Splunk back to ThreatQ as Sighting Events**\nSighting events in ThreatQ will show indicator matches from Splunk and will be grouped by indicator.\n\n**Workflow Actions**\nUsers can modify ThreatQ data based on any indexed indicators within Splunk.\n\n**Workflow actions include:**\n- ThreatQ: Add Indicator\n- ThreatQ: Update Indicator Status\n- ThreatQ: Lookup Indicator\n- ThreatQ: Mark as False Positive\n- ThreatQ: Mark as True Positive\n\n\n**Note:** Support for ingesting ThreatQ data into Splunk Enterprise Security will be leveraged in the additional workflows provided within that application.\n\n### Deployability\nThe ThreatQuotient App for Splunk has been re-designed to scale to our customers' growing needs, supporting installations in Splunk deployments of all sizes.",
-        "download_count": 3913,
-        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/16802b10-4aa2-11ef-b6ee-aa37b693ef8d.png",
+        "download_count": 3916,
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/c8c548b4-ef0c-11ef-86bc-5e2dd6971782.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
         "is_archived": false,
@@ -56,25 +56,27 @@
           "average": 5
         },
         "release": {
-          "release_id": 34173,
-          "release_name": "2.8.0",
-          "notes": "<p>ThreatQ Splunk App 2.8.0<br>\n  - Release Notes<br>\n    - Fixed Splunk connectivity issues by using the requests library</p>",
-          "created_time": "2024-07-25T16:22:30.300346Z",
-          "published_time": "2024-07-25T16:23:16.064671Z",
-          "updated_time": "2025-01-30T10:05:02.408189Z",
-          "size": 3878354,
-          "md5": "d91b65e70fdd05815220b879679a2a2c",
-          "sha256": "979fd987b20461daf6020427b0212d7f1d8434291cbf6864ebca8b43cfee9ad7",
-          "filename": "threatquotient-app-for-splunk_280.tgz",
+          "release_id": 36756,
+          "release_name": "3.0.0",
+          "notes": "<p>3.0.0<br>\n - Resolved Splunk cloud compatibility issues.<br>\n - Added support to perform bulk indicator lookup.<br>\n - Added two new configuration tabs:<br>\n - Splunk Custom Fields<br>\n - Splunk Forwarder<br>\n - Added the ability to fetch latest indicators from ThreatQ to Splunk through the App - see the Splunk Forwarder section under <br>\n   Configuration chapter for further details.<br>\n - Renamed the Custom Attributes and Custom Fields parameters to ThreatQ Custom Attributes and ThreatQ Custom Fields. Relocated <br>\n   these updated fields to the new Splunk Custom Fields tab. <br>\n - Added ThreatQ Custom Attributes<br>\n - Added support to send custom fields to ThreatQ from Splunk.<br>\n - Added support to send Datamodel name and latest raw event to ThreatQ.<br>\n - Added support for Splunk Enterprise and Cloud versions 9.3.x and 9.4.x.<br>\n - Updated the minimum ThreatQ version to 5.11.0.</p>",
+          "created_time": "2025-02-19T21:59:26.298761Z",
+          "published_time": "2025-02-19T22:01:35.240388Z",
+          "updated_time": "2025-02-19T22:34:35.375499Z",
+          "size": 3941469,
+          "md5": "ce7db58078661a954a9778e054554afe",
+          "sha256": "3f146f5250808853561efb5a0c51dcd28b7a56a5ea72aba9b1a00c433e3a36e8",
+          "filename": "threatquotient-app-for-splunk_300.tgz",
           "signed_available": true,
           "passed_validation": true,
-          "path": "https://splunkbase.splunk.com/app/4418/release/2.8.0/download/",
+          "path": "https://splunkbase.splunk.com/app/4418/release/3.0.0/download/",
           "product_types": [
             "enterprise"
           ],
           "fedramp_validation": "no",
           "min_product_version_str": null,
           "version_compatibility": [
+            "9.4",
+            "9.3",
             "9.2",
             "9.1"
           ],
@@ -86,6 +88,38 @@
           "cloud_compatible": false
         },
         "releases": [
+          {
+            "release_id": 36756,
+            "release_name": "3.0.0",
+            "notes": "<p>3.0.0<br>\n - Resolved Splunk cloud compatibility issues.<br>\n - Added support to perform bulk indicator lookup.<br>\n - Added two new configuration tabs:<br>\n - Splunk Custom Fields<br>\n - Splunk Forwarder<br>\n - Added the ability to fetch latest indicators from ThreatQ to Splunk through the App - see the Splunk Forwarder section under <br>\n   Configuration chapter for further details.<br>\n - Renamed the Custom Attributes and Custom Fields parameters to ThreatQ Custom Attributes and ThreatQ Custom Fields. Relocated <br>\n   these updated fields to the new Splunk Custom Fields tab. <br>\n - Added ThreatQ Custom Attributes<br>\n - Added support to send custom fields to ThreatQ from Splunk.<br>\n - Added support to send Datamodel name and latest raw event to ThreatQ.<br>\n - Added support for Splunk Enterprise and Cloud versions 9.3.x and 9.4.x.<br>\n - Updated the minimum ThreatQ version to 5.11.0.</p>",
+            "created_time": "2025-02-19T21:59:26.298761Z",
+            "published_time": "2025-02-19T22:01:35.240388Z",
+            "updated_time": "2025-02-19T22:34:35.375499Z",
+            "size": 3941469,
+            "md5": "ce7db58078661a954a9778e054554afe",
+            "sha256": "3f146f5250808853561efb5a0c51dcd28b7a56a5ea72aba9b1a00c433e3a36e8",
+            "filename": "threatquotient-app-for-splunk_300.tgz",
+            "signed_available": true,
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/4418/release/3.0.0/download/",
+            "product_types": [
+              "enterprise"
+            ],
+            "fedramp_validation": "no",
+            "min_product_version_str": null,
+            "version_compatibility": [
+              "9.4",
+              "9.3",
+              "9.2",
+              "9.1"
+            ],
+            "actions": [],
+            "cim_compatibility": [],
+            "platform": "independent",
+            "appinspect_passed": false,
+            "product_compatibility": "splunk",
+            "cloud_compatible": false
+          },
           {
             "release_id": 34173,
             "release_name": "2.8.0",
@@ -569,7 +603,7 @@
         "troubleshooting": "",
         "troubleshooting_source": "",
         "type": "app",
-        "updated_time": "2025-01-30T10:05:02.478730Z",
+        "updated_time": "2025-02-19T22:34:35.460542Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
