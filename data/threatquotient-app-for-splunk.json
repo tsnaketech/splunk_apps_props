@@ -61,16 +61,17 @@
           "notes": "<p>3.0.0<br>\n - Resolved Splunk cloud compatibility issues.<br>\n - Added support to perform bulk indicator lookup.<br>\n - Added two new configuration tabs:<br>\n - Splunk Custom Fields<br>\n - Splunk Forwarder<br>\n - Added the ability to fetch latest indicators from ThreatQ to Splunk through the App - see the Splunk Forwarder section under <br>\n   Configuration chapter for further details.<br>\n - Renamed the Custom Attributes and Custom Fields parameters to ThreatQ Custom Attributes and ThreatQ Custom Fields. Relocated <br>\n   these updated fields to the new Splunk Custom Fields tab. <br>\n - Added ThreatQ Custom Attributes<br>\n - Added support to send custom fields to ThreatQ from Splunk.<br>\n - Added support to send Datamodel name and latest raw event to ThreatQ.<br>\n - Added support for Splunk Enterprise and Cloud versions 9.3.x and 9.4.x.<br>\n - Updated the minimum ThreatQ version to 5.11.0.</p>",
           "created_time": "2025-02-19T21:59:26.298761Z",
           "published_time": "2025-02-19T22:01:35.240388Z",
-          "updated_time": "2025-02-19T22:34:35.375499Z",
-          "size": 3941469,
-          "md5": "ce7db58078661a954a9778e054554afe",
-          "sha256": "3f146f5250808853561efb5a0c51dcd28b7a56a5ea72aba9b1a00c433e3a36e8",
+          "updated_time": "2025-02-20T10:34:36.309293Z",
+          "size": 3941482,
+          "md5": "1bfbeb8d52bc35a6da8ddd05ba44d770",
+          "sha256": "c7af68a5f562d7115648edc3f53352a5b4014c4f141982e2894420cdaf7d6072",
           "filename": "threatquotient-app-for-splunk_300.tgz",
           "signed_available": true,
           "passed_validation": true,
           "path": "https://splunkbase.splunk.com/app/4418/release/3.0.0/download/",
           "product_types": [
-            "enterprise"
+            "enterprise",
+            "cloud"
           ],
           "fedramp_validation": "no",
           "min_product_version_str": null,
@@ -85,7 +86,7 @@
           "platform": "independent",
           "appinspect_passed": false,
           "product_compatibility": "splunk",
-          "cloud_compatible": false
+          "cloud_compatible": true
         },
         "releases": [
           {
@@ -94,16 +95,17 @@
             "notes": "<p>3.0.0<br>\n - Resolved Splunk cloud compatibility issues.<br>\n - Added support to perform bulk indicator lookup.<br>\n - Added two new configuration tabs:<br>\n - Splunk Custom Fields<br>\n - Splunk Forwarder<br>\n - Added the ability to fetch latest indicators from ThreatQ to Splunk through the App - see the Splunk Forwarder section under <br>\n   Configuration chapter for further details.<br>\n - Renamed the Custom Attributes and Custom Fields parameters to ThreatQ Custom Attributes and ThreatQ Custom Fields. Relocated <br>\n   these updated fields to the new Splunk Custom Fields tab. <br>\n - Added ThreatQ Custom Attributes<br>\n - Added support to send custom fields to ThreatQ from Splunk.<br>\n - Added support to send Datamodel name and latest raw event to ThreatQ.<br>\n - Added support for Splunk Enterprise and Cloud versions 9.3.x and 9.4.x.<br>\n - Updated the minimum ThreatQ version to 5.11.0.</p>",
             "created_time": "2025-02-19T21:59:26.298761Z",
             "published_time": "2025-02-19T22:01:35.240388Z",
-            "updated_time": "2025-02-19T22:34:35.375499Z",
-            "size": 3941469,
-            "md5": "ce7db58078661a954a9778e054554afe",
-            "sha256": "3f146f5250808853561efb5a0c51dcd28b7a56a5ea72aba9b1a00c433e3a36e8",
+            "updated_time": "2025-02-20T10:34:36.309293Z",
+            "size": 3941482,
+            "md5": "1bfbeb8d52bc35a6da8ddd05ba44d770",
+            "sha256": "c7af68a5f562d7115648edc3f53352a5b4014c4f141982e2894420cdaf7d6072",
             "filename": "threatquotient-app-for-splunk_300.tgz",
             "signed_available": true,
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/4418/release/3.0.0/download/",
             "product_types": [
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "fedramp_validation": "no",
             "min_product_version_str": null,
@@ -118,7 +120,7 @@
             "platform": "independent",
             "appinspect_passed": false,
             "product_compatibility": "splunk",
-            "cloud_compatible": false
+            "cloud_compatible": true
           },
           {
             "release_id": 34173,
@@ -603,7 +605,7 @@
         "troubleshooting": "",
         "troubleshooting_source": "",
         "type": "app",
-        "updated_time": "2025-02-19T22:34:35.460542Z",
+        "updated_time": "2025-02-20T10:34:36.423484Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
@@ -619,7 +621,7 @@
   "query": {
     "id": "4418"
   },
-  "buildId": "a7zd-eGVjfMkUYBr9q15-",
+  "buildId": "Vhp7qIjkvFVA4WMqu6j2Z",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
