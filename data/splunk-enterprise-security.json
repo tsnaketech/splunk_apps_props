@@ -984,10 +984,10 @@
         "repo_name": "",
         "repo_url": "",
         "screenshots": [
-          "https://cdn.splunkbase.splunk.com/media/public/screenshots/7d9fce92-9205-11ed-9c46-124af4e55f51.png",
-          "https://cdn.splunkbase.splunk.com/media/public/screenshots/77251978-9205-11ed-bee1-0298edf1a44a.png",
-          "https://cdn.splunkbase.splunk.com/media/public/screenshots/d43e7a14-e414-11eb-ba9b-0a58b5c6f36b.png",
-          "https://cdn.splunkbase.splunk.com/media/public/screenshots/cf285b8a-e414-11eb-a424-02c13fb04365.png"
+          "https://cdn.splunkbase.splunk.com/media/public/screenshots/dc2f77db-8564-437c-91a4-ab178c2ee856.png",
+          "https://cdn.splunkbase.splunk.com/media/public/screenshots/2aff1f88-d218-4e62-9adf-868eae139a56.png",
+          "https://cdn.splunkbase.splunk.com/media/public/screenshots/e88c921e-5156-41f0-985c-8dd0bc1ce559.png",
+          "https://cdn.splunkbase.splunk.com/media/public/screenshots/872912af-3f1f-4ef2-9ea5-33c0ba6ea2b3.png"
         ],
         "support": "premium",
         "title": "Splunk Enterprise Security",
@@ -1010,33 +1010,10 @@
   "query": {
     "id": "263"
   },
-  "buildId": "Vhp7qIjkvFVA4WMqu6j2Z",
+  "buildId": "6SWb1KfKYuX7KWgdyZHrn",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
   "gssp": true,
-  "scriptLoader": [
-    {
-      "src": "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js",
-      "strategy": "afterInteractive"
-    },
-    {
-      "src": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
-      "type": "text/javascript",
-      "charSet": "UTF-8",
-      "data-domain-script": "9ff638b7-8097-449d-9741-7b3c526b0da7",
-      "strategy": "afterInteractive"
-    },
-    {
-      "id": "cookie_snippet",
-      "type": "text/javascript",
-      "strategy": "afterInteractive",
-      "children": "\n              function OptanonWrapper() { }\n            "
-    },
-    {
-      "id": "gtm_script",
-      "strategy": "afterInteractive",
-      "children": "\n                (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n                })(window,document,'script','dataLayer','GTM-TPV7TP');\n            "
-    }
-  ]
+  "scriptLoader": []
 }

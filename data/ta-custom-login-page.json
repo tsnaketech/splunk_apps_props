@@ -105,33 +105,10 @@
   "query": {
     "id": "6157"
   },
-  "buildId": "Vhp7qIjkvFVA4WMqu6j2Z",
+  "buildId": "6SWb1KfKYuX7KWgdyZHrn",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
   "gssp": true,
-  "scriptLoader": [
-    {
-      "src": "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js",
-      "strategy": "afterInteractive"
-    },
-    {
-      "src": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
-      "type": "text/javascript",
-      "charSet": "UTF-8",
-      "data-domain-script": "9ff638b7-8097-449d-9741-7b3c526b0da7",
-      "strategy": "afterInteractive"
-    },
-    {
-      "id": "cookie_snippet",
-      "type": "text/javascript",
-      "strategy": "afterInteractive",
-      "children": "\n              function OptanonWrapper() { }\n            "
-    },
-    {
-      "id": "gtm_script",
-      "strategy": "afterInteractive",
-      "children": "\n                (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n                })(window,document,'script','dataLayer','GTM-TPV7TP');\n            "
-    }
-  ]
+  "scriptLoader": []
 }

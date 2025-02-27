@@ -27,7 +27,7 @@
         "description": "An application for Splunk Enterprise Security providing additional insights into everything surrounding and/or impacting your security detections.",
         "documentation": "<p>See the application documentation <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/\">here</a> for more information on installing, configuring and using it.</p>\n<p>Credit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.<br>\nThanks to Dean Luxton for reporting issues, fixes and improvement ideas!</p>",
         "documentation_source": "See the application documentation [here](https://splunk.github.io/Splunk_App_for_Detection_Insights/) for more information on installing, configuring and using it.\n\nCredit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.\nThanks to Dean Luxton for reporting issues, fixes and improvement ideas!",
-        "download_count": 1125,
+        "download_count": 1130,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/2deee7ae-ab79-11ef-a425-b6262e59d253.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -58,7 +58,7 @@
             "category_display_name": "SIEM"
           },
           {
-            "rank": 760,
+            "rank": 757,
             "category_name": "security_compliance",
             "category_display_name": "Security, Fraud & Compliance"
           }
@@ -323,33 +323,10 @@
   "query": {
     "id": "7066"
   },
-  "buildId": "Vhp7qIjkvFVA4WMqu6j2Z",
+  "buildId": "6SWb1KfKYuX7KWgdyZHrn",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
   "gssp": true,
-  "scriptLoader": [
-    {
-      "src": "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js",
-      "strategy": "afterInteractive"
-    },
-    {
-      "src": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
-      "type": "text/javascript",
-      "charSet": "UTF-8",
-      "data-domain-script": "9ff638b7-8097-449d-9741-7b3c526b0da7",
-      "strategy": "afterInteractive"
-    },
-    {
-      "id": "cookie_snippet",
-      "type": "text/javascript",
-      "strategy": "afterInteractive",
-      "children": "\n              function OptanonWrapper() { }\n            "
-    },
-    {
-      "id": "gtm_script",
-      "strategy": "afterInteractive",
-      "children": "\n                (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n                })(window,document,'script','dataLayer','GTM-TPV7TP');\n            "
-    }
-  ]
+  "scriptLoader": []
 }

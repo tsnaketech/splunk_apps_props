@@ -21,7 +21,7 @@
         "description": "The Common Information Model is a set of field names and tags which are expected to define the least common denominator of a domain of interest. It is implemented as documentation on the Splunk docs website and JSON data model files in this add-on. Use the CIM add-on when modeling data or building apps to ensure compatibility between apps, or to just take advantage of these data models to pivot and report.",
         "documentation": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/latest/User/Releasenotes\">Release Notes</a><br>\nPlease see the <a href=\"http://docs.splunk.com/Documentation/CIM/latest/User/Overview\">Splunk Common Information Model Add-on user documentation</a>.</p>",
         "documentation_source": "[Release Notes](https://docs.splunk.com/Documentation/CIM/latest/User/Releasenotes)\nPlease see the [Splunk Common Information Model Add-on user documentation](http://docs.splunk.com/Documentation/CIM/latest/User/Overview).",
-        "download_count": 259451,
+        "download_count": 259592,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/9f99098e-e59e-11ef-af9c-62ba87d147ef.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -525,33 +525,10 @@
   "query": {
     "id": "1621"
   },
-  "buildId": "Vhp7qIjkvFVA4WMqu6j2Z",
+  "buildId": "6SWb1KfKYuX7KWgdyZHrn",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
   "gssp": true,
-  "scriptLoader": [
-    {
-      "src": "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js",
-      "strategy": "afterInteractive"
-    },
-    {
-      "src": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
-      "type": "text/javascript",
-      "charSet": "UTF-8",
-      "data-domain-script": "9ff638b7-8097-449d-9741-7b3c526b0da7",
-      "strategy": "afterInteractive"
-    },
-    {
-      "id": "cookie_snippet",
-      "type": "text/javascript",
-      "strategy": "afterInteractive",
-      "children": "\n              function OptanonWrapper() { }\n            "
-    },
-    {
-      "id": "gtm_script",
-      "strategy": "afterInteractive",
-      "children": "\n                (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n                })(window,document,'script','dataLayer','GTM-TPV7TP');\n            "
-    }
-  ]
+  "scriptLoader": []
 }

@@ -28,7 +28,7 @@
         "description": "The Splunk ES Content Update (ESCU) app delivers pre-packaged Security Content. ESCU provides regular Security Content updates to help security practitioners address ongoing time-sensitive threats, attack methods, and other security issues.\n\nSecurity Content consists of tactics, techniques, and methodologies that help with detection, investigation, and response. Security Content enables security teams to directly operationalize detection searches, investigative searches, and other supporting details. ESCU can generate Notable/Risk Events in Splunk Enterprise Security. Security Content also contains easy-to-read background information and guidance, for key context on motivations and risks associated with attack techniques, as well as pragmatic advice on how to combat those techniques.\n\nThe analytic stories and their searches are also available at - https://github.com/splunk/security_content.",
         "documentation": "<p>For more information please visit the <a href=\"http://docs.splunk.com/Documentation/ESCU\">Splunk ES Content Update user documentation</a>.</p>",
         "documentation_source": "For more information please visit the [Splunk ES Content Update user documentation](http://docs.splunk.com/Documentation/ESCU).",
-        "download_count": 136029,
+        "download_count": 136454,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/67d7c4c8-f2e5-11ef-94c0-ea7588b3590d.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "http://www.splunk.com/index.php/ask_expert/default/3174",
@@ -424,33 +424,10 @@
   "query": {
     "id": "3449"
   },
-  "buildId": "Vhp7qIjkvFVA4WMqu6j2Z",
+  "buildId": "6SWb1KfKYuX7KWgdyZHrn",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
   "gssp": true,
-  "scriptLoader": [
-    {
-      "src": "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js",
-      "strategy": "afterInteractive"
-    },
-    {
-      "src": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
-      "type": "text/javascript",
-      "charSet": "UTF-8",
-      "data-domain-script": "9ff638b7-8097-449d-9741-7b3c526b0da7",
-      "strategy": "afterInteractive"
-    },
-    {
-      "id": "cookie_snippet",
-      "type": "text/javascript",
-      "strategy": "afterInteractive",
-      "children": "\n              function OptanonWrapper() { }\n            "
-    },
-    {
-      "id": "gtm_script",
-      "strategy": "afterInteractive",
-      "children": "\n                (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n                })(window,document,'script','dataLayer','GTM-TPV7TP');\n            "
-    }
-  ]
+  "scriptLoader": []
 }
