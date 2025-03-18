@@ -49,13 +49,13 @@
         "ranking": [
           {
             "rank": 17,
-            "category_name": "siem",
-            "category_display_name": "SIEM"
+            "category_name": "ticketing",
+            "category_display_name": "Ticketing"
           },
           {
             "rank": 17,
-            "category_name": "ticketing",
-            "category_display_name": "Ticketing"
+            "category_name": "siem",
+            "category_display_name": "SIEM"
           }
         ],
         "rating": {
@@ -461,7 +461,7 @@
   "query": {
     "id": "5329"
   },
-  "buildId": "idjWTbQVCnK2CRqyWwvvM",
+  "buildId": "WWBDeS-hfdMFFJqVoScBz",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
