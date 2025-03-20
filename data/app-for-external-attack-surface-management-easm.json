@@ -48,14 +48,14 @@
         "public": true,
         "ranking": [
           {
-            "rank": 1481,
-            "category_name": "security_compliance",
-            "category_display_name": "Security, Fraud & Compliance"
-          },
-          {
             "rank": 10,
             "category_name": "vulnerability_scanner",
             "category_display_name": "Vulnerability Scanner"
+          },
+          {
+            "rank": 1481,
+            "category_name": "security_compliance",
+            "category_display_name": "Security, Fraud & Compliance"
           }
         ],
         "rating": {
@@ -234,7 +234,7 @@
   "query": {
     "id": "7027"
   },
-  "buildId": "WWBDeS-hfdMFFJqVoScBz",
+  "buildId": "BVkeNzVGQX77_8_vjinhr",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

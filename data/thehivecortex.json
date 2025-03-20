@@ -23,7 +23,7 @@
         "documentation": "<p>The objective is to interface a SIEM tool such as Splunk in order to be able to perform automated tasks on observables/IOCs or TTPs.<br>\nThis TA has been designed in such a way that :</p>\n<ul>\n<li>You can pull events periodically from TheHive about the different cases/alerts that were created or updated</li>\n<li>You can create new alert or case from Splunk in TheHive using the power of Splunk whether in a search or in a predefined dashboard.</li>\n<li>You can run a function in TheHive from an alert action</li>\n<li>You can interface Splunk Enterprise Security with TheHive</li>\n<li>You can retrieve information from Cortex about the different jobs that are being performed on the scanners.</li>\n<li>You can run new tasks from Splunk in Cortex using the power of Splunk whether in a search or a predefined dashboard.</li>\n</ul>\n<p>If you need any documentation or help, please visit the related Github : <a href=\"https://github.com/LetMeR00t/TA-thehive-cortex\">https://github.com/LetMeR00t/TA-thehive-cortex</a></p>",
         "documentation_source": "The objective is to interface a SIEM tool such as Splunk in order to be able to perform automated tasks on observables/IOCs or TTPs.\nThis TA has been designed in such a way that :\n\n- You can pull events periodically from TheHive about the different cases/alerts that were created or updated\n- You can create new alert or case from Splunk in TheHive using the power of Splunk whether in a search or in a predefined dashboard.\n- You can run a function in TheHive from an alert action\n- You can interface Splunk Enterprise Security with TheHive\n- You can retrieve information from Cortex about the different jobs that are being performed on the scanners.\n- You can run new tasks from Splunk in Cortex using the power of Splunk whether in a search or a predefined dashboard.\n\nIf you need any documentation or help, please visit the related Github : https://github.com/LetMeR00t/TA-thehive-cortex",
         "download_count": 2981,
-        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/8980f104-dfde-11ef-a24b-0a10e5abde35.png",
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/b4843de6-0501-11f0-af63-0aef6ce54dcb.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
         "is_archived": false,
@@ -445,7 +445,7 @@
         "troubleshooting": "<p>You have a dedicated dashboard named \"Audit logs\" in order to check all logs.<br>\nIf you enable the debug mode (only for troubleshooting purposes), you will be able to see all the information and especially errors.</p>\n<p>If you need any assistance, you can contact me on the related Github: <a href=\"https://github.com/LetMeR00t/TA-thehive-cortex/issues\">https://github.com/LetMeR00t/TA-thehive-cortex/issues</a></p>",
         "troubleshooting_source": "You have a dedicated dashboard named \"Audit logs\" in order to check all logs.\nIf you enable the debug mode (only for troubleshooting purposes), you will be able to see all the information and especially errors.\n\nIf you need any assistance, you can contact me on the related Github: https://github.com/LetMeR00t/TA-thehive-cortex/issues",
         "type": "app",
-        "updated_time": "2025-02-06T13:11:15.164525Z",
+        "updated_time": "2025-03-19T21:19:08.190919Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
@@ -461,7 +461,7 @@
   "query": {
     "id": "5329"
   },
-  "buildId": "WWBDeS-hfdMFFJqVoScBz",
+  "buildId": "BVkeNzVGQX77_8_vjinhr",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
