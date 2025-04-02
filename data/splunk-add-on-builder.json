@@ -22,7 +22,7 @@
         "description": "The Splunk Add-on Builder is a Splunk app that helps you build and validate technology add-ons for your Splunk Enterprise deployment. \n\nThe goals of the Splunk Add-on Builder are to:\n* Guide you through all of the necessary steps of creating an add-on\n* Build alert actions and adaptive response actions for Splunk Enterprise Security\n* Reduce development and testing time\n* Follow best practices and naming conventions\n* Maintain CIM compliance\n* Maintain quality of add-ons\n*  Validate and test the add-on, helping you to check for certification readiness and to identify any limitations such as compatibilities and dependencies\n* Maintain a consistent look and feel while still making it easy for you to add branding",
         "documentation": "<p>For documentation, see the <a href=\"http://docs.splunk.com/Documentation/AddonBuilder/latest/UserGuide/Overview\">Splunk Add-on Builder User Guide</a>.</p>",
         "documentation_source": "For documentation, see the [Splunk Add-on Builder User Guide](http://docs.splunk.com/Documentation/AddonBuilder/latest/UserGuide/Overview).",
-        "download_count": 74780,
+        "download_count": 74797,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/9075103a-d29b-11ef-b222-06097d1812c4.png",
         "inquiry_buttontext": "Join Pre-release Program",
         "inquiry_url": "http://goo.gl/forms/I0UQhn3U4C",
@@ -47,14 +47,14 @@
         "public": true,
         "ranking": [
           {
-            "rank": 22,
-            "category_name": "security_compliance",
-            "category_display_name": "Security, Fraud & Compliance"
-          },
-          {
             "rank": 10,
             "category_name": "utilities",
             "category_display_name": "Utilities"
+          },
+          {
+            "rank": 22,
+            "category_name": "security_compliance",
+            "category_display_name": "Security, Fraud & Compliance"
           }
         ],
         "rating": {
@@ -68,9 +68,9 @@
           "created_time": "2025-01-14T17:18:26.582481Z",
           "published_time": "2025-01-15T17:49:31.203124Z",
           "updated_time": "2025-01-15T17:49:31.270572Z",
-          "size": 10941463,
-          "md5": "f908dc5479f7b95043fdfd60c9ca59da",
-          "sha256": "2179f4efad21ecc7b7ff4dad3459564418249e926ddafdac70651531a99014b8",
+          "size": 10919229,
+          "md5": "865d02f67287d4a6a9a530e99e26b523",
+          "sha256": "34227e100f0d45d2e44b98cbfeeaad2c5278b66369500564562b98d52636b2b9",
           "filename": "splunk-add-on-builder_441.tgz",
           "signed_available": true,
           "passed_validation": true,
@@ -102,9 +102,9 @@
             "created_time": "2025-01-14T17:18:26.582481Z",
             "published_time": "2025-01-15T17:49:31.203124Z",
             "updated_time": "2025-01-15T17:49:31.270572Z",
-            "size": 10941463,
-            "md5": "f908dc5479f7b95043fdfd60c9ca59da",
-            "sha256": "2179f4efad21ecc7b7ff4dad3459564418249e926ddafdac70651531a99014b8",
+            "size": 10919229,
+            "md5": "865d02f67287d4a6a9a530e99e26b523",
+            "sha256": "34227e100f0d45d2e44b98cbfeeaad2c5278b66369500564562b98d52636b2b9",
             "filename": "splunk-add-on-builder_441.tgz",
             "signed_available": true,
             "passed_validation": true,
@@ -135,9 +135,9 @@
             "created_time": "2024-08-21T11:47:44.341510Z",
             "published_time": "2024-08-26T04:56:42.769595Z",
             "updated_time": "2024-08-26T04:56:42.859435Z",
-            "size": 10847511,
-            "md5": "c31a95fd9921ca8fcedd41b3f7b51c7f",
-            "sha256": "f43badf3daaf9605af677981491ed54addd396e1117ae73938d0d44d3d4a5279",
+            "size": 10825028,
+            "md5": "697fc2df5ac9e4b968d2b9e8254f1e73",
+            "sha256": "b1ba3a9cf8c43cd111ac8d71cb187c0f61f7be3786489755f90fa14b86081fb0",
             "filename": "splunk-add-on-builder_430.tgz",
             "signed_available": true,
             "passed_validation": true,
@@ -169,9 +169,9 @@
             "created_time": "2019-12-18T00:44:09.011934Z",
             "published_time": "2019-12-18T00:44:09.011969Z",
             "updated_time": "2024-10-04T07:19:39.985043Z",
-            "size": 11564214,
-            "md5": "6c03b38d39ae9ceb16e715a669ad0631",
-            "sha256": "2fc4430dbc8b009f722becf8258c66cf0da572946c9bca337e43aa60e6813410",
+            "size": 11517694,
+            "md5": "9296061d71747d374cd719e2629c38a6",
+            "sha256": "a53824e22a125b196e6c660677c266e5067f953c15b5df1347e2993512740d1b",
             "filename": "splunk-add-on-builder_301.tgz",
             "signed_available": true,
             "passed_validation": true,
@@ -225,7 +225,7 @@
   "query": {
     "id": "2962"
   },
-  "buildId": "vvpBmV6L4chroC-Pi7tGL",
+  "buildId": "5NrjjHSDckJfhynBI3AYg",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
