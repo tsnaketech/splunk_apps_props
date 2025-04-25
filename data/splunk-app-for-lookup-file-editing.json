@@ -50,7 +50,7 @@
         "description": "Ever want to edit a lookup within Splunk with a user interface? Now you can. This app provides an Excel-like interface for editing, importing, and exporting lookup files (KV store and CSV-based).\n\nThis app also makes your lookups work in Search Head Clustered environments (edits to lookups will be propagated to other search heads).\n\nRevision history is maintained for lookups so that you can view or restore older lookups quickly in the interface.\n\nCheck out the Documentation site: \nhttps://docs.splunk.com/Documentation/LookupEditor\n\nhttps://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew",
         "documentation": "<ul>\n<li><a href=\"https://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew\">What's new</a></li>\n<li><a href=\"https://docs.splunk.com/Documentation/LookupEditor\">Documentation Site</a></li>\n</ul>",
         "documentation_source": "*   [What's new](https://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew)\n*   [Documentation Site](https://docs.splunk.com/Documentation/LookupEditor)",
-        "download_count": 197894,
+        "download_count": 197980,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/2cf56976-e270-11ef-9d83-ae1b95a41573.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -91,7 +91,7 @@
           "notes": "<p><a href=\"https://docs.splunk.com/Documentation/LookupEditor/4.0.5/User/Whatsnew\">https://docs.splunk.com/Documentation/LookupEditor/4.0.5/User/Whatsnew</a></p>",
           "created_time": "2025-02-03T20:48:09.476226Z",
           "published_time": "2025-02-05T23:01:08.039023Z",
-          "updated_time": "2025-02-06T06:56:46.504778Z",
+          "updated_time": "2025-04-24T15:20:28.125449Z",
           "size": 7372246,
           "md5": "77f4db3de4d495d90d1becdb88105b3d",
           "sha256": "a5572cdf6856e6867291ca3f626f9e87661422e725d1b4d94561f6ee1cfe67fb",
@@ -106,6 +106,7 @@
           "fedramp_validation": "no",
           "min_product_version_str": null,
           "version_compatibility": [
+            "9.4",
             "9.3",
             "9.2"
           ],
@@ -125,7 +126,7 @@
             "notes": "<p><a href=\"https://docs.splunk.com/Documentation/LookupEditor/4.0.5/User/Whatsnew\">https://docs.splunk.com/Documentation/LookupEditor/4.0.5/User/Whatsnew</a></p>",
             "created_time": "2025-02-03T20:48:09.476226Z",
             "published_time": "2025-02-05T23:01:08.039023Z",
-            "updated_time": "2025-02-06T06:56:46.504778Z",
+            "updated_time": "2025-04-24T15:20:28.125449Z",
             "size": 7372246,
             "md5": "77f4db3de4d495d90d1becdb88105b3d",
             "sha256": "a5572cdf6856e6867291ca3f626f9e87661422e725d1b4d94561f6ee1cfe67fb",
@@ -140,6 +141,7 @@
             "fedramp_validation": "no",
             "min_product_version_str": null,
             "version_compatibility": [
+              "9.4",
               "9.3",
               "9.2"
             ],
@@ -1449,7 +1451,7 @@
         "troubleshooting": "",
         "troubleshooting_source": "",
         "type": "app",
-        "updated_time": "2025-02-06T06:56:46.595295Z",
+        "updated_time": "2025-04-24T15:20:28.319182Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
