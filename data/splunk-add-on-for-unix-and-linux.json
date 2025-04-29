@@ -22,8 +22,8 @@
         "description": "*** Important: Read upgrade Instructions and test add-on update before deploying to production ***\nThere are changes to default indexes and .conf changes in version 6.0 of Splunk Add-on for Unix and Linux that can break an existing installation if upgrade instructions are not followed in detail. If an existing Splunk Add-on for Unix and Linux is being upgraded, please test in a non-production environment first.\n\n\nThe Splunk Add-on for Unix and Linux works with the Splunk App for Unix and Linux to provide rapid insights and operational visibility into large-scale Unix and Linux environments.  With its new pre-packaged alerting capability, flexible service-based hosts grouping, and easy management of many data sources, it arms administrators with a powerful ability to quickly identify performance and capacity bottlenecks and outliers in Unix and Linux environments.",
         "documentation": "<p>To learn about the Splunk Add-on for Unix and Linux, see the official documentation here on <a href=\"http://docs.splunk.com/Documentation/AddOns/released/UnixLinux/About\">docs.splunk.com</a>.</p>\n<p>For information on what has been fixed as well as known issues, see the <a href=\"http://docs.splunk.com/Documentation/AddOns/released/UnixLinux/Releasenotes\">release notes</a>.</p>",
         "documentation_source": "To learn about the Splunk Add-on for Unix and Linux, see the official documentation here on [docs.splunk.com](http://docs.splunk.com/Documentation/AddOns/released/UnixLinux/About).\r\n\r\nFor information on what has been fixed as well as known issues, see the [release notes](http://docs.splunk.com/Documentation/AddOns/released/UnixLinux/Releasenotes).",
-        "download_count": 384167,
-        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/93972c06-e23d-11ef-9e75-fe84a3f4a099.png",
+        "download_count": 384253,
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/084e0458-23fb-11f0-8ff1-0e7fb705666c.png",
         "inquiry_buttontext": "",
         "inquiry_url": "",
         "is_archived": false,
@@ -64,19 +64,19 @@
           "average": 3
         },
         "release": {
-          "release_id": 36515,
-          "release_name": "10.0.0",
+          "release_id": 37592,
+          "release_name": "10.1.0",
           "notes": "",
-          "created_time": "2025-02-03T14:45:57.358955Z",
-          "published_time": "2025-02-04T11:38:22.231278Z",
-          "updated_time": "2025-02-04T11:38:22.303258Z",
-          "size": 133219,
-          "md5": "1a742678b9f1b294c4aafa56985d6006",
-          "sha256": "0daae3058f201eb5170fe244379e504a1bfaebfa4eab66620f76714ed59c13df",
-          "filename": "splunk-add-on-for-unix-and-linux_1000.tgz",
+          "created_time": "2025-04-28T06:35:53.571473Z",
+          "published_time": "2025-04-28T06:58:45.300659Z",
+          "updated_time": "2025-04-28T10:52:06.969742Z",
+          "size": 134865,
+          "md5": "e2d7dedbb2d9c94cb55f126d295cda0d",
+          "sha256": "67c8471e6b8c5d7aea3eff3f351b61cfaed5ad2eca2a9b22d9959ee0a0efd3f8",
+          "filename": "splunk-add-on-for-unix-and-linux_1010.tgz",
           "signed_available": true,
           "passed_validation": true,
-          "path": "https://splunkbase.splunk.com/app/833/release/10.0.0/download/",
+          "path": "https://splunkbase.splunk.com/app/833/release/10.1.0/download/",
           "product_types": [
             "enterprise",
             "cloud"
@@ -99,6 +99,41 @@
           "cloud_compatible": true
         },
         "releases": [
+          {
+            "release_id": 37592,
+            "release_name": "10.1.0",
+            "notes": "",
+            "created_time": "2025-04-28T06:35:53.571473Z",
+            "published_time": "2025-04-28T06:58:45.300659Z",
+            "updated_time": "2025-04-28T10:52:06.969742Z",
+            "size": 134865,
+            "md5": "e2d7dedbb2d9c94cb55f126d295cda0d",
+            "sha256": "67c8471e6b8c5d7aea3eff3f351b61cfaed5ad2eca2a9b22d9959ee0a0efd3f8",
+            "filename": "splunk-add-on-for-unix-and-linux_1010.tgz",
+            "signed_available": true,
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/833/release/10.1.0/download/",
+            "product_types": [
+              "enterprise",
+              "cloud"
+            ],
+            "fedramp_validation": "no",
+            "min_product_version_str": null,
+            "version_compatibility": [
+              "9.4",
+              "9.3",
+              "9.2",
+              "9.1"
+            ],
+            "actions": [],
+            "cim_compatibility": [
+              "4.x"
+            ],
+            "platform": "independent",
+            "appinspect_passed": false,
+            "product_compatibility": "splunk",
+            "cloud_compatible": true
+          },
           {
             "release_id": 36515,
             "release_name": "10.0.0",
@@ -133,42 +168,6 @@
             "appinspect_passed": false,
             "product_compatibility": "splunk",
             "cloud_compatible": true
-          },
-          {
-            "release_id": 33967,
-            "release_name": "9.2.0",
-            "notes": "",
-            "created_time": "2024-07-09T11:45:43.395163Z",
-            "published_time": "2024-07-12T18:17:19.176913Z",
-            "updated_time": "2024-10-18T12:52:22.796013Z",
-            "size": 130803,
-            "md5": "1a019a83acfa99558eed4d3559fbe066",
-            "sha256": "d2fdfc4e628cf6674e5e6472fe27f33714007ecd1b234247315ea89355c160ad",
-            "filename": "splunk-add-on-for-unix-and-linux_920.tgz",
-            "signed_available": true,
-            "passed_validation": true,
-            "path": "https://splunkbase.splunk.com/app/833/release/9.2.0/download/",
-            "product_types": [
-              "enterprise",
-              "cloud"
-            ],
-            "fedramp_validation": "no",
-            "min_product_version_str": null,
-            "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "4.x"
-            ],
-            "platform": "independent",
-            "appinspect_passed": false,
-            "product_compatibility": "splunk",
-            "cloud_compatible": true
           }
         ],
         "repo_name": "",
@@ -179,7 +178,7 @@
         "troubleshooting": "",
         "troubleshooting_source": "",
         "type": "addon",
-        "updated_time": "2025-02-04T11:38:26.437735Z",
+        "updated_time": "2025-04-28T10:52:16.224946Z",
         "video_link": null,
         "app_type": "addon",
         "schedule_release": null,
