@@ -10,7 +10,7 @@ Splunk Add-on Builder,splunk-add-on-builder.json,4.4.1,4.3.0,2025-01-15 17:49:31
 Splunk Add-on for Apache Web Server,splunk-add-on-for-apache-web-server.json,2.1.0,N/A,2022-11-12 08:16:47
 Splunk Add-on for Microsoft Windows,splunk-add-on-for-microsoft-windows.json,9.0.1,8.9.0,2025-03-06 15:52:18
 Splunk Add-on for NGINX,splunk-add-on-for-nginx.json,3.3.0,3.0.0,2024-09-13 05:43:55
-Splunk Add-on for Unix and Linux,splunk-add-on-for-unix-and-linux.json,10.0.0,9.2.0,2025-02-04 11:38:22
+Splunk Add-on for Unix and Linux,splunk-add-on-for-unix-and-linux.json,10.1.0,10.0.0,2025-04-28 10:52:06
 Splunk App for Anomaly Detection,splunk-app-for-anomaly-detection.json,1.1.2,1.1.1,2024-03-28 05:26:24
 Splunk App for Lookup File Editing,splunk-app-for-lookup-file-editing.json,4.0.5,4.0.4,2025-04-24 15:20:28
 Splunk App for Splunk Attack Analyzer,splunk-app-for-splunk-attack-analyzer.json,1.2.0,1.1.1,2024-09-25 16:02:11
