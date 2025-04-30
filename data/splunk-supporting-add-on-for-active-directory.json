@@ -28,7 +28,7 @@
         "description": "This app (also known as SA-ldapsearch) provides support functions to the Content Pack for Windows Dashboards and Reports (https://docs.splunk.com/Documentation/CPWindowsDash/latest/CP/About), Content Pack for Microsoft Exchange (https://docs.splunk.com/Documentation/CPExchange/latest/CP/About) that enable you to extract information from an Active Directory database. For instance, you can search Active Directory for records, presenting the records as events, or augment existing events with information from Active Directory based on information within the events.",
         "documentation": "<p>To learn about the Splunk Supporting Add-on for Active Directory, see the official documentation here on <a href=\"http://docs.splunk.com/Documentation/SA-LdapSearch/latest\">docs.splunk.com</a>.</p>\n<p>For information on what has been fixed as well as known issues, see the <a href=\"http://docs.splunk.com/Documentation/SA-LdapSearch/latest/User/ReleaseNotes\">release notes</a>.</p>",
         "documentation_source": "To learn about the Splunk Supporting Add-on for Active Directory, see the official documentation here on [docs.splunk.com](http://docs.splunk.com/Documentation/SA-LdapSearch/latest).\r\n\r\nFor information on what has been fixed as well as known issues, see the [release notes](http://docs.splunk.com/Documentation/SA-LdapSearch/latest/User/ReleaseNotes).",
-        "download_count": 165963,
+        "download_count": 166018,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/c6b2bc1c-b214-11ef-a1e5-6e40c79c81fa.png",
         "inquiry_buttontext": "",
         "inquiry_url": "",
@@ -68,7 +68,7 @@
           "notes": "<p><a href=\"https://docs.splunk.com/Documentation/SA-LdapSearch/3.1.1/User/ReleaseNotes\">https://docs.splunk.com/Documentation/SA-LdapSearch/3.1.1/User/ReleaseNotes</a></p>",
           "created_time": "2024-12-04T07:52:57.620308Z",
           "published_time": "2024-12-10T14:34:38.931716Z",
-          "updated_time": "2024-12-10T16:23:41.279048Z",
+          "updated_time": "2025-04-29T14:44:16.385197Z",
           "size": 1404091,
           "md5": "6af4b2e35c92c7f234b6e6c5360309f2",
           "sha256": "fb4b7b97a02206c700fe030af7ee0eb1aa5015646e6dd323eb01eced076552d2",
@@ -83,6 +83,7 @@
           "fedramp_validation": "no",
           "min_product_version_str": null,
           "version_compatibility": [
+            "9.4",
             "9.3",
             "9.2",
             "9.1"
@@ -101,7 +102,7 @@
             "notes": "<p><a href=\"https://docs.splunk.com/Documentation/SA-LdapSearch/3.1.1/User/ReleaseNotes\">https://docs.splunk.com/Documentation/SA-LdapSearch/3.1.1/User/ReleaseNotes</a></p>",
             "created_time": "2024-12-04T07:52:57.620308Z",
             "published_time": "2024-12-10T14:34:38.931716Z",
-            "updated_time": "2024-12-10T16:23:41.279048Z",
+            "updated_time": "2025-04-29T14:44:16.385197Z",
             "size": 1404091,
             "md5": "6af4b2e35c92c7f234b6e6c5360309f2",
             "sha256": "fb4b7b97a02206c700fe030af7ee0eb1aa5015646e6dd323eb01eced076552d2",
@@ -116,6 +117,7 @@
             "fedramp_validation": "no",
             "min_product_version_str": null,
             "version_compatibility": [
+              "9.4",
               "9.3",
               "9.2",
               "9.1"
@@ -624,7 +626,7 @@
         "troubleshooting": "",
         "troubleshooting_source": "",
         "type": "addon",
-        "updated_time": "2025-01-31T07:31:11.625358Z",
+        "updated_time": "2025-04-29T14:44:16.536801Z",
         "video_link": null,
         "app_type": "addon",
         "schedule_release": null,
