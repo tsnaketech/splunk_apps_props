@@ -64,19 +64,19 @@
           "average": 4
         },
         "release": {
-          "release_id": 37500,
-          "release_name": "8.0.31",
-          "notes": "<p><a href=\"https://docs.splunk.com/Documentation/ES/8.0.31/RN/NewFeatures\">https://docs.splunk.com/Documentation/ES/8.0.31/RN/NewFeatures</a></p>",
-          "created_time": "2025-04-17T07:23:47.871783Z",
-          "published_time": "2025-04-17T11:51:07.850308Z",
-          "updated_time": "2025-04-17T22:27:37.559343Z",
-          "size": 695823192,
-          "md5": "7d0a8ce11b604485a07aad4f129d0eab",
-          "sha256": "7000b1f85620726aa070609904a342ffc503c156153bba9054e2fd550c374624",
-          "filename": "splunk-enterprise-security_8031.spl",
+          "release_id": 37594,
+          "release_name": "8.0.40",
+          "notes": "<p><a href=\"https://docs.splunk.com/Documentation/ES/8.0.40/RN/NewFeatures\">https://docs.splunk.com/Documentation/ES/8.0.40/RN/NewFeatures</a></p>",
+          "created_time": "2025-04-28T09:47:22.741751Z",
+          "published_time": "2025-04-28T10:50:41.200087Z",
+          "updated_time": "2025-04-30T23:24:36.834583Z",
+          "size": 709922728,
+          "md5": "333e177ca9af9e1172345f3770744ff2",
+          "sha256": "2041c69a0752a5bb794ba9d164ef6613403752f0208cbfa50b8686021a395783",
+          "filename": "splunk-enterprise-security_8040.spl",
           "signed_available": false,
           "passed_validation": false,
-          "path": "https://splunkbase.splunk.com/app/263/release/8.0.31/download/",
+          "path": "https://splunkbase.splunk.com/app/263/release/8.0.40/download/",
           "product_types": [
             "enterprise",
             "cloud"
@@ -98,6 +98,40 @@
           "cloud_compatible": true
         },
         "releases": [
+          {
+            "release_id": 37594,
+            "release_name": "8.0.40",
+            "notes": "<p><a href=\"https://docs.splunk.com/Documentation/ES/8.0.40/RN/NewFeatures\">https://docs.splunk.com/Documentation/ES/8.0.40/RN/NewFeatures</a></p>",
+            "created_time": "2025-04-28T09:47:22.741751Z",
+            "published_time": "2025-04-28T10:50:41.200087Z",
+            "updated_time": "2025-04-30T23:24:36.834583Z",
+            "size": 709922728,
+            "md5": "333e177ca9af9e1172345f3770744ff2",
+            "sha256": "2041c69a0752a5bb794ba9d164ef6613403752f0208cbfa50b8686021a395783",
+            "filename": "splunk-enterprise-security_8040.spl",
+            "signed_available": false,
+            "passed_validation": false,
+            "path": "https://splunkbase.splunk.com/app/263/release/8.0.40/download/",
+            "product_types": [
+              "enterprise",
+              "cloud"
+            ],
+            "fedramp_validation": "no",
+            "min_product_version_str": null,
+            "version_compatibility": [
+              "9.4",
+              "9.3",
+              "9.2"
+            ],
+            "actions": [],
+            "cim_compatibility": [
+              "6.x"
+            ],
+            "platform": "independent",
+            "appinspect_passed": false,
+            "product_compatibility": "splunk",
+            "cloud_compatible": true
+          },
           {
             "release_id": 37500,
             "release_name": "8.0.31",
@@ -1062,7 +1096,7 @@
         "troubleshooting": "<p><a href=\"https://docs.splunk.com/Documentation/ES/7.3.1/Admin/Troubleshootscripterrors\">https://docs.splunk.com/Documentation/ES/7.3.1/Admin/Troubleshootscripterrors</a></p>",
         "troubleshooting_source": "https://docs.splunk.com/Documentation/ES/7.3.1/Admin/Troubleshootscripterrors",
         "type": "app",
-        "updated_time": "2025-04-28T10:52:05.963827Z",
+        "updated_time": "2025-04-30T23:24:46.823856Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
@@ -1078,7 +1112,7 @@
   "query": {
     "id": "263"
   },
-  "buildId": "1zlDl63vixcnN_410tixY",
+  "buildId": "yVhpqc8EjRe-p-YbnrC8b",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

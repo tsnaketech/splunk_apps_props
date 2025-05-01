@@ -21,7 +21,7 @@
         "description": "The Common Information Model is a set of field names and tags which are expected to define the least common denominator of a domain of interest. It is implemented as documentation on the Splunk docs website and JSON data model files in this add-on. Use the CIM add-on when modeling data or building apps to ensure compatibility between apps, or to just take advantage of these data models to pivot and report.",
         "documentation": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/latest/User/Releasenotes\">Release Notes</a><br>\nPlease see the <a href=\"http://docs.splunk.com/Documentation/CIM/latest/User/Overview\">Splunk Common Information Model Add-on user documentation</a>.</p>",
         "documentation_source": "[Release Notes](https://docs.splunk.com/Documentation/CIM/latest/User/Releasenotes)\nPlease see the [Splunk Common Information Model Add-on user documentation](http://docs.splunk.com/Documentation/CIM/latest/User/Overview).",
-        "download_count": 272417,
+        "download_count": 272812,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/3635eef2-2456-11f0-973b-e6f2b7b13b96.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -57,19 +57,19 @@
           "average": 5
         },
         "release": {
-          "release_id": 37009,
-          "release_name": "6.0.3",
-          "notes": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/6.0.3/User/Releasenotes\">https://docs.splunk.com/Documentation/CIM/6.0.3/User/Releasenotes</a></p>",
-          "created_time": "2025-03-13T22:15:11.303576Z",
-          "published_time": "2025-03-24T22:17:16.401992Z",
-          "updated_time": "2025-03-24T22:17:16.492870Z",
-          "size": 2227359,
-          "md5": "0bbdb60cf39b544c474cbc6e3a227bda",
-          "sha256": "f56d7fe29bd37126f68a9251f909fef4139771c3a2d2a7344979ae14041cc554",
-          "filename": "splunk-common-information-model-cim_603.tgz",
+          "release_id": 37605,
+          "release_name": "6.0.4",
+          "notes": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/6.0.4/User/Releasenotes\">https://docs.splunk.com/Documentation/CIM/6.0.4/User/Releasenotes</a></p>",
+          "created_time": "2025-04-28T17:28:34.739867Z",
+          "published_time": "2025-04-30T23:24:39.062112Z",
+          "updated_time": "2025-04-30T23:24:39.140591Z",
+          "size": 2227500,
+          "md5": "674e548fa76df7cdd477b2ac90aa98e0",
+          "sha256": "0390b1c626ac2a5509684f00c7573ca2c792d63f648301c5139eaf0ab0a9b535",
+          "filename": "splunk-common-information-model-cim_604.tgz",
           "signed_available": true,
           "passed_validation": true,
-          "path": "https://splunkbase.splunk.com/app/1621/release/6.0.3/download/",
+          "path": "https://splunkbase.splunk.com/app/1621/release/6.0.4/download/",
           "product_types": [
             "enterprise",
             "cloud"
@@ -93,6 +93,42 @@
           "cloud_compatible": true
         },
         "releases": [
+          {
+            "release_id": 37605,
+            "release_name": "6.0.4",
+            "notes": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/6.0.4/User/Releasenotes\">https://docs.splunk.com/Documentation/CIM/6.0.4/User/Releasenotes</a></p>",
+            "created_time": "2025-04-28T17:28:34.739867Z",
+            "published_time": "2025-04-30T23:24:39.062112Z",
+            "updated_time": "2025-04-30T23:24:39.140591Z",
+            "size": 2227500,
+            "md5": "674e548fa76df7cdd477b2ac90aa98e0",
+            "sha256": "0390b1c626ac2a5509684f00c7573ca2c792d63f648301c5139eaf0ab0a9b535",
+            "filename": "splunk-common-information-model-cim_604.tgz",
+            "signed_available": true,
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/1621/release/6.0.4/download/",
+            "product_types": [
+              "enterprise",
+              "cloud"
+            ],
+            "fedramp_validation": "no",
+            "min_product_version_str": null,
+            "version_compatibility": [
+              "9.4",
+              "9.3",
+              "9.2",
+              "9.1",
+              "9.0"
+            ],
+            "actions": [],
+            "cim_compatibility": [
+              "6.x"
+            ],
+            "platform": "independent",
+            "appinspect_passed": false,
+            "product_compatibility": "splunk",
+            "cloud_compatible": true
+          },
           {
             "release_id": 37009,
             "release_name": "6.0.3",
@@ -1002,7 +1038,7 @@
         "troubleshooting": "",
         "troubleshooting_source": "",
         "type": "addon",
-        "updated_time": "2025-04-29T13:22:06.450198Z",
+        "updated_time": "2025-04-30T23:24:43.054805Z",
         "video_link": null,
         "app_type": "addon",
         "schedule_release": null,
@@ -1018,7 +1054,7 @@
   "query": {
     "id": "1621"
   },
-  "buildId": "1zlDl63vixcnN_410tixY",
+  "buildId": "yVhpqc8EjRe-p-YbnrC8b",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
