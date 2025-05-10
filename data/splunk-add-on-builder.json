@@ -22,7 +22,7 @@
         "description": "The Splunk Add-on Builder is a Splunk app that helps you build and validate technology add-ons for your Splunk Enterprise deployment. \n\nThe goals of the Splunk Add-on Builder are to:\n* Guide you through all of the necessary steps of creating an add-on\n* Build alert actions and adaptive response actions for Splunk Enterprise Security\n* Reduce development and testing time\n* Follow best practices and naming conventions\n* Maintain CIM compliance\n* Maintain quality of add-ons\n*  Validate and test the add-on, helping you to check for certification readiness and to identify any limitations such as compatibilities and dependencies\n* Maintain a consistent look and feel while still making it easy for you to add branding",
         "documentation": "<p>For documentation, see the <a href=\"http://docs.splunk.com/Documentation/AddonBuilder/latest/UserGuide/Overview\">Splunk Add-on Builder User Guide</a>.</p>",
         "documentation_source": "For documentation, see the [Splunk Add-on Builder User Guide](http://docs.splunk.com/Documentation/AddonBuilder/latest/UserGuide/Overview).",
-        "download_count": 75682,
+        "download_count": 75726,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/9075103a-d29b-11ef-b222-06097d1812c4.png",
         "inquiry_buttontext": "Join Pre-release Program",
         "inquiry_url": "http://goo.gl/forms/I0UQhn3U4C",
