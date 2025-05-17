@@ -21,7 +21,7 @@
         "description": "The Splunk App for Splunk Attack Analyzer provides reporting dashboards to track Attack Analyzer Usage. It is used in conjunction with the Splunk Add-On for Splunk Attack Analyzer.",
         "documentation": "<p>Documentation for this App is posted at <a href=\"https://docs.splunk.com/Documentation/SAAApp/latest/User/About\">Splunk Docs</a></p>\n<p>If the solution does not support specific analytics you wish to implement please provide feedback via the <a href=\"https://ideas.splunk.com/?category=7267657706569392725\">Splunk Ideas portal</a>.</p>",
         "documentation_source": "Documentation for this App is posted at [Splunk Docs](https://docs.splunk.com/Documentation/SAAApp/latest/User/About)\n\nIf the solution does not support specific analytics you wish to implement please provide feedback via the [Splunk Ideas portal](https://ideas.splunk.com/?category=7267657706569392725).",
-        "download_count": 1330,
+        "download_count": 1337,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/6c85a400-3196-11f0-b575-b6aafbd11347.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -47,7 +47,7 @@
         "public": true,
         "ranking": [
           {
-            "rank": 673,
+            "rank": 672,
             "category_name": "security_compliance",
             "category_display_name": "Security, Fraud & Compliance"
           }
