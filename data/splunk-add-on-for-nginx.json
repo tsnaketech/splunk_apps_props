@@ -22,7 +22,7 @@
         "description": "The Splunk Add-on for NGINX allows a Splunk software administrator to collect Web server activities, performance metrics, and error logs using file monitoring and API inputs.\n\nThis add-on provides the inputs and CIM-compatible knowledge to use with other Splunk apps, such as Splunk Enterprise Security, the Splunk App for PCI Compliance, and Splunk IT Service Intelligence.",
         "documentation": "<p>Documentation for this Add-on is posted at <a href=\"http://docs.splunk.com/Documentation/AddOns/latest/nginx/About\" title=\"Splunk Docs\">Splunk Docs</a>.</p>",
         "documentation_source": "Documentation for this Add-on is posted at [Splunk Docs](http://docs.splunk.com/Documentation/AddOns/latest/nginx/About \"Splunk Docs\").",
-        "download_count": 58873,
+        "download_count": 58921,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/43731336-6aa4-11ef-ab3b-faca7e54e553.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -63,95 +63,94 @@
           "average": 4
         },
         "release": {
-          "release_id": 34511,
-          "release_name": "3.3.0",
-          "notes": "",
-          "created_time": "2024-09-04T09:58:41.379964Z",
-          "published_time": "2024-09-09T16:09:29.716407Z",
-          "updated_time": "2024-09-13T05:43:55.906931Z",
-          "size": 868236,
-          "md5": "8be4cf5624bb2df71e5fb88d77181237",
-          "sha256": "41b6864ba610385347553340e4056aa3007ec4684140e2842b1884bef4360cad",
+          "actions": [],
+          "cim_compatibility": [
+            "5.x"
+          ],
+          "cloud_compatible": true,
+          "fedramp_validation": "no",
           "filename": "splunk-add-on-for-nginx_330.tgz",
-          "signed_available": true,
+          "id": 34511,
+          "md5": "8be4cf5624bb2df71e5fb88d77181237",
+          "min_product_version_str": null,
+          "name": "3.3.0",
           "passed_validation": true,
           "path": "https://splunkbase.splunk.com/app/3258/release/3.3.0/download/",
+          "platform": "independent",
           "product_types": [
             "enterprise",
             "cloud"
           ],
-          "fedramp_validation": "no",
-          "min_product_version_str": null,
+          "published_datetime": "2024-09-09T16:09:29.716407Z",
+          "release_notes": "",
+          "sha256": "41b6864ba610385347553340e4056aa3007ec4684140e2842b1884bef4360cad",
+          "signed_available": true,
+          "size": 868236,
+          "updated_datetime": "2024-09-13T05:43:55.906931Z",
           "version_compatibility": [
             "9.4",
             "9.3",
             "9.2",
             "9.1",
             "9.0"
-          ],
-          "actions": [],
-          "cim_compatibility": [
-            "5.x"
-          ],
-          "platform": "independent",
-          "appinspect_passed": false,
-          "product_compatibility": "splunk",
-          "cloud_compatible": true
+          ]
         },
         "releases": [
           {
-            "release_id": 34511,
-            "release_name": "3.3.0",
-            "notes": "",
-            "created_time": "2024-09-04T09:58:41.379964Z",
-            "published_time": "2024-09-09T16:09:29.716407Z",
-            "updated_time": "2024-09-13T05:43:55.906931Z",
-            "size": 868236,
-            "md5": "8be4cf5624bb2df71e5fb88d77181237",
-            "sha256": "41b6864ba610385347553340e4056aa3007ec4684140e2842b1884bef4360cad",
+            "actions": [],
+            "cim_compatibility": [
+              "5.x"
+            ],
+            "cloud_compatible": true,
+            "fedramp_validation": "no",
             "filename": "splunk-add-on-for-nginx_330.tgz",
-            "signed_available": true,
+            "id": 34511,
+            "md5": "8be4cf5624bb2df71e5fb88d77181237",
+            "min_product_version_str": null,
+            "name": "3.3.0",
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3258/release/3.3.0/download/",
+            "platform": "independent",
             "product_types": [
               "enterprise",
               "cloud"
             ],
-            "fedramp_validation": "no",
-            "min_product_version_str": null,
+            "published_datetime": "2024-09-09T16:09:29.716407Z",
+            "release_notes": "",
+            "sha256": "41b6864ba610385347553340e4056aa3007ec4684140e2842b1884bef4360cad",
+            "signed_available": true,
+            "size": 868236,
+            "updated_datetime": "2024-09-13T05:43:55.906931Z",
             "version_compatibility": [
               "9.4",
               "9.3",
               "9.2",
               "9.1",
               "9.0"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "5.x"
-            ],
-            "platform": "independent",
-            "appinspect_passed": false,
-            "product_compatibility": "splunk",
-            "cloud_compatible": true
+            ]
           },
           {
-            "release_id": 18499,
-            "release_name": "3.0.0",
-            "notes": "",
-            "created_time": "2020-10-16T20:54:48.331605Z",
-            "published_time": "2020-10-16T20:54:48.331641Z",
-            "updated_time": "2023-05-26T11:01:43.510306Z",
-            "size": 723828,
-            "md5": "2205e4d24c130410fd8a1688fa0e0d39",
-            "sha256": "4cfa7d20c7bef95477a6df29e98f029a3feb24249130358293a681a517c4785d",
+            "actions": [],
+            "cim_compatibility": [
+              "4.x"
+            ],
+            "cloud_compatible": false,
+            "fedramp_validation": "yes",
             "filename": "splunk-add-on-for-nginx_300.tgz",
-            "signed_available": true,
+            "id": 18499,
+            "md5": "2205e4d24c130410fd8a1688fa0e0d39",
+            "min_product_version_str": null,
+            "name": "3.0.0",
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3258/release/3.0.0/download/",
+            "platform": "independent",
             "product_types": [],
-            "fedramp_validation": "yes",
-            "min_product_version_str": null,
+            "published_datetime": "2020-10-16T20:54:48.331641Z",
+            "release_notes": "",
+            "sha256": "4cfa7d20c7bef95477a6df29e98f029a3feb24249130358293a681a517c4785d",
+            "signed_available": true,
+            "size": 723828,
+            "updated_datetime": "2023-05-26T11:01:43.510306Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -163,15 +162,7 @@
               "8.0",
               "7.3",
               "7.2"
-            ],
-            "actions": [],
-            "cim_compatibility": [
-              "4.x"
-            ],
-            "platform": "independent",
-            "appinspect_passed": false,
-            "product_compatibility": "splunk",
-            "cloud_compatible": false
+            ]
           }
         ],
         "repo_name": "",
@@ -198,7 +189,7 @@
   "query": {
     "id": "3258"
   },
-  "buildId": "LurRwPs-TcU1MGLkyZY03",
+  "buildId": "68UwSjA7vbGs9C6ha5sPh",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
