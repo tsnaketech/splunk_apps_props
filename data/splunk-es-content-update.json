@@ -28,8 +28,8 @@
         "description": "The Splunk ES Content Update (ESCU) app delivers pre-packaged Security Content. ESCU provides regular Security Content updates to help security practitioners address ongoing time-sensitive threats, attack methods, and other security issues.\n\nSecurity Content consists of tactics, techniques, and methodologies that help with detection, investigation, and response. Security Content enables security teams to directly operationalize detection searches, investigative searches, and other supporting details. ESCU can generate Notable/Risk Events in Splunk Enterprise Security. Security Content also contains easy-to-read background information and guidance, for key context on motivations and risks associated with attack techniques, as well as pragmatic advice on how to combat those techniques.\n\nThe analytic stories and their searches are also available at - https://github.com/splunk/security_content.",
         "documentation": "<p>For more information please visit the <a href=\"http://docs.splunk.com/Documentation/ESCU\">Splunk ES Content Update user documentation</a>.</p>",
         "documentation_source": "For more information please visit the [Splunk ES Content Update user documentation](http://docs.splunk.com/Documentation/ESCU).",
-        "download_count": 145525,
-        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/edc2fc6c-3672-11f0-91b7-babd4c2cb4f6.png",
+        "download_count": 145669,
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/7a4eedc0-3c1e-11f0-b6b4-1abe2e30da01.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "http://www.splunk.com/index.php/ask_expert/default/3174",
         "is_archived": false,
@@ -647,7 +647,7 @@
         "troubleshooting": "<p>Open a Splunk Support Case or reach out to us directly at <a href=\"mailto:research@splunk.com\">research@splunk.com</a>.</p>",
         "troubleshooting_source": "Open a Splunk Support Case or reach out to us directly at research@splunk.com.",
         "type": "addon",
-        "updated_time": "2025-05-27T20:38:02.830775Z",
+        "updated_time": "2025-05-28T23:50:07.898729Z",
         "video_link": null,
         "app_type": "addon",
         "schedule_release": null,
@@ -663,7 +663,7 @@
   "query": {
     "id": "3449"
   },
-  "buildId": "68UwSjA7vbGs9C6ha5sPh",
+  "buildId": "iHGR_BRUNhK_4V2EdCsWj",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
