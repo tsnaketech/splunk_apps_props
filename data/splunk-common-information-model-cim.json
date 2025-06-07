@@ -21,7 +21,7 @@
         "description": "The Common Information Model is a set of field names and tags which are expected to define the least common denominator of a domain of interest. It is implemented as documentation on the Splunk docs website and JSON data model files in this add-on. Use the CIM add-on when modeling data or building apps to ensure compatibility between apps, or to just take advantage of these data models to pivot and report.",
         "documentation": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/latest/User/Releasenotes\">Release Notes</a><br>\nPlease see the <a href=\"http://docs.splunk.com/Documentation/CIM/latest/User/Overview\">Splunk Common Information Model Add-on user documentation</a>.</p>",
         "documentation_source": "[Release Notes](https://docs.splunk.com/Documentation/CIM/latest/User/Releasenotes)\nPlease see the [Splunk Common Information Model Add-on user documentation](http://docs.splunk.com/Documentation/CIM/latest/User/Overview).",
-        "download_count": 281840,
+        "download_count": 282082,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/b3890492-3b27-11f0-8f96-829fff79c6a5.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -106,8 +106,8 @@
             "path": "https://splunkbase.splunk.com/app/1621/release/6.0.4/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "published_datetime": "2025-04-30T23:24:39.062112Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/6.0.4/User/Releasenotes\">https://docs.splunk.com/Documentation/CIM/6.0.4/User/Releasenotes</a></p>",
@@ -139,8 +139,8 @@
             "path": "https://splunkbase.splunk.com/app/1621/release/6.0.3/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "published_datetime": "2025-03-24T22:17:16.401992Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/6.0.3/User/Releasenotes\">https://docs.splunk.com/Documentation/CIM/6.0.3/User/Releasenotes</a></p>",
@@ -172,8 +172,8 @@
             "path": "https://splunkbase.splunk.com/app/1621/release/5.3.3/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "published_datetime": "2025-02-12T19:47:22.449166Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/5.3.3/User/Releasenotes\">https://docs.splunk.com/Documentation/CIM/5.3.3/User/Releasenotes</a></p>",
@@ -205,8 +205,8 @@
             "path": "https://splunkbase.splunk.com/app/1621/release/6.0.2/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "published_datetime": "2025-01-22T05:27:06.471488Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/6.0.2/User/Releasenotes\">https://docs.splunk.com/Documentation/CIM/6.0.2/User/Releasenotes</a></p>",
@@ -238,8 +238,8 @@
             "path": "https://splunkbase.splunk.com/app/1621/release/6.0.1/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "published_datetime": "2024-12-06T01:54:33.782005Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/6.0.1/User/Releasenotes\">https://docs.splunk.com/Documentation/CIM/6.0.1/User/Releasenotes</a></p>",
@@ -271,8 +271,8 @@
             "path": "https://splunkbase.splunk.com/app/1621/release/6.0.0/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "published_datetime": "2024-11-07T20:59:48.480230Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/6.0.0/User/Releasenotes\">https://docs.splunk.com/Documentation/CIM/6.0.0/User/Releasenotes</a></p>",
@@ -304,8 +304,8 @@
             "path": "https://splunkbase.splunk.com/app/1621/release/5.3.2/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "published_datetime": "2024-03-27T17:25:49.217387Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/5.3.2/User/Releasenotes\">https://docs.splunk.com/Documentation/CIM/5.3.2/User/Releasenotes</a></p>",
@@ -337,8 +337,8 @@
             "path": "https://splunkbase.splunk.com/app/1621/release/5.3.1/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "published_datetime": "2023-12-19T06:34:35.760621Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/5.3.1/User/Releasenotes\">https://docs.splunk.com/Documentation/CIM/5.3.1/User/Releasenotes</a></p>",
@@ -370,8 +370,8 @@
             "path": "https://splunkbase.splunk.com/app/1621/release/5.1.2/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "published_datetime": "2023-11-08T13:51:19.476306Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/5.1.2/User/Releasenotes\">https://docs.splunk.com/Documentation/CIM/5.1.2/User/Releasenotes</a></p>",
@@ -404,8 +404,8 @@
             "path": "https://splunkbase.splunk.com/app/1621/release/5.2.0/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "published_datetime": "2023-09-01T21:57:54.115685Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/5.2.0/User/Releasenotes\">https://docs.splunk.com/Documentation/CIM/5.2.0/User/Releasenotes</a></p>",
@@ -504,8 +504,8 @@
             "path": "https://splunkbase.splunk.com/app/1621/release/5.0.2/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "published_datetime": "2022-10-04T23:13:37.184844Z",
             "release_notes": "",
@@ -973,7 +973,7 @@
   "query": {
     "id": "1621"
   },
-  "buildId": "s2nZWUwGWsiJCQuDtogZF",
+  "buildId": "zOtFyrAAQ4voWe_VPxVJm",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

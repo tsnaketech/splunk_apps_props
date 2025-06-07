@@ -28,7 +28,7 @@
         "description": "The Splunk ES Content Update (ESCU) app delivers pre-packaged Security Content. ESCU provides regular Security Content updates to help security practitioners address ongoing time-sensitive threats, attack methods, and other security issues.\n\nSecurity Content consists of tactics, techniques, and methodologies that help with detection, investigation, and response. Security Content enables security teams to directly operationalize detection searches, investigative searches, and other supporting details. ESCU can generate Notable/Risk Events in Splunk Enterprise Security. Security Content also contains easy-to-read background information and guidance, for key context on motivations and risks associated with attack techniques, as well as pragmatic advice on how to combat those techniques.\n\nThe analytic stories and their searches are also available at - https://github.com/splunk/security_content.",
         "documentation": "<p>For more information please visit the <a href=\"http://docs.splunk.com/Documentation/ESCU\">Splunk ES Content Update user documentation</a>.</p>",
         "documentation_source": "For more information please visit the [Splunk ES Content Update user documentation](http://docs.splunk.com/Documentation/ESCU).",
-        "download_count": 146330,
+        "download_count": 146523,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/b2041bc0-4176-11f0-b242-1ecea8b0248b.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "http://www.splunk.com/index.php/ask_expert/default/3174",
@@ -121,8 +121,8 @@
             "path": "https://splunkbase.splunk.com/app/3449/release/5.7.0/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "published_datetime": "2025-06-04T19:49:12.243882Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/ESCU/5.7.0/RN/Enhancements\">https://docs.splunk.com/Documentation/ESCU/5.7.0/RN/Enhancements</a></p>",
@@ -159,8 +159,8 @@
             "path": "https://splunkbase.splunk.com/app/3449/release/5.6.0/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "published_datetime": "2025-05-21T20:20:34.291026Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/ESCU/5.6.0/RN/Enhancements\">https://docs.splunk.com/Documentation/ESCU/5.6.0/RN/Enhancements</a></p>",
@@ -198,8 +198,8 @@
             "path": "https://splunkbase.splunk.com/app/3449/release/5.5.0/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "published_datetime": "2025-05-08T19:07:18.260023Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/ESCU/5.5.0/RN/Enhancements#What's_new\">https://docs.splunk.com/Documentation/ESCU/5.5.0/RN/Enhancements#What's_new</a></p>",
@@ -237,8 +237,8 @@
             "path": "https://splunkbase.splunk.com/app/3449/release/5.4.0/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "published_datetime": "2025-04-23T22:12:08.464861Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/ESCU/5.4.0/RN/Enhancements\">https://docs.splunk.com/Documentation/ESCU/5.4.0/RN/Enhancements</a></p>",
@@ -276,8 +276,8 @@
             "path": "https://splunkbase.splunk.com/app/3449/release/5.3.0/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "published_datetime": "2025-04-09T17:42:40.407234Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/ESCU/5.3.0/RN/Enhancements\">https://docs.splunk.com/Documentation/ESCU/5.3.0/RN/Enhancements</a></p>",
@@ -315,8 +315,8 @@
             "path": "https://splunkbase.splunk.com/app/3449/release/5.2.0/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "published_datetime": "2025-03-24T20:08:19.198233Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/ESCU/latest/RN/Enhancements\">https://docs.splunk.com/Documentation/ESCU/latest/RN/Enhancements</a></p>",
@@ -354,8 +354,8 @@
             "path": "https://splunkbase.splunk.com/app/3449/release/5.1.1/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "published_datetime": "2025-03-04T18:18:55.376410Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/ESCU/5.1.1/RN/Enhancements\">https://docs.splunk.com/Documentation/ESCU/5.1.1/RN/Enhancements</a></p>",
@@ -393,8 +393,8 @@
             "path": "https://splunkbase.splunk.com/app/3449/release/5.0.0/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "published_datetime": "2025-01-31T18:54:20.430731Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/ESCU/5.0.0/RN/Enhancements\">https://docs.splunk.com/Documentation/ESCU/5.0.0/RN/Enhancements</a></p>",
@@ -429,8 +429,8 @@
             "path": "https://splunkbase.splunk.com/app/3449/release/4.44.0/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "published_datetime": "2024-12-05T22:35:20.239634Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/ESCU/4.44.0/RN/Enhancements\">https://docs.splunk.com/Documentation/ESCU/4.44.0/RN/Enhancements</a></p>",
@@ -700,7 +700,7 @@
   "query": {
     "id": "3449"
   },
-  "buildId": "s2nZWUwGWsiJCQuDtogZF",
+  "buildId": "zOtFyrAAQ4voWe_VPxVJm",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
