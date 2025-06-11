@@ -21,7 +21,7 @@
         "description": "The Common Information Model is a set of field names and tags which are expected to define the least common denominator of a domain of interest. It is implemented as documentation on the Splunk docs website and JSON data model files in this add-on. Use the CIM add-on when modeling data or building apps to ensure compatibility between apps, or to just take advantage of these data models to pivot and report.",
         "documentation": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/latest/User/Releasenotes\">Release Notes</a><br>\nPlease see the <a href=\"http://docs.splunk.com/Documentation/CIM/latest/User/Overview\">Splunk Common Information Model Add-on user documentation</a>.</p>",
         "documentation_source": "[Release Notes](https://docs.splunk.com/Documentation/CIM/latest/User/Releasenotes)\nPlease see the [Splunk Common Information Model Add-on user documentation](http://docs.splunk.com/Documentation/CIM/latest/User/Overview).",
-        "download_count": 282370,
+        "download_count": 282576,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/b3890492-3b27-11f0-8f96-829fff79c6a5.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -63,33 +63,64 @@
           ],
           "cloud_compatible": true,
           "fedramp_validation": "no",
-          "filename": "splunk-common-information-model-cim_604.tgz",
-          "id": 37605,
-          "md5": "674e548fa76df7cdd477b2ac90aa98e0",
+          "filename": "splunk-common-information-model-cim_610.tgz",
+          "id": 37998,
+          "md5": "3f3dbf116da9d2b57322a7d9374f056f",
           "min_product_version_str": null,
-          "name": "6.0.4",
+          "name": "6.1.0",
           "passed_validation": true,
-          "path": "https://splunkbase.splunk.com/app/1621/release/6.0.4/download/",
+          "path": "https://splunkbase.splunk.com/app/1621/release/6.1.0/download/",
           "platform": "independent",
           "product_types": [
             "enterprise",
             "cloud"
           ],
-          "published_datetime": "2025-04-30T23:24:39.062112Z",
-          "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/6.0.4/User/Releasenotes\">https://docs.splunk.com/Documentation/CIM/6.0.4/User/Releasenotes</a></p>",
-          "sha256": "0390b1c626ac2a5509684f00c7573ca2c792d63f648301c5139eaf0ab0a9b535",
+          "published_datetime": "2025-06-10T20:34:38.298431Z",
+          "release_notes": "",
+          "sha256": "639a515870d468a591bcc26467a652bde22ce9bbae2837c6112155b0181c771d",
           "signed_available": true,
-          "size": 2227500,
-          "updated_datetime": "2025-04-30T23:24:39.140591Z",
+          "size": 2228905,
+          "updated_datetime": "2025-06-10T20:34:38.400499Z",
           "version_compatibility": [
             "9.4",
             "9.3",
             "9.2",
-            "9.1",
-            "9.0"
+            "9.1"
           ]
         },
         "releases": [
+          {
+            "actions": [],
+            "cim_compatibility": [
+              "6.x"
+            ],
+            "cloud_compatible": true,
+            "fedramp_validation": "no",
+            "filename": "splunk-common-information-model-cim_610.tgz",
+            "id": 37998,
+            "md5": "3f3dbf116da9d2b57322a7d9374f056f",
+            "min_product_version_str": null,
+            "name": "6.1.0",
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/1621/release/6.1.0/download/",
+            "platform": "independent",
+            "product_types": [
+              "cloud",
+              "enterprise"
+            ],
+            "published_datetime": "2025-06-10T20:34:38.298431Z",
+            "release_notes": "",
+            "sha256": "639a515870d468a591bcc26467a652bde22ce9bbae2837c6112155b0181c771d",
+            "signed_available": true,
+            "size": 2228905,
+            "updated_datetime": "2025-06-10T20:34:38.400499Z",
+            "version_compatibility": [
+              "9.4",
+              "9.3",
+              "9.2",
+              "9.1"
+            ]
+          },
           {
             "actions": [],
             "cim_compatibility": [
@@ -957,7 +988,7 @@
         "troubleshooting": "",
         "troubleshooting_source": "",
         "type": "addon",
-        "updated_time": "2025-05-30T09:07:00.178025Z",
+        "updated_time": "2025-06-10T20:34:43.743657Z",
         "video_link": null,
         "app_type": "addon",
         "schedule_release": null,
