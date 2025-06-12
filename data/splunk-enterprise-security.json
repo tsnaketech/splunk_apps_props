@@ -26,8 +26,8 @@
           "redirectTo": "Splunk"
         },
         "description": "Splunk Enterprise Security (ES) solves a wide range of security analytics and operations use cases including continuous security monitoring, advanced threat detection, compliance, incident investigation, forensics and incident response. Splunk ES delivers an end-to-end view of organizations\u2019 security postures with flexible investigations, unmatched performance, and the most flexible deployment options offered in the cloud, on-premises or hybrid deployment models. Splunk ES enables you to: \n\n- Conquer alert fatigue with high-fidelity Risk-Based Alerting.\n- Bring visibility across your hybrid environment with multicloud security monitoring.\n- Conduct flexible investigations for effective threat hunting across security, IT and DevOps data sources.\n\nSplunk ES is a premium security solution requiring a paid license.",
-        "documentation": "<p><a href=\"https://docs.splunk.com/Documentation/ES/7.3.1/RN/Enhancements\">Release Notes</a><br>\n<a href=\"http://docs.splunk.com/Documentation/ES/latest\">Splunk Enterprise Security Documentation</a></p>",
-        "documentation_source": "[Release Notes](https://docs.splunk.com/Documentation/ES/7.3.1/RN/Enhancements)\n[Splunk Enterprise Security Documentation](http://docs.splunk.com/Documentation/ES/latest)",
+        "documentation": "<p><a href=\"https://docs.splunk.com/Documentation/ES/8.1.0/RN/NewFeatures\">Release Notes</a><br>\n<a href=\"http://docs.splunk.com/Documentation/ES/latest\">Splunk Enterprise Security Documentation</a></p>",
+        "documentation_source": "[Release Notes](https://docs.splunk.com/Documentation/ES/8.1.0/RN/NewFeatures)\n[Splunk Enterprise Security Documentation](http://docs.splunk.com/Documentation/ES/latest)",
         "download_count": "N/A",
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/4f4c67a2-251c-11ef-aa96-ae4e248a2471.png",
         "inquiry_buttontext": "Learn More",
@@ -36,8 +36,8 @@
         "is_directory_listing": false,
         "is_soar_certified": false,
         "is_splunk_built": true,
-        "installation": "<p><a href=\"https://docs.splunk.com/Documentation/ES/7.3.1/Install/Overview\">https://docs.splunk.com/Documentation/ES/7.3.1/Install/Overview</a></p>\n<p>Please validate compatibility before installation and upgrade. <a href=\"https://docs.splunk.com/Documentation/VersionCompatibility/current/Matrix/CompatMatrix\">https://docs.splunk.com/Documentation/VersionCompatibility/current/Matrix/CompatMatrix</a></p>",
-        "installation_source": "https://docs.splunk.com/Documentation/ES/7.3.1/Install/Overview\n\nPlease validate compatibility before installation and upgrade. https://docs.splunk.com/Documentation/VersionCompatibility/current/Matrix/CompatMatrix",
+        "installation": "<p><a href=\"https://docs.splunk.com/Documentation/ES/8.1.0/Install/Overview\">https://docs.splunk.com/Documentation/ES/8.1.0/Install/Overview</a></p>\n<p>Please validate compatibility before installation and upgrade. <a href=\"https://docs.splunk.com/Documentation/VersionCompatibility/current/Matrix/CompatMatrix\">https://docs.splunk.com/Documentation/VersionCompatibility/current/Matrix/CompatMatrix</a></p>",
+        "installation_source": "https://docs.splunk.com/Documentation/ES/8.1.0/Install/Overview\n\nPlease validate compatibility before installation and upgrade. https://docs.splunk.com/Documentation/VersionCompatibility/current/Matrix/CompatMatrix",
         "license": {
           "canonical_name": "Splunk General Terms",
           "display_name": "Splunk General Terms",
@@ -83,11 +83,11 @@
             "cloud"
           ],
           "published_datetime": "2025-05-30T09:58:26.675905Z",
-          "release_notes": "",
+          "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/ES/8.1.0/RN/NewFeatures\">https://docs.splunk.com/Documentation/ES/8.1.0/RN/NewFeatures</a></p>",
           "sha256": "37083026a3f59a9eff5c593dab9b4e111e173d3afab8919a61713c9d4c60c501",
           "signed_available": true,
           "size": 696513469,
-          "updated_datetime": "2025-06-10T20:29:47.043295Z",
+          "updated_datetime": "2025-06-11T13:58:10.628605Z",
           "version_compatibility": [
             "9.4",
             "9.3"
@@ -114,11 +114,11 @@
               "enterprise"
             ],
             "published_datetime": "2025-05-30T09:58:26.675905Z",
-            "release_notes": "",
+            "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/ES/8.1.0/RN/NewFeatures\">https://docs.splunk.com/Documentation/ES/8.1.0/RN/NewFeatures</a></p>",
             "sha256": "37083026a3f59a9eff5c593dab9b4e111e173d3afab8919a61713c9d4c60c501",
             "signed_available": true,
             "size": 696513469,
-            "updated_datetime": "2025-06-10T20:29:47.043295Z",
+            "updated_datetime": "2025-06-11T13:58:10.628605Z",
             "version_compatibility": [
               "9.4",
               "9.3"
@@ -1029,10 +1029,10 @@
         ],
         "support": "premium",
         "title": "Splunk Enterprise Security",
-        "troubleshooting": "<p><a href=\"https://docs.splunk.com/Documentation/ES/7.3.1/Admin/Troubleshootscripterrors\">https://docs.splunk.com/Documentation/ES/7.3.1/Admin/Troubleshootscripterrors</a></p>",
-        "troubleshooting_source": "https://docs.splunk.com/Documentation/ES/7.3.1/Admin/Troubleshootscripterrors",
+        "troubleshooting": "<p><a href=\"https://docs.splunk.com/Documentation/ES/8.1.0/Troubleshoot/TroubleshootScriptErrors\">https://docs.splunk.com/Documentation/ES/8.1.0/Troubleshoot/TroubleshootScriptErrors</a></p>",
+        "troubleshooting_source": "https://docs.splunk.com/Documentation/ES/8.1.0/Troubleshoot/TroubleshootScriptErrors",
         "type": "app",
-        "updated_time": "2025-06-10T20:33:57.710324Z",
+        "updated_time": "2025-06-11T14:06:39.159270Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
