@@ -82,7 +82,7 @@
             "enterprise",
             "cloud"
           ],
-          "published_datetime": "2025-05-30T09:58:26.675905Z",
+          "published_datetime": "2025-06-10T09:58:26.675905Z",
           "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/ES/8.1.0/RN/NewFeatures\">https://docs.splunk.com/Documentation/ES/8.1.0/RN/NewFeatures</a></p>",
           "sha256": "37083026a3f59a9eff5c593dab9b4e111e173d3afab8919a61713c9d4c60c501",
           "signed_available": true,
@@ -113,7 +113,7 @@
               "cloud",
               "enterprise"
             ],
-            "published_datetime": "2025-05-30T09:58:26.675905Z",
+            "published_datetime": "2025-06-10T09:58:26.675905Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/ES/8.1.0/RN/NewFeatures\">https://docs.splunk.com/Documentation/ES/8.1.0/RN/NewFeatures</a></p>",
             "sha256": "37083026a3f59a9eff5c593dab9b4e111e173d3afab8919a61713c9d4c60c501",
             "signed_available": true,
@@ -1048,7 +1048,7 @@
   "query": {
     "id": "263"
   },
-  "buildId": "mMXbpTOfFpdR-WJ1m8DIV",
+  "buildId": "bXgD8lDN7cZ4QL5R6HkG5",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

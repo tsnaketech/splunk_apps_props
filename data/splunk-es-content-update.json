@@ -28,7 +28,7 @@
         "description": "The Splunk ES Content Update (ESCU) app delivers pre-packaged Security Content. ESCU provides regular Security Content updates to help security practitioners address ongoing time-sensitive threats, attack methods, and other security issues.\n\nSecurity Content consists of tactics, techniques, and methodologies that help with detection, investigation, and response. Security Content enables security teams to directly operationalize detection searches, investigative searches, and other supporting details. ESCU can generate Notable/Risk Events in Splunk Enterprise Security. Security Content also contains easy-to-read background information and guidance, for key context on motivations and risks associated with attack techniques, as well as pragmatic advice on how to combat those techniques.\n\nThe analytic stories and their searches are also available at - https://github.com/splunk/security_content.",
         "documentation": "<p>For more information please visit the <a href=\"http://docs.splunk.com/Documentation/ESCU\">Splunk ES Content Update user documentation</a>.</p>",
         "documentation_source": "For more information please visit the [Splunk ES Content Update user documentation](http://docs.splunk.com/Documentation/ESCU).",
-        "download_count": 147235,
+        "download_count": 147259,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/b2041bc0-4176-11f0-b242-1ecea8b0248b.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "http://www.splunk.com/index.php/ask_expert/default/3174",
@@ -92,6 +92,7 @@
           "size": 8424119,
           "updated_datetime": "2025-06-04T19:50:00.380381Z",
           "version_compatibility": [
+            "10.0",
             "9.3",
             "9.2",
             "9.1",
@@ -131,6 +132,7 @@
             "size": 8424119,
             "updated_datetime": "2025-06-04T19:50:00.380381Z",
             "version_compatibility": [
+              "10.0",
               "9.3",
               "9.2",
               "9.1",
@@ -169,6 +171,7 @@
             "size": 8414954,
             "updated_datetime": "2025-05-27T20:38:02.671564Z",
             "version_compatibility": [
+              "10.0",
               "9.4",
               "9.3",
               "9.2",
@@ -364,6 +367,7 @@
             "size": 8251106,
             "updated_datetime": "2025-03-04T18:18:55.452663Z",
             "version_compatibility": [
+              "10.0",
               "9.4",
               "9.3",
               "9.2",
@@ -700,7 +704,7 @@
   "query": {
     "id": "3449"
   },
-  "buildId": "mMXbpTOfFpdR-WJ1m8DIV",
+  "buildId": "bXgD8lDN7cZ4QL5R6HkG5",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
