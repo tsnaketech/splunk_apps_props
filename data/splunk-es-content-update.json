@@ -28,8 +28,8 @@
         "description": "The Splunk ES Content Update (ESCU) app delivers pre-packaged Security Content. ESCU provides regular Security Content updates to help security practitioners address ongoing time-sensitive threats, attack methods, and other security issues.\n\nSecurity Content consists of tactics, techniques, and methodologies that help with detection, investigation, and response. Security Content enables security teams to directly operationalize detection searches, investigative searches, and other supporting details. ESCU can generate Notable/Risk Events in Splunk Enterprise Security. Security Content also contains easy-to-read background information and guidance, for key context on motivations and risks associated with attack techniques, as well as pragmatic advice on how to combat those techniques.\n\nThe analytic stories and their searches are also available at - https://github.com/splunk/security_content.",
         "documentation": "<p>For more information please visit the <a href=\"http://docs.splunk.com/Documentation/ESCU\">Splunk ES Content Update user documentation</a>.</p>",
         "documentation_source": "For more information please visit the [Splunk ES Content Update user documentation](http://docs.splunk.com/Documentation/ESCU).",
-        "download_count": 147345,
-        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/b2041bc0-4176-11f0-b242-1ecea8b0248b.png",
+        "download_count": 147432,
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/86979150-4c80-11f0-854a-662f8c7b80ef.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "http://www.splunk.com/index.php/ask_expert/default/3174",
         "is_archived": false,
@@ -73,26 +73,27 @@
           ],
           "cloud_compatible": true,
           "fedramp_validation": "no",
-          "filename": "splunk-es-content-update_570.tgz",
-          "id": 38092,
-          "md5": "328b9bf3e7f62af91bd0e6dd11ac11b8",
+          "filename": "splunk-es-content-update_580.tgz",
+          "id": 38254,
+          "md5": "46f609636205b2b4ceb4a5fdb6751baa",
           "min_product_version_str": null,
-          "name": "5.7.0",
+          "name": "5.8.0",
           "passed_validation": true,
-          "path": "https://splunkbase.splunk.com/app/3449/release/5.7.0/download/",
+          "path": "https://splunkbase.splunk.com/app/3449/release/5.8.0/download/",
           "platform": "independent",
           "product_types": [
             "enterprise",
             "cloud"
           ],
-          "published_datetime": "2025-06-04T19:49:12.243882Z",
-          "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/ESCU/5.7.0/RN/Enhancements\">https://docs.splunk.com/Documentation/ESCU/5.7.0/RN/Enhancements</a></p>",
-          "sha256": "c2f618bda2c0a0b959259a02b01ef6dd1c36ad73ee52d31b2c6f8d3dccfec7ad",
+          "published_datetime": "2025-06-18T21:33:35.827889Z",
+          "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/ESCU/5.8.0/RN/Enhancements\">https://docs.splunk.com/Documentation/ESCU/5.8.0/RN/Enhancements</a></p>",
+          "sha256": "35211adc544d0904c3aa321207570cb4733979328ec8bbd86da941f488255382",
           "signed_available": true,
-          "size": 8424119,
-          "updated_datetime": "2025-06-04T19:50:00.380381Z",
+          "size": 8433262,
+          "updated_datetime": "2025-06-18T21:33:35.955181Z",
           "version_compatibility": [
             "10.0",
+            "9.4",
             "9.3",
             "9.2",
             "9.1",
@@ -104,6 +105,46 @@
           ]
         },
         "releases": [
+          {
+            "actions": [],
+            "cim_compatibility": [
+              "6.x",
+              "5.x",
+              "4.x"
+            ],
+            "cloud_compatible": true,
+            "fedramp_validation": "no",
+            "filename": "splunk-es-content-update_580.tgz",
+            "id": 38254,
+            "md5": "46f609636205b2b4ceb4a5fdb6751baa",
+            "min_product_version_str": null,
+            "name": "5.8.0",
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/3449/release/5.8.0/download/",
+            "platform": "independent",
+            "product_types": [
+              "cloud",
+              "enterprise"
+            ],
+            "published_datetime": "2025-06-18T21:33:35.827889Z",
+            "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/ESCU/5.8.0/RN/Enhancements\">https://docs.splunk.com/Documentation/ESCU/5.8.0/RN/Enhancements</a></p>",
+            "sha256": "35211adc544d0904c3aa321207570cb4733979328ec8bbd86da941f488255382",
+            "signed_available": true,
+            "size": 8433262,
+            "updated_datetime": "2025-06-18T21:33:35.955181Z",
+            "version_compatibility": [
+              "10.0",
+              "9.4",
+              "9.3",
+              "9.2",
+              "9.1",
+              "9.0",
+              "8.2",
+              "8.1",
+              "8.0",
+              "7.3"
+            ]
+          },
           {
             "actions": [],
             "cim_compatibility": [
@@ -688,7 +729,7 @@
         "troubleshooting": "<p>Open a Splunk Support Case or reach out to us directly at <a href=\"mailto:research@splunk.com\">research@splunk.com</a>.</p>",
         "troubleshooting_source": "Open a Splunk Support Case or reach out to us directly at research@splunk.com.",
         "type": "addon",
-        "updated_time": "2025-06-04T19:50:07.008048Z",
+        "updated_time": "2025-06-18T21:56:33.691060Z",
         "video_link": null,
         "app_type": "addon",
         "schedule_release": null,
@@ -704,7 +745,7 @@
   "query": {
     "id": "3449"
   },
-  "buildId": "j_TTUdT0QenluKlnx7yoe",
+  "buildId": "4O6rHzQgtDRK8QhpsfBu0",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
