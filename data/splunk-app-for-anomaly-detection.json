@@ -33,7 +33,7 @@
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/21bc8992-8405-11ee-8d26-7e3a32636d24.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
-        "is_archived": false,
+        "is_archived": true,
         "is_directory_listing": false,
         "is_soar_certified": false,
         "is_splunk_built": true,
@@ -49,8 +49,7 @@
         "license_agreement_read_required": false,
         "product": "splunk",
         "product_types": [
-          "enterprise",
-          "cloud"
+          "enterprise"
         ],
         "public": true,
         "ranking": [
@@ -72,7 +71,7 @@
         "release": {
           "actions": [],
           "cim_compatibility": [],
-          "cloud_compatible": true,
+          "cloud_compatible": false,
           "fedramp_validation": "no",
           "filename": "splunk-app-for-anomaly-detection_112.tgz",
           "id": 31218,
@@ -83,15 +82,14 @@
           "path": "https://splunkbase.splunk.com/app/6843/release/1.1.2/download/",
           "platform": "independent",
           "product_types": [
-            "enterprise",
-            "cloud"
+            "enterprise"
           ],
           "published_datetime": "2023-11-15T22:20:07.952515Z",
           "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/AnomalyApp/1.1.2/ReleaseNotes/NewFeatures\">https://docs.splunk.com/Documentation/AnomalyApp/1.1.2/ReleaseNotes/NewFeatures</a></p>",
           "sha256": "c71c50561aef2bea5c0a9fbc3c6021912793dff795598387236df994c86bf002",
           "signed_available": true,
           "size": 7886474,
-          "updated_datetime": "2024-03-28T05:26:24.608103Z",
+          "updated_datetime": "2025-06-26T17:26:56.989800Z",
           "version_compatibility": [
             "9.4",
             "9.3",
@@ -107,7 +105,7 @@
           {
             "actions": [],
             "cim_compatibility": [],
-            "cloud_compatible": true,
+            "cloud_compatible": false,
             "fedramp_validation": "no",
             "filename": "splunk-app-for-anomaly-detection_112.tgz",
             "id": 31218,
@@ -118,7 +116,6 @@
             "path": "https://splunkbase.splunk.com/app/6843/release/1.1.2/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
               "enterprise"
             ],
             "published_datetime": "2023-11-15T22:20:07.952515Z",
@@ -126,7 +123,7 @@
             "sha256": "c71c50561aef2bea5c0a9fbc3c6021912793dff795598387236df994c86bf002",
             "signed_available": true,
             "size": 7886474,
-            "updated_datetime": "2024-03-28T05:26:24.608103Z",
+            "updated_datetime": "2025-06-26T17:26:56.989800Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -159,7 +156,7 @@
             "sha256": "3a86f1e46c356a78328f37f104c36b98be63333655768475fca80ff3f488c90d",
             "signed_available": true,
             "size": 7888448,
-            "updated_datetime": "2025-01-30T09:58:45.430866Z",
+            "updated_datetime": "2025-06-26T17:26:57.154389Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -192,7 +189,7 @@
             "sha256": "fa6a7eb39536dfd446d47722e0d9355c6216fe878251eb5ca9851cd2326183f9",
             "signed_available": true,
             "size": 8106390,
-            "updated_datetime": "2025-01-30T09:58:43.787211Z",
+            "updated_datetime": "2025-06-26T17:26:57.245684Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -225,7 +222,7 @@
             "sha256": "506efcc76b79be0deaa81cd73d618972c083c58cd80187340377609802656abc",
             "signed_available": true,
             "size": 9133348,
-            "updated_datetime": "2025-01-30T09:58:42.120564Z",
+            "updated_datetime": "2025-06-26T17:26:57.336950Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -244,12 +241,12 @@
           "https://cdn.splunkbase.splunk.com/media/public/screenshots/21183100-202b-11ee-8a2f-9e1ceba430f1.png",
           "https://cdn.splunkbase.splunk.com/media/public/screenshots/1bf341ba-202b-11ee-b3b0-c238c850335c.png"
         ],
-        "support": "splunk",
+        "support": "not_supported",
         "title": "Splunk App for Anomaly Detection",
         "troubleshooting": "<p>For troubleshooting instructions, see <a href=\"https://docs.splunk.com/Documentation/AnomalyApp/1.0.0/User/Troubleshoot\">https://docs.splunk.com/Documentation/AnomalyApp/1.0.0/User/Troubleshoot</a></p>",
         "troubleshooting_source": "For troubleshooting instructions, see https://docs.splunk.com/Documentation/AnomalyApp/1.0.0/User/Troubleshoot",
         "type": "app",
-        "updated_time": "2025-06-12T06:17:56.949549Z",
+        "updated_time": "2025-06-26T17:26:57.429682Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
@@ -265,7 +262,7 @@
   "query": {
     "id": "6843"
   },
-  "buildId": "X36iK6IAZS2uOSulJjG0u",
+  "buildId": "TAoY6iIkNheKIEVPDYTo_",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
