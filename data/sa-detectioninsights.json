@@ -27,8 +27,8 @@
         "description": "An application for Splunk Enterprise Security providing additional insights into everything surrounding and/or impacting your security detections.",
         "documentation": "<p>See the application documentation <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/\">here</a> for more information on installing, configuring and using it.</p>\n<p>Credit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.<br>\nThanks to Dean Luxton for reporting issues, fixes and improvement ideas!</p>",
         "documentation_source": "See the application documentation [here](https://splunk.github.io/Splunk_App_for_Detection_Insights/) for more information on installing, configuring and using it.\n\nCredit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.\nThanks to Dean Luxton for reporting issues, fixes and improvement ideas!",
-        "download_count": 1526,
-        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/2deee7ae-ab79-11ef-a425-b6262e59d253.png",
+        "download_count": 1528,
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/f1f4cbe6-5781-11f0-ba1e-5a77e051378c.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
         "is_archived": false,
@@ -58,7 +58,7 @@
             "category_display_name": "SIEM"
           },
           {
-            "rank": 608,
+            "rank": 607,
             "category_name": "security_compliance",
             "category_display_name": "Security, Fraud & Compliance"
           }
@@ -75,34 +75,73 @@
           ],
           "cloud_compatible": true,
           "fedramp_validation": "no",
-          "filename": "sa-detectioninsights_120.tgz",
-          "id": 35738,
-          "md5": "fa656535312664220cfbabdbc06e619a",
+          "filename": "sa-detectioninsights_130.tgz",
+          "id": 38435,
+          "md5": "1c014a94fd08a69739d03a310a2eaf0a",
           "min_product_version_str": null,
-          "name": "1.2.0",
+          "name": "1.3.0",
           "passed_validation": true,
-          "path": "https://splunkbase.splunk.com/app/7066/release/1.2.0/download/",
+          "path": "https://splunkbase.splunk.com/app/7066/release/1.3.0/download/",
           "platform": "independent",
           "product_types": [
             "enterprise",
             "cloud"
           ],
-          "published_datetime": "2024-11-25T22:04:34.373396Z",
-          "release_notes": "<h1>Detection Insights - Release Notes</h1>\n<p>See details <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/release_notes/\">here</a>.</p>",
-          "sha256": "94934cc5d665e3562a57c65ad6585888edb491d9ba8b69af1cf06cface69aab7",
+          "published_datetime": "2025-07-02T20:23:52.516205Z",
+          "release_notes": "<h1>Fixed issues</h1>\n<ul>\n<li>Fix issue with EOL'ed dependencies (Viz) (#138)</li>\n<li>Fix conflict with <code>nist_lookup/nist.csv</code> in ES 8.1 (#139)<blockquote>\n<p>Note: As a result of the above fix, all lookups have been prefixed with \"di\".</p>\n</blockquote>\n</li>\n<li>Look into removing macros that are no longer used (#130)</li>\n</ul>\n<h1>Others / Code Quality</h1>\n<ul>\n<li>Repackaged the deprecated <strong>Calendar Heat Map - Custom Visualization</strong> with a new ID so it can still be used in this app despite being out of support (from Splunk) officially.  See the application's prerequisite tab for details/download.  The application supports using both the original or the newly repackaged version.</li>\n<li>Removed the dependency on the <strong>Status Indicator - Custom Visualization</strong> app.</li>\n</ul>",
+          "sha256": "393f7991d5dfae7cb02419bdb8253e92e6c40e2f61f81e578eec14f998ea1f56",
           "signed_available": true,
-          "size": 937871,
-          "updated_datetime": "2024-12-20T09:40:34.340392Z",
+          "size": 941580,
+          "updated_datetime": "2025-07-02T20:52:36.369689Z",
           "version_compatibility": [
             "9.4",
             "9.3",
             "9.2",
             "9.1",
             "9.0",
-            "8.2"
+            "8.2",
+            "8.1",
+            "8.0"
           ]
         },
         "releases": [
+          {
+            "actions": [],
+            "cim_compatibility": [
+              "6.x",
+              "5.x"
+            ],
+            "cloud_compatible": true,
+            "fedramp_validation": "no",
+            "filename": "sa-detectioninsights_130.tgz",
+            "id": 38435,
+            "md5": "1c014a94fd08a69739d03a310a2eaf0a",
+            "min_product_version_str": null,
+            "name": "1.3.0",
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/7066/release/1.3.0/download/",
+            "platform": "independent",
+            "product_types": [
+              "cloud",
+              "enterprise"
+            ],
+            "published_datetime": "2025-07-02T20:23:52.516205Z",
+            "release_notes": "<h1>Fixed issues</h1>\n<ul>\n<li>Fix issue with EOL'ed dependencies (Viz) (#138)</li>\n<li>Fix conflict with <code>nist_lookup/nist.csv</code> in ES 8.1 (#139)<blockquote>\n<p>Note: As a result of the above fix, all lookups have been prefixed with \"di\".</p>\n</blockquote>\n</li>\n<li>Look into removing macros that are no longer used (#130)</li>\n</ul>\n<h1>Others / Code Quality</h1>\n<ul>\n<li>Repackaged the deprecated <strong>Calendar Heat Map - Custom Visualization</strong> with a new ID so it can still be used in this app despite being out of support (from Splunk) officially.  See the application's prerequisite tab for details/download.  The application supports using both the original or the newly repackaged version.</li>\n<li>Removed the dependency on the <strong>Status Indicator - Custom Visualization</strong> app.</li>\n</ul>",
+            "sha256": "393f7991d5dfae7cb02419bdb8253e92e6c40e2f61f81e578eec14f998ea1f56",
+            "signed_available": true,
+            "size": 941580,
+            "updated_datetime": "2025-07-02T20:52:36.369689Z",
+            "version_compatibility": [
+              "9.4",
+              "9.3",
+              "9.2",
+              "9.1",
+              "9.0",
+              "8.2",
+              "8.1",
+              "8.0"
+            ]
+          },
           {
             "actions": [],
             "cim_compatibility": [
@@ -289,7 +328,7 @@
         "troubleshooting": "<p>Please refer to the application documentation <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/\">here</a> for troubleshooting guidance.</p>",
         "troubleshooting_source": "Please refer to the application documentation [here](https://splunk.github.io/Splunk_App_for_Detection_Insights/) for troubleshooting guidance.",
         "type": "app",
-        "updated_time": "2024-12-20T09:40:34.374976Z",
+        "updated_time": "2025-07-02T20:52:36.564683Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
@@ -305,7 +344,7 @@
   "query": {
     "id": "7066"
   },
-  "buildId": "K7cLF0MBSY7tKpXEAZVty",
+  "buildId": "Ot92e7-dkfpSQjmhpnsO1",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
