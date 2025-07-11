@@ -44,7 +44,7 @@
         "public": true,
         "ranking": [
           {
-            "rank": 1160,
+            "rank": 1161,
             "category_name": "utilities",
             "category_display_name": "Utilities"
           }
@@ -58,7 +58,7 @@
           "cim_compatibility": [],
           "cloud_compatible": false,
           "fedramp_validation": "no",
-          "filename": "ta-custom-login-page_null.None",
+          "filename": "ta-custom-login-page_null",
           "id": 24658,
           "md5": "",
           "min_product_version_str": null,
@@ -102,7 +102,7 @@
   "query": {
     "id": "6157"
   },
-  "buildId": "aix-CmWuc8Nip5nWRSTh_",
+  "buildId": "wFRyWsdBaz9rOPNPZshey",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

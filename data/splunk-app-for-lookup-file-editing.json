@@ -50,7 +50,7 @@
         "description": "Ever want to edit a lookup within Splunk with a user interface? Now you can. This app provides an Excel-like interface for editing, importing, and exporting lookup files (KV store and CSV-based).\n\nThis app also makes your lookups work in Search Head Clustered environments (edits to lookups will be propagated to other search heads).\n\nRevision history is maintained for lookups so that you can view or restore older lookups quickly in the interface.\n\nCheck out the Documentation site: \nhttps://docs.splunk.com/Documentation/LookupEditor\n\nhttps://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew",
         "documentation": "<ul>\n<li><a href=\"https://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew\">What's new</a></li>\n<li><a href=\"https://docs.splunk.com/Documentation/LookupEditor\">Documentation Site</a></li>\n</ul>",
         "documentation_source": "*   [What's new](https://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew)\n*   [Documentation Site](https://docs.splunk.com/Documentation/LookupEditor)",
-        "download_count": 202595,
+        "download_count": 202764,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/2cf56976-e270-11ef-9d83-ae1b95a41573.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -82,7 +82,7 @@
           }
         ],
         "rating": {
-          "count": 91,
+          "count": 92,
           "average": 5
         },
         "release": {
@@ -1312,7 +1312,7 @@
         "troubleshooting": "",
         "troubleshooting_source": "",
         "type": "app",
-        "updated_time": "2025-06-13T19:36:55.550710Z",
+        "updated_time": "2025-07-10T20:31:27.088708Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
@@ -1328,7 +1328,7 @@
   "query": {
     "id": "1724"
   },
-  "buildId": "aix-CmWuc8Nip5nWRSTh_",
+  "buildId": "wFRyWsdBaz9rOPNPZshey",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
