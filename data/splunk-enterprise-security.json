@@ -87,8 +87,9 @@
           "sha256": "37083026a3f59a9eff5c593dab9b4e111e173d3afab8919a61713c9d4c60c501",
           "signed_available": true,
           "size": 696513469,
-          "updated_datetime": "2025-06-13T05:02:03.066622Z",
+          "updated_datetime": "2025-07-11T19:04:35.358384Z",
           "version_compatibility": [
+            "10.0",
             "9.4",
             "9.3"
           ]
@@ -148,8 +149,9 @@
             "sha256": "37083026a3f59a9eff5c593dab9b4e111e173d3afab8919a61713c9d4c60c501",
             "signed_available": true,
             "size": 696513469,
-            "updated_datetime": "2025-06-13T05:02:03.066622Z",
+            "updated_datetime": "2025-07-11T19:04:35.358384Z",
             "version_compatibility": [
+              "10.0",
               "9.4",
               "9.3"
             ]
@@ -178,8 +180,9 @@
             "sha256": "2041c69a0752a5bb794ba9d164ef6613403752f0208cbfa50b8686021a395783",
             "signed_available": true,
             "size": 709922728,
-            "updated_datetime": "2025-06-09T20:44:21.242867Z",
+            "updated_datetime": "2025-07-11T19:04:38.936216Z",
             "version_compatibility": [
+              "10.0",
               "9.4",
               "9.3",
               "9.2"
@@ -1062,7 +1065,7 @@
         "troubleshooting": "<p><a href=\"https://docs.splunk.com/Documentation/ES/8.1.0/Troubleshoot/TroubleshootScriptErrors\">https://docs.splunk.com/Documentation/ES/8.1.0/Troubleshoot/TroubleshootScriptErrors</a></p>",
         "troubleshooting_source": "https://docs.splunk.com/Documentation/ES/8.1.0/Troubleshoot/TroubleshootScriptErrors",
         "type": "app",
-        "updated_time": "2025-07-03T21:16:31.525900Z",
+        "updated_time": "2025-07-11T19:04:39.124343Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
@@ -1078,7 +1081,7 @@
   "query": {
     "id": "263"
   },
-  "buildId": "wFRyWsdBaz9rOPNPZshey",
+  "buildId": "KK2TwcoxfOfKsNrH_wg6Q",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
