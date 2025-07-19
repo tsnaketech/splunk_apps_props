@@ -70,24 +70,24 @@
           ],
           "cloud_compatible": true,
           "fedramp_validation": "no",
-          "filename": "splunk-enterprise-security_810.spl",
-          "id": 38022,
-          "md5": "087ccf04a19795c144696f3134bf8c10",
+          "filename": "splunk-enterprise-security_811.spl",
+          "id": 38576,
+          "md5": "9c5742a19f5b0d37a2adba76601a2139",
           "min_product_version_str": null,
-          "name": "8.1.0",
+          "name": "8.1.1",
           "passed_validation": false,
-          "path": "https://splunkbase.splunk.com/app/263/release/8.1.0/download/",
+          "path": "https://splunkbase.splunk.com/app/263/release/8.1.1/download/",
           "platform": "independent",
           "product_types": [
             "enterprise",
             "cloud"
           ],
-          "published_datetime": "2025-06-10T09:58:26.675905Z",
-          "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/ES/8.1.0/RN/NewFeatures\">https://docs.splunk.com/Documentation/ES/8.1.0/RN/NewFeatures</a></p>",
-          "sha256": "37083026a3f59a9eff5c593dab9b4e111e173d3afab8919a61713c9d4c60c501",
+          "published_datetime": "2025-07-18T00:36:56.058595Z",
+          "release_notes": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.1/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security\">https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.1/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security</a></p>",
+          "sha256": "8c8e4151535d1d53e8c6f9fc50d6779b26a85924acc93cde85c494945dc39c5c",
           "signed_available": true,
-          "size": 696513469,
-          "updated_datetime": "2025-07-11T19:04:35.358384Z",
+          "size": 697734043,
+          "updated_datetime": "2025-07-18T00:56:12.127601Z",
           "version_compatibility": [
             "10.0",
             "9.4",
@@ -95,6 +95,37 @@
           ]
         },
         "releases": [
+          {
+            "actions": [],
+            "cim_compatibility": [
+              "6.x"
+            ],
+            "cloud_compatible": true,
+            "fedramp_validation": "no",
+            "filename": "splunk-enterprise-security_811.spl",
+            "id": 38576,
+            "md5": "9c5742a19f5b0d37a2adba76601a2139",
+            "min_product_version_str": null,
+            "name": "8.1.1",
+            "passed_validation": false,
+            "path": "https://splunkbase.splunk.com/app/263/release/8.1.1/download/",
+            "platform": "independent",
+            "product_types": [
+              "cloud",
+              "enterprise"
+            ],
+            "published_datetime": "2025-07-18T00:36:56.058595Z",
+            "release_notes": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.1/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security\">https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.1/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security</a></p>",
+            "sha256": "8c8e4151535d1d53e8c6f9fc50d6779b26a85924acc93cde85c494945dc39c5c",
+            "signed_available": true,
+            "size": 697734043,
+            "updated_datetime": "2025-07-18T00:56:12.127601Z",
+            "version_compatibility": [
+              "10.0",
+              "9.4",
+              "9.3"
+            ]
+          },
           {
             "actions": [],
             "cim_compatibility": [
@@ -1065,7 +1096,7 @@
         "troubleshooting": "<p><a href=\"https://docs.splunk.com/Documentation/ES/8.1.0/Troubleshoot/TroubleshootScriptErrors\">https://docs.splunk.com/Documentation/ES/8.1.0/Troubleshoot/TroubleshootScriptErrors</a></p>",
         "troubleshooting_source": "https://docs.splunk.com/Documentation/ES/8.1.0/Troubleshoot/TroubleshootScriptErrors",
         "type": "app",
-        "updated_time": "2025-07-16T20:20:14.452511Z",
+        "updated_time": "2025-07-18T00:56:12.318966Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
@@ -1081,7 +1112,7 @@
   "query": {
     "id": "263"
   },
-  "buildId": "wtYcrA3CrbAK2c_pyHihg",
+  "buildId": "mmzhzLSWg3-MIjvORUC66",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
