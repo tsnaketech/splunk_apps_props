@@ -73,6 +73,7 @@
             "enterprise",
             "cloud"
           ],
+          "public_ever_true": false,
           "published_datetime": "2025-07-29T18:12:10.546188Z",
           "release_notes": "<p>ThreatQ Splunk App 3.0<br>\n - Release Notes: Added compatibility for Splunk 10.<br>\n - Build Link: <a href=\"https://drive.google.com/file/d/1uO1GthTXlVZttmqq6Vi_et5NT3MUKHEg/view?usp=drive_link\">https://drive.google.com/file/d/1uO1GthTXlVZttmqq6Vi_et5NT3MUKHEg/view?usp=drive_link</a></p>\n<p>Compatibility Matrix:<br>\n - Browser: Google Chrome, Mozilla Firefox<br>\n - OS: Platform Independent<br>\n - Splunk Enterprise version: 10.0.x, 9.4.x, 9.3.x, 9.2.x and 9.1.x<br>\n - Supported Splunk Deployment: Splunk Cluster, Splunk Standalone, and Distributed Deployment</p>",
           "sha256": "552493f88bd33b3e97bac89f1e67765a62512fe10872f463bd0f38e05742ad7e",
@@ -105,6 +106,7 @@
               "cloud",
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2025-07-29T18:12:10.546188Z",
             "release_notes": "<p>ThreatQ Splunk App 3.0<br>\n - Release Notes: Added compatibility for Splunk 10.<br>\n - Build Link: <a href=\"https://drive.google.com/file/d/1uO1GthTXlVZttmqq6Vi_et5NT3MUKHEg/view?usp=drive_link\">https://drive.google.com/file/d/1uO1GthTXlVZttmqq6Vi_et5NT3MUKHEg/view?usp=drive_link</a></p>\n<p>Compatibility Matrix:<br>\n - Browser: Google Chrome, Mozilla Firefox<br>\n - OS: Platform Independent<br>\n - Splunk Enterprise version: 10.0.x, 9.4.x, 9.3.x, 9.2.x and 9.1.x<br>\n - Supported Splunk Deployment: Splunk Cluster, Splunk Standalone, and Distributed Deployment</p>",
             "sha256": "552493f88bd33b3e97bac89f1e67765a62512fe10872f463bd0f38e05742ad7e",
@@ -136,6 +138,7 @@
               "cloud",
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2025-05-27T18:06:04.578201Z",
             "release_notes": "<p>ThreatQ Splunk App 3.0.1<br>\n - Removed sort parameter for attributes API call used in threatqconsumeindicatorsnew and threatqconsumeindicators custom command.</p>\n<p>Compatibility Matrix:<br>\n  - Browser: Google Chrome, Mozilla Firefox<br>\n  - OS: Platform Independent<br>\n  - Splunk Enterprise version: 9.4.x, 9.3.x, 9.2.x and 9.1.x<br>\n  - Supported Splunk Deployment: Splunk Cluster, Splunk Standalone, and Distributed Deployment</p>",
             "sha256": "0437c2acf35c959b8238192d7138f0b35e570f424e012df4c25de890c69180ec",
@@ -166,6 +169,7 @@
               "cloud",
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2025-02-19T22:01:35.240388Z",
             "release_notes": "<p>3.0.0<br>\n - Resolved Splunk cloud compatibility issues.<br>\n - Added support to perform bulk indicator lookup.<br>\n - Added two new configuration tabs:<br>\n - Splunk Custom Fields<br>\n - Splunk Forwarder<br>\n - Added the ability to fetch latest indicators from ThreatQ to Splunk through the App - see the Splunk Forwarder section under <br>\n   Configuration chapter for further details.<br>\n - Renamed the Custom Attributes and Custom Fields parameters to ThreatQ Custom Attributes and ThreatQ Custom Fields. Relocated <br>\n   these updated fields to the new Splunk Custom Fields tab. <br>\n - Added ThreatQ Custom Attributes<br>\n - Added support to send custom fields to ThreatQ from Splunk.<br>\n - Added support to send Datamodel name and latest raw event to ThreatQ.<br>\n - Added support for Splunk Enterprise and Cloud versions 9.3.x and 9.4.x.<br>\n - Updated the minimum ThreatQ version to 5.11.0.</p>",
             "sha256": "53db85b8ad03b047bfd4ddb6f6a9543d60edec82fe9a4e8fdf880dc93ee3f4d0",
@@ -195,6 +199,7 @@
             "product_types": [
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2024-07-25T16:23:16.064671Z",
             "release_notes": "<p>ThreatQ Splunk App 2.8.0<br>\n  - Release Notes<br>\n    - Fixed Splunk connectivity issues by using the requests library</p>",
             "sha256": "8e9e236a25c05124e4374c7b2acc881656a3f1ef0173cb2f3eb4dfb4e9593fb9",
@@ -222,6 +227,7 @@
             "product_types": [
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2024-01-17T21:55:26.360861Z",
             "release_notes": "<p>Release Notes<br>\n  - Updated Splunk SDK<br>\n  - Fixed app inspect warnings.<br>\nSupported versions<br>\n  - Browser: Google Chrome, Mozilla Firefox<br>\n  - OS: Linux (CentOs, Ubuntu) and Windows<br>\n  - Splunk Enterprise version: 9.1.x and 9.0.x<br>\n  - Supported Splunk Deployment: Splunk Cluster, Splunk Standalone, and Distributed Deployment</p>",
             "sha256": "f0ac13230cb7a61e4746349058ecf0e847a73eddfb6703799afabb5a9d357395",
@@ -255,6 +261,7 @@
             "product_types": [
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2023-05-23T22:56:40.000645Z",
             "release_notes": "<ul>\n<li>Added \u201cConfiguration\u201d tab for ThreatQ account and \u201cApp Settings\u201d to avoid dependency on Add-on in a distributed environment.</li>\n<li>Removed the \u201cVerify SSL Certificate\u201d checkbox from the Configuration page. Navigate to the <br>\n<code>$SPLUNK_HOME/etc/apps/ThreatQAppforSplunk/bin/threatq_const.py</code> and change VERIFY_SSL to False if certificate validation is not <br>\n    required.</li>\n<li>Included \u201cSplunk Web URL\u201d field in the ThreatQ account\u2019s tab.</li>\n<li>Migrated \u201cAlert Actions\u201d and \u201cWorkflow Actions\u201d from the Add-on to App.</li>\n<li>Removed \u201cThreatQ: Add To Whitelist\u201d workflow action.</li>\n<li>Added \u201cThreatQ: Update Indicator Status\u201d workflow action with options from the lookup.</li>\n<li>Options for the \u201cThreatQ Update Indicator Status\u201d alert action will now populate from the lookup.</li>\n<li>Added \u201cIndicators Malware Family Distribution\u201d and \u201cIndicators With Sightings Malware Family Distribution\u201d panels in Threat Dashboard.</li>\n</ul>",
             "sha256": "3a43175d63bee64626348ef411f086464503d6ec0f9828e83378200f82020ac8",
@@ -289,6 +296,7 @@
             "product_types": [
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2022-05-17T18:33:51.898449Z",
             "release_notes": "<p>ThreatQ Splunk App 2.5.0:<br>\n- JQuery bundled with app and upgraded to v3.5.0<br>\n- Additional data validation on custom field/attributes on app configuration page</p>",
             "sha256": "4a8699647f96522c76ce901995cbf439417726a1a610ac45da876e043ee2d51a",
@@ -319,6 +327,7 @@
             "path": "https://splunkbase.splunk.com/app/4418/release/2.4.1/download/",
             "platform": "independent",
             "product_types": [],
+            "public_ever_true": false,
             "published_datetime": "2021-11-11T18:41:45.629345Z",
             "release_notes": "<ul>\n<li>Updating the search to the Datamodel tstats search failed to disable old saved searches.</li>\n<li>Updated_at information was not being populated in the kvstore.</li>\n<li>Custom fields with spaces were not handled correctly in the kvstore.</li>\n<li>The UI text in the APP Setup Dashboard page had a small typo.</li>\n<li>The tstats search failed to execute in certain instances due to typo in a search variable .</li>\n</ul>",
             "sha256": "68d83442828fe8063f904e1944aa208a6fb580c312222b68f56c4bc5619142d2",
@@ -352,6 +361,7 @@
             "path": "https://splunkbase.splunk.com/app/4418/release/2.4.0/download/",
             "platform": "independent",
             "product_types": [],
+            "public_ever_true": false,
             "published_datetime": "2021-09-15T17:43:39.677765Z",
             "release_notes": "<ul>\n<li>Added Datamodel tstats Search option for Matching Algorithm Configuration.</li>\n<li>Added new macro, threatq_match_fields, that will allow you to match on specific fields.</li>\n<li>Added new macro for Raw Matching, threatq_match_base_query, that allows you to alter the base query for matching.</li>\n<li>Custom Attributes and Custom Fields support</li>\n<li>Updated the datamodel search queries to support chunking. The default chunk size is 50,000.</li>\n</ul>",
             "sha256": "c18817140d759ba435ce92b985b072d7d61c49520450f64b452bbc4ef6c4d98d",
@@ -385,6 +395,7 @@
             "path": "https://splunkbase.splunk.com/app/4418/release/2.3.0/download/",
             "platform": "independent",
             "product_types": [],
+            "public_ever_true": false,
             "published_datetime": "2021-08-27T03:44:44.002617Z",
             "release_notes": "<p>Fixed an issue that caused certain data model searches to not complete<br>\nFixed an issue where saved searches would fail if events had Chinese characters<br>\nUpgraded the Splunklib</p>",
             "sha256": "a133feb0eb334bcde1b8dedb9a3cc63b4d1dffe69c69a72696d1a1d6dfdbff01",
@@ -418,6 +429,7 @@
             "path": "https://splunkbase.splunk.com/app/4418/release/2.2.0/download/",
             "platform": "independent",
             "product_types": [],
+            "public_ever_true": false,
             "published_datetime": "2020-11-10T18:56:22.281980Z",
             "release_notes": "<ul>\n<li>Providing option on the setup page for Hostname configuration. (This value will be used as a Source attribute while calling consume endpoint).</li>\n<li>Staggering the savedsearches to avoid the concurrent search limitation.</li>\n<li>Providing Malware Family attribute field in kvstore.</li>\n<li>Providing Partial URL matching support in datamodel searches.</li>\n<li>Combined the datamodel savedsearches.</li>\n</ul>",
             "sha256": "3df9d91452994f10c2cf0e745eb1be37b8aae4a420491b006959f5c80fba8930",
@@ -451,6 +463,7 @@
             "path": "https://splunkbase.splunk.com/app/4418/release/2.1.0/download/",
             "platform": "independent",
             "product_types": [],
+            "public_ever_true": false,
             "published_datetime": "2020-07-21T23:10:00.541940Z",
             "release_notes": "<p>Version 2.1.0<br>\n - Added new Indicator Dashboard.<br>\n - Added ability to use KVStore for saving data.<br>\n - Added Info tab to dashboards page with the following options/shortcuts:<br>\n     - Add Indicator<br>\n     - Lookup Indicator<br>\n     - View Application Logs l Edit App Configurations <br>\n     - Fixed an issue where no sightings were generated for domain object types within Splunk.<br>\n - Fixed an issue with data listed in multi-valued fields.</p>",
             "sha256": "3ec475eca0b3a1b02c820878d40ceda10edd97e885942d93f7e562348ee09305",
@@ -484,6 +497,7 @@
             "path": "https://splunkbase.splunk.com/app/4418/release/2.0.0/download/",
             "platform": "independent",
             "product_types": [],
+            "public_ever_true": false,
             "published_datetime": "2020-02-20T18:20:18.208981Z",
             "release_notes": "<p>Python 3 Support:<br>\nThe ThreatQuotient App for Splunk and ThreatQuotient Add-on for Splunk is now compatible with Python 3.  Supported versions include:<br>\nSplunk 7.2.x<br>\nSplunk 7.3.x<br>\nSplunk 8.x (Python 2 &amp; 3)</p>\n<p>Notable Bugs Fixed:<br>\nWe have fixed an issue with the Add-on App where:<br>\nCreating an indicator in Splunk would occasionally result in the creation of an indicator with an incorrect type within the ThreatQ platform.      </p>\n<p>ThreatQuotient Splunk Support Documentation:<br>\nSee the Splunk Documentation located on the ThreatQuotient Help Center for more information.<br>\n<a href=\"https://helpcenter.threatq.com/Content/Developer_Resources/Integrations/About_Splunk_Integrations.htm\">https://helpcenter.threatq.com/Content/Developer_Resources/Integrations/About_Splunk_Integrations.htm</a>.</p>",
             "sha256": "dd5ac8ab96e80088575b0217310fe6511fde800262a6c3fd9fa1b526c10e3377",
@@ -517,6 +531,7 @@
             "path": "https://splunkbase.splunk.com/app/4418/release/1.3.0/download/",
             "platform": "independent",
             "product_types": [],
+            "public_ever_true": false,
             "published_datetime": "2020-01-15T22:23:17.629875Z",
             "release_notes": "<p>Version 1.3.0<br>\nThreat Intelligence support for Enterprise Security is now provided using its REST APIs</p>",
             "sha256": "0d1762192d7eddc286f44460246f3525372c9548515e6c2af72af9eabd0ea108",
@@ -544,6 +559,7 @@
             "path": "https://splunkbase.splunk.com/app/4418/release/1.2.0/download/",
             "platform": "independent",
             "product_types": [],
+            "public_ever_true": false,
             "published_datetime": "2019-12-06T19:03:29.833516Z",
             "release_notes": "<p>Contextual Sighted Indicator Data:<br>\nThe following contextual data will now be added to sighted indicators:<br>\n - Splunk Sighting Timestamp<br>\n - Match Count<br>\n - The Source for sighted indicators will now be set to Splunk<br>\nSighting Event Configuration:<br>\nUsers will have two options:<br>\n  - Single event for each sighted indicator (default - recommended for large environments)<br>\n  - Multiple events for each sighted indicator<br>\nMacro Configuration<br>\nUsers can now select the indices that will match indicators against events on the app's Setup page.<br>\nNote: If you have the macro configuration for threatq_match_indices set to *, you will need to update the app configuration upon upgrade to 1.2.0 and add the required indexes where matching should take place with ThreatQ indicators. This step is mandatory for the app to continue to perform matching against the required indexes.<br>\nSee the ThreatQuotient App chapter in the implementation guide for more details.</p>",
             "sha256": "da08cac0fad075910b89baf6378b0afea97563d6c7a9b923db681a62b448e0f9",
@@ -573,6 +589,7 @@
             "path": "https://splunkbase.splunk.com/app/4418/release/1.1.0/download/",
             "platform": "independent",
             "product_types": [],
+            "public_ever_true": false,
             "published_datetime": "2019-06-19T18:25:13.368423Z",
             "release_notes": "<p>Common Information Model (CIM) Support</p>\n<p>The ThreatQuotient Splunk integration now includes support for the Common Information Model (CIM). For users who map third party data (firewall events, logs, for example) to Splunk's data models in CIM, this App provides optimized performance by leveraging those data models. As such, we now support the CIM Data Model Search.</p>\n<p>Enterprise Security (ES) Support Enhancement</p>\n<p>Enterprise Security (ES) support now provides single-click enablement within the ThreatQ App for Splunk application settings.</p>\n<p>Notable Bugs Fixed<br>\nWe have fixed issues where:</p>\n<p>Users could not re-enable and use searches without crashing Splunk ES search head.<br>\nthreatq_match_indicators searches failed to complete. All saved search queries for matching can now accept an optional argument called indicator_types that allows users to match only specific indicator types from ThreatQ.</p>",
             "sha256": "bfbb2ecb59e1e79c32a95df85933e3648167ec2acc228fc05897a237fc7c0429",
@@ -599,6 +616,7 @@
             "path": "https://splunkbase.splunk.com/app/4418/release/1.0.0/download/",
             "platform": "independent",
             "product_types": [],
+            "public_ever_true": false,
             "published_datetime": "2019-03-05T19:07:05.057491Z",
             "release_notes": "",
             "sha256": "81bbd1cb527b455f7f24463dc9ce9e4ceb676c10485b0ae823dafc357fa62c3e",
@@ -636,7 +654,7 @@
   "query": {
     "id": "4418"
   },
-  "buildId": "fS68OAv8uW93j3SoFndLS",
+  "buildId": "-6DUCYE5-o58pvfbYGp3Y",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

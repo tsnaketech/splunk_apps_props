@@ -82,6 +82,7 @@
             "enterprise",
             "cloud"
           ],
+          "public_ever_true": false,
           "published_datetime": "2025-07-18T00:36:56.058595Z",
           "release_notes": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.1/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security\">https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.1/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security</a></p>",
           "sha256": "8c8e4151535d1d53e8c6f9fc50d6779b26a85924acc93cde85c494945dc39c5c",
@@ -114,6 +115,7 @@
               "cloud",
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2025-07-18T00:36:56.058595Z",
             "release_notes": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.1/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security\">https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.1/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security</a></p>",
             "sha256": "8c8e4151535d1d53e8c6f9fc50d6779b26a85924acc93cde85c494945dc39c5c",
@@ -145,6 +147,7 @@
               "cloud",
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2025-07-03T00:02:15.586178Z",
             "release_notes": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise-security-7/release-notes-and-resources/7.3/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security\">https://help.splunk.com/en/splunk-enterprise-security-7/release-notes-and-resources/7.3/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security</a></p>",
             "sha256": "e8d78028036d0a5727bbb9eb5c41ea55ec593de4dbb7e6faabde6cfbe66a5819",
@@ -175,6 +178,7 @@
               "cloud",
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2025-06-10T09:58:26.675905Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/ES/8.1.0/RN/NewFeatures\">https://docs.splunk.com/Documentation/ES/8.1.0/RN/NewFeatures</a></p>",
             "sha256": "37083026a3f59a9eff5c593dab9b4e111e173d3afab8919a61713c9d4c60c501",
@@ -206,6 +210,7 @@
               "cloud",
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2025-04-28T10:50:41.200087Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/ES/8.0.40/RN/NewFeatures\">https://docs.splunk.com/Documentation/ES/8.0.40/RN/NewFeatures</a></p>",
             "sha256": "2041c69a0752a5bb794ba9d164ef6613403752f0208cbfa50b8686021a395783",
@@ -238,6 +243,7 @@
               "cloud",
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2025-04-17T11:51:07.850308Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/ES/8.0.31/RN/NewFeatures\">https://docs.splunk.com/Documentation/ES/8.0.31/RN/NewFeatures</a></p>",
             "sha256": "7000b1f85620726aa070609904a342ffc503c156153bba9054e2fd550c374624",
@@ -269,6 +275,7 @@
               "cloud",
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2025-03-24T22:16:46.559677Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/ES/8.0.3/RN/NewFeatures\">https://docs.splunk.com/Documentation/ES/8.0.3/RN/NewFeatures</a></p>",
             "sha256": "d92dd433048585d138be4c480153949ba664a623bef2e93a77f4493b80f74f1d",
@@ -300,6 +307,7 @@
               "cloud",
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2025-02-12T19:46:52.758725Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/ES/7.3.3/RN\">https://docs.splunk.com/Documentation/ES/7.3.3/RN</a></p>",
             "sha256": "ffde3dd82673569b11b379080371a5a9bb667a4978f7b13d8e0d6c9a51ee5b1b",
@@ -332,6 +340,7 @@
               "cloud",
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2025-01-22T22:33:53.368810Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/ES/8.0.2/RN/NewFeatures\">https://docs.splunk.com/Documentation/ES/8.0.2/RN/NewFeatures</a></p>",
             "sha256": "4f996b12b7ff9ed8d27aebb8b0646864e06bca869b3e04472ff9a91dddeab5fe",
@@ -363,6 +372,7 @@
               "cloud",
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2024-06-11T19:20:38.696237Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/ES/7.3.2/RN/Enhancements\">https://docs.splunk.com/Documentation/ES/7.3.2/RN/Enhancements</a></p>",
             "sha256": "37581ae057a26f9c7eac04e16f46c11ed8d7bf194491857ff478d874e6f8d1aa",
@@ -395,6 +405,7 @@
               "cloud",
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2024-03-25T21:27:41.234073Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/ES/7.3.1/RN/Enhancements\">https://docs.splunk.com/Documentation/ES/7.3.1/RN/Enhancements</a></p>",
             "sha256": "1ec5e756206eae020135d52bba4e716a9afc0353a3d2793f25bd351117070102",
@@ -425,6 +436,7 @@
               "cloud",
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2023-12-19T06:34:36.163890Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/ES/7.3.0/RN/Enhancements\">https://docs.splunk.com/Documentation/ES/7.3.0/RN/Enhancements</a></p>",
             "sha256": "568f72730d61159175495bec665fb2ae2282b760aa9698b52b1682e2acf925dc",
@@ -456,6 +468,7 @@
               "cloud",
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2023-11-07T23:54:21.572529Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/ES/7.1.2/RN/Enhancements\">https://docs.splunk.com/Documentation/ES/7.1.2/RN/Enhancements</a></p>",
             "sha256": "e5d2ee7f531cde19e61ab471375fcd595fa224219bcc2962a9db6c87990cdf08",
@@ -487,6 +500,7 @@
               "cloud",
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2023-09-01T18:50:29.155321Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/ES/7.2.0/RN/Enhancements\">https://docs.splunk.com/Documentation/ES/7.2.0/RN/Enhancements</a></p>",
             "sha256": "a0782af46e32e329bf4eaaf6996476a302a480e20d76255410f6970ce5f5687b",
@@ -517,6 +531,7 @@
               "cloud",
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2023-04-04T23:00:36.609872Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/ES/7.1.1/RN/Enhancements#What.27s_new\">https://docs.splunk.com/Documentation/ES/7.1.1/RN/Enhancements#What.27s_new</a></p>",
             "sha256": "b871297c0a518f7362a8a0b6cf829fcefc4bdd24602d0b75d79bb1bc38050e1d",
@@ -549,6 +564,7 @@
               "cloud",
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2023-01-11T22:25:30.531238Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/ES/7.1.0/RN/Enhancements#What.27s_new\">https://docs.splunk.com/Documentation/ES/7.1.0/RN/Enhancements#What.27s_new</a></p>",
             "sha256": "a45bc6a1a583426e8f587bc0693dbf0296fa61ca2cd9d927e1cf99cab9c351cd",
@@ -582,6 +598,7 @@
               "cloud",
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2022-10-05T15:55:42.117632Z",
             "release_notes": "",
             "sha256": "44cd5e63dfdef0e945aa5cf9cd919b50644dc3dee6faaf6d5b29a8c3e4e732ed",
@@ -614,6 +631,7 @@
             "product_types": [
               "cloud"
             ],
+            "public_ever_true": false,
             "published_datetime": "2022-03-03T18:16:16.340412Z",
             "release_notes": "",
             "sha256": "cf3d4afc06bd20f5ab039c01a533b1f5c29c6fbe3dc9dbcf5ef177ef66f36cac",
@@ -644,6 +662,7 @@
             "product_types": [
               "cloud"
             ],
+            "public_ever_true": false,
             "published_datetime": "2021-12-17T00:25:47.895057Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/ES/7.0.0/RN/Enhancements\">https://docs.splunk.com/Documentation/ES/7.0.0/RN/Enhancements</a></p>",
             "sha256": "fc83e107f709df2cf4bbebedb5e044b859c5f07ce8a6e21fafcab44bebf60ef4",
@@ -674,6 +693,7 @@
             "product_types": [
               "cloud"
             ],
+            "public_ever_true": false,
             "published_datetime": "2021-09-15T01:37:29.533366Z",
             "release_notes": "",
             "sha256": "2928d7f39b97c61a2d97306c083b1e04eb455df3a5070d9553f6679aacf2fdb4",
@@ -705,6 +725,7 @@
             "product_types": [
               "cloud"
             ],
+            "public_ever_true": false,
             "published_datetime": "2021-06-25T17:45:41.770787Z",
             "release_notes": "<p>This release of Splunk Enterprise Security includes the following enhancements:<br>\n- UX update for Incident Review<br>\n- Content management filters to triage notables<br>\n- Dispositions on notables to identify false positives<br>\n- Visualizations for improved analysis of risk notables<br>\n- CIM Data Access data model<br>\n- Ability to modify risk factors upon upgrade</p>",
             "sha256": "0e2b72f1396a82a155851b414401740179d955381498ec0d90a6dde70db2479f",
@@ -735,6 +756,7 @@
             "product_types": [
               "cloud"
             ],
+            "public_ever_true": false,
             "published_datetime": "2021-01-19T17:45:58.409861Z",
             "release_notes": "",
             "sha256": "f44dbc248cb85e8100f7afefe70d7949efab873269657d77e6488ba95c0df077",
@@ -763,6 +785,7 @@
             "path": "https://splunkbase.splunk.com/app/263/release/6.4.0/download/",
             "platform": "independent",
             "product_types": [],
+            "public_ever_true": false,
             "published_datetime": "2020-12-09T19:39:56.645165Z",
             "release_notes": "",
             "sha256": "940d83e15d4059b09f6a5518bbdc62ce32b6680f4c076a1d46e64cd0c54723c8",
@@ -790,6 +813,7 @@
             "path": "https://splunkbase.splunk.com/app/263/release/6.2.0/download/",
             "platform": "independent",
             "product_types": [],
+            "public_ever_true": false,
             "published_datetime": "2020-05-30T00:56:59.152925Z",
             "release_notes": "",
             "sha256": "dff6806efdbe41141ae8a6b91c1f991d718ce10d8528640b173ea918b8233cd9",
@@ -819,6 +843,7 @@
             "product_types": [
               "cloud"
             ],
+            "public_ever_true": false,
             "published_datetime": "2020-04-15T01:42:15.775505Z",
             "release_notes": "",
             "sha256": "0dc6dc6e275c958cd336ac962dd0fe223d18e4f95b03d636728e417b406c5979",
@@ -845,6 +870,7 @@
             "path": "https://splunkbase.splunk.com/app/263/release/6.0.2/download/",
             "platform": "independent",
             "product_types": [],
+            "public_ever_true": false,
             "published_datetime": "2020-04-08T23:41:28.125671Z",
             "release_notes": "",
             "sha256": "f2920d72d25926474d44bdcbd3eb04c1f968d55e09de33b1bfc97dafeee97a3f",
@@ -874,6 +900,7 @@
             "path": "https://splunkbase.splunk.com/app/263/release/6.1.0/download/",
             "platform": "independent",
             "product_types": [],
+            "public_ever_true": false,
             "published_datetime": "2020-01-23T23:59:47.404141Z",
             "release_notes": "<p>This is a Python 3 only Release</p>",
             "sha256": "f36d5c7fdda4d7ebbb7271f1d849565f58b0dfe6e25f304439ec67978f8298ab",
@@ -902,6 +929,7 @@
             "product_types": [
               "cloud"
             ],
+            "public_ever_true": false,
             "published_datetime": "2019-07-24T03:59:10.881109Z",
             "release_notes": "",
             "sha256": "2ed1ec05066b7c6492c701de93955a94bae88b793d5ededca27310082083fd24",
@@ -932,6 +960,7 @@
             "product_types": [
               "cloud"
             ],
+            "public_ever_true": false,
             "published_datetime": "2019-03-28T16:13:54.311618Z",
             "release_notes": "",
             "sha256": "3790e3aa5ec02579c0aaa6ce3e16c19a9ebaa5e1eb2d9bbb5ed8fd2dfdedbf96",
@@ -962,6 +991,7 @@
             "product_types": [
               "cloud"
             ],
+            "public_ever_true": false,
             "published_datetime": "2019-01-03T22:36:06.902936Z",
             "release_notes": "<p>Splunk Enterprise Security 5.2.2 Copyright (C) 2005-2019 Splunk Inc. All rights reserved.</p>\n<p>For the Release Notes, What's New, and Getting Started documentation for this release see: <a href=\"http://docs.splunk.com/Documentation/ES/5.2.2/RN/FixedIssues\">http://docs.splunk.com/Documentation/ES/5.2.2/RN/FixedIssues</a></p>",
             "sha256": "944eeb780f9ae5414d6e9503a8a6994619a879b58bfe2f7afd7ee7ea2cf3099c",
@@ -991,6 +1021,7 @@
             "product_types": [
               "cloud"
             ],
+            "public_ever_true": false,
             "published_datetime": "2018-09-17T21:47:59.036795Z",
             "release_notes": "",
             "sha256": "ff3bbf8d2b7b4f3b71a5c6bc68ef7fb2e92bc64b54bfb473b11b800709fac9d1",
@@ -1020,6 +1051,7 @@
             "product_types": [
               "cloud"
             ],
+            "public_ever_true": false,
             "published_datetime": "2018-06-15T16:12:36.990651Z",
             "release_notes": "",
             "sha256": "da2c413a371818cd4bad2ac1aba8bd46241bd25e62faced19fbfc953e2a67504",
@@ -1048,6 +1080,7 @@
             "product_types": [
               "cloud"
             ],
+            "public_ever_true": false,
             "published_datetime": "2018-04-09T21:36:40.035206Z",
             "release_notes": "<p>Splunk Enterprise Security 4.7.6 Copyright (C) 2005-2017 Splunk Inc. All rights reserved.</p>\n<p>For the Release Notes, What's New, and Getting Started documentation for this release see: <a href=\"http://docs.splunk.com/Documentation/ES/4.7.6/RN/FixedIssues\">http://docs.splunk.com/Documentation/ES/4.7.6/RN/FixedIssues</a></p>",
             "sha256": "9abaf6fc34cfa647ff9f2b562fff5e78f885bf0e0bd9686e41ffe52bb00113b4",
@@ -1074,6 +1107,7 @@
             "product_types": [
               "cloud"
             ],
+            "public_ever_true": false,
             "published_datetime": "2017-05-19T06:12:43.892575Z",
             "release_notes": "<p>Splunk Enterprise Security 4.5.3 Copyright (C) 2005-2017 Splunk Inc. All rights reserved.</p>\n<p>For the Release Notes, What's New, and Getting Started documentation for this release see: <a href=\"http://docs.splunk.com/Documentation/ES/4.5.3/RN/Enhancements\">http://docs.splunk.com/Documentation/ES/4.5.3/RN/Enhancements</a></p>",
             "sha256": "33fef0f9f3ee83c17cccff671cd7b6c5f9957ba6334fb803eb1baed03cdf2ddc",
@@ -1112,7 +1146,7 @@
   "query": {
     "id": "263"
   },
-  "buildId": "fS68OAv8uW93j3SoFndLS",
+  "buildId": "-6DUCYE5-o58pvfbYGp3Y",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

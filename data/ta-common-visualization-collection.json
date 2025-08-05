@@ -67,6 +67,7 @@
           "path": null,
           "platform": "independent",
           "product_types": [],
+          "public_ever_true": false,
           "published_datetime": "2022-04-11T19:24:55.757534Z",
           "release_notes": "",
           "sha256": null,
@@ -103,7 +104,7 @@
   "query": {
     "id": "6137"
   },
-  "buildId": "fS68OAv8uW93j3SoFndLS",
+  "buildId": "-6DUCYE5-o58pvfbYGp3Y",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

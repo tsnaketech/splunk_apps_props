@@ -29,7 +29,7 @@
         "description": "The Splunk App for Anomaly Detection finds anomalies in time series datasets and provides an end-to-end workflow to manage and operationalize anomaly detection tasks. The app detects seasonal patterns and finds anomalies in just a couple of clicks.\n\n\nUsing the app, you can create anomaly detection jobs, run these jobs on a regular cadence, view SPL queries, and create alerts. The app works with any time series dataset that can be ingested into the Splunk platform, provided the points in the time series are evenly spaced.\n\n\nThe app uses machine learning to detect seasonality in the data without user inputs, lowering the barriers to realizing value. The app also performs health diagnostics on the time series to check whether the dataset is suitable for anomaly detection using our algorithm. If the dataset is not fit for anomaly detection with our algorithm, we have included steps to preprocess the data in the docs. (We are working on supporting more time series out of the box without preprocessing steps for the next version).\n\n\nWhen you create an anomaly detection job, the app generates an SPL query you can view and use elsewhere within Splunk.\n\n\nSimilar to other Splunk applications, the resource consumption of CPU and memory is commensurate with the size of the datasets that you use.\n\n\nThis app is available for both on-premise and cloud customers.",
         "documentation": "<p>For the Splunk App for Anomaly Detection documentation, see <a href=\"https://docs.splunk.com/Documentation/AnomalyApp\">https://docs.splunk.com/Documentation/AnomalyApp</a></p>\n<p><strong>Datasets</strong></p>\n<p>This application may contain certain sample files and datasets, which are provided for your convenience only. Such files and datasets contain information and data compiled by third parties, and Splunk makes no representation or warranty that the data contained in such files and datasets are true, accurate, complete, or sanitized.</p>",
         "documentation_source": "For the Splunk App for Anomaly Detection documentation, see https://docs.splunk.com/Documentation/AnomalyApp\n\n**Datasets**\n\nThis application may contain certain sample files and datasets, which are provided for your convenience only. Such files and datasets contain information and data compiled by third parties, and Splunk makes no representation or warranty that the data contained in such files and datasets are true, accurate, complete, or sanitized.",
-        "download_count": 3932,
+        "download_count": 3934,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/21bc8992-8405-11ee-8d26-7e3a32636d24.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -84,6 +84,7 @@
           "product_types": [
             "enterprise"
           ],
+          "public_ever_true": false,
           "published_datetime": "2023-11-15T22:20:07.952515Z",
           "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/AnomalyApp/1.1.2/ReleaseNotes/NewFeatures\">https://docs.splunk.com/Documentation/AnomalyApp/1.1.2/ReleaseNotes/NewFeatures</a></p>",
           "sha256": "c71c50561aef2bea5c0a9fbc3c6021912793dff795598387236df994c86bf002",
@@ -118,6 +119,7 @@
             "product_types": [
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2023-11-15T22:20:07.952515Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/AnomalyApp/1.1.2/ReleaseNotes/NewFeatures\">https://docs.splunk.com/Documentation/AnomalyApp/1.1.2/ReleaseNotes/NewFeatures</a></p>",
             "sha256": "c71c50561aef2bea5c0a9fbc3c6021912793dff795598387236df994c86bf002",
@@ -151,6 +153,7 @@
             "product_types": [
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2023-09-01T04:18:59.877357Z",
             "release_notes": "",
             "sha256": "3a86f1e46c356a78328f37f104c36b98be63333655768475fca80ff3f488c90d",
@@ -184,6 +187,7 @@
             "product_types": [
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2023-07-06T19:58:59.946441Z",
             "release_notes": "<p>This release of the Splunk App for Anomaly Detection comes with several enhancements, in both the app workflow and the machine learning algorithm that powers it.</p>\n<p>The app has a new remediation workflow.  We can detect whether the input time series has missing data or is unevenly spaced.  If the data is unevenly spaced, we provide an aggregation capability to create an evenly-spaced time series.  If there is missing data, we fill it in via linear interpolation.</p>\n<p>In this version, we expand our alert actions from email only to include \u201cLog event\u201d, \u201cOutput results to lookup\u201d, \u201cOutput results to telemetry endpoint\u201d, \u201cSend to Splunk Mobile\u201d, \u201cWebhook\u201d, and \u201cAdd to Triggered Alerts\u201d.</p>\n<p>We have also enhanced our Job Dashboard.  The dropdown for each job shows its properties, including the sensitivity, the saved search schedule, and the alert actions selected for both anomaly and missing data alerting.</p>\n<p>Behind the scenes, we have also significantly improved our anomaly detection algorithm.</p>",
             "sha256": "fa6a7eb39536dfd446d47722e0d9355c6216fe878251eb5ca9851cd2326183f9",
@@ -217,6 +221,7 @@
             "product_types": [
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2023-04-04T21:46:01.866952Z",
             "release_notes": "<p>This is the first Splunk-supported GA version of the Splunk App for Anomaly Detection (AnomalyApp)<br>\nThis version lets you find anomalies in your time series dataset in just a couple of clicks<br>\nThis version includes sensitivity adjustment so that you can set the sensitivity of the anomaly detection to low, medium or high<br>\nIn this version, the app runs a health diagnostic on the time series to make sure the data is suitable for anomaly detection<br>\nThis version includes a whole host of features to operationalize the anomaly detection job once it is created - user can schedule the job to run at a regular cadence and set alerts to trigger on certain conditions</p>\n<p>Every anomaly has a confidence score associated with it to signify the severity of the anomaly</p>\n<p>The visualizations for the anomalies has been improved; the app shows both point and interval anomalies</p>",
             "sha256": "506efcc76b79be0deaa81cd73d618972c083c58cd80187340377609802656abc",
@@ -262,7 +267,7 @@
   "query": {
     "id": "6843"
   },
-  "buildId": "fS68OAv8uW93j3SoFndLS",
+  "buildId": "-6DUCYE5-o58pvfbYGp3Y",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

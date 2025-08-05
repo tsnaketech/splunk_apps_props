@@ -21,7 +21,7 @@
         "description": "The Splunk App for Splunk Attack Analyzer provides reporting dashboards to track Attack Analyzer Usage. It is used in conjunction with the Splunk Add-On for Splunk Attack Analyzer.",
         "documentation": "<p>Documentation for this App is posted at <a href=\"https://help.splunk.com/en/security-offerings/splunk-attack-analyzer/splunk-app-for-splunk-attack-analyzer/1.2/overview-of-the-splunk-app-for-splunk-attack-analyzer/get-started-with-the-splunk-app-for-splunk-attack-analyzer\">Splunk Docs</a></p>\n<p>If the solution does not support specific analytics you wish to implement please provide feedback via the <a href=\"https://ideas.splunk.com/?category=7267657706569392725\">Splunk Ideas portal</a>.</p>",
         "documentation_source": "Documentation for this App is posted at [Splunk Docs](https://help.splunk.com/en/security-offerings/splunk-attack-analyzer/splunk-app-for-splunk-attack-analyzer/1.2/overview-of-the-splunk-app-for-splunk-attack-analyzer/get-started-with-the-splunk-app-for-splunk-attack-analyzer)\n\nIf the solution does not support specific analytics you wish to implement please provide feedback via the [Splunk Ideas portal](https://ideas.splunk.com/?category=7267657706569392725).",
-        "download_count": 1593,
+        "download_count": 1599,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/6c85a400-3196-11f0-b575-b6aafbd11347.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -47,7 +47,7 @@
         "public": true,
         "ranking": [
           {
-            "rank": 602,
+            "rank": 601,
             "category_name": "security_compliance",
             "category_display_name": "Security, Fraud & Compliance"
           }
@@ -73,6 +73,7 @@
             "enterprise",
             "cloud"
           ],
+          "public_ever_true": false,
           "published_datetime": "2025-06-03T13:55:11.886239Z",
           "release_notes": "<p><a href=\"https://help.splunk.com/en/security-offerings/splunk-attack-analyzer/splunk-app-for-splunk-attack-analyzer/1.2/release-notes/whats-new-in-the-splunk-app-for-splunk-attack-analyzer\">What's New</a></p>\n<p><a href=\"https://help.splunk.com/en/security-offerings/splunk-attack-analyzer/splunk-app-for-splunk-attack-analyzer/1.2/release-notes/known-issues-for-the-splunk-app-for-splunk-attack-analyzer\">Known Issues</a></p>\n<p><a href=\"https://help.splunk.com/en/security-offerings/splunk-attack-analyzer/splunk-app-for-splunk-attack-analyzer/1.2/release-notes/fixed-issues-for-the-splunk-app-for-splunk-attack-analyzer\">Fixed Issues</a></p>",
           "sha256": "cab39d9e670142315c715c62ed3d649f51bd0a942e5d1172eb16944c82cc524d",
@@ -106,6 +107,7 @@
               "cloud",
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2025-06-03T13:55:11.886239Z",
             "release_notes": "<p><a href=\"https://help.splunk.com/en/security-offerings/splunk-attack-analyzer/splunk-app-for-splunk-attack-analyzer/1.2/release-notes/whats-new-in-the-splunk-app-for-splunk-attack-analyzer\">What's New</a></p>\n<p><a href=\"https://help.splunk.com/en/security-offerings/splunk-attack-analyzer/splunk-app-for-splunk-attack-analyzer/1.2/release-notes/known-issues-for-the-splunk-app-for-splunk-attack-analyzer\">Known Issues</a></p>\n<p><a href=\"https://help.splunk.com/en/security-offerings/splunk-attack-analyzer/splunk-app-for-splunk-attack-analyzer/1.2/release-notes/fixed-issues-for-the-splunk-app-for-splunk-attack-analyzer\">Fixed Issues</a></p>",
             "sha256": "cab39d9e670142315c715c62ed3d649f51bd0a942e5d1172eb16944c82cc524d",
@@ -138,6 +140,7 @@
               "cloud",
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2024-09-25T16:02:10.944844Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/SAAApp/1.2.0/User/WhatsNew\">What's New</a></p>\n<p><a href=\"https://docs.splunk.com/Documentation/SAAApp/1.2.0/User/KnownIssue\">Known Issues</a></p>\n<p><a href=\"https://docs.splunk.com/Documentation/SAAApp/1.2.0/User/FixedIssues\">Fixed Issues</a></p>",
             "sha256": "4a387b1c1befc7466041f748f2609efa0e01150b7e6c818d88f925d20e884e62",
@@ -169,6 +172,7 @@
               "cloud",
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2024-03-27T15:35:15.389831Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/SAAApp/1.1.1/User/WhatsNew\">What's New</a></p>\n<p><a href=\"https://docs.splunk.com/Documentation/SAAApp/1.1.1/User/KnownIssue\">Known Issues</a></p>\n<p><a href=\"https://docs.splunk.com/Documentation/SAAApp/1.1.1/User/FixedIssues\">Fixed Issues</a></p>",
             "sha256": "2702d8e95ec1d899171f7de2c46c3b0ce7e3099dd1000de4cb34b2ef4ed1cde3",
@@ -200,6 +204,7 @@
               "cloud",
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2024-03-05T21:00:09.358264Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/SAAApp/1.1.0/User/WhatsNew\">What's New</a></p>\n<p><a href=\"https://docs.splunk.com/Documentation/SAAApp/1.1.0/User/KnownIssue\">Known Issues</a></p>\n<p><a href=\"https://docs.splunk.com/Documentation/SAAApp/1.1.0/User/FixedIssues\">Fixed Issues</a></p>",
             "sha256": "399e448116a68f7af6012812a383bb81b4ca738302c0578b5e324acfaa6c3353",
@@ -231,6 +236,7 @@
               "cloud",
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2023-08-18T06:55:05.270619Z",
             "release_notes": "<ul>\n<li>Initial release</li>\n</ul>",
             "sha256": "a0e67eacf99f556f086fd68ea50dd9a98500defdbe88e48ed32971d3b48599e0",
@@ -270,7 +276,7 @@
   "query": {
     "id": "7000"
   },
-  "buildId": "fS68OAv8uW93j3SoFndLS",
+  "buildId": "-6DUCYE5-o58pvfbYGp3Y",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

@@ -22,7 +22,7 @@
         "description": "The Splunk Add-on for NGINX allows a Splunk software administrator to collect Web server activities, performance metrics, and error logs using file monitoring and API inputs.\n\nThis add-on provides the inputs and CIM-compatible knowledge to use with other Splunk apps, such as Splunk Enterprise Security, the Splunk App for PCI Compliance, and Splunk IT Service Intelligence.",
         "documentation": "<p>Documentation for this Add-on is posted at <a href=\"http://docs.splunk.com/Documentation/AddOns/latest/nginx/About\" title=\"Splunk Docs\">Splunk Docs</a>.</p>",
         "documentation_source": "Documentation for this Add-on is posted at [Splunk Docs](http://docs.splunk.com/Documentation/AddOns/latest/nginx/About \"Splunk Docs\").",
-        "download_count": 65731,
+        "download_count": 65761,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/43731336-6aa4-11ef-ab3b-faca7e54e553.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -81,6 +81,7 @@
             "enterprise",
             "cloud"
           ],
+          "public_ever_true": false,
           "published_datetime": "2024-09-09T16:09:29.716407Z",
           "release_notes": "",
           "sha256": "41b6864ba610385347553340e4056aa3007ec4684140e2842b1884bef4360cad",
@@ -116,6 +117,7 @@
               "enterprise",
               "cloud"
             ],
+            "public_ever_true": false,
             "published_datetime": "2024-09-09T16:09:29.716407Z",
             "release_notes": "",
             "sha256": "41b6864ba610385347553340e4056aa3007ec4684140e2842b1884bef4360cad",
@@ -147,6 +149,7 @@
             "path": "https://splunkbase.splunk.com/app/3258/release/3.0.0/download/",
             "platform": "independent",
             "product_types": [],
+            "public_ever_true": false,
             "published_datetime": "2020-10-16T20:54:48.331641Z",
             "release_notes": "",
             "sha256": "4cfa7d20c7bef95477a6df29e98f029a3feb24249130358293a681a517c4785d",
@@ -191,7 +194,7 @@
   "query": {
     "id": "3258"
   },
-  "buildId": "fS68OAv8uW93j3SoFndLS",
+  "buildId": "-6DUCYE5-o58pvfbYGp3Y",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

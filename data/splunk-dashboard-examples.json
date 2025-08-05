@@ -71,6 +71,7 @@
           "product_types": [
             "enterprise"
           ],
+          "public_ever_true": false,
           "published_datetime": "2022-12-19T20:05:52.360205Z",
           "release_notes": "<p>Fixed issues: SPL-231026 A custom JavaScript error occurs when viewing the Overview dashboard in the Splunk Dashboard Examples app</p>",
           "sha256": "b89ca15b4b004850eca241b6cacaa23016d11a3c717b2f64b6fc3eb0cfcd353a",
@@ -103,6 +104,7 @@
             "product_types": [
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2022-12-19T20:05:52.360205Z",
             "release_notes": "<p>Fixed issues: SPL-231026 A custom JavaScript error occurs when viewing the Overview dashboard in the Splunk Dashboard Examples app</p>",
             "sha256": "b89ca15b4b004850eca241b6cacaa23016d11a3c717b2f64b6fc3eb0cfcd353a",
@@ -134,6 +136,7 @@
             "product_types": [
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2022-04-29T22:41:59.241890Z",
             "release_notes": "<p>Code is now (again) copy-pastable. This reverts the previous change towards using webpack as a module loader, which was done to encourage users to bundle their own libraries (via <code>import</code> statements). However, this meant code needed to be compiled/bundled, which is breaks some users' workflows. In this version, users are still encouraged to use their own libraries, but this is now explained in the description of each example and restores the classic RequireJS module loader.</p>",
             "sha256": "b9936eb81bc51f07893100a25d1e6ddd09792f88e7dfde47dc81a0ebbb955628",
@@ -164,6 +167,7 @@
             "path": "https://splunkbase.splunk.com/app/1603/release/8.1.0/download/",
             "platform": "independent",
             "product_types": [],
+            "public_ever_true": false,
             "published_datetime": "2020-08-14T17:20:08.663433Z",
             "release_notes": "<p>Splunk Dashboards Examples is now Self-Service Installable on Splunk Cloud</p>",
             "sha256": "5657b3195ae80a5cdd0b7bcf08d22c10d7258b763a1dd9601b71b9e8d6eddc14",
@@ -194,6 +198,7 @@
             "path": "https://splunkbase.splunk.com/app/1603/release/8.0.0/download/",
             "platform": "independent",
             "product_types": [],
+            "public_ever_true": false,
             "published_datetime": "2019-10-30T19:02:49.246453Z",
             "release_notes": "",
             "sha256": "5ad1481683592698a055380a52a080255083e3bb941d3180e5cd47518b8cc162",
@@ -242,7 +247,7 @@
   "query": {
     "id": "1603"
   },
-  "buildId": "fS68OAv8uW93j3SoFndLS",
+  "buildId": "-6DUCYE5-o58pvfbYGp3Y",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

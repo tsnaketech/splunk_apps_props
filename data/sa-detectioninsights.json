@@ -27,7 +27,7 @@
         "description": "An application for Splunk Enterprise Security providing additional insights into everything surrounding and/or impacting your security detections.",
         "documentation": "<p>See the application documentation <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/\">here</a> for more information on installing, configuring and using it.</p>\n<p>Credit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.<br>\nThanks to Dean Luxton for reporting issues, fixes and improvement ideas!</p>",
         "documentation_source": "See the application documentation [here](https://splunk.github.io/Splunk_App_for_Detection_Insights/) for more information on installing, configuring and using it.\n\nCredit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.\nThanks to Dean Luxton for reporting issues, fixes and improvement ideas!",
-        "download_count": 1726,
+        "download_count": 1728,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/f1f4cbe6-5781-11f0-ba1e-5a77e051378c.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -58,7 +58,7 @@
             "category_display_name": "SIEM"
           },
           {
-            "rank": 563,
+            "rank": 562,
             "category_name": "security_compliance",
             "category_display_name": "Security, Fraud & Compliance"
           }
@@ -87,6 +87,7 @@
             "enterprise",
             "cloud"
           ],
+          "public_ever_true": false,
           "published_datetime": "2025-07-02T20:23:52.516205Z",
           "release_notes": "<h1>Fixed issues</h1>\n<ul>\n<li>Fix issue with EOL'ed dependencies (Viz) (#138)</li>\n<li>Fix conflict with <code>nist_lookup/nist.csv</code> in ES 8.1 (#139)<blockquote>\n<p>Note: As a result of the above fix, all lookups have been prefixed with \"di\".</p>\n</blockquote>\n</li>\n<li>Look into removing macros that are no longer used (#130)</li>\n</ul>\n<h1>Others / Code Quality</h1>\n<ul>\n<li>Repackaged the deprecated <strong>Calendar Heat Map - Custom Visualization</strong> with a new ID so it can still be used in this app despite being out of support (from Splunk) officially.  See the application's prerequisite tab for details/download.  The application supports using both the original or the newly repackaged version.</li>\n<li>Removed the dependency on the <strong>Status Indicator - Custom Visualization</strong> app.</li>\n</ul>",
           "sha256": "393f7991d5dfae7cb02419bdb8253e92e6c40e2f61f81e578eec14f998ea1f56",
@@ -125,6 +126,7 @@
               "cloud",
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2025-07-02T20:23:52.516205Z",
             "release_notes": "<h1>Fixed issues</h1>\n<ul>\n<li>Fix issue with EOL'ed dependencies (Viz) (#138)</li>\n<li>Fix conflict with <code>nist_lookup/nist.csv</code> in ES 8.1 (#139)<blockquote>\n<p>Note: As a result of the above fix, all lookups have been prefixed with \"di\".</p>\n</blockquote>\n</li>\n<li>Look into removing macros that are no longer used (#130)</li>\n</ul>\n<h1>Others / Code Quality</h1>\n<ul>\n<li>Repackaged the deprecated <strong>Calendar Heat Map - Custom Visualization</strong> with a new ID so it can still be used in this app despite being out of support (from Splunk) officially.  See the application's prerequisite tab for details/download.  The application supports using both the original or the newly repackaged version.</li>\n<li>Removed the dependency on the <strong>Status Indicator - Custom Visualization</strong> app.</li>\n</ul>",
             "sha256": "393f7991d5dfae7cb02419bdb8253e92e6c40e2f61f81e578eec14f998ea1f56",
@@ -162,6 +164,7 @@
               "cloud",
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2024-11-25T22:04:34.373396Z",
             "release_notes": "<h1>Detection Insights - Release Notes</h1>\n<p>See details <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/release_notes/\">here</a>.</p>",
             "sha256": "94934cc5d665e3562a57c65ad6585888edb491d9ba8b69af1cf06cface69aab7",
@@ -194,6 +197,7 @@
               "cloud",
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2024-02-13T16:54:12.704694Z",
             "release_notes": "<ul>\n<li>Rework initial setup dialog to run prerequisite lookup generating searches automatically</li>\n<li>Add a check to look for the absence of summariesonly for tstats detections</li>\n<li>Add a filter for issues to the Detection Details Tab</li>\n<li>Add a filter for issues to the Scheduling Details Tab</li>\n<li>Add a new Tab for Data Models</li>\n<li>Add a new check to ensure RFC1918 addresses specified are correct</li>\n<li>Add a table of <strong>checks</strong> to the documentation</li>\n<li>Add an overview check for Default Notable values set</li>\n<li>Add check for CIM fields being used directly - e.g. src_ip</li>\n<li>Add check for detection using SPL commands that have known limits/performance limitations</li>\n<li>Add detection check for RBA Risk rules that do not have a Risk Object configured</li>\n<li>Add detection check for RBA Risk rules that do not have a Threat Object configured</li>\n<li>Add detection check for detections missing Next Steps</li>\n<li>Add new check for detections without a drilldown search</li>\n<li>Add new overview check for detections using indexed time</li>\n<li>Add panel and/or check around false positive</li>\n</ul>",
             "sha256": "6352f978e9ad8a4b852a73b9d471a8d7ba47dda212541b19727d51e463ad65b0",
@@ -229,6 +233,7 @@
               "cloud",
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2023-12-12T20:35:27.959854Z",
             "release_notes": "<ul>\n<li>Add a Quick Tour to help first time users get familiar with the application</li>\n<li>Add drilldowns from the MITRE Heatmap Viz</li>\n<li>Add panels to the RBA Details tab to allow user to see detections using particular ROs/TOs</li>\n<li>Make changes to comply with the Splunk Splunkworks guidelines</li>\n<li>Add button to manually update saved searches metadata</li>\n<li>Add macro for Provided by code quality</li>\n<li>Change check CHKDET0014 to disabled by default and improve Name</li>\n<li>Add an overview check for Detections without a Security Domain</li>\n<li>Add pre-requisites tab</li>\n<li>Update <code>contrib</code> lookups (ART, SigmaHQ, etc.)</li>\n<li>Other minor fixes</li>\n<li>Change License to SGT</li>\n</ul>",
             "sha256": "c6073627fdf90285c6fff9ff34164ec49ce20917e29309d333fa4810ceb4d259",
@@ -264,6 +269,7 @@
               "cloud",
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2023-10-10T19:43:40.599652Z",
             "release_notes": "",
             "sha256": "405b5ff1792e180ace256e615e5b04cb6b36898700288658a0e52e1ba8b70775",
@@ -298,6 +304,7 @@
             "product_types": [
               "enterprise"
             ],
+            "public_ever_true": false,
             "published_datetime": "2023-10-10T18:11:23.163040Z",
             "release_notes": "",
             "sha256": "0a6c417635ad4b45bb637563e7965236ef0495db190e612c5ff7a67100ca9488",
@@ -344,7 +351,7 @@
   "query": {
     "id": "7066"
   },
-  "buildId": "fS68OAv8uW93j3SoFndLS",
+  "buildId": "-6DUCYE5-o58pvfbYGp3Y",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
