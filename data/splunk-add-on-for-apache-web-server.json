@@ -21,7 +21,7 @@
         "description": "The Splunk Add-on for Apache Web Server allows a Splunk software administrator to collect and analyze data from Apache Web Server using file monitoring. After the Splunk platform indexes the events, you can analyze the data using the prebuilt panels included with the add-on. \n\nThis add-on provides the inputs and CIM-compatible knowledge to use with other Splunk apps, such as Web.",
         "documentation": "<p>Documentation for this add-on can be found here: <a href=\"http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About\">http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About</a></p>",
         "documentation_source": "Documentation for this add-on can be found here: http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About",
-        "download_count": 32786,
+        "download_count": 32793,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/3c98c790-e360-11ec-8e51-128f1773c869.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": null,
@@ -157,7 +157,7 @@
   "query": {
     "id": "3186"
   },
-  "buildId": "RfJ2b7YTso8AoYoMRuL52",
+  "buildId": "opdhsJLEXSTGBl-1m2Q3r",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
