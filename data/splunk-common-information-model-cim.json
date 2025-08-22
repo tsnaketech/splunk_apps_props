@@ -21,8 +21,8 @@
         "description": "The Common Information Model is a set of field names and tags which are expected to define the least common denominator of a domain of interest. It is implemented as documentation on the Splunk docs website and JSON data model files in this add-on. Use the CIM add-on when modeling data or building apps to ensure compatibility between apps, or to just take advantage of these data models to pivot and report.",
         "documentation": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/latest/User/Releasenotes\">Release Notes</a><br>\nPlease see the <a href=\"http://docs.splunk.com/Documentation/CIM/latest/User/Overview\">Splunk Common Information Model Add-on user documentation</a>.</p>",
         "documentation_source": "[Release Notes](https://docs.splunk.com/Documentation/CIM/latest/User/Releasenotes)\nPlease see the [Splunk Common Information Model Add-on user documentation](http://docs.splunk.com/Documentation/CIM/latest/User/Overview).",
-        "download_count": 358806,
-        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/b3890492-3b27-11f0-8f96-829fff79c6a5.png",
+        "download_count": 360980,
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/65ca66c8-7ee4-11f0-a62a-0ec73ee89a2b.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
         "is_archived": false,
@@ -1018,7 +1018,7 @@
         "troubleshooting": "",
         "troubleshooting_source": "",
         "type": "addon",
-        "updated_time": "2025-06-10T20:34:43.743657Z",
+        "updated_time": "2025-08-22T00:00:26.928844Z",
         "video_link": null,
         "app_type": "addon",
         "schedule_release": null,
@@ -1034,7 +1034,7 @@
   "query": {
     "id": "1621"
   },
-  "buildId": "cDM8fL2vZYAXdcSIsxZhE",
+  "buildId": "d5mJA8eyo_Re62XDJLbgS",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
