@@ -60,7 +60,7 @@
           }
         ],
         "rating": {
-          "count": 222,
+          "count": 223,
           "average": 4
         },
         "release": {
@@ -1130,7 +1130,7 @@
         "troubleshooting": "<p><a href=\"https://docs.splunk.com/Documentation/ES/8.1.0/Troubleshoot/TroubleshootScriptErrors\">https://docs.splunk.com/Documentation/ES/8.1.0/Troubleshoot/TroubleshootScriptErrors</a></p>",
         "troubleshooting_source": "https://docs.splunk.com/Documentation/ES/8.1.0/Troubleshoot/TroubleshootScriptErrors",
         "type": "app",
-        "updated_time": "2025-08-29T16:53:20.721151Z",
+        "updated_time": "2025-09-02T12:42:21.570780Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
