@@ -50,7 +50,7 @@
         "description": "Ever want to edit a lookup within Splunk with a user interface? Now you can. This app provides an Excel-like interface for editing, importing, and exporting lookup files (KV store and CSV-based).\n\nThis app also makes your lookups work in Search Head Clustered environments (edits to lookups will be propagated to other search heads).\n\nRevision history is maintained for lookups so that you can view or restore older lookups quickly in the interface.\n\nCheck out the Documentation site: \nhttps://docs.splunk.com/Documentation/LookupEditor\n\nhttps://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew",
         "documentation": "<ul>\n<li><a href=\"https://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew\">What's new</a></li>\n<li><a href=\"https://docs.splunk.com/Documentation/LookupEditor\">Documentation Site</a></li>\n</ul>",
         "documentation_source": "*   [What's new](https://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew)\n*   [Documentation Site](https://docs.splunk.com/Documentation/LookupEditor)",
-        "download_count": 237430,
+        "download_count": 237512,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/618e9616-89a1-11f0-8a6b-aaec3b9321f6.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -88,29 +88,29 @@
         "release": {
           "actions": [],
           "cim_compatibility": [
-            "5.x"
+            "6.x"
           ],
           "cloud_compatible": true,
           "fedramp_validation": "no",
-          "filename": "splunk-app-for-lookup-file-editing_405.tgz",
-          "id": 36523,
-          "md5": "77f4db3de4d495d90d1becdb88105b3d",
+          "filename": "splunk-app-for-lookup-file-editing_406.tgz",
+          "id": 39455,
+          "md5": "904c8f3e3bda48515bb67986a762685c",
           "min_product_version_str": null,
-          "name": "4.0.5",
+          "name": "4.0.6",
           "passed_validation": true,
-          "path": "https://splunkbase.splunk.com/app/1724/release/4.0.5/download/",
+          "path": "https://splunkbase.splunk.com/app/1724/release/4.0.6/download/",
           "platform": "independent",
           "product_types": [
             "enterprise",
             "cloud"
           ],
           "public_ever_true": false,
-          "published_datetime": "2025-02-05T23:01:08.039023Z",
-          "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/LookupEditor/4.0.5/User/Whatsnew\">https://docs.splunk.com/Documentation/LookupEditor/4.0.5/User/Whatsnew</a></p>",
-          "sha256": "a5572cdf6856e6867291ca3f626f9e87661422e725d1b4d94561f6ee1cfe67fb",
+          "published_datetime": "2025-09-11T15:09:25.920984Z",
+          "release_notes": "<p><a href=\"https://help.splunk.com/en/splunk-cloud-platform/manage-knowledge-objects/splunk-app-for-lookup-file-editing/4.0/release-notes/whats-new-in-the-splunk-app-for-lookup-file-editing#ariaid-title2\">https://help.splunk.com/en/splunk-cloud-platform/manage-knowledge-objects/splunk-app-for-lookup-file-editing/4.0/release-notes/whats-new-in-the-splunk-app-for-lookup-file-editing#ariaid-title2</a></p>",
+          "sha256": "aa1a8809022ed560a7c4f22714bec71a175174f0a588dd83344f1600905fd78a",
           "signed_available": true,
-          "size": 7372246,
-          "updated_datetime": "2025-06-13T19:36:55.279240Z",
+          "size": 7140988,
+          "updated_datetime": "2025-09-11T15:11:11.105903Z",
           "version_compatibility": [
             "10.0",
             "9.4",
@@ -119,6 +119,39 @@
           ]
         },
         "releases": [
+          {
+            "actions": [],
+            "cim_compatibility": [
+              "6.x"
+            ],
+            "cloud_compatible": true,
+            "fedramp_validation": "no",
+            "filename": "splunk-app-for-lookup-file-editing_406.tgz",
+            "id": 39455,
+            "md5": "904c8f3e3bda48515bb67986a762685c",
+            "min_product_version_str": null,
+            "name": "4.0.6",
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/1724/release/4.0.6/download/",
+            "platform": "independent",
+            "product_types": [
+              "cloud",
+              "enterprise"
+            ],
+            "public_ever_true": false,
+            "published_datetime": "2025-09-11T15:09:25.920984Z",
+            "release_notes": "<p><a href=\"https://help.splunk.com/en/splunk-cloud-platform/manage-knowledge-objects/splunk-app-for-lookup-file-editing/4.0/release-notes/whats-new-in-the-splunk-app-for-lookup-file-editing#ariaid-title2\">https://help.splunk.com/en/splunk-cloud-platform/manage-knowledge-objects/splunk-app-for-lookup-file-editing/4.0/release-notes/whats-new-in-the-splunk-app-for-lookup-file-editing#ariaid-title2</a></p>",
+            "sha256": "aa1a8809022ed560a7c4f22714bec71a175174f0a588dd83344f1600905fd78a",
+            "signed_available": true,
+            "size": 7140988,
+            "updated_datetime": "2025-09-11T15:11:11.105903Z",
+            "version_compatibility": [
+              "10.0",
+              "9.4",
+              "9.3",
+              "9.2"
+            ]
+          },
           {
             "actions": [],
             "cim_compatibility": [
@@ -1359,7 +1392,7 @@
         "troubleshooting": "",
         "troubleshooting_source": "",
         "type": "app",
-        "updated_time": "2025-09-04T15:25:40.431385Z",
+        "updated_time": "2025-09-11T15:11:11.281163Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
@@ -1375,7 +1408,7 @@
   "query": {
     "id": "1724"
   },
-  "buildId": "lZSL6Iih3KKRrK8X5YC1m",
+  "buildId": "eObFqofBywDgSSNh9pfXW",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
