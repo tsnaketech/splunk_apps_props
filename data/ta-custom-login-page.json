@@ -57,7 +57,7 @@
           "actions": [],
           "cim_compatibility": [],
           "cloud_compatible": false,
-          "fedramp_validation": "no",
+          "fips_compatibility": false,
           "filename": "ta-custom-login-page_null",
           "id": 24658,
           "md5": "",
@@ -103,7 +103,7 @@
   "query": {
     "id": "6157"
   },
-  "buildId": "eObFqofBywDgSSNh9pfXW",
+  "buildId": "ehYc0fkwIqejgjjAYWXE0",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

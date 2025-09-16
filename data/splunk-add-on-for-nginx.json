@@ -22,7 +22,7 @@
         "description": "The Splunk Add-on for NGINX allows a Splunk software administrator to collect Web server activities, performance metrics, and error logs using file monitoring and API inputs.\n\nThis add-on provides the inputs and CIM-compatible knowledge to use with other Splunk apps, such as Splunk Enterprise Security, the Splunk App for PCI Compliance, and Splunk IT Service Intelligence.",
         "documentation": "<p>Documentation for this Add-on is posted at <a href=\"http://docs.splunk.com/Documentation/AddOns/latest/nginx/About\" title=\"Splunk Docs\">Splunk Docs</a>.</p>",
         "documentation_source": "Documentation for this Add-on is posted at [Splunk Docs](http://docs.splunk.com/Documentation/AddOns/latest/nginx/About \"Splunk Docs\").",
-        "download_count": 68960,
+        "download_count": 69002,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/43731336-6aa4-11ef-ab3b-faca7e54e553.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -68,7 +68,7 @@
             "5.x"
           ],
           "cloud_compatible": true,
-          "fedramp_validation": "no",
+          "fips_compatibility": false,
           "filename": "splunk-add-on-for-nginx_330.tgz",
           "id": 34511,
           "md5": "8be4cf5624bb2df71e5fb88d77181237",
@@ -104,7 +104,7 @@
               "5.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-add-on-for-nginx_330.tgz",
             "id": 34511,
             "md5": "8be4cf5624bb2df71e5fb88d77181237",
@@ -139,7 +139,7 @@
               "4.x"
             ],
             "cloud_compatible": false,
-            "fedramp_validation": "yes",
+            "fips_compatibility": true,
             "filename": "splunk-add-on-for-nginx_300.tgz",
             "id": 18499,
             "md5": "2205e4d24c130410fd8a1688fa0e0d39",
@@ -194,7 +194,7 @@
   "query": {
     "id": "3258"
   },
-  "buildId": "eObFqofBywDgSSNh9pfXW",
+  "buildId": "ehYc0fkwIqejgjjAYWXE0",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

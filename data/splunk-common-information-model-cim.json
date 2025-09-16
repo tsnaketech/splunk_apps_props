@@ -21,7 +21,7 @@
         "description": "The Common Information Model is a set of field names and tags which are expected to define the least common denominator of a domain of interest. It is implemented as documentation on the Splunk docs website and JSON data model files in this add-on. Use the CIM add-on when modeling data or building apps to ensure compatibility between apps, or to just take advantage of these data models to pivot and report.",
         "documentation": "<p><a href=\"https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on\">Release Notes</a><br>\nPlease see the <a href=\"https://help.splunk.com/en/data-management/common-information-model/6.1/introduction/overview-of-the-splunk-common-information-model\">Splunk Common Information Model Add-on user documentation</a>.</p>",
         "documentation_source": "[Release Notes](https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on)\nPlease see the [Splunk Common Information Model Add-on user documentation](https://help.splunk.com/en/data-management/common-information-model/6.1/introduction/overview-of-the-splunk-common-information-model).",
-        "download_count": 373475,
+        "download_count": 373582,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/65ca66c8-7ee4-11f0-a62a-0ec73ee89a2b.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -62,7 +62,7 @@
             "6.x"
           ],
           "cloud_compatible": true,
-          "fedramp_validation": "no",
+          "fips_compatibility": false,
           "filename": "splunk-common-information-model-cim_620.tgz",
           "id": 39214,
           "md5": "dc9502b0a1f69bff17c8ca085ad3e4de",
@@ -97,7 +97,7 @@
               "6.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-common-information-model-cim_620.tgz",
             "id": 39214,
             "md5": "dc9502b0a1f69bff17c8ca085ad3e4de",
@@ -131,7 +131,7 @@
               "6.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-common-information-model-cim_610.tgz",
             "id": 37998,
             "md5": "3f3dbf116da9d2b57322a7d9374f056f",
@@ -165,7 +165,7 @@
               "6.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-common-information-model-cim_604.tgz",
             "id": 37605,
             "md5": "674e548fa76df7cdd477b2ac90aa98e0",
@@ -199,7 +199,7 @@
               "6.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-common-information-model-cim_603.tgz",
             "id": 37009,
             "md5": "0bbdb60cf39b544c474cbc6e3a227bda",
@@ -233,7 +233,7 @@
               "5.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-common-information-model-cim_533.tgz",
             "id": 36623,
             "md5": "e8721a8190f2b64946f7addaf148c34b",
@@ -267,7 +267,7 @@
               "6.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-common-information-model-cim_602.tgz",
             "id": 36297,
             "md5": "80e3da16a5fedab32524c328d32de9f1",
@@ -301,7 +301,7 @@
               "6.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-common-information-model-cim_601.tgz",
             "id": 35670,
             "md5": "c3facaee9f9cbc5fb9a1be87f98448b5",
@@ -335,7 +335,7 @@
               "6.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-common-information-model-cim_600.tgz",
             "id": 35282,
             "md5": "22e6125c3e70de29bea306352e5fc294",
@@ -369,7 +369,7 @@
               "5.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-common-information-model-cim_532.tgz",
             "id": 32675,
             "md5": "8ec9dda3f5f46538514c16c103cb29b0",
@@ -403,7 +403,7 @@
               "5.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-common-information-model-cim_531.tgz",
             "id": 31589,
             "md5": "ceba8f45bf456ed034b98e234dc9360f",
@@ -437,7 +437,7 @@
               "5.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-common-information-model-cim_512.tgz",
             "id": 31137,
             "md5": "0789ddfd49f31f3783b69b26e8647807",
@@ -472,7 +472,7 @@
               "5.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-common-information-model-cim_520.tgz",
             "id": 30463,
             "md5": "29fd5574f2e00eafa744d4932043d08d",
@@ -507,7 +507,7 @@
               "5.x"
             ],
             "cloud_compatible": false,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-common-information-model-cim_511.tgz",
             "id": 29011,
             "md5": "d2362d9a698773608c232b34a6d554b0",
@@ -541,7 +541,7 @@
               "5.x"
             ],
             "cloud_compatible": false,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-common-information-model-cim_510.tgz",
             "id": 28163,
             "md5": "d632f63b7920c223b400efabb9ccf409",
@@ -575,7 +575,7 @@
               "5.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-common-information-model-cim_502.tgz",
             "id": 27279,
             "md5": "bc549eb2ab8a47137fa05f63380038b4",
@@ -608,7 +608,7 @@
             "actions": [],
             "cim_compatibility": [],
             "cloud_compatible": false,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-common-information-model-cim_501.tgz",
             "id": 24281,
             "md5": "1e636781a38f7829af8a67dcdadc8f3c",
@@ -640,7 +640,7 @@
             "actions": [],
             "cim_compatibility": [],
             "cloud_compatible": false,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-common-information-model-cim_500.tgz",
             "id": 22962,
             "md5": "b4ee33ae8be0aacf180c34b69bf72d84",
@@ -672,7 +672,7 @@
               "4.x"
             ],
             "cloud_compatible": false,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-common-information-model-cim_4202.tgz",
             "id": 21768,
             "md5": "5baf0c338b328d0a9ed1c4ec2b70dbcd",
@@ -706,7 +706,7 @@
               "4.x"
             ],
             "cloud_compatible": false,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-common-information-model-cim_4200.tgz",
             "id": 20827,
             "md5": "e4675cbe75b925840aa316433c3fb87e",
@@ -740,7 +740,7 @@
               "4.x"
             ],
             "cloud_compatible": false,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-common-information-model-cim_4190.tgz",
             "id": 19570,
             "md5": "952b68d84f65629db1e42eae3d6af1ab",
@@ -774,7 +774,7 @@
               "4.x"
             ],
             "cloud_compatible": false,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-common-information-model-cim_4181.tgz",
             "id": 19503,
             "md5": "cd48e7c44507ea45af82c6c6aa3e52e2",
@@ -808,7 +808,7 @@
               "4.x"
             ],
             "cloud_compatible": false,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-common-information-model-cim_4180.tgz",
             "id": 18821,
             "md5": "94d2dc2bf80c049a77510f1806a1429d",
@@ -842,7 +842,7 @@
               "4.x"
             ],
             "cloud_compatible": false,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-common-information-model-cim_4170.tgz",
             "id": 17660,
             "md5": "ac8559ceb225360f7a6bbb8ebb686073",
@@ -877,7 +877,7 @@
               "4.x"
             ],
             "cloud_compatible": false,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-common-information-model-cim_4160.tgz",
             "id": 16942,
             "md5": "16edcdc2d2eab34a8ea1f2861cac38f8",
@@ -914,7 +914,7 @@
               "3.x"
             ],
             "cloud_compatible": false,
-            "fedramp_validation": "yes",
+            "fips_compatibility": true,
             "filename": "splunk-common-information-model-cim_4150.tgz",
             "id": 15470,
             "md5": "ce1449ab613366cd6c55b33dc5647095",
@@ -951,7 +951,7 @@
               "4.x"
             ],
             "cloud_compatible": false,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-common-information-model-cim_4140.tgz",
             "id": 14346,
             "md5": "5a10f14a279983b5307ff8ba1a21aa29",
@@ -987,7 +987,7 @@
               "4.x"
             ],
             "cloud_compatible": false,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-common-information-model-cim_4130.tgz",
             "id": 12727,
             "md5": "a0f5ee18d177b50cb8ac953381097b5a",
@@ -1014,7 +1014,7 @@
             "actions": [],
             "cim_compatibility": [],
             "cloud_compatible": false,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-common-information-model-cim_4120.tgz",
             "id": 11281,
             "md5": "a39f7ad7ae076c339faf707cad922b7c",
@@ -1068,7 +1068,7 @@
   "query": {
     "id": "1621"
   },
-  "buildId": "eObFqofBywDgSSNh9pfXW",
+  "buildId": "ehYc0fkwIqejgjjAYWXE0",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

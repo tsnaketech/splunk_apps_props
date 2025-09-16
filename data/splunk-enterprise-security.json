@@ -69,7 +69,7 @@
             "6.x"
           ],
           "cloud_compatible": true,
-          "fedramp_validation": "no",
+          "fips_compatibility": false,
           "filename": "splunk-enterprise-security_820.spl",
           "id": 39348,
           "md5": "5f4f0a52220ba9a58f895b98e065aadc",
@@ -102,7 +102,7 @@
               "6.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-enterprise-security_820.spl",
             "id": 39348,
             "md5": "5f4f0a52220ba9a58f895b98e065aadc",
@@ -134,7 +134,7 @@
               "6.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-enterprise-security_811.spl",
             "id": 38576,
             "md5": "9c5742a19f5b0d37a2adba76601a2139",
@@ -166,7 +166,7 @@
               "5.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "yes",
+            "fips_compatibility": true,
             "filename": "splunk-enterprise-security_734.tgz",
             "id": 38430,
             "md5": "ea29c3bf9c647a0c08d7cef22d933909",
@@ -197,7 +197,7 @@
               "6.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-enterprise-security_810.spl",
             "id": 38022,
             "md5": "087ccf04a19795c144696f3134bf8c10",
@@ -228,7 +228,7 @@
               "6.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-enterprise-security_8040.spl",
             "id": 37594,
             "md5": "333e177ca9af9e1172345f3770744ff2",
@@ -260,7 +260,7 @@
               "6.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-enterprise-security_8031.spl",
             "id": 37500,
             "md5": "7d0a8ce11b604485a07aad4f129d0eab",
@@ -292,7 +292,7 @@
               "6.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-enterprise-security_803.spl",
             "id": 37093,
             "md5": "0f791e25a33e32eb7a43d20dee943d2a",
@@ -324,7 +324,7 @@
               "5.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-enterprise-security_733.spl",
             "id": 36634,
             "md5": "f9b847319935b87f8d96205ffb57a4f7",
@@ -357,7 +357,7 @@
               "6.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-enterprise-security_802.spl",
             "id": 36251,
             "md5": "9dd96c61f508c67d1fafb7f19632e10d",
@@ -389,7 +389,7 @@
               "5.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-enterprise-security_732.spl",
             "id": 33694,
             "md5": "c29f2ea59b83cc4c4ac3bd9a7f2cc449",
@@ -422,7 +422,7 @@
               "5.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "yes",
+            "fips_compatibility": true,
             "filename": "splunk-enterprise-security_731.spl",
             "id": 32673,
             "md5": "8da2cab87fc419e9fbc337bd36b9e383",
@@ -453,7 +453,7 @@
               "5.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-enterprise-security_730.spl",
             "id": 31590,
             "md5": "bef20cb46ac390e1844dcb14042ac89b",
@@ -485,7 +485,7 @@
               "5.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "yes",
+            "fips_compatibility": true,
             "filename": "splunk-enterprise-security_712.spl",
             "id": 31126,
             "md5": "6a7e9ee4a6a7fc640911689745e9b294",
@@ -517,7 +517,7 @@
               "5.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "yes",
+            "fips_compatibility": true,
             "filename": "splunk-enterprise-security_720.spl",
             "id": 30458,
             "md5": "e251b6ad777254e098eb9e7aa2a86e9c",
@@ -548,7 +548,7 @@
               "5.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "yes",
+            "fips_compatibility": true,
             "filename": "splunk-enterprise-security_711.spl",
             "id": 29015,
             "md5": "af5742832c167d550381ac9bcc3647d4",
@@ -581,7 +581,7 @@
               "5.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "yes",
+            "fips_compatibility": true,
             "filename": "splunk-enterprise-security_710.spl",
             "id": 28160,
             "md5": "63fb574c6e7889494fc9c0a91c0c1510",
@@ -615,7 +615,7 @@
               "5.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "yes",
+            "fips_compatibility": true,
             "filename": "splunk-enterprise-security_702.spl",
             "id": 27273,
             "md5": "b075ac0f7f88b5d9cac4879a2eede91b",
@@ -649,7 +649,7 @@
               "5.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "yes",
+            "fips_compatibility": true,
             "filename": "splunk-enterprise-security_701.spl",
             "id": 24072,
             "md5": "f8c787858294c26713ac868c62b8963e",
@@ -680,7 +680,7 @@
               "5.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "yes",
+            "fips_compatibility": true,
             "filename": "splunk-enterprise-security_700.spl",
             "id": 23191,
             "md5": "21f51f7aa3ed820b3b98d657f81af204",
@@ -711,7 +711,7 @@
               "4.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-enterprise-security_662.spl",
             "id": 21779,
             "md5": "f014a99f854faa7659123b4713549bd5",
@@ -743,7 +743,7 @@
               "4.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "yes",
+            "fips_compatibility": true,
             "filename": "splunk-enterprise-security_660.spl",
             "id": 20830,
             "md5": "35d0c650f22ea3d4204f93b3a04fb37b",
@@ -774,7 +774,7 @@
               "4.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-enterprise-security_641.spl",
             "id": 19279,
             "md5": "c2d8e9e5bbc477d5a109685380f988ad",
@@ -805,7 +805,7 @@
               "4.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-enterprise-security_640.spl",
             "id": 19003,
             "md5": "d3048cf838f641a15ccf9260e91395cb",
@@ -833,7 +833,7 @@
               "4.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "yes",
+            "fips_compatibility": true,
             "filename": "splunk-enterprise-security_620.spl",
             "id": 16712,
             "md5": "c24950cacb0f6438038b31eb2a07c567",
@@ -861,7 +861,7 @@
               "4.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-enterprise-security_611.spl",
             "id": 16008,
             "md5": "6f51408f91a8900f59476dcf9e8f6b84",
@@ -890,7 +890,7 @@
               "4.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-enterprise-security_602.spl",
             "id": 15998,
             "md5": "b4a4bcbf6e302d93300fff5c6270e428",
@@ -920,7 +920,7 @@
               "3.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "yes",
+            "fips_compatibility": true,
             "filename": "splunk-enterprise-security_610.spl",
             "id": 15260,
             "md5": "7f6d5cb7872c6a5918ca2a243b5a9441",
@@ -947,7 +947,7 @@
               "4.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-enterprise-security_531.spl",
             "id": 13612,
             "md5": "b9188b22776127550378bba0ecd41b3d",
@@ -978,7 +978,7 @@
               "4.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-enterprise-security_530.spl",
             "id": 12702,
             "md5": "621efd85550ed4b6a681169a2f0e11c8",
@@ -1009,7 +1009,7 @@
               "4.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-enterprise-security_522.spl",
             "id": 11992,
             "md5": "76539f93da5f259cc81ac6a3e225a1c0",
@@ -1039,7 +1039,7 @@
               "4.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-enterprise-security_511.spl",
             "id": 11161,
             "md5": "e565831485207dde0a56e591d7bb8607",
@@ -1069,7 +1069,7 @@
               "4.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-enterprise-security_501.spl",
             "id": 10572,
             "md5": "4e6262910cdbc9a8ec8eb0fd2fd12d2d",
@@ -1098,7 +1098,7 @@
               "4.x"
             ],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-enterprise-security_476.spl",
             "id": 10024,
             "md5": "253130b28c0a68f93c947c0eca115bd4",
@@ -1125,7 +1125,7 @@
             "actions": [],
             "cim_compatibility": [],
             "cloud_compatible": true,
-            "fedramp_validation": "no",
+            "fips_compatibility": false,
             "filename": "splunk-enterprise-security_453.spl",
             "id": 7980,
             "md5": "bf173384302711845f1ad6f5b138a4be",
@@ -1176,7 +1176,7 @@
   "query": {
     "id": "263"
   },
-  "buildId": "eObFqofBywDgSSNh9pfXW",
+  "buildId": "ehYc0fkwIqejgjjAYWXE0",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
