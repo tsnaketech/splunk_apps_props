@@ -82,6 +82,7 @@
         "screenshots": [
           "https://cdn.splunkbase.splunk.com/media/public/screenshots/dd7e432e-3244-11ec-a1f2-92c298852a62.png"
         ],
+        "short_description": "",
         "support": "developer",
         "title": "TA - Custom Login Page",
         "troubleshooting": "",
@@ -103,7 +104,7 @@
   "query": {
     "id": "6157"
   },
-  "buildId": "tROMrilZfP_f1CAM2cpls",
+  "buildId": "gKbLpOVOYVszCTBd6DE9c",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

@@ -1123,6 +1123,7 @@
           "https://cdn.splunkbase.splunk.com/media/public/screenshots/e88c921e-5156-41f0-985c-8dd0bc1ce559.png",
           "https://cdn.splunkbase.splunk.com/media/public/screenshots/872912af-3f1f-4ef2-9ea5-33c0ba6ea2b3.png"
         ],
+        "short_description": "",
         "support": "premium",
         "title": "Splunk Enterprise Security",
         "troubleshooting": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security\">https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security</a></p>",
@@ -1144,7 +1145,7 @@
   "query": {
     "id": "263"
   },
-  "buildId": "tROMrilZfP_f1CAM2cpls",
+  "buildId": "gKbLpOVOYVszCTBd6DE9c",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

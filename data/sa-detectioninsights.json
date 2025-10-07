@@ -330,6 +330,7 @@
           "https://cdn.splunkbase.splunk.com/media/public/screenshots/1f2d1ccc-679b-11ee-946d-ba8f21b26b83.png",
           "https://cdn.splunkbase.splunk.com/media/public/screenshots/0f478946-679b-11ee-bff6-fecd3f600a22.png"
         ],
+        "short_description": "",
         "support": "not_supported",
         "title": "SA-DetectionInsights",
         "troubleshooting": "<p>Please refer to the application documentation <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/\">here</a> for troubleshooting guidance.</p>",
@@ -351,7 +352,7 @@
   "query": {
     "id": "7066"
   },
-  "buildId": "tROMrilZfP_f1CAM2cpls",
+  "buildId": "gKbLpOVOYVszCTBd6DE9c",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

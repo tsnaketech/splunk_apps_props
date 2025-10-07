@@ -83,6 +83,7 @@
           "https://cdn.splunkbase.splunk.com/media/public/screenshots/03a72aca-2e71-11ec-8cef-6aa8aad1b9b9.png",
           "https://cdn.splunkbase.splunk.com/media/public/screenshots/007f6bdc-2e71-11ec-911d-66fb4d2b3d6a.png"
         ],
+        "short_description": "",
         "support": "developer",
         "title": "TA - Common Visualization Collection",
         "troubleshooting": "",
@@ -104,7 +105,7 @@
   "query": {
     "id": "6137"
   },
-  "buildId": "tROMrilZfP_f1CAM2cpls",
+  "buildId": "gKbLpOVOYVszCTBd6DE9c",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
