@@ -21,7 +21,7 @@
         "description": "The Common Information Model is a set of field names and tags which are expected to define the least common denominator of a domain of interest. It is implemented as documentation on the Splunk docs website and JSON data model files in this add-on. Use the CIM add-on when modeling data or building apps to ensure compatibility between apps, or to just take advantage of these data models to pivot and report.",
         "documentation": "<p><a href=\"https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on\">Release Notes</a><br>\nPlease see the <a href=\"https://help.splunk.com/en/data-management/common-information-model/6.1/introduction/overview-of-the-splunk-common-information-model\">Splunk Common Information Model Add-on user documentation</a>.</p>",
         "documentation_source": "[Release Notes](https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on)\nPlease see the [Splunk Common Information Model Add-on user documentation](https://help.splunk.com/en/data-management/common-information-model/6.1/introduction/overview-of-the-splunk-common-information-model).",
-        "download_count": 377839,
+        "download_count": 378056,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/65ca66c8-7ee4-11f0-a62a-0ec73ee89a2b.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -63,25 +63,25 @@
           ],
           "cloud_compatible": true,
           "fips_compatibility": false,
-          "filename": "splunk-common-information-model-cim_610.tgz",
-          "id": 37998,
-          "md5": "3f3dbf116da9d2b57322a7d9374f056f",
+          "filename": "splunk-common-information-model-cim_620.tgz",
+          "id": 39214,
+          "md5": "dc9502b0a1f69bff17c8ca085ad3e4de",
           "min_product_version_str": null,
-          "name": "6.1.0",
+          "name": "6.2.0",
           "passed_validation": true,
-          "path": "https://splunkbase.splunk.com/app/1621/release/6.1.0/download/",
+          "path": "https://splunkbase.splunk.com/app/1621/release/6.2.0/download/",
           "platform": "independent",
           "product_types": [
             "enterprise",
             "cloud"
           ],
           "public_ever_true": false,
-          "published_datetime": "2025-06-10T20:34:38.298431Z",
-          "release_notes": "<p><a href=\"https://help.splunk.com/en/data-management/common-information-model/6.1/introduction/release-notes-for-the-splunk-common-information-model-add-on\">https://help.splunk.com/en/data-management/common-information-model/6.1/introduction/release-notes-for-the-splunk-common-information-model-add-on</a></p>",
-          "sha256": "639a515870d468a591bcc26467a652bde22ce9bbae2837c6112155b0181c771d",
+          "published_datetime": "2025-09-09T05:05:03.912550Z",
+          "release_notes": "<p><a href=\"https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on\">https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on</a></p>",
+          "sha256": "a920d02e83f973146d6ee7e1727421f4d3d0462c7e7a5f40fc9c2e61b7963839",
           "signed_available": true,
-          "size": 2228905,
-          "updated_datetime": "2025-09-09T19:04:36.967965Z",
+          "size": 2229096,
+          "updated_datetime": "2025-10-08T03:12:49.966871Z",
           "version_compatibility": [
             "10.0",
             "9.4",
@@ -91,6 +91,40 @@
           ]
         },
         "releases": [
+          {
+            "actions": [],
+            "cim_compatibility": [
+              "6.x"
+            ],
+            "cloud_compatible": true,
+            "fips_compatibility": false,
+            "filename": "splunk-common-information-model-cim_620.tgz",
+            "id": 39214,
+            "md5": "dc9502b0a1f69bff17c8ca085ad3e4de",
+            "min_product_version_str": null,
+            "name": "6.2.0",
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/1621/release/6.2.0/download/",
+            "platform": "independent",
+            "product_types": [
+              "cloud",
+              "enterprise"
+            ],
+            "public_ever_true": false,
+            "published_datetime": "2025-09-09T05:05:03.912550Z",
+            "release_notes": "<p><a href=\"https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on\">https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on</a></p>",
+            "sha256": "a920d02e83f973146d6ee7e1727421f4d3d0462c7e7a5f40fc9c2e61b7963839",
+            "signed_available": true,
+            "size": 2229096,
+            "updated_datetime": "2025-10-08T03:12:49.966871Z",
+            "version_compatibility": [
+              "10.0",
+              "9.4",
+              "9.3",
+              "9.2",
+              "9.1"
+            ]
+          },
           {
             "actions": [],
             "cim_compatibility": [
@@ -1019,7 +1053,7 @@
         "troubleshooting": "",
         "troubleshooting_source": "",
         "type": "addon",
-        "updated_time": "2025-10-01T04:11:49.072384Z",
+        "updated_time": "2025-10-08T03:12:52.715241Z",
         "video_link": null,
         "app_type": "addon",
         "schedule_release": null,

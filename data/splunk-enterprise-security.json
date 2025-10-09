@@ -69,26 +69,26 @@
             "6.x"
           ],
           "cloud_compatible": true,
-          "fips_compatibility": true,
-          "filename": "splunk-enterprise-security_811.spl",
-          "id": 38576,
-          "md5": "9c5742a19f5b0d37a2adba76601a2139",
+          "fips_compatibility": false,
+          "filename": "splunk-enterprise-security_823.spl",
+          "id": 39942,
+          "md5": "598f21abfebfa825dfc7ac9a073c7ed4",
           "min_product_version_str": null,
-          "name": "8.1.1",
+          "name": "8.2.3",
           "passed_validation": false,
-          "path": "https://splunkbase.splunk.com/app/263/release/8.1.1/download/",
+          "path": "https://splunkbase.splunk.com/app/263/release/8.2.3/download/",
           "platform": "independent",
           "product_types": [
             "enterprise",
             "cloud"
           ],
           "public_ever_true": false,
-          "published_datetime": "2025-07-18T00:36:56.058595Z",
-          "release_notes": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.1/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security\">https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.1/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security</a></p>",
-          "sha256": "8c8e4151535d1d53e8c6f9fc50d6779b26a85924acc93cde85c494945dc39c5c",
-          "signed_available": true,
-          "size": 697734043,
-          "updated_datetime": "2025-09-17T17:54:24.361372Z",
+          "published_datetime": "2025-10-08T03:11:46.400170Z",
+          "release_notes": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.2/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security\">https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.2/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security</a></p>",
+          "sha256": "572489a9be71a422a274d1c8bced56ef63bff263334bab29c4a8a55f30c0b5d0",
+          "signed_available": false,
+          "size": 761699696,
+          "updated_datetime": "2025-10-08T03:11:46.463357Z",
           "version_compatibility": [
             "10.0",
             "9.4",
@@ -96,6 +96,38 @@
           ]
         },
         "releases": [
+          {
+            "actions": [],
+            "cim_compatibility": [
+              "6.x"
+            ],
+            "cloud_compatible": true,
+            "fips_compatibility": false,
+            "filename": "splunk-enterprise-security_823.spl",
+            "id": 39942,
+            "md5": "598f21abfebfa825dfc7ac9a073c7ed4",
+            "min_product_version_str": null,
+            "name": "8.2.3",
+            "passed_validation": false,
+            "path": "https://splunkbase.splunk.com/app/263/release/8.2.3/download/",
+            "platform": "independent",
+            "product_types": [
+              "cloud",
+              "enterprise"
+            ],
+            "public_ever_true": false,
+            "published_datetime": "2025-10-08T03:11:46.400170Z",
+            "release_notes": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.2/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security\">https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.2/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security</a></p>",
+            "sha256": "572489a9be71a422a274d1c8bced56ef63bff263334bab29c4a8a55f30c0b5d0",
+            "signed_available": false,
+            "size": 761699696,
+            "updated_datetime": "2025-10-08T03:11:46.463357Z",
+            "version_compatibility": [
+              "10.0",
+              "9.4",
+              "9.3"
+            ]
+          },
           {
             "actions": [],
             "cim_compatibility": [
@@ -1129,7 +1161,7 @@
         "troubleshooting": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security\">https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security</a></p>",
         "troubleshooting_source": "https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security",
         "type": "app",
-        "updated_time": "2025-10-07T07:44:55.678408Z",
+        "updated_time": "2025-10-08T03:11:52.280605Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
