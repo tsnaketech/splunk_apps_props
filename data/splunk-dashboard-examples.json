@@ -21,7 +21,7 @@
         "description": "The Splunk Dashboard app v8.2.6 will reach end of support on Dec 19, 2024. No new versions of the app will be released. Simple XML examples are available in SimpleXML reference guide documentation and the Dashboards & Visualizations forum on Splunk Community. Check out this Splunk Lantern article to learn more: https://lantern.splunk.com/@go/page/7411\n-----\nThe Splunk Dashboard app delivers examples that give you a hands-on way to learn the basic concepts and tools needed to rapidly create rich dashboards using Simple XML. This new app incorporates learn-by-doing Simple XML examples, including extensions to Simple XML for further customization of layout, interactivity, and visualizations.\n\nWith the app you will learn basic Simple XML concepts and how to incorporate the built-in components. All the included examples deliver a recipe for implementing dashboard elements, beginning with the most basic and progressing to more advanced elements.  Each example in the app includes an actual runtime visualization followed by a description and supporting source code.\n\n(c) 2016-2020 Splunk Inc. All Rights Reserved.",
         "documentation": "",
         "documentation_source": "",
-        "download_count": 300080,
+        "download_count": 300081,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/8989c616-7fd8-11ed-8c6e-d6a48ae8285c.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -220,11 +220,11 @@
         "repo_name": "",
         "repo_url": "",
         "screenshots": [
-          "https://cdn.splunkbase.splunk.com/media/public/screenshots/591f1550-faa9-11e5-98e7-064614758881.png",
-          "https://cdn.splunkbase.splunk.com/media/public/screenshots/27d379fe-d577-11e3-86e3-06ca2297e8bc.png",
-          "https://cdn.splunkbase.splunk.com/media/public/screenshots/24a0944c-d577-11e3-86e3-06ca2297e8bc.png",
+          "https://cdn.splunkbase.splunk.com/media/public/screenshots/1ca83560-d577-11e3-9b1d-06ca2297e8bc.png",
           "https://cdn.splunkbase.splunk.com/media/public/screenshots/2065c87a-d577-11e3-9b1d-06ca2297e8bc.png",
-          "https://cdn.splunkbase.splunk.com/media/public/screenshots/1ca83560-d577-11e3-9b1d-06ca2297e8bc.png"
+          "https://cdn.splunkbase.splunk.com/media/public/screenshots/24a0944c-d577-11e3-86e3-06ca2297e8bc.png",
+          "https://cdn.splunkbase.splunk.com/media/public/screenshots/27d379fe-d577-11e3-86e3-06ca2297e8bc.png",
+          "https://cdn.splunkbase.splunk.com/media/public/screenshots/591f1550-faa9-11e5-98e7-064614758881.png"
         ],
         "short_description": "",
         "support": "not_supported",
@@ -248,7 +248,7 @@
   "query": {
     "id": "1603"
   },
-  "buildId": "4H1cUxgGD53u0o1sVZmwJ",
+  "buildId": "DsKPUtrFc_YB_yvQwHLSu",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

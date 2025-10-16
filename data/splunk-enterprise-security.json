@@ -1150,10 +1150,10 @@
         "repo_name": "",
         "repo_url": "",
         "screenshots": [
-          "https://cdn.splunkbase.splunk.com/media/public/screenshots/dc2f77db-8564-437c-91a4-ab178c2ee856.png",
-          "https://cdn.splunkbase.splunk.com/media/public/screenshots/2aff1f88-d218-4e62-9adf-868eae139a56.png",
+          "https://cdn.splunkbase.splunk.com/media/public/screenshots/872912af-3f1f-4ef2-9ea5-33c0ba6ea2b3.png",
           "https://cdn.splunkbase.splunk.com/media/public/screenshots/e88c921e-5156-41f0-985c-8dd0bc1ce559.png",
-          "https://cdn.splunkbase.splunk.com/media/public/screenshots/872912af-3f1f-4ef2-9ea5-33c0ba6ea2b3.png"
+          "https://cdn.splunkbase.splunk.com/media/public/screenshots/2aff1f88-d218-4e62-9adf-868eae139a56.png",
+          "https://cdn.splunkbase.splunk.com/media/public/screenshots/dc2f77db-8564-437c-91a4-ab178c2ee856.png"
         ],
         "short_description": "",
         "support": "premium",
@@ -1177,7 +1177,7 @@
   "query": {
     "id": "263"
   },
-  "buildId": "4H1cUxgGD53u0o1sVZmwJ",
+  "buildId": "DsKPUtrFc_YB_yvQwHLSu",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
