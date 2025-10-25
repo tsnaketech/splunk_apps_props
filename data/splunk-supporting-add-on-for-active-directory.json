@@ -28,7 +28,7 @@
         "description": "This app (also known as SA-ldapsearch) provides support functions to the Content Pack for Windows Dashboards and Reports (https://docs.splunk.com/Documentation/CPWindowsDash/latest/CP/About), Content Pack for Microsoft Exchange (https://docs.splunk.com/Documentation/CPExchange/latest/CP/About) that enable you to extract information from an Active Directory database. For instance, you can search Active Directory for records, presenting the records as events, or augment existing events with information from Active Directory based on information within the events.",
         "documentation": "<p>To learn about the Splunk Supporting Add-on for Active Directory, see the official documentation here on <a href=\"http://docs.splunk.com/Documentation/SA-LdapSearch/latest\">docs.splunk.com</a>.</p>\n<p>For information on what has been fixed as well as known issues, see the <a href=\"http://docs.splunk.com/Documentation/SA-LdapSearch/latest/User/ReleaseNotes\">release notes</a>.</p>",
         "documentation_source": "To learn about the Splunk Supporting Add-on for Active Directory, see the official documentation here on [docs.splunk.com](http://docs.splunk.com/Documentation/SA-LdapSearch/latest).\r\n\r\nFor information on what has been fixed as well as known issues, see the [release notes](http://docs.splunk.com/Documentation/SA-LdapSearch/latest/User/ReleaseNotes).",
-        "download_count": 171041,
+        "download_count": 171084,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/c6b2bc1c-b214-11ef-a1e5-6e40c79c81fa.png",
         "inquiry_buttontext": "",
         "inquiry_url": "",
