@@ -1161,7 +1161,7 @@
         "troubleshooting": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security\">https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security</a></p>",
         "troubleshooting_source": "https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security",
         "type": "app",
-        "updated_time": "2025-10-08T03:11:52.280605Z",
+        "updated_time": "2025-10-28T13:43:24.523826Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
@@ -1177,7 +1177,7 @@
   "query": {
     "id": "263"
   },
-  "buildId": "s5ezNOy_ycZn3cPVK1If6",
+  "buildId": "4JTYIwtEKGdZAzxofg7H1",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
