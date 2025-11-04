@@ -163,6 +163,7 @@
             "size": 4380896,
             "updated_datetime": "2025-08-01T08:23:38.587587Z",
             "version_compatibility": [
+              "10.1",
               "10.0",
               "9.4",
               "9.3",
@@ -273,7 +274,7 @@
   "query": {
     "id": "5062"
   },
-  "buildId": "4JTYIwtEKGdZAzxofg7H1",
+  "buildId": "eBWKNlA_cCiVxn8FKJ3ur",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

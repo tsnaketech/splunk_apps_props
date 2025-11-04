@@ -90,6 +90,7 @@
           "size": 761699696,
           "updated_datetime": "2025-10-08T03:11:46.463357Z",
           "version_compatibility": [
+            "10.1",
             "10.0",
             "9.4",
             "9.3"
@@ -123,6 +124,7 @@
             "size": 761699696,
             "updated_datetime": "2025-10-08T03:11:46.463357Z",
             "version_compatibility": [
+              "10.1",
               "10.0",
               "9.4",
               "9.3"
@@ -155,6 +157,7 @@
             "size": 697734043,
             "updated_datetime": "2025-09-17T17:54:24.361372Z",
             "version_compatibility": [
+              "10.1",
               "10.0",
               "9.4",
               "9.3"
@@ -187,6 +190,7 @@
             "size": 671001907,
             "updated_datetime": "2025-07-03T21:16:31.308369Z",
             "version_compatibility": [
+              "10.1",
               "10.0",
               "9.4"
             ]
@@ -1177,7 +1181,7 @@
   "query": {
     "id": "263"
   },
-  "buildId": "4JTYIwtEKGdZAzxofg7H1",
+  "buildId": "eBWKNlA_cCiVxn8FKJ3ur",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

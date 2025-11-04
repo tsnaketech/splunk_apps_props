@@ -81,6 +81,7 @@
           "size": 3952555,
           "updated_datetime": "2025-07-29T18:49:06.843644Z",
           "version_compatibility": [
+            "10.1",
             "10.0",
             "9.4",
             "9.3",
@@ -114,6 +115,7 @@
             "size": 3952555,
             "updated_datetime": "2025-07-29T18:49:06.843644Z",
             "version_compatibility": [
+              "10.1",
               "10.0",
               "9.4",
               "9.3",
@@ -655,7 +657,7 @@
   "query": {
     "id": "4418"
   },
-  "buildId": "4JTYIwtEKGdZAzxofg7H1",
+  "buildId": "eBWKNlA_cCiVxn8FKJ3ur",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
