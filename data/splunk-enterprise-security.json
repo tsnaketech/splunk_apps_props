@@ -155,7 +155,7 @@
             "sha256": "8c8e4151535d1d53e8c6f9fc50d6779b26a85924acc93cde85c494945dc39c5c",
             "signed_available": true,
             "size": 697734043,
-            "updated_datetime": "2025-09-17T17:54:24.361372Z",
+            "updated_datetime": "2025-11-04T13:21:51.986627Z",
             "version_compatibility": [
               "10.1",
               "10.0",
@@ -188,7 +188,7 @@
             "sha256": "e8d78028036d0a5727bbb9eb5c41ea55ec593de4dbb7e6faabde6cfbe66a5819",
             "signed_available": true,
             "size": 671001907,
-            "updated_datetime": "2025-07-03T21:16:31.308369Z",
+            "updated_datetime": "2025-11-04T13:21:52.873537Z",
             "version_compatibility": [
               "10.1",
               "10.0",
@@ -1165,7 +1165,7 @@
         "troubleshooting": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security\">https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security</a></p>",
         "troubleshooting_source": "https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security",
         "type": "app",
-        "updated_time": "2025-10-29T09:04:07.392184Z",
+        "updated_time": "2025-11-04T13:21:53.170728Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,

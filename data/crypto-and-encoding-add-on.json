@@ -141,7 +141,7 @@
           {
             "actions": [],
             "cim_compatibility": [],
-            "cloud_compatible": true,
+            "cloud_compatible": false,
             "fips_compatibility": false,
             "filename": "crypto-and-encoding-add-on_242.tgz",
             "id": 38811,
@@ -152,7 +152,6 @@
             "path": "https://splunkbase.splunk.com/app/5062/release/2.4.2/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
               "enterprise"
             ],
             "public_ever_true": false,
@@ -161,7 +160,7 @@
             "sha256": "5b7d461f49fc966d5c66d94680bafe673c423da21b4e5fbd8404854b33320637",
             "signed_available": true,
             "size": 4380896,
-            "updated_datetime": "2025-08-01T08:23:38.587587Z",
+            "updated_datetime": "2025-11-04T12:55:13.140985Z",
             "version_compatibility": [
               "10.1",
               "10.0",
@@ -178,7 +177,7 @@
           {
             "actions": [],
             "cim_compatibility": [],
-            "cloud_compatible": true,
+            "cloud_compatible": false,
             "fips_compatibility": false,
             "filename": "crypto-and-encoding-add-on_241.tgz",
             "id": 36349,
@@ -189,7 +188,6 @@
             "path": "https://splunkbase.splunk.com/app/5062/release/2.4.1/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
               "enterprise"
             ],
             "public_ever_true": false,
@@ -198,7 +196,7 @@
             "sha256": "1b5a3bc7fe9043efcb81282b753869353f0af20402eab5dc24e666d88f77ec25",
             "signed_available": true,
             "size": 5024201,
-            "updated_datetime": "2025-01-29T08:06:15.074340Z",
+            "updated_datetime": "2025-11-04T12:55:13.223797Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -258,7 +256,7 @@
         "troubleshooting": "",
         "troubleshooting_source": "",
         "type": "addon",
-        "updated_time": "2025-09-17T07:25:04.313243Z",
+        "updated_time": "2025-11-04T12:55:13.249357Z",
         "video_link": null,
         "app_type": "addon",
         "schedule_release": null,
