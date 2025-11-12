@@ -22,8 +22,8 @@
         "description": "*** Important: Read upgrade instructions and test add-on update before deploying to production ***\nThe Splunk Add-on for Windows 5.0.0 introduced breaking changes. If you are upgrading from a version of the Splunk Add-on for Windows that is earlier than 5.0.0, you must follow the documented upgrade instructions to avoid data loss. A best practice is to test the upgraded version in a non-production environment before deploying to production.\n\nNeither the Splunk Add-on for Windows DNS version 1.0.1 nor the Splunk Add-on for Windows Active Directory version 1.0.0 is supported when installed alongside the Splunk Add-on for Windows version 6.0.0. The Splunk Add-on for Windows version 6.0.0 includes the Splunk Add-on for Windows DNS and the Splunk Add-on for Microsoft Active Directory.\n\nThe Splunk for Microsoft Windows add-on includes predefined inputs to collect data from Windows systems and maps to normalize the data to the Common Information Model.",
         "documentation": "<p>To learn about the Splunk Add-on for Microsoft Windows, see the official documentation here on <a href=\"https://docs.splunk.com/Documentation/AddOns/released/Windows/\">docs.splunk.com</a>.</p>\n<p>For information on what has been fixed as well as known issues, see the <a href=\"https://docs.splunk.com/Documentation/AddOns/released/Windows/Releasenote\">release notes</a>.</p>",
         "documentation_source": "To learn about the Splunk Add-on for Microsoft Windows, see the official documentation here on [docs.splunk.com](https://docs.splunk.com/Documentation/AddOns/released/Windows/).\r\n\r\nFor information on what has been fixed as well as known issues, see the [release notes](https://docs.splunk.com/Documentation/AddOns/released/Windows/Releasenote).",
-        "download_count": 693873,
-        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/52cd94a4-b888-11f0-99f0-9aa458f0c1b8.png",
+        "download_count": 694684,
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/5e44d57e-bedf-11f0-8187-966ccfe0914f.png",
         "inquiry_buttontext": "",
         "inquiry_url": "",
         "is_archived": false,
@@ -70,36 +70,70 @@
           ],
           "cloud_compatible": true,
           "fips_compatibility": false,
-          "filename": "splunk-add-on-for-microsoft-windows_901.tgz",
-          "id": 35485,
-          "md5": "71f7f4251680b031b87871098bf6fe8e",
+          "filename": "splunk-add-on-for-microsoft-windows_911.tgz",
+          "id": 40359,
+          "md5": "b7a8c7a3c6edae24c510faf649f6a177",
           "min_product_version_str": null,
-          "name": "9.0.1",
+          "name": "9.1.1",
           "passed_validation": true,
-          "path": "https://splunkbase.splunk.com/app/742/release/9.0.1/download/",
+          "path": "https://splunkbase.splunk.com/app/742/release/9.1.1/download/",
           "platform": "independent",
           "product_types": [
             "enterprise",
             "cloud"
           ],
           "public_ever_true": false,
-          "published_datetime": "2024-11-13T10:33:59.476002Z",
+          "published_datetime": "2025-11-11T09:28:47.895977Z",
           "release_notes": "",
-          "sha256": "cc7e4f0652eda89f223dba6e5739d0dcb7b59ee47b4bd7b25607b851a15c4caa",
+          "sha256": "6dd62224c70f6debe891993e3bb88e1c424f8b1fb370028b8fb42cbb6509bcf8",
           "signed_available": true,
-          "size": 215046,
-          "updated_datetime": "2025-06-21T05:47:02.798569Z",
+          "size": 516055,
+          "updated_datetime": "2025-11-11T09:28:47.947621Z",
           "version_compatibility": [
             "10.1",
             "10.0",
             "9.4",
             "9.3",
             "9.2",
-            "9.1",
-            "9.0"
+            "9.1"
           ]
         },
         "releases": [
+          {
+            "actions": [],
+            "cim_compatibility": [
+              "4.x"
+            ],
+            "cloud_compatible": true,
+            "fips_compatibility": false,
+            "filename": "splunk-add-on-for-microsoft-windows_911.tgz",
+            "id": 40359,
+            "md5": "b7a8c7a3c6edae24c510faf649f6a177",
+            "min_product_version_str": null,
+            "name": "9.1.1",
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/742/release/9.1.1/download/",
+            "platform": "independent",
+            "product_types": [
+              "cloud",
+              "enterprise"
+            ],
+            "public_ever_true": false,
+            "published_datetime": "2025-11-11T09:28:47.895977Z",
+            "release_notes": "",
+            "sha256": "6dd62224c70f6debe891993e3bb88e1c424f8b1fb370028b8fb42cbb6509bcf8",
+            "signed_available": true,
+            "size": 516055,
+            "updated_datetime": "2025-11-11T09:28:47.947621Z",
+            "version_compatibility": [
+              "10.1",
+              "10.0",
+              "9.4",
+              "9.3",
+              "9.2",
+              "9.1"
+            ]
+          },
           {
             "actions": [],
             "cim_compatibility": [
@@ -317,7 +351,7 @@
         "troubleshooting": "",
         "troubleshooting_source": "",
         "type": "addon",
-        "updated_time": "2025-11-10T20:01:29.223938Z",
+        "updated_time": "2025-11-11T09:29:05.935346Z",
         "video_link": null,
         "app_type": "addon",
         "schedule_release": null,
