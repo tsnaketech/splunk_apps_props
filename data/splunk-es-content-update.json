@@ -21,8 +21,8 @@
         "description": "The Splunk ES Content Update (ESCU) app delivers pre-packaged Security Content. ESCU provides regular Security Content updates to help security practitioners address ongoing time-sensitive threats, attack methods, and other security issues.\n\nSecurity Content consists of tactics, techniques, and methodologies that help with detection, investigation, and response. Security Content enables security teams to directly operationalize detection searches, investigative searches, and other supporting details. ESCU can generate Notable/Risk Events in Splunk Enterprise Security. Security Content also contains easy-to-read background information and guidance, for key context on motivations and risks associated with attack techniques, as well as pragmatic advice on how to combat those techniques.\n\nThe analytic stories and their searches are also available at - https://github.com/splunk/security_content.",
         "documentation": "<p>For more information please visit the <a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update\">Splunk ES Content Update user documentation</a>.</p>",
         "documentation_source": "For more information please visit the [Splunk ES Content Update user documentation](https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update).",
-        "download_count": 160723,
-        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/3ea9c770-b4f7-11f0-aa6f-5a8a0049b2a7.png",
+        "download_count": 160807,
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/4245b96c-bfeb-11f0-8db2-5ec621079406.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "http://www.splunk.com/index.php/ask_expert/default/3174",
         "is_archived": false,
@@ -66,28 +66,29 @@
           ],
           "cloud_compatible": true,
           "fips_compatibility": false,
-          "filename": "splunk-es-content-update_5170.tgz",
-          "id": 40239,
-          "md5": "1101d8d635aea92960d4286c445f4ca9",
+          "filename": "splunk-es-content-update_5180.tgz",
+          "id": 40374,
+          "md5": "895939dc850949fec350229c57c93177",
           "min_product_version_str": null,
-          "name": "5.17.0",
+          "name": "5.18.0",
           "passed_validation": true,
-          "path": "https://splunkbase.splunk.com/app/3449/release/5.17.0/download/",
+          "path": "https://splunkbase.splunk.com/app/3449/release/5.18.0/download/",
           "platform": "independent",
           "product_types": [
             "enterprise",
             "cloud"
           ],
           "public_ever_true": false,
-          "published_datetime": "2025-10-30T16:31:49.154949Z",
-          "release_notes": "<p>GitHub - <a href=\"https://github.com/splunk/security_content/releases/tag/v5.17.0\">https://github.com/splunk/security_content/releases/tag/v5.17.0</a></p>\n<p>Splunk Docs - <a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/release-notes/5.17/splunk-security-content-release-notes/whats-new\">https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/release-notes/5.17/splunk-security-content-release-notes/whats-new</a></p>",
-          "sha256": "5289c16679ebd0d8056a09c59b045e04483bbdb75419684ba43a885ac602451c",
+          "published_datetime": "2025-11-12T18:32:13.649990Z",
+          "release_notes": "<p>GitHub - <a href=\"https://github.com/splunk/security_content/releases/tag/v5.18.0\">https://github.com/splunk/security_content/releases/tag/v5.18.0</a></p>\n<p>Splunk Docs - <a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/release-notes/5.18/splunk-security-content-release-notes/whats-new\">https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/release-notes/5.18/splunk-security-content-release-notes/whats-new</a></p>",
+          "sha256": "40f6e8dcff4b8f495eafa8b8c08fded8bf7050d06dae8bf24266a6e1f4701e36",
           "signed_available": true,
-          "size": 8706896,
-          "updated_datetime": "2025-10-30T16:31:49.283765Z",
+          "size": 8708172,
+          "updated_datetime": "2025-11-12T18:32:13.773324Z",
           "version_compatibility": [
             "10.1",
             "10.0",
+            "9.4",
             "9.3",
             "9.2",
             "9.1",
@@ -99,6 +100,48 @@
           ]
         },
         "releases": [
+          {
+            "actions": [],
+            "cim_compatibility": [
+              "6.x",
+              "5.x",
+              "4.x"
+            ],
+            "cloud_compatible": true,
+            "fips_compatibility": false,
+            "filename": "splunk-es-content-update_5180.tgz",
+            "id": 40374,
+            "md5": "895939dc850949fec350229c57c93177",
+            "min_product_version_str": null,
+            "name": "5.18.0",
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/3449/release/5.18.0/download/",
+            "platform": "independent",
+            "product_types": [
+              "cloud",
+              "enterprise"
+            ],
+            "public_ever_true": false,
+            "published_datetime": "2025-11-12T18:32:13.649990Z",
+            "release_notes": "<p>GitHub - <a href=\"https://github.com/splunk/security_content/releases/tag/v5.18.0\">https://github.com/splunk/security_content/releases/tag/v5.18.0</a></p>\n<p>Splunk Docs - <a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/release-notes/5.18/splunk-security-content-release-notes/whats-new\">https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/release-notes/5.18/splunk-security-content-release-notes/whats-new</a></p>",
+            "sha256": "40f6e8dcff4b8f495eafa8b8c08fded8bf7050d06dae8bf24266a6e1f4701e36",
+            "signed_available": true,
+            "size": 8708172,
+            "updated_datetime": "2025-11-12T18:32:13.773324Z",
+            "version_compatibility": [
+              "10.1",
+              "10.0",
+              "9.4",
+              "9.3",
+              "9.2",
+              "9.1",
+              "9.0",
+              "8.2",
+              "8.1",
+              "8.0",
+              "7.3"
+            ]
+          },
           {
             "actions": [],
             "cim_compatibility": [
@@ -223,48 +266,6 @@
               "8.0",
               "7.3"
             ]
-          },
-          {
-            "actions": [],
-            "cim_compatibility": [
-              "6.x",
-              "5.x",
-              "4.x"
-            ],
-            "cloud_compatible": true,
-            "fips_compatibility": false,
-            "filename": "splunk-es-content-update_5150.tgz",
-            "id": 39806,
-            "md5": "ecfcf42e2d951435ea682284d4ea09a5",
-            "min_product_version_str": null,
-            "name": "5.15.0",
-            "passed_validation": true,
-            "path": "https://splunkbase.splunk.com/app/3449/release/5.15.0/download/",
-            "platform": "independent",
-            "product_types": [
-              "cloud",
-              "enterprise"
-            ],
-            "public_ever_true": false,
-            "published_datetime": "2025-09-25T18:57:55.481300Z",
-            "release_notes": "<p>Github - <a href=\"https://github.com/splunk/security_content/releases/tag/v5.15.0\">https://github.com/splunk/security_content/releases/tag/v5.15.0</a></p>\n<p>Splunk Docs - <a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/release-notes/5.15/splunk-security-content-release-notes/whats-new\">https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/release-notes/5.15/splunk-security-content-release-notes/whats-new</a></p>",
-            "sha256": "93b4b68e01f2c8fac16c0ab62c40bf9a21356de8d633047760503c5af476db36",
-            "signed_available": true,
-            "size": 8578603,
-            "updated_datetime": "2025-09-26T22:29:10.758881Z",
-            "version_compatibility": [
-              "10.1",
-              "10.0",
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3"
-            ]
           }
         ],
         "repo_name": "Splunk Security Content",
@@ -280,7 +281,7 @@
         "troubleshooting": "<p>Open a Splunk Support Case or reach out to us directly at <a href=\"mailto:research@splunk.com\">research@splunk.com</a>.</p>",
         "troubleshooting_source": "Open a Splunk Support Case or reach out to us directly at research@splunk.com.",
         "type": "addon",
-        "updated_time": "2025-10-30T16:35:27.898025Z",
+        "updated_time": "2025-11-12T18:32:59.187207Z",
         "video_link": null,
         "app_type": "addon",
         "schedule_release": null,
@@ -296,7 +297,7 @@
   "query": {
     "id": "3449"
   },
-  "buildId": "HxIXJxzz7cztpQKuQnxoj",
+  "buildId": "vlwbLo_Vn3-MpKRUzY4FK",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

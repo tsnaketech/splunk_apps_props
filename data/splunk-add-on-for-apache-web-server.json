@@ -21,8 +21,8 @@
         "description": "The Splunk Add-on for Apache Web Server allows a Splunk software administrator to collect and analyze data from Apache Web Server using file monitoring. After the Splunk platform indexes the events, you can analyze the data using the prebuilt panels included with the add-on. \n\nThis add-on provides the inputs and CIM-compatible knowledge to use with other Splunk apps, such as Web.",
         "documentation": "<p>Documentation for this add-on can be found here: <a href=\"http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About\">http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About</a></p>",
         "documentation_source": "Documentation for this add-on can be found here: http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About",
-        "download_count": 33586,
-        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/3c98c790-e360-11ec-8e51-128f1773c869.png",
+        "download_count": 33599,
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/6ca9c14e-bfc3-11f0-8e97-229e73ac3ab9.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": null,
         "is_archived": false,
@@ -60,42 +60,74 @@
         "release": {
           "actions": [],
           "cim_compatibility": [
-            "5.x"
+            "6.x"
           ],
           "cloud_compatible": true,
-          "fips_compatibility": true,
-          "filename": "splunk-add-on-for-apache-web-server_210.tgz",
-          "id": 26105,
-          "md5": "ceaf0870556d2feb33dd95d2aba113b0",
+          "fips_compatibility": false,
+          "filename": "splunk-add-on-for-apache-web-server_220.tgz",
+          "id": 40372,
+          "md5": "eb31f01e85e8adfc9eff4f72fe1e99b8",
           "min_product_version_str": null,
-          "name": "2.1.0",
+          "name": "2.2.0",
           "passed_validation": true,
-          "path": "https://splunkbase.splunk.com/app/3186/release/2.1.0/download/",
+          "path": "https://splunkbase.splunk.com/app/3186/release/2.2.0/download/",
           "platform": "independent",
           "product_types": [
             "enterprise",
             "cloud"
           ],
           "public_ever_true": false,
-          "published_datetime": "2022-06-03T17:11:41.657153Z",
-          "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/AddOns/released/ApacheWebServer/About\">https://docs.splunk.com/Documentation/AddOns/released/ApacheWebServer/About</a></p>",
-          "sha256": "6852eef90a6ed376122a3d36e91f7b39341ee9ca32de0ef809c199391a616749",
+          "published_datetime": "2025-11-12T13:07:02.979193Z",
+          "release_notes": "",
+          "sha256": "5077453565dd5fc708a929cf9316d333bdcff1b1d235ece841aeb704f9d7d185",
           "signed_available": true,
-          "size": 37661,
-          "updated_datetime": "2025-06-23T19:02:08.586076Z",
+          "size": 881195,
+          "updated_datetime": "2025-11-12T13:07:03.072634Z",
           "version_compatibility": [
             "10.1",
             "10.0",
             "9.4",
             "9.3",
             "9.2",
-            "9.1",
-            "9.0",
-            "8.2",
-            "8.1"
+            "9.1"
           ]
         },
         "releases": [
+          {
+            "actions": [],
+            "cim_compatibility": [
+              "6.x"
+            ],
+            "cloud_compatible": true,
+            "fips_compatibility": false,
+            "filename": "splunk-add-on-for-apache-web-server_220.tgz",
+            "id": 40372,
+            "md5": "eb31f01e85e8adfc9eff4f72fe1e99b8",
+            "min_product_version_str": null,
+            "name": "2.2.0",
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/3186/release/2.2.0/download/",
+            "platform": "independent",
+            "product_types": [
+              "enterprise",
+              "cloud"
+            ],
+            "public_ever_true": false,
+            "published_datetime": "2025-11-12T13:07:02.979193Z",
+            "release_notes": "",
+            "sha256": "5077453565dd5fc708a929cf9316d333bdcff1b1d235ece841aeb704f9d7d185",
+            "signed_available": true,
+            "size": 881195,
+            "updated_datetime": "2025-11-12T13:07:03.072634Z",
+            "version_compatibility": [
+              "10.1",
+              "10.0",
+              "9.4",
+              "9.3",
+              "9.2",
+              "9.1"
+            ]
+          },
           {
             "actions": [],
             "cim_compatibility": [
@@ -144,7 +176,7 @@
         "troubleshooting": "",
         "troubleshooting_source": "",
         "type": "addon",
-        "updated_time": "2025-10-30T03:04:53.573766Z",
+        "updated_time": "2025-11-12T13:07:05.441134Z",
         "video_link": null,
         "app_type": "addon",
         "schedule_release": null,
@@ -160,7 +192,7 @@
   "query": {
     "id": "3186"
   },
-  "buildId": "HxIXJxzz7cztpQKuQnxoj",
+  "buildId": "vlwbLo_Vn3-MpKRUzY4FK",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
