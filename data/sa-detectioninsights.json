@@ -27,7 +27,7 @@
         "description": "Detection Insights is an application for Splunk Enterprise Security providing additional insights into everything surrounding and/or impacting your security detections.",
         "documentation": "<p>See the application documentation <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/\">here</a> for more information on installing, configuring and using it.</p>\n<p>Credit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.<br>\nThanks to Dean Luxton for reporting issues, fixes and improvement ideas!</p>",
         "documentation_source": "See the application documentation [here](https://splunk.github.io/Splunk_App_for_Detection_Insights/) for more information on installing, configuring and using it.\n\nCredit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.\nThanks to Dean Luxton for reporting issues, fixes and improvement ideas!",
-        "download_count": 2135,
+        "download_count": 2137,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/f1f4cbe6-5781-11f0-ba1e-5a77e051378c.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -58,7 +58,7 @@
             "category_display_name": "SIEM"
           },
           {
-            "rank": 485,
+            "rank": 484,
             "category_name": "security_compliance",
             "category_display_name": "Security, Fraud & Compliance"
           }
@@ -352,7 +352,7 @@
   "query": {
     "id": "7066"
   },
-  "buildId": "vlwbLo_Vn3-MpKRUzY4FK",
+  "buildId": "S8mDLZF8wKUgBXj_uV7xX",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
