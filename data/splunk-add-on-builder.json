@@ -22,7 +22,7 @@
         "description": "The Splunk Add-on Builder is a Splunk app that helps you build and validate technology add-ons for your Splunk Enterprise deployment. \n\nThe goals of the Splunk Add-on Builder are to:\n* Guide you through all of the necessary steps of creating an add-on\n* Build alert actions and adaptive response actions for Splunk Enterprise Security\n* Reduce development and testing time\n* Follow best practices and naming conventions\n* Maintain CIM compliance\n* Maintain quality of add-ons\n*  Validate and test the add-on, helping you to check for certification readiness and to identify any limitations such as compatibilities and dependencies\n* Maintain a consistent look and feel while still making it easy for you to add branding",
         "documentation": "<p>For documentation, see the <a href=\"http://docs.splunk.com/Documentation/AddonBuilder/latest/UserGuide/Overview\">Splunk Add-on Builder User Guide</a>.</p>",
         "documentation_source": "For documentation, see the [Splunk Add-on Builder User Guide](http://docs.splunk.com/Documentation/AddonBuilder/latest/UserGuide/Overview).",
-        "download_count": 80425,
+        "download_count": 80447,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/aaa700e8-9ea7-11f0-8de2-aa0bae502bcc.png",
         "inquiry_buttontext": "Join Pre-release Program",
         "inquiry_url": "http://goo.gl/forms/I0UQhn3U4C",
@@ -162,70 +162,6 @@
               "9.3",
               "9.2"
             ]
-          },
-          {
-            "actions": [],
-            "cim_compatibility": [
-              "5.x"
-            ],
-            "cloud_compatible": false,
-            "fips_compatibility": false,
-            "filename": "splunk-add-on-builder_430.tgz",
-            "id": 34386,
-            "md5": "697fc2df5ac9e4b968d2b9e8254f1e73",
-            "min_product_version_str": null,
-            "name": "4.3.0",
-            "passed_validation": true,
-            "path": "https://splunkbase.splunk.com/app/2962/release/4.3.0/download/",
-            "platform": "independent",
-            "product_types": [
-              "enterprise"
-            ],
-            "public_ever_true": false,
-            "published_datetime": "2024-08-26T04:56:42.769595Z",
-            "release_notes": "",
-            "sha256": "b1ba3a9cf8c43cd111ac8d71cb187c0f61f7be3786489755f90fa14b86081fb0",
-            "signed_available": true,
-            "size": 10825028,
-            "updated_datetime": "2025-11-14T20:57:38.821296Z",
-            "version_compatibility": [
-              "10.1",
-              "10.0",
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1"
-            ]
-          },
-          {
-            "actions": [],
-            "cim_compatibility": [],
-            "cloud_compatible": false,
-            "fips_compatibility": false,
-            "filename": "splunk-add-on-builder_301.tgz",
-            "id": 14987,
-            "md5": "9296061d71747d374cd719e2629c38a6",
-            "min_product_version_str": null,
-            "name": "3.0.1",
-            "passed_validation": true,
-            "path": "https://splunkbase.splunk.com/app/2962/release/3.0.1/download/",
-            "platform": "independent",
-            "product_types": [],
-            "public_ever_true": false,
-            "published_datetime": "2019-12-18T00:44:09.011969Z",
-            "release_notes": "<p>Copyright (C) 2005-2019 Splunk Inc. All Rights Reserved.</p>\n<p>For the Release Notes see: <a href=\"https://docs.splunk.com/Documentation/AddonBuilder/3.0.1/UserGuide/Whatsnew\">https://docs.splunk.com/Documentation/AddonBuilder/3.0.1/UserGuide/Whatsnew</a></p>",
-            "sha256": "a53824e22a125b196e6c660677c266e5067f953c15b5df1347e2993512740d1b",
-            "signed_available": true,
-            "size": 11517694,
-            "updated_datetime": "2025-11-14T20:57:39.633057Z",
-            "version_compatibility": [
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0"
-            ]
           }
         ],
         "repo_name": "",
@@ -243,7 +179,7 @@
         "troubleshooting": "",
         "troubleshooting_source": "",
         "type": "app",
-        "updated_time": "2025-11-20T11:39:59.028428Z",
+        "updated_time": "2025-11-21T11:22:09.548858Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
