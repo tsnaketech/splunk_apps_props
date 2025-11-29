@@ -54,7 +54,7 @@
         "description": "Ever want to edit a lookup within Splunk with a user interface? Now you can. This app provides an Excel-like interface for editing, importing, and exporting lookup files (KV store and CSV-based).\n\nThis app also makes your lookups work in Search Head Clustered environments (edits to lookups will be propagated to other search heads).\n\nRevision history is maintained for lookups so that you can view or restore older lookups quickly in the interface.\n\nCheck out the Documentation site: \nhttps://docs.splunk.com/Documentation/LookupEditor\n\nhttps://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew",
         "documentation": "<ul>\n<li><a href=\"https://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew\">What's new</a></li>\n<li><a href=\"https://docs.splunk.com/Documentation/LookupEditor\">Documentation Site</a></li>\n</ul>",
         "documentation_source": "*   [What's new](https://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew)\n*   [Documentation Site](https://docs.splunk.com/Documentation/LookupEditor)",
-        "download_count": 244256,
+        "download_count": 244319,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/618e9616-89a1-11f0-8a6b-aaec3b9321f6.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
