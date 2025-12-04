@@ -22,7 +22,7 @@
         "description": "This application provides compliance and triage dashboards for MITRE ATT&CK Framework with drill-down capabilities. It is recommended to utilize Splunk Enterprise Security (https://splunkbase.splunk.com/app/263/) and Splunk ES Content Update (https://splunkbase.splunk.com/app/3449/).",
         "documentation": "<h2>MITRE ATT&amp;CK App for Splunk&reg;</h2>\n<h4>Documentation</h4>\n<p>Detailed documentation can be found at: <a href=\"https://seynur.github.io/mitre-attack-app-for-splunk-docs\">https://seynur.github.io/mitre-attack-app-for-splunk-docs</a></p>\n<h4>Overview</h4>\n<p>This application provides compliance and triage dashboards for MITRE ATT&amp;CK Framework with drill-down capabilities. It is recommended to utilize Splunk Enterprise Security(<a href=\"https://splunkbase.splunk.com/app/263/\">https://splunkbase.splunk.com/app/263/</a>) and Splunk ES Content Update (<a href=\"https://splunkbase.splunk.com/app/3449/\">https://splunkbase.splunk.com/app/3449/</a>).</p>\n<h4>Required Splunk Apps:</h4>\n<ul>\n<li><a href=\"https://splunkbase.splunk.com/app/263/\">Splunk Enterprise Security</a> 5.2 or above</li>\n<li><a href=\"https://splunkbase.splunk.com/app/3112/\">Sankey Diagram - Custom Visualization</a> for vers\u0131ons 3.12.0 and earlier</li>\n</ul>\n<h4>Recommended Splunk Apps:</h4>\n<ul>\n<li><a href=\"https://splunkbase.splunk.com/app/3449/\">Splunk ES Content Update</a></li>\n<li><a href=\"https://splunkbase.splunk.com/app/1621/\">Splunk Common Information Model (CIM)</a></li>\n<li><a href=\"https://splunkbase.splunk.com/app/1724/\">Lookup File Editor</a></li>\n</ul>\n<p><strong>Note</strong>: Although the app will work without ES Content Update, it is highly recommended since it comes with many correlation rules that have mitre_attack annotations already.</p>\n<h4>Setup Instructions</h4>\n<p>After installation of the application you will be on Setup page.  Review your desired configuration for scheduled searches and simply hit Save to continue.  Default view will be the Compliance Dashboard.  If the matrix is not populated, click on the table to run manually, which will direct you to the Lookup Generation dashboard (searches run automatically on that dashboard).</p>\n<p><strong>Note</strong>: If using the legacy Alert Manager app, you will need to uncheck <code>Use Enterprise Security App</code> checkbox within <strong>Setup</strong> view.</p>\n<h4>Saved Searches</h4>\n<p>This application comes with predefined saved searches.  Lookup Gen searches are scheduled to run  daily after midnight.  The main ones that are used by views:<br>\n- <code>MITRE ATT&amp;CK All Rules and Techniques Lookup Gen</code>: This lookup generator checks currently enabled correlation rules via analytic stories and combines the searches with user-defined mitre_user_rule_technique_lookup.csv file that matches MITRE ATT&amp;CK technique IDs with rules.<br>\n- <code>MITRE ATT&amp;CK Compliance Lookup Gen</code>: This lookup generator relies on mitre_all_rule_technique_lookup.csv in order to generate a new lookup to properly display MITRE ATT&amp;CK Compliance martix.</p>\n<h4>Release Notes:</h4>\n<p>Version 3.14.1<br>\n- Date: 07 Nov 2025<br>\n- Bug fix: Fixed HTML encoding of <code>&amp;</code> characters in matrix view that caused drill-down searches to fail in Enterprise Security incident review<br>\n- Bug fix: Added <code>splunk_server=local</code> parameter to searches using <code>rest</code> command to prevent Splunk Cloud warnings</p>\n<p>Version 3.14.0<br>\n- Date: 31 Oct 2025<br>\n- Feature: Redesigned the dashboard layout for improved usability and modern visuals.<br>\n- Feature: Introduced a new threat actor\u2013based lookup and corresponding dashboard to correlate adversaries with MITRE ATT&amp;CK techniques for improved detection and coverage analysis.</p>\n<p>Version 3.13.1<br>\n- Date: 5 Sep 2025<br>\n- Feature: Updated \"MITRE ATT&amp;CK Compliance Lookup Gen Status\u201d Generator</p>\n<p>Version 3.13.0<br>\n- Date: 26 May 2025<br>\n- Feature: Compatibility with ATT&amp;CK version 17.1<br>\n- Feature: Updated MITRE dashboard by replacing deprecated Sankey diagram </p>\n<p>Version 3.12.0<br>\n- Date: 09 Jan 2025<br>\n- Feature: Compatibility with ATT&amp;CK version 16.1 </p>\n<p>Version 3.11.0<br>\n- Date: 06 May 2024<br>\n- Feature: Compatibility with ATT&amp;CK version 15.0</p>\n<p>Version 3.10.0<br>\n- Date: 27 Nov 2023<br>\n- Feature: Compatibility with ATT&amp;CK version 14.0</p>\n<p>Version 3.9.0<br>\n- Date: 12 May 2023<br>\n- Feature: Compatibility with ATT&amp;CK version 13.0<br>\n- Feature: Ability to filter ATT&amp;CK Matrix view by Group information<br>\n- Bug-fix: Updated default rules lookup with the latest version of ES and ESCU</p>\n<p>Version 3.8.1<br>\n- Date: 30 Jan 2023<br>\n- Bug fix: Extra characters are removed from several saved searches.</p>\n<p>Version 3.8.0<br>\n- Date: 9 Jan 2023<br>\n- Feature: Updated search macros and views to include MITRE ATT&amp;CK annotations dynamically.</p>\n<p>Version 3.7.0<br>\n- Date: 2 Nov 2022<br>\n- Feature: Compatibility with ATT&amp;CK version 12.0</p>\n<p>Version 3.6.0<br>\n- Date: 15 Jun 2022<br>\n- Feature: Compatibility with ATT&amp;CK version 11.2</p>\n<p>Version 3.5.0<br>\n- Date: 05 Nov 2021<br>\n- Feature: Compatibility with ATT&amp;CK version 10.0</p>\n<p>Version 3.4.0<br>\n- Date: 29 Jul 2021<br>\n- Feature: API integration is replaced with out-of-the-box rules.<br>\n - Removed custom search command <code>getattackdetectionrules</code><br>\n - Changed setup view<br>\n - Added 65 new rules (optimized to use Data Models) from MITRE Cyber Analytics Repository (car.mitre.org)<br>\n - Added <code>mitre_app_rule_technique_lookup</code><br>\n - Removed <code>mitre_api_rule_technique_lookup</code></p>\n<p>Version 3.3.0<br>\n- Date: 26 May 2021<br>\n- Feature: Updated jQuery to version 3.6.0<br>\n- Feature: Added new Rule Display Option to the MITRE ATT&amp;CK Compliance dashboard to show all existing rules or only enabled rules</p>\n<p>Version 3.2.0<br>\n- Date: 4 May 2021<br>\n- Feature: Compatibility with ATT&amp;CK version 9.0<br>\n  - Updated lookup tables with technique and sub-technique IDs</p>\n<p>Version 3.1.1<br>\n- Date: 14 Apr 2021<br>\n- Feature: Splunk Enterprise Security 6.4.x provides mitre_attack annotation in correlation searches that map to techniques. These mappings are integrated into both the Compliance and Triggered Techniques dashboards.<br>\n- Bug fix: MITRE ATT&amp;CK Matrix search macro issue is fixed for deployments with Enterprise Security.</p>\n<p>Version 3.1.0<br>\n- Date: 29 Mar 2021<br>\n- Feature: Updated default rule lookup with Enterprise Security 6.4.1 and ES Content Update 3.17.0<br>\n- Feature: API v2 endpoint integration with HMAC-SHA512 authentication<br>\n- Documentation updates and corrections</p>\n<p>Version 3.0.3<br>\n- Date: 25 Mar 2021<br>\n- Bug fix: ES Content Update mitre_attack annotation provides Technique IDs instead of names with newer versions. This fix is compatible with both name and/or ID representation of annotations to build compliance dashboard.</p>\n<p>Version 3.0.2<br>\n- Date: 20 Mar 2021<br>\n- Bug fix: Drill-down functionality on MITRE ATT&amp;CK Matrix is passing wrong argument</p>\n<p>Version 3.0.1<br>\n- Date: 08 Jan 2021<br>\n- Bug fix: mitre_user_rule_technique_lookup.csv overwrites existing lookup during upgrades<br>\n- Bug fix: Missing mitre_api_rule_technique_lookup causes issues on fresh/new installations<br>\n- Bug fix: Missing sub-techniques in ATTACK version 8.1</p>\n<p>Version 3.0.0<br>\n- Date: 29 Nov 2020<br>\n- Feature: Compatibility with ATT&amp;CK version 8.1<br>\n  - Updated lookup tables with technique and sub-technique IDs<br>\n  - Updated lookup table generator search<br>\n  - Updated matrix views to reflect sub-techniques</p>\n<p>Version 2.4.0<br>\n- Date: 30 Oct 2020<br>\n- Feature: New setup view to be compatible with Splunk Cloud<br>\n  - Setup.xml replaced by custom javascript.<br>\n- Bug fix: Alert Manager 3.0.4 compatibility issues</p>\n<p>Version 2.3.0<br>\n- Date: 22 Jun 2020<br>\n- Feature: Option to work with plain Splunk Enterprise (no ES requirement)<br>\n  - Added macros for flexible deployment option (default is ES app)<br>\n  - Updated views to use the macros</p>\n<p>Version 2.2.1<br>\n  - Date: 22 Jun 2020<br>\n  - Bug fix: Removed unused inputs.conf to avoid any confusion.</p>\n<p>Version 2.2.0<br>\n- Date: 09 May 2020<br>\n- Bug fix: Duplication issue for Rule Finder<br>\n- Feature: Added option to display compliance matrix without default rules (user-defined/API rules only)<br>\n  - Added lookup file definitions<br>\n  - Added default rules lookup files for ES 6.1.1 and ESCU 1.0.53 out-of-the-box rules<br>\n  - Updated Lookup Generation view<br>\n- Feature: Setup.xml for API integration for continuous new rule updates (free service but requires registration)<br>\n  - Added custom search command (| getattackdetectionrules)</p>\n<p>Version 2.1.0<br>\n- Date: 25 Feb 2020<br>\n- Added a new view for mapping rules to Techniques<br>\n- Updated lookup tables and some searches accordingly</p>\n<p>Version 2.0.1<br>\n- Date: 12 Feb 2020<br>\n- Bug fix for appinspect validation<br>\n- Tactics overview displayed as table with updated js and css</p>\n<p>Version 2.0.0<br>\n- Date: 08 Feb 2020<br>\n- Updated lookup tables to correctly define MITRE ATT&amp;CK tactics and techniques<br>\n- Introduced a new macro to utilize technique and tactic IDs/names<br>\n- Updated dashboards to utilize new lookup table and macro<br>\n- Performance improvements<br>\n- Updated CSS and JS files<br>\n- Introduced a setup view for ease of initial lookup generation</p>\n<p>Version 1.3.0<br>\n- Date: 09 Jan 2020<br>\n- Updated ATT&amp;CK Matrix dashboard<br>\n- Added new dashboard for detailed view of triggered rules by notable assets and tactics/techniques<br>\n- Improved search performance and dependency on lookups<br>\n- Added a new lookup to match correlation rules to MITRE ATT&amp;CK tactics/techniques</p>\n<p>Version 1.2.1<br>\n- Date: 24 Oct 2019<br>\n- Bug fixes with javascript table population<br>\n- Ordering of table fields to align with MITRE ATT&amp;CK content</p>\n<p>Version 1.2.0<br>\n- Date: 24 Aug 2019<br>\n- Bug fixes &amp; typos<br>\n- Sphinx documentation is added</p>\n<p>Version 1.1.0<br>\n- Date: 06 Aug 2019<br>\n- Bug fixes &amp; typos<br>\n- Added descriptions to dashboards<br>\n- Added improvements for initial lookup generator</p>\n<p>Version 1.0.0<br>\n- Date: 25 Jul 2019<br>\n- Initial version for Splunkbase<br>\n- Test to run on 7.3.0 and ES App 5.3</p>\n<h4>Support</h4>\n<p>Contact information for reporting an issue: <a href=\"mailto:development@seynur.com\">development@seynur.com</a></p>\n<p>For latest fixes/changes: <a href=\"https://github.com/seynur/DA-ESS-MitreContent\">https://github.com/seynur/DA-ESS-MitreContent</a></p>",
         "documentation_source": "## MITRE ATT&CK App for Splunk&reg;\n\n#### Documentation\nDetailed documentation can be found at: https://seynur.github.io/mitre-attack-app-for-splunk-docs\n\n#### Overview\nThis application provides compliance and triage dashboards for MITRE ATT&CK Framework with drill-down capabilities. It is recommended to utilize Splunk Enterprise Security(https://splunkbase.splunk.com/app/263/) and Splunk ES Content Update (https://splunkbase.splunk.com/app/3449/).\n\n#### Required Splunk Apps:\n- [Splunk Enterprise Security](https://splunkbase.splunk.com/app/263/) 5.2 or above\n- [Sankey Diagram - Custom Visualization](https://splunkbase.splunk.com/app/3112/) for vers\u0131ons 3.12.0 and earlier\n\n#### Recommended Splunk Apps:\n- [Splunk ES Content Update](https://splunkbase.splunk.com/app/3449/)\n- [Splunk Common Information Model (CIM)](https://splunkbase.splunk.com/app/1621/)\n- [Lookup File Editor](https://splunkbase.splunk.com/app/1724/)\n\n__Note__: Although the app will work without ES Content Update, it is highly recommended since it comes with many correlation rules that have mitre_attack annotations already.\n\n#### Setup Instructions\nAfter installation of the application you will be on Setup page.  Review your desired configuration for scheduled searches and simply hit Save to continue.  Default view will be the Compliance Dashboard.  If the matrix is not populated, click on the table to run manually, which will direct you to the Lookup Generation dashboard (searches run automatically on that dashboard).\n\n__Note__: If using the legacy Alert Manager app, you will need to uncheck ```Use Enterprise Security App``` checkbox within __Setup__ view.\n\n#### Saved Searches\nThis application comes with predefined saved searches.  Lookup Gen searches are scheduled to run  daily after midnight.  The main ones that are used by views:\n- ```MITRE ATT&CK All Rules and Techniques Lookup Gen```: This lookup generator checks currently enabled correlation rules via analytic stories and combines the searches with user-defined mitre_user_rule_technique_lookup.csv file that matches MITRE ATT&CK technique IDs with rules.\n- ```MITRE ATT&CK Compliance Lookup Gen```: This lookup generator relies on mitre_all_rule_technique_lookup.csv in order to generate a new lookup to properly display MITRE ATT&CK Compliance martix.\n\n\n#### Release Notes:\nVersion 3.14.1\n- Date: 07 Nov 2025\n- Bug fix: Fixed HTML encoding of `&` characters in matrix view that caused drill-down searches to fail in Enterprise Security incident review\n- Bug fix: Added `splunk_server=local` parameter to searches using `rest` command to prevent Splunk Cloud warnings\n\nVersion 3.14.0\n- Date: 31 Oct 2025\n- Feature: Redesigned the dashboard layout for improved usability and modern visuals.\n- Feature: Introduced a new threat actor\u2013based lookup and corresponding dashboard to correlate adversaries with MITRE ATT&CK techniques for improved detection and coverage analysis.\n\nVersion 3.13.1\n- Date: 5 Sep 2025\n- Feature: Updated \"MITRE ATT&CK Compliance Lookup Gen Status\u201d Generator\n\nVersion 3.13.0\n- Date: 26 May 2025\n- Feature: Compatibility with ATT&CK version 17.1\n- Feature: Updated MITRE dashboard by replacing deprecated Sankey diagram \n\nVersion 3.12.0\n- Date: 09 Jan 2025\n- Feature: Compatibility with ATT&CK version 16.1 \n\nVersion 3.11.0\n- Date: 06 May 2024\n- Feature: Compatibility with ATT&CK version 15.0\n\nVersion 3.10.0\n- Date: 27 Nov 2023\n- Feature: Compatibility with ATT&CK version 14.0\n\nVersion 3.9.0\n- Date: 12 May 2023\n- Feature: Compatibility with ATT&CK version 13.0\n- Feature: Ability to filter ATT&CK Matrix view by Group information\n- Bug-fix: Updated default rules lookup with the latest version of ES and ESCU\n\nVersion 3.8.1\n- Date: 30 Jan 2023\n- Bug fix: Extra characters are removed from several saved searches.\n\nVersion 3.8.0\n- Date: 9 Jan 2023\n- Feature: Updated search macros and views to include MITRE ATT&CK annotations dynamically.\n\nVersion 3.7.0\n- Date: 2 Nov 2022\n- Feature: Compatibility with ATT&CK version 12.0\n\nVersion 3.6.0\n- Date: 15 Jun 2022\n- Feature: Compatibility with ATT&CK version 11.2\n\nVersion 3.5.0\n- Date: 05 Nov 2021\n- Feature: Compatibility with ATT&CK version 10.0\n\nVersion 3.4.0\n- Date: 29 Jul 2021\n- Feature: API integration is replaced with out-of-the-box rules.\n - Removed custom search command ```getattackdetectionrules```\n - Changed setup view\n - Added 65 new rules (optimized to use Data Models) from MITRE Cyber Analytics Repository (car.mitre.org)\n - Added ```mitre_app_rule_technique_lookup```\n - Removed ```mitre_api_rule_technique_lookup```\n\nVersion 3.3.0\n- Date: 26 May 2021\n- Feature: Updated jQuery to version 3.6.0\n- Feature: Added new Rule Display Option to the MITRE ATT&CK Compliance dashboard to show all existing rules or only enabled rules\n\nVersion 3.2.0\n- Date: 4 May 2021\n- Feature: Compatibility with ATT&CK version 9.0\n  - Updated lookup tables with technique and sub-technique IDs\n\nVersion 3.1.1\n- Date: 14 Apr 2021\n- Feature: Splunk Enterprise Security 6.4.x provides mitre_attack annotation in correlation searches that map to techniques. These mappings are integrated into both the Compliance and Triggered Techniques dashboards.\n- Bug fix: MITRE ATT&CK Matrix search macro issue is fixed for deployments with Enterprise Security.\n\nVersion 3.1.0\n- Date: 29 Mar 2021\n- Feature: Updated default rule lookup with Enterprise Security 6.4.1 and ES Content Update 3.17.0\n- Feature: API v2 endpoint integration with HMAC-SHA512 authentication\n- Documentation updates and corrections\n\nVersion 3.0.3\n- Date: 25 Mar 2021\n- Bug fix: ES Content Update mitre_attack annotation provides Technique IDs instead of names with newer versions. This fix is compatible with both name and/or ID representation of annotations to build compliance dashboard.\n\nVersion 3.0.2\n- Date: 20 Mar 2021\n- Bug fix: Drill-down functionality on MITRE ATT&CK Matrix is passing wrong argument\n\nVersion 3.0.1\n- Date: 08 Jan 2021\n- Bug fix: mitre_user_rule_technique_lookup.csv overwrites existing lookup during upgrades\n- Bug fix: Missing mitre_api_rule_technique_lookup causes issues on fresh/new installations\n- Bug fix: Missing sub-techniques in ATTACK version 8.1\n\nVersion 3.0.0\n- Date: 29 Nov 2020\n- Feature: Compatibility with ATT&CK version 8.1\n  - Updated lookup tables with technique and sub-technique IDs\n  - Updated lookup table generator search\n  - Updated matrix views to reflect sub-techniques\n\nVersion 2.4.0\n- Date: 30 Oct 2020\n- Feature: New setup view to be compatible with Splunk Cloud\n  - Setup.xml replaced by custom javascript.  \n- Bug fix: Alert Manager 3.0.4 compatibility issues\n\nVersion 2.3.0\n- Date: 22 Jun 2020\n- Feature: Option to work with plain Splunk Enterprise (no ES requirement)\n  - Added macros for flexible deployment option (default is ES app)\n  - Updated views to use the macros\n\nVersion 2.2.1\n  - Date: 22 Jun 2020\n  - Bug fix: Removed unused inputs.conf to avoid any confusion.\n\nVersion 2.2.0\n- Date: 09 May 2020\n- Bug fix: Duplication issue for Rule Finder\n- Feature: Added option to display compliance matrix without default rules (user-defined/API rules only)\n  - Added lookup file definitions\n  - Added default rules lookup files for ES 6.1.1 and ESCU 1.0.53 out-of-the-box rules\n  - Updated Lookup Generation view\n- Feature: Setup.xml for API integration for continuous new rule updates (free service but requires registration)\n  - Added custom search command (| getattackdetectionrules)\n\n\nVersion 2.1.0\n- Date: 25 Feb 2020\n- Added a new view for mapping rules to Techniques\n- Updated lookup tables and some searches accordingly\n\nVersion 2.0.1\n- Date: 12 Feb 2020\n- Bug fix for appinspect validation\n- Tactics overview displayed as table with updated js and css\n\nVersion 2.0.0\n- Date: 08 Feb 2020\n- Updated lookup tables to correctly define MITRE ATT&CK tactics and techniques\n- Introduced a new macro to utilize technique and tactic IDs/names\n- Updated dashboards to utilize new lookup table and macro\n- Performance improvements\n- Updated CSS and JS files\n- Introduced a setup view for ease of initial lookup generation\n\nVersion 1.3.0\n- Date: 09 Jan 2020\n- Updated ATT&CK Matrix dashboard\n- Added new dashboard for detailed view of triggered rules by notable assets and tactics/techniques\n- Improved search performance and dependency on lookups\n- Added a new lookup to match correlation rules to MITRE ATT&CK tactics/techniques\n\nVersion 1.2.1\n- Date: 24 Oct 2019\n- Bug fixes with javascript table population\n- Ordering of table fields to align with MITRE ATT&CK content\n\nVersion 1.2.0\n- Date: 24 Aug 2019\n- Bug fixes & typos\n- Sphinx documentation is added\n\nVersion 1.1.0\n- Date: 06 Aug 2019\n- Bug fixes & typos\n- Added descriptions to dashboards\n- Added improvements for initial lookup generator\n\nVersion 1.0.0\n- Date: 25 Jul 2019\n- Initial version for Splunkbase\n- Test to run on 7.3.0 and ES App 5.3\n\n\n#### Support\nContact information for reporting an issue: development@seynur.com\n\nFor latest fixes/changes: https://github.com/seynur/DA-ESS-MitreContent",
-        "download_count": 30633,
+        "download_count": 30646,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/81f10846-bbbd-11f0-b090-a20f299cc129.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -85,7 +85,6 @@
           "sha256": "2e889925963915b4e67c2cb62dfa0b59403778326fffbaa3d9e3123b329cb8db",
           "signed_available": true,
           "size": 113438,
-          "updated_datetime": "2025-11-07T09:39:58.791204Z",
           "version_compatibility": [
             "10.1",
             "10.0",
@@ -121,7 +120,6 @@
             "sha256": "2e889925963915b4e67c2cb62dfa0b59403778326fffbaa3d9e3123b329cb8db",
             "signed_available": true,
             "size": 113438,
-            "updated_datetime": "2025-11-07T09:39:58.791204Z",
             "version_compatibility": [
               "10.1",
               "10.0",
@@ -156,7 +154,6 @@
             "sha256": "bbc7752814151e227bbaf589376e678730eef9edab7a0201783ff4ff710a67cc",
             "signed_available": true,
             "size": 113340,
-            "updated_datetime": "2025-10-31T08:39:03.886403Z",
             "version_compatibility": [
               "10.1",
               "10.0",
@@ -193,7 +190,6 @@
             "sha256": "71357544447793de36c457f02a32636f958740f729a1888aa03a5557eb7917c8",
             "signed_available": true,
             "size": 111289,
-            "updated_datetime": "2025-09-15T07:27:30.464371Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -228,7 +224,6 @@
             "sha256": "aea230ca94b65713c75d564ce5b0a7e55460e9a40a176487b0b4defeb9398f73",
             "signed_available": true,
             "size": 111258,
-            "updated_datetime": "2025-05-29T17:58:50.395658Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -263,7 +258,6 @@
             "sha256": "f287496c6f3e1a3a5a259839dc42264927d92d44f449b30ac1354808a65a9372",
             "signed_available": true,
             "size": 107758,
-            "updated_datetime": "2025-01-10T07:38:41.832451Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -298,7 +292,6 @@
             "sha256": "b0064f8351cfb4675d3a2be6406ddf5a434d2e996ad1311bf710328682fff88b",
             "signed_available": true,
             "size": 109526,
-            "updated_datetime": "2024-05-14T10:18:22.018433Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -333,7 +326,6 @@
             "sha256": "66e4cbaf5260f300ff42090467a2aadfd9d00aad47200222048fe66a0e873172",
             "signed_available": true,
             "size": 107247,
-            "updated_datetime": "2023-12-04T14:21:38.414307Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -368,7 +360,6 @@
             "sha256": "c6f2af6c54a33942833d63b7c916a5918466c26d4c75f2e1c656331c0941faf2",
             "signed_available": true,
             "size": 106814,
-            "updated_datetime": "2023-05-19T10:37:28.658924Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -403,7 +394,6 @@
             "sha256": "23022796013fdf080ee0f147704e117e15e960b541f70831608fcaf9a9d6743d",
             "signed_available": true,
             "size": 85532,
-            "updated_datetime": "2023-03-10T08:51:01.921527Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -438,7 +428,6 @@
             "sha256": "57ba0da0e7d5cddee607288ad7299202250c0d94404959be9db550b2afd8541f",
             "signed_available": true,
             "size": 85476,
-            "updated_datetime": "2023-01-12T20:55:48.489302Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -473,7 +462,6 @@
             "sha256": "158af8781198dcedf62b41d2df0f2cd9c9f7af694cdc51de0e6e0d649a26fcae",
             "signed_available": true,
             "size": 85174,
-            "updated_datetime": "2022-11-15T10:01:32.399808Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -508,7 +496,6 @@
             "sha256": "999b2f664e8b0c96611b57103c602893367d060fc2361cecdefdca59f67fe991",
             "signed_available": true,
             "size": 86155,
-            "updated_datetime": "2022-11-12T10:09:33.868732Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -542,7 +529,6 @@
             "sha256": "672995c9065178dff8e08fb1f829e3c2a1eebe0bbda82b626a59b0919373fef3",
             "signed_available": true,
             "size": 85980,
-            "updated_datetime": "2022-11-14T22:02:38.085416Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -576,7 +562,6 @@
             "sha256": "532a050b9807348a1ecf3f91c19fafb0196dfac7e0b2a7c0d58db6b3d475af64",
             "signed_available": true,
             "size": 84705,
-            "updated_datetime": "2022-11-14T22:02:39.282900Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -608,7 +593,6 @@
             "sha256": "ba13add4efbf8decd1c8ed9834e4c384f95b3bf13211f794d6699efcce0d4c13",
             "signed_available": true,
             "size": 172794,
-            "updated_datetime": "2023-04-26T14:58:02.130943Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -640,7 +624,6 @@
             "sha256": "8396f048856d361735ab041570815106e86430ffcbd27b24ef0e16c597c7110e",
             "signed_available": true,
             "size": 141019,
-            "updated_datetime": "2022-11-14T22:02:41.931206Z",
             "version_compatibility": [
               "8.1",
               "8.0"
@@ -666,7 +649,6 @@
             "sha256": "463964c852bfb3dcbdafb1f35bc3876583dca751a3150e3d57ab94cdda0cae33",
             "signed_available": true,
             "size": 140527,
-            "updated_datetime": "2022-11-14T22:02:43.269358Z",
             "version_compatibility": [
               "8.1",
               "8.0"
@@ -692,7 +674,6 @@
             "sha256": "64da9da9ca55f8577ae25e1626924eebea55051b5c37fd0287e49e93300b9883",
             "signed_available": true,
             "size": 140408,
-            "updated_datetime": "2022-11-14T22:02:44.648077Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -724,7 +705,6 @@
             "sha256": "c91b6b23460b649b6e3d579b74cd54d0460027be37facecf57d92ab185c41c69",
             "signed_available": true,
             "size": 137921,
-            "updated_datetime": "2022-11-14T22:02:46.053888Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -756,7 +736,6 @@
             "sha256": "ce967998d4d216d7e622976b180651952ee45b1e3b211e7718ab5e0c819f1bf3",
             "signed_available": true,
             "size": 137815,
-            "updated_datetime": "2022-11-14T22:02:47.433222Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -788,7 +767,6 @@
             "sha256": "fea721a1ed179a05f8ebca1d0785ad5081ae83aead1d70492b7d743daac85105",
             "signed_available": true,
             "size": 132800,
-            "updated_datetime": "2022-11-14T22:02:48.822187Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -820,7 +798,6 @@
             "sha256": "e21b0234246e516d4b7018817bf179b0140d089f36fb62a3bb949f9ea35f22b7",
             "signed_available": true,
             "size": 137797,
-            "updated_datetime": "2022-11-14T22:02:50.160649Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -852,7 +829,6 @@
             "sha256": "c4594c3da5a4d92aaf75e98cba37063d6bd45dc553202f8688a3b2cdc4c16d42",
             "signed_available": true,
             "size": 136000,
-            "updated_datetime": "2022-11-14T22:02:51.475852Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -884,7 +860,6 @@
             "sha256": "729374680b3facfd3883f24899c6d1e60e35f543ce77c45fbec06aa6bd767122",
             "signed_available": true,
             "size": 132025,
-            "updated_datetime": "2022-11-14T22:02:52.966321Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -918,7 +893,6 @@
             "sha256": "e91474a3f48dabc23d047efddda4c2d9e69487abd4a22b4c31fb3e86d018dc61",
             "signed_available": true,
             "size": 125889,
-            "updated_datetime": "2022-11-14T22:02:54.289095Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -952,7 +926,6 @@
             "sha256": "a6039eeba3e084df7de882c5fdb9774f14624f46a52366acc81ba2d6b7430fe5",
             "signed_available": true,
             "size": 126867,
-            "updated_datetime": "2022-11-14T22:02:55.495775Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -986,7 +959,6 @@
             "sha256": "ccf84f87094e969fe31288d9edd3a2a4fc12915d583656be572bbcc102468571",
             "signed_available": true,
             "size": 125865,
-            "updated_datetime": "2022-11-14T22:02:56.729607Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -1020,7 +992,6 @@
             "sha256": "c923df64f6bd5ee2a522a60b954715dd352b1e7e50feca0cb9235f56973a1bc5",
             "signed_available": true,
             "size": 20049,
-            "updated_datetime": "2022-11-14T22:02:58.188876Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -1057,7 +1028,6 @@
             "sha256": "2218b22d6c087f0ef9883f402c8b913f850ae83e81b564531c8e9a05ccfdfad8",
             "signed_available": true,
             "size": 19195,
-            "updated_datetime": "2022-11-14T22:02:59.177648Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -1094,7 +1064,6 @@
             "sha256": "5c686d23ba012a3541361f127070e74730e7a307ad32308cd8218c65581f78d5",
             "signed_available": true,
             "size": 18374,
-            "updated_datetime": "2022-11-14T22:03:00.328732Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -1130,7 +1099,6 @@
             "sha256": "b6acad721ffadbe47291491eb17fab2ae0a7cce5fdce68c240d26e34c44dfd89",
             "signed_available": true,
             "size": 22714,
-            "updated_datetime": "2022-11-14T22:03:01.268666Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -1165,7 +1133,6 @@
             "sha256": "468259b9128cbe06cca5603c5f9d2d3cb45f5c6927abab1ac0eb3da87d7967d1",
             "signed_available": true,
             "size": 13735,
-            "updated_datetime": "2022-11-14T22:03:02.393532Z",
             "version_compatibility": [
               "7.3",
               "7.2",
@@ -1192,7 +1159,6 @@
             "sha256": "bfe607d9e39ba671bf2625fbcbf1d48cd081395957667c6a4b32225cce9400c7",
             "signed_available": true,
             "size": 13537,
-            "updated_datetime": "2022-11-14T22:03:03.438233Z",
             "version_compatibility": [
               "7.3",
               "7.2",
@@ -1219,7 +1185,6 @@
             "sha256": "f232278bc5c87b3b025357d0fa693f9aafbdb8437ce8a7a950e7199dbd303d00",
             "signed_available": true,
             "size": 13379,
-            "updated_datetime": "2022-11-14T22:03:04.336075Z",
             "version_compatibility": [
               "7.3",
               "7.2",
@@ -1246,7 +1211,6 @@
             "sha256": "2c934d0ff001ffeb9f591c27fb4da196cf823ed752f50ca9be98d2f3a5ac1f95",
             "signed_available": true,
             "size": 12754,
-            "updated_datetime": "2022-11-14T22:03:05.357546Z",
             "version_compatibility": [
               "7.3",
               "7.2",
@@ -1284,7 +1248,7 @@
   "query": {
     "id": "4617"
   },
-  "buildId": "G6Z6CSMUgmeA0C-HkFoO6",
+  "buildId": "ntkIvfqVHOBfMJ8tA6CIy",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

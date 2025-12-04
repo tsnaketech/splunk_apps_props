@@ -22,7 +22,7 @@
         "description": "*** Important: Read upgrade instructions and test add-on update before deploying to production ***\nThe Splunk Add-on for Windows 5.0.0 introduced breaking changes. If you are upgrading from a version of the Splunk Add-on for Windows that is earlier than 5.0.0, you must follow the documented upgrade instructions to avoid data loss. A best practice is to test the upgraded version in a non-production environment before deploying to production.\n\nNeither the Splunk Add-on for Windows DNS version 1.0.1 nor the Splunk Add-on for Windows Active Directory version 1.0.0 is supported when installed alongside the Splunk Add-on for Windows version 6.0.0. The Splunk Add-on for Windows version 6.0.0 includes the Splunk Add-on for Windows DNS and the Splunk Add-on for Microsoft Active Directory.\n\nThe Splunk for Microsoft Windows add-on includes predefined inputs to collect data from Windows systems and maps to normalize the data to the Common Information Model.",
         "documentation": "<p>To learn about the Splunk Add-on for Microsoft Windows, see the official documentation here on <a href=\"https://docs.splunk.com/Documentation/AddOns/released/Windows/\">docs.splunk.com</a>.</p>\n<p>For information on what has been fixed as well as known issues, see the <a href=\"https://docs.splunk.com/Documentation/AddOns/released/Windows/Releasenote\">release notes</a>.</p>",
         "documentation_source": "To learn about the Splunk Add-on for Microsoft Windows, see the official documentation here on [docs.splunk.com](https://docs.splunk.com/Documentation/AddOns/released/Windows/).\r\n\r\nFor information on what has been fixed as well as known issues, see the [release notes](https://docs.splunk.com/Documentation/AddOns/released/Windows/Releasenote).",
-        "download_count": 700870,
+        "download_count": 701538,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/5e44d57e-bedf-11f0-8187-966ccfe0914f.png",
         "inquiry_buttontext": "",
         "inquiry_url": "",
@@ -87,7 +87,6 @@
           "sha256": "6dd62224c70f6debe891993e3bb88e1c424f8b1fb370028b8fb42cbb6509bcf8",
           "signed_available": true,
           "size": 516055,
-          "updated_datetime": "2025-11-11T09:28:47.947621Z",
           "version_compatibility": [
             "10.1",
             "10.0",
@@ -123,7 +122,6 @@
             "sha256": "6dd62224c70f6debe891993e3bb88e1c424f8b1fb370028b8fb42cbb6509bcf8",
             "signed_available": true,
             "size": 516055,
-            "updated_datetime": "2025-11-11T09:28:47.947621Z",
             "version_compatibility": [
               "10.1",
               "10.0",
@@ -158,7 +156,6 @@
             "sha256": "cc7e4f0652eda89f223dba6e5739d0dcb7b59ee47b4bd7b25607b851a15c4caa",
             "signed_available": true,
             "size": 215046,
-            "updated_datetime": "2025-06-21T05:47:02.798569Z",
             "version_compatibility": [
               "10.1",
               "10.0",
@@ -194,7 +191,6 @@
             "sha256": "ec7d60deb778262f67ed3e49d098c97e811bc30247a8e24a92323fa66d123d38",
             "signed_available": true,
             "size": 148616,
-            "updated_datetime": "2025-06-21T05:46:45.841318Z",
             "version_compatibility": [
               "10.1",
               "10.0",
@@ -229,7 +225,6 @@
             "sha256": "4b2deb086103cca2abfa90fd3244bb0ed62d88accd33a11dc2ab8dce3b630f0f",
             "signed_available": true,
             "size": 147173,
-            "updated_datetime": "2025-11-26T21:00:42.497211Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -264,7 +259,6 @@
             "sha256": "0d3c39d5f7de7681a49a1da6ea54925ef3cebd91e476c02776b41b731daf7ee0",
             "signed_available": true,
             "size": 145222,
-            "updated_datetime": "2024-10-04T07:08:26.547262Z",
             "version_compatibility": [
               "9.2",
               "9.1",
@@ -299,7 +293,6 @@
             "sha256": "dfadf44bcbc7ebd0d7858eba370b477626c2d8046b49aab621d2803400507c41",
             "signed_available": true,
             "size": 136963,
-            "updated_datetime": "2023-10-05T10:18:26.625992Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -337,7 +330,6 @@
             "sha256": "c67d8ef2aa830cc08866ef167cb75568b3202f531b5a04b7cb280881ac8a80a2",
             "signed_available": true,
             "size": 132394,
-            "updated_datetime": "2023-10-05T10:18:24.641541Z",
             "version_compatibility": [
               "7.3",
               "7.2",
@@ -367,7 +359,6 @@
             "sha256": "da260f85b1f64b786fd68a139637efe14ddc38647c7c96fd5f575d30feb927a0",
             "signed_available": true,
             "size": 289966,
-            "updated_datetime": "2023-04-26T14:54:06.681917Z",
             "version_compatibility": [
               "7.3",
               "7.2",
@@ -401,7 +392,7 @@
   "query": {
     "id": "742"
   },
-  "buildId": "G6Z6CSMUgmeA0C-HkFoO6",
+  "buildId": "ntkIvfqVHOBfMJ8tA6CIy",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

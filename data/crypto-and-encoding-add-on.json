@@ -47,14 +47,14 @@
         "public": true,
         "ranking": [
           {
-            "rank": 391,
-            "category_name": "utilities",
-            "category_display_name": "Utilities"
-          },
-          {
             "rank": 681,
             "category_name": "security_compliance",
             "category_display_name": "Security, Fraud & Compliance"
+          },
+          {
+            "rank": 391,
+            "category_name": "utilities",
+            "category_display_name": "Utilities"
           }
         ],
         "rating": {
@@ -86,7 +86,6 @@
           "sha256": "1ca06a219f03cd232bf2e3cf9fbfb4e2a17acba1388b47fa38ad3a86e20e8f4a",
           "signed_available": true,
           "size": 5994393,
-          "updated_datetime": "2025-09-12T10:26:55.074005Z",
           "version_compatibility": [
             "10.0",
             "9.4",
@@ -125,7 +124,6 @@
             "sha256": "1ca06a219f03cd232bf2e3cf9fbfb4e2a17acba1388b47fa38ad3a86e20e8f4a",
             "signed_available": true,
             "size": 5994393,
-            "updated_datetime": "2025-09-12T10:26:55.074005Z",
             "version_compatibility": [
               "10.0",
               "9.4",
@@ -160,7 +158,6 @@
             "sha256": "5b7d461f49fc966d5c66d94680bafe673c423da21b4e5fbd8404854b33320637",
             "signed_available": true,
             "size": 4380896,
-            "updated_datetime": "2025-11-04T12:55:13.140985Z",
             "version_compatibility": [
               "10.1",
               "10.0",
@@ -196,7 +193,6 @@
             "sha256": "1b5a3bc7fe9043efcb81282b753869353f0af20402eab5dc24e666d88f77ec25",
             "signed_available": true,
             "size": 5024201,
-            "updated_datetime": "2025-11-04T12:55:13.223797Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -228,7 +224,6 @@
             "sha256": "1f5dbc6c411817d7740cf5dada47e6d84cf64688a411334624b711372733123b",
             "signed_available": true,
             "size": 4676529,
-            "updated_datetime": "2022-11-14T22:41:22.009881Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -272,7 +267,7 @@
   "query": {
     "id": "5062"
   },
-  "buildId": "G6Z6CSMUgmeA0C-HkFoO6",
+  "buildId": "ntkIvfqVHOBfMJ8tA6CIy",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

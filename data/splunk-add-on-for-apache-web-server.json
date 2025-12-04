@@ -21,7 +21,7 @@
         "description": "The Splunk Add-on for Apache Web Server allows a Splunk software administrator to collect and analyze data from Apache Web Server using file monitoring. After the Splunk platform indexes the events, you can analyze the data using the prebuilt panels included with the add-on. \n\nThis add-on provides the inputs and CIM-compatible knowledge to use with other Splunk apps, such as Web.",
         "documentation": "<p>Documentation for this add-on can be found here: <a href=\"http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About\">http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About</a></p>",
         "documentation_source": "Documentation for this add-on can be found here: http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About",
-        "download_count": 33968,
+        "download_count": 33983,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/6ca9c14e-bfc3-11f0-8e97-229e73ac3ab9.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": null,
@@ -82,7 +82,6 @@
           "sha256": "5077453565dd5fc708a929cf9316d333bdcff1b1d235ece841aeb704f9d7d185",
           "signed_available": true,
           "size": 881195,
-          "updated_datetime": "2025-11-12T13:07:03.072634Z",
           "version_compatibility": [
             "10.1",
             "10.0",
@@ -118,7 +117,6 @@
             "sha256": "5077453565dd5fc708a929cf9316d333bdcff1b1d235ece841aeb704f9d7d185",
             "signed_available": true,
             "size": 881195,
-            "updated_datetime": "2025-11-12T13:07:03.072634Z",
             "version_compatibility": [
               "10.1",
               "10.0",
@@ -153,7 +151,6 @@
             "sha256": "6852eef90a6ed376122a3d36e91f7b39341ee9ca32de0ef809c199391a616749",
             "signed_available": true,
             "size": 37661,
-            "updated_datetime": "2025-06-23T19:02:08.586076Z",
             "version_compatibility": [
               "10.1",
               "10.0",
@@ -192,7 +189,7 @@
   "query": {
     "id": "3186"
   },
-  "buildId": "G6Z6CSMUgmeA0C-HkFoO6",
+  "buildId": "ntkIvfqVHOBfMJ8tA6CIy",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

@@ -88,7 +88,6 @@
           "sha256": "4f9dafcf9e4a0c327279d6426118cc1fdcce1125b510ab921ca4da4537d913a7",
           "signed_available": false,
           "size": 824512892,
-          "updated_datetime": "2025-11-19T21:21:46.051417Z",
           "version_compatibility": [
             "10.1",
             "10.0",
@@ -122,7 +121,6 @@
             "sha256": "4f9dafcf9e4a0c327279d6426118cc1fdcce1125b510ab921ca4da4537d913a7",
             "signed_available": false,
             "size": 824512892,
-            "updated_datetime": "2025-11-19T21:21:46.051417Z",
             "version_compatibility": [
               "10.1",
               "10.0",
@@ -155,7 +153,6 @@
             "sha256": "572489a9be71a422a274d1c8bced56ef63bff263334bab29c4a8a55f30c0b5d0",
             "signed_available": false,
             "size": 761699696,
-            "updated_datetime": "2025-10-08T03:11:46.463357Z",
             "version_compatibility": [
               "10.1",
               "10.0",
@@ -188,7 +185,6 @@
             "sha256": "8c8e4151535d1d53e8c6f9fc50d6779b26a85924acc93cde85c494945dc39c5c",
             "signed_available": true,
             "size": 697734043,
-            "updated_datetime": "2025-11-04T13:21:51.986627Z",
             "version_compatibility": [
               "10.1",
               "10.0",
@@ -221,7 +217,6 @@
             "sha256": "e8d78028036d0a5727bbb9eb5c41ea55ec593de4dbb7e6faabde6cfbe66a5819",
             "signed_available": true,
             "size": 671001907,
-            "updated_datetime": "2025-11-04T13:21:52.873537Z",
             "version_compatibility": [
               "10.1",
               "10.0",
@@ -253,7 +248,6 @@
             "sha256": "37083026a3f59a9eff5c593dab9b4e111e173d3afab8919a61713c9d4c60c501",
             "signed_available": true,
             "size": 696513469,
-            "updated_datetime": "2025-09-10T04:44:12.833754Z",
             "version_compatibility": [
               "9.4",
               "9.3"
@@ -284,7 +278,6 @@
             "sha256": "2041c69a0752a5bb794ba9d164ef6613403752f0208cbfa50b8686021a395783",
             "signed_available": true,
             "size": 709922728,
-            "updated_datetime": "2025-09-10T04:43:54.521827Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -316,7 +309,6 @@
             "sha256": "7000b1f85620726aa070609904a342ffc503c156153bba9054e2fd550c374624",
             "signed_available": true,
             "size": 695823192,
-            "updated_datetime": "2025-06-09T20:44:10.137162Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -348,7 +340,6 @@
             "sha256": "d92dd433048585d138be4c480153949ba664a623bef2e93a77f4493b80f74f1d",
             "signed_available": true,
             "size": 695585706,
-            "updated_datetime": "2025-06-09T20:44:00.470860Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -380,7 +371,6 @@
             "sha256": "ffde3dd82673569b11b379080371a5a9bb667a4978f7b13d8e0d6c9a51ee5b1b",
             "signed_available": false,
             "size": 920266083,
-            "updated_datetime": "2025-06-09T20:42:54.485182Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -413,7 +403,6 @@
             "sha256": "4f996b12b7ff9ed8d27aebb8b0646864e06bca869b3e04472ff9a91dddeab5fe",
             "signed_available": true,
             "size": 695347741,
-            "updated_datetime": "2025-06-09T20:43:49.946657Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -445,7 +434,6 @@
             "sha256": "37581ae057a26f9c7eac04e16f46c11ed8d7bf194491857ff478d874e6f8d1aa",
             "signed_available": false,
             "size": 920287317,
-            "updated_datetime": "2025-06-09T20:42:45.257024Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -478,7 +466,6 @@
             "sha256": "1ec5e756206eae020135d52bba4e716a9afc0353a3d2793f25bd351117070102",
             "signed_available": false,
             "size": 920140748,
-            "updated_datetime": "2024-09-11T21:02:44.909335Z",
             "version_compatibility": [
               "9.2",
               "9.1"
@@ -509,7 +496,6 @@
             "sha256": "568f72730d61159175495bec665fb2ae2282b760aa9698b52b1682e2acf925dc",
             "signed_available": false,
             "size": 921470742,
-            "updated_datetime": "2024-09-11T21:02:36.034860Z",
             "version_compatibility": [
               "9.2",
               "9.1",
@@ -541,7 +527,6 @@
             "sha256": "e5d2ee7f531cde19e61ab471375fcd595fa224219bcc2962a9db6c87990cdf08",
             "signed_available": false,
             "size": 958918852,
-            "updated_datetime": "2024-09-11T21:02:23.017116Z",
             "version_compatibility": [
               "9.2",
               "9.1",
@@ -573,7 +558,6 @@
             "sha256": "a0782af46e32e329bf4eaaf6996476a302a480e20d76255410f6970ce5f5687b",
             "signed_available": false,
             "size": 957162226,
-            "updated_datetime": "2025-02-18T20:29:46.679422Z",
             "version_compatibility": [
               "9.1",
               "9.0"
@@ -604,7 +588,6 @@
             "sha256": "b871297c0a518f7362a8a0b6cf829fcefc4bdd24602d0b75d79bb1bc38050e1d",
             "signed_available": false,
             "size": 958737227,
-            "updated_datetime": "2024-09-11T21:01:46.877746Z",
             "version_compatibility": [
               "9.2",
               "9.1",
@@ -637,7 +620,6 @@
             "sha256": "a45bc6a1a583426e8f587bc0693dbf0296fa61ca2cd9d927e1cf99cab9c351cd",
             "signed_available": false,
             "size": 900137505,
-            "updated_datetime": "2024-09-11T21:01:22.913798Z",
             "version_compatibility": [
               "9.2",
               "9.1",
@@ -671,7 +653,6 @@
             "sha256": "44cd5e63dfdef0e945aa5cf9cd919b50644dc3dee6faaf6d5b29a8c3e4e732ed",
             "signed_available": false,
             "size": 892447521,
-            "updated_datetime": "2024-09-11T21:01:06.977718Z",
             "version_compatibility": [
               "9.2",
               "9.1",
@@ -704,7 +685,6 @@
             "sha256": "cf3d4afc06bd20f5ab039c01a533b1f5c29c6fbe3dc9dbcf5ef177ef66f36cac",
             "signed_available": false,
             "size": 892268599,
-            "updated_datetime": "2023-09-06T18:36:33.427863Z",
             "version_compatibility": [
               "9.0",
               "8.2",
@@ -735,7 +715,6 @@
             "sha256": "fc83e107f709df2cf4bbebedb5e044b859c5f07ce8a6e21fafcab44bebf60ef4",
             "signed_available": false,
             "size": 846238949,
-            "updated_datetime": "2023-09-06T18:36:02.394739Z",
             "version_compatibility": [
               "9.0",
               "8.2",
@@ -766,7 +745,6 @@
             "sha256": "2928d7f39b97c61a2d97306c083b1e04eb455df3a5070d9553f6679aacf2fdb4",
             "signed_available": false,
             "size": 675765589,
-            "updated_datetime": "2023-09-06T18:31:33.131661Z",
             "version_compatibility": [
               "9.0",
               "8.2",
@@ -798,7 +776,6 @@
             "sha256": "0e2b72f1396a82a155851b414401740179d955381498ec0d90a6dde70db2479f",
             "signed_available": false,
             "size": 676008944,
-            "updated_datetime": "2022-07-27T16:09:58.503061Z",
             "version_compatibility": [
               "8.2",
               "8.1",
@@ -829,7 +806,6 @@
             "sha256": "f44dbc248cb85e8100f7afefe70d7949efab873269657d77e6488ba95c0df077",
             "signed_available": false,
             "size": 708911706,
-            "updated_datetime": "2022-07-27T16:10:51.330723Z",
             "version_compatibility": [
               "8.2",
               "8.1",
@@ -858,7 +834,6 @@
             "sha256": "940d83e15d4059b09f6a5518bbdc62ce32b6680f4c076a1d46e64cd0c54723c8",
             "signed_available": false,
             "size": 708556903,
-            "updated_datetime": "2021-08-05T19:32:06.239930Z",
             "version_compatibility": [
               "8.1",
               "8.0"
@@ -886,7 +861,6 @@
             "sha256": "dff6806efdbe41141ae8a6b91c1f991d718ce10d8528640b173ea918b8233cd9",
             "signed_available": false,
             "size": 671340341,
-            "updated_datetime": "2021-07-28T19:22:55.201777Z",
             "version_compatibility": [
               "8.1",
               "8.0"
@@ -916,7 +890,6 @@
             "sha256": "0dc6dc6e275c958cd336ac962dd0fe223d18e4f95b03d636728e417b406c5979",
             "signed_available": false,
             "size": 674651205,
-            "updated_datetime": "2022-07-27T16:11:18.985209Z",
             "version_compatibility": [
               "8.0"
             ]
@@ -943,7 +916,6 @@
             "sha256": "f2920d72d25926474d44bdcbd3eb04c1f968d55e09de33b1bfc97dafeee97a3f",
             "signed_available": false,
             "size": 529855817,
-            "updated_datetime": "2020-10-28T20:55:00.154718Z",
             "version_compatibility": [
               "8.0",
               "7.3",
@@ -973,7 +945,6 @@
             "sha256": "f36d5c7fdda4d7ebbb7271f1d849565f58b0dfe6e25f304439ec67978f8298ab",
             "signed_available": false,
             "size": 689386935,
-            "updated_datetime": "2021-08-12T00:33:37.170763Z",
             "version_compatibility": [
               "8.0"
             ]
@@ -1002,7 +973,6 @@
             "sha256": "2ed1ec05066b7c6492c701de93955a94bae88b793d5ededca27310082083fd24",
             "signed_available": true,
             "size": 46151668,
-            "updated_datetime": "2022-11-14T14:56:01.788838Z",
             "version_compatibility": [
               "7.3",
               "7.2",
@@ -1033,7 +1003,6 @@
             "sha256": "3790e3aa5ec02579c0aaa6ce3e16c19a9ebaa5e1eb2d9bbb5ed8fd2dfdedbf96",
             "signed_available": true,
             "size": 48047823,
-            "updated_datetime": "2022-11-14T17:28:35.686789Z",
             "version_compatibility": [
               "7.3",
               "7.2",
@@ -1064,7 +1033,6 @@
             "sha256": "944eeb780f9ae5414d6e9503a8a6994619a879b58bfe2f7afd7ee7ea2cf3099c",
             "signed_available": true,
             "size": 47375531,
-            "updated_datetime": "2022-11-14T17:28:43.118323Z",
             "version_compatibility": [
               "7.2",
               "7.1"
@@ -1094,7 +1062,6 @@
             "sha256": "ff3bbf8d2b7b4f3b71a5c6bc68ef7fb2e92bc64b54bfb473b11b800709fac9d1",
             "signed_available": true,
             "size": 47040455,
-            "updated_datetime": "2022-11-14T17:28:51.912820Z",
             "version_compatibility": [
               "7.2",
               "7.1"
@@ -1124,7 +1091,6 @@
             "sha256": "da2c413a371818cd4bad2ac1aba8bd46241bd25e62faced19fbfc953e2a67504",
             "signed_available": true,
             "size": 44958999,
-            "updated_datetime": "2022-11-14T17:28:58.330020Z",
             "version_compatibility": [
               "7.0"
             ]
@@ -1153,7 +1119,6 @@
             "sha256": "9abaf6fc34cfa647ff9f2b562fff5e78f885bf0e0bd9686e41ffe52bb00113b4",
             "signed_available": true,
             "size": 43971818,
-            "updated_datetime": "2022-11-14T17:29:04.658131Z",
             "version_compatibility": [
               "7.0"
             ]
@@ -1180,7 +1145,6 @@
             "sha256": "33fef0f9f3ee83c17cccff671cd7b6c5f9957ba6334fb803eb1baed03cdf2ddc",
             "signed_available": true,
             "size": 36717390,
-            "updated_datetime": "2022-11-14T17:29:10.848674Z",
             "version_compatibility": []
           }
         ],
@@ -1214,7 +1178,7 @@
   "query": {
     "id": "263"
   },
-  "buildId": "G6Z6CSMUgmeA0C-HkFoO6",
+  "buildId": "ntkIvfqVHOBfMJ8tA6CIy",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

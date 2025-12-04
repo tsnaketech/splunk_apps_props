@@ -21,7 +21,7 @@
         "description": "The new ThreatQuotient App for Splunk improves on our previous capability while incorporating feedback collected from our customers around functionality and deployability.\n\nNote: The new ThreatQuotient App for Splunk requires the ThreatQuotient Add-on for Splunk as well as ThreatQ version 5.11 or later.\n\nThreatQuotient Splunk Support Documentation\nSee the Splunk Documentation located on the ThreatQuotient Help Center for more information.\n\n https://helpcenter.threatq.com/Integration_Documentation/app/Splunk.htm",
         "documentation": "<h3>Functionality includes:</h3>\n<p><strong>Ingestion of ThreatQ Data into Splunk</strong><br>\nEnable users to customize what data is ingested by leveraging ThreatQ exports and Splunk input filters. Customization continues for advanced users with the ability to modify leveraged indexes and Splunk saved searches that drive the ThreatQuotient App for Splunk to meet the needs of their environment.</p>\n<p><strong>Matching of Splunk Events with ThreatQ Indicators</strong><br>\nProvide context on possible malicious activity by matching Splunk Events with ThreatQ indicators. Matching is customizable by ThreatQ indicator status and score to meet the differing needs of customer environments and workflows.</p>\n<p><strong>Reporting of Matches in Splunk back to ThreatQ as Sighting Events</strong><br>\nSighting events in ThreatQ will show indicator matches from Splunk and will be grouped by indicator.</p>\n<p><strong>Workflow Actions</strong><br>\nUsers can modify ThreatQ data based on any indexed indicators within Splunk.</p>\n<p><strong>Workflow actions include:</strong><br>\n- ThreatQ: Add Indicator<br>\n- ThreatQ: Update Indicator Status<br>\n- ThreatQ: Lookup Indicator<br>\n- ThreatQ: Mark as False Positive<br>\n- ThreatQ: Mark as True Positive</p>\n<p><strong>Note:</strong> Support for ingesting ThreatQ data into Splunk Enterprise Security will be leveraged in the additional workflows provided within that application.</p>\n<h3>Deployability</h3>\n<p>The ThreatQuotient App for Splunk has been re-designed to scale to our customers' growing needs, supporting installations in Splunk deployments of all sizes.</p>",
         "documentation_source": "### Functionality includes:\n\n**Ingestion of ThreatQ Data into Splunk**\nEnable users to customize what data is ingested by leveraging ThreatQ exports and Splunk input filters. Customization continues for advanced users with the ability to modify leveraged indexes and Splunk saved searches that drive the ThreatQuotient App for Splunk to meet the needs of their environment.\n\n**Matching of Splunk Events with ThreatQ Indicators**\nProvide context on possible malicious activity by matching Splunk Events with ThreatQ indicators. Matching is customizable by ThreatQ indicator status and score to meet the differing needs of customer environments and workflows.\n\n**Reporting of Matches in Splunk back to ThreatQ as Sighting Events**\nSighting events in ThreatQ will show indicator matches from Splunk and will be grouped by indicator.\n\n**Workflow Actions**\nUsers can modify ThreatQ data based on any indexed indicators within Splunk.\n\n**Workflow actions include:**\n- ThreatQ: Add Indicator\n- ThreatQ: Update Indicator Status\n- ThreatQ: Lookup Indicator\n- ThreatQ: Mark as False Positive\n- ThreatQ: Mark as True Positive\n\n\n**Note:** Support for ingesting ThreatQ data into Splunk Enterprise Security will be leveraged in the additional workflows provided within that application.\n\n### Deployability\nThe ThreatQuotient App for Splunk has been re-designed to scale to our customers' growing needs, supporting installations in Splunk deployments of all sizes.",
-        "download_count": 4696,
+        "download_count": 4698,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/72b05f7c-6ca7-11f0-bde9-d66028a21a94.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -79,7 +79,6 @@
           "sha256": "552493f88bd33b3e97bac89f1e67765a62512fe10872f463bd0f38e05742ad7e",
           "signed_available": true,
           "size": 3952555,
-          "updated_datetime": "2025-07-29T18:49:06.843644Z",
           "version_compatibility": [
             "10.1",
             "10.0",
@@ -113,7 +112,6 @@
             "sha256": "552493f88bd33b3e97bac89f1e67765a62512fe10872f463bd0f38e05742ad7e",
             "signed_available": true,
             "size": 3952555,
-            "updated_datetime": "2025-07-29T18:49:06.843644Z",
             "version_compatibility": [
               "10.1",
               "10.0",
@@ -146,7 +144,6 @@
             "sha256": "0437c2acf35c959b8238192d7138f0b35e570f424e012df4c25de890c69180ec",
             "signed_available": true,
             "size": 3908291,
-            "updated_datetime": "2025-06-05T06:08:57.784887Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -177,7 +174,6 @@
             "sha256": "53db85b8ad03b047bfd4ddb6f6a9543d60edec82fe9a4e8fdf880dc93ee3f4d0",
             "signed_available": true,
             "size": 3902677,
-            "updated_datetime": "2025-02-20T10:34:36.309293Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -207,7 +203,6 @@
             "sha256": "8e9e236a25c05124e4374c7b2acc881656a3f1ef0173cb2f3eb4dfb4e9593fb9",
             "signed_available": true,
             "size": 3841225,
-            "updated_datetime": "2025-01-30T10:05:02.408189Z",
             "version_compatibility": [
               "9.2",
               "9.1"
@@ -235,7 +230,6 @@
             "sha256": "f0ac13230cb7a61e4746349058ecf0e847a73eddfb6703799afabb5a9d357395",
             "signed_available": true,
             "size": 3840364,
-            "updated_datetime": "2025-01-30T10:05:00.708746Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -269,7 +263,6 @@
             "sha256": "3a43175d63bee64626348ef411f086464503d6ec0f9828e83378200f82020ac8",
             "signed_available": true,
             "size": 3834942,
-            "updated_datetime": "2024-01-09T13:16:59.504535Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -304,7 +297,6 @@
             "sha256": "4a8699647f96522c76ce901995cbf439417726a1a610ac45da876e043ee2d51a",
             "signed_available": true,
             "size": 182700,
-            "updated_datetime": "2024-01-09T13:16:57.515262Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -335,7 +327,6 @@
             "sha256": "68d83442828fe8063f904e1944aa208a6fb580c312222b68f56c4bc5619142d2",
             "signed_available": true,
             "size": 150517,
-            "updated_datetime": "2023-04-26T15:01:35.031813Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -369,7 +360,6 @@
             "sha256": "c18817140d759ba435ce92b985b072d7d61c49520450f64b452bbc4ef6c4d98d",
             "signed_available": true,
             "size": 150240,
-            "updated_datetime": "2023-04-26T15:01:33.240256Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -403,7 +393,6 @@
             "sha256": "a133feb0eb334bcde1b8dedb9a3cc63b4d1dffe69c69a72696d1a1d6dfdbff01",
             "signed_available": true,
             "size": 146446,
-            "updated_datetime": "2023-04-26T15:01:31.510715Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -437,7 +426,6 @@
             "sha256": "3df9d91452994f10c2cf0e745eb1be37b8aae4a420491b006959f5c80fba8930",
             "signed_available": true,
             "size": 144682,
-            "updated_datetime": "2022-11-14T21:49:36.383956Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -471,7 +459,6 @@
             "sha256": "3ec475eca0b3a1b02c820878d40ceda10edd97e885942d93f7e562348ee09305",
             "signed_available": true,
             "size": 143435,
-            "updated_datetime": "2022-11-14T21:49:37.722052Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -505,7 +492,6 @@
             "sha256": "dd5ac8ab96e80088575b0217310fe6511fde800262a6c3fd9fa1b526c10e3377",
             "signed_available": true,
             "size": 141049,
-            "updated_datetime": "2022-11-14T21:49:39.098999Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -539,7 +525,6 @@
             "sha256": "0d1762192d7eddc286f44460246f3525372c9548515e6c2af72af9eabd0ea108",
             "signed_available": true,
             "size": 140278,
-            "updated_datetime": "2022-11-14T21:49:40.349914Z",
             "version_compatibility": [
               "7.3",
               "7.2",
@@ -567,7 +552,6 @@
             "sha256": "da08cac0fad075910b89baf6378b0afea97563d6c7a9b923db681a62b448e0f9",
             "signed_available": true,
             "size": 136156,
-            "updated_datetime": "2022-11-14T21:49:41.676213Z",
             "version_compatibility": [
               "7.3",
               "7.2",
@@ -597,7 +581,6 @@
             "sha256": "bfbb2ecb59e1e79c32a95df85933e3648167ec2acc228fc05897a237fc7c0429",
             "signed_available": true,
             "size": 131959,
-            "updated_datetime": "2022-11-14T21:49:43.143906Z",
             "version_compatibility": [
               "7.2",
               "7.1",
@@ -624,7 +607,6 @@
             "sha256": "81bbd1cb527b455f7f24463dc9ce9e4ceb676c10485b0ae823dafc357fa62c3e",
             "signed_available": true,
             "size": 123202,
-            "updated_datetime": "2022-11-14T21:49:44.724423Z",
             "version_compatibility": [
               "7.2",
               "7.1",
@@ -657,7 +639,7 @@
   "query": {
     "id": "4418"
   },
-  "buildId": "G6Z6CSMUgmeA0C-HkFoO6",
+  "buildId": "ntkIvfqVHOBfMJ8tA6CIy",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

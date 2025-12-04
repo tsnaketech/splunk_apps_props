@@ -73,7 +73,6 @@
           "sha256": null,
           "signed_available": false,
           "size": 0,
-          "updated_datetime": "2022-04-26T03:28:14.238773Z",
           "version_compatibility": []
         },
         "releases": [],
@@ -104,7 +103,7 @@
   "query": {
     "id": "6157"
   },
-  "buildId": "G6Z6CSMUgmeA0C-HkFoO6",
+  "buildId": "ntkIvfqVHOBfMJ8tA6CIy",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

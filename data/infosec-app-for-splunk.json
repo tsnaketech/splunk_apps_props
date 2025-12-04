@@ -66,7 +66,7 @@
         "description": "InfoSec app for Splunk is your starter security pack. \n\nInfoSec app is designed to address the most common security use cases, including continuous monitoring and security investigations. InfoSec app also includes a number of advanced threat detection use cases. \n\nAll of the components of InfoSec app can be easily expanded using free security resources available for Splunk like Security Essentials app for Splunk: https://splunkbase.splunk.com/app/3435/",
         "documentation": "<p>IMPORTANT: PREREQUISITES</p>\n<ul>\n<li>\n<p>At a minimum, you should have data from the following security sources collected by your Splunk environment:</p>\n<ul>\n<li>Firewall data like Cisco ASA, Palo Alto Networks, Check Point, Juniper, Fortinet, etc.</li>\n<li>Active Directory security logs (make sure that your audit policy enables logging failed and successful authentication attempts)</li>\n<li>Antivirus/Malware data like McAfee, Symantec, Trend Micro, etc. </li>\n</ul>\n</li>\n<li>\n<p>The following free Splunk Add-ons must be installed before you can start using InfoSec App:</p>\n<ul>\n<li>Splunk Common Information Model (CIM): <a href=\"https://splunkbase.splunk.com/app/1621/\">https://splunkbase.splunk.com/app/1621/</a></li>\n<li>Lookup File Editor: <a href=\"https://splunkbase.splunk.com/app/1724/\">https://splunkbase.splunk.com/app/1724/</a> (new requirement starting from InfoSec v1.5)</li>\n</ul>\n</li>\n<li>\n<p>The following Data Models must be accelerated: </p>\n<ul>\n<li>Authentication</li>\n<li>Change (for app version 1.6.x and newer) or Change Analysis (for app version 1.5.3 and older)</li>\n<li>Intrusion_Detection</li>\n<li>Malware</li>\n<li>Network_Sessions</li>\n<li>Network_Traffic</li>\n<li>Endpoint</li>\n<li>Web (new requirement starting from InfoSec v1.5)</li>\n</ul>\n</li>\n<li>\n<p>All data used by InfoSec app must be Common Information Model (CIM)-compliant. The easiest way to accomplish that is to use CIM-compliant Splunk Add-ons for your security data sources</p>\n</li>\n</ul>\n<p>WHERE TO INSTALL THE APP</p>\n<p>The app can be installed on a standalone Splunk server, a Search Head or a Search Head Cluster. In a distributed environment do not install the app on Indexers; the app should only be installed on Search Head(s).</p>\n<p>INFOSEC APP DOCUMENTATION</p>\n<p><a href=\"https://docs.splunk.com/Documentation/InfoSec\">https://docs.splunk.com/Documentation/InfoSec</a></p>",
         "documentation_source": "IMPORTANT: PREREQUISITES\n\n- At a minimum, you should have data from the following security sources collected by your Splunk environment:\n    - Firewall data like Cisco ASA, Palo Alto Networks, Check Point, Juniper, Fortinet, etc.\n\t- Active Directory security logs (make sure that your audit policy enables logging failed and successful authentication attempts)\n\t- Antivirus/Malware data like McAfee, Symantec, Trend Micro, etc. \n\n- The following free Splunk Add-ons must be installed before you can start using InfoSec App:\n\t- Splunk Common Information Model (CIM): https://splunkbase.splunk.com/app/1621/\n    - Lookup File Editor: https://splunkbase.splunk.com/app/1724/ (new requirement starting from InfoSec v1.5)\n\n- The following Data Models must be accelerated: \n    - Authentication\n    - Change (for app version 1.6.x and newer) or Change Analysis (for app version 1.5.3 and older)\n\t- Intrusion_Detection\n\t- Malware\n\t- Network_Sessions\n\t- Network_Traffic\n    - Endpoint\n    - Web (new requirement starting from InfoSec v1.5)\n\n- All data used by InfoSec app must be Common Information Model (CIM)-compliant. The easiest way to accomplish that is to use CIM-compliant Splunk Add-ons for your security data sources\n\n\n\n\nWHERE TO INSTALL THE APP\n\nThe app can be installed on a standalone Splunk server, a Search Head or a Search Head Cluster. In a distributed environment do not install the app on Indexers; the app should only be installed on Search Head(s).\n\n\nINFOSEC APP DOCUMENTATION\n\nhttps://docs.splunk.com/Documentation/InfoSec",
-        "download_count": 37438,
+        "download_count": 37453,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/4d0e7e4e-6c92-11f0-91a3-5ec21a6102be.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": null,
@@ -126,7 +126,6 @@
           "sha256": "4447136a4f971213f5b4090de9aa8bc28c81f19455d5d46c3854c3a6b06927e4",
           "signed_available": true,
           "size": 231941,
-          "updated_datetime": "2025-08-01T17:46:50.580843Z",
           "version_compatibility": [
             "10.1",
             "10.0",
@@ -160,7 +159,6 @@
             "sha256": "4447136a4f971213f5b4090de9aa8bc28c81f19455d5d46c3854c3a6b06927e4",
             "signed_available": true,
             "size": 231941,
-            "updated_datetime": "2025-08-01T17:46:50.580843Z",
             "version_compatibility": [
               "10.1",
               "10.0",
@@ -194,7 +192,6 @@
             "sha256": "8cc773b3c34c8cb141043631fb383b2087cd9279a746dd77482305280fe145b6",
             "signed_available": true,
             "size": 229528,
-            "updated_datetime": "2025-06-13T19:38:13.388987Z",
             "version_compatibility": [
               "10.1",
               "10.0",
@@ -232,7 +229,6 @@
             "sha256": "c290b0e524722e5c4d242a39571a95688c0e41426585d9c1776f80ba80c994d5",
             "signed_available": true,
             "size": 71302,
-            "updated_datetime": "2022-11-14T21:31:31.147639Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -270,7 +266,6 @@
             "sha256": "e4b6ec91eb472de41e509f01ab43c8f7ea29c5c018a14552b5780ed036d8be85",
             "signed_available": true,
             "size": 434240,
-            "updated_datetime": "2022-11-14T21:31:32.302584Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -308,7 +303,6 @@
             "sha256": "9d6bc1daae0c129eb27989fc06f436a06de37102315dcd8d25cf6ea5edfa3e36",
             "signed_available": true,
             "size": 433928,
-            "updated_datetime": "2022-11-14T21:31:33.761743Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -346,7 +340,6 @@
             "sha256": "4684f5ac821211c75e0f6d9673ad1534348c1de1a5d61290299f8732fa70185a",
             "signed_available": true,
             "size": 433560,
-            "updated_datetime": "2022-11-14T21:31:35.326986Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -384,7 +377,6 @@
             "sha256": "fd6e410c86ec21215a78ce039e70180023c29174b58050438598236cd5fec8df",
             "signed_available": true,
             "size": 427568,
-            "updated_datetime": "2022-11-14T21:31:37.024937Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -423,7 +415,6 @@
             "sha256": "f9bf95779d85f78512bca0a6d2b20ca9c9e44c05b683b9bb0699fc2a69ddbc64",
             "signed_available": true,
             "size": 44100,
-            "updated_datetime": "2022-11-14T21:31:38.596622Z",
             "version_compatibility": [
               "7.2",
               "7.1",
@@ -462,7 +453,7 @@
   "query": {
     "id": "4240"
   },
-  "buildId": "G6Z6CSMUgmeA0C-HkFoO6",
+  "buildId": "ntkIvfqVHOBfMJ8tA6CIy",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

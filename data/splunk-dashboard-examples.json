@@ -21,7 +21,7 @@
         "description": "The Splunk Dashboard app v8.2.6 will reach end of support on Dec 19, 2024. No new versions of the app will be released. Simple XML examples are available in SimpleXML reference guide documentation and the Dashboards & Visualizations forum on Splunk Community. Check out this Splunk Lantern article to learn more: https://lantern.splunk.com/@go/page/7411\n-----\nThe Splunk Dashboard app delivers examples that give you a hands-on way to learn the basic concepts and tools needed to rapidly create rich dashboards using Simple XML. This new app incorporates learn-by-doing Simple XML examples, including extensions to Simple XML for further customization of layout, interactivity, and visualizations.\n\nWith the app you will learn basic Simple XML concepts and how to incorporate the built-in components. All the included examples deliver a recipe for implementing dashboard elements, beginning with the most basic and progressing to more advanced elements.  Each example in the app includes an actual runtime visualization followed by a description and supporting source code.\n\n(c) 2016-2020 Splunk Inc. All Rights Reserved.",
         "documentation": "",
         "documentation_source": "",
-        "download_count": 300193,
+        "download_count": 300194,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/8989c616-7fd8-11ed-8c6e-d6a48ae8285c.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -77,7 +77,6 @@
           "sha256": "b89ca15b4b004850eca241b6cacaa23016d11a3c717b2f64b6fc3eb0cfcd353a",
           "signed_available": true,
           "size": 15855682,
-          "updated_datetime": "2024-12-20T01:47:22.311251Z",
           "version_compatibility": [
             "9.4",
             "9.3",
@@ -110,7 +109,6 @@
             "sha256": "b89ca15b4b004850eca241b6cacaa23016d11a3c717b2f64b6fc3eb0cfcd353a",
             "signed_available": true,
             "size": 15855682,
-            "updated_datetime": "2024-12-20T01:47:22.311251Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -142,7 +140,6 @@
             "sha256": "b9936eb81bc51f07893100a25d1e6ddd09792f88e7dfde47dc81a0ebbb955628",
             "signed_available": true,
             "size": 15879363,
-            "updated_datetime": "2024-12-20T01:47:22.715421Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -173,7 +170,6 @@
             "sha256": "5657b3195ae80a5cdd0b7bcf08d22c10d7258b763a1dd9601b71b9e8d6eddc14",
             "signed_available": true,
             "size": 15240414,
-            "updated_datetime": "2024-12-20T01:47:23.460096Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -204,7 +200,6 @@
             "sha256": "5ad1481683592698a055380a52a080255083e3bb941d3180e5cd47518b8cc162",
             "signed_available": true,
             "size": 15246245,
-            "updated_datetime": "2024-12-20T01:47:23.568008Z",
             "version_compatibility": [
               "9.4",
               "9.3",
@@ -248,7 +243,7 @@
   "query": {
     "id": "1603"
   },
-  "buildId": "G6Z6CSMUgmeA0C-HkFoO6",
+  "buildId": "ntkIvfqVHOBfMJ8tA6CIy",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
