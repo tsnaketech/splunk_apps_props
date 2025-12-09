@@ -21,7 +21,7 @@
         "description": "The Common Information Model is a set of field names and tags which are expected to define the least common denominator of a domain of interest. It is implemented as documentation on the Splunk docs website and JSON data model files in this add-on. Use the CIM add-on when modeling data or building apps to ensure compatibility between apps, or to just take advantage of these data models to pivot and report.",
         "documentation": "<p><a href=\"https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on\">Release Notes</a><br>\nPlease see the <a href=\"https://help.splunk.com/en/data-management/common-information-model/6.1/introduction/overview-of-the-splunk-common-information-model\">Splunk Common Information Model Add-on user documentation</a>.</p>",
         "documentation_source": "[Release Notes](https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on)\nPlease see the [Splunk Common Information Model Add-on user documentation](https://help.splunk.com/en/data-management/common-information-model/6.1/introduction/overview-of-the-splunk-common-information-model).",
-        "download_count": 390388,
+        "download_count": 390491,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/a0b2ab74-c39a-11f0-be55-92cf29706c5d.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -82,7 +82,6 @@
           "signed_available": true,
           "size": 2229098,
           "version_compatibility": [
-            "10.1",
             "10.0",
             "9.4",
             "9.3",
@@ -117,7 +116,6 @@
             "signed_available": true,
             "size": 2229098,
             "version_compatibility": [
-              "10.1",
               "10.0",
               "9.4",
               "9.3",
@@ -151,7 +149,6 @@
             "signed_available": true,
             "size": 2229096,
             "version_compatibility": [
-              "10.1",
               "10.0",
               "9.4",
               "9.3",
@@ -185,7 +182,6 @@
             "signed_available": true,
             "size": 2228905,
             "version_compatibility": [
-              "10.1",
               "10.0",
               "9.4",
               "9.3",

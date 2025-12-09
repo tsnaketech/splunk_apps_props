@@ -47,14 +47,14 @@
         "public": true,
         "ranking": [
           {
-            "rank": 390,
-            "category_name": "utilities",
-            "category_display_name": "Utilities"
-          },
-          {
             "rank": 679,
             "category_name": "security_compliance",
             "category_display_name": "Security, Fraud & Compliance"
+          },
+          {
+            "rank": 390,
+            "category_name": "utilities",
+            "category_display_name": "Utilities"
           }
         ],
         "rating": {
@@ -159,7 +159,6 @@
             "signed_available": true,
             "size": 4380896,
             "version_compatibility": [
-              "10.1",
               "10.0",
               "9.4",
               "9.3",

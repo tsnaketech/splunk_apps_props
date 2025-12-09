@@ -89,7 +89,6 @@
           "signed_available": false,
           "size": 824512892,
           "version_compatibility": [
-            "10.1",
             "10.0",
             "9.4",
             "9.3"
@@ -122,7 +121,6 @@
             "signed_available": false,
             "size": 824512892,
             "version_compatibility": [
-              "10.1",
               "10.0",
               "9.4",
               "9.3"
@@ -154,7 +152,6 @@
             "signed_available": false,
             "size": 761699696,
             "version_compatibility": [
-              "10.1",
               "10.0",
               "9.4",
               "9.3"
@@ -186,7 +183,6 @@
             "signed_available": true,
             "size": 697734043,
             "version_compatibility": [
-              "10.1",
               "10.0",
               "9.4",
               "9.3"
@@ -218,7 +214,6 @@
             "signed_available": true,
             "size": 671001907,
             "version_compatibility": [
-              "10.1",
               "10.0",
               "9.4"
             ]

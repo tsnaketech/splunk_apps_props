@@ -80,7 +80,6 @@
           "signed_available": true,
           "size": 3952555,
           "version_compatibility": [
-            "10.1",
             "10.0",
             "9.4",
             "9.3",
@@ -113,7 +112,6 @@
             "signed_available": true,
             "size": 3952555,
             "version_compatibility": [
-              "10.1",
               "10.0",
               "9.4",
               "9.3",
