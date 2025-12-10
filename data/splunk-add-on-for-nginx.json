@@ -22,7 +22,7 @@
         "description": "The Splunk Add-on for NGINX allows a Splunk software administrator to collect Web server activities, performance metrics, and error logs using file monitoring and API inputs.\n\nThis add-on provides the inputs and CIM-compatible knowledge to use with other Splunk apps, such as Splunk Enterprise Security, the Splunk App for PCI Compliance, and Splunk IT Service Intelligence.",
         "documentation": "<p>Documentation for this Add-on is posted at <a href=\"http://docs.splunk.com/Documentation/AddOns/latest/nginx/About\" title=\"Splunk Docs\">Splunk Docs</a>.</p>",
         "documentation_source": "Documentation for this Add-on is posted at [Splunk Docs](http://docs.splunk.com/Documentation/AddOns/latest/nginx/About \"Splunk Docs\").",
-        "download_count": 76665,
+        "download_count": 76891,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/43731336-6aa4-11ef-ab3b-faca7e54e553.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -88,13 +88,15 @@
           "signed_available": true,
           "size": 868236,
           "version_compatibility": [
+            "10.1",
             "10.0",
             "9.4",
             "9.3",
             "9.2",
             "9.1",
             "9.0"
-          ]
+          ],
+          "spl_compatibility": "SPL1"
         },
         "releases": [
           {
@@ -123,13 +125,15 @@
             "signed_available": true,
             "size": 868236,
             "version_compatibility": [
+              "10.1",
               "10.0",
               "9.4",
               "9.3",
               "9.2",
               "9.1",
               "9.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -164,7 +168,8 @@
               "8.0",
               "7.3",
               "7.2"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           }
         ],
         "repo_name": "",
@@ -183,7 +188,8 @@
         "name": "Splunk Add-on for NGINX",
         "published_datetime": "2016-08-08T04:22:59.771573Z",
         "draft": false,
-        "display_editors": false
+        "display_editors": false,
+        "spl_compatibility": "SPL1"
       }
     },
     "__N_SSP": true
@@ -192,7 +198,7 @@
   "query": {
     "id": "3258"
   },
-  "buildId": "YQD3NdySUH5mjlHzydcF9",
+  "buildId": "K4x29qTv3g32a2UaTv_vS",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

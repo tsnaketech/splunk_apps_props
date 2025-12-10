@@ -21,7 +21,7 @@
         "description": "The Common Information Model is a set of field names and tags which are expected to define the least common denominator of a domain of interest. It is implemented as documentation on the Splunk docs website and JSON data model files in this add-on. Use the CIM add-on when modeling data or building apps to ensure compatibility between apps, or to just take advantage of these data models to pivot and report.",
         "documentation": "<p><a href=\"https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on\">Release Notes</a><br>\nPlease see the <a href=\"https://help.splunk.com/en/data-management/common-information-model/6.1/introduction/overview-of-the-splunk-common-information-model\">Splunk Common Information Model Add-on user documentation</a>.</p>",
         "documentation_source": "[Release Notes](https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on)\nPlease see the [Splunk Common Information Model Add-on user documentation](https://help.splunk.com/en/data-management/common-information-model/6.1/introduction/overview-of-the-splunk-common-information-model).",
-        "download_count": 390491,
+        "download_count": 390835,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/a0b2ab74-c39a-11f0-be55-92cf29706c5d.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -82,12 +82,14 @@
           "signed_available": true,
           "size": 2229098,
           "version_compatibility": [
+            "10.1",
             "10.0",
             "9.4",
             "9.3",
             "9.2",
             "9.1"
-          ]
+          ],
+          "spl_compatibility": "SPL1"
         },
         "releases": [
           {
@@ -116,12 +118,14 @@
             "signed_available": true,
             "size": 2229098,
             "version_compatibility": [
+              "10.1",
               "10.0",
               "9.4",
               "9.3",
               "9.2",
               "9.1"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -149,12 +153,14 @@
             "signed_available": true,
             "size": 2229096,
             "version_compatibility": [
+              "10.1",
               "10.0",
               "9.4",
               "9.3",
               "9.2",
               "9.1"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -182,12 +188,14 @@
             "signed_available": true,
             "size": 2228905,
             "version_compatibility": [
+              "10.1",
               "10.0",
               "9.4",
               "9.3",
               "9.2",
               "9.1"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -220,7 +228,8 @@
               "9.2",
               "9.1",
               "9.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -253,7 +262,8 @@
               "9.2",
               "9.1",
               "9.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -286,7 +296,8 @@
               "9.2",
               "9.1",
               "9.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -319,7 +330,8 @@
               "9.2",
               "9.1",
               "9.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -352,7 +364,8 @@
               "9.2",
               "9.1",
               "9.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -385,7 +398,8 @@
               "9.2",
               "9.1",
               "9.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -418,7 +432,8 @@
               "9.2",
               "9.1",
               "9.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -451,7 +466,8 @@
               "9.2",
               "9.1",
               "9.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -485,7 +501,8 @@
               "9.1",
               "9.0",
               "8.2"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -519,7 +536,8 @@
               "9.1",
               "9.0",
               "8.2"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -552,7 +570,8 @@
               "9.1",
               "9.0",
               "8.2"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -585,7 +604,8 @@
               "9.1",
               "9.0",
               "8.2"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -619,7 +639,8 @@
               "9.1",
               "9.0",
               "8.2"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -650,7 +671,8 @@
               "9.1",
               "9.0",
               "8.2"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -679,7 +701,8 @@
               "9.1",
               "9.0",
               "8.2"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -712,7 +735,8 @@
               "8.2",
               "8.1",
               "8.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -745,7 +769,8 @@
               "8.2",
               "8.1",
               "8.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -778,7 +803,8 @@
               "8.2",
               "8.1",
               "8.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -811,7 +837,8 @@
               "8.2",
               "8.1",
               "8.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -844,7 +871,8 @@
               "8.2",
               "8.1",
               "8.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -878,7 +906,8 @@
               "8.1",
               "8.0",
               "7.3"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -913,7 +942,8 @@
               "8.0",
               "7.3",
               "7.2"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -950,7 +980,8 @@
               "7.3",
               "7.2",
               "7.1"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -985,7 +1016,8 @@
               "8.0",
               "7.3",
               "7.2"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -1013,7 +1045,8 @@
               "7.3",
               "7.2",
               "7.1"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -1039,7 +1072,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           }
         ],
         "repo_name": "",
@@ -1064,7 +1098,8 @@
         "name": "Splunk Common Information Model (CIM)",
         "published_datetime": "2013-10-18T17:46:05.935709Z",
         "draft": false,
-        "display_editors": false
+        "display_editors": false,
+        "spl_compatibility": "SPL1"
       }
     },
     "__N_SSP": true
@@ -1073,7 +1108,7 @@
   "query": {
     "id": "1621"
   },
-  "buildId": "YQD3NdySUH5mjlHzydcF9",
+  "buildId": "K4x29qTv3g32a2UaTv_vS",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

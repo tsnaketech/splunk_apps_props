@@ -96,7 +96,8 @@
             "8.2",
             "8.1",
             "8.0"
-          ]
+          ],
+          "spl_compatibility": "SPL1"
         },
         "releases": [
           {
@@ -134,7 +135,8 @@
               "8.2",
               "8.1",
               "8.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -159,6 +161,7 @@
             "signed_available": true,
             "size": 4380896,
             "version_compatibility": [
+              "10.1",
               "10.0",
               "9.4",
               "9.3",
@@ -168,7 +171,8 @@
               "8.2",
               "8.1",
               "8.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -201,7 +205,8 @@
               "8.2",
               "8.1",
               "8.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -235,7 +240,8 @@
               "7.3",
               "7.2",
               "7.1"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           }
         ],
         "repo_name": "TA-Cryptosuite",
@@ -257,7 +263,8 @@
         "name": "Crypto and Encoding Add-On",
         "published_datetime": "2020-06-08T23:00:49.611276Z",
         "draft": false,
-        "display_editors": false
+        "display_editors": false,
+        "spl_compatibility": "SPL1"
       }
     },
     "__N_SSP": true
@@ -266,7 +273,7 @@
   "query": {
     "id": "5062"
   },
-  "buildId": "YQD3NdySUH5mjlHzydcF9",
+  "buildId": "K4x29qTv3g32a2UaTv_vS",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

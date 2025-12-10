@@ -65,7 +65,7 @@
         "description": "Get started with Splunk for Security with Splunk Security Essentials (SSE). Explore security use cases and discover security content to start address threats and challenges. \n\nSecurity Content Library\nFind security content for Splunk Cloud and Splunk's SIEM and SOAR offerings and deploy out-of-the-box security detections and analytic stories to enhance your investigations and improve your security posture. \n\nCybersecurity Frameworks\nIdentify gaps in your defenses and take control of your security posture with automatic mapping of data and security detections to MITRE ATT&CK\u00ae and Cyber Kill Chain\u00ae framework.\n\nData and Content Introspection\nGain visibility of the data coming into your environment to add context and telemetry to security events. Enrich your security detections with metadata and tags from the Security Content Library.\n\nSecurity Data Journey\nGet prescriptive security and data recommendations and establish a data strategy to develop a security maturity roadmap. \n\nWe have changed the security content delivery endpoint for ESCU to comply with Splunk guidance. This means that if you have SSE version 3.7.1 or lower, the last supported ESCU version is ESCU 4.22.0. In order to get the latest ESCU version, you will need to upgrade SSE to version 3.8.0.\n\nLearn more:\nDownload the Product Brief : https://www.splunk.com/pdfs/product-briefs/splunk-security-essentials.pdf\nTry out Splunk Security Essentials: https://www.splunk.com/en_us/form/splunk-security-essentials-online-demo.html\nCheck out the Documentation site: https://docs.splunk.com/Documentation/SSE",
         "documentation": "<p>Overview</p>\n<ul>\n<li><a href=\"https://splunkvideo.hubs.vidyard.com/watch/FLgbpKZ2gvd1RB6mak2KV8\">What is Splunk Security Essentials?</a> (Video)</li>\n<li><a href=\"https://docs.splunk.com/Documentation/SSE/latest/ReleaseNotes/Enhancements\">Release Notes</a></li>\n<li><a href=\"https://docs.splunk.com/Documentation/SSE\">Documentation Site</a></li>\n</ul>\n<p>Support\n* <a href=\"&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#115;&#101;&#45;&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#115;&#112;&#108;&#117;&#110;&#107;&#46;&#99;&#111;&#109;\">&#115;&#115;&#101;&#45;&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#115;&#112;&#108;&#117;&#110;&#107;&#46;&#99;&#111;&#109;</a></p>",
         "documentation_source": "Overview\n\n* [What is Splunk Security Essentials?](https://splunkvideo.hubs.vidyard.com/watch/FLgbpKZ2gvd1RB6mak2KV8) (Video)\n* [Release Notes](https://docs.splunk.com/Documentation/SSE/latest/ReleaseNotes/Enhancements)\n* [Documentation Site](https://docs.splunk.com/Documentation/SSE)\n\nSupport\n* <sse-support@splunk.com>",
-        "download_count": 213119,
+        "download_count": 213193,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/d5448e0c-e863-11ee-b82c-3ae09d0cd103.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -125,12 +125,14 @@
           "signed_available": true,
           "size": 66883343,
           "version_compatibility": [
+            "10.1",
             "10.0",
             "9.4",
             "9.3",
             "9.2",
             "9.1"
-          ]
+          ],
+          "spl_compatibility": "SPL1"
         },
         "releases": [
           {
@@ -159,12 +161,14 @@
             "signed_available": true,
             "size": 66883343,
             "version_compatibility": [
+              "10.1",
               "10.0",
               "9.4",
               "9.3",
               "9.2",
               "9.1"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -196,7 +200,8 @@
               "9.3",
               "9.2",
               "9.1"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -228,7 +233,8 @@
               "9.2",
               "9.1",
               "9.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -261,7 +267,8 @@
               "9.1",
               "9.0",
               "8.2"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -294,7 +301,8 @@
               "9.1",
               "9.0",
               "8.2"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -327,7 +335,8 @@
               "9.1",
               "9.0",
               "8.2"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -361,7 +370,8 @@
               "9.0",
               "8.2",
               "8.1"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -394,7 +404,8 @@
               "8.2",
               "8.1",
               "8.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -427,7 +438,8 @@
               "8.0",
               "7.3",
               "7.2"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -460,7 +472,8 @@
               "8.0",
               "7.3",
               "7.2"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -493,7 +506,8 @@
               "8.0",
               "7.3",
               "7.2"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -526,7 +540,8 @@
               "8.0",
               "7.3",
               "7.2"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -560,7 +575,8 @@
               "7.3",
               "7.2",
               "7.1"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -595,7 +611,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -630,7 +647,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -665,7 +683,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -700,7 +719,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -735,7 +755,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -770,7 +791,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -805,7 +827,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -840,7 +863,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -875,7 +899,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -910,7 +935,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -945,7 +971,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -972,7 +999,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -999,7 +1027,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -1026,7 +1055,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -1052,7 +1082,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -1078,7 +1109,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -1104,7 +1136,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -1128,7 +1161,8 @@
             "size": 38537735,
             "version_compatibility": [
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -1150,7 +1184,8 @@
             "sha256": "c179793f0583183fdaa80a1dc5884ad8fe84421a73c961e44aa3698035991124",
             "signed_available": true,
             "size": 13844128,
-            "version_compatibility": []
+            "version_compatibility": [],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -1172,7 +1207,8 @@
             "sha256": "1cfcfda27be99509e708e02ce513f321963c433d51c120926247e463b1f54002",
             "signed_available": true,
             "size": 13844142,
-            "version_compatibility": []
+            "version_compatibility": [],
+            "spl_compatibility": "SPL1"
           }
         ],
         "repo_name": "",
@@ -1191,7 +1227,8 @@
         "name": "Splunk Security Essentials",
         "published_datetime": "2017-01-07T19:08:33.976601Z",
         "draft": false,
-        "display_editors": true
+        "display_editors": true,
+        "spl_compatibility": "SPL1"
       }
     },
     "__N_SSP": true
@@ -1200,7 +1237,7 @@
   "query": {
     "id": "3435"
   },
-  "buildId": "YQD3NdySUH5mjlHzydcF9",
+  "buildId": "K4x29qTv3g32a2UaTv_vS",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

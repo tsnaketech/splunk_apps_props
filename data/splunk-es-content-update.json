@@ -21,7 +21,7 @@
         "description": "The Splunk ES Content Update (ESCU) app delivers pre-packaged Security Content. ESCU provides regular Security Content updates to help security practitioners address ongoing time-sensitive threats, attack methods, and other security issues.\n\nSecurity Content consists of tactics, techniques, and methodologies that help with detection, investigation, and response. Security Content enables security teams to directly operationalize detection searches, investigative searches, and other supporting details. ESCU can generate Notable/Risk Events in Splunk Enterprise Security. Security Content also contains easy-to-read background information and guidance, for key context on motivations and risks associated with attack techniques, as well as pragmatic advice on how to combat those techniques.\n\nThe analytic stories and their searches are also available at - https://github.com/splunk/security_content.",
         "documentation": "<p>For more information please visit the <a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update\">Splunk ES Content Update user documentation</a>.</p>",
         "documentation_source": "For more information please visit the [Splunk ES Content Update user documentation](https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update).",
-        "download_count": 162822,
+        "download_count": 162925,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/4245b96c-bfeb-11f0-8db2-5ec621079406.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "http://www.splunk.com/index.php/ask_expert/default/3174",
@@ -85,6 +85,7 @@
           "signed_available": true,
           "size": 8708172,
           "version_compatibility": [
+            "10.1",
             "10.0",
             "9.4",
             "9.3",
@@ -95,7 +96,8 @@
             "8.1",
             "8.0",
             "7.3"
-          ]
+          ],
+          "spl_compatibility": "SPL1"
         },
         "releases": [
           {
@@ -126,6 +128,7 @@
             "signed_available": true,
             "size": 8708172,
             "version_compatibility": [
+              "10.1",
               "10.0",
               "9.4",
               "9.3",
@@ -136,7 +139,8 @@
               "8.1",
               "8.0",
               "7.3"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -166,6 +170,7 @@
             "signed_available": true,
             "size": 8706896,
             "version_compatibility": [
+              "10.1",
               "10.0",
               "9.3",
               "9.2",
@@ -175,7 +180,8 @@
               "8.1",
               "8.0",
               "7.3"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -205,6 +211,7 @@
             "signed_available": true,
             "size": 8667031,
             "version_compatibility": [
+              "10.1",
               "10.0",
               "9.4",
               "9.3",
@@ -215,7 +222,8 @@
               "8.1",
               "8.0",
               "7.3"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -245,6 +253,7 @@
             "signed_available": true,
             "size": 8579291,
             "version_compatibility": [
+              "10.1",
               "10.0",
               "9.4",
               "9.3",
@@ -255,7 +264,8 @@
               "8.1",
               "8.0",
               "7.3"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           }
         ],
         "repo_name": "Splunk Security Content",
@@ -278,7 +288,8 @@
         "name": "Splunk ES Content Update",
         "published_datetime": "2017-01-19T17:59:07.794039Z",
         "draft": false,
-        "display_editors": false
+        "display_editors": false,
+        "spl_compatibility": "SPL1"
       }
     },
     "__N_SSP": true
@@ -287,7 +298,7 @@
   "query": {
     "id": "3449"
   },
-  "buildId": "YQD3NdySUH5mjlHzydcF9",
+  "buildId": "K4x29qTv3g32a2UaTv_vS",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

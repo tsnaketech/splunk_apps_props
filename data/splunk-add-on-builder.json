@@ -22,7 +22,7 @@
         "description": "The Splunk Add-on Builder is a Splunk app that helps you build and validate technology add-ons for your Splunk Enterprise deployment. \n\nThe goals of the Splunk Add-on Builder are to:\n* Guide you through all of the necessary steps of creating an add-on\n* Build alert actions and adaptive response actions for Splunk Enterprise Security\n* Reduce development and testing time\n* Follow best practices and naming conventions\n* Maintain CIM compliance\n* Maintain quality of add-ons\n*  Validate and test the add-on, helping you to check for certification readiness and to identify any limitations such as compatibilities and dependencies\n* Maintain a consistent look and feel while still making it easy for you to add branding",
         "documentation": "<p>For documentation, see the <a href=\"http://docs.splunk.com/Documentation/AddonBuilder/latest/UserGuide/Overview\">Splunk Add-on Builder User Guide</a>.</p>",
         "documentation_source": "For documentation, see the [Splunk Add-on Builder User Guide](http://docs.splunk.com/Documentation/AddonBuilder/latest/UserGuide/Overview).",
-        "download_count": 80706,
+        "download_count": 80734,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/aaa700e8-9ea7-11f0-8de2-aa0bae502bcc.png",
         "inquiry_buttontext": "Join Pre-release Program",
         "inquiry_url": "http://goo.gl/forms/I0UQhn3U4C",
@@ -86,12 +86,14 @@
           "signed_available": true,
           "size": 24606289,
           "version_compatibility": [
+            "10.1",
             "10.0",
             "9.4",
             "9.3",
             "9.2",
             "9.1"
-          ]
+          ],
+          "spl_compatibility": "SPL1"
         },
         "releases": [
           {
@@ -119,12 +121,14 @@
             "signed_available": true,
             "size": 24606289,
             "version_compatibility": [
+              "10.1",
               "10.0",
               "9.4",
               "9.3",
               "9.2",
               "9.1"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -151,11 +155,13 @@
             "signed_available": true,
             "size": 23058641,
             "version_compatibility": [
+              "10.1",
               "10.0",
               "9.4",
               "9.3",
               "9.2"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           }
         ],
         "repo_name": "",
@@ -180,7 +186,8 @@
         "name": "Splunk Add-on Builder",
         "published_datetime": "2015-12-01T00:39:02.700116Z",
         "draft": false,
-        "display_editors": false
+        "display_editors": false,
+        "spl_compatibility": "SPL1"
       }
     },
     "__N_SSP": true
@@ -189,7 +196,7 @@
   "query": {
     "id": "2962"
   },
-  "buildId": "YQD3NdySUH5mjlHzydcF9",
+  "buildId": "K4x29qTv3g32a2UaTv_vS",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

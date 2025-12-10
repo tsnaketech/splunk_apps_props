@@ -54,7 +54,7 @@
         "description": "Ever want to edit a lookup within Splunk with a user interface? Now you can. This app provides an Excel-like interface for editing, importing, and exporting lookup files (KV store and CSV-based).\n\nThis app also makes your lookups work in Search Head Clustered environments (edits to lookups will be propagated to other search heads).\n\nRevision history is maintained for lookups so that you can view or restore older lookups quickly in the interface.\n\nCheck out the Documentation site: \nhttps://docs.splunk.com/Documentation/LookupEditor\n\nhttps://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew",
         "documentation": "<ul>\n<li><a href=\"https://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew\">What's new</a></li>\n<li><a href=\"https://docs.splunk.com/Documentation/LookupEditor\">Documentation Site</a></li>\n</ul>",
         "documentation_source": "*   [What's new](https://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew)\n*   [Documentation Site](https://docs.splunk.com/Documentation/LookupEditor)",
-        "download_count": 244860,
+        "download_count": 244931,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/618e9616-89a1-11f0-8a6b-aaec3b9321f6.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -115,11 +115,13 @@
           "signed_available": true,
           "size": 7140988,
           "version_compatibility": [
+            "10.1",
             "10.0",
             "9.4",
             "9.3",
             "9.2"
-          ]
+          ],
+          "spl_compatibility": "SPL1"
         },
         "releases": [
           {
@@ -148,11 +150,13 @@
             "signed_available": true,
             "size": 7140988,
             "version_compatibility": [
+              "10.1",
               "10.0",
               "9.4",
               "9.3",
               "9.2"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -180,11 +184,13 @@
             "signed_available": true,
             "size": 7372246,
             "version_compatibility": [
+              "10.1",
               "10.0",
               "9.4",
               "9.3",
               "9.2"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -216,7 +222,8 @@
               "9.3",
               "9.2",
               "9.1"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -250,7 +257,8 @@
               "9.1",
               "9.0",
               "8.2"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -283,7 +291,8 @@
               "9.1",
               "9.0",
               "8.2"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -314,7 +323,8 @@
               "9.1",
               "9.0",
               "8.2"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -339,7 +349,8 @@
             "version_compatibility": [
               "8.2",
               "8.1"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -369,7 +380,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -399,7 +411,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -429,7 +442,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -459,7 +473,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -489,7 +504,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -519,7 +535,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -549,7 +566,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -579,7 +597,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -606,7 +625,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -633,7 +653,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -659,7 +680,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -685,7 +707,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -711,7 +734,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -737,7 +761,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -763,7 +788,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -789,7 +815,8 @@
               "7.2",
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -814,7 +841,8 @@
             "version_compatibility": [
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -839,7 +867,8 @@
             "version_compatibility": [
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -864,7 +893,8 @@
             "version_compatibility": [
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -889,7 +919,8 @@
             "version_compatibility": [
               "7.1",
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -913,7 +944,8 @@
             "size": 330362,
             "version_compatibility": [
               "7.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -935,7 +967,8 @@
             "sha256": "911a10778d4f218952ccbb1ef74bdbd6e97ccffe424e9719cd7089688db6d491",
             "signed_available": true,
             "size": 330284,
-            "version_compatibility": []
+            "version_compatibility": [],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -957,7 +990,8 @@
             "sha256": "e038f61c2b10b4f054ccc885327d9963059037334e1f7f12a354c3ef7ea5dddb",
             "signed_available": true,
             "size": 328799,
-            "version_compatibility": []
+            "version_compatibility": [],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -979,7 +1013,8 @@
             "sha256": "dd3761108e380c68689696494be630c0bf1abc74045427b3256a87421e40d2e0",
             "signed_available": true,
             "size": 328590,
-            "version_compatibility": []
+            "version_compatibility": [],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -1001,7 +1036,8 @@
             "sha256": "14a9f1b4be6fc08deffc4bd8829390915889c85b445a48e5e30ffdb27aef630d",
             "signed_available": true,
             "size": 328563,
-            "version_compatibility": []
+            "version_compatibility": [],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -1023,7 +1059,8 @@
             "sha256": "092870226628c3104966df08fbaa31a8e57e55aeea7b233e80596d401fe5c8ee",
             "signed_available": true,
             "size": 328791,
-            "version_compatibility": []
+            "version_compatibility": [],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -1045,7 +1082,8 @@
             "sha256": "59c28f33727a709960203abcbb7c966fff1e3dff57889cb91628c14c5f1bda04",
             "signed_available": true,
             "size": 327915,
-            "version_compatibility": []
+            "version_compatibility": [],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -1067,7 +1105,8 @@
             "sha256": "0cef4c62b288da6965f4a6e5f1588df8d9f605a423aded8d931dfeb407841f59",
             "signed_available": true,
             "size": 327466,
-            "version_compatibility": []
+            "version_compatibility": [],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -1089,7 +1128,8 @@
             "sha256": "4990d8711ff1b1b9a4141d39f7821aeaa19d0cedaaf6db7bb90d0cebe5df1fd8",
             "signed_available": true,
             "size": 327498,
-            "version_compatibility": []
+            "version_compatibility": [],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -1111,7 +1151,8 @@
             "sha256": "b245097e9c532dc5bf334e02301814d7bebe13c06e24b0a28a97db435e16ccae",
             "signed_available": true,
             "size": 310663,
-            "version_compatibility": []
+            "version_compatibility": [],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -1133,7 +1174,8 @@
             "sha256": "42f3244fa7fb44d14524ebcf39b2d180124a9f771b4b94b50791755603f709d6",
             "signed_available": true,
             "size": 310096,
-            "version_compatibility": []
+            "version_compatibility": [],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -1155,7 +1197,8 @@
             "sha256": "3faa910f54453d121ab097abd0f878effc7e1f3fb113acfba399232a87444e9b",
             "signed_available": true,
             "size": 310066,
-            "version_compatibility": []
+            "version_compatibility": [],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -1177,7 +1220,8 @@
             "sha256": "648da3abbe7379cfed229cf24ef9a8d1171b07312e9eea3e45c4fa7ef98d258b",
             "signed_available": true,
             "size": 297106,
-            "version_compatibility": []
+            "version_compatibility": [],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -1199,7 +1243,8 @@
             "sha256": "671e87fa1c35092ea7838082587f0e8e59aa088f77bf0d13914cea1e066c9bba",
             "signed_available": true,
             "size": 295308,
-            "version_compatibility": []
+            "version_compatibility": [],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -1221,7 +1266,8 @@
             "sha256": "1316d3ec2ad6f427ffbf1e78cf7dd63c5b46cd7bdee02c0a8f947c7089e241b4",
             "signed_available": true,
             "size": 288425,
-            "version_compatibility": []
+            "version_compatibility": [],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -1243,7 +1289,8 @@
             "sha256": "c9f1b4d8e959314377ae823689cf46031a1d1a0da7625ac6ec8ff01153c054c3",
             "signed_available": true,
             "size": 288413,
-            "version_compatibility": []
+            "version_compatibility": [],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -1265,7 +1312,8 @@
             "sha256": "cb88ffd9ade27b9a0c3e7bbbe72ca997bf027db3650e2ce077fcb1e8a16ea377",
             "signed_available": true,
             "size": 286754,
-            "version_compatibility": []
+            "version_compatibility": [],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -1287,7 +1335,8 @@
             "sha256": "e5a313f8e945f7b2cca8aed507feb887e35e1634d87a8c818e586dd61435bef6",
             "signed_available": true,
             "size": 286676,
-            "version_compatibility": []
+            "version_compatibility": [],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -1309,7 +1358,8 @@
             "sha256": "09390676623c3ccb95dd24c123c608a8d3436e6376758a86508cd0ab0d619b22",
             "signed_available": true,
             "size": 283632,
-            "version_compatibility": []
+            "version_compatibility": [],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -1331,7 +1381,8 @@
             "sha256": "512e98f895dc7ce82c4194c84d10609af0b3c8c8cd6f8cfab43252296df5694b",
             "signed_available": true,
             "size": 283452,
-            "version_compatibility": []
+            "version_compatibility": [],
+            "spl_compatibility": "SPL1"
           }
         ],
         "repo_name": "",
@@ -1356,7 +1407,8 @@
         "name": "Splunk App for Lookup File Editing",
         "published_datetime": "2014-02-21T08:18:49.395449Z",
         "draft": false,
-        "display_editors": true
+        "display_editors": true,
+        "spl_compatibility": "SPL1"
       }
     },
     "__N_SSP": true
@@ -1365,7 +1417,7 @@
   "query": {
     "id": "1724"
   },
-  "buildId": "YQD3NdySUH5mjlHzydcF9",
+  "buildId": "K4x29qTv3g32a2UaTv_vS",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

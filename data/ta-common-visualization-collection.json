@@ -73,7 +73,8 @@
           "sha256": null,
           "signed_available": false,
           "size": 0,
-          "version_compatibility": []
+          "version_compatibility": [],
+          "spl_compatibility": "SPL1"
         },
         "releases": [],
         "repo_name": "",
@@ -95,7 +96,8 @@
         "name": "TA - Common Visualization Collection",
         "published_datetime": "2021-10-15T22:00:17.674255Z",
         "draft": false,
-        "display_editors": false
+        "display_editors": false,
+        "spl_compatibility": "SPL1"
       }
     },
     "__N_SSP": true
@@ -104,7 +106,7 @@
   "query": {
     "id": "6137"
   },
-  "buildId": "YQD3NdySUH5mjlHzydcF9",
+  "buildId": "K4x29qTv3g32a2UaTv_vS",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

@@ -27,7 +27,7 @@
         "description": "Detection Insights is an application for Splunk Enterprise Security providing additional insights into everything surrounding and/or impacting your security detections.",
         "documentation": "<p>See the application documentation <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/\">here</a> for more information on installing, configuring and using it.</p>\n<p>Credit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.<br>\nThanks to Dean Luxton for reporting issues, fixes and improvement ideas!</p>",
         "documentation_source": "See the application documentation [here](https://splunk.github.io/Splunk_App_for_Detection_Insights/) for more information on installing, configuring and using it.\n\nCredit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.\nThanks to Dean Luxton for reporting issues, fixes and improvement ideas!",
-        "download_count": 2194,
+        "download_count": 2198,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/f1f4cbe6-5781-11f0-ba1e-5a77e051378c.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -58,7 +58,7 @@
             "category_display_name": "SIEM"
           },
           {
-            "rank": 480,
+            "rank": 479,
             "category_name": "security_compliance",
             "category_display_name": "Security, Fraud & Compliance"
           }
@@ -102,7 +102,8 @@
             "8.2",
             "8.1",
             "8.0"
-          ]
+          ],
+          "spl_compatibility": "SPL1"
         },
         "releases": [
           {
@@ -140,7 +141,8 @@
               "8.2",
               "8.1",
               "8.0"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -175,7 +177,8 @@
               "9.1",
               "9.0",
               "8.2"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -207,7 +210,8 @@
               "9.1",
               "9.0",
               "8.2"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -242,7 +246,8 @@
               "9.1",
               "9.0",
               "8.2"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -277,7 +282,8 @@
               "9.1",
               "9.0",
               "8.2"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           },
           {
             "actions": [],
@@ -311,7 +317,8 @@
               "9.1",
               "9.0",
               "8.2"
-            ]
+            ],
+            "spl_compatibility": "SPL1"
           }
         ],
         "repo_name": "",
@@ -336,7 +343,8 @@
         "name": "SA-DetectionInsights",
         "published_datetime": "2024-01-03T22:13:49.300525Z",
         "draft": false,
-        "display_editors": true
+        "display_editors": true,
+        "spl_compatibility": "SPL1"
       }
     },
     "__N_SSP": true
@@ -345,7 +353,7 @@
   "query": {
     "id": "7066"
   },
-  "buildId": "YQD3NdySUH5mjlHzydcF9",
+  "buildId": "K4x29qTv3g32a2UaTv_vS",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
