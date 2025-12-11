@@ -22,8 +22,8 @@
         "description": "*** Important: Read upgrade instructions and test add-on update before deploying to production ***\nThe Splunk Add-on for Windows 5.0.0 introduced breaking changes. If you are upgrading from a version of the Splunk Add-on for Windows that is earlier than 5.0.0, you must follow the documented upgrade instructions to avoid data loss. A best practice is to test the upgraded version in a non-production environment before deploying to production.\n\nNeither the Splunk Add-on for Windows DNS version 1.0.1 nor the Splunk Add-on for Windows Active Directory version 1.0.0 is supported when installed alongside the Splunk Add-on for Windows version 6.0.0. The Splunk Add-on for Windows version 6.0.0 includes the Splunk Add-on for Windows DNS and the Splunk Add-on for Microsoft Active Directory.\n\nThe Splunk for Microsoft Windows add-on includes predefined inputs to collect data from Windows systems and maps to normalize the data to the Common Information Model.",
         "documentation": "<p>To learn about the Splunk Add-on for Microsoft Windows, see the official documentation here on <a href=\"https://docs.splunk.com/Documentation/AddOns/released/Windows/\">docs.splunk.com</a>.</p>\n<p>For information on what has been fixed as well as known issues, see the <a href=\"https://docs.splunk.com/Documentation/AddOns/released/Windows/Releasenote\">release notes</a>.</p>",
         "documentation_source": "To learn about the Splunk Add-on for Microsoft Windows, see the official documentation here on [docs.splunk.com](https://docs.splunk.com/Documentation/AddOns/released/Windows/).\r\n\r\nFor information on what has been fixed as well as known issues, see the [release notes](https://docs.splunk.com/Documentation/AddOns/released/Windows/Releasenote).",
-        "download_count": 703886,
-        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/5e44d57e-bedf-11f0-8187-966ccfe0914f.png",
+        "download_count": 704760,
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/4cbdc214-d5ac-11f0-ad51-fa11a23b588d.png",
         "inquiry_buttontext": "",
         "inquiry_url": "",
         "is_archived": false,
@@ -43,6 +43,7 @@
         "product": "splunk",
         "product_types": [
           "enterprise",
+          "cloud",
           "itsi"
         ],
         "public": true,
@@ -98,6 +99,40 @@
           "spl_compatibility": "SPL1"
         },
         "releases": [
+          {
+            "actions": [],
+            "cim_compatibility": [
+              "5.x"
+            ],
+            "cloud_compatible": true,
+            "fips_compatibility": false,
+            "filename": "splunk-add-on-for-microsoft-windows_912.tgz",
+            "id": 40652,
+            "md5": "31a944504892f0aaed563e94d51de409",
+            "min_product_version_str": null,
+            "name": "9.1.2",
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/742/release/9.1.2/download/",
+            "platform": "independent",
+            "product_types": [
+              "cloud",
+              "enterprise"
+            ],
+            "public_ever_true": false,
+            "published_datetime": "2025-12-10T14:51:31.336420Z",
+            "release_notes": "",
+            "sha256": "ba822448d63e9bd6ce5318b7e0467888d14be9d6fa4fbd491112504464a082bc",
+            "signed_available": true,
+            "size": 514935,
+            "version_compatibility": [
+              "10.1",
+              "10.0",
+              "9.4",
+              "9.3",
+              "9.2"
+            ],
+            "spl_compatibility": "SPL1"
+          },
           {
             "actions": [],
             "cim_compatibility": [
@@ -385,7 +420,7 @@
         "troubleshooting": "",
         "troubleshooting_source": "",
         "type": "addon",
-        "updated_time": "2025-11-26T21:00:42.649658Z",
+        "updated_time": "2025-12-10T14:53:03.889584Z",
         "video_link": null,
         "app_type": "addon",
         "schedule_release": null,
@@ -402,7 +437,7 @@
   "query": {
     "id": "742"
   },
-  "buildId": "K4x29qTv3g32a2UaTv_vS",
+  "buildId": "-dydrDTPg-qODSD4H0XHN",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
