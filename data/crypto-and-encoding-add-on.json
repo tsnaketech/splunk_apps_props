@@ -47,14 +47,14 @@
         "public": true,
         "ranking": [
           {
-            "rank": 680,
-            "category_name": "security_compliance",
-            "category_display_name": "Security, Fraud & Compliance"
-          },
-          {
             "rank": 390,
             "category_name": "utilities",
             "category_display_name": "Utilities"
+          },
+          {
+            "rank": 680,
+            "category_name": "security_compliance",
+            "category_display_name": "Security, Fraud & Compliance"
           }
         ],
         "rating": {
@@ -273,7 +273,7 @@
   "query": {
     "id": "5062"
   },
-  "buildId": "-dydrDTPg-qODSD4H0XHN",
+  "buildId": "x-wgUjWDLg513XXBEmFuI",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
