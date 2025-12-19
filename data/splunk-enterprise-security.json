@@ -796,7 +796,7 @@
             "published_datetime": "2021-06-25T17:45:41.770787Z",
             "release_notes": "<p>This release of Splunk Enterprise Security includes the following enhancements:<br>\n- UX update for Incident Review<br>\n- Content management filters to triage notables<br>\n- Dispositions on notables to identify false positives<br>\n- Visualizations for improved analysis of risk notables<br>\n- CIM Data Access data model<br>\n- Ability to modify risk factors upon upgrade</p>",
             "sha256": "0e2b72f1396a82a155851b414401740179d955381498ec0d90a6dde70db2479f",
-            "signed_available": false,
+            "signed_available": true,
             "size": 676008944,
             "version_compatibility": [
               "8.2",
@@ -827,7 +827,7 @@
             "published_datetime": "2021-01-19T17:45:58.409861Z",
             "release_notes": "",
             "sha256": "f44dbc248cb85e8100f7afefe70d7949efab873269657d77e6488ba95c0df077",
-            "signed_available": false,
+            "signed_available": true,
             "size": 708911706,
             "version_compatibility": [
               "8.2",
@@ -851,7 +851,9 @@
             "passed_validation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/6.4.0/download/",
             "platform": "independent",
-            "product_types": [],
+            "product_types": [
+              "cloud"
+            ],
             "public_ever_true": false,
             "published_datetime": "2020-12-09T19:39:56.645165Z",
             "release_notes": "",
@@ -879,7 +881,9 @@
             "passed_validation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/6.2.0/download/",
             "platform": "independent",
-            "product_types": [],
+            "product_types": [
+              "cloud"
+            ],
             "public_ever_true": false,
             "published_datetime": "2020-05-30T00:56:59.152925Z",
             "release_notes": "",
@@ -936,12 +940,14 @@
             "passed_validation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/6.0.2/download/",
             "platform": "independent",
-            "product_types": [],
+            "product_types": [
+              "cloud"
+            ],
             "public_ever_true": false,
             "published_datetime": "2020-04-08T23:41:28.125671Z",
             "release_notes": "",
             "sha256": "f2920d72d25926474d44bdcbd3eb04c1f968d55e09de33b1bfc97dafeee97a3f",
-            "signed_available": false,
+            "signed_available": true,
             "size": 529855817,
             "version_compatibility": [
               "8.0",
@@ -966,7 +972,9 @@
             "passed_validation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/6.1.0/download/",
             "platform": "independent",
-            "product_types": [],
+            "product_types": [
+              "cloud"
+            ],
             "public_ever_true": false,
             "published_datetime": "2020-01-23T23:59:47.404141Z",
             "release_notes": "<p>This is a Python 3 only Release</p>",
@@ -1198,7 +1206,7 @@
         "troubleshooting": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security\">https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security</a></p>",
         "troubleshooting_source": "https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security",
         "type": "app",
-        "updated_time": "2025-11-28T13:36:25.628039Z",
+        "updated_time": "2025-12-18T17:05:15.199633Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
@@ -1215,7 +1223,7 @@
   "query": {
     "id": "263"
   },
-  "buildId": "CvYOfNE13K_VQJ0o817yW",
+  "buildId": "9oxpnQJjgRxEBqSaVOZ0T",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
