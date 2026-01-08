@@ -21,7 +21,7 @@
         "description": "The Splunk App for Splunk Attack Analyzer provides reporting dashboards to track Attack Analyzer Usage. It is used in conjunction with the Splunk Add-On for Splunk Attack Analyzer.",
         "documentation": "<p>Documentation for this App is posted at <a href=\"https://help.splunk.com/en/security-offerings/splunk-attack-analyzer/splunk-app-for-splunk-attack-analyzer/1.2/overview-of-the-splunk-app-for-splunk-attack-analyzer/get-started-with-the-splunk-app-for-splunk-attack-analyzer\">Splunk Docs</a></p>\n<p>If the solution does not support specific analytics you wish to implement please provide feedback via the <a href=\"https://ideas.splunk.com/?category=7267657706569392725\">Splunk Ideas portal</a>.</p>",
         "documentation_source": "Documentation for this App is posted at [Splunk Docs](https://help.splunk.com/en/security-offerings/splunk-attack-analyzer/splunk-app-for-splunk-attack-analyzer/1.2/overview-of-the-splunk-app-for-splunk-attack-analyzer/get-started-with-the-splunk-app-for-splunk-attack-analyzer)\n\nIf the solution does not support specific analytics you wish to implement please provide feedback via the [Splunk Ideas portal](https://ideas.splunk.com/?category=7267657706569392725).",
-        "download_count": 2134,
+        "download_count": 2136,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/6c85a400-3196-11f0-b575-b6aafbd11347.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -280,7 +280,7 @@
   "query": {
     "id": "7000"
   },
-  "buildId": "9oxpnQJjgRxEBqSaVOZ0T",
+  "buildId": "Tjl9EJZyRH-Hw2PIiH_WX",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
