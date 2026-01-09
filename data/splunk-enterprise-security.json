@@ -1215,6 +1215,11 @@
         "draft": false,
         "display_editors": false,
         "spl_compatibility": "SPL1"
+      },
+      "initialAuthState": {
+        "isLoggedIn": false,
+        "isBanned": false,
+        "isLoading": false
       }
     },
     "__N_SSP": true
@@ -1223,7 +1228,7 @@
   "query": {
     "id": "263"
   },
-  "buildId": "Tjl9EJZyRH-Hw2PIiH_WX",
+  "buildId": "1gQNUIFXNts00jR7x-FoK",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
