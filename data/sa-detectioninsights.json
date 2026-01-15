@@ -27,7 +27,7 @@
         "description": "Detection Insights is an application for Splunk Enterprise Security providing additional insights into everything surrounding and/or impacting your security detections.",
         "documentation": "<p>See the application documentation <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/\">here</a> for more information on installing, configuring and using it.</p>\n<p>Credit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.<br>\nThanks to Dean Luxton for reporting issues, fixes and improvement ideas!</p>",
         "documentation_source": "See the application documentation [here](https://splunk.github.io/Splunk_App_for_Detection_Insights/) for more information on installing, configuring and using it.\n\nCredit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.\nThanks to Dean Luxton for reporting issues, fixes and improvement ideas!",
-        "download_count": 2252,
+        "download_count": 2253,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/f1f4cbe6-5781-11f0-ba1e-5a77e051378c.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -94,14 +94,38 @@
           "signed_available": true,
           "size": 941580,
           "version_compatibility": [
-            "9.4",
-            "9.3",
-            "9.2",
-            "9.1",
-            "9.0",
-            "8.2",
-            "8.1",
-            "8.0"
+            {
+              "status": "live",
+              "versionString": "9.4"
+            },
+            {
+              "status": "live",
+              "versionString": "9.3"
+            },
+            {
+              "status": "live",
+              "versionString": "9.2"
+            },
+            {
+              "status": "live",
+              "versionString": "9.1"
+            },
+            {
+              "status": "live",
+              "versionString": "9.0"
+            },
+            {
+              "status": "live",
+              "versionString": "8.2"
+            },
+            {
+              "status": "live",
+              "versionString": "8.1"
+            },
+            {
+              "status": "live",
+              "versionString": "8.0"
+            }
           ],
           "spl_compatibility": "SPL1"
         },
@@ -133,14 +157,38 @@
             "signed_available": true,
             "size": 941580,
             "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0"
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "status": "live",
+                "versionString": "9.0"
+              },
+              {
+                "status": "live",
+                "versionString": "8.2"
+              },
+              {
+                "status": "live",
+                "versionString": "8.1"
+              },
+              {
+                "status": "live",
+                "versionString": "8.0"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -171,12 +219,30 @@
             "signed_available": true,
             "size": 937871,
             "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2"
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "status": "live",
+                "versionString": "9.0"
+              },
+              {
+                "status": "live",
+                "versionString": "8.2"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -204,12 +270,30 @@
             "signed_available": true,
             "size": 887941,
             "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2"
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "status": "live",
+                "versionString": "9.0"
+              },
+              {
+                "status": "live",
+                "versionString": "8.2"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -240,12 +324,30 @@
             "signed_available": true,
             "size": 600784,
             "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2"
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "status": "live",
+                "versionString": "9.0"
+              },
+              {
+                "status": "live",
+                "versionString": "8.2"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -276,12 +378,30 @@
             "signed_available": true,
             "size": 3943144,
             "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2"
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "status": "live",
+                "versionString": "9.0"
+              },
+              {
+                "status": "live",
+                "versionString": "8.2"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -311,12 +431,30 @@
             "signed_available": true,
             "size": 3943122,
             "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2"
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "status": "live",
+                "versionString": "9.0"
+              },
+              {
+                "status": "live",
+                "versionString": "8.2"
+              }
             ],
             "spl_compatibility": "SPL1"
           }
@@ -358,7 +496,7 @@
   "query": {
     "id": "7066"
   },
-  "buildId": "jGda2uaRLGIJ2F_gssuB7",
+  "buildId": "UGNjT-37-lEIdXsozjm3Z",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

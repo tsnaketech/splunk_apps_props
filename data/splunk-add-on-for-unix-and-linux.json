@@ -22,7 +22,7 @@
         "description": "*** Important: Read upgrade Instructions and test add-on update before deploying to production ***\nThere are changes to default indexes and .conf changes in version 6.0 of Splunk Add-on for Unix and Linux that can break an existing installation if upgrade instructions are not followed in detail. If an existing Splunk Add-on for Unix and Linux is being upgraded, please test in a non-production environment first.\n\n\nThe Splunk Add-on for Unix and Linux works with the Splunk App for Unix and Linux to provide rapid insights and operational visibility into large-scale Unix and Linux environments.  With its new pre-packaged alerting capability, flexible service-based hosts grouping, and easy management of many data sources, it arms administrators with a powerful ability to quickly identify performance and capacity bottlenecks and outliers in Unix and Linux environments.",
         "documentation": "<p>To learn about the Splunk Add-on for Unix and Linux, see the official documentation here on <a href=\"http://docs.splunk.com/Documentation/AddOns/released/UnixLinux/About\">docs.splunk.com</a>.</p>\n<p>For information on what has been fixed as well as known issues, see the <a href=\"http://docs.splunk.com/Documentation/AddOns/released/UnixLinux/Releasenotes\">release notes</a>.</p>",
         "documentation_source": "To learn about the Splunk Add-on for Unix and Linux, see the official documentation here on [docs.splunk.com](http://docs.splunk.com/Documentation/AddOns/released/UnixLinux/About).\r\n\r\nFor information on what has been fixed as well as known issues, see the [release notes](http://docs.splunk.com/Documentation/AddOns/released/UnixLinux/Releasenotes).",
-        "download_count": 435984,
+        "download_count": 436291,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/097a50d0-a37a-11f0-ad2f-52c2bd79cd3d.png",
         "inquiry_buttontext": "",
         "inquiry_url": "",
@@ -89,11 +89,26 @@
           "signed_available": true,
           "size": 978053,
           "version_compatibility": [
-            "10.1",
-            "10.0",
-            "9.4",
-            "9.3",
-            "9.2"
+            {
+              "status": "live",
+              "versionString": "10.1"
+            },
+            {
+              "status": "live",
+              "versionString": "10.0"
+            },
+            {
+              "status": "live",
+              "versionString": "9.4"
+            },
+            {
+              "status": "live",
+              "versionString": "9.3"
+            },
+            {
+              "status": "live",
+              "versionString": "9.2"
+            }
           ],
           "spl_compatibility": "SPL1"
         },
@@ -124,11 +139,26 @@
             "signed_available": true,
             "size": 978053,
             "version_compatibility": [
-              "10.1",
-              "10.0",
-              "9.4",
-              "9.3",
-              "9.2"
+              {
+                "status": "live",
+                "versionString": "10.1"
+              },
+              {
+                "status": "live",
+                "versionString": "10.0"
+              },
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -158,12 +188,83 @@
             "signed_available": true,
             "size": 134865,
             "version_compatibility": [
-              "10.1",
-              "10.0",
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1"
+              {
+                "status": "live",
+                "versionString": "10.1"
+              },
+              {
+                "status": "live",
+                "versionString": "10.0"
+              },
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              }
+            ],
+            "spl_compatibility": "SPL1"
+          },
+          {
+            "actions": [],
+            "cim_compatibility": [
+              "4.x"
+            ],
+            "cloud_compatible": true,
+            "fips_compatibility": false,
+            "filename": "splunk-add-on-for-unix-and-linux_1000.tgz",
+            "id": 36515,
+            "md5": "1a742678b9f1b294c4aafa56985d6006",
+            "min_product_version_str": null,
+            "name": "10.0.0",
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/833/release/10.0.0/download/",
+            "platform": "independent",
+            "product_types": [
+              "enterprise",
+              "cloud"
+            ],
+            "public_ever_true": false,
+            "published_datetime": "2025-02-04T11:38:22.231278Z",
+            "release_notes": "",
+            "sha256": "0daae3058f201eb5170fe244379e504a1bfaebfa4eab66620f76714ed59c13df",
+            "signed_available": true,
+            "size": 133219,
+            "version_compatibility": [
+              {
+                "status": "live",
+                "versionString": "10.1"
+              },
+              {
+                "status": "live",
+                "versionString": "10.0"
+              },
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              }
             ],
             "spl_compatibility": "SPL1"
           }
@@ -177,7 +278,7 @@
         "troubleshooting": "",
         "troubleshooting_source": "",
         "type": "addon",
-        "updated_time": "2025-12-18T16:07:07.989846Z",
+        "updated_time": "2026-01-14T09:52:27.652516Z",
         "video_link": null,
         "app_type": "addon",
         "schedule_release": null,
@@ -199,7 +300,7 @@
   "query": {
     "id": "833"
   },
-  "buildId": "jGda2uaRLGIJ2F_gssuB7",
+  "buildId": "UGNjT-37-lEIdXsozjm3Z",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

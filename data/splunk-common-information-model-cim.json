@@ -21,7 +21,7 @@
         "description": "The Common Information Model is a set of field names and tags which are expected to define the least common denominator of a domain of interest. It is implemented as documentation on the Splunk docs website and JSON data model files in this add-on. Use the CIM add-on when modeling data or building apps to ensure compatibility between apps, or to just take advantage of these data models to pivot and report.",
         "documentation": "<p><a href=\"https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on\">Release Notes</a><br>\nPlease see the <a href=\"https://help.splunk.com/en/data-management/common-information-model/6.1/introduction/overview-of-the-splunk-common-information-model\">Splunk Common Information Model Add-on user documentation</a>.</p>",
         "documentation_source": "[Release Notes](https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on)\nPlease see the [Splunk Common Information Model Add-on user documentation](https://help.splunk.com/en/data-management/common-information-model/6.1/introduction/overview-of-the-splunk-common-information-model).",
-        "download_count": 396713,
+        "download_count": 397007,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/a0b2ab74-c39a-11f0-be55-92cf29706c5d.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -82,12 +82,30 @@
           "signed_available": true,
           "size": 2229098,
           "version_compatibility": [
-            "10.1",
-            "10.0",
-            "9.4",
-            "9.3",
-            "9.2",
-            "9.1"
+            {
+              "status": "live",
+              "versionString": "10.1"
+            },
+            {
+              "status": "live",
+              "versionString": "10.0"
+            },
+            {
+              "status": "live",
+              "versionString": "9.4"
+            },
+            {
+              "status": "live",
+              "versionString": "9.3"
+            },
+            {
+              "status": "live",
+              "versionString": "9.2"
+            },
+            {
+              "status": "live",
+              "versionString": "9.1"
+            }
           ],
           "spl_compatibility": "SPL1"
         },
@@ -118,12 +136,30 @@
             "signed_available": true,
             "size": 2229098,
             "version_compatibility": [
-              "10.1",
-              "10.0",
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1"
+              {
+                "status": "live",
+                "versionString": "10.1"
+              },
+              {
+                "status": "live",
+                "versionString": "10.0"
+              },
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -153,12 +189,30 @@
             "signed_available": true,
             "size": 2229096,
             "version_compatibility": [
-              "10.1",
-              "10.0",
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1"
+              {
+                "status": "live",
+                "versionString": "10.1"
+              },
+              {
+                "status": "live",
+                "versionString": "10.0"
+              },
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -188,12 +242,30 @@
             "signed_available": true,
             "size": 2228905,
             "version_compatibility": [
-              "10.1",
-              "10.0",
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1"
+              {
+                "status": "live",
+                "versionString": "10.1"
+              },
+              {
+                "status": "live",
+                "versionString": "10.0"
+              },
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -223,11 +295,26 @@
             "signed_available": true,
             "size": 2227500,
             "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0"
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "status": "live",
+                "versionString": "9.0"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -257,11 +344,26 @@
             "signed_available": true,
             "size": 2227359,
             "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0"
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "status": "live",
+                "versionString": "9.0"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -291,11 +393,26 @@
             "signed_available": true,
             "size": 2226591,
             "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0"
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "status": "live",
+                "versionString": "9.0"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -325,11 +442,26 @@
             "signed_available": true,
             "size": 2227323,
             "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0"
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "status": "live",
+                "versionString": "9.0"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -359,11 +491,26 @@
             "signed_available": true,
             "size": 2227286,
             "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0"
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "status": "live",
+                "versionString": "9.0"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -393,11 +540,26 @@
             "signed_available": true,
             "size": 2227288,
             "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0"
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "status": "live",
+                "versionString": "9.0"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -427,11 +589,26 @@
             "signed_available": true,
             "size": 2226444,
             "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0"
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "status": "live",
+                "versionString": "9.0"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -461,11 +638,26 @@
             "signed_available": true,
             "size": 2226453,
             "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0"
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "status": "live",
+                "versionString": "9.0"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -495,12 +687,30 @@
             "signed_available": true,
             "size": 2226260,
             "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2"
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "status": "live",
+                "versionString": "9.0"
+              },
+              {
+                "status": "live",
+                "versionString": "8.2"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -530,12 +740,30 @@
             "signed_available": true,
             "size": 2226064,
             "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2"
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "status": "live",
+                "versionString": "9.0"
+              },
+              {
+                "status": "live",
+                "versionString": "8.2"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -564,12 +792,30 @@
             "signed_available": true,
             "size": 2226048,
             "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2"
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "status": "live",
+                "versionString": "9.0"
+              },
+              {
+                "status": "live",
+                "versionString": "8.2"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -598,12 +844,30 @@
             "signed_available": true,
             "size": 2171266,
             "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2"
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "status": "live",
+                "versionString": "9.0"
+              },
+              {
+                "status": "live",
+                "versionString": "8.2"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -633,12 +897,30 @@
             "signed_available": true,
             "size": 2170778,
             "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2"
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "status": "live",
+                "versionString": "9.0"
+              },
+              {
+                "status": "live",
+                "versionString": "8.2"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -665,12 +947,30 @@
             "signed_available": true,
             "size": 2168892,
             "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2"
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "status": "live",
+                "versionString": "9.0"
+              },
+              {
+                "status": "live",
+                "versionString": "8.2"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -695,12 +995,30 @@
             "signed_available": true,
             "size": 2168638,
             "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2"
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "status": "live",
+                "versionString": "9.0"
+              },
+              {
+                "status": "live",
+                "versionString": "8.2"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -727,14 +1045,38 @@
             "signed_available": true,
             "size": 2053708,
             "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0"
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "status": "live",
+                "versionString": "9.0"
+              },
+              {
+                "status": "live",
+                "versionString": "8.2"
+              },
+              {
+                "status": "live",
+                "versionString": "8.1"
+              },
+              {
+                "status": "live",
+                "versionString": "8.0"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -761,14 +1103,38 @@
             "signed_available": true,
             "size": 2054907,
             "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0"
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "status": "live",
+                "versionString": "9.0"
+              },
+              {
+                "status": "live",
+                "versionString": "8.2"
+              },
+              {
+                "status": "live",
+                "versionString": "8.1"
+              },
+              {
+                "status": "live",
+                "versionString": "8.0"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -795,14 +1161,38 @@
             "signed_available": true,
             "size": 258322,
             "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0"
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "status": "live",
+                "versionString": "9.0"
+              },
+              {
+                "status": "live",
+                "versionString": "8.2"
+              },
+              {
+                "status": "live",
+                "versionString": "8.1"
+              },
+              {
+                "status": "live",
+                "versionString": "8.0"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -829,14 +1219,38 @@
             "signed_available": true,
             "size": 257913,
             "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0"
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "status": "live",
+                "versionString": "9.0"
+              },
+              {
+                "status": "live",
+                "versionString": "8.2"
+              },
+              {
+                "status": "live",
+                "versionString": "8.1"
+              },
+              {
+                "status": "live",
+                "versionString": "8.0"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -863,14 +1277,38 @@
             "signed_available": true,
             "size": 257829,
             "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0"
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "status": "live",
+                "versionString": "9.0"
+              },
+              {
+                "status": "live",
+                "versionString": "8.2"
+              },
+              {
+                "status": "live",
+                "versionString": "8.1"
+              },
+              {
+                "status": "live",
+                "versionString": "8.0"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -897,15 +1335,42 @@
             "signed_available": true,
             "size": 254514,
             "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3"
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "status": "live",
+                "versionString": "9.0"
+              },
+              {
+                "status": "live",
+                "versionString": "8.2"
+              },
+              {
+                "status": "live",
+                "versionString": "8.1"
+              },
+              {
+                "status": "live",
+                "versionString": "8.0"
+              },
+              {
+                "status": "live",
+                "versionString": "7.3"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -932,16 +1397,46 @@
             "signed_available": true,
             "size": 254079,
             "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3",
-              "7.2"
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "status": "live",
+                "versionString": "9.0"
+              },
+              {
+                "status": "live",
+                "versionString": "8.2"
+              },
+              {
+                "status": "live",
+                "versionString": "8.1"
+              },
+              {
+                "status": "live",
+                "versionString": "8.0"
+              },
+              {
+                "status": "live",
+                "versionString": "7.3"
+              },
+              {
+                "status": "live",
+                "versionString": "7.2"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -969,17 +1464,50 @@
             "signed_available": true,
             "size": 253353,
             "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3",
-              "7.2",
-              "7.1"
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "status": "live",
+                "versionString": "9.0"
+              },
+              {
+                "status": "live",
+                "versionString": "8.2"
+              },
+              {
+                "status": "live",
+                "versionString": "8.1"
+              },
+              {
+                "status": "live",
+                "versionString": "8.0"
+              },
+              {
+                "status": "live",
+                "versionString": "7.3"
+              },
+              {
+                "status": "live",
+                "versionString": "7.2"
+              },
+              {
+                "status": "live",
+                "versionString": "7.1"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -1006,16 +1534,46 @@
             "signed_available": true,
             "size": 198774,
             "version_compatibility": [
-              "9.4",
-              "9.3",
-              "9.2",
-              "9.1",
-              "9.0",
-              "8.2",
-              "8.1",
-              "8.0",
-              "7.3",
-              "7.2"
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "status": "live",
+                "versionString": "9.0"
+              },
+              {
+                "status": "live",
+                "versionString": "8.2"
+              },
+              {
+                "status": "live",
+                "versionString": "8.1"
+              },
+              {
+                "status": "live",
+                "versionString": "8.0"
+              },
+              {
+                "status": "live",
+                "versionString": "7.3"
+              },
+              {
+                "status": "live",
+                "versionString": "7.2"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -1042,9 +1600,18 @@
             "signed_available": true,
             "size": 197340,
             "version_compatibility": [
-              "7.3",
-              "7.2",
-              "7.1"
+              {
+                "status": "live",
+                "versionString": "7.3"
+              },
+              {
+                "status": "live",
+                "versionString": "7.2"
+              },
+              {
+                "status": "live",
+                "versionString": "7.1"
+              }
             ],
             "spl_compatibility": "SPL1"
           },
@@ -1069,9 +1636,18 @@
             "signed_available": true,
             "size": 260333,
             "version_compatibility": [
-              "7.2",
-              "7.1",
-              "7.0"
+              {
+                "status": "live",
+                "versionString": "7.2"
+              },
+              {
+                "status": "live",
+                "versionString": "7.1"
+              },
+              {
+                "status": "live",
+                "versionString": "7.0"
+              }
             ],
             "spl_compatibility": "SPL1"
           }
@@ -1113,7 +1689,7 @@
   "query": {
     "id": "1621"
   },
-  "buildId": "jGda2uaRLGIJ2F_gssuB7",
+  "buildId": "UGNjT-37-lEIdXsozjm3Z",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
