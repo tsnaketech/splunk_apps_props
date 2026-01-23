@@ -5,6 +5,7 @@
         "id": 5062,
         "access": "unrestricted",
         "approved": true,
+        "approval_status": "approved",
         "categories": [
           "security_compliance",
           "utilities"
@@ -419,7 +420,7 @@
   "query": {
     "id": "5062"
   },
-  "buildId": "IxZstuCX1T2ivJhhgshdD",
+  "buildId": "nJ7F-e7DxYWgu0h9_1s-R",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

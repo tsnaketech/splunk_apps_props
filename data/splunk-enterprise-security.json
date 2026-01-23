@@ -5,6 +5,7 @@
         "id": 263,
         "access": "restricted",
         "approved": true,
+        "approval_status": "approved",
         "categories": [
           "security_compliance"
         ],
@@ -1534,7 +1535,7 @@
   "query": {
     "id": "263"
   },
-  "buildId": "IxZstuCX1T2ivJhhgshdD",
+  "buildId": "nJ7F-e7DxYWgu0h9_1s-R",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

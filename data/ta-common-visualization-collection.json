@@ -5,6 +5,7 @@
         "id": 6137,
         "access": "unrestricted",
         "approved": true,
+        "approval_status": "approved",
         "categories": [
           "utilities"
         ],
@@ -111,7 +112,7 @@
   "query": {
     "id": "6137"
   },
-  "buildId": "IxZstuCX1T2ivJhhgshdD",
+  "buildId": "nJ7F-e7DxYWgu0h9_1s-R",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
