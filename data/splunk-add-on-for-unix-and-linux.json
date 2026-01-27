@@ -23,7 +23,7 @@
         "description": "*** Important: Read upgrade Instructions and test add-on update before deploying to production ***\nThere are changes to default indexes and .conf changes in version 6.0 of Splunk Add-on for Unix and Linux that can break an existing installation if upgrade instructions are not followed in detail. If an existing Splunk Add-on for Unix and Linux is being upgraded, please test in a non-production environment first.\n\n\nThe Splunk Add-on for Unix and Linux works with the Splunk App for Unix and Linux to provide rapid insights and operational visibility into large-scale Unix and Linux environments.  With its new pre-packaged alerting capability, flexible service-based hosts grouping, and easy management of many data sources, it arms administrators with a powerful ability to quickly identify performance and capacity bottlenecks and outliers in Unix and Linux environments.",
         "documentation": "<p>To learn about the Splunk Add-on for Unix and Linux, see the official documentation here on <a href=\"http://docs.splunk.com/Documentation/AddOns/released/UnixLinux/About\">docs.splunk.com</a>.</p>\n<p>For information on what has been fixed as well as known issues, see the <a href=\"http://docs.splunk.com/Documentation/AddOns/released/UnixLinux/Releasenotes\">release notes</a>.</p>",
         "documentation_source": "To learn about the Splunk Add-on for Unix and Linux, see the official documentation here on [docs.splunk.com](http://docs.splunk.com/Documentation/AddOns/released/UnixLinux/About).\r\n\r\nFor information on what has been fixed as well as known issues, see the [release notes](http://docs.splunk.com/Documentation/AddOns/released/UnixLinux/Releasenotes).",
-        "download_count": 438779,
+        "download_count": 438803,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/097a50d0-a37a-11f0-ad2f-52c2bd79cd3d.png",
         "inquiry_buttontext": "",
         "inquiry_url": "",
@@ -44,7 +44,6 @@
         "product": "splunk",
         "product_types": [
           "enterprise",
-          "cloud",
           "itsi"
         ],
         "public": true,
@@ -221,7 +220,7 @@
             "cim_compatibility": [
               "4.x"
             ],
-            "cloud_compatible": true,
+            "cloud_compatible": false,
             "fips_compatibility": false,
             "filename": "splunk-add-on-for-unix-and-linux_1000.tgz",
             "id": 36515,
@@ -232,8 +231,7 @@
             "path": "https://splunkbase.splunk.com/app/833/release/10.0.0/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "enterprise"
             ],
             "public_ever_true": false,
             "published_datetime": "2025-02-04T11:38:22.231278Z",
@@ -279,7 +277,7 @@
         "troubleshooting": "",
         "troubleshooting_source": "",
         "type": "addon",
-        "updated_time": "2026-01-14T09:52:27.652516Z",
+        "updated_time": "2026-01-26T15:18:35.865892Z",
         "video_link": null,
         "app_type": "addon",
         "schedule_release": null,
@@ -301,7 +299,7 @@
   "query": {
     "id": "833"
   },
-  "buildId": "nJ7F-e7DxYWgu0h9_1s-R",
+  "buildId": "fzzI26OnBYcQtWji2tRS_",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
