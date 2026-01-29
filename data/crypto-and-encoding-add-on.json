@@ -48,14 +48,14 @@
         "public": true,
         "ranking": [
           {
-            "rank": 391,
-            "category_name": "utilities",
-            "category_display_name": "Utilities"
-          },
-          {
             "rank": 675,
             "category_name": "security_compliance",
             "category_display_name": "Security, Fraud & Compliance"
+          },
+          {
+            "rank": 391,
+            "category_name": "utilities",
+            "category_display_name": "Utilities"
           }
         ],
         "rating": {
@@ -144,8 +144,8 @@
             "path": "https://splunkbase.splunk.com/app/5062/release/2.4.3/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public_ever_true": false,
             "published_datetime": "2025-09-12T10:26:54.974108Z",
@@ -420,7 +420,7 @@
   "query": {
     "id": "5062"
   },
-  "buildId": "iJmW0Hc19OYUO89MNTyTr",
+  "buildId": "1r7eDDv1ZoUsY87-SM6UY",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
