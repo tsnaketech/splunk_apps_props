@@ -22,7 +22,7 @@
         "description": "The Splunk Add-on for Apache Web Server allows a Splunk software administrator to collect and analyze data from Apache Web Server using file monitoring. After the Splunk platform indexes the events, you can analyze the data using the prebuilt panels included with the add-on. \n\nThis add-on provides the inputs and CIM-compatible knowledge to use with other Splunk apps, such as Web.",
         "documentation": "<p>Documentation for this add-on can be found here: <a href=\"http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About\">http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About</a></p>",
         "documentation_source": "Documentation for this add-on can be found here: http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About",
-        "download_count": 34841,
+        "download_count": 34874,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/da5f5090-00e2-11f1-b6d6-ded197cc3891.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": null,
@@ -65,24 +65,24 @@
           ],
           "cloud_compatible": true,
           "fips_compatibility": false,
-          "filename": "splunk-add-on-for-apache-web-server_220.tgz",
-          "id": 40372,
-          "md5": "eb31f01e85e8adfc9eff4f72fe1e99b8",
+          "filename": "splunk-add-on-for-apache-web-server_221.tgz",
+          "id": 41271,
+          "md5": "4e9e68b77e2092bdc843a9cc40de4176",
           "min_product_version_str": null,
-          "name": "2.2.0",
+          "name": "2.2.1",
           "passed_validation": true,
-          "path": "https://splunkbase.splunk.com/app/3186/release/2.2.0/download/",
+          "path": "https://splunkbase.splunk.com/app/3186/release/2.2.1/download/",
           "platform": "independent",
           "product_types": [
             "enterprise",
             "cloud"
           ],
           "public_ever_true": false,
-          "published_datetime": "2025-11-12T13:07:02.979193Z",
-          "release_notes": "",
-          "sha256": "5077453565dd5fc708a929cf9316d333bdcff1b1d235ece841aeb704f9d7d185",
+          "published_datetime": "2026-02-05T07:51:00.696673Z",
+          "release_notes": "<p>fix: request_bytes field's regex is fixed to accept both digits and - (dash)</p>",
+          "sha256": "aad75530e831a5a80a130e0e5e8bc944e88c7038c780be0bcf005ed15a929ec3",
           "signed_available": true,
-          "size": 881195,
+          "size": 862701,
           "version_compatibility": [
             {
               "status": "live",
@@ -116,6 +116,63 @@
           "spl_compatibility": "SPL1"
         },
         "releases": [
+          {
+            "actions": [],
+            "cim_compatibility": [
+              "6.x"
+            ],
+            "cloud_compatible": true,
+            "fips_compatibility": false,
+            "filename": "splunk-add-on-for-apache-web-server_221.tgz",
+            "id": 41271,
+            "md5": "4e9e68b77e2092bdc843a9cc40de4176",
+            "min_product_version_str": null,
+            "name": "2.2.1",
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/3186/release/2.2.1/download/",
+            "platform": "independent",
+            "product_types": [
+              "enterprise",
+              "cloud"
+            ],
+            "public_ever_true": false,
+            "published_datetime": "2026-02-05T07:51:00.696673Z",
+            "release_notes": "<p>fix: request_bytes field's regex is fixed to accept both digits and - (dash)</p>",
+            "sha256": "aad75530e831a5a80a130e0e5e8bc944e88c7038c780be0bcf005ed15a929ec3",
+            "signed_available": true,
+            "size": 862701,
+            "version_compatibility": [
+              {
+                "status": "live",
+                "versionString": "10.2"
+              },
+              {
+                "status": "live",
+                "versionString": "10.1"
+              },
+              {
+                "status": "live",
+                "versionString": "10.0"
+              },
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "status": "live",
+                "versionString": "9.1"
+              }
+            ],
+            "spl_compatibility": "SPL1"
+          },
           {
             "actions": [],
             "cim_compatibility": [
@@ -248,7 +305,7 @@
         "troubleshooting": "",
         "troubleshooting_source": "",
         "type": "addon",
-        "updated_time": "2026-02-03T09:31:45.795407Z",
+        "updated_time": "2026-02-05T07:51:05.558737Z",
         "video_link": null,
         "app_type": "addon",
         "schedule_release": null,
@@ -270,7 +327,7 @@
   "query": {
     "id": "3186"
   },
-  "buildId": "0HIM9j_GST8u4hcF5fr8L",
+  "buildId": "ECChHvqFtf1HmONujQHAV",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
