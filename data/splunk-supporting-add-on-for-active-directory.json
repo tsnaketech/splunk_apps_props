@@ -29,8 +29,8 @@
         "description": "This app (also known as SA-ldapsearch) provides support functions to the Content Pack for Windows Dashboards and Reports (https://docs.splunk.com/Documentation/CPWindowsDash/latest/CP/About), Content Pack for Microsoft Exchange (https://docs.splunk.com/Documentation/CPExchange/latest/CP/About) that enable you to extract information from an Active Directory database. For instance, you can search Active Directory for records, presenting the records as events, or augment existing events with information from Active Directory based on information within the events.",
         "documentation": "<p>To learn about the Splunk Supporting Add-on for Active Directory, see the official documentation here on <a href=\"http://docs.splunk.com/Documentation/SA-LdapSearch/latest\">docs.splunk.com</a>.</p>\n<p>For information on what has been fixed as well as known issues, see the <a href=\"http://docs.splunk.com/Documentation/SA-LdapSearch/latest/User/ReleaseNotes\">release notes</a>.</p>",
         "documentation_source": "To learn about the Splunk Supporting Add-on for Active Directory, see the official documentation here on [docs.splunk.com](http://docs.splunk.com/Documentation/SA-LdapSearch/latest).\r\n\r\nFor information on what has been fixed as well as known issues, see the [release notes](http://docs.splunk.com/Documentation/SA-LdapSearch/latest/User/ReleaseNotes).",
-        "download_count": 173808,
-        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/c6b2bc1c-b214-11ef-a1e5-6e40c79c81fa.png",
+        "download_count": 173845,
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/c3de9670-0383-11f1-b535-c29e547e703e.png",
         "inquiry_buttontext": "",
         "inquiry_url": "",
         "is_archived": false,
@@ -49,8 +49,7 @@
         "license_agreement_read_required": false,
         "product": "splunk",
         "product_types": [
-          "enterprise",
-          "cloud"
+          "enterprise"
         ],
         "public": true,
         "ranking": [
@@ -69,25 +68,29 @@
           "cim_compatibility": [],
           "cloud_compatible": true,
           "fips_compatibility": false,
-          "filename": "splunk-supporting-add-on-for-active-directory_311.tgz",
-          "id": 35835,
-          "md5": "6af4b2e35c92c7f234b6e6c5360309f2",
+          "filename": "splunk-supporting-add-on-for-active-directory_320.tgz",
+          "id": 41327,
+          "md5": "93122178ead1b3f0084620340270b3b6",
           "min_product_version_str": null,
-          "name": "3.1.1",
+          "name": "3.2.0",
           "passed_validation": true,
-          "path": "https://splunkbase.splunk.com/app/1151/release/3.1.1/download/",
+          "path": "https://splunkbase.splunk.com/app/1151/release/3.2.0/download/",
           "platform": "independent",
           "product_types": [
             "enterprise",
             "cloud"
           ],
           "public_ever_true": false,
-          "published_datetime": "2024-12-10T14:34:38.931716Z",
-          "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/SA-LdapSearch/3.1.1/User/ReleaseNotes\">https://docs.splunk.com/Documentation/SA-LdapSearch/3.1.1/User/ReleaseNotes</a></p>",
-          "sha256": "fb4b7b97a02206c700fe030af7ee0eb1aa5015646e6dd323eb01eced076552d2",
+          "published_datetime": "2026-02-06T17:46:28.839368Z",
+          "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/SA-LdapSearch/3.2.0/User/ReleaseNotes#Release_notes_for_Splunk_Supporting_Add-on_for_Active_Directory\">https://docs.splunk.com/Documentation/SA-LdapSearch/3.2.0/User/ReleaseNotes#Release_notes_for_Splunk_Supporting_Add-on_for_Active_Directory</a></p>",
+          "sha256": "8b8eb5736cf9d1237dd525529f6fcdd384eaf620684163ee13d5aac8a3c88bb6",
           "signed_available": true,
-          "size": 1404091,
+          "size": 1412814,
           "version_compatibility": [
+            {
+              "status": "live",
+              "versionString": "10.2"
+            },
             {
               "status": "live",
               "versionString": "10.1"
@@ -103,19 +106,58 @@
             {
               "status": "live",
               "versionString": "9.3"
-            },
-            {
-              "status": "live",
-              "versionString": "9.2"
-            },
-            {
-              "status": "live",
-              "versionString": "9.1"
             }
           ],
           "spl_compatibility": "SPL1"
         },
         "releases": [
+          {
+            "actions": [],
+            "cim_compatibility": [],
+            "cloud_compatible": true,
+            "fips_compatibility": false,
+            "filename": "splunk-supporting-add-on-for-active-directory_320.tgz",
+            "id": 41327,
+            "md5": "93122178ead1b3f0084620340270b3b6",
+            "min_product_version_str": null,
+            "name": "3.2.0",
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/1151/release/3.2.0/download/",
+            "platform": "independent",
+            "product_types": [
+              "enterprise",
+              "cloud"
+            ],
+            "public_ever_true": false,
+            "published_datetime": "2026-02-06T17:46:28.839368Z",
+            "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/SA-LdapSearch/3.2.0/User/ReleaseNotes#Release_notes_for_Splunk_Supporting_Add-on_for_Active_Directory\">https://docs.splunk.com/Documentation/SA-LdapSearch/3.2.0/User/ReleaseNotes#Release_notes_for_Splunk_Supporting_Add-on_for_Active_Directory</a></p>",
+            "sha256": "8b8eb5736cf9d1237dd525529f6fcdd384eaf620684163ee13d5aac8a3c88bb6",
+            "signed_available": true,
+            "size": 1412814,
+            "version_compatibility": [
+              {
+                "status": "live",
+                "versionString": "10.2"
+              },
+              {
+                "status": "live",
+                "versionString": "10.1"
+              },
+              {
+                "status": "live",
+                "versionString": "10.0"
+              },
+              {
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "status": "live",
+                "versionString": "9.3"
+              }
+            ],
+            "spl_compatibility": "SPL1"
+          },
           {
             "actions": [],
             "cim_compatibility": [],
@@ -208,680 +250,6 @@
               }
             ],
             "spl_compatibility": "SPL1"
-          },
-          {
-            "actions": [],
-            "cim_compatibility": [],
-            "cloud_compatible": false,
-            "fips_compatibility": false,
-            "filename": "splunk-supporting-add-on-for-active-directory_308.tgz",
-            "id": 30487,
-            "md5": "233a41c2c06ca05a5688abda64a63af1",
-            "min_product_version_str": null,
-            "name": "3.0.8",
-            "passed_validation": true,
-            "path": "https://splunkbase.splunk.com/app/1151/release/3.0.8/download/",
-            "platform": "independent",
-            "product_types": [
-              "enterprise"
-            ],
-            "public_ever_true": false,
-            "published_datetime": "2023-09-06T13:20:45.135957Z",
-            "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/SA-LdapSearch/3.0.8/User/ReleaseNotes\">https://docs.splunk.com/Documentation/SA-LdapSearch/3.0.8/User/ReleaseNotes</a></p>",
-            "sha256": "d703da8b8ff73200caf115eaf587b25bd719c31aff3e70d3fcea09bd7ac76919",
-            "signed_available": true,
-            "size": 894754,
-            "version_compatibility": [
-              {
-                "status": "live",
-                "versionString": "9.2"
-              },
-              {
-                "status": "live",
-                "versionString": "9.1"
-              },
-              {
-                "status": "live",
-                "versionString": "9.0"
-              },
-              {
-                "status": "live",
-                "versionString": "8.2"
-              }
-            ],
-            "spl_compatibility": "SPL1"
-          },
-          {
-            "actions": [],
-            "cim_compatibility": [],
-            "cloud_compatible": false,
-            "fips_compatibility": false,
-            "filename": "splunk-supporting-add-on-for-active-directory_307.tgz",
-            "id": 28835,
-            "md5": "740eb30b887d66d4cd3f678341ad1ac6",
-            "min_product_version_str": null,
-            "name": "3.0.7",
-            "passed_validation": true,
-            "path": "https://splunkbase.splunk.com/app/1151/release/3.0.7/download/",
-            "platform": "independent",
-            "product_types": [
-              "enterprise"
-            ],
-            "public_ever_true": false,
-            "published_datetime": "2023-03-20T06:16:43.595519Z",
-            "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/SA-LdapSearch/3.0.7/User/ReleaseNotes\">https://docs.splunk.com/Documentation/SA-LdapSearch/3.0.7/User/ReleaseNotes</a></p>",
-            "sha256": "425f10c02cd646ff0596aeb4fdd26e6955a41363ba2097633c4300da4bb7d7e8",
-            "signed_available": true,
-            "size": 894716,
-            "version_compatibility": [
-              {
-                "status": "live",
-                "versionString": "9.4"
-              },
-              {
-                "status": "live",
-                "versionString": "9.3"
-              },
-              {
-                "status": "live",
-                "versionString": "9.2"
-              },
-              {
-                "status": "live",
-                "versionString": "9.1"
-              },
-              {
-                "status": "live",
-                "versionString": "9.0"
-              },
-              {
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "status": "live",
-                "versionString": "8.1"
-              }
-            ],
-            "spl_compatibility": "SPL1"
-          },
-          {
-            "actions": [],
-            "cim_compatibility": [],
-            "cloud_compatible": false,
-            "fips_compatibility": false,
-            "filename": "splunk-supporting-add-on-for-active-directory_306.tgz",
-            "id": 27917,
-            "md5": "12a0f8577fb58e9b8687fbba0688154e",
-            "min_product_version_str": null,
-            "name": "3.0.6",
-            "passed_validation": true,
-            "path": "https://splunkbase.splunk.com/app/1151/release/3.0.6/download/",
-            "platform": "independent",
-            "product_types": [
-              "enterprise"
-            ],
-            "public_ever_true": false,
-            "published_datetime": "2022-12-08T19:32:20.408008Z",
-            "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/SA-LdapSearch/3.0.6/User/ReleaseNotes\">https://docs.splunk.com/Documentation/SA-LdapSearch/3.0.6/User/ReleaseNotes</a></p>",
-            "sha256": "2641fdd4c7a86e3607a1f7f8e47ce85ea7ee577f6d9442a05472f4f1d45d0394",
-            "signed_available": true,
-            "size": 894691,
-            "version_compatibility": [
-              {
-                "status": "live",
-                "versionString": "9.4"
-              },
-              {
-                "status": "live",
-                "versionString": "9.3"
-              },
-              {
-                "status": "live",
-                "versionString": "9.2"
-              },
-              {
-                "status": "live",
-                "versionString": "9.1"
-              },
-              {
-                "status": "live",
-                "versionString": "9.0"
-              },
-              {
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "status": "live",
-                "versionString": "8.1"
-              }
-            ],
-            "spl_compatibility": "SPL1"
-          },
-          {
-            "actions": [],
-            "cim_compatibility": [],
-            "cloud_compatible": false,
-            "fips_compatibility": false,
-            "filename": "splunk-supporting-add-on-for-active-directory_305.tgz",
-            "id": 27008,
-            "md5": "6d5663e443e84a13e9a8642702085120",
-            "min_product_version_str": null,
-            "name": "3.0.5",
-            "passed_validation": true,
-            "path": "https://splunkbase.splunk.com/app/1151/release/3.0.5/download/",
-            "platform": "independent",
-            "product_types": [
-              "enterprise"
-            ],
-            "public_ever_true": false,
-            "published_datetime": "2022-09-09T13:40:37.068712Z",
-            "release_notes": "<p>Release Notes: <a href=\"https://docs.splunk.com/Documentation/SA-LdapSearch/3.0.5/User/ReleaseNotes\">https://docs.splunk.com/Documentation/SA-LdapSearch/3.0.5/User/ReleaseNotes</a></p>",
-            "sha256": "0eb1087909f3b8d36feae51f2bd0243f650107f1aedca8eb90d4ab0af271ffc4",
-            "signed_available": true,
-            "size": 894758,
-            "version_compatibility": [
-              {
-                "status": "live",
-                "versionString": "9.4"
-              },
-              {
-                "status": "live",
-                "versionString": "9.3"
-              },
-              {
-                "status": "live",
-                "versionString": "9.2"
-              },
-              {
-                "status": "live",
-                "versionString": "9.1"
-              },
-              {
-                "status": "live",
-                "versionString": "9.0"
-              },
-              {
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "status": "live",
-                "versionString": "8.1"
-              }
-            ],
-            "spl_compatibility": "SPL1"
-          },
-          {
-            "actions": [],
-            "cim_compatibility": [],
-            "cloud_compatible": false,
-            "fips_compatibility": false,
-            "filename": "splunk-supporting-add-on-for-active-directory_304.tgz",
-            "id": 24187,
-            "md5": "46176c5c39c5c282469ef1d606c393a6",
-            "min_product_version_str": null,
-            "name": "3.0.4",
-            "passed_validation": true,
-            "path": "https://splunkbase.splunk.com/app/1151/release/3.0.4/download/",
-            "platform": "independent",
-            "product_types": [],
-            "public_ever_true": false,
-            "published_datetime": "2022-03-14T12:15:37.705922Z",
-            "release_notes": "<p>Release Notes: <a href=\"https://docs.splunk.com/Documentation/SA-LdapSearch/3.0.4/User/ReleaseNotes\">https://docs.splunk.com/Documentation/SA-LdapSearch/3.0.4/User/ReleaseNotes</a></p>",
-            "sha256": "8964f7b0c5bdb09bf1156231d95477e68c5b2ce33f07e5cc281aa6421594dd63",
-            "signed_available": true,
-            "size": 890774,
-            "version_compatibility": [
-              {
-                "status": "live",
-                "versionString": "9.4"
-              },
-              {
-                "status": "live",
-                "versionString": "9.3"
-              },
-              {
-                "status": "live",
-                "versionString": "9.2"
-              },
-              {
-                "status": "live",
-                "versionString": "9.1"
-              },
-              {
-                "status": "live",
-                "versionString": "9.0"
-              },
-              {
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "status": "live",
-                "versionString": "8.1"
-              },
-              {
-                "status": "live",
-                "versionString": "8.0"
-              }
-            ],
-            "spl_compatibility": "SPL1"
-          },
-          {
-            "actions": [],
-            "cim_compatibility": [],
-            "cloud_compatible": false,
-            "fips_compatibility": false,
-            "filename": "splunk-supporting-add-on-for-active-directory_303.tgz",
-            "id": 21087,
-            "md5": "10e5b24039b015afbf71d5ef5eebd778",
-            "min_product_version_str": null,
-            "name": "3.0.3",
-            "passed_validation": true,
-            "path": "https://splunkbase.splunk.com/app/1151/release/3.0.3/download/",
-            "platform": "independent",
-            "product_types": [],
-            "public_ever_true": false,
-            "published_datetime": "2021-07-20T13:09:32.364062Z",
-            "release_notes": "<p>Release Notes: <a href=\"https://docs.splunk.com/Documentation/SA-LdapSearch/3.0.3/User/ReleaseNotes\">https://docs.splunk.com/Documentation/SA-LdapSearch/3.0.3/User/ReleaseNotes</a></p>",
-            "sha256": "0737178a57400bf36ec83992870c8686e903242af860efb55cf1ebf75873e412",
-            "signed_available": true,
-            "size": 889379,
-            "version_compatibility": [
-              {
-                "status": "live",
-                "versionString": "9.4"
-              },
-              {
-                "status": "live",
-                "versionString": "9.3"
-              },
-              {
-                "status": "live",
-                "versionString": "9.2"
-              },
-              {
-                "status": "live",
-                "versionString": "9.1"
-              },
-              {
-                "status": "live",
-                "versionString": "9.0"
-              },
-              {
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "status": "live",
-                "versionString": "8.1"
-              },
-              {
-                "status": "live",
-                "versionString": "8.0"
-              }
-            ],
-            "spl_compatibility": "SPL1"
-          },
-          {
-            "actions": [],
-            "cim_compatibility": [],
-            "cloud_compatible": false,
-            "fips_compatibility": false,
-            "filename": "splunk-supporting-add-on-for-active-directory_302.tgz",
-            "id": 19154,
-            "md5": "944c936f3a85741682ea0555f943760d",
-            "min_product_version_str": null,
-            "name": "3.0.2",
-            "passed_validation": true,
-            "path": "https://splunkbase.splunk.com/app/1151/release/3.0.2/download/",
-            "platform": "independent",
-            "product_types": [],
-            "public_ever_true": false,
-            "published_datetime": "2021-01-04T16:43:11.634587Z",
-            "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/SA-LdapSearch/3.0.2/User/ReleaseNotes#Release_Notes_for_Splunk_Supporting_Add-on_for_Active_Directory\">https://docs.splunk.com/Documentation/SA-LdapSearch/3.0.2/User/ReleaseNotes#Release_Notes_for_Splunk_Supporting_Add-on_for_Active_Directory</a></p>",
-            "sha256": "083da5555f66398be992b4e2c440255008a10e7b7cb2ed9ee603c1bcf26d5d48",
-            "signed_available": true,
-            "size": 682158,
-            "version_compatibility": [
-              {
-                "status": "live",
-                "versionString": "9.4"
-              },
-              {
-                "status": "live",
-                "versionString": "9.3"
-              },
-              {
-                "status": "live",
-                "versionString": "9.2"
-              },
-              {
-                "status": "live",
-                "versionString": "9.1"
-              },
-              {
-                "status": "live",
-                "versionString": "9.0"
-              },
-              {
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "status": "live",
-                "versionString": "8.1"
-              },
-              {
-                "status": "live",
-                "versionString": "8.0"
-              },
-              {
-                "status": "live",
-                "versionString": "7.3"
-              }
-            ],
-            "spl_compatibility": "SPL1"
-          },
-          {
-            "actions": [],
-            "cim_compatibility": [],
-            "cloud_compatible": false,
-            "fips_compatibility": true,
-            "filename": "splunk-supporting-add-on-for-active-directory_301.tgz",
-            "id": 15648,
-            "md5": "4e01651d2aab2fa29a2de14a557f759a",
-            "min_product_version_str": null,
-            "name": "3.0.1",
-            "passed_validation": true,
-            "path": "https://splunkbase.splunk.com/app/1151/release/3.0.1/download/",
-            "platform": "independent",
-            "product_types": [],
-            "public_ever_true": false,
-            "published_datetime": "2020-02-29T21:01:40.254289Z",
-            "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/SA-LdapSearch/3.0.1/User/ReleaseNotes\">https://docs.splunk.com/Documentation/SA-LdapSearch/3.0.1/User/ReleaseNotes</a></p>",
-            "sha256": "082df35b82ab94e38c02048ba6f073f24b6461ec22b835643cafd72826ffa342",
-            "signed_available": true,
-            "size": 531466,
-            "version_compatibility": [
-              {
-                "status": "live",
-                "versionString": "9.4"
-              },
-              {
-                "status": "live",
-                "versionString": "9.3"
-              },
-              {
-                "status": "live",
-                "versionString": "9.2"
-              },
-              {
-                "status": "live",
-                "versionString": "9.1"
-              },
-              {
-                "status": "live",
-                "versionString": "9.0"
-              },
-              {
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "status": "live",
-                "versionString": "8.1"
-              },
-              {
-                "status": "live",
-                "versionString": "8.0"
-              },
-              {
-                "status": "live",
-                "versionString": "7.3"
-              },
-              {
-                "status": "live",
-                "versionString": "7.2"
-              }
-            ],
-            "spl_compatibility": "SPL1"
-          },
-          {
-            "actions": [],
-            "cim_compatibility": [
-              "4.x"
-            ],
-            "cloud_compatible": false,
-            "fips_compatibility": true,
-            "filename": "splunk-supporting-add-on-for-active-directory_300.tgz",
-            "id": 14441,
-            "md5": "9ec9a874c21f2bb02a29fab6a46b039f",
-            "min_product_version_str": null,
-            "name": "3.0.0",
-            "passed_validation": true,
-            "path": "https://splunkbase.splunk.com/app/1151/release/3.0.0/download/",
-            "platform": "independent",
-            "product_types": [],
-            "public_ever_true": false,
-            "published_datetime": "2019-10-20T05:07:28.372737Z",
-            "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/SA-LdapSearch/3.0.0/User/ReleaseNotes#Release_Notes_for_Splunk_Supporting_Add-on_for_Active_Directory\">https://docs.splunk.com/Documentation/SA-LdapSearch/3.0.0/User/ReleaseNotes#Release_Notes_for_Splunk_Supporting_Add-on_for_Active_Directory</a></p>",
-            "sha256": "d1ff0b59b98e8126cb814912b01ebc58eaea91204f1610b85ee2d95dcae65492",
-            "signed_available": true,
-            "size": 531519,
-            "version_compatibility": [
-              {
-                "status": "live",
-                "versionString": "9.4"
-              },
-              {
-                "status": "live",
-                "versionString": "9.3"
-              },
-              {
-                "status": "live",
-                "versionString": "9.2"
-              },
-              {
-                "status": "live",
-                "versionString": "9.1"
-              },
-              {
-                "status": "live",
-                "versionString": "9.0"
-              },
-              {
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "status": "live",
-                "versionString": "8.1"
-              },
-              {
-                "status": "live",
-                "versionString": "8.0"
-              },
-              {
-                "status": "live",
-                "versionString": "7.3"
-              },
-              {
-                "status": "live",
-                "versionString": "7.2"
-              }
-            ],
-            "spl_compatibility": "SPL1"
-          },
-          {
-            "actions": [],
-            "cim_compatibility": [],
-            "cloud_compatible": false,
-            "fips_compatibility": false,
-            "filename": "splunk-supporting-add-on-for-active-directory_221.tgz",
-            "id": 13201,
-            "md5": "82d014fb64482b0ce977a9e9bfde0ae1",
-            "min_product_version_str": null,
-            "name": "2.2.1",
-            "passed_validation": true,
-            "path": "https://splunkbase.splunk.com/app/1151/release/2.2.1/download/",
-            "platform": "independent",
-            "product_types": [],
-            "public_ever_true": false,
-            "published_datetime": "2019-05-28T19:29:50.162958Z",
-            "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/SA-LdapSearch/2.2.1/User/ReleaseNotes#Fixed_issues\">https://docs.splunk.com/Documentation/SA-LdapSearch/2.2.1/User/ReleaseNotes#Fixed_issues</a></p>",
-            "sha256": "3c5679270b2ad7e303723565edef05ed0f06ad7552fab9c5d15d33148f997522",
-            "signed_available": true,
-            "size": 514978,
-            "version_compatibility": [
-              {
-                "status": "live",
-                "versionString": "7.3"
-              },
-              {
-                "status": "live",
-                "versionString": "7.2"
-              },
-              {
-                "status": "live",
-                "versionString": "7.1"
-              }
-            ],
-            "spl_compatibility": "SPL1"
-          },
-          {
-            "actions": [],
-            "cim_compatibility": [],
-            "cloud_compatible": false,
-            "fips_compatibility": false,
-            "filename": "splunk-supporting-add-on-for-active-directory_220.tgz",
-            "id": 11995,
-            "md5": "5e78047dbe2466ae891b2c519dca234b",
-            "min_product_version_str": null,
-            "name": "2.2.0",
-            "passed_validation": true,
-            "path": "https://splunkbase.splunk.com/app/1151/release/2.2.0/download/",
-            "platform": "independent",
-            "product_types": [],
-            "public_ever_true": false,
-            "published_datetime": "2019-01-03T18:15:58.202493Z",
-            "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/SA-LdapSearch/2.2.0/User/ReleaseNotes\">https://docs.splunk.com/Documentation/SA-LdapSearch/2.2.0/User/ReleaseNotes</a></p>",
-            "sha256": "7519abb04189c1d9ee41550d217b43693fbd64c662ed271b219cce4dd01d677c",
-            "signed_available": true,
-            "size": 485908,
-            "version_compatibility": [
-              {
-                "status": "live",
-                "versionString": "7.2"
-              },
-              {
-                "status": "live",
-                "versionString": "7.1"
-              },
-              {
-                "status": "live",
-                "versionString": "7.0"
-              }
-            ],
-            "spl_compatibility": "SPL1"
-          },
-          {
-            "actions": [],
-            "cim_compatibility": [],
-            "cloud_compatible": false,
-            "fips_compatibility": false,
-            "filename": "splunk-supporting-add-on-for-active-directory_218.tgz",
-            "id": 11468,
-            "md5": "006b4d857da8f2d9fe5a9017d74cabcb",
-            "min_product_version_str": null,
-            "name": "2.1.8",
-            "passed_validation": true,
-            "path": "https://splunkbase.splunk.com/app/1151/release/2.1.8/download/",
-            "platform": "independent",
-            "product_types": [],
-            "public_ever_true": false,
-            "published_datetime": "2018-10-16T21:36:30.682895Z",
-            "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/SA-LdapSearch/2.1.8/User/ReleaseNotes\">https://docs.splunk.com/Documentation/SA-LdapSearch/2.1.8/User/ReleaseNotes</a></p>\n<p>This release adds a new feature for Alternate Domain Name parameter in the Configuration Page of Splunk Supporting Add-on for Active Directory (SA-LDAPSearch).</p>\n<p>Validation will be applied to Alternate Domain Name parameter if it is not entered in UPPERCASE. A placeholder Please enter in capital letters appears as a hint during the Alternate Domain Name input.</p>\n<p>See the known issues and fixed issues of these release notes for other product updates.</p>",
-            "sha256": "91d7d874cadb95fe59fbbe47a6c14ccb690c85033da9657f9291ebfa77bc498b",
-            "signed_available": true,
-            "size": 283301,
-            "version_compatibility": [
-              {
-                "status": "live",
-                "versionString": "7.2"
-              },
-              {
-                "status": "live",
-                "versionString": "7.1"
-              },
-              {
-                "status": "live",
-                "versionString": "7.0"
-              }
-            ],
-            "spl_compatibility": "SPL1"
-          },
-          {
-            "actions": [],
-            "cim_compatibility": [],
-            "cloud_compatible": false,
-            "fips_compatibility": false,
-            "filename": "splunk-supporting-add-on-for-active-directory_217.tgz",
-            "id": 10472,
-            "md5": "6db744a8162ef0d43db2b512e375f587",
-            "min_product_version_str": null,
-            "name": "2.1.7",
-            "passed_validation": true,
-            "path": "https://splunkbase.splunk.com/app/1151/release/2.1.7/download/",
-            "platform": "independent",
-            "product_types": [],
-            "public_ever_true": false,
-            "published_datetime": "2018-06-04T22:34:07.621559Z",
-            "release_notes": "<p><a href=\"http://docs.splunk.com/Documentation/SA-LdapSearch/2.1.7/User/ReleaseNotes\">http://docs.splunk.com/Documentation/SA-LdapSearch/2.1.7/User/ReleaseNotes</a></p>",
-            "sha256": "7571f7583ba1eab46c100f621d071ba1fd5bd0c26bb108ba16ed2b3526e63073",
-            "signed_available": true,
-            "size": 283312,
-            "version_compatibility": [
-              {
-                "status": "live",
-                "versionString": "7.1"
-              },
-              {
-                "status": "live",
-                "versionString": "7.0"
-              }
-            ],
-            "spl_compatibility": "SPL1"
-          },
-          {
-            "actions": [],
-            "cim_compatibility": [],
-            "cloud_compatible": false,
-            "fips_compatibility": false,
-            "filename": "splunk-supporting-add-on-for-active-directory_216.tgz",
-            "id": 9362,
-            "md5": "db5636300f99de035f62251f75f553e3",
-            "min_product_version_str": null,
-            "name": "2.1.6",
-            "passed_validation": true,
-            "path": "https://splunkbase.splunk.com/app/1151/release/2.1.6/download/",
-            "platform": "independent",
-            "product_types": [],
-            "public_ever_true": false,
-            "published_datetime": "2017-12-21T18:17:33.254491Z",
-            "release_notes": "",
-            "sha256": "cdf2f01da32db7facb5336666a4359bdaf7ba48b064574b419a52cf958571979",
-            "signed_available": true,
-            "size": 273918,
-            "version_compatibility": [
-              {
-                "status": "live",
-                "versionString": "7.0"
-              }
-            ],
-            "spl_compatibility": "SPL1"
           }
         ],
         "repo_name": "",
@@ -893,7 +261,7 @@
         "troubleshooting": "",
         "troubleshooting_source": "",
         "type": "addon",
-        "updated_time": "2025-12-18T16:00:09.741147Z",
+        "updated_time": "2026-02-06T22:04:47.882853Z",
         "video_link": null,
         "app_type": "addon",
         "schedule_release": null,
