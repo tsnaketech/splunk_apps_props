@@ -117,6 +117,50 @@
             ],
             "cloud_compatible": true,
             "fips_compatibility": true,
+            "filename": "splunk-enterprise-security_840.spl",
+            "id": 41237,
+            "md5": "59ed18d664ef0077147c8997699652e7",
+            "min_product_version_str": null,
+            "name": "8.4.0",
+            "passed_validation": false,
+            "path": "https://splunkbase.splunk.com/app/263/release/8.4.0/download/",
+            "platform": "independent",
+            "product_types": [
+              "cloud"
+            ],
+            "public_ever_true": false,
+            "published_datetime": "2026-01-30T22:11:27.518555Z",
+            "release_notes": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.4/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security\">https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.4/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security</a></p>",
+            "sha256": "58c165fc74d72117c3bf0ca9607c651243bc02f253dc32339b1cd9871a1d11de",
+            "signed_available": true,
+            "size": 771499444,
+            "version_compatibility": [
+              {
+                "status": "live",
+                "versionString": "10.2"
+              },
+              {
+                "status": "live",
+                "versionString": "10.1"
+              },
+              {
+                "status": "live",
+                "versionString": "10.0"
+              },
+              {
+                "status": "live",
+                "versionString": "9.4"
+              }
+            ],
+            "spl_compatibility": "SPL1"
+          },
+          {
+            "actions": [],
+            "cim_compatibility": [
+              "6.x"
+            ],
+            "cloud_compatible": true,
+            "fips_compatibility": true,
             "filename": "splunk-enterprise-security_830.spl",
             "id": 40389,
             "md5": "9bb04811dc198606b262fedeb9884a75",
@@ -380,8 +424,8 @@
             "path": "https://splunkbase.splunk.com/app/263/release/8.0.31/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "public_ever_true": false,
             "published_datetime": "2025-04-17T11:51:07.850308Z",
@@ -421,8 +465,8 @@
             "path": "https://splunkbase.splunk.com/app/263/release/8.0.3/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "public_ever_true": false,
             "published_datetime": "2025-03-24T22:16:46.559677Z",
@@ -462,8 +506,8 @@
             "path": "https://splunkbase.splunk.com/app/263/release/7.3.3/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "public_ever_true": false,
             "published_datetime": "2025-02-12T19:46:52.758725Z",
@@ -1513,7 +1557,7 @@
         "troubleshooting": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security\">https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security</a></p>",
         "troubleshooting_source": "https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security",
         "type": "app",
-        "updated_time": "2026-02-09T20:52:24.541432Z",
+        "updated_time": "2026-02-10T15:49:01.215227Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
@@ -1535,7 +1579,7 @@
   "query": {
     "id": "263"
   },
-  "buildId": "n6A9NN3lT-Q3RkLAsFfx3",
+  "buildId": "EC5w16Q6nNV9Fhj2mQ5iL",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

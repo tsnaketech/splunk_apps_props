@@ -28,7 +28,7 @@
         "description": "Detection Insights is an application for Splunk Enterprise Security providing additional insights into everything surrounding and/or impacting your security detections.",
         "documentation": "<p>See the application documentation <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/\">here</a> for more information on installing, configuring and using it.</p>\n<p>Credit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.<br>\nThanks to Dean Luxton for reporting issues, fixes and improvement ideas!</p>",
         "documentation_source": "See the application documentation [here](https://splunk.github.io/Splunk_App_for_Detection_Insights/) for more information on installing, configuring and using it.\n\nCredit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.\nThanks to Dean Luxton for reporting issues, fixes and improvement ideas!",
-        "download_count": 2307,
+        "download_count": 2308,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/f1f4cbe6-5781-11f0-ba1e-5a77e051378c.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -148,8 +148,8 @@
             "path": "https://splunkbase.splunk.com/app/7066/release/1.3.0/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "public_ever_true": false,
             "published_datetime": "2025-07-02T20:23:52.516205Z",
@@ -210,8 +210,8 @@
             "path": "https://splunkbase.splunk.com/app/7066/release/1.2.0/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "public_ever_true": false,
             "published_datetime": "2024-11-25T22:04:34.373396Z",
@@ -261,8 +261,8 @@
             "path": "https://splunkbase.splunk.com/app/7066/release/1.1.0/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "public_ever_true": false,
             "published_datetime": "2024-02-13T16:54:12.704694Z",
@@ -315,8 +315,8 @@
             "path": "https://splunkbase.splunk.com/app/7066/release/1.0.9/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "public_ever_true": false,
             "published_datetime": "2023-12-12T20:35:27.959854Z",
@@ -369,8 +369,8 @@
             "path": "https://splunkbase.splunk.com/app/7066/release/1.0.7/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "public_ever_true": false,
             "published_datetime": "2023-10-10T19:43:40.599652Z",
@@ -497,7 +497,7 @@
   "query": {
     "id": "7066"
   },
-  "buildId": "n6A9NN3lT-Q3RkLAsFfx3",
+  "buildId": "EC5w16Q6nNV9Fhj2mQ5iL",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

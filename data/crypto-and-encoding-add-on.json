@@ -144,8 +144,8 @@
             "path": "https://splunkbase.splunk.com/app/5062/release/2.4.3/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "public_ever_true": false,
             "published_datetime": "2025-09-12T10:26:54.974108Z",
@@ -420,7 +420,7 @@
   "query": {
     "id": "5062"
   },
-  "buildId": "n6A9NN3lT-Q3RkLAsFfx3",
+  "buildId": "EC5w16Q6nNV9Fhj2mQ5iL",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
