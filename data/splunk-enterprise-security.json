@@ -84,7 +84,7 @@
             "cloud"
           ],
           "public_ever_true": false,
-          "published_datetime": "2026-01-30T22:11:27.518555Z",
+          "published_datetime": "2026-02-18T22:11:27Z",
           "release_notes": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.4/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security\">https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.4/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security</a></p>",
           "sha256": "58c165fc74d72117c3bf0ca9607c651243bc02f253dc32339b1cd9871a1d11de",
           "signed_available": true,
@@ -130,7 +130,7 @@
               "enterprise"
             ],
             "public_ever_true": false,
-            "published_datetime": "2026-01-30T22:11:27.518555Z",
+            "published_datetime": "2026-02-18T22:11:27Z",
             "release_notes": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.4/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security\">https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.4/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security</a></p>",
             "sha256": "58c165fc74d72117c3bf0ca9607c651243bc02f253dc32339b1cd9871a1d11de",
             "signed_available": true,
@@ -1558,7 +1558,7 @@
         "troubleshooting": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security\">https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security</a></p>",
         "troubleshooting_source": "https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security",
         "type": "app",
-        "updated_time": "2026-02-18T22:07:35.252860Z",
+        "updated_time": "2026-02-23T13:00:53.877670Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
