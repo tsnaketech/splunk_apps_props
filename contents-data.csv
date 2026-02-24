@@ -14,10 +14,10 @@ Splunk Add-on for Unix and Linux,splunk-add-on-for-unix-and-linux.json,10.2.0,10
 Splunk App for Anomaly Detection,splunk-app-for-anomaly-detection.json,1.1.2,1.1.1,2023-11-15 22:20:07
 Splunk App for Lookup File Editing,splunk-app-for-lookup-file-editing.json,4.0.6,4.0.5,2025-09-11 15:09:25
 Splunk App for Splunk Attack Analyzer,splunk-app-for-splunk-attack-analyzer.json,1.2.1,1.2.0,2025-06-03 13:55:11
-Splunk Common Information Model (CIM),splunk-common-information-model-cim.json,6.4.0,6.3.0,2026-02-05 01:56:01
+Splunk Common Information Model (CIM),splunk-common-information-model-cim.json,6.4.0,6.3.0,2026-02-18 01:56:01
 Splunk Connect for Syslog,splunk-connect-for-syslog.json,N/A,N/A,1970-01-01 00:00:00
 Splunk Dashboard Examples,splunk-dashboard-examples.json,8.2.6,8.2.5,2022-12-19 20:05:52
-Splunk Enterprise Security,splunk-enterprise-security.json,8.4.0,8.3.0,2026-01-30 22:11:27
+Splunk Enterprise Security,splunk-enterprise-security.json,8.4.0,8.3.0,2026-02-18 22:11:27
 Splunk ES Content Update,splunk-es-content-update.json,5.22.0,5.21.0,2026-02-19 16:06:00
 Splunk Security Essentials,splunk-security-essentials.json,3.8.3,3.8.2,2026-01-21 20:07:13
 Splunk Supporting Add-on for Active Directory,splunk-supporting-add-on-for-active-directory.json,3.2.0,3.1.1,2026-02-06 17:46:28
