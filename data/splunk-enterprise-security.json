@@ -183,6 +183,10 @@
             "version_compatibility": [
               {
                 "status": "live",
+                "versionString": "10.2"
+              },
+              {
+                "status": "live",
                 "versionString": "10.1"
               },
               {
@@ -1558,7 +1562,7 @@
         "troubleshooting": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security\">https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security</a></p>",
         "troubleshooting_source": "https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security",
         "type": "app",
-        "updated_time": "2026-02-23T13:00:53.877670Z",
+        "updated_time": "2026-03-06T18:21:19.623612Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
