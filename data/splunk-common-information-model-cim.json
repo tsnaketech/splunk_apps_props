@@ -22,7 +22,7 @@
         "description": "The Common Information Model is a set of field names and tags which are expected to define the least common denominator of a domain of interest. It is implemented as documentation on the Splunk docs website and JSON data model files in this add-on. Use the CIM add-on when modeling data or building apps to ensure compatibility between apps, or to just take advantage of these data models to pivot and report.",
         "documentation": "<p><a href=\"https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on\">Release Notes</a><br>\nPlease see the <a href=\"https://help.splunk.com/en/data-management/common-information-model/6.1/introduction/overview-of-the-splunk-common-information-model\">Splunk Common Information Model Add-on user documentation</a>.</p>",
         "documentation_source": "[Release Notes](https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on)\nPlease see the [Splunk Common Information Model Add-on user documentation](https://help.splunk.com/en/data-management/common-information-model/6.1/introduction/overview-of-the-splunk-common-information-model).",
-        "download_count": 408843,
+        "download_count": 409073,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/2777280a-fe2a-11f0-8296-8a8f9113370e.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -84,30 +84,37 @@
           "size": 2229272,
           "version_compatibility": [
             {
+              "id": 127,
               "status": "live",
               "versionString": "10.2"
             },
             {
+              "id": 121,
               "status": "live",
               "versionString": "10.1"
             },
             {
+              "id": 119,
               "status": "live",
               "versionString": "10.0"
             },
             {
+              "id": 115,
               "status": "live",
               "versionString": "9.4"
             },
             {
+              "id": 111,
               "status": "live",
               "versionString": "9.3"
             },
             {
+              "id": 110,
               "status": "live",
               "versionString": "9.2"
             },
             {
+              "id": 59,
               "status": "live",
               "versionString": "9.1"
             }
@@ -142,30 +149,37 @@
             "size": 2229272,
             "version_compatibility": [
               {
+                "id": 127,
                 "status": "live",
                 "versionString": "10.2"
               },
               {
+                "id": 121,
                 "status": "live",
                 "versionString": "10.1"
               },
               {
+                "id": 119,
                 "status": "live",
                 "versionString": "10.0"
               },
               {
+                "id": 115,
                 "status": "live",
                 "versionString": "9.4"
               },
               {
+                "id": 111,
                 "status": "live",
                 "versionString": "9.3"
               },
               {
+                "id": 110,
                 "status": "live",
                 "versionString": "9.2"
               },
               {
+                "id": 59,
                 "status": "live",
                 "versionString": "9.1"
               }
@@ -199,30 +213,37 @@
             "size": 2229098,
             "version_compatibility": [
               {
+                "id": 127,
                 "status": "live",
                 "versionString": "10.2"
               },
               {
+                "id": 121,
                 "status": "live",
                 "versionString": "10.1"
               },
               {
+                "id": 119,
                 "status": "live",
                 "versionString": "10.0"
               },
               {
+                "id": 115,
                 "status": "live",
                 "versionString": "9.4"
               },
               {
+                "id": 111,
                 "status": "live",
                 "versionString": "9.3"
               },
               {
+                "id": 110,
                 "status": "live",
                 "versionString": "9.2"
               },
               {
+                "id": 59,
                 "status": "live",
                 "versionString": "9.1"
               }
@@ -256,26 +277,32 @@
             "size": 2229096,
             "version_compatibility": [
               {
+                "id": 121,
                 "status": "live",
                 "versionString": "10.1"
               },
               {
+                "id": 119,
                 "status": "live",
                 "versionString": "10.0"
               },
               {
+                "id": 115,
                 "status": "live",
                 "versionString": "9.4"
               },
               {
+                "id": 111,
                 "status": "live",
                 "versionString": "9.3"
               },
               {
+                "id": 110,
                 "status": "live",
                 "versionString": "9.2"
               },
               {
+                "id": 59,
                 "status": "live",
                 "versionString": "9.1"
               }
@@ -309,26 +336,32 @@
             "size": 2228905,
             "version_compatibility": [
               {
+                "id": 121,
                 "status": "live",
                 "versionString": "10.1"
               },
               {
+                "id": 119,
                 "status": "live",
                 "versionString": "10.0"
               },
               {
+                "id": 115,
                 "status": "live",
                 "versionString": "9.4"
               },
               {
+                "id": 111,
                 "status": "live",
                 "versionString": "9.3"
               },
               {
+                "id": 110,
                 "status": "live",
                 "versionString": "9.2"
               },
               {
+                "id": 59,
                 "status": "live",
                 "versionString": "9.1"
               }
@@ -362,22 +395,27 @@
             "size": 2227500,
             "version_compatibility": [
               {
+                "id": 115,
                 "status": "live",
                 "versionString": "9.4"
               },
               {
+                "id": 111,
                 "status": "live",
                 "versionString": "9.3"
               },
               {
+                "id": 110,
                 "status": "live",
                 "versionString": "9.2"
               },
               {
+                "id": 59,
                 "status": "live",
                 "versionString": "9.1"
               },
               {
+                "id": 54,
                 "status": "live",
                 "versionString": "9.0"
               }
@@ -411,22 +449,27 @@
             "size": 2227359,
             "version_compatibility": [
               {
+                "id": 115,
                 "status": "live",
                 "versionString": "9.4"
               },
               {
+                "id": 111,
                 "status": "live",
                 "versionString": "9.3"
               },
               {
+                "id": 110,
                 "status": "live",
                 "versionString": "9.2"
               },
               {
+                "id": 59,
                 "status": "live",
                 "versionString": "9.1"
               },
               {
+                "id": 54,
                 "status": "live",
                 "versionString": "9.0"
               }
@@ -460,22 +503,27 @@
             "size": 2226591,
             "version_compatibility": [
               {
+                "id": 115,
                 "status": "live",
                 "versionString": "9.4"
               },
               {
+                "id": 111,
                 "status": "live",
                 "versionString": "9.3"
               },
               {
+                "id": 110,
                 "status": "live",
                 "versionString": "9.2"
               },
               {
+                "id": 59,
                 "status": "live",
                 "versionString": "9.1"
               },
               {
+                "id": 54,
                 "status": "live",
                 "versionString": "9.0"
               }
@@ -509,22 +557,27 @@
             "size": 2227323,
             "version_compatibility": [
               {
+                "id": 115,
                 "status": "live",
                 "versionString": "9.4"
               },
               {
+                "id": 111,
                 "status": "live",
                 "versionString": "9.3"
               },
               {
+                "id": 110,
                 "status": "live",
                 "versionString": "9.2"
               },
               {
+                "id": 59,
                 "status": "live",
                 "versionString": "9.1"
               },
               {
+                "id": 54,
                 "status": "live",
                 "versionString": "9.0"
               }
@@ -558,22 +611,27 @@
             "size": 2227286,
             "version_compatibility": [
               {
+                "id": 115,
                 "status": "live",
                 "versionString": "9.4"
               },
               {
+                "id": 111,
                 "status": "live",
                 "versionString": "9.3"
               },
               {
+                "id": 110,
                 "status": "live",
                 "versionString": "9.2"
               },
               {
+                "id": 59,
                 "status": "live",
                 "versionString": "9.1"
               },
               {
+                "id": 54,
                 "status": "live",
                 "versionString": "9.0"
               }
@@ -607,22 +665,27 @@
             "size": 2227288,
             "version_compatibility": [
               {
+                "id": 115,
                 "status": "live",
                 "versionString": "9.4"
               },
               {
+                "id": 111,
                 "status": "live",
                 "versionString": "9.3"
               },
               {
+                "id": 110,
                 "status": "live",
                 "versionString": "9.2"
               },
               {
+                "id": 59,
                 "status": "live",
                 "versionString": "9.1"
               },
               {
+                "id": 54,
                 "status": "live",
                 "versionString": "9.0"
               }
@@ -656,22 +719,27 @@
             "size": 2226444,
             "version_compatibility": [
               {
+                "id": 115,
                 "status": "live",
                 "versionString": "9.4"
               },
               {
+                "id": 111,
                 "status": "live",
                 "versionString": "9.3"
               },
               {
+                "id": 110,
                 "status": "live",
                 "versionString": "9.2"
               },
               {
+                "id": 59,
                 "status": "live",
                 "versionString": "9.1"
               },
               {
+                "id": 54,
                 "status": "live",
                 "versionString": "9.0"
               }
@@ -705,22 +773,27 @@
             "size": 2226453,
             "version_compatibility": [
               {
+                "id": 115,
                 "status": "live",
                 "versionString": "9.4"
               },
               {
+                "id": 111,
                 "status": "live",
                 "versionString": "9.3"
               },
               {
+                "id": 110,
                 "status": "live",
                 "versionString": "9.2"
               },
               {
+                "id": 59,
                 "status": "live",
                 "versionString": "9.1"
               },
               {
+                "id": 54,
                 "status": "live",
                 "versionString": "9.0"
               }
@@ -754,26 +827,32 @@
             "size": 2226260,
             "version_compatibility": [
               {
+                "id": 115,
                 "status": "live",
                 "versionString": "9.4"
               },
               {
+                "id": 111,
                 "status": "live",
                 "versionString": "9.3"
               },
               {
+                "id": 110,
                 "status": "live",
                 "versionString": "9.2"
               },
               {
+                "id": 59,
                 "status": "live",
                 "versionString": "9.1"
               },
               {
+                "id": 54,
                 "status": "live",
                 "versionString": "9.0"
               },
               {
+                "id": 32,
                 "status": "live",
                 "versionString": "8.2"
               }
@@ -807,26 +886,32 @@
             "size": 2226064,
             "version_compatibility": [
               {
+                "id": 115,
                 "status": "live",
                 "versionString": "9.4"
               },
               {
+                "id": 111,
                 "status": "live",
                 "versionString": "9.3"
               },
               {
+                "id": 110,
                 "status": "live",
                 "versionString": "9.2"
               },
               {
+                "id": 59,
                 "status": "live",
                 "versionString": "9.1"
               },
               {
+                "id": 54,
                 "status": "live",
                 "versionString": "9.0"
               },
               {
+                "id": 32,
                 "status": "live",
                 "versionString": "8.2"
               }
@@ -859,26 +944,32 @@
             "size": 2226048,
             "version_compatibility": [
               {
+                "id": 115,
                 "status": "live",
                 "versionString": "9.4"
               },
               {
+                "id": 111,
                 "status": "live",
                 "versionString": "9.3"
               },
               {
+                "id": 110,
                 "status": "live",
                 "versionString": "9.2"
               },
               {
+                "id": 59,
                 "status": "live",
                 "versionString": "9.1"
               },
               {
+                "id": 54,
                 "status": "live",
                 "versionString": "9.0"
               },
               {
+                "id": 32,
                 "status": "live",
                 "versionString": "8.2"
               }
@@ -911,26 +1002,32 @@
             "size": 2171266,
             "version_compatibility": [
               {
+                "id": 115,
                 "status": "live",
                 "versionString": "9.4"
               },
               {
+                "id": 111,
                 "status": "live",
                 "versionString": "9.3"
               },
               {
+                "id": 110,
                 "status": "live",
                 "versionString": "9.2"
               },
               {
+                "id": 59,
                 "status": "live",
                 "versionString": "9.1"
               },
               {
+                "id": 54,
                 "status": "live",
                 "versionString": "9.0"
               },
               {
+                "id": 32,
                 "status": "live",
                 "versionString": "8.2"
               }
@@ -964,26 +1061,32 @@
             "size": 2170778,
             "version_compatibility": [
               {
+                "id": 115,
                 "status": "live",
                 "versionString": "9.4"
               },
               {
+                "id": 111,
                 "status": "live",
                 "versionString": "9.3"
               },
               {
+                "id": 110,
                 "status": "live",
                 "versionString": "9.2"
               },
               {
+                "id": 59,
                 "status": "live",
                 "versionString": "9.1"
               },
               {
+                "id": 54,
                 "status": "live",
                 "versionString": "9.0"
               },
               {
+                "id": 32,
                 "status": "live",
                 "versionString": "8.2"
               }
@@ -1014,26 +1117,32 @@
             "size": 2168892,
             "version_compatibility": [
               {
+                "id": 115,
                 "status": "live",
                 "versionString": "9.4"
               },
               {
+                "id": 111,
                 "status": "live",
                 "versionString": "9.3"
               },
               {
+                "id": 110,
                 "status": "live",
                 "versionString": "9.2"
               },
               {
+                "id": 59,
                 "status": "live",
                 "versionString": "9.1"
               },
               {
+                "id": 54,
                 "status": "live",
                 "versionString": "9.0"
               },
               {
+                "id": 32,
                 "status": "live",
                 "versionString": "8.2"
               }
@@ -1062,26 +1171,32 @@
             "size": 2168638,
             "version_compatibility": [
               {
+                "id": 115,
                 "status": "live",
                 "versionString": "9.4"
               },
               {
+                "id": 111,
                 "status": "live",
                 "versionString": "9.3"
               },
               {
+                "id": 110,
                 "status": "live",
                 "versionString": "9.2"
               },
               {
+                "id": 59,
                 "status": "live",
                 "versionString": "9.1"
               },
               {
+                "id": 54,
                 "status": "live",
                 "versionString": "9.0"
               },
               {
+                "id": 32,
                 "status": "live",
                 "versionString": "8.2"
               }
@@ -1112,34 +1227,42 @@
             "size": 2053708,
             "version_compatibility": [
               {
+                "id": 115,
                 "status": "live",
                 "versionString": "9.4"
               },
               {
+                "id": 111,
                 "status": "live",
                 "versionString": "9.3"
               },
               {
+                "id": 110,
                 "status": "live",
                 "versionString": "9.2"
               },
               {
+                "id": 59,
                 "status": "live",
                 "versionString": "9.1"
               },
               {
+                "id": 54,
                 "status": "live",
                 "versionString": "9.0"
               },
               {
+                "id": 32,
                 "status": "live",
                 "versionString": "8.2"
               },
               {
+                "id": 31,
                 "status": "live",
                 "versionString": "8.1"
               },
               {
+                "id": 25,
                 "status": "live",
                 "versionString": "8.0"
               }
@@ -1170,34 +1293,42 @@
             "size": 2054907,
             "version_compatibility": [
               {
+                "id": 115,
                 "status": "live",
                 "versionString": "9.4"
               },
               {
+                "id": 111,
                 "status": "live",
                 "versionString": "9.3"
               },
               {
+                "id": 110,
                 "status": "live",
                 "versionString": "9.2"
               },
               {
+                "id": 59,
                 "status": "live",
                 "versionString": "9.1"
               },
               {
+                "id": 54,
                 "status": "live",
                 "versionString": "9.0"
               },
               {
+                "id": 32,
                 "status": "live",
                 "versionString": "8.2"
               },
               {
+                "id": 31,
                 "status": "live",
                 "versionString": "8.1"
               },
               {
+                "id": 25,
                 "status": "live",
                 "versionString": "8.0"
               }
@@ -1228,34 +1359,42 @@
             "size": 258322,
             "version_compatibility": [
               {
+                "id": 115,
                 "status": "live",
                 "versionString": "9.4"
               },
               {
+                "id": 111,
                 "status": "live",
                 "versionString": "9.3"
               },
               {
+                "id": 110,
                 "status": "live",
                 "versionString": "9.2"
               },
               {
+                "id": 59,
                 "status": "live",
                 "versionString": "9.1"
               },
               {
+                "id": 54,
                 "status": "live",
                 "versionString": "9.0"
               },
               {
+                "id": 32,
                 "status": "live",
                 "versionString": "8.2"
               },
               {
+                "id": 31,
                 "status": "live",
                 "versionString": "8.1"
               },
               {
+                "id": 25,
                 "status": "live",
                 "versionString": "8.0"
               }
@@ -1286,34 +1425,42 @@
             "size": 257913,
             "version_compatibility": [
               {
+                "id": 115,
                 "status": "live",
                 "versionString": "9.4"
               },
               {
+                "id": 111,
                 "status": "live",
                 "versionString": "9.3"
               },
               {
+                "id": 110,
                 "status": "live",
                 "versionString": "9.2"
               },
               {
+                "id": 59,
                 "status": "live",
                 "versionString": "9.1"
               },
               {
+                "id": 54,
                 "status": "live",
                 "versionString": "9.0"
               },
               {
+                "id": 32,
                 "status": "live",
                 "versionString": "8.2"
               },
               {
+                "id": 31,
                 "status": "live",
                 "versionString": "8.1"
               },
               {
+                "id": 25,
                 "status": "live",
                 "versionString": "8.0"
               }
@@ -1344,34 +1491,42 @@
             "size": 257829,
             "version_compatibility": [
               {
+                "id": 115,
                 "status": "live",
                 "versionString": "9.4"
               },
               {
+                "id": 111,
                 "status": "live",
                 "versionString": "9.3"
               },
               {
+                "id": 110,
                 "status": "live",
                 "versionString": "9.2"
               },
               {
+                "id": 59,
                 "status": "live",
                 "versionString": "9.1"
               },
               {
+                "id": 54,
                 "status": "live",
                 "versionString": "9.0"
               },
               {
+                "id": 32,
                 "status": "live",
                 "versionString": "8.2"
               },
               {
+                "id": 31,
                 "status": "live",
                 "versionString": "8.1"
               },
               {
+                "id": 25,
                 "status": "live",
                 "versionString": "8.0"
               }
@@ -1402,38 +1557,47 @@
             "size": 254514,
             "version_compatibility": [
               {
+                "id": 115,
                 "status": "live",
                 "versionString": "9.4"
               },
               {
+                "id": 111,
                 "status": "live",
                 "versionString": "9.3"
               },
               {
+                "id": 110,
                 "status": "live",
                 "versionString": "9.2"
               },
               {
+                "id": 59,
                 "status": "live",
                 "versionString": "9.1"
               },
               {
+                "id": 54,
                 "status": "live",
                 "versionString": "9.0"
               },
               {
+                "id": 32,
                 "status": "live",
                 "versionString": "8.2"
               },
               {
+                "id": 31,
                 "status": "live",
                 "versionString": "8.1"
               },
               {
+                "id": 25,
                 "status": "live",
                 "versionString": "8.0"
               },
               {
+                "id": 24,
                 "status": "live",
                 "versionString": "7.3"
               }
@@ -1464,42 +1628,52 @@
             "size": 254079,
             "version_compatibility": [
               {
+                "id": 115,
                 "status": "live",
                 "versionString": "9.4"
               },
               {
+                "id": 111,
                 "status": "live",
                 "versionString": "9.3"
               },
               {
+                "id": 110,
                 "status": "live",
                 "versionString": "9.2"
               },
               {
+                "id": 59,
                 "status": "live",
                 "versionString": "9.1"
               },
               {
+                "id": 54,
                 "status": "live",
                 "versionString": "9.0"
               },
               {
+                "id": 32,
                 "status": "live",
                 "versionString": "8.2"
               },
               {
+                "id": 31,
                 "status": "live",
                 "versionString": "8.1"
               },
               {
+                "id": 25,
                 "status": "live",
                 "versionString": "8.0"
               },
               {
+                "id": 24,
                 "status": "live",
                 "versionString": "7.3"
               },
               {
+                "id": 21,
                 "status": "live",
                 "versionString": "7.2"
               }
@@ -1531,46 +1705,57 @@
             "size": 253353,
             "version_compatibility": [
               {
+                "id": 115,
                 "status": "live",
                 "versionString": "9.4"
               },
               {
+                "id": 111,
                 "status": "live",
                 "versionString": "9.3"
               },
               {
+                "id": 110,
                 "status": "live",
                 "versionString": "9.2"
               },
               {
+                "id": 59,
                 "status": "live",
                 "versionString": "9.1"
               },
               {
+                "id": 54,
                 "status": "live",
                 "versionString": "9.0"
               },
               {
+                "id": 32,
                 "status": "live",
                 "versionString": "8.2"
               },
               {
+                "id": 31,
                 "status": "live",
                 "versionString": "8.1"
               },
               {
+                "id": 25,
                 "status": "live",
                 "versionString": "8.0"
               },
               {
+                "id": 24,
                 "status": "live",
                 "versionString": "7.3"
               },
               {
+                "id": 21,
                 "status": "live",
                 "versionString": "7.2"
               },
               {
+                "id": 20,
                 "status": "live",
                 "versionString": "7.1"
               }
@@ -1601,42 +1786,52 @@
             "size": 198774,
             "version_compatibility": [
               {
+                "id": 115,
                 "status": "live",
                 "versionString": "9.4"
               },
               {
+                "id": 111,
                 "status": "live",
                 "versionString": "9.3"
               },
               {
+                "id": 110,
                 "status": "live",
                 "versionString": "9.2"
               },
               {
+                "id": 59,
                 "status": "live",
                 "versionString": "9.1"
               },
               {
+                "id": 54,
                 "status": "live",
                 "versionString": "9.0"
               },
               {
+                "id": 32,
                 "status": "live",
                 "versionString": "8.2"
               },
               {
+                "id": 31,
                 "status": "live",
                 "versionString": "8.1"
               },
               {
+                "id": 25,
                 "status": "live",
                 "versionString": "8.0"
               },
               {
+                "id": 24,
                 "status": "live",
                 "versionString": "7.3"
               },
               {
+                "id": 21,
                 "status": "live",
                 "versionString": "7.2"
               }
@@ -1667,14 +1862,17 @@
             "size": 197340,
             "version_compatibility": [
               {
+                "id": 24,
                 "status": "live",
                 "versionString": "7.3"
               },
               {
+                "id": 21,
                 "status": "live",
                 "versionString": "7.2"
               },
               {
+                "id": 20,
                 "status": "live",
                 "versionString": "7.1"
               }
@@ -1703,14 +1901,17 @@
             "size": 260333,
             "version_compatibility": [
               {
+                "id": 21,
                 "status": "live",
                 "versionString": "7.2"
               },
               {
+                "id": 20,
                 "status": "live",
                 "versionString": "7.1"
               },
               {
+                "id": 19,
                 "status": "live",
                 "versionString": "7.0"
               }
@@ -1755,7 +1956,7 @@
   "query": {
     "id": "1621"
   },
-  "buildId": "CkUGfzGUkPIDnTSJ7AS4U",
+  "buildId": "Sg6j6RxjKodRSLqCY6yos",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

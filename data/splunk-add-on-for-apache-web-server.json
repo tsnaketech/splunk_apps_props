@@ -22,7 +22,7 @@
         "description": "The Splunk Add-on for Apache Web Server allows a Splunk software administrator to collect and analyze data from Apache Web Server using file monitoring. After the Splunk platform indexes the events, you can analyze the data using the prebuilt panels included with the add-on. \n\nThis add-on provides the inputs and CIM-compatible knowledge to use with other Splunk apps, such as Web.",
         "documentation": "<p>Documentation for this add-on can be found here: <a href=\"http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About\">http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About</a></p>",
         "documentation_source": "Documentation for this add-on can be found here: http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About",
-        "download_count": 35498,
+        "download_count": 35527,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/da5f5090-00e2-11f1-b6d6-ded197cc3891.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": null,
@@ -85,30 +85,37 @@
           "size": 862701,
           "version_compatibility": [
             {
+              "id": 127,
               "status": "live",
               "versionString": "10.2"
             },
             {
+              "id": 121,
               "status": "live",
               "versionString": "10.1"
             },
             {
+              "id": 119,
               "status": "live",
               "versionString": "10.0"
             },
             {
+              "id": 115,
               "status": "live",
               "versionString": "9.4"
             },
             {
+              "id": 111,
               "status": "live",
               "versionString": "9.3"
             },
             {
+              "id": 110,
               "status": "live",
               "versionString": "9.2"
             },
             {
+              "id": 59,
               "status": "live",
               "versionString": "9.1"
             }
@@ -143,30 +150,37 @@
             "size": 862701,
             "version_compatibility": [
               {
+                "id": 127,
                 "status": "live",
                 "versionString": "10.2"
               },
               {
+                "id": 121,
                 "status": "live",
                 "versionString": "10.1"
               },
               {
+                "id": 119,
                 "status": "live",
                 "versionString": "10.0"
               },
               {
+                "id": 115,
                 "status": "live",
                 "versionString": "9.4"
               },
               {
+                "id": 111,
                 "status": "live",
                 "versionString": "9.3"
               },
               {
+                "id": 110,
                 "status": "live",
                 "versionString": "9.2"
               },
               {
+                "id": 59,
                 "status": "live",
                 "versionString": "9.1"
               }
@@ -200,30 +214,37 @@
             "size": 881195,
             "version_compatibility": [
               {
+                "id": 127,
                 "status": "live",
                 "versionString": "10.2"
               },
               {
+                "id": 121,
                 "status": "live",
                 "versionString": "10.1"
               },
               {
+                "id": 119,
                 "status": "live",
                 "versionString": "10.0"
               },
               {
+                "id": 115,
                 "status": "live",
                 "versionString": "9.4"
               },
               {
+                "id": 111,
                 "status": "live",
                 "versionString": "9.3"
               },
               {
+                "id": 110,
                 "status": "live",
                 "versionString": "9.2"
               },
               {
+                "id": 59,
                 "status": "live",
                 "versionString": "9.1"
               }
@@ -257,42 +278,52 @@
             "size": 37661,
             "version_compatibility": [
               {
+                "id": 127,
                 "status": "live",
                 "versionString": "10.2"
               },
               {
+                "id": 121,
                 "status": "live",
                 "versionString": "10.1"
               },
               {
+                "id": 119,
                 "status": "live",
                 "versionString": "10.0"
               },
               {
+                "id": 115,
                 "status": "live",
                 "versionString": "9.4"
               },
               {
+                "id": 111,
                 "status": "live",
                 "versionString": "9.3"
               },
               {
+                "id": 110,
                 "status": "live",
                 "versionString": "9.2"
               },
               {
+                "id": 59,
                 "status": "live",
                 "versionString": "9.1"
               },
               {
+                "id": 54,
                 "status": "live",
                 "versionString": "9.0"
               },
               {
+                "id": 32,
                 "status": "live",
                 "versionString": "8.2"
               },
               {
+                "id": 31,
                 "status": "live",
                 "versionString": "8.1"
               }
@@ -331,7 +362,7 @@
   "query": {
     "id": "3186"
   },
-  "buildId": "CkUGfzGUkPIDnTSJ7AS4U",
+  "buildId": "Sg6j6RxjKodRSLqCY6yos",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
