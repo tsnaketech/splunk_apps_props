@@ -28,7 +28,7 @@
         "description": "Detection Insights is an application for Splunk Enterprise Security providing additional insights into everything surrounding and/or impacting your security detections.",
         "documentation": "<p>See the application documentation <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/\">here</a> for more information on installing, configuring and using it.</p>\n<p>Credit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.<br>\nThanks to Dean Luxton for reporting issues, fixes and improvement ideas!</p>",
         "documentation_source": "See the application documentation [here](https://splunk.github.io/Splunk_App_for_Detection_Insights/) for more information on installing, configuring and using it.\n\nCredit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.\nThanks to Dean Luxton for reporting issues, fixes and improvement ideas!",
-        "download_count": 2352,
+        "download_count": 2355,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/f1f4cbe6-5781-11f0-ba1e-5a77e051378c.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -59,7 +59,7 @@
             "category_display_name": "SIEM"
           },
           {
-            "rank": 462,
+            "rank": 460,
             "category_name": "security_compliance",
             "category_display_name": "Security, Fraud & Compliance"
           }
@@ -95,6 +95,21 @@
           "signed_available": true,
           "size": 941580,
           "version_compatibility": [
+            {
+              "id": 127,
+              "status": "live",
+              "versionString": "10.2"
+            },
+            {
+              "id": 121,
+              "status": "live",
+              "versionString": "10.1"
+            },
+            {
+              "id": 119,
+              "status": "live",
+              "versionString": "10.0"
+            },
             {
               "id": 115,
               "status": "live",
@@ -166,6 +181,21 @@
             "signed_available": true,
             "size": 941580,
             "version_compatibility": [
+              {
+                "id": 127,
+                "status": "live",
+                "versionString": "10.2"
+              },
+              {
+                "id": 121,
+                "status": "live",
+                "versionString": "10.1"
+              },
+              {
+                "id": 119,
+                "status": "live",
+                "versionString": "10.0"
+              },
               {
                 "id": 115,
                 "status": "live",
@@ -521,7 +551,7 @@
         "troubleshooting": "<p>Please refer to the application documentation <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/\">here</a> for troubleshooting guidance.</p>",
         "troubleshooting_source": "Please refer to the application documentation [here](https://splunk.github.io/Splunk_App_for_Detection_Insights/) for troubleshooting guidance.",
         "type": "app",
-        "updated_time": "2025-12-17T14:20:22.500893Z",
+        "updated_time": "2026-03-12T18:21:34.064284Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
@@ -543,7 +573,7 @@
   "query": {
     "id": "7066"
   },
-  "buildId": "Sg6j6RxjKodRSLqCY6yos",
+  "buildId": "EjCMPM2i-LTvgqBqXIIM8",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
