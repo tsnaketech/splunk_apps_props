@@ -59,8 +59,8 @@
         "description": "Ever want to edit a lookup within Splunk with a user interface? Now you can. This app provides an Excel-like interface for editing, importing, and exporting lookup files (KV store and CSV-based).\n\nThis app also makes your lookups work in Search Head Clustered environments (edits to lookups will be propagated to other search heads).\n\nRevision history is maintained for lookups so that you can view or restore older lookups quickly in the interface.\n\nCheck out the Documentation site: \nhttps://docs.splunk.com/Documentation/LookupEditor\n\nhttps://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew",
         "documentation": "<ul>\n<li><a href=\"https://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew\">What's new</a></li>\n<li><a href=\"https://docs.splunk.com/Documentation/LookupEditor\">Documentation Site</a></li>\n</ul>",
         "documentation_source": "*   [What's new](https://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew)\n*   [Documentation Site](https://docs.splunk.com/Documentation/LookupEditor)",
-        "download_count": 250357,
-        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/618e9616-89a1-11f0-8a6b-aaec3b9321f6.png",
+        "download_count": 250418,
+        "icon": "https://cdn.splunkbase.splunk.com/static/image/default_icon.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
         "is_archived": false,
@@ -79,8 +79,7 @@
         "license_agreement_read_required": false,
         "product": "splunk",
         "product_types": [
-          "enterprise",
-          "cloud"
+          "enterprise"
         ],
         "public": true,
         "ranking": [
@@ -1935,7 +1934,7 @@
         "troubleshooting": "",
         "troubleshooting_source": "",
         "type": "app",
-        "updated_time": "2026-02-24T23:18:28.634253Z",
+        "updated_time": "2026-03-18T22:16:39.483823Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
@@ -1957,7 +1956,7 @@
   "query": {
     "id": "1724"
   },
-  "buildId": "iVy_AOnbx0_ZgVIYd6Ve-",
+  "buildId": "PLBiBUeLrJjTGa7rO6ewB",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
