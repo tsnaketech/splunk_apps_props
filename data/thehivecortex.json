@@ -24,7 +24,7 @@
         "documentation": "<p>The objective is to interface a SIEM tool such as Splunk in order to be able to perform automated tasks on observables/IOCs or TTPs.<br>\nThis TA has been designed in such a way that :</p>\n<ul>\n<li>You can pull events periodically from TheHive about the different cases/alerts that were created or updated</li>\n<li>You can create new alert or case from Splunk in TheHive using the power of Splunk whether in a search or in a predefined dashboard.</li>\n<li>You can run a function in TheHive from an alert action</li>\n<li>You can interface Splunk Enterprise Security with TheHive</li>\n<li>You can retrieve information from Cortex about the different jobs that are being performed on the scanners.</li>\n<li>You can run new tasks from Splunk in Cortex using the power of Splunk whether in a search or a predefined dashboard.</li>\n</ul>\n<p>If you need any documentation or help, please visit the related Github : <a href=\"https://github.com/LetMeR00t/TA-thehive-cortex\">https://github.com/LetMeR00t/TA-thehive-cortex</a></p>",
         "documentation_source": "The objective is to interface a SIEM tool such as Splunk in order to be able to perform automated tasks on observables/IOCs or TTPs.\nThis TA has been designed in such a way that :\n\n- You can pull events periodically from TheHive about the different cases/alerts that were created or updated\n- You can create new alert or case from Splunk in TheHive using the power of Splunk whether in a search or in a predefined dashboard.\n- You can run a function in TheHive from an alert action\n- You can interface Splunk Enterprise Security with TheHive\n- You can retrieve information from Cortex about the different jobs that are being performed on the scanners.\n- You can run new tasks from Splunk in Cortex using the power of Splunk whether in a search or a predefined dashboard.\n\nIf you need any documentation or help, please visit the related Github : https://github.com/LetMeR00t/TA-thehive-cortex",
         "download_count": 4054,
-        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/43ddd322-1f22-11f1-9ad6-ea52b3e8e2b3.png",
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/7565a178-252a-11f1-8ab2-8e1c694f89e1.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
         "is_archived": false,
@@ -68,30 +68,34 @@
           "cim_compatibility": [
             "6.x",
             "5.x",
-            "4.x",
-            "3.x"
+            "4.x"
           ],
           "cloud_compatible": true,
           "fips_compatibility": false,
-          "filename": "thehivecortex_390.tgz",
-          "id": 39660,
-          "md5": "43dcf00989d707ede3c42ae9991b485a",
+          "filename": "thehivecortex_410.spl",
+          "id": 42013,
+          "md5": "3caa0d223b54e8f09d635331a9f03998",
           "min_product_version_str": null,
-          "name": "3.9.0",
+          "name": "4.1.0",
           "passed_validation": true,
-          "path": "https://splunkbase.splunk.com/app/5329/release/3.9.0/download/",
+          "path": "https://splunkbase.splunk.com/app/5329/release/4.1.0/download/",
           "platform": "independent",
           "product_types": [
             "enterprise",
             "cloud"
           ],
           "public_ever_true": false,
-          "published_datetime": "2025-09-16T04:27:39.445428Z",
-          "release_notes": "<h1>Release Notes for v3.9.0</h1>\n<ul>\n<li><code>Fix</code>: #112, adding the possibility to select the backslashes sanitization in the parameters</li>\n<li><code>Fix</code>: #102, correlation searches actions in Splunk ES are now fixed and can be used with this TA</li>\n<li><code>Refactor</code>: Few code optimisations</li>\n</ul>\n<p><strong>Note</strong>: You can upgrade from v3.2 to v3.9.0 without the intermediate versions.</p>\n<p>See the full release notes directly on Github: <a href=\"https://github.com/LetMeR00t/TA-thehive-cortex/releases/tag/v3.9.0\">https://github.com/LetMeR00t/TA-thehive-cortex/releases/tag/v3.9.0</a></p>",
-          "sha256": "49a8ea208e4435e2db0bae7f99aa46802407ded55d7c971a454385d0fa69e6fc",
+          "published_datetime": "2026-03-21T13:32:51.733512Z",
+          "release_notes": "<h1>Release Notes</h1>\n<h2>Summary</h2>\n<p>Version 4.1.0 introduces significant enhancements to user interaction and data enrichment capabilities between Splunk and TheHive/Cortex. This release focuses on investigation workflows, periodic data collection, visual identity, and operational robustness.</p>\n<h2>Deployment Notes</h2>\n<ul>\n<li><strong>Prerequisite</strong>: Python 3.9+ (as per UCC standard).</li>\n<li><strong>Migration Path</strong>:<ul>\n<li><strong>From v4.0.0</strong>: This is a non-breaking update. Existing configuration is preserved.</li>\n<li><strong>From v3.9.0 (Direct Upgrade)</strong>: You can upgrade directly from v3.9.0 to v4.1.0 without installing v4.0.0 first.</li>\n<li><strong>\u26a0\ufe0f CRITICAL</strong>: If upgrading from v3.x, the <strong><a href=\"https://github.com/LetMeR00t/TA-thehive-cortex/releases/tag/v4.0.0\">v4.0.0 migration instructions</a> are mandatory</strong> and remain valid for this version (UCC architecture migration, breaking configuration changes, and new credential storage). Please read them carefully before proceeding.</li>\n</ul>\n</li>\n</ul>\n<h2>New Features</h2>\n<h3>\ud83d\udcc5 New Modular Inputs: Tasks, Timeline &amp; Status</h3>\n<p>Three new data collection mechanisms have been added to track your cases and platform health:</p>\n<ul>\n<li><strong>TheHive Tasks Collection</strong>: Periodically retrieve all tasks associated with cases for better operational monitoring.</li>\n<li><strong>TheHive Timeline Collection</strong>: Automatically fetch case timeline events to build a complete history of investigations in Splunk.</li>\n<li><strong>TheHive Instance Status</strong>: Monitor your TheHive instances' health, version, and license status directly from Splunk.</li>\n<li><strong>Backfill Support</strong>: Dedicated backfill scripts are available for Tasks and Timeline to recover historical data.</li>\n</ul>\n<h3>\ud83d\udee1\ufe0f Add Timeline Event Alert Action</h3>\n<p>A new Custom Alert Action (and Adaptive Response) <strong>\"TheHive - Add timeline event\"</strong> is now available.</p>\n<ul>\n<li>Analysts can now automatically or manually push findings directly to a case's timeline.</li>\n<li>Supports custom titles (with <code>&lt;inheritance&gt;</code> from search name), descriptions, and specific start/end dates.</li>\n<li>Fully integrated into the <strong>Audit Logs</strong> dashboard for tracking.</li>\n</ul>\n<h3>\ud83d\udd22 Automatic Case Number Resolution</h3>\n<p>The Add-on now handles both internal IDs (<code>~12345</code>) and human-readable case numbers (<code>2392</code>).</p>\n<ul>\n<li>If a case number is provided in any alert action (Add Observables, Add Timeline Event), the app automatically resolves it to the correct internal ID via the API.</li>\n<li>This simplifies workflows for analysts who primarily work with case numbers in the UI.</li>\n</ul>\n<h3>\ud83c\udfa8 High-Quality Visual Identity</h3>\n<p>All Custom Alert Actions have been updated with <strong>unique, high-resolution hexagonal icons</strong>.</p>\n<ul>\n<li><strong>TheHive Actions</strong>: Official Yellow (<code>#FFC107</code>) branding.</li>\n<li><strong>Cortex Actions</strong>: Official Light Blue (<code>#87CEFA</code>) branding.</li>\n<li>Optimized with transparent backgrounds for seamless integration into Splunk's Dark and Light themes.</li>\n</ul>\n<h2>Improvements &amp; Bug Fixes</h2>\n<h3>\u23f1\ufe0f Standardized Polling Intervals</h3>\n<ul>\n<li>Implemented <strong>dynamic interval flooring</strong> across all modular inputs (<code>thehive_tasks</code>, <code>thehive_timeline</code>, <code>thehive_alerts_cases</code>, etc.).</li>\n<li>All collection time ranges are now aligned to clean boundaries (e.g., <code>12:51:00</code> to <code>12:52:00</code>), eliminating \"seconds drift\" in logs and search results.</li>\n</ul>\n<h3>\ud83d\udcca Enhanced Audit Logs Dashboard</h3>\n<p>The <strong>Audit Logs</strong> dashboard has been significantly updated to provide better operational visibility:</p>\n<ul>\n<li>Comprehensive Action Tracking: Now includes dedicated filters and metrics for all Custom Alert Actions, including the new Timeline Event action.</li>\n<li>Data Collection Monitoring: The dashboard now tracks the execution and results of the new modular inputs (Tasks, Timeline, and Status), ensuring full traceability of your data ingestion.</li>\n<li>Improved Success Monitoring: Logic updated to track specific event codes (e.g., <code>TH201</code> for successful timeline events, <code>CAA-THCA-125</code> for cases), allowing for clear distinction between successful creations and operational issues.</li>\n</ul>\n<h3>\ud83d\udd27 Indexing &amp; Props</h3>\n<ul>\n<li>Fixed <code>thehive:timeline</code> sourcetype to ensure Splunk prioritizes normalized <code>_time</code> from JSON payloads.</li>\n<li>Cleaned up build process to automatically remove Windows binaries (<code>.exe</code>, <code>.pyd</code>), Python compiled files (<code>.pyc</code>), and caches for Splunk Cloud compatibility.</li>\n</ul>",
+          "sha256": "b7e78a248fe27ff33d06e1af1942024e9fa590c881de7356ddde0a4cd5ad9337",
           "signed_available": true,
-          "size": 3436199,
+          "size": 6588367,
           "version_compatibility": [
+            {
+              "id": 127,
+              "status": "live",
+              "versionString": "10.2"
+            },
             {
               "id": 121,
               "status": "live",
@@ -126,26 +130,82 @@
               "id": 54,
               "status": "live",
               "versionString": "9.0"
-            },
-            {
-              "id": 32,
-              "status": "live",
-              "versionString": "8.2"
-            },
-            {
-              "id": 31,
-              "status": "live",
-              "versionString": "8.1"
-            },
-            {
-              "id": 25,
-              "status": "live",
-              "versionString": "8.0"
             }
           ],
           "spl_compatibility": "SPL1"
         },
         "releases": [
+          {
+            "actions": [],
+            "cim_compatibility": [
+              "6.x",
+              "5.x",
+              "4.x"
+            ],
+            "cloud_compatible": true,
+            "fips_compatibility": false,
+            "filename": "thehivecortex_410.spl",
+            "id": 42013,
+            "md5": "3caa0d223b54e8f09d635331a9f03998",
+            "min_product_version_str": null,
+            "name": "4.1.0",
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/5329/release/4.1.0/download/",
+            "platform": "independent",
+            "product_types": [
+              "enterprise",
+              "cloud"
+            ],
+            "public_ever_true": false,
+            "published_datetime": "2026-03-21T13:32:51.733512Z",
+            "release_notes": "<h1>Release Notes</h1>\n<h2>Summary</h2>\n<p>Version 4.1.0 introduces significant enhancements to user interaction and data enrichment capabilities between Splunk and TheHive/Cortex. This release focuses on investigation workflows, periodic data collection, visual identity, and operational robustness.</p>\n<h2>Deployment Notes</h2>\n<ul>\n<li><strong>Prerequisite</strong>: Python 3.9+ (as per UCC standard).</li>\n<li><strong>Migration Path</strong>:<ul>\n<li><strong>From v4.0.0</strong>: This is a non-breaking update. Existing configuration is preserved.</li>\n<li><strong>From v3.9.0 (Direct Upgrade)</strong>: You can upgrade directly from v3.9.0 to v4.1.0 without installing v4.0.0 first.</li>\n<li><strong>\u26a0\ufe0f CRITICAL</strong>: If upgrading from v3.x, the <strong><a href=\"https://github.com/LetMeR00t/TA-thehive-cortex/releases/tag/v4.0.0\">v4.0.0 migration instructions</a> are mandatory</strong> and remain valid for this version (UCC architecture migration, breaking configuration changes, and new credential storage). Please read them carefully before proceeding.</li>\n</ul>\n</li>\n</ul>\n<h2>New Features</h2>\n<h3>\ud83d\udcc5 New Modular Inputs: Tasks, Timeline &amp; Status</h3>\n<p>Three new data collection mechanisms have been added to track your cases and platform health:</p>\n<ul>\n<li><strong>TheHive Tasks Collection</strong>: Periodically retrieve all tasks associated with cases for better operational monitoring.</li>\n<li><strong>TheHive Timeline Collection</strong>: Automatically fetch case timeline events to build a complete history of investigations in Splunk.</li>\n<li><strong>TheHive Instance Status</strong>: Monitor your TheHive instances' health, version, and license status directly from Splunk.</li>\n<li><strong>Backfill Support</strong>: Dedicated backfill scripts are available for Tasks and Timeline to recover historical data.</li>\n</ul>\n<h3>\ud83d\udee1\ufe0f Add Timeline Event Alert Action</h3>\n<p>A new Custom Alert Action (and Adaptive Response) <strong>\"TheHive - Add timeline event\"</strong> is now available.</p>\n<ul>\n<li>Analysts can now automatically or manually push findings directly to a case's timeline.</li>\n<li>Supports custom titles (with <code>&lt;inheritance&gt;</code> from search name), descriptions, and specific start/end dates.</li>\n<li>Fully integrated into the <strong>Audit Logs</strong> dashboard for tracking.</li>\n</ul>\n<h3>\ud83d\udd22 Automatic Case Number Resolution</h3>\n<p>The Add-on now handles both internal IDs (<code>~12345</code>) and human-readable case numbers (<code>2392</code>).</p>\n<ul>\n<li>If a case number is provided in any alert action (Add Observables, Add Timeline Event), the app automatically resolves it to the correct internal ID via the API.</li>\n<li>This simplifies workflows for analysts who primarily work with case numbers in the UI.</li>\n</ul>\n<h3>\ud83c\udfa8 High-Quality Visual Identity</h3>\n<p>All Custom Alert Actions have been updated with <strong>unique, high-resolution hexagonal icons</strong>.</p>\n<ul>\n<li><strong>TheHive Actions</strong>: Official Yellow (<code>#FFC107</code>) branding.</li>\n<li><strong>Cortex Actions</strong>: Official Light Blue (<code>#87CEFA</code>) branding.</li>\n<li>Optimized with transparent backgrounds for seamless integration into Splunk's Dark and Light themes.</li>\n</ul>\n<h2>Improvements &amp; Bug Fixes</h2>\n<h3>\u23f1\ufe0f Standardized Polling Intervals</h3>\n<ul>\n<li>Implemented <strong>dynamic interval flooring</strong> across all modular inputs (<code>thehive_tasks</code>, <code>thehive_timeline</code>, <code>thehive_alerts_cases</code>, etc.).</li>\n<li>All collection time ranges are now aligned to clean boundaries (e.g., <code>12:51:00</code> to <code>12:52:00</code>), eliminating \"seconds drift\" in logs and search results.</li>\n</ul>\n<h3>\ud83d\udcca Enhanced Audit Logs Dashboard</h3>\n<p>The <strong>Audit Logs</strong> dashboard has been significantly updated to provide better operational visibility:</p>\n<ul>\n<li>Comprehensive Action Tracking: Now includes dedicated filters and metrics for all Custom Alert Actions, including the new Timeline Event action.</li>\n<li>Data Collection Monitoring: The dashboard now tracks the execution and results of the new modular inputs (Tasks, Timeline, and Status), ensuring full traceability of your data ingestion.</li>\n<li>Improved Success Monitoring: Logic updated to track specific event codes (e.g., <code>TH201</code> for successful timeline events, <code>CAA-THCA-125</code> for cases), allowing for clear distinction between successful creations and operational issues.</li>\n</ul>\n<h3>\ud83d\udd27 Indexing &amp; Props</h3>\n<ul>\n<li>Fixed <code>thehive:timeline</code> sourcetype to ensure Splunk prioritizes normalized <code>_time</code> from JSON payloads.</li>\n<li>Cleaned up build process to automatically remove Windows binaries (<code>.exe</code>, <code>.pyd</code>), Python compiled files (<code>.pyc</code>), and caches for Splunk Cloud compatibility.</li>\n</ul>",
+            "sha256": "b7e78a248fe27ff33d06e1af1942024e9fa590c881de7356ddde0a4cd5ad9337",
+            "signed_available": true,
+            "size": 6588367,
+            "version_compatibility": [
+              {
+                "id": 127,
+                "status": "live",
+                "versionString": "10.2"
+              },
+              {
+                "id": 121,
+                "status": "live",
+                "versionString": "10.1"
+              },
+              {
+                "id": 119,
+                "status": "live",
+                "versionString": "10.0"
+              },
+              {
+                "id": 115,
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "id": 111,
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "id": 110,
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "id": 59,
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "id": 54,
+                "status": "live",
+                "versionString": "9.0"
+              }
+            ],
+            "spl_compatibility": "SPL1"
+          },
           {
             "actions": [],
             "cim_compatibility": [
@@ -302,476 +362,6 @@
           {
             "actions": [],
             "cim_compatibility": [
-              "6.x",
-              "5.x",
-              "4.x",
-              "3.x"
-            ],
-            "cloud_compatible": true,
-            "fips_compatibility": false,
-            "filename": "thehivecortex_382.tgz",
-            "id": 38322,
-            "md5": "7baaa6b930286c6afccb29df8d7074c1",
-            "min_product_version_str": null,
-            "name": "3.8.2",
-            "passed_validation": true,
-            "path": "https://splunkbase.splunk.com/app/5329/release/3.8.2/download/",
-            "platform": "independent",
-            "product_types": [
-              "enterprise",
-              "cloud"
-            ],
-            "public_ever_true": false,
-            "published_datetime": "2025-06-26T11:35:59.423009Z",
-            "release_notes": "<h1>Release Notes for v3.8.2</h1>\n<ul>\n<li><code>Fix</code>: Resolve backfill execution issues for alerts/cases</li>\n<li><code>Fix</code>: Resolve tasks event correctly</li>\n<li><code>Refactor</code>: Upgrade thehive4py library to v2.0.0b11 (revised for Splunk)</li>\n</ul>\n<p><strong>Note</strong>: You can upgrade from v3.2 to v3.8.2 without the intermediate versions.</p>\n<p>See the full release notes directly on Github: <a href=\"https://github.com/LetMeR00t/TA-thehive-cortex/releases/tag/v3.8.2\">https://github.com/LetMeR00t/TA-thehive-cortex/releases/tag/v3.8.2</a></p>",
-            "sha256": "df0918523a12a011d8a4d79eaf57490609199b6c1762928f838790ad7dcf5339",
-            "signed_available": true,
-            "size": 3412596,
-            "version_compatibility": [
-              {
-                "id": 121,
-                "status": "live",
-                "versionString": "10.1"
-              },
-              {
-                "id": 119,
-                "status": "live",
-                "versionString": "10.0"
-              },
-              {
-                "id": 115,
-                "status": "live",
-                "versionString": "9.4"
-              },
-              {
-                "id": 111,
-                "status": "live",
-                "versionString": "9.3"
-              },
-              {
-                "id": 110,
-                "status": "live",
-                "versionString": "9.2"
-              },
-              {
-                "id": 59,
-                "status": "live",
-                "versionString": "9.1"
-              },
-              {
-                "id": 54,
-                "status": "live",
-                "versionString": "9.0"
-              },
-              {
-                "id": 32,
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "id": 31,
-                "status": "live",
-                "versionString": "8.1"
-              },
-              {
-                "id": 25,
-                "status": "live",
-                "versionString": "8.0"
-              }
-            ],
-            "spl_compatibility": "SPL1"
-          },
-          {
-            "actions": [],
-            "cim_compatibility": [
-              "6.x",
-              "5.x",
-              "4.x",
-              "3.x"
-            ],
-            "cloud_compatible": true,
-            "fips_compatibility": false,
-            "filename": "thehivecortex_381.tgz",
-            "id": 37542,
-            "md5": "a97910894f1717aa47f52926b3e839be",
-            "min_product_version_str": null,
-            "name": "3.8.1",
-            "passed_validation": true,
-            "path": "https://splunkbase.splunk.com/app/5329/release/3.8.1/download/",
-            "platform": "independent",
-            "product_types": [
-              "enterprise",
-              "cloud"
-            ],
-            "public_ever_true": false,
-            "published_datetime": "2025-04-22T19:05:29.174971Z",
-            "release_notes": "<h1>Release Notes for v3.8.1</h1>\n<ul>\n<li><code>Feature</code>: Support \"links\" as extraData coming from TheHive 5.5</li>\n<li><code>Fix</code>: Double identical values issue in inputs</li>\n</ul>\n<p><strong>Note</strong>: You can upgrade from v3.2 to v3.8.1 without the intermediate versions.</p>\n<p>See the full release notes directly on Github: <a href=\"https://github.com/LetMeR00t/TA-thehive-cortex/releases/tag/v3.8.1\">https://github.com/LetMeR00t/TA-thehive-cortex/releases/tag/v3.8.1</a></p>",
-            "sha256": "d158e958dee406fead3108d181e7be5ee10c8338b7d4a97d417c33b7176ca91a",
-            "signed_available": true,
-            "size": 3407497,
-            "version_compatibility": [
-              {
-                "id": 121,
-                "status": "live",
-                "versionString": "10.1"
-              },
-              {
-                "id": 119,
-                "status": "live",
-                "versionString": "10.0"
-              },
-              {
-                "id": 115,
-                "status": "live",
-                "versionString": "9.4"
-              },
-              {
-                "id": 111,
-                "status": "live",
-                "versionString": "9.3"
-              },
-              {
-                "id": 110,
-                "status": "live",
-                "versionString": "9.2"
-              },
-              {
-                "id": 59,
-                "status": "live",
-                "versionString": "9.1"
-              },
-              {
-                "id": 54,
-                "status": "live",
-                "versionString": "9.0"
-              },
-              {
-                "id": 32,
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "id": 31,
-                "status": "live",
-                "versionString": "8.1"
-              },
-              {
-                "id": 25,
-                "status": "live",
-                "versionString": "8.0"
-              }
-            ],
-            "spl_compatibility": "SPL1"
-          },
-          {
-            "actions": [],
-            "cim_compatibility": [
-              "6.x",
-              "5.x",
-              "4.x",
-              "3.x"
-            ],
-            "cloud_compatible": true,
-            "fips_compatibility": false,
-            "filename": "thehivecortex_380.tgz",
-            "id": 37519,
-            "md5": "663980755a53c32642a284684bd50232",
-            "min_product_version_str": null,
-            "name": "3.8.0",
-            "passed_validation": true,
-            "path": "https://splunkbase.splunk.com/app/5329/release/3.8.0/download/",
-            "platform": "independent",
-            "product_types": [
-              "enterprise",
-              "cloud"
-            ],
-            "public_ever_true": false,
-            "published_datetime": "2025-04-19T11:58:53.580077Z",
-            "release_notes": "<h1>Release Notes for v3.8.0</h1>\n<ul>\n<li><code>Feature</code>: Support the \"extraData\" options when recovering data from alerts/cases using inputs</li>\n<li><code>Feature</code>: Rationalize inputs by having multipleSelect instead of single one to avoid having too many inputs to configure</li>\n<li><code>Feature</code>: The \"customFields\" field used in inputs have been rework to make it simplier to search on Splunk and reduce the size of the information</li>\n<li><code>Feature</code>: Tasks recovered from cases have now their own sourcetype as it's considered as a dedicated object in TheHive (Pages are still linked to their case information)</li>\n<li><code>Feature</code>: Support searchbnf.conf file for custom commands information and auto-completion in SPL</li>\n</ul>\n<p>Additional fixes have been provided.<br>\nSee the full release notes directly on Github: <a href=\"https://github.com/LetMeR00t/TA-thehive-cortex/releases/tag/v3.8.0\">https://github.com/LetMeR00t/TA-thehive-cortex/releases/tag/v3.8.0</a></p>",
-            "sha256": "f3d9aa8481d5b7c76a6dd130ec43c9308ed9c265dcd7e68ece48616a9f24feba",
-            "signed_available": true,
-            "size": 3407487,
-            "version_compatibility": [
-              {
-                "id": 121,
-                "status": "live",
-                "versionString": "10.1"
-              },
-              {
-                "id": 119,
-                "status": "live",
-                "versionString": "10.0"
-              },
-              {
-                "id": 115,
-                "status": "live",
-                "versionString": "9.4"
-              },
-              {
-                "id": 111,
-                "status": "live",
-                "versionString": "9.3"
-              },
-              {
-                "id": 110,
-                "status": "live",
-                "versionString": "9.2"
-              },
-              {
-                "id": 59,
-                "status": "live",
-                "versionString": "9.1"
-              },
-              {
-                "id": 54,
-                "status": "live",
-                "versionString": "9.0"
-              },
-              {
-                "id": 32,
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "id": 31,
-                "status": "live",
-                "versionString": "8.1"
-              },
-              {
-                "id": 25,
-                "status": "live",
-                "versionString": "8.0"
-              }
-            ],
-            "spl_compatibility": "SPL1"
-          },
-          {
-            "actions": [],
-            "cim_compatibility": [
-              "6.x",
-              "5.x",
-              "4.x",
-              "3.x"
-            ],
-            "cloud_compatible": true,
-            "fips_compatibility": false,
-            "filename": "thehivecortex_370.tgz",
-            "id": 37091,
-            "md5": "8a9bc3ce66beb3c225830c2b69226e40",
-            "min_product_version_str": null,
-            "name": "3.7.0",
-            "passed_validation": true,
-            "path": "https://splunkbase.splunk.com/app/5329/release/3.7.0/download/",
-            "platform": "independent",
-            "product_types": [
-              "enterprise",
-              "cloud"
-            ],
-            "public_ever_true": false,
-            "published_datetime": "2025-03-21T10:43:39.857540Z",
-            "release_notes": "<h1>Release Notes for v3.7.0</h1>\n<ul>\n<li><code>Feature</code>: Add the capability to backfill data from the past using inputs (documentation available on Github for inputs)</li>\n<li><code>Feature</code>: Upgrade splunklib</li>\n<li><code>Fix</code>: Format rendering in logs</li>\n<li><code>Fix</code>: Token usage in dashboards (#106)</li>\n</ul>\n<p><strong>Note</strong>: You can upgrade from v3.2 to v3.7.0 without the v3.2/v3.3/v3.4/v3.5/v3.6.*.</p>\n<p>See the full release notes directly on Github: <a href=\"https://github.com/LetMeR00t/TA-thehive-cortex/releases/tag/v3.7.0\">https://github.com/LetMeR00t/TA-thehive-cortex/releases/tag/v3.7.0</a></p>",
-            "sha256": "4c35a3ddfea0e3aeb88bee745aac97b37030e4e25d12e39c529225923ca92359",
-            "signed_available": true,
-            "size": 3404023,
-            "version_compatibility": [
-              {
-                "id": 121,
-                "status": "live",
-                "versionString": "10.1"
-              },
-              {
-                "id": 119,
-                "status": "live",
-                "versionString": "10.0"
-              },
-              {
-                "id": 115,
-                "status": "live",
-                "versionString": "9.4"
-              },
-              {
-                "id": 111,
-                "status": "live",
-                "versionString": "9.3"
-              },
-              {
-                "id": 110,
-                "status": "live",
-                "versionString": "9.2"
-              },
-              {
-                "id": 59,
-                "status": "live",
-                "versionString": "9.1"
-              },
-              {
-                "id": 54,
-                "status": "live",
-                "versionString": "9.0"
-              },
-              {
-                "id": 32,
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "id": 31,
-                "status": "live",
-                "versionString": "8.1"
-              },
-              {
-                "id": 25,
-                "status": "live",
-                "versionString": "8.0"
-              }
-            ],
-            "spl_compatibility": "SPL1"
-          },
-          {
-            "actions": [],
-            "cim_compatibility": [
-              "6.x",
-              "5.x",
-              "4.x",
-              "3.x"
-            ],
-            "cloud_compatible": true,
-            "fips_compatibility": false,
-            "filename": "thehivecortex_362.tgz",
-            "id": 36469,
-            "md5": "b244fc4a833abb3ad4060bcba6b1b01d",
-            "min_product_version_str": null,
-            "name": "3.6.2",
-            "passed_validation": true,
-            "path": "https://splunkbase.splunk.com/app/5329/release/3.6.2/download/",
-            "platform": "independent",
-            "product_types": [
-              "enterprise",
-              "cloud"
-            ],
-            "public_ever_true": false,
-            "published_datetime": "2025-01-31T15:06:44.902039Z",
-            "release_notes": "<h1>Release Notes for v3.6.2</h1>\n<ul>\n<li><code>Feature</code>: Add the capability to remove several keys of the events or truncate large values within an event with a max size parameter for log collection</li>\n<li><code>Fix</code>: warn/warning log error</li>\n<li><code>Fix</code>: Remove a third party visualization not supported anymore</li>\n</ul>\n<p><strong>Note</strong>: You can upgrade from v3.2 to v3.6.2 without the v3.2/v3.3/v3.4/v3.5.</p>\n<p>See the full release notes directly on Github: <a href=\"https://github.com/LetMeR00t/TA-thehive-cortex/releases/tag/v3.6.2\">https://github.com/LetMeR00t/TA-thehive-cortex/releases/tag/v3.6.2</a></p>",
-            "sha256": "d0a192d798caba583f1b1b30fe97c85733f47f4df16e46749fa87336db1c636e",
-            "signed_available": true,
-            "size": 3342027,
-            "version_compatibility": [
-              {
-                "id": 115,
-                "status": "live",
-                "versionString": "9.4"
-              },
-              {
-                "id": 111,
-                "status": "live",
-                "versionString": "9.3"
-              },
-              {
-                "id": 110,
-                "status": "live",
-                "versionString": "9.2"
-              },
-              {
-                "id": 59,
-                "status": "live",
-                "versionString": "9.1"
-              },
-              {
-                "id": 54,
-                "status": "live",
-                "versionString": "9.0"
-              },
-              {
-                "id": 32,
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "id": 31,
-                "status": "live",
-                "versionString": "8.1"
-              },
-              {
-                "id": 25,
-                "status": "live",
-                "versionString": "8.0"
-              }
-            ],
-            "spl_compatibility": "SPL1"
-          },
-          {
-            "actions": [],
-            "cim_compatibility": [
-              "5.x",
-              "4.x",
-              "3.x"
-            ],
-            "cloud_compatible": false,
-            "fips_compatibility": false,
-            "filename": "thehivecortex_32.tgz",
-            "id": 31588,
-            "md5": "dbd7529c56083cceabcd2bcb89ec4225",
-            "min_product_version_str": null,
-            "name": "3.2",
-            "passed_validation": true,
-            "path": "https://splunkbase.splunk.com/app/5329/release/3.2/download/",
-            "platform": "independent",
-            "product_types": [
-              "enterprise"
-            ],
-            "public_ever_true": false,
-            "published_datetime": "2023-12-19T06:02:09.587039Z",
-            "release_notes": "<h1>Release Notes for v3.2</h1>\n<ul>\n<li><code>Feature</code>: Refinement of the composite fields (fields with colons) by adding the possibility to enrich observables information from the Splunk search #79 </li>\n<li><code>Feature</code>: Improve the code/documentation regarding the usage of the fields \"th_severity\", \"th_tlp\" and \"th_pap\" used to set values for an alert/case directly from the search #74  </li>\n<li><code>Bug</code>: An issue was fixed regarding the non processing of remaining alerts when one alert wasn't created (due to a duplication for instance) #78 </li>\n<li><code>Bug</code>: An issue was fixed regarding the exclusion of the alert/case tags from the markdown generated table in the description #77 </li>\n<li><code>Bug</code>: An issue was fixed regarding missing carriage return/newline/separator in the markdown generated table in the description #76 </li>\n</ul>\n<p>See the full release notes directly on Github: <a href=\"https://github.com/LetMeR00t/TA-thehive-cortex/releases/tag/v3.2\">https://github.com/LetMeR00t/TA-thehive-cortex/releases/tag/v3.2</a></p>",
-            "sha256": "a5b519a3ce8cad5372f77357ceb78ba973f5ba501f8ed395a44eb7e9f95f0eea",
-            "signed_available": true,
-            "size": 3317992,
-            "version_compatibility": [
-              {
-                "id": 115,
-                "status": "live",
-                "versionString": "9.4"
-              },
-              {
-                "id": 111,
-                "status": "live",
-                "versionString": "9.3"
-              },
-              {
-                "id": 110,
-                "status": "live",
-                "versionString": "9.2"
-              },
-              {
-                "id": 59,
-                "status": "live",
-                "versionString": "9.1"
-              },
-              {
-                "id": 54,
-                "status": "live",
-                "versionString": "9.0"
-              },
-              {
-                "id": 32,
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "id": 31,
-                "status": "live",
-                "versionString": "8.1"
-              },
-              {
-                "id": 25,
-                "status": "live",
-                "versionString": "8.0"
-              }
-            ],
-            "spl_compatibility": "SPL1"
-          },
-          {
-            "actions": [],
-            "cim_compatibility": [
               "5.x",
               "4.x",
               "3.x"
@@ -855,7 +445,7 @@
         "troubleshooting": "<p>You have a dedicated dashboard named \"Audit logs\" in order to check all logs.<br>\nIf you enable the debug mode (only for troubleshooting purposes), you will be able to see all the information and especially errors.</p>\n<p>If you need any assistance, you can contact me on the related Github: <a href=\"https://github.com/LetMeR00t/TA-thehive-cortex/issues\">https://github.com/LetMeR00t/TA-thehive-cortex/issues</a></p>",
         "troubleshooting_source": "You have a dedicated dashboard named \"Audit logs\" in order to check all logs.\nIf you enable the debug mode (only for troubleshooting purposes), you will be able to see all the information and especially errors.\n\nIf you need any assistance, you can contact me on the related Github: https://github.com/LetMeR00t/TA-thehive-cortex/issues",
         "type": "app",
-        "updated_time": "2026-03-13T21:23:21.431026Z",
+        "updated_time": "2026-03-21T13:47:34.738271Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
