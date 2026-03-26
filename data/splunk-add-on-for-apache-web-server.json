@@ -22,7 +22,7 @@
         "description": "The Splunk Add-on for Apache Web Server allows a Splunk software administrator to collect and analyze data from Apache Web Server using file monitoring. After the Splunk platform indexes the events, you can analyze the data using the prebuilt panels included with the add-on. \n\nThis add-on provides the inputs and CIM-compatible knowledge to use with other Splunk apps, such as Web.",
         "documentation": "<p>Documentation for this add-on can be found here: <a href=\"http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About\">http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About</a></p>",
         "documentation_source": "Documentation for this add-on can be found here: http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About",
-        "download_count": 35712,
+        "download_count": 35726,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/da5f5090-00e2-11f1-b6d6-ded197cc3891.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": null,
@@ -84,6 +84,11 @@
           "signed_available": true,
           "size": 862701,
           "version_compatibility": [
+            {
+              "id": 128,
+              "status": "live",
+              "versionString": "10.3"
+            },
             {
               "id": 127,
               "status": "live",
@@ -150,6 +155,11 @@
             "size": 862701,
             "version_compatibility": [
               {
+                "id": 128,
+                "status": "live",
+                "versionString": "10.3"
+              },
+              {
                 "id": 127,
                 "status": "live",
                 "versionString": "10.2"
@@ -213,6 +223,11 @@
             "signed_available": true,
             "size": 881195,
             "version_compatibility": [
+              {
+                "id": 128,
+                "status": "live",
+                "versionString": "10.3"
+              },
               {
                 "id": 127,
                 "status": "live",
@@ -278,6 +293,11 @@
             "size": 37661,
             "version_compatibility": [
               {
+                "id": 128,
+                "status": "live",
+                "versionString": "10.3"
+              },
+              {
                 "id": 127,
                 "status": "live",
                 "versionString": "10.2"
@@ -340,7 +360,7 @@
         "troubleshooting": "",
         "troubleshooting_source": "",
         "type": "addon",
-        "updated_time": "2026-02-05T07:51:05.558737Z",
+        "updated_time": "2026-03-25T11:01:03.571005Z",
         "video_link": null,
         "app_type": "addon",
         "schedule_release": null,
@@ -362,7 +382,7 @@
   "query": {
     "id": "3186"
   },
-  "buildId": "DBA2L5keHidil2qiWrONZ",
+  "buildId": "9VUGYo9arHOGt1xzGR0R-",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
