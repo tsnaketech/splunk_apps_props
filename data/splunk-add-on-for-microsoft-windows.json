@@ -23,7 +23,7 @@
         "description": "*** Important: Read upgrade instructions and test add-on update before deploying to production ***\nThe Splunk Add-on for Windows 5.0.0 introduced breaking changes. If you are upgrading from a version of the Splunk Add-on for Windows that is earlier than 5.0.0, you must follow the documented upgrade instructions to avoid data loss. A best practice is to test the upgraded version in a non-production environment before deploying to production.\n\nNeither the Splunk Add-on for Windows DNS version 1.0.1 nor the Splunk Add-on for Windows Active Directory version 1.0.0 is supported when installed alongside the Splunk Add-on for Windows version 6.0.0. The Splunk Add-on for Windows version 6.0.0 includes the Splunk Add-on for Windows DNS and the Splunk Add-on for Microsoft Active Directory.\n\nThe Splunk for Microsoft Windows add-on includes predefined inputs to collect data from Windows systems and maps to normalize the data to the Common Information Model.",
         "documentation": "<p>To learn about the Splunk Add-on for Microsoft Windows, see the official documentation here on <a href=\"https://docs.splunk.com/Documentation/AddOns/released/Windows/\">docs.splunk.com</a>.</p>\n<p>For information on what has been fixed as well as known issues, see the <a href=\"https://docs.splunk.com/Documentation/AddOns/released/Windows/Releasenote\">release notes</a>.</p>",
         "documentation_source": "To learn about the Splunk Add-on for Microsoft Windows, see the official documentation here on [docs.splunk.com](https://docs.splunk.com/Documentation/AddOns/released/Windows/).\r\n\r\nFor information on what has been fixed as well as known issues, see the [release notes](https://docs.splunk.com/Documentation/AddOns/released/Windows/Releasenote).",
-        "download_count": 742975,
+        "download_count": 743179,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/4f42b302-2839-11f1-9fdd-bea31df8072e.png",
         "inquiry_buttontext": "",
         "inquiry_url": "",
@@ -71,24 +71,24 @@
           ],
           "cloud_compatible": true,
           "fips_compatibility": false,
-          "filename": "splunk-add-on-for-microsoft-windows_912.tgz",
-          "id": 40652,
-          "md5": "31a944504892f0aaed563e94d51de409",
+          "filename": "splunk-add-on-for-microsoft-windows_1000.spl",
+          "id": 42095,
+          "md5": "398c2a18bcb9546698e75d875b59bf33",
           "min_product_version_str": null,
-          "name": "9.1.2",
+          "name": "10.0.0",
           "passed_validation": true,
-          "path": "https://splunkbase.splunk.com/app/742/release/9.1.2/download/",
+          "path": "https://splunkbase.splunk.com/app/742/release/10.0.0/download/",
           "platform": "independent",
           "product_types": [
             "enterprise",
             "cloud"
           ],
           "public_ever_true": false,
-          "published_datetime": "2025-12-10T14:51:31.336420Z",
-          "release_notes": "",
-          "sha256": "ba822448d63e9bd6ce5318b7e0467888d14be9d6fa4fbd491112504464a082bc",
+          "published_datetime": "2026-03-25T10:56:44.227777Z",
+          "release_notes": "<ul>\n<li>Removed python3.7 support</li>\n<li>Removed duplicate <code>EVAL-reason_id</code> from [source::XmlWinEventLog:Security]</li>\n<li>New mapping for field <code>user</code> in Event Id 5140</li>\n</ul>",
+          "sha256": "c2750a0a358fcc36172eb18d7abb685306f027cf972eacf49f8a4cac318a4dc7",
           "signed_available": true,
-          "size": 514935,
+          "size": 237861,
           "version_compatibility": [
             {
               "id": 128,
@@ -119,16 +119,70 @@
               "id": 111,
               "status": "live",
               "versionString": "9.3"
-            },
-            {
-              "id": 110,
-              "status": "live",
-              "versionString": "9.2"
             }
           ],
           "spl_compatibility": "SPL1"
         },
         "releases": [
+          {
+            "actions": [],
+            "cim_compatibility": [
+              "5.x"
+            ],
+            "cloud_compatible": true,
+            "fips_compatibility": false,
+            "filename": "splunk-add-on-for-microsoft-windows_1000.spl",
+            "id": 42095,
+            "md5": "398c2a18bcb9546698e75d875b59bf33",
+            "min_product_version_str": null,
+            "name": "10.0.0",
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/742/release/10.0.0/download/",
+            "platform": "independent",
+            "product_types": [
+              "enterprise",
+              "cloud"
+            ],
+            "public_ever_true": false,
+            "published_datetime": "2026-03-25T10:56:44.227777Z",
+            "release_notes": "<ul>\n<li>Removed python3.7 support</li>\n<li>Removed duplicate <code>EVAL-reason_id</code> from [source::XmlWinEventLog:Security]</li>\n<li>New mapping for field <code>user</code> in Event Id 5140</li>\n</ul>",
+            "sha256": "c2750a0a358fcc36172eb18d7abb685306f027cf972eacf49f8a4cac318a4dc7",
+            "signed_available": true,
+            "size": 237861,
+            "version_compatibility": [
+              {
+                "id": 128,
+                "status": "live",
+                "versionString": "10.3"
+              },
+              {
+                "id": 127,
+                "status": "live",
+                "versionString": "10.2"
+              },
+              {
+                "id": 121,
+                "status": "live",
+                "versionString": "10.1"
+              },
+              {
+                "id": 119,
+                "status": "live",
+                "versionString": "10.0"
+              },
+              {
+                "id": 115,
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "id": 111,
+                "status": "live",
+                "versionString": "9.3"
+              }
+            ],
+            "spl_compatibility": "SPL1"
+          },
           {
             "actions": [],
             "cim_compatibility": [
@@ -665,7 +719,7 @@
         "troubleshooting": "",
         "troubleshooting_source": "",
         "type": "addon",
-        "updated_time": "2026-03-25T13:34:46.826944Z",
+        "updated_time": "2026-03-26T14:30:52.014279Z",
         "video_link": null,
         "app_type": "addon",
         "schedule_release": null,
@@ -687,7 +741,7 @@
   "query": {
     "id": "742"
   },
-  "buildId": "9VUGYo9arHOGt1xzGR0R-",
+  "buildId": "0B2OP--80ydVQTPnomLRs",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
