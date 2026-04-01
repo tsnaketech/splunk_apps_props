@@ -22,7 +22,7 @@
         "description": "The Splunk ES Content Update (ESCU) app delivers pre-packaged Security Content. ESCU provides regular Security Content updates to help security practitioners address ongoing time-sensitive threats, attack methods, and other security issues.\n\nSecurity Content consists of tactics, techniques, and methodologies that help with detection, investigation, and response. Security Content enables security teams to directly operationalize detection searches, investigative searches, and other supporting details. ESCU can generate Notable/Risk Events in Splunk Enterprise Security. Security Content also contains easy-to-read background information and guidance, for key context on motivations and risks associated with attack techniques, as well as pragmatic advice on how to combat those techniques.\n\nThe analytic stories and their searches are also available at - https://github.com/splunk/security_content.",
         "documentation": "<p>For more information please visit the <a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update\">Splunk ES Content Update user documentation</a>.</p>",
         "documentation_source": "For more information please visit the [Splunk ES Content Update user documentation](https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update).",
-        "download_count": 173131,
+        "download_count": 173252,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/2b10db08-230c-11f1-a288-fa6d3ab2738f.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "http://www.splunk.com/index.php/ask_expert/default/3174",
@@ -168,8 +168,8 @@
             "path": "https://splunkbase.splunk.com/app/3449/release/5.24.0/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "public_ever_true": false,
             "published_datetime": "2026-03-18T20:51:02.487519Z",
@@ -259,8 +259,8 @@
             "path": "https://splunkbase.splunk.com/app/3449/release/5.23.0/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "public_ever_true": false,
             "published_datetime": "2026-03-04T18:21:56.030366Z",
@@ -350,8 +350,8 @@
             "path": "https://splunkbase.splunk.com/app/3449/release/5.22.0/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "public_ever_true": false,
             "published_datetime": "2026-02-19T16:06:00.201098Z",
@@ -441,8 +441,8 @@
             "path": "https://splunkbase.splunk.com/app/3449/release/5.21.0/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "public_ever_true": false,
             "published_datetime": "2026-02-05T22:33:50.235364Z",
