@@ -23,7 +23,7 @@
         "description": "The Splunk Add-on for NGINX allows a Splunk software administrator to collect Web server activities, performance metrics, and error logs using file monitoring and API inputs.\n\nThis add-on provides the inputs and CIM-compatible knowledge to use with other Splunk apps, such as Splunk Enterprise Security, the Splunk App for PCI Compliance, and Splunk IT Service Intelligence.",
         "documentation": "<p>Documentation for this Add-on is posted at <a href=\"http://docs.splunk.com/Documentation/AddOns/latest/nginx/About\" title=\"Splunk Docs\">Splunk Docs</a>.</p>",
         "documentation_source": "Documentation for this Add-on is posted at [Splunk Docs](http://docs.splunk.com/Documentation/AddOns/latest/nginx/About \"Splunk Docs\").",
-        "download_count": 87404,
+        "download_count": 87598,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/43731336-6aa4-11ef-ab3b-faca7e54e553.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -320,7 +320,7 @@
   "query": {
     "id": "3258"
   },
-  "buildId": "0B2OP--80ydVQTPnomLRs",
+  "buildId": "uo6bY1cPm_cHV8rtLAAwb",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
