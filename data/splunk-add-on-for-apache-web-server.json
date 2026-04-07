@@ -22,7 +22,7 @@
         "description": "The Splunk Add-on for Apache Web Server allows a Splunk software administrator to collect and analyze data from Apache Web Server using file monitoring. After the Splunk platform indexes the events, you can analyze the data using the prebuilt panels included with the add-on. \n\nThis add-on provides the inputs and CIM-compatible knowledge to use with other Splunk apps, such as Web.",
         "documentation": "<p>Documentation for this add-on can be found here: <a href=\"http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About\">http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About</a></p>",
         "documentation_source": "Documentation for this add-on can be found here: http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About",
-        "download_count": 35882,
+        "download_count": 35897,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/da5f5090-00e2-11f1-b6d6-ded197cc3891.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": null,
@@ -43,8 +43,8 @@
         "product": "splunk",
         "product_types": [
           "enterprise",
-          "cloud",
-          "itsi"
+          "itsi",
+          "cloud"
         ],
         "public": true,
         "ranking": [
@@ -144,8 +144,8 @@
             "path": "https://splunkbase.splunk.com/app/3186/release/2.2.1/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "public_ever_true": false,
             "published_datetime": "2026-02-05T07:51:00.696673Z",
@@ -213,8 +213,8 @@
             "path": "https://splunkbase.splunk.com/app/3186/release/2.2.0/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "public_ever_true": false,
             "published_datetime": "2025-11-12T13:07:02.979193Z",
@@ -282,8 +282,8 @@
             "path": "https://splunkbase.splunk.com/app/3186/release/2.1.0/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "public_ever_true": false,
             "published_datetime": "2022-06-03T17:11:41.657153Z",

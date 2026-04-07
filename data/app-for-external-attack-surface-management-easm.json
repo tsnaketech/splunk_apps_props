@@ -145,8 +145,8 @@
             "path": "https://splunkbase.splunk.com/app/7027/release/1.1.2/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "public_ever_true": false,
             "published_datetime": "2024-09-12T05:44:51.373217Z",
