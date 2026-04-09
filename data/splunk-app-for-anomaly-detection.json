@@ -55,12 +55,12 @@
         "public": true,
         "ranking": [
           {
-            "rank": 274,
+            "rank": 276,
             "category_name": "security_compliance",
             "category_display_name": "Security, Fraud & Compliance"
           },
           {
-            "rank": 275,
+            "rank": 277,
             "category_name": "it_operations_management",
             "category_display_name": "IT Operations"
           }
