@@ -7,8 +7,13 @@
         "approved": true,
         "approval_status": "approved",
         "categories": [
-          "utilities"
+          {
+            "id": 5,
+            "key": "utilities",
+            "label": "Utilities"
+          }
         ],
+        "cloud_compatible": false,
         "contributors": [],
         "collections": [],
         "contact_email": "yoyonet-info@gmx.net",
@@ -40,7 +45,10 @@
         "license_name": "none",
         "license_url": "",
         "license_agreement_read_required": false,
+        "partner_metadata": null,
+        "pending_owner_transfer_event": null,
         "product": "splunk",
+        "product_compatibility": "splunk",
         "product_types": [],
         "public": true,
         "ranking": [
@@ -57,10 +65,15 @@
         "release": {
           "actions": [],
           "cim_compatibility": [],
+          "CIM_versions": [],
           "cloud_compatible": false,
+          "content": [],
           "fips_compatibility": false,
           "filename": "ta-custom-login-page_null",
           "id": 24658,
+          "install_method_distributed": "unknown",
+          "install_method_single": "unknown",
+          "manifest": null,
           "md5": "",
           "min_product_version_str": null,
           "name": "null",
@@ -68,12 +81,16 @@
           "path": null,
           "platform": "independent",
           "product_types": [],
+          "public": null,
           "public_ever_true": false,
           "published_datetime": "2022-04-11T19:24:55.740289Z",
           "release_notes": "",
           "sha256": null,
           "signed_available": false,
           "size": 0,
+          "sourcetypes": [],
+          "tags": [],
+          "tags_sourcetypes": {},
           "version_compatibility": [],
           "spl_compatibility": "SPL1"
         },
@@ -83,6 +100,7 @@
         "screenshots": [
           "https://cdn.splunkbase.splunk.com/media/public/screenshots/dd7e432e-3244-11ec-a1f2-92c298852a62.png"
         ],
+        "show_as_built_by": null,
         "short_description": "",
         "support": "developer",
         "title": "TA - Custom Login Page",
@@ -111,7 +129,7 @@
   "query": {
     "id": "6157"
   },
-  "buildId": "a-wfh_TGcSwn64myOuDf9",
+  "buildId": "EJ2OH98-CE0J1yURoFYHo",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

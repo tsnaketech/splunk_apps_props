@@ -7,9 +7,18 @@
         "approved": true,
         "approval_status": "approved",
         "categories": [
-          "security_compliance",
-          "vulnerability_scanner"
+          {
+            "id": 1,
+            "key": "security_compliance",
+            "label": "Security, Fraud & Compliance"
+          },
+          {
+            "id": 28,
+            "key": "vulnerability_scanner",
+            "label": "Vulnerability Scanner"
+          }
         ],
+        "cloud_compatible": true,
         "contributors": [],
         "collections": [],
         "contact_email": "",
@@ -41,7 +50,10 @@
         "license_name": "mit",
         "license_url": "https://opensource.org/licenses/MIT",
         "license_agreement_read_required": false,
+        "partner_metadata": null,
+        "pending_owner_transfer_event": null,
         "product": "splunk",
+        "product_compatibility": "splunk",
         "product_types": [
           "enterprise",
           "cloud"
@@ -66,10 +78,17 @@
         "release": {
           "actions": [],
           "cim_compatibility": [],
+          "CIM_versions": [],
           "cloud_compatible": true,
+          "content": [
+            "inputs"
+          ],
           "fips_compatibility": false,
           "filename": "app-for-external-attack-surface-management-easm_112.tgz",
           "id": 34632,
+          "install_method_distributed": "appmgmt_phase",
+          "install_method_single": "simple",
+          "manifest": null,
           "md5": "88d31edd84be8672c0520fb439f9f23b",
           "min_product_version_str": null,
           "name": "1.1.2",
@@ -80,12 +99,28 @@
             "enterprise",
             "cloud"
           ],
+          "public": null,
           "public_ever_true": false,
           "published_datetime": "2024-09-12T05:44:51.373217Z",
           "release_notes": "<p>Updated splunklib</p>",
           "sha256": "df8c5a5dbcb6fd17143bd9bc1d284be0071ab1ac2e7bd773b12cae475b2cc9cc",
           "signed_available": true,
           "size": 187646,
+          "sourcetypes": [
+            "easm:http_service",
+            "easm:web_spider",
+            "easm:open_port"
+          ],
+          "tags": [
+            "__no_tag__"
+          ],
+          "tags_sourcetypes": {
+            "__no_tag__": [
+              "easm:web_spider",
+              "easm:open_port",
+              "easm:http_service"
+            ]
+          },
           "version_compatibility": [
             {
               "id": 115,
@@ -134,10 +169,17 @@
           {
             "actions": [],
             "cim_compatibility": [],
+            "CIM_versions": [],
             "cloud_compatible": true,
+            "content": [
+              "inputs"
+            ],
             "fips_compatibility": false,
             "filename": "app-for-external-attack-surface-management-easm_112.tgz",
             "id": 34632,
+            "install_method_distributed": "appmgmt_phase",
+            "install_method_single": "simple",
+            "manifest": null,
             "md5": "88d31edd84be8672c0520fb439f9f23b",
             "min_product_version_str": null,
             "name": "1.1.2",
@@ -148,12 +190,28 @@
               "cloud",
               "enterprise"
             ],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2024-09-12T05:44:51.373217Z",
             "release_notes": "<p>Updated splunklib</p>",
             "sha256": "df8c5a5dbcb6fd17143bd9bc1d284be0071ab1ac2e7bd773b12cae475b2cc9cc",
             "signed_available": true,
             "size": 187646,
+            "sourcetypes": [
+              "easm:http_service",
+              "easm:web_spider",
+              "easm:open_port"
+            ],
+            "tags": [
+              "__no_tag__"
+            ],
+            "tags_sourcetypes": {
+              "__no_tag__": [
+                "easm:web_spider",
+                "easm:open_port",
+                "easm:http_service"
+              ]
+            },
             "version_compatibility": [
               {
                 "id": 115,
@@ -201,10 +259,17 @@
           {
             "actions": [],
             "cim_compatibility": [],
+            "CIM_versions": [],
             "cloud_compatible": false,
+            "content": [
+              "inputs"
+            ],
             "fips_compatibility": false,
             "filename": "app-for-external-attack-surface-management-easm_111.tgz",
             "id": 31240,
+            "install_method_distributed": "rejected",
+            "install_method_single": "rejected",
+            "manifest": null,
             "md5": "36088ac28697791234ca1ba86d7eb02d",
             "min_product_version_str": null,
             "name": "1.1.1",
@@ -214,12 +279,28 @@
             "product_types": [
               "enterprise"
             ],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2023-11-17T05:42:49.517962Z",
             "release_notes": "<p>Removing a .old file for AppInspect compatibility.</p>",
             "sha256": "64b3edbf2995ebb76bde3986fc4b3302af821145b6893e5c1be71655ebc2e4ae",
             "signed_available": true,
             "size": 187564,
+            "sourcetypes": [
+              "easm:http_service",
+              "easm:web_spider",
+              "easm:open_port"
+            ],
+            "tags": [
+              "__no_tag__"
+            ],
+            "tags_sourcetypes": {
+              "__no_tag__": [
+                "easm:web_spider",
+                "easm:open_port",
+                "easm:http_service"
+              ]
+            },
             "version_compatibility": [
               {
                 "id": 115,
@@ -252,10 +333,17 @@
           {
             "actions": [],
             "cim_compatibility": [],
+            "CIM_versions": [],
             "cloud_compatible": false,
+            "content": [
+              "inputs"
+            ],
             "fips_compatibility": false,
             "filename": "app-for-external-attack-surface-management-easm_11.tgz",
             "id": 30509,
+            "install_method_distributed": "rejected",
+            "install_method_single": "rejected",
+            "manifest": null,
             "md5": "9915e2107d33b2607391d0c69fcc54c0",
             "min_product_version_str": null,
             "name": "1.1",
@@ -265,12 +353,28 @@
             "product_types": [
               "enterprise"
             ],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2023-09-09T01:51:31.926983Z",
             "release_notes": "<p>2023-09-09 - First Splunkbase release for a port of app 7010 with a revised app id</p>",
             "sha256": "3d04f1bd7a5bcb83f86710033ed6f95300cad9f6bc76f793306dec07a0485d31",
             "signed_available": true,
             "size": 191833,
+            "sourcetypes": [
+              "easm:http_service",
+              "easm:web_spider",
+              "easm:open_port"
+            ],
+            "tags": [
+              "__no_tag__"
+            ],
+            "tags_sourcetypes": {
+              "__no_tag__": [
+                "easm:web_spider",
+                "easm:open_port",
+                "easm:http_service"
+              ]
+            },
             "version_compatibility": [
               {
                 "id": 115,
@@ -310,6 +414,7 @@
           "https://cdn.splunkbase.splunk.com/media/public/screenshots/54e0cf84-4eb5-11ee-b86f-4a83fd80fad4.png",
           "https://cdn.splunkbase.splunk.com/media/public/screenshots/595bbff6-4eb5-11ee-b4bc-6617529ac42a.png"
         ],
+        "show_as_built_by": null,
         "short_description": "",
         "support": "developer",
         "title": "App for External Attack Surface Management (EASM)",
@@ -338,7 +443,7 @@
   "query": {
     "id": "7027"
   },
-  "buildId": "a-wfh_TGcSwn64myOuDf9",
+  "buildId": "EJ2OH98-CE0J1yURoFYHo",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

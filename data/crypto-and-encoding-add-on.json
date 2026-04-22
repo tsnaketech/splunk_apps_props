@@ -7,9 +7,18 @@
         "approved": true,
         "approval_status": "approved",
         "categories": [
-          "security_compliance",
-          "utilities"
+          {
+            "id": 1,
+            "key": "security_compliance",
+            "label": "Security, Fraud & Compliance"
+          },
+          {
+            "id": 5,
+            "key": "utilities",
+            "label": "Utilities"
+          }
         ],
+        "cloud_compatible": true,
         "contributors": [],
         "collections": [],
         "contact_email": "",
@@ -41,21 +50,24 @@
         "license_name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Int. Lic.",
         "license_url": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
         "license_agreement_read_required": false,
+        "partner_metadata": null,
+        "pending_owner_transfer_event": null,
         "product": "splunk",
+        "product_compatibility": "splunk",
         "product_types": [
           "enterprise"
         ],
         "public": true,
         "ranking": [
           {
-            "rank": 652,
-            "category_name": "security_compliance",
-            "category_display_name": "Security, Fraud & Compliance"
-          },
-          {
             "rank": 338,
             "category_name": "utilities",
             "category_display_name": "Utilities"
+          },
+          {
+            "rank": 652,
+            "category_name": "security_compliance",
+            "category_display_name": "Security, Fraud & Compliance"
           }
         ],
         "rating": {
@@ -67,10 +79,19 @@
           "cim_compatibility": [
             "6.x"
           ],
+          "CIM_versions": [
+            19
+          ],
           "cloud_compatible": true,
+          "content": [
+            "inputs"
+          ],
           "fips_compatibility": false,
           "filename": "crypto-and-encoding-add-on_243.tgz",
           "id": 39633,
+          "install_method_distributed": "appmgmt_phase",
+          "install_method_single": "simple",
+          "manifest": "{\n    \"schemaVersion\": \"2.0.0\",\n    \"info\": {\n        \"title\": \"Crypto and Encoding Add-On\",\n        \"id\": {\n            \"group\": null,\n            \"name\": \"TA-cryptosuite\",\n            \"version\": \"2.4.3\"\n        },\n        \"author\": [\n            {\n                \"name\": \"Harun Kuessner\",\n                \"email\": null,\n                \"company\": null\n            }\n        ],\n        \"releaseDate\": null,\n        \"description\": \"Custom search commands for ciphering/deciphering, encrypting/decrypting, encoding/decoding and hashing fields and events at search time\",\n        \"classification\": {\n            \"intendedAudience\": null,\n            \"categories\": [],\n            \"developmentStatus\": null\n        },\n        \"commonInformationModels\": null,\n        \"license\": {\n            \"name\": null,\n            \"text\": null,\n            \"uri\": null\n        },\n        \"privacyPolicy\": {\n            \"name\": null,\n            \"text\": null,\n            \"uri\": null\n        },\n        \"releaseNotes\": {\n            \"name\": null,\n            \"text\": null,\n            \"uri\": null\n        }\n    },\n    \"dependencies\": {},\n    \"tasks\": [],\n    \"inputGroups\": {},\n    \"incompatibleApps\": {},\n    \"platformRequirements\": {\n        \"splunk\": {\n            \"Enterprise\": \"*\"\n        }\n    },\n    \"supportedDeployments\": [\n        \"*\"\n    ],\n    \"targetWorkloads\": [\n        \"*\"\n    ]\n}\n",
           "md5": "4d3c4f098ff864820aa47973828cffae",
           "min_product_version_str": null,
           "name": "2.4.3",
@@ -81,12 +102,24 @@
             "enterprise",
             "cloud"
           ],
+          "public": null,
           "public_ever_true": false,
           "published_datetime": "2025-09-12T10:26:54.974108Z",
           "release_notes": "<ul>\n<li>Ensured future cloud compatibility</li>\n<li>Updated Splunk Python SDK</li>\n</ul>",
           "sha256": "1ca06a219f03cd232bf2e3cf9fbfb4e2a17acba1388b47fa38ad3a86e20e8f4a",
           "signed_available": true,
           "size": 5994393,
+          "sourcetypes": [
+            "tacryptosuite:log"
+          ],
+          "tags": [
+            "__no_tag__"
+          ],
+          "tags_sourcetypes": {
+            "__no_tag__": [
+              "tacryptosuite:log"
+            ]
+          },
           "version_compatibility": [
             {
               "id": 119,
@@ -142,10 +175,19 @@
             "cim_compatibility": [
               "6.x"
             ],
+            "CIM_versions": [
+              19
+            ],
             "cloud_compatible": true,
+            "content": [
+              "inputs"
+            ],
             "fips_compatibility": false,
             "filename": "crypto-and-encoding-add-on_243.tgz",
             "id": 39633,
+            "install_method_distributed": "appmgmt_phase",
+            "install_method_single": "simple",
+            "manifest": "{\n    \"schemaVersion\": \"2.0.0\",\n    \"info\": {\n        \"title\": \"Crypto and Encoding Add-On\",\n        \"id\": {\n            \"group\": null,\n            \"name\": \"TA-cryptosuite\",\n            \"version\": \"2.4.3\"\n        },\n        \"author\": [\n            {\n                \"name\": \"Harun Kuessner\",\n                \"email\": null,\n                \"company\": null\n            }\n        ],\n        \"releaseDate\": null,\n        \"description\": \"Custom search commands for ciphering/deciphering, encrypting/decrypting, encoding/decoding and hashing fields and events at search time\",\n        \"classification\": {\n            \"intendedAudience\": null,\n            \"categories\": [],\n            \"developmentStatus\": null\n        },\n        \"commonInformationModels\": null,\n        \"license\": {\n            \"name\": null,\n            \"text\": null,\n            \"uri\": null\n        },\n        \"privacyPolicy\": {\n            \"name\": null,\n            \"text\": null,\n            \"uri\": null\n        },\n        \"releaseNotes\": {\n            \"name\": null,\n            \"text\": null,\n            \"uri\": null\n        }\n    },\n    \"dependencies\": {},\n    \"tasks\": [],\n    \"inputGroups\": {},\n    \"incompatibleApps\": {},\n    \"platformRequirements\": {\n        \"splunk\": {\n            \"Enterprise\": \"*\"\n        }\n    },\n    \"supportedDeployments\": [\n        \"*\"\n    ],\n    \"targetWorkloads\": [\n        \"*\"\n    ]\n}\n",
             "md5": "4d3c4f098ff864820aa47973828cffae",
             "min_product_version_str": null,
             "name": "2.4.3",
@@ -156,12 +198,24 @@
               "cloud",
               "enterprise"
             ],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2025-09-12T10:26:54.974108Z",
             "release_notes": "<ul>\n<li>Ensured future cloud compatibility</li>\n<li>Updated Splunk Python SDK</li>\n</ul>",
             "sha256": "1ca06a219f03cd232bf2e3cf9fbfb4e2a17acba1388b47fa38ad3a86e20e8f4a",
             "signed_available": true,
             "size": 5994393,
+            "sourcetypes": [
+              "tacryptosuite:log"
+            ],
+            "tags": [
+              "__no_tag__"
+            ],
+            "tags_sourcetypes": {
+              "__no_tag__": [
+                "tacryptosuite:log"
+              ]
+            },
             "version_compatibility": [
               {
                 "id": 119,
@@ -214,10 +268,17 @@
           {
             "actions": [],
             "cim_compatibility": [],
+            "CIM_versions": [],
             "cloud_compatible": false,
+            "content": [
+              "inputs"
+            ],
             "fips_compatibility": false,
             "filename": "crypto-and-encoding-add-on_242.tgz",
             "id": 38811,
+            "install_method_distributed": "rejected",
+            "install_method_single": "rejected",
+            "manifest": "{\n    \"schemaVersion\": \"2.0.0\",\n    \"info\": {\n        \"title\": \"Crypto and Encoding Add-On\",\n        \"id\": {\n            \"group\": null,\n            \"name\": \"TA-cryptosuite\",\n            \"version\": \"2.4.2\"\n        },\n        \"author\": [\n            {\n                \"name\": \"Harun Kuessner\",\n                \"email\": null,\n                \"company\": null\n            }\n        ],\n        \"releaseDate\": null,\n        \"description\": \"Custom search commands for ciphering/deciphering, encrypting/decrypting, encoding/decoding and hashing fields and events at search time\",\n        \"classification\": {\n            \"intendedAudience\": null,\n            \"categories\": [],\n            \"developmentStatus\": null\n        },\n        \"commonInformationModels\": null,\n        \"license\": {\n            \"name\": null,\n            \"text\": null,\n            \"uri\": null\n        },\n        \"privacyPolicy\": {\n            \"name\": null,\n            \"text\": null,\n            \"uri\": null\n        },\n        \"releaseNotes\": {\n            \"name\": null,\n            \"text\": null,\n            \"uri\": null\n        }\n    },\n    \"dependencies\": {},\n    \"tasks\": [],\n    \"inputGroups\": {},\n    \"incompatibleApps\": {},\n    \"platformRequirements\": {\n        \"splunk\": {\n            \"Enterprise\": \"*\"\n        }\n    },\n    \"supportedDeployments\": [\n        \"*\"\n    ],\n    \"targetWorkloads\": [\n        \"*\"\n    ]\n}\n",
             "md5": "a6d158cdeb5358db25ec702a8ff703de",
             "min_product_version_str": null,
             "name": "2.4.2",
@@ -227,12 +288,24 @@
             "product_types": [
               "enterprise"
             ],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2025-08-01T08:23:38.429444Z",
             "release_notes": "<ul>\n<li>ensured splunk 10 compatibility</li>\n<li>updated splunk python sdk</li>\n</ul>",
             "sha256": "5b7d461f49fc966d5c66d94680bafe673c423da21b4e5fbd8404854b33320637",
             "signed_available": true,
             "size": 4380896,
+            "sourcetypes": [
+              "tacryptosuite:log"
+            ],
+            "tags": [
+              "__no_tag__"
+            ],
+            "tags_sourcetypes": {
+              "__no_tag__": [
+                "tacryptosuite:log"
+              ]
+            },
             "version_compatibility": [
               {
                 "id": 121,
@@ -290,10 +363,17 @@
           {
             "actions": [],
             "cim_compatibility": [],
+            "CIM_versions": [],
             "cloud_compatible": false,
+            "content": [
+              "inputs"
+            ],
             "fips_compatibility": false,
             "filename": "crypto-and-encoding-add-on_241.tgz",
             "id": 36349,
+            "install_method_distributed": "rejected",
+            "install_method_single": "rejected",
+            "manifest": "{\n    \"schemaVersion\": \"2.0.0\",\n    \"info\": {\n        \"title\": \"Crypto and Encoding Add-On\",\n        \"id\": {\n            \"group\": null,\n            \"name\": \"TA-cryptosuite\",\n            \"version\": \"2.4.1\"\n        },\n        \"author\": [\n            {\n                \"name\": \"Harun Kuessner\",\n                \"email\": null,\n                \"company\": null\n            }\n        ],\n        \"releaseDate\": null,\n        \"description\": \"Custom search commands for ciphering/deciphering, encrypting/decrypting, encoding/decoding and hashing fields and events at search time\",\n        \"classification\": {\n            \"intendedAudience\": null,\n            \"categories\": [],\n            \"developmentStatus\": null\n        },\n        \"commonInformationModels\": null,\n        \"license\": {\n            \"name\": null,\n            \"text\": null,\n            \"uri\": null\n        },\n        \"privacyPolicy\": {\n            \"name\": null,\n            \"text\": null,\n            \"uri\": null\n        },\n        \"releaseNotes\": {\n            \"name\": null,\n            \"text\": null,\n            \"uri\": null\n        }\n    },\n    \"dependencies\": {},\n    \"tasks\": [],\n    \"inputGroups\": {},\n    \"incompatibleApps\": {},\n    \"platformRequirements\": {\n        \"splunk\": {\n            \"Enterprise\": \"*\"\n        }\n    },\n    \"supportedDeployments\": [\n        \"*\"\n    ],\n    \"targetWorkloads\": [\n        \"*\"\n    ]\n}",
             "md5": "079d31e7641ebda8600130218483711a",
             "min_product_version_str": null,
             "name": "2.4.1",
@@ -303,12 +383,24 @@
             "product_types": [
               "enterprise"
             ],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2025-01-29T08:06:14.923309Z",
             "release_notes": "<ul>\n<li>Ensured future Splunk Cloud compatibility</li>\n<li>Updated Splunk SDK for Python</li>\n</ul>",
             "sha256": "1b5a3bc7fe9043efcb81282b753869353f0af20402eab5dc24e666d88f77ec25",
             "signed_available": true,
             "size": 5024201,
+            "sourcetypes": [
+              "tacryptosuite:log"
+            ],
+            "tags": [
+              "__no_tag__"
+            ],
+            "tags_sourcetypes": {
+              "__no_tag__": [
+                "tacryptosuite:log"
+              ]
+            },
             "version_compatibility": [
               {
                 "id": 115,
@@ -356,10 +448,17 @@
           {
             "actions": [],
             "cim_compatibility": [],
+            "CIM_versions": [],
             "cloud_compatible": false,
+            "content": [
+              "inputs"
+            ],
             "fips_compatibility": false,
             "filename": "crypto-and-encoding-add-on_21.tgz",
             "id": 19148,
+            "install_method_distributed": "rejected",
+            "install_method_single": "rejected",
+            "manifest": "{\r\n  \"schemaVersion\": \"1.0.0\",\r\n  \"info\": {\r\n    \"title\": \"Cryptosuite\",\r\n    \"id\": {\r\n      \"group\": null,\r\n      \"name\": \"TA-cryptosuite\",\r\n      \"version\": \"2.1\"\r\n    },\r\n    \"author\": [\r\n      {\r\n        \"name\": \"Harun Kuessner\",\r\n        \"email\": null,\r\n        \"company\": null\r\n      }\r\n    ],\r\n    \"releaseDate\": null,\r\n    \"description\": \"Custom search commands for encrypting, decrypting and hashing fields and events\",\r\n    \"classification\": {\r\n      \"intendedAudience\": null,\r\n      \"categories\": [],\r\n      \"developmentStatus\": null\r\n    },\r\n    \"commonInformationModels\": null,\r\n    \"license\": {\r\n      \"name\": null,\r\n      \"text\": null,\r\n      \"uri\": null\r\n    },\r\n    \"privacyPolicy\": {\r\n      \"name\": null,\r\n      \"text\": null,\r\n      \"uri\": null\r\n    },\r\n    \"releaseNotes\": {\r\n      \"name\": null,\r\n      \"text\": null,\r\n      \"uri\": null\r\n    }\r\n  },\r\n  \"dependencies\": {\r\n  },\r\n  \"tasks\": [],\r\n  \"inputGroups\": {\r\n  },\r\n  \"incompatibleApps\": {\r\n  },\r\n  \"platformRequirements\": {\r\n    \"splunk\": {\r\n      \"Enterprise\": \"*\"\r\n    }\r\n  }\r\n}",
             "md5": "73721fcbd7e36f66ab74b892532a5e49",
             "min_product_version_str": null,
             "name": "2.1",
@@ -367,12 +466,16 @@
             "path": "https://splunkbase.splunk.com/app/5062/release/2.1/download/",
             "platform": "independent",
             "product_types": [],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2021-01-03T14:33:41.700698Z",
             "release_notes": "<ul>\n<li>Bug fixes, stability &amp; performance improvements</li>\n<li>Re-implemented support for encrypted private RSA keys through optional usage of \"pycryptodomex\" Python package.</li>\n</ul>",
             "sha256": "1f5dbc6c411817d7740cf5dada47e6d84cf64688a411334624b711372733123b",
             "signed_available": true,
             "size": 4676529,
+            "sourcetypes": [],
+            "tags": [],
+            "tags_sourcetypes": {},
             "version_compatibility": [
               {
                 "id": 115,
@@ -439,6 +542,7 @@
           "https://cdn.splunkbase.splunk.com/media/public/screenshots/8d3aff06-a8bb-11ea-a842-02e308259b7c.png",
           "https://cdn.splunkbase.splunk.com/media/public/screenshots/922386b4-a8bb-11ea-9d1d-06f227d984f8.png"
         ],
+        "show_as_built_by": null,
         "short_description": "",
         "support": "not_supported",
         "title": "Crypto and Encoding Add-On",
@@ -467,7 +571,7 @@
   "query": {
     "id": "5062"
   },
-  "buildId": "a-wfh_TGcSwn64myOuDf9",
+  "buildId": "EJ2OH98-CE0J1yURoFYHo",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

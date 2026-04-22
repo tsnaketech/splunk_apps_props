@@ -7,9 +7,18 @@
         "approved": true,
         "approval_status": "approved",
         "categories": [
-          "it_operations_management",
-          "security_compliance"
+          {
+            "id": 2,
+            "key": "it_operations_management",
+            "label": "IT Operations"
+          },
+          {
+            "id": 1,
+            "key": "security_compliance",
+            "label": "Security, Fraud & Compliance"
+          }
         ],
+        "cloud_compatible": false,
         "contributors": [],
         "collections": [
           {
@@ -48,7 +57,10 @@
         "license_name": "sgt",
         "license_url": "https://www.splunk.com/en_us/legal/splunk-general-terms.html",
         "license_agreement_read_required": false,
+        "partner_metadata": null,
+        "pending_owner_transfer_event": null,
         "product": "splunk",
+        "product_compatibility": "splunk",
         "product_types": [
           "enterprise"
         ],
@@ -72,10 +84,15 @@
         "release": {
           "actions": [],
           "cim_compatibility": [],
+          "CIM_versions": [],
           "cloud_compatible": false,
+          "content": [],
           "fips_compatibility": false,
           "filename": "splunk-app-for-anomaly-detection_112.tgz",
           "id": 31218,
+          "install_method_distributed": "rejected",
+          "install_method_single": "rejected",
+          "manifest": null,
           "md5": "2f9ae68364e40fc5055987ae19f25df5",
           "min_product_version_str": null,
           "name": "1.1.2",
@@ -85,12 +102,16 @@
           "product_types": [
             "enterprise"
           ],
+          "public": null,
           "public_ever_true": false,
           "published_datetime": "2023-11-15T22:20:07.952515Z",
           "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/AnomalyApp/1.1.2/ReleaseNotes/NewFeatures\">https://docs.splunk.com/Documentation/AnomalyApp/1.1.2/ReleaseNotes/NewFeatures</a></p>",
           "sha256": "c71c50561aef2bea5c0a9fbc3c6021912793dff795598387236df994c86bf002",
           "signed_available": true,
           "size": 7886474,
+          "sourcetypes": [],
+          "tags": [],
+          "tags_sourcetypes": {},
           "version_compatibility": [
             {
               "id": 115,
@@ -139,10 +160,15 @@
           {
             "actions": [],
             "cim_compatibility": [],
+            "CIM_versions": [],
             "cloud_compatible": false,
+            "content": [],
             "fips_compatibility": false,
             "filename": "splunk-app-for-anomaly-detection_112.tgz",
             "id": 31218,
+            "install_method_distributed": "rejected",
+            "install_method_single": "rejected",
+            "manifest": null,
             "md5": "2f9ae68364e40fc5055987ae19f25df5",
             "min_product_version_str": null,
             "name": "1.1.2",
@@ -152,12 +178,16 @@
             "product_types": [
               "enterprise"
             ],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2023-11-15T22:20:07.952515Z",
             "release_notes": "<p><a href=\"https://docs.splunk.com/Documentation/AnomalyApp/1.1.2/ReleaseNotes/NewFeatures\">https://docs.splunk.com/Documentation/AnomalyApp/1.1.2/ReleaseNotes/NewFeatures</a></p>",
             "sha256": "c71c50561aef2bea5c0a9fbc3c6021912793dff795598387236df994c86bf002",
             "signed_available": true,
             "size": 7886474,
+            "sourcetypes": [],
+            "tags": [],
+            "tags_sourcetypes": {},
             "version_compatibility": [
               {
                 "id": 115,
@@ -205,10 +235,15 @@
           {
             "actions": [],
             "cim_compatibility": [],
+            "CIM_versions": [],
             "cloud_compatible": false,
+            "content": [],
             "fips_compatibility": false,
             "filename": "splunk-app-for-anomaly-detection_111.tgz",
             "id": 30449,
+            "install_method_distributed": "rejected",
+            "install_method_single": "rejected",
+            "manifest": null,
             "md5": "b6405e165ffcc14dc3422803be7b580f",
             "min_product_version_str": null,
             "name": "1.1.1",
@@ -218,12 +253,16 @@
             "product_types": [
               "enterprise"
             ],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2023-09-01T04:18:59.877357Z",
             "release_notes": "",
             "sha256": "3a86f1e46c356a78328f37f104c36b98be63333655768475fca80ff3f488c90d",
             "signed_available": true,
             "size": 7888448,
+            "sourcetypes": [],
+            "tags": [],
+            "tags_sourcetypes": {},
             "version_compatibility": [
               {
                 "id": 115,
@@ -271,10 +310,15 @@
           {
             "actions": [],
             "cim_compatibility": [],
+            "CIM_versions": [],
             "cloud_compatible": false,
+            "content": [],
             "fips_compatibility": false,
             "filename": "splunk-app-for-anomaly-detection_110.tgz",
             "id": 29922,
+            "install_method_distributed": "rejected",
+            "install_method_single": "rejected",
+            "manifest": null,
             "md5": "4f208a0fab20b21fa702117313a9effb",
             "min_product_version_str": null,
             "name": "1.1.0",
@@ -284,12 +328,16 @@
             "product_types": [
               "enterprise"
             ],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2023-07-06T19:58:59.946441Z",
             "release_notes": "<p>This release of the Splunk App for Anomaly Detection comes with several enhancements, in both the app workflow and the machine learning algorithm that powers it.</p>\n<p>The app has a new remediation workflow.  We can detect whether the input time series has missing data or is unevenly spaced.  If the data is unevenly spaced, we provide an aggregation capability to create an evenly-spaced time series.  If there is missing data, we fill it in via linear interpolation.</p>\n<p>In this version, we expand our alert actions from email only to include \u201cLog event\u201d, \u201cOutput results to lookup\u201d, \u201cOutput results to telemetry endpoint\u201d, \u201cSend to Splunk Mobile\u201d, \u201cWebhook\u201d, and \u201cAdd to Triggered Alerts\u201d.</p>\n<p>We have also enhanced our Job Dashboard.  The dropdown for each job shows its properties, including the sensitivity, the saved search schedule, and the alert actions selected for both anomaly and missing data alerting.</p>\n<p>Behind the scenes, we have also significantly improved our anomaly detection algorithm.</p>",
             "sha256": "fa6a7eb39536dfd446d47722e0d9355c6216fe878251eb5ca9851cd2326183f9",
             "signed_available": true,
             "size": 8106390,
+            "sourcetypes": [],
+            "tags": [],
+            "tags_sourcetypes": {},
             "version_compatibility": [
               {
                 "id": 115,
@@ -337,10 +385,15 @@
           {
             "actions": [],
             "cim_compatibility": [],
+            "CIM_versions": [],
             "cloud_compatible": false,
+            "content": [],
             "fips_compatibility": false,
             "filename": "splunk-app-for-anomaly-detection_100.tgz",
             "id": 29012,
+            "install_method_distributed": "rejected",
+            "install_method_single": "rejected",
+            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk_App_for_Anomaly_Detection\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"Splunk_App_for_Anomaly_Detection\",\n      \"version\": \"1.0.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk, Inc.\",\n        \"email\": \"mlsupport@splunk.com\",\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Given a time series, the Splunk App for Anomaly Detection automatically tunes and generates the optimal SPL query for anomaly detection.\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [\"Security, Fraud & Compliance\", \"DevOps\"],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": \"Splunk Software License Agreement\",\n      \"text\": null,\n      \"uri\": \"https://www.splunk.com/en_us/legal/splunk-software-license-agreement.html\"\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    }\n  },\n  \"tasks\": null,\n  \"supportedDeployments\": [\n    \"_standalone\"\n  ],\n  \"targetWorkloads\": [\n    \"_search_heads\"\n  ]\n}\n",
             "md5": "a7f383b6677a53adf7748ec87b7c6a33",
             "min_product_version_str": null,
             "name": "1.0.0",
@@ -350,12 +403,16 @@
             "product_types": [
               "enterprise"
             ],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2023-04-04T21:46:01.866952Z",
             "release_notes": "<p>This is the first Splunk-supported GA version of the Splunk App for Anomaly Detection (AnomalyApp)<br>\nThis version lets you find anomalies in your time series dataset in just a couple of clicks<br>\nThis version includes sensitivity adjustment so that you can set the sensitivity of the anomaly detection to low, medium or high<br>\nIn this version, the app runs a health diagnostic on the time series to make sure the data is suitable for anomaly detection<br>\nThis version includes a whole host of features to operationalize the anomaly detection job once it is created - user can schedule the job to run at a regular cadence and set alerts to trigger on certain conditions</p>\n<p>Every anomaly has a confidence score associated with it to signify the severity of the anomaly</p>\n<p>The visualizations for the anomalies has been improved; the app shows both point and interval anomalies</p>",
             "sha256": "506efcc76b79be0deaa81cd73d618972c083c58cd80187340377609802656abc",
             "signed_available": true,
             "size": 9133348,
+            "sourcetypes": [],
+            "tags": [],
+            "tags_sourcetypes": {},
             "version_compatibility": [
               {
                 "id": 115,
@@ -407,6 +464,7 @@
           "https://cdn.splunkbase.splunk.com/media/public/screenshots/1bf341ba-202b-11ee-b3b0-c238c850335c.png",
           "https://cdn.splunkbase.splunk.com/media/public/screenshots/21183100-202b-11ee-8a2f-9e1ceba430f1.png"
         ],
+        "show_as_built_by": null,
         "short_description": "",
         "support": "not_supported",
         "title": "Splunk App for Anomaly Detection",
@@ -435,7 +493,7 @@
   "query": {
     "id": "6843"
   },
-  "buildId": "a-wfh_TGcSwn64myOuDf9",
+  "buildId": "EJ2OH98-CE0J1yURoFYHo",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

@@ -7,8 +7,13 @@
         "approved": true,
         "approval_status": "approved",
         "categories": [
-          "utilities"
+          {
+            "id": 5,
+            "key": "utilities",
+            "label": "Utilities"
+          }
         ],
+        "cloud_compatible": true,
         "contributors": [],
         "collections": [],
         "contact_email": "",
@@ -22,7 +27,7 @@
         "description": "The Splunk Event Generator (Eventgen) is a utility which allows its users to easily build real-time event generators.\n\nEventgen allows an app developer to get events into Splunk to test their applications. It provides a somewhat ridiculous amount of configurability to allow users to simulate real data.\n\nTo join the development community, please go to https://github.com/splunk/eventgen.\nFor documentation, please go to the Eventgen Documentation(http://splunk.github.io/eventgen/).",
         "documentation": "<h1>The Splunk Event Generator</h1>\n<p>The Splunk Event Generator is a utility which allows its user to easily build real-time event generators.<br>\nThe current maintainers of this project are Jack Meixensperger (<a href=\"mailto:jackm@splunk.com\">jackm@splunk.com</a>) and Michael Guenther (<a href=\"mailto:mguenther@splunk.com\">mguenther@splunk.com</a>).</p>\n<p>The goals of this project:</p>\n<ul>\n<li>Provide a single data generation solution that all Splunk Apps can leverage</li>\n<li>Enable portable and re-usable configurations that can be quickly adapted between use cases</li>\n<li>Allow every type of Splunk event or transaction to be modeled inside Eventgen</li>\n</ul>\n<h3>Documentation</h3>\n<p>Documentation is hosted at <a href=\"http://splunk.github.io/eventgen/\">Eventgen Documentation</a>.</p>\n<p>For more information, please go to <a href=\"https://github.com/splunk/eventgen\">Eventgen Github Repository</a>.</p>",
         "documentation_source": "# The Splunk Event Generator\n\nThe Splunk Event Generator is a utility which allows its user to easily build real-time event generators.\nThe current maintainers of this project are Jack Meixensperger (jackm@splunk.com) and Michael Guenther (mguenther@splunk.com).\n\nThe goals of this project:\n\n* Provide a single data generation solution that all Splunk Apps can leverage\n* Enable portable and re-usable configurations that can be quickly adapted between use cases\n* Allow every type of Splunk event or transaction to be modeled inside Eventgen\n\n### Documentation\n\nDocumentation is hosted at [Eventgen Documentation](http://splunk.github.io/eventgen/).\n\nFor more information, please go to [Eventgen Github Repository](https://github.com/splunk/eventgen).",
-        "download_count": 289007,
+        "download_count": 289045,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/53e6a222-f960-11eb-97a2-3a6fb3f26e50.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "https://github.com/splunk/eventgen",
@@ -40,7 +45,10 @@
         "license_name": "Splunk General Terms",
         "license_url": "https://www.splunk.com/en_us/legal/splunk-general-terms.html",
         "license_agreement_read_required": false,
+        "partner_metadata": null,
+        "pending_owner_transfer_event": null,
         "product": "splunk",
+        "product_compatibility": "splunk",
         "product_types": [
           "enterprise",
           "cloud"
@@ -60,10 +68,17 @@
         "release": {
           "actions": [],
           "cim_compatibility": [],
+          "CIM_versions": [],
           "cloud_compatible": true,
+          "content": [
+            "inputs"
+          ],
           "fips_compatibility": false,
           "filename": "eventgen_821.tgz",
           "id": 38511,
+          "install_method_distributed": "appmgmt_phase",
+          "install_method_single": "simple",
+          "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"SA-Eventgen\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"SA-Eventgen\",\n      \"version\": \"8.2.1\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"SA-Eventgen app for dynamic data generation\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.md\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\"\n  ],\n  \"targetWorkloads\": null\n}\n",
           "md5": "0e1368cfce980001425aa72b444b1b54",
           "min_product_version_str": null,
           "name": "8.2.1",
@@ -74,12 +89,16 @@
             "enterprise",
             "cloud"
           ],
+          "public": null,
           "public_ever_true": false,
           "published_datetime": "2025-07-09T19:32:11.016533Z",
           "release_notes": "<p>Bugfix: line breaking for multi-line events in samples &gt; 4KB</p>",
           "sha256": "eb4c98c77bc00d2ab003503c423b38a9f307c2796b1243d30f853f8537feccf9",
           "signed_available": true,
           "size": 51610128,
+          "sourcetypes": [],
+          "tags": [],
+          "tags_sourcetypes": {},
           "version_compatibility": [
             {
               "id": 128,
@@ -148,10 +167,17 @@
           {
             "actions": [],
             "cim_compatibility": [],
+            "CIM_versions": [],
             "cloud_compatible": true,
+            "content": [
+              "inputs"
+            ],
             "fips_compatibility": true,
             "filename": "eventgen_822.tgz",
             "id": 41439,
+            "install_method_distributed": "appmgmt_phase",
+            "install_method_single": "simple",
+            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"SA-Eventgen\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"SA-Eventgen\",\n      \"version\": \"8.2.2\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"SA-Eventgen app for dynamic data generation\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.md\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\"\n  ],\n  \"targetWorkloads\": null\n}\n",
             "md5": "a1ab06d6a4fc9166020557f1bc59598e",
             "min_product_version_str": null,
             "name": "8.2.2",
@@ -162,12 +188,16 @@
               "cloud",
               "enterprise"
             ],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2026-02-13T01:06:05.601450Z",
             "release_notes": "<ul>\n<li>Fixed race condition that caused missing events when using \"end\" feature</li>\n<li>Executable built with new option to ensure FIPS compliance</li>\n</ul>",
             "sha256": "77c768d1689d7a8b51f89eebb08d1871f54bed62295361a850380243726839bd",
             "signed_available": true,
             "size": 17703595,
+            "sourcetypes": [],
+            "tags": [],
+            "tags_sourcetypes": {},
             "version_compatibility": [
               {
                 "id": 128,
@@ -235,10 +265,17 @@
           {
             "actions": [],
             "cim_compatibility": [],
+            "CIM_versions": [],
             "cloud_compatible": true,
+            "content": [
+              "inputs"
+            ],
             "fips_compatibility": false,
             "filename": "eventgen_821.tgz",
             "id": 38511,
+            "install_method_distributed": "appmgmt_phase",
+            "install_method_single": "simple",
+            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"SA-Eventgen\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"SA-Eventgen\",\n      \"version\": \"8.2.1\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"SA-Eventgen app for dynamic data generation\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.md\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\"\n  ],\n  \"targetWorkloads\": null\n}\n",
             "md5": "0e1368cfce980001425aa72b444b1b54",
             "min_product_version_str": null,
             "name": "8.2.1",
@@ -249,12 +286,16 @@
               "cloud",
               "enterprise"
             ],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2025-07-09T19:32:11.016533Z",
             "release_notes": "<p>Bugfix: line breaking for multi-line events in samples &gt; 4KB</p>",
             "sha256": "eb4c98c77bc00d2ab003503c423b38a9f307c2796b1243d30f853f8537feccf9",
             "signed_available": true,
             "size": 51610128,
+            "sourcetypes": [],
+            "tags": [],
+            "tags_sourcetypes": {},
             "version_compatibility": [
               {
                 "id": 128,
@@ -322,10 +363,17 @@
           {
             "actions": [],
             "cim_compatibility": [],
+            "CIM_versions": [],
             "cloud_compatible": true,
+            "content": [
+              "inputs"
+            ],
             "fips_compatibility": false,
             "filename": "eventgen_820.tgz",
             "id": 38043,
+            "install_method_distributed": "appmgmt_phase",
+            "install_method_single": "simple",
+            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"SA-Eventgen\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"SA-Eventgen\",\n      \"version\": \"8.2.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"SA-Eventgen app for dynamic data generation\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.md\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\"\n  ],\n  \"targetWorkloads\": null\n}\n",
             "md5": "815f3ddb3d348e4064eac44fa3114562",
             "min_product_version_str": null,
             "name": "8.2.0",
@@ -336,12 +384,16 @@
               "cloud",
               "enterprise"
             ],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2025-05-30T15:14:20.575035Z",
             "release_notes": "<ul>\n<li>Bugfix: Consolidate perdayvolume and event count generators</li>\n<li>Bugfix: support extendIndexes for perdayvolume</li>\n<li>New option \u201cbackfillTimeNoSkew\u201d to generate backfill events at interval start</li>\n<li>Bugfix: remove modinput refresh mechanism</li>\n<li>Bugfix: Perdayvolume support with time-based raters</li>\n<li>Token caching per event</li>\n<li>Backfill timing improvements, new options:</li>\n<li>\u201cbackfillStartDay\u201d to adjust \u201cbackfill\u201d to start of day UTC</li>\n<li>\u201cendStartDay\u201d to adjust \u201cendts\u201d to start of day UTC</li>\n</ul>",
             "sha256": "072f76b5b8c1e10f13bf6c6827febfb20ddb4b523c2106f9ed8cdc3d0738d0db",
             "signed_available": true,
             "size": 18695776,
+            "sourcetypes": [],
+            "tags": [],
+            "tags_sourcetypes": {},
             "version_compatibility": [
               {
                 "id": 115,
@@ -389,10 +441,17 @@
           {
             "actions": [],
             "cim_compatibility": [],
+            "CIM_versions": [],
             "cloud_compatible": true,
+            "content": [
+              "inputs"
+            ],
             "fips_compatibility": false,
             "filename": "eventgen_812.tgz",
             "id": 31486,
+            "install_method_distributed": "appmgmt_phase",
+            "install_method_single": "simple",
+            "manifest": null,
             "md5": "d90d4dc3122019d52fe49f4a64ceddae",
             "min_product_version_str": null,
             "name": "8.1.2",
@@ -403,12 +462,16 @@
               "cloud",
               "enterprise"
             ],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2024-01-08T23:07:45.786975Z",
             "release_notes": "<ul>\n<li>bugfix for modinput race condition</li>\n<li>performance optimizations</li>\n</ul>",
             "sha256": "387f1aa8eaf7720c4a20225e112e31cac6b79a34dcac19e63bb439cfa4ca7ff1",
             "signed_available": true,
             "size": 14848171,
+            "sourcetypes": [],
+            "tags": [],
+            "tags_sourcetypes": {},
             "version_compatibility": [
               {
                 "id": 115,
@@ -456,10 +519,17 @@
           {
             "actions": [],
             "cim_compatibility": [],
+            "CIM_versions": [],
             "cloud_compatible": false,
+            "content": [
+              "inputs"
+            ],
             "fips_compatibility": false,
             "filename": "eventgen_811.tgz",
             "id": 31073,
+            "install_method_distributed": "unknown",
+            "install_method_single": "unknown",
+            "manifest": null,
             "md5": "a78f849d03093df95af7ed8436e3a4e7",
             "min_product_version_str": null,
             "name": "8.1.1",
@@ -469,12 +539,16 @@
             "product_types": [
               "enterprise"
             ],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2023-11-02T14:54:57.150903Z",
             "release_notes": "<ul>\n<li>Changes made to the output process to increase speed and reliability.  </li>\n<li>Updated version of golang modules</li>\n</ul>",
             "sha256": "0dadd1a5303f978ea7d8a2e29ca70bcaf2f3dc1ba991705dde7fb6e78b160daf",
             "signed_available": true,
             "size": 43484782,
+            "sourcetypes": [],
+            "tags": [],
+            "tags_sourcetypes": {},
             "version_compatibility": [
               {
                 "id": 115,
@@ -525,10 +599,20 @@
               "4.x",
               "3.x"
             ],
+            "CIM_versions": [
+              16,
+              15
+            ],
             "cloud_compatible": true,
+            "content": [
+              "inputs"
+            ],
             "fips_compatibility": false,
             "filename": "eventgen_801.tgz",
             "id": 26192,
+            "install_method_distributed": "appmgmt_phase",
+            "install_method_single": "simple",
+            "manifest": null,
             "md5": "65ee19525f2535156008f58440cc6711",
             "min_product_version_str": null,
             "name": "8.0.1",
@@ -539,12 +623,16 @@
               "cloud",
               "enterprise"
             ],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2022-06-13T19:56:47.284437Z",
             "release_notes": "<ul>\n<li>Package size reduced to about 1/3 of original size</li>\n<li>Updated version of golang module dependencies</li>\n</ul>",
             "sha256": "acefa87996fd9f20464185816b74a387aef39162c274f5b8abc57b1407930259",
             "signed_available": true,
             "size": 12569838,
+            "sourcetypes": [],
+            "tags": [],
+            "tags_sourcetypes": {},
             "version_compatibility": [
               {
                 "id": 115,
@@ -595,10 +683,20 @@
               "4.x",
               "3.x"
             ],
+            "CIM_versions": [
+              16,
+              15
+            ],
             "cloud_compatible": false,
+            "content": [
+              "inputs"
+            ],
             "fips_compatibility": false,
             "filename": "eventgen_722.tgz",
             "id": 21295,
+            "install_method_distributed": "unknown",
+            "install_method_single": "unknown",
+            "manifest": null,
             "md5": "253a17c620008df5f0569f73cb47f2cf",
             "min_product_version_str": null,
             "name": "7.2.2",
@@ -606,12 +704,36 @@
             "path": "https://splunkbase.splunk.com/app/1924/release/7.2.2/download/",
             "platform": "independent",
             "product_types": [],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2021-08-09T22:22:49.151615Z",
             "release_notes": "<p>For Splunk Cloud app certification</p>",
             "sha256": "2a97776864b9dd2fb949bfcfef9bb3ce1b5d8c9fa66ce6ee4be63144c40ec777",
             "signed_available": true,
             "size": 3450204,
+            "sourcetypes": [
+              "eventgen_main",
+              "eventgen_errors",
+              "eventgen_metrics",
+              "eventgen_hec_handler",
+              "eventgen",
+              "eventgen_listener_process",
+              "eventgen_modinput"
+            ],
+            "tags": [
+              "__no_tag__"
+            ],
+            "tags_sourcetypes": {
+              "__no_tag__": [
+                "eventgen_modinput",
+                "eventgen_metrics",
+                "eventgen_main",
+                "eventgen_listener_process",
+                "eventgen_hec_handler",
+                "eventgen_errors",
+                "eventgen"
+              ]
+            },
             "version_compatibility": [
               {
                 "id": 115,
@@ -662,10 +784,20 @@
               "4.x",
               "3.x"
             ],
+            "CIM_versions": [
+              16,
+              15
+            ],
             "cloud_compatible": false,
+            "content": [
+              "inputs"
+            ],
             "fips_compatibility": false,
             "filename": "eventgen_721.tgz",
             "id": 19324,
+            "install_method_distributed": "rejected",
+            "install_method_single": "rejected",
+            "manifest": null,
             "md5": "3b11336494d8ff4a97eef29410004a54",
             "min_product_version_str": null,
             "name": "7.2.1",
@@ -673,12 +805,36 @@
             "path": "https://splunkbase.splunk.com/app/1924/release/7.2.1/download/",
             "platform": "independent",
             "product_types": [],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2021-01-22T17:02:13.086714Z",
             "release_notes": "<ul>\n<li>bugfix for perDayVolume</li>\n<li>update dependency package versions</li>\n<li>app is now cloud-vetted</li>\n<li>app can be installed without restart</li>\n</ul>",
             "sha256": "6c52349b6ed41f6ef2a51ea93380d8edb7801fc92beb39efb03d52ee0809ce0c",
             "signed_available": true,
             "size": 3593348,
+            "sourcetypes": [
+              "eventgen_main",
+              "eventgen_errors",
+              "eventgen_metrics",
+              "eventgen_hec_handler",
+              "eventgen",
+              "eventgen_listener_process",
+              "eventgen_modinput"
+            ],
+            "tags": [
+              "__no_tag__"
+            ],
+            "tags_sourcetypes": {
+              "__no_tag__": [
+                "eventgen_modinput",
+                "eventgen_metrics",
+                "eventgen_main",
+                "eventgen_listener_process",
+                "eventgen_hec_handler",
+                "eventgen_errors",
+                "eventgen"
+              ]
+            },
             "version_compatibility": [
               {
                 "id": 115,
@@ -729,10 +885,20 @@
               "4.x",
               "3.x"
             ],
+            "CIM_versions": [
+              16,
+              15
+            ],
             "cloud_compatible": false,
+            "content": [
+              "inputs"
+            ],
             "fips_compatibility": false,
             "filename": "eventgen_720.tgz",
             "id": 18410,
+            "install_method_distributed": "unknown",
+            "install_method_single": "unknown",
+            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"SA-Eventgen\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"SA-Eventgen\",\n      \"version\": \"7.2.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"SA-Eventgen app for dynamic data generation\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\"\n  ],\n  \"targetWorkloads\": null\n}\n",
             "md5": "dcf0abd1c662713d239d49e95a494ac2",
             "min_product_version_str": null,
             "name": "7.2.0",
@@ -740,12 +906,36 @@
             "path": "https://splunkbase.splunk.com/app/1924/release/7.2.0/download/",
             "platform": "independent",
             "product_types": [],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2020-10-09T19:01:53.111765Z",
             "release_notes": "<ul>\n<li>added support for \u201cinterval\u201d option in replay mode</li>\n<li>added new \u201csplitSample\u201d option</li>\n<li>added new \"counter\" generator</li>\n<li>added metrics logging</li>\n<li>bugfix for logging verbosity</li>\n<li>bugfix for replay mode threading and backfill generation</li>\n<li>bugfix for csv file handling</li>\n<li>bugfix for timeMultiple handling<br>\nNOTE: this version does not support Splunk &gt;= 8.0 on Windows 10</li>\n</ul>",
             "sha256": "5d9107305e4eeb24aa646cda754002004f5994db155bb43a800e095989b61c32",
             "signed_available": true,
             "size": 3543892,
+            "sourcetypes": [
+              "eventgen_main",
+              "eventgen_errors",
+              "eventgen_metrics",
+              "eventgen_hec_handler",
+              "eventgen",
+              "eventgen_listener_process",
+              "eventgen_modinput"
+            ],
+            "tags": [
+              "__no_tag__"
+            ],
+            "tags_sourcetypes": {
+              "__no_tag__": [
+                "eventgen_modinput",
+                "eventgen_metrics",
+                "eventgen_main",
+                "eventgen_listener_process",
+                "eventgen_hec_handler",
+                "eventgen_errors",
+                "eventgen"
+              ]
+            },
             "version_compatibility": [
               {
                 "id": 115,
@@ -793,10 +983,17 @@
           {
             "actions": [],
             "cim_compatibility": [],
+            "CIM_versions": [],
             "cloud_compatible": false,
+            "content": [
+              "inputs"
+            ],
             "fips_compatibility": false,
             "filename": "eventgen_653.tgz",
             "id": 17397,
+            "install_method_distributed": "unknown",
+            "install_method_single": "unknown",
+            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"SA-Eventgen\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"SA-Eventgen\",\n      \"version\": \"6.5.3\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"SA-Eventgen app for dynamic data generation\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\"\n  ],\n  \"targetWorkloads\": null\n}\n",
             "md5": "e94bf87bef6d0fba8bd30e2ab77600af",
             "min_product_version_str": null,
             "name": "6.5.3",
@@ -804,12 +1001,36 @@
             "path": "https://splunkbase.splunk.com/app/1924/release/6.5.3/download/",
             "platform": "independent",
             "product_types": [],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2020-07-22T00:49:01.982455Z",
             "release_notes": "<p>Maintenance release with ujson version fix and updated userName samples</p>",
             "sha256": "90394ca839d28f9c52a4f8e795dfa3bafd35b5e79bec55a502e5e79d97a1ab02",
             "signed_available": true,
             "size": 4816700,
+            "sourcetypes": [
+              "eventgen_main",
+              "eventgen_errors",
+              "eventgen_metrics",
+              "eventgen_hec_handler",
+              "eventgen",
+              "eventgen_listener_process",
+              "eventgen_modinput"
+            ],
+            "tags": [
+              "__no_tag__"
+            ],
+            "tags_sourcetypes": {
+              "__no_tag__": [
+                "eventgen_modinput",
+                "eventgen_metrics",
+                "eventgen_main",
+                "eventgen_listener_process",
+                "eventgen_hec_handler",
+                "eventgen_errors",
+                "eventgen"
+              ]
+            },
             "version_compatibility": [
               {
                 "id": 25,
@@ -835,10 +1056,20 @@
               "4.x",
               "3.x"
             ],
+            "CIM_versions": [
+              16,
+              15
+            ],
             "cloud_compatible": false,
+            "content": [
+              "inputs"
+            ],
             "fips_compatibility": false,
             "filename": "eventgen_711.tgz",
             "id": 17393,
+            "install_method_distributed": "unknown",
+            "install_method_single": "unknown",
+            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"SA-Eventgen\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"SA-Eventgen\",\n      \"version\": \"7.1.1\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"SA-Eventgen app for dynamic data generation\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\"\n  ],\n  \"targetWorkloads\": null\n}\n",
             "md5": "ae7f8ab85b6d55d7a2d990076ecf1829",
             "min_product_version_str": null,
             "name": "7.1.1",
@@ -846,12 +1077,36 @@
             "path": "https://splunkbase.splunk.com/app/1924/release/7.1.1/download/",
             "platform": "independent",
             "product_types": [],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2020-07-21T21:51:24.318576Z",
             "release_notes": "<ul>\n<li>fixed broken \"fileRotator\" config option</li>\n<li>update to default \"source\" behavior: unless specified, the default source is set to the sample name<br>\nNOTE: this version does not support Splunk &gt;= 8.0 on Windows 10</li>\n</ul>",
             "sha256": "41c52e594b7a499c70778eead9c35b7f7c29ae6ce7ce18b034fe21cbb3186e07",
             "signed_available": true,
             "size": 3529539,
+            "sourcetypes": [
+              "eventgen_main",
+              "eventgen_errors",
+              "eventgen_metrics",
+              "eventgen_hec_handler",
+              "eventgen",
+              "eventgen_listener_process",
+              "eventgen_modinput"
+            ],
+            "tags": [
+              "__no_tag__"
+            ],
+            "tags_sourcetypes": {
+              "__no_tag__": [
+                "eventgen_modinput",
+                "eventgen_metrics",
+                "eventgen_main",
+                "eventgen_listener_process",
+                "eventgen_hec_handler",
+                "eventgen_errors",
+                "eventgen"
+              ]
+            },
             "version_compatibility": [
               {
                 "id": 115,
@@ -902,10 +1157,20 @@
               "4.x",
               "3.x"
             ],
+            "CIM_versions": [
+              16,
+              15
+            ],
             "cloud_compatible": false,
+            "content": [
+              "inputs"
+            ],
             "fips_compatibility": false,
             "filename": "eventgen_710.tgz",
             "id": 15970,
+            "install_method_distributed": "unknown",
+            "install_method_single": "unknown",
+            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"SA-Eventgen\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"SA-Eventgen\",\n      \"version\": \"7.1.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"SA-Eventgen app for dynamic data generation\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\"\n  ],\n  \"targetWorkloads\": null\n}\n",
             "md5": "f36582c997a5192d9b68b70eee24e7e1",
             "min_product_version_str": null,
             "name": "7.1.0",
@@ -913,12 +1178,36 @@
             "path": "https://splunkbase.splunk.com/app/1924/release/7.1.0/download/",
             "platform": "independent",
             "product_types": [],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2020-04-07T00:20:08.453513Z",
             "release_notes": "<ul>\n<li>fixed oom error caused by ujson</li>\n<li>added scp output plugin - use outputMode = scsout</li>\n<li>added --multithread support for server/controller architecture</li>\n<li>fix CI failures due to jinja in log config<br>\nNOTE: this version does not support Splunk &gt;= 8.0 on Windows 10</li>\n</ul>",
             "sha256": "351f5280e03be43c05ec57d802c2202b779d27aaf209c7c779a5d57cd7506eb7",
             "signed_available": true,
             "size": 3561742,
+            "sourcetypes": [
+              "eventgen_main",
+              "eventgen_errors",
+              "eventgen_metrics",
+              "eventgen_hec_handler",
+              "eventgen",
+              "eventgen_listener_process",
+              "eventgen_modinput"
+            ],
+            "tags": [
+              "__no_tag__"
+            ],
+            "tags_sourcetypes": {
+              "__no_tag__": [
+                "eventgen_modinput",
+                "eventgen_metrics",
+                "eventgen_main",
+                "eventgen_listener_process",
+                "eventgen_hec_handler",
+                "eventgen_errors",
+                "eventgen"
+              ]
+            },
             "version_compatibility": [
               {
                 "id": 115,
@@ -966,10 +1255,17 @@
           {
             "actions": [],
             "cim_compatibility": [],
+            "CIM_versions": [],
             "cloud_compatible": false,
+            "content": [
+              "inputs"
+            ],
             "fips_compatibility": false,
             "filename": "eventgen_700.tgz",
             "id": 14547,
+            "install_method_distributed": "unknown",
+            "install_method_single": "unknown",
+            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"SA-Eventgen\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"SA-Eventgen\", \n      \"version\": \"7.0.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"SA-Eventgen app for dynamic data generation\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
             "md5": "054a66e2b4778b13e0a045354b84374e",
             "min_product_version_str": null,
             "name": "7.0.0",
@@ -977,12 +1273,36 @@
             "path": "https://splunkbase.splunk.com/app/1924/release/7.0.0/download/",
             "platform": "independent",
             "product_types": [],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2019-10-23T22:11:08.774983Z",
             "release_notes": "<ul>\n<li>Python3 support on 8.0</li>\n<li>Migrate to Python3 and 7.0.0 only supports Python3</li>\n<li>Fix random token replacement bug</li>\n<li>Enhance tutorial documentation</li>\n<li>Add syslogAddHeader option</li>\n<li>Fix timezone setting bug</li>\n<li>Fix out of memory issue when using multiprocess mode</li>\n<li>Remove some stale third party libraries</li>\n</ul>\n<p>Note:<br>\nPlease set \"python.version = python3\" in \"server.conf\" in $SPLUNK_HOME/etc/system/local in [general] stanza.</p>",
             "sha256": "14544c6df8b015139afcc2ced16aab15886795ef81308e0e526ba2f60678555e",
             "signed_available": true,
             "size": 3034418,
+            "sourcetypes": [
+              "eventgen_main",
+              "eventgen_errors",
+              "eventgen_metrics",
+              "eventgen_hec_handler",
+              "eventgen",
+              "eventgen_listener_process",
+              "eventgen_modinput"
+            ],
+            "tags": [
+              "__no_tag__"
+            ],
+            "tags_sourcetypes": {
+              "__no_tag__": [
+                "eventgen_modinput",
+                "eventgen_metrics",
+                "eventgen_main",
+                "eventgen_listener_process",
+                "eventgen_hec_handler",
+                "eventgen_errors",
+                "eventgen"
+              ]
+            },
             "version_compatibility": [
               {
                 "id": 115,
@@ -1030,10 +1350,17 @@
           {
             "actions": [],
             "cim_compatibility": [],
+            "CIM_versions": [],
             "cloud_compatible": false,
+            "content": [
+              "inputs"
+            ],
             "fips_compatibility": false,
             "filename": "eventgen_652.tgz",
             "id": 14183,
+            "install_method_distributed": "unknown",
+            "install_method_single": "unknown",
+            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"SA-Eventgen\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"SA-Eventgen\", \n      \"version\": \"6.5.2\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"SA-Eventgen app for dynamic data generation\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
             "md5": "9be576f7bde7414d6153b3699bc9b41a",
             "min_product_version_str": null,
             "name": "6.5.2",
@@ -1041,12 +1368,36 @@
             "path": "https://splunkbase.splunk.com/app/1924/release/6.5.2/download/",
             "platform": "independent",
             "product_types": [],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2019-10-09T03:29:06.718202Z",
             "release_notes": "<ul>\n<li>Fix zipfile bug</li>\n<li>Fix random token replacement bug</li>\n<li>Fix security vulnerability issue</li>\n<li>Fix custom plugin stale docs</li>\n<li>Fix timezone setting bug</li>\n<li>Fix multiprocess OOM issue</li>\n<li>Add syslogAddHeader config</li>\n</ul>",
             "sha256": "13e2fa67404e7b65482e12e102963aa3532d0092f1640112fd4a32b13182509a",
             "signed_available": true,
             "size": 4764334,
+            "sourcetypes": [
+              "eventgen_main",
+              "eventgen_errors",
+              "eventgen_metrics",
+              "eventgen_hec_handler",
+              "eventgen",
+              "eventgen_listener_process",
+              "eventgen_modinput"
+            ],
+            "tags": [
+              "__no_tag__"
+            ],
+            "tags_sourcetypes": {
+              "__no_tag__": [
+                "eventgen_modinput",
+                "eventgen_metrics",
+                "eventgen_main",
+                "eventgen_listener_process",
+                "eventgen_hec_handler",
+                "eventgen_errors",
+                "eventgen"
+              ]
+            },
             "version_compatibility": [
               {
                 "id": 25,
@@ -1069,10 +1420,17 @@
           {
             "actions": [],
             "cim_compatibility": [],
+            "CIM_versions": [],
             "cloud_compatible": false,
+            "content": [
+              "inputs"
+            ],
             "fips_compatibility": false,
             "filename": "eventgen_651.tgz",
             "id": 13672,
+            "install_method_distributed": "unknown",
+            "install_method_single": "unknown",
+            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"SA-Eventgen\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"SA-Eventgen\", \n      \"version\": \"6.5.1\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"SA-Eventgen app for dynamic data generation\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
             "md5": "fd1c282c4d7b2a39a58897ff0fec0b0b",
             "min_product_version_str": null,
             "name": "6.5.1",
@@ -1080,12 +1438,36 @@
             "path": "https://splunkbase.splunk.com/app/1924/release/6.5.1/download/",
             "platform": "independent",
             "product_types": [],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2019-08-01T07:08:34.036791Z",
             "release_notes": "<ul>\n<li>Added metrics output mode</li>\n<li>Fixed regex token replacement issue</li>\n<li>Added test coverage information</li>\n<li>Increased functional test coverage</li>\n<li>Eventgen server complete revamp and standalone mode support</li>\n<li>Added contributor license</li>\n<li>Updated Dockerfile</li>\n<li>Added documentation</li>\n<li>Fixed bugs / stability / optimized speed</li>\n</ul>",
             "sha256": "6fe825f9296c8f427cfb008f9dfad9bfb3aa146c3f9b6f90fb8026bbb3e58844",
             "signed_available": true,
             "size": 4839954,
+            "sourcetypes": [
+              "eventgen_main",
+              "eventgen_errors",
+              "eventgen_metrics",
+              "eventgen_hec_handler",
+              "eventgen",
+              "eventgen_listener_process",
+              "eventgen_modinput"
+            ],
+            "tags": [
+              "__no_tag__"
+            ],
+            "tags_sourcetypes": {
+              "__no_tag__": [
+                "eventgen_modinput",
+                "eventgen_metrics",
+                "eventgen_main",
+                "eventgen_listener_process",
+                "eventgen_hec_handler",
+                "eventgen_errors",
+                "eventgen"
+              ]
+            },
             "version_compatibility": [
               {
                 "id": 24,
@@ -1113,10 +1495,17 @@
           {
             "actions": [],
             "cim_compatibility": [],
+            "CIM_versions": [],
             "cloud_compatible": false,
+            "content": [
+              "inputs"
+            ],
             "fips_compatibility": false,
             "filename": "eventgen_640.tgz",
             "id": 13261,
+            "install_method_distributed": "unknown",
+            "install_method_single": "unknown",
+            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"SA-Eventgen\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"SA-Eventgen\", \n      \"version\": \"6.4.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"SA-Eventgen app for dynamic data generation\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
             "md5": "687313084b91e88dabbcdc21470aae8c",
             "min_product_version_str": null,
             "name": "6.4.0",
@@ -1124,12 +1513,36 @@
             "path": "https://splunkbase.splunk.com/app/1924/release/6.4.0/download/",
             "platform": "independent",
             "product_types": [],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2019-06-05T07:42:42.866672Z",
             "release_notes": "<ul>\n<li>Fix exception log error</li>\n<li>Fix CircleCI status badage error</li>\n<li>Fix navigation error for app if installed with Splunk Stream</li>\n<li>Fix generatorWorkers not working error</li>\n<li>Fix interval error when end = 1</li>\n<li>Fix fileName in global stanza error</li>\n<li>Add 3rd party libs in SA-Eventgen App</li>\n<li>Add httpeventAllowFailureCount for httpevent</li>\n<li>Add 3rd party libs in license credit</li>\n<li>Disable logging queue in multiprocess mode</li>\n<li>Change implementation of extendIndex for better performance</li>\n</ul>",
             "sha256": "76b03f4b175776a80ee7889124ce84023eb66903e8612f86028732b907cbc8ca",
             "signed_available": true,
             "size": 4819419,
+            "sourcetypes": [
+              "eventgen_main",
+              "eventgen_errors",
+              "eventgen_metrics",
+              "eventgen_hec_handler",
+              "eventgen",
+              "eventgen_listener_process",
+              "eventgen_modinput"
+            ],
+            "tags": [
+              "__no_tag__"
+            ],
+            "tags_sourcetypes": {
+              "__no_tag__": [
+                "eventgen_modinput",
+                "eventgen_metrics",
+                "eventgen_main",
+                "eventgen_listener_process",
+                "eventgen_hec_handler",
+                "eventgen_errors",
+                "eventgen"
+              ]
+            },
             "version_compatibility": [
               {
                 "id": 24,
@@ -1152,10 +1565,17 @@
           {
             "actions": [],
             "cim_compatibility": [],
+            "CIM_versions": [],
             "cloud_compatible": false,
+            "content": [
+              "inputs"
+            ],
             "fips_compatibility": false,
             "filename": "eventgen_636.tgz",
             "id": 13058,
+            "install_method_distributed": "unknown",
+            "install_method_single": "unknown",
+            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"SA-Eventgen\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"SA-Eventgen\", \n      \"version\": \"6.3.6\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"SA-Eventgen app for dynamic data generation\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
             "md5": "d3e56d2ce00c1851f7e002158ce979ef",
             "min_product_version_str": null,
             "name": "6.3.6",
@@ -1163,12 +1583,36 @@
             "path": "https://splunkbase.splunk.com/app/1924/release/6.3.6/download/",
             "platform": "independent",
             "product_types": [],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2019-05-10T06:47:28.947331Z",
             "release_notes": "<ul>\n<li>Add functional tests for jinja template and modular input feature</li>\n<li>Fix default jinja template directory is not correctly resolved when sampleDir is set issue</li>\n<li>Fix verbose flag not working in splunk_eventgen command line issue</li>\n<li>Fix index, source, sourcetype are not correct when using splunkstream mode issue</li>\n<li>Fix ssh to container issue</li>\n<li>Fix perdayvolume without end setting error</li>\n<li>Update documentation for better reading and remove unrelated part</li>\n</ul>",
             "sha256": "34159530d4268dedf9869ee1a37ba6ccf7c044f70c2174467c2a4ccc5740d898",
             "signed_available": true,
             "size": 4632817,
+            "sourcetypes": [
+              "eventgen_main",
+              "eventgen_errors",
+              "eventgen_metrics",
+              "eventgen_hec_handler",
+              "eventgen",
+              "eventgen_listener_process",
+              "eventgen_modinput"
+            ],
+            "tags": [
+              "__no_tag__"
+            ],
+            "tags_sourcetypes": {
+              "__no_tag__": [
+                "eventgen_modinput",
+                "eventgen_metrics",
+                "eventgen_main",
+                "eventgen_listener_process",
+                "eventgen_hec_handler",
+                "eventgen_errors",
+                "eventgen"
+              ]
+            },
             "version_compatibility": [
               {
                 "id": 21,
@@ -1186,10 +1630,17 @@
           {
             "actions": [],
             "cim_compatibility": [],
+            "CIM_versions": [],
             "cloud_compatible": false,
+            "content": [
+              "inputs"
+            ],
             "fips_compatibility": false,
             "filename": "eventgen_634.tgz",
             "id": 12607,
+            "install_method_distributed": "unknown",
+            "install_method_single": "unknown",
+            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"SA-Eventgen\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"SA-Eventgen\", \n      \"version\": \"6.3.4\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"SA-Eventgen app for dynamic data generation\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
             "md5": "131b74531a179b548d2b5b8190c2817a",
             "min_product_version_str": null,
             "name": "6.3.4",
@@ -1197,12 +1648,36 @@
             "path": "https://splunkbase.splunk.com/app/1924/release/6.3.4/download/",
             "platform": "independent",
             "product_types": [],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2019-03-15T23:02:30.060354Z",
             "release_notes": "<ul>\n<li>Cleaned up documentation</li>\n<li>Jinja template bugfix in SA-Eventgen app</li>\n<li>Implementation of 'timeMultiple\u2019 option</li>\n<li>Templates for bugs/feature requests</li>\n<li>Fixed Jinja test configuration stanzas</li>\n<li>Fix for default behavior for 'count' edge cases</li>\n</ul>",
             "sha256": "a8e433fde5f7c0ac1b6b4014d47308ad17247f163278f0af4267a269fe805e8b",
             "signed_available": true,
             "size": 4632277,
+            "sourcetypes": [
+              "eventgen_main",
+              "eventgen_errors",
+              "eventgen_metrics",
+              "eventgen_hec_handler",
+              "eventgen",
+              "eventgen_listener_process",
+              "eventgen_modinput"
+            ],
+            "tags": [
+              "__no_tag__"
+            ],
+            "tags_sourcetypes": {
+              "__no_tag__": [
+                "eventgen_modinput",
+                "eventgen_metrics",
+                "eventgen_main",
+                "eventgen_listener_process",
+                "eventgen_hec_handler",
+                "eventgen_errors",
+                "eventgen"
+              ]
+            },
             "version_compatibility": [
               {
                 "id": 21,
@@ -1220,10 +1695,17 @@
           {
             "actions": [],
             "cim_compatibility": [],
+            "CIM_versions": [],
             "cloud_compatible": false,
+            "content": [
+              "inputs"
+            ],
             "fips_compatibility": false,
             "filename": "eventgen_633.tgz",
             "id": 12514,
+            "install_method_distributed": "unknown",
+            "install_method_single": "unknown",
+            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"SA-Eventgen\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"SA-Eventgen\", \n      \"version\": \"6.3.3\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"SA-Eventgen app for dynamic data generation\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
             "md5": "4b98d949b938a3f8f1e1392e1bcdfbf6",
             "min_product_version_str": null,
             "name": "6.3.3",
@@ -1231,12 +1713,36 @@
             "path": "https://splunkbase.splunk.com/app/1924/release/6.3.3/download/",
             "platform": "independent",
             "product_types": [],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2019-03-05T18:11:01.853475Z",
             "release_notes": "<ul>\n<li>Added performance metrics compared to Eventgen 5.x</li>\n<li>New config option for generation-time metrics: outputCounter</li>\n<li>Jinja template fixes</li>\n<li>Timestamp parsing fix</li>\n<li>Output queueing fix for outputMode splunkstream</li>\n<li>Count rater fixes, now supports indefinite generation</li>\n</ul>",
             "sha256": "65117e6cf3d7d519a1526a48876df172cb1e23938b3642dce7987d48dc61964c",
             "signed_available": true,
             "size": 4642418,
+            "sourcetypes": [
+              "eventgen_main",
+              "eventgen_errors",
+              "eventgen_metrics",
+              "eventgen_hec_handler",
+              "eventgen",
+              "eventgen_listener_process",
+              "eventgen_modinput"
+            ],
+            "tags": [
+              "__no_tag__"
+            ],
+            "tags_sourcetypes": {
+              "__no_tag__": [
+                "eventgen_modinput",
+                "eventgen_metrics",
+                "eventgen_main",
+                "eventgen_listener_process",
+                "eventgen_hec_handler",
+                "eventgen_errors",
+                "eventgen"
+              ]
+            },
             "version_compatibility": [
               {
                 "id": 21,
@@ -1254,10 +1760,17 @@
           {
             "actions": [],
             "cim_compatibility": [],
+            "CIM_versions": [],
             "cloud_compatible": false,
+            "content": [
+              "inputs"
+            ],
             "fips_compatibility": false,
             "filename": "eventgen_632.tgz",
             "id": 11761,
+            "install_method_distributed": "unknown",
+            "install_method_single": "unknown",
+            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"SA-Eventgen\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"SA-Eventgen\", \n      \"version\": \"6.3.2\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"SA-Eventgen app for dynamic data generation\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
             "md5": "81a364271441e4db3499306e0d51221a",
             "min_product_version_str": null,
             "name": "6.3.2",
@@ -1265,12 +1778,36 @@
             "path": "https://splunkbase.splunk.com/app/1924/release/6.3.2/download/",
             "platform": "independent",
             "product_types": [],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2018-11-20T17:57:15.025820Z",
             "release_notes": "<ul>\n<li>Fixed verbosity bug from 6.3.1</li>\n<li>Added documentation</li>\n</ul>",
             "sha256": "9096922fdda79e90b26a848fcf86348bacef1b8874e8f2d22fc822b67ef1f2ac",
             "signed_available": true,
             "size": 4639872,
+            "sourcetypes": [
+              "eventgen_main",
+              "eventgen_errors",
+              "eventgen_metrics",
+              "eventgen_hec_handler",
+              "eventgen",
+              "eventgen_listener_process",
+              "eventgen_modinput"
+            ],
+            "tags": [
+              "__no_tag__"
+            ],
+            "tags_sourcetypes": {
+              "__no_tag__": [
+                "eventgen_modinput",
+                "eventgen_metrics",
+                "eventgen_main",
+                "eventgen_listener_process",
+                "eventgen_hec_handler",
+                "eventgen_errors",
+                "eventgen"
+              ]
+            },
             "version_compatibility": [
               {
                 "id": 21,
@@ -1288,10 +1825,17 @@
           {
             "actions": [],
             "cim_compatibility": [],
+            "CIM_versions": [],
             "cloud_compatible": false,
+            "content": [
+              "inputs"
+            ],
             "fips_compatibility": false,
             "filename": "eventgen_631.tgz",
             "id": 11738,
+            "install_method_distributed": "unknown",
+            "install_method_single": "unknown",
+            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"SA-Eventgen\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"SA-Eventgen\", \n      \"version\": \"6.3.1\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"SA-Eventgen app for dynamic data generation\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
             "md5": "414d923205d88936078a1f85983ddee8",
             "min_product_version_str": null,
             "name": "6.3.1",
@@ -1299,12 +1843,36 @@
             "path": "https://splunkbase.splunk.com/app/1924/release/6.3.1/download/",
             "platform": "independent",
             "product_types": [],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2018-11-16T07:19:24.790323Z",
             "release_notes": "<ul>\n<li>Fixed Eventgen Volume APIs</li>\n<li>Improved Eventgen Server Logging</li>\n<li>Corrected Eventgen Server and Controller conf syncing issue</li>\n<li>Adding verbosity options (ERROR, INFO, DEBUG) to Eventgen modinput</li>\n<li>Implemented future event generation support in replay mode</li>\n<li>Fixed Jinja template's missing default values</li>\n<li>Adjusted logging message levels for less verbosity</li>\n<li>Fixed event count off by 1 issue</li>\n<li>Fixed unnecessary empty data generators being created</li>\n<li>Updated dependency list</li>\n</ul>",
             "sha256": "0cbf61dc2e2623739e74160be8a9ad3f02ff64f865ccb0f7a0b6e4b6f2f0921e",
             "signed_available": true,
             "size": 4640390,
+            "sourcetypes": [
+              "eventgen_main",
+              "eventgen_errors",
+              "eventgen_metrics",
+              "eventgen_hec_handler",
+              "eventgen",
+              "eventgen_listener_process",
+              "eventgen_modinput"
+            ],
+            "tags": [
+              "__no_tag__"
+            ],
+            "tags_sourcetypes": {
+              "__no_tag__": [
+                "eventgen_modinput",
+                "eventgen_metrics",
+                "eventgen_main",
+                "eventgen_listener_process",
+                "eventgen_hec_handler",
+                "eventgen_errors",
+                "eventgen"
+              ]
+            },
             "version_compatibility": [
               {
                 "id": 21,
@@ -1322,10 +1890,17 @@
           {
             "actions": [],
             "cim_compatibility": [],
+            "CIM_versions": [],
             "cloud_compatible": false,
+            "content": [
+              "inputs"
+            ],
             "fips_compatibility": false,
             "filename": "eventgen_630.tgz",
             "id": 11595,
+            "install_method_distributed": "unknown",
+            "install_method_single": "unknown",
+            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"SA-Eventgen\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"SA-Eventgen\", \n      \"version\": \"6.3.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"SA-Eventgen app for dynamic data generation\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
             "md5": "48ecda43be35e500fcf901b93ee0eb44",
             "min_product_version_str": null,
             "name": "6.3.0",
@@ -1333,12 +1908,36 @@
             "path": "https://splunkbase.splunk.com/app/1924/release/6.3.0/download/",
             "platform": "independent",
             "product_types": [],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2018-10-26T23:15:32.685177Z",
             "release_notes": "<ul>\n<li>Bug fixes for the customer issues</li>\n<li>Documentation upgrade</li>\n<li>Code refactoring for version unification</li>\n<li>Logging improvements</li>\n</ul>",
             "sha256": "69f5dd8109386474474849a1e57c01c4dd100f8838dbf27d7eae7b46891ae851",
             "signed_available": true,
             "size": 4662724,
+            "sourcetypes": [
+              "eventgen_main",
+              "eventgen_errors",
+              "eventgen_metrics",
+              "eventgen_hec_handler",
+              "eventgen",
+              "eventgen_listener_process",
+              "eventgen_modinput"
+            ],
+            "tags": [
+              "__no_tag__"
+            ],
+            "tags_sourcetypes": {
+              "__no_tag__": [
+                "eventgen_modinput",
+                "eventgen_metrics",
+                "eventgen_main",
+                "eventgen_listener_process",
+                "eventgen_hec_handler",
+                "eventgen_errors",
+                "eventgen"
+              ]
+            },
             "version_compatibility": [
               {
                 "id": 21,
@@ -1356,10 +1955,17 @@
           {
             "actions": [],
             "cim_compatibility": [],
+            "CIM_versions": [],
             "cloud_compatible": false,
+            "content": [
+              "inputs"
+            ],
             "fips_compatibility": false,
             "filename": "eventgen_621.tgz",
             "id": 10476,
+            "install_method_distributed": "unknown",
+            "install_method_single": "unknown",
+            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"SA-Eventgen\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"SA-Eventgen\", \n      \"version\": \"6.2.1\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"SA-Eventgen app for dynamic data generation\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
             "md5": "f0a5d26c58c61763861411209fdce4c7",
             "min_product_version_str": null,
             "name": "6.2.1",
@@ -1367,12 +1973,36 @@
             "path": "https://splunkbase.splunk.com/app/1924/release/6.2.1/download/",
             "platform": "independent",
             "product_types": [],
+            "public": null,
             "public_ever_true": false,
             "published_datetime": "2018-06-01T21:19:18.795509Z",
             "release_notes": "<ul>\n<li>Fixing SA-Eventgen Dashboard and log searching</li>\n<li>Improving internal logging and fixing splunkd logging issue</li>\n<li>Fixing timestamping in default generator</li>\n<li>Fixing custom plugin integration</li>\n<li>Fixing SA-Eventgen app settings</li>\n<li>Supporting Eventgen 5 backward compatibility with additional features</li>\n<li>Better modinput process management</li>\n<li>Minor Bugfixes with various customer cases</li>\n</ul>",
             "sha256": "c72fa72204f937c4621d6451c9ce71b79a4b2968493f733da7e9a79f24f57ff3",
             "signed_available": true,
             "size": 4628255,
+            "sourcetypes": [
+              "eventgen_main",
+              "eventgen_errors",
+              "eventgen_metrics",
+              "eventgen_hec_handler",
+              "eventgen",
+              "eventgen_listener_process",
+              "eventgen_modinput"
+            ],
+            "tags": [
+              "__no_tag__"
+            ],
+            "tags_sourcetypes": {
+              "__no_tag__": [
+                "eventgen_modinput",
+                "eventgen_metrics",
+                "eventgen_main",
+                "eventgen_listener_process",
+                "eventgen_hec_handler",
+                "eventgen_errors",
+                "eventgen"
+              ]
+            },
             "version_compatibility": [
               {
                 "id": 21,
@@ -1391,6 +2021,7 @@
         "repo_name": "",
         "repo_url": "",
         "screenshots": [],
+        "show_as_built_by": null,
         "short_description": "",
         "support": "splunk",
         "title": "Eventgen",
@@ -1419,7 +2050,7 @@
   "query": {
     "id": "1924"
   },
-  "buildId": "a-wfh_TGcSwn64myOuDf9",
+  "buildId": "EJ2OH98-CE0J1yURoFYHo",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
