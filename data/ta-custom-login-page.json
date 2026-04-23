@@ -106,7 +106,6 @@
         "title": "TA - Custom Login Page",
         "troubleshooting": "",
         "troubleshooting_source": "",
-        "type": "addon",
         "updated_time": "2022-10-13T22:46:53.452300Z",
         "video_link": null,
         "app_type": "addon",
@@ -129,7 +128,7 @@
   "query": {
     "id": "6157"
   },
-  "buildId": "EJ2OH98-CE0J1yURoFYHo",
+  "buildId": "tmIpi9YuZHR4PLLwPnG0O",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

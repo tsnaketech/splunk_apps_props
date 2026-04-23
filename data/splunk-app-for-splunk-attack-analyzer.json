@@ -482,7 +482,6 @@
         "title": "Splunk App for Splunk Attack Analyzer",
         "troubleshooting": "<p>Documentation for this App is posted at <a href=\"https://help.splunk.com/en/security-offerings/splunk-attack-analyzer/splunk-app-for-splunk-attack-analyzer/1.2/overview-of-the-splunk-app-for-splunk-attack-analyzer/get-started-with-the-splunk-app-for-splunk-attack-analyzer\">Splunk Docs</a></p>",
         "troubleshooting_source": "Documentation for this App is posted at [Splunk Docs](https://help.splunk.com/en/security-offerings/splunk-attack-analyzer/splunk-app-for-splunk-attack-analyzer/1.2/overview-of-the-splunk-app-for-splunk-attack-analyzer/get-started-with-the-splunk-app-for-splunk-attack-analyzer)",
-        "type": "app",
         "updated_time": "2026-01-19T16:12:58.267274Z",
         "video_link": null,
         "app_type": "app",
@@ -505,7 +504,7 @@
   "query": {
     "id": "7000"
   },
-  "buildId": "EJ2OH98-CE0J1yURoFYHo",
+  "buildId": "tmIpi9YuZHR4PLLwPnG0O",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

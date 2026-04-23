@@ -27,7 +27,7 @@
         "description": "The Common Information Model is a set of field names and tags which are expected to define the least common denominator of a domain of interest. It is implemented as documentation on the Splunk docs website and JSON data model files in this add-on. Use the CIM add-on when modeling data or building apps to ensure compatibility between apps, or to just take advantage of these data models to pivot and report.",
         "documentation": "<p><a href=\"https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on\">Release Notes</a><br>\nPlease see the <a href=\"https://help.splunk.com/en/data-management/common-information-model/6.1/introduction/overview-of-the-splunk-common-information-model\">Splunk Common Information Model Add-on user documentation</a>.</p>",
         "documentation_source": "[Release Notes](https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on)\nPlease see the [Splunk Common Information Model Add-on user documentation](https://help.splunk.com/en/data-management/common-information-model/6.1/introduction/overview-of-the-splunk-common-information-model).",
-        "download_count": 417037,
+        "download_count": 417300,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/e438112e-2ed2-11f1-8be0-0a1fd842b6f5.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -104,12 +104,12 @@
             "relaymodaction",
             "splunk_web_access",
             "splunkd",
-            "stash_common_action_model",
             "modaction:invocations_rest_handler",
-            "modaction:queue_handler",
+            "stash_common_action_model",
+            "modaction:adhoc_rest_handler",
             "audittrail",
             "datamodelsimple",
-            "modaction:adhoc_rest_handler"
+            "modaction:queue_handler"
           ],
           "tags": [
             "__no_tag__"
@@ -201,12 +201,12 @@
               "relaymodaction",
               "splunk_web_access",
               "splunkd",
-              "stash_common_action_model",
               "modaction:invocations_rest_handler",
-              "modaction:queue_handler",
+              "stash_common_action_model",
+              "modaction:adhoc_rest_handler",
               "audittrail",
               "datamodelsimple",
-              "modaction:adhoc_rest_handler"
+              "modaction:queue_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -297,12 +297,12 @@
               "relaymodaction",
               "splunk_web_access",
               "splunkd",
-              "stash_common_action_model",
               "modaction:invocations_rest_handler",
-              "modaction:queue_handler",
+              "stash_common_action_model",
+              "modaction:adhoc_rest_handler",
               "audittrail",
               "datamodelsimple",
-              "modaction:adhoc_rest_handler"
+              "modaction:queue_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -403,12 +403,12 @@
               "relaymodaction",
               "splunk_web_access",
               "splunkd",
-              "stash_common_action_model",
               "modaction:invocations_rest_handler",
-              "modaction:queue_handler",
+              "stash_common_action_model",
+              "modaction:adhoc_rest_handler",
               "audittrail",
               "datamodelsimple",
-              "modaction:adhoc_rest_handler"
+              "modaction:queue_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -509,12 +509,12 @@
               "relaymodaction",
               "splunk_web_access",
               "splunkd",
-              "stash_common_action_model",
               "modaction:invocations_rest_handler",
-              "modaction:queue_handler",
+              "stash_common_action_model",
+              "modaction:adhoc_rest_handler",
               "audittrail",
               "datamodelsimple",
-              "modaction:adhoc_rest_handler"
+              "modaction:queue_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -605,12 +605,12 @@
               "relaymodaction",
               "splunk_web_access",
               "splunkd",
-              "stash_common_action_model",
               "modaction:invocations_rest_handler",
-              "modaction:queue_handler",
+              "stash_common_action_model",
+              "modaction:adhoc_rest_handler",
               "audittrail",
               "datamodelsimple",
-              "modaction:adhoc_rest_handler"
+              "modaction:queue_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -701,12 +701,12 @@
               "relaymodaction",
               "splunk_web_access",
               "splunkd",
-              "stash_common_action_model",
               "modaction:invocations_rest_handler",
-              "modaction:queue_handler",
+              "stash_common_action_model",
+              "modaction:adhoc_rest_handler",
               "audittrail",
               "datamodelsimple",
-              "modaction:adhoc_rest_handler"
+              "modaction:queue_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -792,12 +792,12 @@
               "relaymodaction",
               "splunk_web_access",
               "splunkd",
-              "stash_common_action_model",
               "modaction:invocations_rest_handler",
-              "modaction:queue_handler",
+              "stash_common_action_model",
+              "modaction:adhoc_rest_handler",
               "audittrail",
               "datamodelsimple",
-              "modaction:adhoc_rest_handler"
+              "modaction:queue_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -883,12 +883,12 @@
               "relaymodaction",
               "splunk_web_access",
               "splunkd",
-              "stash_common_action_model",
               "modaction:invocations_rest_handler",
-              "modaction:queue_handler",
+              "stash_common_action_model",
+              "modaction:adhoc_rest_handler",
               "audittrail",
               "datamodelsimple",
-              "modaction:adhoc_rest_handler"
+              "modaction:queue_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -974,12 +974,12 @@
               "relaymodaction",
               "splunk_web_access",
               "splunkd",
-              "stash_common_action_model",
               "modaction:invocations_rest_handler",
-              "modaction:queue_handler",
+              "stash_common_action_model",
+              "modaction:adhoc_rest_handler",
               "audittrail",
               "datamodelsimple",
-              "modaction:adhoc_rest_handler"
+              "modaction:queue_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1065,12 +1065,12 @@
               "relaymodaction",
               "splunk_web_access",
               "splunkd",
-              "stash_common_action_model",
               "modaction:invocations_rest_handler",
-              "modaction:queue_handler",
+              "stash_common_action_model",
+              "modaction:adhoc_rest_handler",
               "audittrail",
               "datamodelsimple",
-              "modaction:adhoc_rest_handler"
+              "modaction:queue_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1156,12 +1156,12 @@
               "relaymodaction",
               "splunk_web_access",
               "splunkd",
-              "stash_common_action_model",
               "modaction:invocations_rest_handler",
-              "modaction:queue_handler",
+              "stash_common_action_model",
+              "modaction:adhoc_rest_handler",
               "audittrail",
               "datamodelsimple",
-              "modaction:adhoc_rest_handler"
+              "modaction:queue_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1247,12 +1247,12 @@
               "relaymodaction",
               "splunk_web_access",
               "splunkd",
-              "stash_common_action_model",
               "modaction:invocations_rest_handler",
-              "modaction:queue_handler",
+              "stash_common_action_model",
+              "modaction:adhoc_rest_handler",
               "audittrail",
               "datamodelsimple",
-              "modaction:adhoc_rest_handler"
+              "modaction:queue_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1338,12 +1338,12 @@
               "relaymodaction",
               "splunk_web_access",
               "splunkd",
-              "stash_common_action_model",
               "modaction:invocations_rest_handler",
-              "modaction:queue_handler",
+              "stash_common_action_model",
+              "modaction:adhoc_rest_handler",
               "audittrail",
               "datamodelsimple",
-              "modaction:adhoc_rest_handler"
+              "modaction:queue_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1429,12 +1429,12 @@
               "relaymodaction",
               "splunk_web_access",
               "splunkd",
-              "stash_common_action_model",
               "modaction:invocations_rest_handler",
-              "modaction:queue_handler",
+              "stash_common_action_model",
+              "modaction:adhoc_rest_handler",
               "audittrail",
               "datamodelsimple",
-              "modaction:adhoc_rest_handler"
+              "modaction:queue_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1525,12 +1525,12 @@
               "relaymodaction",
               "splunk_web_access",
               "splunkd",
-              "stash_common_action_model",
               "modaction:invocations_rest_handler",
-              "modaction:queue_handler",
+              "stash_common_action_model",
+              "modaction:adhoc_rest_handler",
               "audittrail",
               "datamodelsimple",
-              "modaction:adhoc_rest_handler"
+              "modaction:queue_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1620,12 +1620,12 @@
               "relaymodaction",
               "splunk_web_access",
               "splunkd",
-              "stash_common_action_model",
               "modaction:invocations_rest_handler",
-              "modaction:queue_handler",
+              "stash_common_action_model",
+              "modaction:adhoc_rest_handler",
               "audittrail",
               "datamodelsimple",
-              "modaction:adhoc_rest_handler"
+              "modaction:queue_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1715,12 +1715,12 @@
               "relaymodaction",
               "splunk_web_access",
               "splunkd",
-              "stash_common_action_model",
               "modaction:invocations_rest_handler",
-              "modaction:queue_handler",
+              "stash_common_action_model",
+              "modaction:adhoc_rest_handler",
               "audittrail",
               "datamodelsimple",
-              "modaction:adhoc_rest_handler"
+              "modaction:queue_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1811,12 +1811,12 @@
               "relaymodaction",
               "splunk_web_access",
               "splunkd",
-              "stash_common_action_model",
               "modaction:invocations_rest_handler",
-              "modaction:queue_handler",
+              "stash_common_action_model",
+              "modaction:adhoc_rest_handler",
               "audittrail",
               "datamodelsimple",
-              "modaction:adhoc_rest_handler"
+              "modaction:queue_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1902,12 +1902,12 @@
               "relaymodaction",
               "splunk_web_access",
               "splunkd",
-              "stash_common_action_model",
               "modaction:invocations_rest_handler",
-              "modaction:queue_handler",
+              "stash_common_action_model",
+              "modaction:adhoc_rest_handler",
               "audittrail",
               "datamodelsimple",
-              "modaction:adhoc_rest_handler"
+              "modaction:queue_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1991,12 +1991,12 @@
               "relaymodaction",
               "splunk_web_access",
               "splunkd",
-              "stash_common_action_model",
               "modaction:invocations_rest_handler",
-              "modaction:queue_handler",
+              "stash_common_action_model",
+              "modaction:adhoc_rest_handler",
               "audittrail",
               "datamodelsimple",
-              "modaction:adhoc_rest_handler"
+              "modaction:queue_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -2084,12 +2084,12 @@
               "relaymodaction",
               "splunk_web_access",
               "splunkd",
-              "stash_common_action_model",
               "modaction:invocations_rest_handler",
-              "modaction:queue_handler",
+              "stash_common_action_model",
+              "modaction:adhoc_rest_handler",
               "audittrail",
               "datamodelsimple",
-              "modaction:adhoc_rest_handler"
+              "modaction:queue_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -2187,12 +2187,12 @@
               "relaymodaction",
               "splunk_web_access",
               "splunkd",
-              "stash_common_action_model",
               "modaction:invocations_rest_handler",
-              "modaction:queue_handler",
+              "stash_common_action_model",
+              "modaction:adhoc_rest_handler",
               "audittrail",
               "datamodelsimple",
-              "modaction:adhoc_rest_handler"
+              "modaction:queue_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -2290,12 +2290,12 @@
               "relaymodaction",
               "splunk_web_access",
               "splunkd",
-              "stash_common_action_model",
               "modaction:invocations_rest_handler",
-              "modaction:queue_handler",
+              "stash_common_action_model",
+              "modaction:adhoc_rest_handler",
               "audittrail",
               "datamodelsimple",
-              "modaction:adhoc_rest_handler"
+              "modaction:queue_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -2393,12 +2393,12 @@
               "relaymodaction",
               "splunk_web_access",
               "splunkd",
-              "stash_common_action_model",
               "modaction:invocations_rest_handler",
-              "modaction:queue_handler",
+              "stash_common_action_model",
+              "modaction:adhoc_rest_handler",
               "audittrail",
               "datamodelsimple",
-              "modaction:adhoc_rest_handler"
+              "modaction:queue_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -2496,12 +2496,12 @@
               "relaymodaction",
               "splunk_web_access",
               "splunkd",
-              "stash_common_action_model",
               "modaction:invocations_rest_handler",
-              "modaction:queue_handler",
+              "stash_common_action_model",
+              "modaction:adhoc_rest_handler",
               "audittrail",
               "datamodelsimple",
-              "modaction:adhoc_rest_handler"
+              "modaction:queue_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -2599,12 +2599,12 @@
               "relaymodaction",
               "splunk_web_access",
               "splunkd",
-              "stash_common_action_model",
               "modaction:invocations_rest_handler",
-              "modaction:queue_handler",
+              "stash_common_action_model",
+              "modaction:adhoc_rest_handler",
               "audittrail",
               "datamodelsimple",
-              "modaction:adhoc_rest_handler"
+              "modaction:queue_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -2707,12 +2707,12 @@
               "relaymodaction",
               "splunk_web_access",
               "splunkd",
-              "stash_common_action_model",
               "modaction:invocations_rest_handler",
-              "modaction:queue_handler",
+              "stash_common_action_model",
+              "modaction:adhoc_rest_handler",
               "audittrail",
               "datamodelsimple",
-              "modaction:adhoc_rest_handler"
+              "modaction:queue_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -2822,12 +2822,12 @@
               "relaymodaction",
               "splunk_web_access",
               "splunkd",
-              "stash_common_action_model",
               "modaction:invocations_rest_handler",
-              "modaction:queue_handler",
+              "stash_common_action_model",
+              "modaction:adhoc_rest_handler",
               "audittrail",
               "datamodelsimple",
-              "modaction:adhoc_rest_handler"
+              "modaction:queue_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -2940,12 +2940,12 @@
               "relaymodaction",
               "splunk_web_access",
               "splunkd",
-              "stash_common_action_model",
               "modaction:invocations_rest_handler",
-              "modaction:queue_handler",
+              "stash_common_action_model",
+              "modaction:adhoc_rest_handler",
               "audittrail",
               "datamodelsimple",
-              "modaction:adhoc_rest_handler"
+              "modaction:queue_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -3053,12 +3053,12 @@
               "relaymodaction",
               "splunk_web_access",
               "splunkd",
-              "stash_common_action_model",
               "modaction:invocations_rest_handler",
-              "modaction:queue_handler",
+              "stash_common_action_model",
+              "modaction:adhoc_rest_handler",
               "audittrail",
               "datamodelsimple",
-              "modaction:adhoc_rest_handler"
+              "modaction:queue_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -3127,17 +3127,17 @@
               "relaymodaction",
               "splunk_web_access",
               "splunkd",
-              "stash_common_action_model",
               "modaction:invocations_rest_handler",
-              "modaction:queue_handler",
+              "stash_common_action_model",
+              "modaction:adhoc_rest_handler",
               "audittrail",
               "datamodelsimple",
-              "modaction:adhoc_rest_handler"
+              "modaction:queue_handler"
             ],
             "tags": [
-              "modaction",
               "invocation",
-              "__no_tag__"
+              "__no_tag__",
+              "modaction"
             ],
             "tags_sourcetypes": {
               "modaction": [
@@ -3192,7 +3192,6 @@
         "title": "Splunk Common Information Model (CIM)",
         "troubleshooting": "",
         "troubleshooting_source": "",
-        "type": "addon",
         "updated_time": "2026-04-02T22:12:17.940048Z",
         "video_link": null,
         "app_type": "addon",
@@ -3215,7 +3214,7 @@
   "query": {
     "id": "1621"
   },
-  "buildId": "EJ2OH98-CE0J1yURoFYHo",
+  "buildId": "tmIpi9YuZHR4PLLwPnG0O",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

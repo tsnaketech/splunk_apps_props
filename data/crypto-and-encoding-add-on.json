@@ -548,7 +548,6 @@
         "title": "Crypto and Encoding Add-On",
         "troubleshooting": "",
         "troubleshooting_source": "",
-        "type": "addon",
         "updated_time": "2025-11-04T12:55:13.249357Z",
         "video_link": null,
         "app_type": "addon",
@@ -571,7 +570,7 @@
   "query": {
     "id": "5062"
   },
-  "buildId": "EJ2OH98-CE0J1yURoFYHo",
+  "buildId": "tmIpi9YuZHR4PLLwPnG0O",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

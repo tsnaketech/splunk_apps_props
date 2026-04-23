@@ -107,9 +107,9 @@
           "signed_available": true,
           "size": 187646,
           "sourcetypes": [
-            "easm:http_service",
             "easm:web_spider",
-            "easm:open_port"
+            "easm:open_port",
+            "easm:http_service"
           ],
           "tags": [
             "__no_tag__"
@@ -198,9 +198,9 @@
             "signed_available": true,
             "size": 187646,
             "sourcetypes": [
-              "easm:http_service",
               "easm:web_spider",
-              "easm:open_port"
+              "easm:open_port",
+              "easm:http_service"
             ],
             "tags": [
               "__no_tag__"
@@ -287,9 +287,9 @@
             "signed_available": true,
             "size": 187564,
             "sourcetypes": [
-              "easm:http_service",
               "easm:web_spider",
-              "easm:open_port"
+              "easm:open_port",
+              "easm:http_service"
             ],
             "tags": [
               "__no_tag__"
@@ -361,9 +361,9 @@
             "signed_available": true,
             "size": 191833,
             "sourcetypes": [
-              "easm:http_service",
               "easm:web_spider",
-              "easm:open_port"
+              "easm:open_port",
+              "easm:http_service"
             ],
             "tags": [
               "__no_tag__"
@@ -420,7 +420,6 @@
         "title": "App for External Attack Surface Management (EASM)",
         "troubleshooting": "<p>In the app, check the EASM Logs dashboard (Advanced -&gt; EASM Logs) to see Splunk invoking the modular inputs, and output from those inputs.</p>\n<p>On the worker node, you can view live log activity (stdout) using <code>docker-compose logs --follow --timestamps</code>.</p>",
         "troubleshooting_source": "In the app, check the EASM Logs dashboard (Advanced -> EASM Logs) to see Splunk invoking the modular inputs, and output from those inputs.\n\nOn the worker node, you can view live log activity (stdout) using `docker-compose logs --follow --timestamps`.",
-        "type": "app",
         "updated_time": "2025-09-17T07:24:29.616734Z",
         "video_link": null,
         "app_type": "app",
@@ -443,7 +442,7 @@
   "query": {
     "id": "7027"
   },
-  "buildId": "EJ2OH98-CE0J1yURoFYHo",
+  "buildId": "tmIpi9YuZHR4PLLwPnG0O",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
