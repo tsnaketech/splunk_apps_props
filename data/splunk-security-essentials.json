@@ -94,8 +94,7 @@
         "product": "splunk",
         "product_compatibility": "splunk",
         "product_types": [
-          "enterprise",
-          "cloud"
+          "enterprise"
         ],
         "public": true,
         "ranking": [
@@ -2689,7 +2688,7 @@
         "title": "Splunk Security Essentials",
         "troubleshooting": "",
         "troubleshooting_source": "",
-        "updated_time": "2026-03-24T19:14:53.909603Z",
+        "updated_time": "2026-04-23T16:24:50.462249Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
@@ -2711,7 +2710,7 @@
   "query": {
     "id": "3435"
   },
-  "buildId": "tmIpi9YuZHR4PLLwPnG0O",
+  "buildId": "Fa21yFuOiYdZ-qXOqrqIh",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

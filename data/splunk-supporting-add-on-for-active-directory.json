@@ -377,7 +377,7 @@
         "title": "Splunk Supporting Add-on for Active Directory",
         "troubleshooting": "",
         "troubleshooting_source": "",
-        "updated_time": "2026-02-24T16:45:43.573385Z",
+        "updated_time": "2026-04-23T16:12:06.761963Z",
         "video_link": null,
         "app_type": "addon",
         "schedule_release": null,
@@ -399,7 +399,7 @@
   "query": {
     "id": "1151"
   },
-  "buildId": "tmIpi9YuZHR4PLLwPnG0O",
+  "buildId": "Fa21yFuOiYdZ-qXOqrqIh",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

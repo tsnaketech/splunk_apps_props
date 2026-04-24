@@ -50,8 +50,7 @@
         "product": "splunk",
         "product_compatibility": "splunk",
         "product_types": [
-          "enterprise",
-          "cloud"
+          "enterprise"
         ],
         "public": true,
         "ranking": [
@@ -600,7 +599,7 @@
         "title": "Splunk ES Content Update",
         "troubleshooting": "<p>Open a Splunk Support Case or reach out to us directly at <a href=\"mailto:research@splunk.com\">research@splunk.com</a>.</p>",
         "troubleshooting_source": "Open a Splunk Support Case or reach out to us directly at research@splunk.com.",
-        "updated_time": "2026-04-22T20:57:59.742234Z",
+        "updated_time": "2026-04-23T14:48:13.055877Z",
         "video_link": null,
         "app_type": "addon",
         "schedule_release": null,
@@ -622,7 +621,7 @@
   "query": {
     "id": "3449"
   },
-  "buildId": "tmIpi9YuZHR4PLLwPnG0O",
+  "buildId": "Fa21yFuOiYdZ-qXOqrqIh",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

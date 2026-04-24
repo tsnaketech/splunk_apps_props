@@ -87,8 +87,8 @@
         "product": "splunk",
         "product_compatibility": "splunk",
         "product_types": [
-          "cloud",
-          "enterprise"
+          "enterprise",
+          "cloud"
         ],
         "public": true,
         "ranking": [
@@ -136,8 +136,8 @@
           "signed_available": true,
           "size": 7140988,
           "sourcetypes": [
-            "lookup_backups_rest_handler",
-            "lookup_editor_rest_handler"
+            "lookup_editor_rest_handler",
+            "lookup_backups_rest_handler"
           ],
           "tags": [
             "__no_tag__"
@@ -211,8 +211,8 @@
             "path": "https://splunkbase.splunk.com/app/1724/release/4.0.6/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "public": null,
             "public_ever_true": false,
@@ -222,8 +222,8 @@
             "signed_available": true,
             "size": 7140988,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -307,8 +307,8 @@
             "signed_available": true,
             "size": 7372246,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -382,8 +382,8 @@
             "signed_available": true,
             "size": 7117021,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -441,8 +441,8 @@
             "path": "https://splunkbase.splunk.com/app/1724/release/4.0.2/download/",
             "platform": "independent",
             "product_types": [
-              "enterprise",
-              "cloud"
+              "cloud",
+              "enterprise"
             ],
             "public": null,
             "public_ever_true": false,
@@ -452,8 +452,8 @@
             "signed_available": true,
             "size": 6007908,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -531,8 +531,8 @@
             "signed_available": true,
             "size": 5857933,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -606,8 +606,8 @@
             "signed_available": true,
             "size": 13618316,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -679,8 +679,8 @@
             "signed_available": true,
             "size": 727079,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -732,8 +732,8 @@
             "signed_available": true,
             "size": 558585,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -810,8 +810,8 @@
             "signed_available": true,
             "size": 541262,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -888,8 +888,8 @@
             "signed_available": true,
             "size": 541228,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -966,8 +966,8 @@
             "signed_available": true,
             "size": 541199,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1044,8 +1044,8 @@
             "signed_available": true,
             "size": 540756,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1122,8 +1122,8 @@
             "signed_available": true,
             "size": 540706,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1200,8 +1200,8 @@
             "signed_available": true,
             "size": 540662,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1278,8 +1278,8 @@
             "signed_available": true,
             "size": 841838,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1356,8 +1356,8 @@
             "signed_available": true,
             "size": 832729,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1419,8 +1419,8 @@
             "signed_available": true,
             "size": 832469,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1482,8 +1482,8 @@
             "signed_available": true,
             "size": 832450,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1540,8 +1540,8 @@
             "signed_available": true,
             "size": 826246,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1598,8 +1598,8 @@
             "signed_available": true,
             "size": 826165,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1656,8 +1656,8 @@
             "signed_available": true,
             "size": 825795,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1714,8 +1714,8 @@
             "signed_available": true,
             "size": 728779,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1772,8 +1772,8 @@
             "signed_available": true,
             "size": 728672,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1830,8 +1830,8 @@
             "signed_available": true,
             "size": 728413,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1883,8 +1883,8 @@
             "signed_available": true,
             "size": 728021,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1936,8 +1936,8 @@
             "signed_available": true,
             "size": 727426,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1989,8 +1989,8 @@
             "signed_available": true,
             "size": 726852,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -2827,7 +2827,7 @@
   "query": {
     "id": "1724"
   },
-  "buildId": "tmIpi9YuZHR4PLLwPnG0O",
+  "buildId": "Fa21yFuOiYdZ-qXOqrqIh",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

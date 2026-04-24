@@ -50,8 +50,7 @@
         "product": "splunk",
         "product_compatibility": "splunk",
         "product_types": [
-          "enterprise",
-          "cloud"
+          "enterprise"
         ],
         "public": true,
         "ranking": [
@@ -99,16 +98,16 @@
           "signed_available": true,
           "size": 224485,
           "sourcetypes": [
-            "apache:access:json",
-            "apache:error",
             "apache:access:kv",
+            "apache:error",
             "apache:access:combined",
-            "apache:access"
+            "apache:access",
+            "apache:access:json"
           ],
           "tags": [
-            "__no_tag__",
+            "web",
             "error",
-            "web"
+            "__no_tag__"
           ],
           "tags_sourcetypes": {
             "__no_tag__": [
@@ -192,16 +191,16 @@
             "signed_available": true,
             "size": 224485,
             "sourcetypes": [
-              "apache:access:json",
-              "apache:error",
               "apache:access:kv",
+              "apache:error",
               "apache:access:combined",
-              "apache:access"
+              "apache:access",
+              "apache:access:json"
             ],
             "tags": [
-              "__no_tag__",
+              "web",
               "error",
-              "web"
+              "__no_tag__"
             ],
             "tags_sourcetypes": {
               "__no_tag__": [
@@ -260,7 +259,7 @@
         "title": "Splunk Add-on for Apache Web Server",
         "troubleshooting": "",
         "troubleshooting_source": "",
-        "updated_time": "2026-04-09T10:56:09.114735Z",
+        "updated_time": "2026-04-23T15:58:59.172396Z",
         "video_link": null,
         "app_type": "addon",
         "schedule_release": null,
@@ -282,7 +281,7 @@
   "query": {
     "id": "3186"
   },
-  "buildId": "tmIpi9YuZHR4PLLwPnG0O",
+  "buildId": "Fa21yFuOiYdZ-qXOqrqIh",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
