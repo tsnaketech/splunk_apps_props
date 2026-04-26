@@ -107,9 +107,9 @@
           "signed_available": true,
           "size": 187646,
           "sourcetypes": [
-            "easm:web_spider",
+            "easm:http_service",
             "easm:open_port",
-            "easm:http_service"
+            "easm:web_spider"
           ],
           "tags": [
             "__no_tag__"
@@ -198,9 +198,9 @@
             "signed_available": true,
             "size": 187646,
             "sourcetypes": [
-              "easm:web_spider",
+              "easm:http_service",
               "easm:open_port",
-              "easm:http_service"
+              "easm:web_spider"
             ],
             "tags": [
               "__no_tag__"
@@ -287,9 +287,9 @@
             "signed_available": true,
             "size": 187564,
             "sourcetypes": [
-              "easm:web_spider",
+              "easm:http_service",
               "easm:open_port",
-              "easm:http_service"
+              "easm:web_spider"
             ],
             "tags": [
               "__no_tag__"
@@ -361,9 +361,9 @@
             "signed_available": true,
             "size": 191833,
             "sourcetypes": [
-              "easm:web_spider",
+              "easm:http_service",
               "easm:open_port",
-              "easm:http_service"
+              "easm:web_spider"
             ],
             "tags": [
               "__no_tag__"
