@@ -4,7 +4,6 @@
       "appDetails": {
         "id": 6843,
         "access": "unrestricted",
-        "approved": true,
         "approval_status": "approved",
         "categories": [
           {
@@ -492,7 +491,7 @@
   "query": {
     "id": "6843"
   },
-  "buildId": "Fa21yFuOiYdZ-qXOqrqIh",
+  "buildId": "Y7Bi9-eZ04Gj01gtgl4zG",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

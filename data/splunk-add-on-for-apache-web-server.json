@@ -4,7 +4,6 @@
       "appDetails": {
         "id": 3186,
         "access": "unrestricted",
-        "approved": true,
         "approval_status": "approved",
         "categories": [
           {
@@ -27,7 +26,7 @@
         "description": "The Splunk Add-on for Apache Web Server allows a Splunk software administrator to collect and analyze data from Apache Web Server using file monitoring. After the Splunk platform indexes the events, you can analyze the data using the prebuilt panels included with the add-on. \n\nThis add-on provides the inputs and CIM-compatible knowledge to use with other Splunk apps, such as Web.",
         "documentation": "<p>Documentation for this add-on can be found here: <a href=\"http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About\">http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About</a></p>",
         "documentation_source": "Documentation for this add-on can be found here: http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About",
-        "download_count": 36327,
+        "download_count": 36331,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/c349dc2a-3401-11f1-9b1f-5ab5123230fd.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": null,
@@ -98,16 +97,16 @@
           "signed_available": true,
           "size": 224485,
           "sourcetypes": [
-            "apache:error",
-            "apache:access:json",
-            "apache:access:combined",
             "apache:access",
-            "apache:access:kv"
+            "apache:access:kv",
+            "apache:access:combined",
+            "apache:access:json",
+            "apache:error"
           ],
           "tags": [
-            "web",
             "__no_tag__",
-            "error"
+            "error",
+            "web"
           ],
           "tags_sourcetypes": {
             "__no_tag__": [
@@ -191,16 +190,16 @@
             "signed_available": true,
             "size": 224485,
             "sourcetypes": [
-              "apache:error",
-              "apache:access:json",
-              "apache:access:combined",
               "apache:access",
-              "apache:access:kv"
+              "apache:access:kv",
+              "apache:access:combined",
+              "apache:access:json",
+              "apache:error"
             ],
             "tags": [
-              "web",
               "__no_tag__",
-              "error"
+              "error",
+              "web"
             ],
             "tags_sourcetypes": {
               "__no_tag__": [
@@ -281,7 +280,7 @@
   "query": {
     "id": "3186"
   },
-  "buildId": "Fa21yFuOiYdZ-qXOqrqIh",
+  "buildId": "Y7Bi9-eZ04Gj01gtgl4zG",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
