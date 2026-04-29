@@ -31,7 +31,7 @@
         "description": "This TA allows to add interaction features between TheHive or Cortex (https://www.strangebee.com/) and Splunk. It allows to retrieve all kind of information from TheHive/Cortex and to perform actions on these instances using Splunk, from a search or from a predefined dashboard.\n\nThis TA is supporting only TheHive 5. For having an app supporting TheHive 3 or 4, please check the oldest releases. It's also supporting the Cortex 3 version.\n\nMore information here: https://github.com/LetMeR00t/TA-thehive-cortex",
         "documentation": "<p>The objective is to interface a SIEM tool such as Splunk in order to be able to perform automated tasks on observables/IOCs or TTPs.<br>\nThis TA has been designed in such a way that :</p>\n<ul>\n<li>You can pull events periodically from TheHive about the different cases/alerts that were created or updated</li>\n<li>You can create new alert or case from Splunk in TheHive using the power of Splunk whether in a search or in a predefined dashboard.</li>\n<li>You can run a function in TheHive from an alert action</li>\n<li>You can interface Splunk Enterprise Security with TheHive</li>\n<li>You can retrieve information from Cortex about the different jobs that are being performed on the scanners.</li>\n<li>You can run new tasks from Splunk in Cortex using the power of Splunk whether in a search or a predefined dashboard.</li>\n</ul>\n<p>If you need any documentation or help, please visit the related Github : <a href=\"https://github.com/LetMeR00t/TA-thehive-cortex\">https://github.com/LetMeR00t/TA-thehive-cortex</a></p>",
         "documentation_source": "The objective is to interface a SIEM tool such as Splunk in order to be able to perform automated tasks on observables/IOCs or TTPs.\nThis TA has been designed in such a way that :\n\n- You can pull events periodically from TheHive about the different cases/alerts that were created or updated\n- You can create new alert or case from Splunk in TheHive using the power of Splunk whether in a search or in a predefined dashboard.\n- You can run a function in TheHive from an alert action\n- You can interface Splunk Enterprise Security with TheHive\n- You can retrieve information from Cortex about the different jobs that are being performed on the scanners.\n- You can run new tasks from Splunk in Cortex using the power of Splunk whether in a search or a predefined dashboard.\n\nIf you need any documentation or help, please visit the related Github : https://github.com/LetMeR00t/TA-thehive-cortex",
-        "download_count": 4118,
+        "download_count": 4119,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/7565a178-252a-11f1-8ab2-8e1c694f89e1.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -114,26 +114,26 @@
           "signed_available": true,
           "size": 6588367,
           "sourcetypes": [
-            "thehive:audit",
+            "thehive:status",
+            "thehive:cases:createdAt",
+            "thehive:*",
             "thehive:cases:startDate",
-            "thehive:tasks:updatedAt",
             "thehive:timeline",
             "thehive:alerts:createdAt",
-            "thehive:*",
-            "thehive:observables:createdAt",
-            "thehive:tasks",
-            "thehive:cases:tasks:updatedAt",
             "thehive:alerts:updatedAt",
+            "thehive:cases:tasks:updatedAt",
+            "thehive:observables:createdAt",
+            "thehive:audit",
             "thehive:cases:updatedAt",
-            "thehive:tasks:createdAt",
-            "tathehivecortex:log",
-            "thehive:tasks:startDate",
-            "thehive:cases:tasks:startDate",
-            "thehive:status",
-            "thehive:cases:tasks:createdAt",
             "thehive:observables:updatedAt",
+            "thehive:tasks:startDate",
+            "thehive:tasks",
+            "thehive:cases:tasks:createdAt",
+            "thehive:tasks:createdAt",
+            "thehive:tasks:updatedAt",
             "thehive:alerts:occuredDate",
-            "thehive:cases:createdAt"
+            "tathehivecortex:log",
+            "thehive:cases:tasks:startDate"
           ],
           "tags": [
             "__no_tag__"
@@ -253,26 +253,26 @@
             "signed_available": true,
             "size": 6588367,
             "sourcetypes": [
-              "thehive:audit",
+              "thehive:status",
+              "thehive:cases:createdAt",
+              "thehive:*",
               "thehive:cases:startDate",
-              "thehive:tasks:updatedAt",
               "thehive:timeline",
               "thehive:alerts:createdAt",
-              "thehive:*",
-              "thehive:observables:createdAt",
-              "thehive:tasks",
-              "thehive:cases:tasks:updatedAt",
               "thehive:alerts:updatedAt",
+              "thehive:cases:tasks:updatedAt",
+              "thehive:observables:createdAt",
+              "thehive:audit",
               "thehive:cases:updatedAt",
-              "thehive:tasks:createdAt",
-              "tathehivecortex:log",
-              "thehive:tasks:startDate",
-              "thehive:cases:tasks:startDate",
-              "thehive:status",
-              "thehive:cases:tasks:createdAt",
               "thehive:observables:updatedAt",
+              "thehive:tasks:startDate",
+              "thehive:tasks",
+              "thehive:cases:tasks:createdAt",
+              "thehive:tasks:createdAt",
+              "thehive:tasks:updatedAt",
               "thehive:alerts:occuredDate",
-              "thehive:cases:createdAt"
+              "tathehivecortex:log",
+              "thehive:cases:tasks:startDate"
             ],
             "tags": [
               "__no_tag__"
@@ -391,20 +391,20 @@
             "signed_available": true,
             "size": 6563283,
             "sourcetypes": [
-              "thehive:audit",
-              "thehive:cases:startDate",
-              "thehive:alerts:createdAt",
-              "thehive:*",
-              "thehive:observables:createdAt",
-              "tathehivecortex:log",
-              "thehive:tasks:updatedAt",
-              "thehive:alerts:updatedAt",
-              "thehive:cases:updatedAt",
+              "thehive:cases:createdAt",
               "thehive:tasks:createdAt",
+              "thehive:*",
+              "thehive:cases:startDate",
               "thehive:observables:updatedAt",
-              "thehive:alerts:occuredDate",
               "thehive:tasks:startDate",
-              "thehive:cases:createdAt"
+              "thehive:observables:createdAt",
+              "thehive:tasks:updatedAt",
+              "thehive:audit",
+              "thehive:alerts:createdAt",
+              "thehive:cases:updatedAt",
+              "tathehivecortex:log",
+              "thehive:alerts:updatedAt",
+              "thehive:alerts:occuredDate"
             ],
             "tags": [
               "__no_tag__"
@@ -519,15 +519,15 @@
             "signed_available": true,
             "size": 3436199,
             "sourcetypes": [
+              "thehive:last_created:alerts",
+              "thehive:last_created:observables",
               "thehive:last_updated:cases",
-              "thehive:last_created:audit",
               "thehive:last_updated:alerts",
               "thehive:*",
-              "thehive:last_created:observables",
+              "thehive:last_created:cases",
               "thehive:last_updated:observables",
-              "tathehivecortex:log",
-              "thehive:last_created:alerts",
-              "thehive:last_created:cases"
+              "thehive:last_created:audit",
+              "tathehivecortex:log"
             ],
             "tags": [
               "__no_tag__"
@@ -638,10 +638,10 @@
             "signed_available": true,
             "size": 6448428,
             "sourcetypes": [
+              "cortex:supervisor",
               "tathehivecortex:log",
               "thehive:supervisor",
-              "thehive:logs",
-              "cortex:supervisor"
+              "thehive:logs"
             ],
             "tags": [
               "__no_tag__"
