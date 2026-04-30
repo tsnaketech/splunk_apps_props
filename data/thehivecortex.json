@@ -114,26 +114,26 @@
           "signed_available": true,
           "size": 6588367,
           "sourcetypes": [
-            "thehive:status",
-            "thehive:cases:createdAt",
-            "thehive:*",
-            "thehive:cases:startDate",
-            "thehive:timeline",
-            "thehive:alerts:createdAt",
-            "thehive:alerts:updatedAt",
-            "thehive:cases:tasks:updatedAt",
             "thehive:observables:createdAt",
-            "thehive:audit",
-            "thehive:cases:updatedAt",
-            "thehive:observables:updatedAt",
-            "thehive:tasks:startDate",
-            "thehive:tasks",
             "thehive:cases:tasks:createdAt",
-            "thehive:tasks:createdAt",
-            "thehive:tasks:updatedAt",
+            "thehive:cases:createdAt",
             "thehive:alerts:occuredDate",
+            "thehive:observables:updatedAt",
             "tathehivecortex:log",
-            "thehive:cases:tasks:startDate"
+            "thehive:cases:tasks:startDate",
+            "thehive:cases:updatedAt",
+            "thehive:status",
+            "thehive:alerts:createdAt",
+            "thehive:tasks",
+            "thehive:audit",
+            "thehive:tasks:updatedAt",
+            "thehive:alerts:updatedAt",
+            "thehive:*",
+            "thehive:tasks:createdAt",
+            "thehive:cases:tasks:updatedAt",
+            "thehive:tasks:startDate",
+            "thehive:timeline",
+            "thehive:cases:startDate"
           ],
           "tags": [
             "__no_tag__"
@@ -253,26 +253,26 @@
             "signed_available": true,
             "size": 6588367,
             "sourcetypes": [
-              "thehive:status",
-              "thehive:cases:createdAt",
-              "thehive:*",
-              "thehive:cases:startDate",
-              "thehive:timeline",
-              "thehive:alerts:createdAt",
-              "thehive:alerts:updatedAt",
-              "thehive:cases:tasks:updatedAt",
               "thehive:observables:createdAt",
-              "thehive:audit",
-              "thehive:cases:updatedAt",
-              "thehive:observables:updatedAt",
-              "thehive:tasks:startDate",
-              "thehive:tasks",
               "thehive:cases:tasks:createdAt",
-              "thehive:tasks:createdAt",
-              "thehive:tasks:updatedAt",
+              "thehive:cases:createdAt",
               "thehive:alerts:occuredDate",
+              "thehive:observables:updatedAt",
               "tathehivecortex:log",
-              "thehive:cases:tasks:startDate"
+              "thehive:cases:tasks:startDate",
+              "thehive:cases:updatedAt",
+              "thehive:status",
+              "thehive:alerts:createdAt",
+              "thehive:tasks",
+              "thehive:audit",
+              "thehive:tasks:updatedAt",
+              "thehive:alerts:updatedAt",
+              "thehive:*",
+              "thehive:tasks:createdAt",
+              "thehive:cases:tasks:updatedAt",
+              "thehive:tasks:startDate",
+              "thehive:timeline",
+              "thehive:cases:startDate"
             ],
             "tags": [
               "__no_tag__"
@@ -391,20 +391,20 @@
             "signed_available": true,
             "size": 6563283,
             "sourcetypes": [
-              "thehive:cases:createdAt",
               "thehive:tasks:createdAt",
-              "thehive:*",
-              "thehive:cases:startDate",
               "thehive:observables:updatedAt",
-              "thehive:tasks:startDate",
+              "tathehivecortex:log",
               "thehive:observables:createdAt",
               "thehive:tasks:updatedAt",
-              "thehive:audit",
-              "thehive:alerts:createdAt",
+              "thehive:tasks:startDate",
               "thehive:cases:updatedAt",
-              "tathehivecortex:log",
               "thehive:alerts:updatedAt",
-              "thehive:alerts:occuredDate"
+              "thehive:cases:createdAt",
+              "thehive:cases:startDate",
+              "thehive:alerts:occuredDate",
+              "thehive:*",
+              "thehive:alerts:createdAt",
+              "thehive:audit"
             ],
             "tags": [
               "__no_tag__"
@@ -519,15 +519,15 @@
             "signed_available": true,
             "size": 3436199,
             "sourcetypes": [
-              "thehive:last_created:alerts",
-              "thehive:last_created:observables",
-              "thehive:last_updated:cases",
-              "thehive:last_updated:alerts",
-              "thehive:*",
-              "thehive:last_created:cases",
               "thehive:last_updated:observables",
+              "tathehivecortex:log",
               "thehive:last_created:audit",
-              "tathehivecortex:log"
+              "thehive:last_updated:alerts",
+              "thehive:last_created:observables",
+              "thehive:last_created:alerts",
+              "thehive:last_created:cases",
+              "thehive:*",
+              "thehive:last_updated:cases"
             ],
             "tags": [
               "__no_tag__"
@@ -638,9 +638,9 @@
             "signed_available": true,
             "size": 6448428,
             "sourcetypes": [
-              "cortex:supervisor",
-              "tathehivecortex:log",
               "thehive:supervisor",
+              "tathehivecortex:log",
+              "cortex:supervisor",
               "thehive:logs"
             ],
             "tags": [
@@ -736,7 +736,7 @@
   "query": {
     "id": "5329"
   },
-  "buildId": "Y7Bi9-eZ04Gj01gtgl4zG",
+  "buildId": "vrMSyTRRPm2Qo3Yb1YBt6",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

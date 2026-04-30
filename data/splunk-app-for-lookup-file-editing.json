@@ -63,7 +63,7 @@
         "description": "Ever want to edit a lookup within Splunk with a user interface? Now you can. This app provides an Excel-like interface for editing, importing, and exporting lookup files (KV store and CSV-based).\n\nThis app also makes your lookups work in Search Head Clustered environments (edits to lookups will be propagated to other search heads).\n\nRevision history is maintained for lookups so that you can view or restore older lookups quickly in the interface.\n\nCheck out the Documentation site: \nhttps://docs.splunk.com/Documentation/LookupEditor\n\nhttps://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew",
         "documentation": "<ul>\n<li><a href=\"https://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew\">What's new</a></li>\n<li><a href=\"https://docs.splunk.com/Documentation/LookupEditor\">Documentation Site</a></li>\n</ul>",
         "documentation_source": "*   [What's new](https://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew)\n*   [Documentation Site](https://docs.splunk.com/Documentation/LookupEditor)",
-        "download_count": 253031,
+        "download_count": 253142,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/cfe298e2-42ec-11f1-9e08-1ad9e1e469d5.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -86,8 +86,7 @@
         "product": "splunk",
         "product_compatibility": "splunk",
         "product_types": [
-          "enterprise",
-          "cloud"
+          "enterprise"
         ],
         "public": true,
         "ranking": [
@@ -112,16 +111,16 @@
           "cloud_compatible": true,
           "content": [],
           "fips_compatibility": false,
-          "filename": "splunk-app-for-lookup-file-editing_407.spl",
-          "id": 42645,
+          "filename": "splunk-app-for-lookup-file-editing_406.tgz",
+          "id": 39455,
           "install_method_distributed": "appmgmt_phase",
           "install_method_single": "simple",
-          "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk App for Lookup File Editing\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"lookup_editor\",\n      \"version\": \"4.0.7\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk, Inc.\",\n        \"email\": \"support@splunk.com\",\n        \"company\": \"Splunk, Inc.\"\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Provides a graphical interface for editing lookup files\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.txt\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": \"*\",\n  \"targetWorkloads\": \"_search_heads\"\n}\n",
-          "md5": "c29471bbdbf3024d2ad29850ff720661",
+          "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk App for Lookup File Editing\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"lookup_editor\",\n      \"version\": \"4.0.6\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk, Inc.\",\n        \"email\": \"support@splunk.com\",\n        \"company\": \"Splunk, Inc.\"\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Provides a graphical interface for editing lookup files\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.txt\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": \"*\",\n  \"targetWorkloads\": \"_search_heads\"\n}\n",
+          "md5": "904c8f3e3bda48515bb67986a762685c",
           "min_product_version_str": null,
-          "name": "4.0.7",
+          "name": "4.0.6",
           "passed_validation": true,
-          "path": "https://splunkbase.splunk.com/app/1724/release/4.0.7/download/",
+          "path": "https://splunkbase.splunk.com/app/1724/release/4.0.6/download/",
           "platform": "independent",
           "product_types": [
             "enterprise",
@@ -129,11 +128,11 @@
           ],
           "public": null,
           "public_ever_true": false,
-          "published_datetime": "2026-04-28T10:27:09.702321Z",
-          "release_notes": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise/manage-knowledge-objects/splunk-app-for-lookup-file-editing/4.0/release-notes/whats-new-in-the-splunk-app-for-lookup-file-editing\"></a><a href=\"https://help.splunk.com/en/splunk-enterprise/manage-knowledge-objects/splunk-app-for-lookup-file-editing/4.0/release-notes/whats-new-in-the-splunk-app-for-lookup-file-editing\">https://help.splunk.com/en/splunk-enterprise/manage-knowledge-objects/splunk-app-for-lookup-file-editing/4.0/release-notes/whats-new-in-the-splunk-app-for-lookup-file-editing</a></p>",
-          "sha256": "cdbaf44fcb9231ad275e423e6d45cd6886db3f4e85491d071646d015f1d865c8",
+          "published_datetime": "2025-09-11T15:09:25.920984Z",
+          "release_notes": "<p><a href=\"https://help.splunk.com/en/splunk-cloud-platform/manage-knowledge-objects/splunk-app-for-lookup-file-editing/4.0/release-notes/whats-new-in-the-splunk-app-for-lookup-file-editing#ariaid-title2\">[https://help.splunk.com/en/splunk-cloud-platform/manage-knowledge-objects/splunk-app-for-lookup-file-editing/4.0/release-notes/whats-new-in-the-splunk-app-for-lookup-file-editing#ariaid-title2](https://help.splunk.com/en/splunk-cloud-platform/manage-knowledge-objects/splunk-app-for-lookup-file-editing/4.0/release-notes/whats-new-in-the-splunk-app-for-lookup-file-editing#ariaid-title2)</a></p>",
+          "sha256": "aa1a8809022ed560a7c4f22714bec71a175174f0a588dd83344f1600905fd78a",
           "signed_available": true,
-          "size": 7030566,
+          "size": 7140988,
           "sourcetypes": [
             "lookup_backups_rest_handler",
             "lookup_editor_rest_handler"
@@ -177,91 +176,16 @@
               "id": 111,
               "status": "live",
               "versionString": "9.3"
+            },
+            {
+              "id": 110,
+              "status": "live",
+              "versionString": "9.2"
             }
           ],
           "spl_compatibility": "SPL1"
         },
         "releases": [
-          {
-            "actions": [],
-            "cim_compatibility": [
-              "6.x"
-            ],
-            "CIM_versions": [
-              19
-            ],
-            "cloud_compatible": true,
-            "content": [],
-            "fips_compatibility": false,
-            "filename": "splunk-app-for-lookup-file-editing_407.spl",
-            "id": 42645,
-            "install_method_distributed": "appmgmt_phase",
-            "install_method_single": "simple",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk App for Lookup File Editing\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"lookup_editor\",\n      \"version\": \"4.0.7\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk, Inc.\",\n        \"email\": \"support@splunk.com\",\n        \"company\": \"Splunk, Inc.\"\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Provides a graphical interface for editing lookup files\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.txt\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": \"*\",\n  \"targetWorkloads\": \"_search_heads\"\n}\n",
-            "md5": "c29471bbdbf3024d2ad29850ff720661",
-            "min_product_version_str": null,
-            "name": "4.0.7",
-            "passed_validation": true,
-            "path": "https://splunkbase.splunk.com/app/1724/release/4.0.7/download/",
-            "platform": "independent",
-            "product_types": [
-              "cloud",
-              "enterprise"
-            ],
-            "public": null,
-            "public_ever_true": false,
-            "published_datetime": "2026-04-28T10:27:09.702321Z",
-            "release_notes": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise/manage-knowledge-objects/splunk-app-for-lookup-file-editing/4.0/release-notes/whats-new-in-the-splunk-app-for-lookup-file-editing\"></a><a href=\"https://help.splunk.com/en/splunk-enterprise/manage-knowledge-objects/splunk-app-for-lookup-file-editing/4.0/release-notes/whats-new-in-the-splunk-app-for-lookup-file-editing\">https://help.splunk.com/en/splunk-enterprise/manage-knowledge-objects/splunk-app-for-lookup-file-editing/4.0/release-notes/whats-new-in-the-splunk-app-for-lookup-file-editing</a></p>",
-            "sha256": "cdbaf44fcb9231ad275e423e6d45cd6886db3f4e85491d071646d015f1d865c8",
-            "signed_available": true,
-            "size": 7030566,
-            "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
-            "tags_sourcetypes": {
-              "__no_tag__": [
-                "lookup_editor_rest_handler",
-                "lookup_backups_rest_handler"
-              ]
-            },
-            "version_compatibility": [
-              {
-                "id": 128,
-                "status": "live",
-                "versionString": "10.3"
-              },
-              {
-                "id": 127,
-                "status": "live",
-                "versionString": "10.2"
-              },
-              {
-                "id": 121,
-                "status": "live",
-                "versionString": "10.1"
-              },
-              {
-                "id": 119,
-                "status": "live",
-                "versionString": "10.0"
-              },
-              {
-                "id": 115,
-                "status": "live",
-                "versionString": "9.4"
-              },
-              {
-                "id": 111,
-                "status": "live",
-                "versionString": "9.3"
-              }
-            ],
-            "spl_compatibility": "SPL1"
-          },
           {
             "actions": [],
             "cim_compatibility": [
@@ -291,7 +215,7 @@
             "public": null,
             "public_ever_true": false,
             "published_datetime": "2025-09-11T15:09:25.920984Z",
-            "release_notes": "<p><a href=\"https://help.splunk.com/en/splunk-cloud-platform/manage-knowledge-objects/splunk-app-for-lookup-file-editing/4.0/release-notes/whats-new-in-the-splunk-app-for-lookup-file-editing#ariaid-title2\">https://help.splunk.com/en/splunk-cloud-platform/manage-knowledge-objects/splunk-app-for-lookup-file-editing/4.0/release-notes/whats-new-in-the-splunk-app-for-lookup-file-editing#ariaid-title2</a></p>",
+            "release_notes": "<p><a href=\"https://help.splunk.com/en/splunk-cloud-platform/manage-knowledge-objects/splunk-app-for-lookup-file-editing/4.0/release-notes/whats-new-in-the-splunk-app-for-lookup-file-editing#ariaid-title2\">[https://help.splunk.com/en/splunk-cloud-platform/manage-knowledge-objects/splunk-app-for-lookup-file-editing/4.0/release-notes/whats-new-in-the-splunk-app-for-lookup-file-editing#ariaid-title2](https://help.splunk.com/en/splunk-cloud-platform/manage-knowledge-objects/splunk-app-for-lookup-file-editing/4.0/release-notes/whats-new-in-the-splunk-app-for-lookup-file-editing#ariaid-title2)</a></p>",
             "sha256": "aa1a8809022ed560a7c4f22714bec71a175174f0a588dd83344f1600905fd78a",
             "signed_available": true,
             "size": 7140988,
@@ -580,13 +504,13 @@
             "CIM_versions": [
               17
             ],
-            "cloud_compatible": false,
+            "cloud_compatible": true,
             "content": [],
             "fips_compatibility": false,
             "filename": "splunk-app-for-lookup-file-editing_401.tgz",
             "id": 29606,
-            "install_method_distributed": "rejected",
-            "install_method_single": "rejected",
+            "install_method_distributed": "appmgmt_phase",
+            "install_method_single": "simple",
             "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk App for Lookup File Editing\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"lookup_editor\",\n      \"version\": \"4.0.1\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk, Inc.\",\n        \"email\": \"support@splunk.com\",\n        \"company\": \"Splunk, Inc.\"\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Provides a graphical interface for editing lookup files\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.txt\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": \"*\",\n  \"targetWorkloads\": \"_search_heads\"\n}\n",
             "md5": "2d8f4ae54d18f132ac471ddb807824eb",
             "min_product_version_str": null,
@@ -595,6 +519,7 @@
             "path": "https://splunkbase.splunk.com/app/1724/release/4.0.1/download/",
             "platform": "independent",
             "product_types": [
+              "cloud",
               "enterprise"
             ],
             "public": null,
@@ -655,13 +580,13 @@
             "actions": [],
             "cim_compatibility": [],
             "CIM_versions": [],
-            "cloud_compatible": false,
+            "cloud_compatible": true,
             "content": [],
             "fips_compatibility": false,
             "filename": "splunk-app-for-lookup-file-editing_360.tgz",
             "id": 25748,
-            "install_method_distributed": "rejected",
-            "install_method_single": "rejected",
+            "install_method_distributed": "appmgmt_phase",
+            "install_method_single": "simple",
             "manifest": null,
             "md5": "e26491d2a75ff277a3756be335337e25",
             "min_product_version_str": null,
@@ -670,6 +595,7 @@
             "path": "https://splunkbase.splunk.com/app/1724/release/3.6.0/download/",
             "platform": "independent",
             "product_types": [
+              "cloud",
               "enterprise"
             ],
             "public": null,
@@ -1992,8 +1918,8 @@
             "fips_compatibility": false,
             "filename": "splunk-app-for-lookup-file-editing_301.tgz",
             "id": 10293,
-            "install_method_distributed": "unknown",
-            "install_method_single": "unknown",
+            "install_method_distributed": "rejected",
+            "install_method_single": "rejected",
             "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"3.0.1\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
             "md5": "20c6cff9b17163e08883668df73a5a1e",
             "min_product_version_str": null,
@@ -2045,8 +1971,8 @@
             "fips_compatibility": false,
             "filename": "splunk-app-for-lookup-file-editing_300.tgz",
             "id": 10182,
-            "install_method_distributed": "unknown",
-            "install_method_single": "unknown",
+            "install_method_distributed": "rejected",
+            "install_method_single": "rejected",
             "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"3.0.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
             "md5": "ccfff3082b31def4ef788e616137ea98",
             "min_product_version_str": null,
@@ -2224,8 +2150,8 @@
             "fips_compatibility": false,
             "filename": "splunk-app-for-lookup-file-editing_261.tgz",
             "id": 7859,
-            "install_method_distributed": "unknown",
-            "install_method_single": "unknown",
+            "install_method_distributed": "rejected",
+            "install_method_single": "rejected",
             "manifest": "{\n  \"schemaVersion\": \"1.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"2.6.1\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null\n}\n",
             "md5": "7a4b7b669d76e3aa957b2d935972dc41",
             "min_product_version_str": null,
@@ -2544,8 +2470,8 @@
             "fips_compatibility": false,
             "filename": "splunk-app-for-lookup-file-editing_23.tgz",
             "id": 5783,
-            "install_method_distributed": "unknown",
-            "install_method_single": "unknown",
+            "install_method_distributed": "rejected",
+            "install_method_single": "rejected",
             "manifest": "{\n  \"schemaVersion\": \"1.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"2.3.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null\n}\n",
             "md5": "be0a8bcd39fa5b4bc5cbe6ac7663cc8a",
             "min_product_version_str": null,
@@ -2584,8 +2510,8 @@
             "fips_compatibility": false,
             "filename": "splunk-app-for-lookup-file-editing_22.tgz",
             "id": 5655,
-            "install_method_distributed": "unknown",
-            "install_method_single": "unknown",
+            "install_method_distributed": "rejected",
+            "install_method_single": "rejected",
             "manifest": "{\n  \"schemaVersion\": \"1.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"2.2.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null\n}\n",
             "md5": "c4506074e1773b104b8bc389f056ae58",
             "min_product_version_str": null,
@@ -2704,8 +2630,8 @@
             "fips_compatibility": false,
             "filename": "splunk-app-for-lookup-file-editing_210.tgz",
             "id": 4870,
-            "install_method_distributed": "unknown",
-            "install_method_single": "unknown",
+            "install_method_distributed": "rejected",
+            "install_method_single": "rejected",
             "manifest": "{\n  \"schemaVersion\": \"1.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"2.1.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null\n}\n",
             "md5": "ea908e08f873982140142912be327540",
             "min_product_version_str": null,
@@ -2744,8 +2670,8 @@
             "fips_compatibility": false,
             "filename": "splunk-app-for-lookup-file-editing_203.tgz",
             "id": 4530,
-            "install_method_distributed": "unknown",
-            "install_method_single": "unknown",
+            "install_method_distributed": "rejected",
+            "install_method_single": "rejected",
             "manifest": "{\n  \"schemaVersion\": \"1.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"2.0.3\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null\n}\n",
             "md5": "2153edcde17712eae7424392a1f9fbe0",
             "min_product_version_str": null,
@@ -2776,8 +2702,8 @@
             "fips_compatibility": false,
             "filename": "splunk-app-for-lookup-file-editing_202.tgz",
             "id": 4496,
-            "install_method_distributed": "unknown",
-            "install_method_single": "unknown",
+            "install_method_distributed": "rejected",
+            "install_method_single": "rejected",
             "manifest": "{\n  \"schemaVersion\": \"1.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"2.0.2\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null\n}\n",
             "md5": "352e96491a30f2458f21b1e22efcbb1b",
             "min_product_version_str": null,
@@ -2808,8 +2734,8 @@
             "fips_compatibility": false,
             "filename": "splunk-app-for-lookup-file-editing_201.tgz",
             "id": 4494,
-            "install_method_distributed": "unknown",
-            "install_method_single": "unknown",
+            "install_method_distributed": "rejected",
+            "install_method_single": "rejected",
             "manifest": "{\n  \"schemaVersion\": \"1.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"2.0.1\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null\n}\n",
             "md5": "0dcb4f7217e7044561d59ed9d74aa859",
             "min_product_version_str": null,
@@ -2840,8 +2766,8 @@
             "fips_compatibility": false,
             "filename": "splunk-app-for-lookup-file-editing_200.tgz",
             "id": 4472,
-            "install_method_distributed": "unknown",
-            "install_method_single": "unknown",
+            "install_method_distributed": "rejected",
+            "install_method_single": "rejected",
             "manifest": "{\n  \"schemaVersion\": \"1.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"2.0.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null\n}\n",
             "md5": "503fd1fab66a21a6e59d666777eeae8d",
             "min_product_version_str": null,
@@ -2879,7 +2805,7 @@
         "title": "Splunk App for Lookup File Editing",
         "troubleshooting": "",
         "troubleshooting_source": "",
-        "updated_time": "2026-04-28T17:34:03.514134Z",
+        "updated_time": "2026-04-29T18:26:16.605981Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
@@ -2901,7 +2827,7 @@
   "query": {
     "id": "1724"
   },
-  "buildId": "Y7Bi9-eZ04Gj01gtgl4zG",
+  "buildId": "vrMSyTRRPm2Qo3Yb1YBt6",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
