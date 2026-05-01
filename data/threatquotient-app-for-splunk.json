@@ -49,8 +49,7 @@
         "product": "splunk",
         "product_compatibility": "splunk",
         "product_types": [
-          "enterprise",
-          "cloud"
+          "enterprise"
         ],
         "public": true,
         "ranking": [
@@ -1257,8 +1256,8 @@
             "fips_compatibility": false,
             "filename": "threatquotient-app-for-splunk_120.tgz",
             "id": 14910,
-            "install_method_distributed": "unknown",
-            "install_method_single": "unknown",
+            "install_method_distributed": "rejected",
+            "install_method_single": "rejected",
             "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"ThreatQuotient App for Splunk\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"ThreatQAppforSplunk\", \n      \"version\": \"1.2.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"ThreatQuotient Inc.\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"ThreatQuotient App for Splunk\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.md\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
             "md5": "5863c5ebd8115b4a56613baf0b765197",
             "min_product_version_str": null,
@@ -1411,7 +1410,7 @@
         "title": "ThreatQuotient App for Splunk",
         "troubleshooting": "",
         "troubleshooting_source": "",
-        "updated_time": "2025-12-19T15:45:10.693829Z",
+        "updated_time": "2026-04-30T14:02:46.883147Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,

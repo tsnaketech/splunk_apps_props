@@ -114,26 +114,26 @@
           "signed_available": true,
           "size": 6588367,
           "sourcetypes": [
-            "thehive:observables:createdAt",
-            "thehive:cases:tasks:createdAt",
             "thehive:cases:createdAt",
-            "thehive:alerts:occuredDate",
             "thehive:observables:updatedAt",
+            "thehive:observables:createdAt",
+            "thehive:alerts:occuredDate",
             "tathehivecortex:log",
-            "thehive:cases:tasks:startDate",
-            "thehive:cases:updatedAt",
-            "thehive:status",
+            "thehive:cases:startDate",
             "thehive:alerts:createdAt",
-            "thehive:tasks",
-            "thehive:audit",
-            "thehive:tasks:updatedAt",
-            "thehive:alerts:updatedAt",
-            "thehive:*",
+            "thehive:cases:updatedAt",
+            "thehive:cases:tasks:createdAt",
+            "thehive:timeline",
             "thehive:tasks:createdAt",
             "thehive:cases:tasks:updatedAt",
+            "thehive:alerts:updatedAt",
+            "thehive:tasks:updatedAt",
+            "thehive:tasks",
             "thehive:tasks:startDate",
-            "thehive:timeline",
-            "thehive:cases:startDate"
+            "thehive:*",
+            "thehive:status",
+            "thehive:cases:tasks:startDate",
+            "thehive:audit"
           ],
           "tags": [
             "__no_tag__"
@@ -253,26 +253,26 @@
             "signed_available": true,
             "size": 6588367,
             "sourcetypes": [
-              "thehive:observables:createdAt",
-              "thehive:cases:tasks:createdAt",
               "thehive:cases:createdAt",
-              "thehive:alerts:occuredDate",
               "thehive:observables:updatedAt",
+              "thehive:observables:createdAt",
+              "thehive:alerts:occuredDate",
               "tathehivecortex:log",
-              "thehive:cases:tasks:startDate",
-              "thehive:cases:updatedAt",
-              "thehive:status",
+              "thehive:cases:startDate",
               "thehive:alerts:createdAt",
-              "thehive:tasks",
-              "thehive:audit",
-              "thehive:tasks:updatedAt",
-              "thehive:alerts:updatedAt",
-              "thehive:*",
+              "thehive:cases:updatedAt",
+              "thehive:cases:tasks:createdAt",
+              "thehive:timeline",
               "thehive:tasks:createdAt",
               "thehive:cases:tasks:updatedAt",
+              "thehive:alerts:updatedAt",
+              "thehive:tasks:updatedAt",
+              "thehive:tasks",
               "thehive:tasks:startDate",
-              "thehive:timeline",
-              "thehive:cases:startDate"
+              "thehive:*",
+              "thehive:status",
+              "thehive:cases:tasks:startDate",
+              "thehive:audit"
             ],
             "tags": [
               "__no_tag__"
@@ -391,20 +391,20 @@
             "signed_available": true,
             "size": 6563283,
             "sourcetypes": [
-              "thehive:tasks:createdAt",
+              "thehive:alerts:updatedAt",
+              "thehive:cases:startDate",
+              "thehive:cases:createdAt",
+              "thehive:cases:updatedAt",
+              "thehive:audit",
+              "thehive:*",
               "thehive:observables:updatedAt",
-              "tathehivecortex:log",
               "thehive:observables:createdAt",
               "thehive:tasks:updatedAt",
-              "thehive:tasks:startDate",
-              "thehive:cases:updatedAt",
-              "thehive:alerts:updatedAt",
-              "thehive:cases:createdAt",
-              "thehive:cases:startDate",
               "thehive:alerts:occuredDate",
-              "thehive:*",
+              "tathehivecortex:log",
               "thehive:alerts:createdAt",
-              "thehive:audit"
+              "thehive:tasks:createdAt",
+              "thehive:tasks:startDate"
             ],
             "tags": [
               "__no_tag__"
@@ -519,15 +519,15 @@
             "signed_available": true,
             "size": 3436199,
             "sourcetypes": [
-              "thehive:last_updated:observables",
-              "tathehivecortex:log",
               "thehive:last_created:audit",
-              "thehive:last_updated:alerts",
-              "thehive:last_created:observables",
-              "thehive:last_created:alerts",
-              "thehive:last_created:cases",
               "thehive:*",
-              "thehive:last_updated:cases"
+              "thehive:last_updated:cases",
+              "thehive:last_created:observables",
+              "tathehivecortex:log",
+              "thehive:last_updated:observables",
+              "thehive:last_created:cases",
+              "thehive:last_updated:alerts",
+              "thehive:last_created:alerts"
             ],
             "tags": [
               "__no_tag__"
@@ -638,10 +638,10 @@
             "signed_available": true,
             "size": 6448428,
             "sourcetypes": [
+              "thehive:logs",
               "thehive:supervisor",
               "tathehivecortex:log",
-              "cortex:supervisor",
-              "thehive:logs"
+              "cortex:supervisor"
             ],
             "tags": [
               "__no_tag__"
@@ -714,7 +714,7 @@
         "title": "TheHive/Cortex",
         "troubleshooting": "<p>You have a dedicated dashboard named \"Audit logs\" in order to check all logs.<br>\nIf you enable the debug mode (only for troubleshooting purposes), you will be able to see all the information and especially errors.</p>\n<p>If you need any assistance, you can contact me on the related Github: <a href=\"https://github.com/LetMeR00t/TA-thehive-cortex/issues\">https://github.com/LetMeR00t/TA-thehive-cortex/issues</a></p>",
         "troubleshooting_source": "You have a dedicated dashboard named \"Audit logs\" in order to check all logs.\nIf you enable the debug mode (only for troubleshooting purposes), you will be able to see all the information and especially errors.\n\nIf you need any assistance, you can contact me on the related Github: https://github.com/LetMeR00t/TA-thehive-cortex/issues",
-        "updated_time": "2026-04-23T14:12:37.481781Z",
+        "updated_time": "2026-04-30T13:33:28.522213Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
