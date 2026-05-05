@@ -235,8 +235,8 @@
             "path": "https://splunkbase.splunk.com/app/263/release/8.4.1/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -319,34 +319,34 @@
             "signed_available": true,
             "size": 771499444,
             "sourcetypes": [
-              "es_identity_exporter",
-              "clone_udf_dashboard_rest_handler.py",
-              "event_sequencing_engine_log",
               "ess_content_importer",
-              "send2ba_riskdm_modalert",
+              "event_sequencing_engine_log",
               "apps_shc_es_deployer_rest_handler",
-              "es_editions_manager",
-              "enterprise_security_notable",
+              "ess_configured_handler",
               "tim_cmp_key_rotation",
-              "sequence_templates_rest_handler",
-              "app_permissions_rest_handler",
-              "esconfighealth",
               "send2ba_notable_modalert",
+              "security_analytics_identity",
               "tim_rest_handler",
-              "investigation_rest_handler",
-              "behavioral_analytics_rest_handler",
+              "app_permissions_manager",
+              "esconfighealth",
+              "send2ba_riskdm_modalert",
+              "es_editions_manager",
+              "es_ingestion_volume_manager",
+              "enterprise_security_notable",
+              "es_identity_exporter",
+              "sequence_templates_rest_handler",
               "ba_enablement",
               "es_asset_exporter",
-              "federated_analytics_rest_handler",
-              "app_permissions_manager",
               "sequence_instance_rest_handler",
-              "ess_configured_handler",
-              "es_ingestion_volume_manager",
               "enterprise_security_risk_datamodel",
+              "clone_udf_dashboard_rest_handler.py",
+              "app_permissions_rest_handler",
+              "es_investigations_rest_handler",
+              "investigation_rest_handler",
+              "behavioral_analytics_rest_handler",
               "security_analytics_asset",
               "essinstall2",
-              "security_analytics_identity",
-              "es_investigations_rest_handler"
+              "federated_analytics_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -443,8 +443,8 @@
             "path": "https://splunkbase.splunk.com/app/263/release/8.3.0/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -454,34 +454,34 @@
             "signed_available": false,
             "size": 824512892,
             "sourcetypes": [
-              "es_identity_exporter",
-              "clone_udf_dashboard_rest_handler.py",
-              "event_sequencing_engine_log",
               "ess_content_importer",
-              "send2ba_riskdm_modalert",
+              "event_sequencing_engine_log",
               "apps_shc_es_deployer_rest_handler",
-              "es_editions_manager",
-              "enterprise_security_notable",
+              "ess_configured_handler",
               "tim_cmp_key_rotation",
-              "sequence_templates_rest_handler",
-              "app_permissions_rest_handler",
-              "esconfighealth",
               "send2ba_notable_modalert",
+              "security_analytics_identity",
               "tim_rest_handler",
-              "investigation_rest_handler",
-              "behavioral_analytics_rest_handler",
+              "app_permissions_manager",
+              "esconfighealth",
+              "send2ba_riskdm_modalert",
+              "es_editions_manager",
+              "es_ingestion_volume_manager",
+              "enterprise_security_notable",
+              "es_identity_exporter",
+              "sequence_templates_rest_handler",
               "ba_enablement",
               "es_asset_exporter",
-              "federated_analytics_rest_handler",
-              "app_permissions_manager",
               "sequence_instance_rest_handler",
-              "ess_configured_handler",
-              "es_ingestion_volume_manager",
               "enterprise_security_risk_datamodel",
+              "clone_udf_dashboard_rest_handler.py",
+              "app_permissions_rest_handler",
+              "es_investigations_rest_handler",
+              "investigation_rest_handler",
+              "behavioral_analytics_rest_handler",
               "security_analytics_asset",
               "essinstall2",
-              "security_analytics_identity",
-              "es_investigations_rest_handler"
+              "federated_analytics_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -578,8 +578,8 @@
             "path": "https://splunkbase.splunk.com/app/263/release/8.2.3/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -589,33 +589,33 @@
             "signed_available": false,
             "size": 761699696,
             "sourcetypes": [
-              "es_identity_exporter",
-              "clone_udf_dashboard_rest_handler.py",
-              "event_sequencing_engine_log",
               "ess_content_importer",
-              "send2ba_riskdm_modalert",
+              "event_sequencing_engine_log",
               "apps_shc_es_deployer_rest_handler",
-              "enterprise_security_notable",
+              "ess_configured_handler",
               "tim_cmp_key_rotation",
-              "sequence_templates_rest_handler",
-              "app_permissions_rest_handler",
-              "esconfighealth",
               "send2ba_notable_modalert",
+              "security_analytics_identity",
               "tim_rest_handler",
-              "investigation_rest_handler",
-              "behavioral_analytics_rest_handler",
+              "app_permissions_manager",
+              "esconfighealth",
+              "send2ba_riskdm_modalert",
+              "es_ingestion_volume_manager",
+              "enterprise_security_notable",
+              "es_identity_exporter",
+              "sequence_templates_rest_handler",
               "ba_enablement",
               "es_asset_exporter",
-              "federated_analytics_rest_handler",
-              "app_permissions_manager",
               "sequence_instance_rest_handler",
-              "ess_configured_handler",
-              "es_ingestion_volume_manager",
               "enterprise_security_risk_datamodel",
+              "clone_udf_dashboard_rest_handler.py",
+              "app_permissions_rest_handler",
+              "es_investigations_rest_handler",
+              "investigation_rest_handler",
+              "behavioral_analytics_rest_handler",
               "security_analytics_asset",
               "essinstall2",
-              "security_analytics_identity",
-              "es_investigations_rest_handler"
+              "federated_analytics_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -711,8 +711,8 @@
             "path": "https://splunkbase.splunk.com/app/263/release/8.1.1/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -722,33 +722,33 @@
             "signed_available": true,
             "size": 697734043,
             "sourcetypes": [
-              "es_identity_exporter",
-              "clone_udf_dashboard_rest_handler.py",
-              "event_sequencing_engine_log",
               "ess_content_importer",
-              "send2ba_riskdm_modalert",
+              "event_sequencing_engine_log",
               "apps_shc_es_deployer_rest_handler",
-              "enterprise_security_notable",
+              "ess_configured_handler",
               "tim_cmp_key_rotation",
-              "sequence_templates_rest_handler",
-              "app_permissions_rest_handler",
-              "esconfighealth",
               "send2ba_notable_modalert",
+              "security_analytics_identity",
               "tim_rest_handler",
-              "investigation_rest_handler",
-              "behavioral_analytics_rest_handler",
+              "app_permissions_manager",
+              "esconfighealth",
+              "send2ba_riskdm_modalert",
+              "es_ingestion_volume_manager",
+              "enterprise_security_notable",
+              "es_identity_exporter",
+              "sequence_templates_rest_handler",
               "ba_enablement",
               "es_asset_exporter",
-              "federated_analytics_rest_handler",
-              "app_permissions_manager",
               "sequence_instance_rest_handler",
-              "ess_configured_handler",
-              "es_ingestion_volume_manager",
               "enterprise_security_risk_datamodel",
+              "clone_udf_dashboard_rest_handler.py",
+              "app_permissions_rest_handler",
+              "es_investigations_rest_handler",
+              "investigation_rest_handler",
+              "behavioral_analytics_rest_handler",
               "security_analytics_asset",
               "essinstall2",
-              "security_analytics_identity",
-              "es_investigations_rest_handler"
+              "federated_analytics_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -831,8 +831,8 @@
             "path": "https://splunkbase.splunk.com/app/263/release/7.3.4/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -886,8 +886,8 @@
             "path": "https://splunkbase.splunk.com/app/263/release/8.1.0/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -936,8 +936,8 @@
             "path": "https://splunkbase.splunk.com/app/263/release/8.0.40/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -991,8 +991,8 @@
             "path": "https://splunkbase.splunk.com/app/263/release/8.0.31/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -1046,8 +1046,8 @@
             "path": "https://splunkbase.splunk.com/app/263/release/8.0.3/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -1101,8 +1101,8 @@
             "path": "https://splunkbase.splunk.com/app/263/release/7.3.3/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -1161,8 +1161,8 @@
             "path": "https://splunkbase.splunk.com/app/263/release/8.0.2/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -1219,8 +1219,8 @@
             "path": "https://splunkbase.splunk.com/app/263/release/7.3.2/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -1230,30 +1230,30 @@
             "signed_available": false,
             "size": 920287317,
             "sourcetypes": [
-              "es_identity_exporter",
-              "clone_udf_dashboard_rest_handler.py",
-              "event_sequencing_engine_log",
               "ess_content_importer",
-              "send2ba_riskdm_modalert",
+              "event_sequencing_engine_log",
               "apps_shc_es_deployer_rest_handler",
-              "enterprise_security_notable",
-              "sequence_templates_rest_handler",
-              "app_permissions_rest_handler",
-              "esconfighealth",
+              "ess_configured_handler",
               "send2ba_notable_modalert",
-              "investigation_rest_handler",
-              "behavioral_analytics_rest_handler",
+              "security_analytics_identity",
+              "app_permissions_manager",
+              "esconfighealth",
+              "send2ba_riskdm_modalert",
+              "es_ingestion_volume_manager",
+              "enterprise_security_notable",
+              "es_identity_exporter",
+              "sequence_templates_rest_handler",
               "ba_enablement",
               "es_asset_exporter",
-              "app_permissions_manager",
               "sequence_instance_rest_handler",
-              "ess_configured_handler",
-              "es_ingestion_volume_manager",
               "enterprise_security_risk_datamodel",
+              "clone_udf_dashboard_rest_handler.py",
+              "app_permissions_rest_handler",
+              "es_investigations_rest_handler",
+              "investigation_rest_handler",
+              "behavioral_analytics_rest_handler",
               "security_analytics_asset",
-              "essinstall2",
-              "security_analytics_identity",
-              "es_investigations_rest_handler"
+              "essinstall2"
             ],
             "tags": [
               "__no_tag__"
@@ -1336,8 +1336,8 @@
             "path": "https://splunkbase.splunk.com/app/263/release/7.3.1/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -1347,30 +1347,30 @@
             "signed_available": false,
             "size": 920140748,
             "sourcetypes": [
-              "es_identity_exporter",
-              "clone_udf_dashboard_rest_handler.py",
-              "event_sequencing_engine_log",
               "ess_content_importer",
-              "send2ba_riskdm_modalert",
+              "event_sequencing_engine_log",
               "apps_shc_es_deployer_rest_handler",
-              "enterprise_security_notable",
-              "sequence_templates_rest_handler",
-              "app_permissions_rest_handler",
-              "esconfighealth",
+              "ess_configured_handler",
               "send2ba_notable_modalert",
-              "investigation_rest_handler",
-              "behavioral_analytics_rest_handler",
+              "security_analytics_identity",
+              "app_permissions_manager",
+              "esconfighealth",
+              "send2ba_riskdm_modalert",
+              "es_ingestion_volume_manager",
+              "enterprise_security_notable",
+              "es_identity_exporter",
+              "sequence_templates_rest_handler",
               "ba_enablement",
               "es_asset_exporter",
-              "app_permissions_manager",
               "sequence_instance_rest_handler",
-              "ess_configured_handler",
-              "es_ingestion_volume_manager",
               "enterprise_security_risk_datamodel",
+              "clone_udf_dashboard_rest_handler.py",
+              "app_permissions_rest_handler",
+              "es_investigations_rest_handler",
+              "investigation_rest_handler",
+              "behavioral_analytics_rest_handler",
               "security_analytics_asset",
-              "essinstall2",
-              "security_analytics_identity",
-              "es_investigations_rest_handler"
+              "essinstall2"
             ],
             "tags": [
               "__no_tag__"
@@ -1443,8 +1443,8 @@
             "path": "https://splunkbase.splunk.com/app/263/release/7.3.0/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -1454,29 +1454,29 @@
             "signed_available": false,
             "size": 921470742,
             "sourcetypes": [
-              "es_identity_exporter",
-              "event_sequencing_engine_log",
               "ess_content_importer",
-              "send2ba_riskdm_modalert",
+              "event_sequencing_engine_log",
               "apps_shc_es_deployer_rest_handler",
-              "enterprise_security_notable",
-              "sequence_templates_rest_handler",
-              "app_permissions_rest_handler",
-              "esconfighealth",
+              "ess_configured_handler",
               "send2ba_notable_modalert",
-              "investigation_rest_handler",
-              "behavioral_analytics_rest_handler",
+              "security_analytics_identity",
+              "app_permissions_manager",
+              "esconfighealth",
+              "send2ba_riskdm_modalert",
+              "es_ingestion_volume_manager",
+              "enterprise_security_notable",
+              "es_identity_exporter",
+              "sequence_templates_rest_handler",
               "ba_enablement",
               "es_asset_exporter",
-              "app_permissions_manager",
               "sequence_instance_rest_handler",
-              "ess_configured_handler",
-              "es_ingestion_volume_manager",
               "enterprise_security_risk_datamodel",
+              "app_permissions_rest_handler",
+              "es_investigations_rest_handler",
+              "investigation_rest_handler",
+              "behavioral_analytics_rest_handler",
               "security_analytics_asset",
-              "essinstall2",
-              "security_analytics_identity",
-              "es_investigations_rest_handler"
+              "essinstall2"
             ],
             "tags": [
               "__no_tag__"
@@ -1553,8 +1553,8 @@
             "path": "https://splunkbase.splunk.com/app/263/release/7.1.2/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -1564,29 +1564,29 @@
             "signed_available": false,
             "size": 958918852,
             "sourcetypes": [
-              "es_identity_exporter",
-              "event_sequencing_engine_log",
               "ess_content_importer",
-              "send2ba_riskdm_modalert",
+              "event_sequencing_engine_log",
               "apps_shc_es_deployer_rest_handler",
-              "enterprise_security_notable",
-              "sequence_templates_rest_handler",
-              "app_permissions_rest_handler",
-              "esconfighealth",
+              "ess_configured_handler",
               "send2ba_notable_modalert",
-              "investigation_rest_handler",
-              "behavioral_analytics_rest_handler",
+              "security_analytics_identity",
+              "app_permissions_manager",
+              "esconfighealth",
+              "send2ba_riskdm_modalert",
+              "es_ingestion_volume_manager",
+              "enterprise_security_notable",
+              "es_identity_exporter",
+              "sequence_templates_rest_handler",
               "ba_enablement",
               "es_asset_exporter",
-              "app_permissions_manager",
               "sequence_instance_rest_handler",
-              "ess_configured_handler",
-              "es_ingestion_volume_manager",
               "enterprise_security_risk_datamodel",
+              "app_permissions_rest_handler",
+              "es_investigations_rest_handler",
+              "investigation_rest_handler",
+              "behavioral_analytics_rest_handler",
               "security_analytics_asset",
-              "essinstall2",
-              "security_analytics_identity",
-              "es_investigations_rest_handler"
+              "essinstall2"
             ],
             "tags": [
               "__no_tag__"
@@ -1663,8 +1663,8 @@
             "path": "https://splunkbase.splunk.com/app/263/release/7.2.0/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -1674,29 +1674,29 @@
             "signed_available": false,
             "size": 957162226,
             "sourcetypes": [
-              "es_identity_exporter",
-              "event_sequencing_engine_log",
               "ess_content_importer",
-              "send2ba_riskdm_modalert",
+              "event_sequencing_engine_log",
               "apps_shc_es_deployer_rest_handler",
-              "enterprise_security_notable",
-              "sequence_templates_rest_handler",
-              "app_permissions_rest_handler",
-              "esconfighealth",
+              "ess_configured_handler",
               "send2ba_notable_modalert",
-              "investigation_rest_handler",
-              "behavioral_analytics_rest_handler",
+              "security_analytics_identity",
+              "app_permissions_manager",
+              "esconfighealth",
+              "send2ba_riskdm_modalert",
+              "es_ingestion_volume_manager",
+              "enterprise_security_notable",
+              "es_identity_exporter",
+              "sequence_templates_rest_handler",
               "ba_enablement",
               "es_asset_exporter",
-              "app_permissions_manager",
               "sequence_instance_rest_handler",
-              "ess_configured_handler",
-              "es_ingestion_volume_manager",
               "enterprise_security_risk_datamodel",
+              "app_permissions_rest_handler",
+              "es_investigations_rest_handler",
+              "investigation_rest_handler",
+              "behavioral_analytics_rest_handler",
               "security_analytics_asset",
-              "essinstall2",
-              "security_analytics_identity",
-              "es_investigations_rest_handler"
+              "essinstall2"
             ],
             "tags": [
               "__no_tag__"
@@ -1768,8 +1768,8 @@
             "path": "https://splunkbase.splunk.com/app/263/release/7.1.1/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -1779,29 +1779,29 @@
             "signed_available": false,
             "size": 958737227,
             "sourcetypes": [
-              "es_identity_exporter",
-              "event_sequencing_engine_log",
               "ess_content_importer",
-              "send2ba_riskdm_modalert",
+              "event_sequencing_engine_log",
               "apps_shc_es_deployer_rest_handler",
-              "enterprise_security_notable",
-              "sequence_templates_rest_handler",
-              "app_permissions_rest_handler",
-              "esconfighealth",
+              "ess_configured_handler",
               "send2ba_notable_modalert",
-              "investigation_rest_handler",
-              "behavioral_analytics_rest_handler",
+              "security_analytics_identity",
+              "app_permissions_manager",
+              "esconfighealth",
+              "send2ba_riskdm_modalert",
+              "es_ingestion_volume_manager",
+              "enterprise_security_notable",
+              "es_identity_exporter",
+              "sequence_templates_rest_handler",
               "ba_enablement",
               "es_asset_exporter",
-              "app_permissions_manager",
               "sequence_instance_rest_handler",
-              "ess_configured_handler",
-              "es_ingestion_volume_manager",
               "enterprise_security_risk_datamodel",
+              "app_permissions_rest_handler",
+              "es_investigations_rest_handler",
+              "investigation_rest_handler",
+              "behavioral_analytics_rest_handler",
               "security_analytics_asset",
-              "essinstall2",
-              "security_analytics_identity",
-              "es_investigations_rest_handler"
+              "essinstall2"
             ],
             "tags": [
               "__no_tag__"
@@ -1883,8 +1883,8 @@
             "path": "https://splunkbase.splunk.com/app/263/release/7.1.0/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -1894,29 +1894,29 @@
             "signed_available": false,
             "size": 900137505,
             "sourcetypes": [
-              "es_identity_exporter",
-              "enterprise_security_identity_exporter",
-              "event_sequencing_engine_log",
               "ess_content_importer",
-              "send2ba_riskdm_modalert",
+              "event_sequencing_engine_log",
               "apps_shc_es_deployer_rest_handler",
-              "enterprise_security_notable",
-              "sequence_templates_rest_handler",
-              "app_permissions_rest_handler",
-              "esconfighealth",
+              "ess_configured_handler",
               "send2ba_notable_modalert",
-              "investigation_rest_handler",
-              "behavioral_analytics_rest_handler",
+              "app_permissions_manager",
+              "esconfighealth",
+              "send2ba_riskdm_modalert",
+              "enterprise_security_identity_exporter",
+              "es_ingestion_volume_manager",
+              "enterprise_security_notable",
+              "es_identity_exporter",
+              "sequence_templates_rest_handler",
               "ba_enablement",
               "es_asset_exporter",
-              "app_permissions_manager",
               "sequence_instance_rest_handler",
-              "ess_configured_handler",
-              "es_ingestion_volume_manager",
-              "enterprise_security_risk_datamodel",
-              "enterprise_security_asset_exporter",
               "essinstall2",
-              "es_investigations_rest_handler"
+              "enterprise_security_risk_datamodel",
+              "app_permissions_rest_handler",
+              "es_investigations_rest_handler",
+              "investigation_rest_handler",
+              "behavioral_analytics_rest_handler",
+              "enterprise_security_asset_exporter"
             ],
             "tags": [
               "__no_tag__"
@@ -2002,8 +2002,8 @@
             "path": "https://splunkbase.splunk.com/app/263/release/7.0.2/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -2013,18 +2013,18 @@
             "signed_available": false,
             "size": 892447521,
             "sourcetypes": [
-              "sequence_instance_rest_handler",
+              "ess_content_importer",
+              "esconfighealth",
+              "event_sequencing_engine_log",
+              "sequence_templates_rest_handler",
               "ess_configured_handler",
+              "apps_shc_es_deployer_rest_handler",
+              "app_permissions_rest_handler",
               "es_investigations_rest_handler",
               "investigation_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
-              "event_sequencing_engine_log",
+              "sequence_instance_rest_handler",
               "essinstall2",
-              "ess_content_importer",
-              "app_permissions_manager",
-              "sequence_templates_rest_handler",
-              "app_permissions_rest_handler",
-              "esconfighealth"
+              "app_permissions_manager"
             ],
             "tags": [
               "__no_tag__"
@@ -2161,18 +2161,18 @@
             "signed_available": false,
             "size": 846238949,
             "sourcetypes": [
-              "sequence_instance_rest_handler",
+              "ess_content_importer",
+              "esconfighealth",
+              "event_sequencing_engine_log",
+              "sequence_templates_rest_handler",
               "ess_configured_handler",
+              "apps_shc_es_deployer_rest_handler",
+              "app_permissions_rest_handler",
               "es_investigations_rest_handler",
               "investigation_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
-              "event_sequencing_engine_log",
+              "sequence_instance_rest_handler",
               "essinstall2",
-              "ess_content_importer",
-              "app_permissions_manager",
-              "sequence_templates_rest_handler",
-              "app_permissions_rest_handler",
-              "esconfighealth"
+              "app_permissions_manager"
             ],
             "tags": [
               "__no_tag__"
@@ -2245,18 +2245,18 @@
             "signed_available": true,
             "size": 675765589,
             "sourcetypes": [
-              "sequence_instance_rest_handler",
+              "ess_content_importer",
+              "esconfighealth",
+              "event_sequencing_engine_log",
+              "sequence_templates_rest_handler",
               "ess_configured_handler",
+              "apps_shc_es_deployer_rest_handler",
+              "app_permissions_rest_handler",
               "es_investigations_rest_handler",
               "investigation_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
-              "event_sequencing_engine_log",
+              "sequence_instance_rest_handler",
               "essinstall2",
-              "ess_content_importer",
-              "app_permissions_manager",
-              "sequence_templates_rest_handler",
-              "app_permissions_rest_handler",
-              "esconfighealth"
+              "app_permissions_manager"
             ],
             "tags": [
               "__no_tag__"
@@ -2485,18 +2485,18 @@
             "signed_available": true,
             "size": 671340341,
             "sourcetypes": [
-              "sequence_instance_rest_handler",
+              "ess_content_importer",
+              "esconfighealth",
+              "event_sequencing_engine_log",
+              "sequence_templates_rest_handler",
               "ess_configured_handler",
+              "apps_shc_es_deployer_rest_handler",
+              "app_permissions_rest_handler",
               "es_investigations_rest_handler",
               "investigation_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
-              "event_sequencing_engine_log",
+              "sequence_instance_rest_handler",
               "essinstall2",
-              "ess_content_importer",
-              "app_permissions_manager",
-              "sequence_templates_rest_handler",
-              "app_permissions_rest_handler",
-              "esconfighealth"
+              "app_permissions_manager"
             ],
             "tags": [
               "__no_tag__"
@@ -2564,18 +2564,18 @@
             "signed_available": false,
             "size": 674651205,
             "sourcetypes": [
-              "sequence_instance_rest_handler",
+              "ess_content_importer",
+              "esconfighealth",
+              "event_sequencing_engine_log",
+              "sequence_templates_rest_handler",
               "ess_configured_handler",
+              "apps_shc_es_deployer_rest_handler",
+              "app_permissions_rest_handler",
               "es_investigations_rest_handler",
               "investigation_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
-              "event_sequencing_engine_log",
+              "sequence_instance_rest_handler",
               "essinstall2",
-              "ess_content_importer",
-              "app_permissions_manager",
-              "sequence_templates_rest_handler",
-              "app_permissions_rest_handler",
-              "esconfighealth"
+              "app_permissions_manager"
             ],
             "tags": [
               "__no_tag__"
@@ -2638,19 +2638,19 @@
             "signed_available": true,
             "size": 529855817,
             "sourcetypes": [
-              "es_installer_controller",
-              "sequence_instance_rest_handler",
+              "ess_content_importer",
+              "esconfighealth",
+              "event_sequencing_engine_log",
+              "sequence_templates_rest_handler",
               "ess_configured_handler",
+              "es_installer_controller",
+              "apps_shc_es_deployer_rest_handler",
+              "app_permissions_rest_handler",
               "es_investigations_rest_handler",
               "investigation_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
-              "event_sequencing_engine_log",
+              "sequence_instance_rest_handler",
               "essinstall2",
-              "ess_content_importer",
-              "app_permissions_manager",
-              "sequence_templates_rest_handler",
-              "app_permissions_rest_handler",
-              "esconfighealth"
+              "app_permissions_manager"
             ],
             "tags": [
               "__no_tag__"
@@ -2768,20 +2768,20 @@
             "signed_available": true,
             "size": 46151668,
             "sourcetypes": [
-              "es_installer_controller",
-              "sequence_instance_rest_handler",
+              "ess_content_importer",
+              "esconfighealth",
+              "event_sequencing_engine_log",
+              "sequence_templates_rest_handler",
               "ess_configured_handler",
+              "es_installer_controller",
+              "apps_shc_es_deployer_rest_handler",
               "es_investigations_rest_handler",
               "investigation_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
-              "event_sequencing_engine_log",
-              "essinstall2",
-              "ess_content_importer",
-              "app_permissions_controller",
-              "app_permissions_manager",
-              "sequence_templates_rest_handler",
               "es_deployment_manager",
-              "esconfighealth"
+              "sequence_instance_rest_handler",
+              "essinstall2",
+              "app_permissions_manager",
+              "app_permissions_controller"
             ],
             "tags": [
               "__no_tag__"
@@ -2856,20 +2856,20 @@
             "signed_available": true,
             "size": 48047823,
             "sourcetypes": [
-              "es_installer_controller",
-              "sequence_instance_rest_handler",
+              "ess_content_importer",
+              "esconfighealth",
+              "event_sequencing_engine_log",
+              "sequence_templates_rest_handler",
               "ess_configured_handler",
+              "es_installer_controller",
+              "apps_shc_es_deployer_rest_handler",
               "es_investigations_rest_handler",
               "investigation_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
-              "event_sequencing_engine_log",
-              "essinstall2",
-              "ess_content_importer",
-              "app_permissions_controller",
-              "app_permissions_manager",
-              "sequence_templates_rest_handler",
               "es_deployment_manager",
-              "esconfighealth"
+              "sequence_instance_rest_handler",
+              "essinstall2",
+              "app_permissions_manager",
+              "app_permissions_controller"
             ],
             "tags": [
               "__no_tag__"
@@ -2944,21 +2944,21 @@
             "signed_available": true,
             "size": 47375531,
             "sourcetypes": [
-              "es_installer_controller",
-              "sequence_instance_rest_handler",
-              "file_storage_ess",
+              "investigative_canvas_controller",
+              "ess_content_importer",
+              "esconfighealth",
+              "event_sequencing_engine_log",
+              "sequence_templates_rest_handler",
               "ess_configured_handler",
+              "es_installer_controller",
+              "file_storage_ess",
               "es_investigations_rest_handler",
               "investigation_rest_handler",
               "es_deployment_manager",
-              "event_sequencing_engine_log",
+              "sequence_instance_rest_handler",
               "essinstall2",
-              "ess_content_importer",
-              "app_permissions_controller",
               "app_permissions_manager",
-              "sequence_templates_rest_handler",
-              "investigative_canvas_controller",
-              "esconfighealth"
+              "app_permissions_controller"
             ],
             "tags": [
               "__no_tag__"
@@ -3029,18 +3029,18 @@
             "signed_available": true,
             "size": 47040455,
             "sourcetypes": [
+              "investigative_canvas_controller",
+              "ess_content_importer",
+              "esconfighealth",
               "es_installer_controller",
-              "file_storage_ess",
               "ess_configured_handler",
+              "file_storage_ess",
               "es_investigations_rest_handler",
               "investigation_rest_handler",
               "es_deployment_manager",
               "essinstall2",
-              "ess_content_importer",
               "app_permissions_manager",
-              "app_permissions_controller",
-              "investigative_canvas_controller",
-              "esconfighealth"
+              "app_permissions_controller"
             ],
             "tags": [
               "__no_tag__"
@@ -3108,18 +3108,18 @@
             "signed_available": true,
             "size": 44958999,
             "sourcetypes": [
+              "investigative_canvas_controller",
+              "ess_content_importer",
+              "esconfighealth",
               "es_installer_controller",
-              "file_storage_ess",
               "ess_configured_handler",
+              "file_storage_ess",
               "es_investigations_rest_handler",
               "investigation_rest_handler",
               "es_deployment_manager",
               "essinstall2",
-              "ess_content_importer",
               "app_permissions_manager",
-              "app_permissions_controller",
-              "investigative_canvas_controller",
-              "esconfighealth"
+              "app_permissions_controller"
             ],
             "tags": [
               "__no_tag__"
@@ -3182,16 +3182,16 @@
             "signed_available": true,
             "size": 43971818,
             "sourcetypes": [
+              "investigative_canvas_controller",
+              "ess_content_importer",
+              "esconfighealth",
               "es_installer_controller",
-              "file_storage_ess",
               "ess_configured_handler",
+              "file_storage_ess",
               "es_deployment_manager",
               "essinstall2",
-              "ess_content_importer",
               "app_permissions_manager",
-              "app_permissions_controller",
-              "investigative_canvas_controller",
-              "esconfighealth"
+              "app_permissions_controller"
             ],
             "tags": [
               "__no_tag__"
@@ -3248,16 +3248,16 @@
             "signed_available": true,
             "size": 36717390,
             "sourcetypes": [
-              "es_installer_controller",
-              "file_storage_ess",
-              "essinstall",
-              "ess_configured_handler",
-              "es_deployment_manager",
-              "essinstall2",
+              "investigative_canvas_controller",
               "ess_content_importer",
-              "app_permissions_manager",
+              "es_installer_controller",
+              "ess_configured_handler",
+              "file_storage_ess",
+              "es_deployment_manager",
               "app_permissions_controller",
-              "investigative_canvas_controller"
+              "essinstall2",
+              "app_permissions_manager",
+              "essinstall"
             ],
             "tags": [
               "__no_tag__"

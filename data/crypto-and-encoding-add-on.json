@@ -194,8 +194,8 @@
             "path": "https://splunkbase.splunk.com/app/5062/release/2.4.3/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -464,7 +464,9 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/5062/release/2.1/download/",
             "platform": "independent",
-            "product_types": [],
+            "product_types": [
+              "enterprise"
+            ],
             "public": null,
             "public_ever_true": false,
             "published_datetime": "2021-01-03T14:33:41.700698Z",

@@ -114,26 +114,26 @@
           "signed_available": true,
           "size": 6588367,
           "sourcetypes": [
-            "thehive:observables:createdAt",
-            "thehive:cases:startDate",
-            "thehive:observables:updatedAt",
-            "thehive:audit",
-            "thehive:cases:updatedAt",
             "thehive:tasks:updatedAt",
-            "thehive:cases:tasks:updatedAt",
-            "thehive:alerts:createdAt",
-            "thehive:cases:tasks:createdAt",
-            "thehive:*",
-            "thehive:timeline",
-            "thehive:tasks:createdAt",
-            "tathehivecortex:log",
-            "thehive:alerts:occuredDate",
+            "thehive:cases:createdAt",
             "thehive:alerts:updatedAt",
-            "thehive:tasks",
             "thehive:tasks:startDate",
+            "thehive:observables:updatedAt",
+            "tathehivecortex:log",
+            "thehive:*",
+            "thehive:tasks:createdAt",
             "thehive:status",
+            "thehive:alerts:occuredDate",
+            "thehive:cases:startDate",
             "thehive:cases:tasks:startDate",
-            "thehive:cases:createdAt"
+            "thehive:cases:tasks:createdAt",
+            "thehive:alerts:createdAt",
+            "thehive:observables:createdAt",
+            "thehive:timeline",
+            "thehive:tasks",
+            "thehive:cases:updatedAt",
+            "thehive:audit",
+            "thehive:cases:tasks:updatedAt"
           ],
           "tags": [
             "__no_tag__"
@@ -242,8 +242,8 @@
             "path": "https://splunkbase.splunk.com/app/5329/release/4.1.0/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -253,26 +253,26 @@
             "signed_available": true,
             "size": 6588367,
             "sourcetypes": [
-              "thehive:observables:createdAt",
-              "thehive:cases:startDate",
-              "thehive:observables:updatedAt",
-              "thehive:audit",
-              "thehive:cases:updatedAt",
               "thehive:tasks:updatedAt",
-              "thehive:cases:tasks:updatedAt",
-              "thehive:alerts:createdAt",
-              "thehive:cases:tasks:createdAt",
-              "thehive:*",
-              "thehive:timeline",
-              "thehive:tasks:createdAt",
-              "tathehivecortex:log",
-              "thehive:alerts:occuredDate",
+              "thehive:cases:createdAt",
               "thehive:alerts:updatedAt",
-              "thehive:tasks",
               "thehive:tasks:startDate",
+              "thehive:observables:updatedAt",
+              "tathehivecortex:log",
+              "thehive:*",
+              "thehive:tasks:createdAt",
               "thehive:status",
+              "thehive:alerts:occuredDate",
+              "thehive:cases:startDate",
               "thehive:cases:tasks:startDate",
-              "thehive:cases:createdAt"
+              "thehive:cases:tasks:createdAt",
+              "thehive:alerts:createdAt",
+              "thehive:observables:createdAt",
+              "thehive:timeline",
+              "thehive:tasks",
+              "thehive:cases:updatedAt",
+              "thehive:audit",
+              "thehive:cases:tasks:updatedAt"
             ],
             "tags": [
               "__no_tag__"
@@ -380,8 +380,8 @@
             "path": "https://splunkbase.splunk.com/app/5329/release/4.0.0/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -391,20 +391,20 @@
             "signed_available": true,
             "size": 6563283,
             "sourcetypes": [
+              "thehive:tasks:updatedAt",
+              "thehive:cases:createdAt",
               "thehive:alerts:updatedAt",
               "thehive:alerts:createdAt",
-              "thehive:*",
-              "thehive:cases:createdAt",
-              "thehive:observables:createdAt",
-              "thehive:cases:updatedAt",
+              "thehive:tasks:createdAt",
               "thehive:tasks:startDate",
-              "thehive:cases:startDate",
-              "thehive:tasks:updatedAt",
               "thehive:observables:updatedAt",
-              "tathehivecortex:log",
+              "thehive:cases:updatedAt",
               "thehive:alerts:occuredDate",
+              "thehive:cases:startDate",
               "thehive:audit",
-              "thehive:tasks:createdAt"
+              "tathehivecortex:log",
+              "thehive:observables:createdAt",
+              "thehive:*"
             ],
             "tags": [
               "__no_tag__"
@@ -508,8 +508,8 @@
             "path": "https://splunkbase.splunk.com/app/5329/release/3.9.0/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -519,15 +519,15 @@
             "signed_available": true,
             "size": 3436199,
             "sourcetypes": [
-              "thehive:last_updated:cases",
-              "thehive:*",
-              "thehive:last_created:observables",
-              "thehive:last_created:cases",
-              "thehive:last_created:alerts",
-              "thehive:last_updated:observables",
-              "tathehivecortex:log",
               "thehive:last_created:audit",
-              "thehive:last_updated:alerts"
+              "thehive:last_updated:alerts",
+              "thehive:last_updated:observables",
+              "thehive:last_created:alerts",
+              "thehive:last_updated:cases",
+              "thehive:last_created:cases",
+              "thehive:last_created:observables",
+              "tathehivecortex:log",
+              "thehive:*"
             ],
             "tags": [
               "__no_tag__"
@@ -639,8 +639,8 @@
             "size": 6448428,
             "sourcetypes": [
               "cortex:supervisor",
-              "tathehivecortex:log",
               "thehive:supervisor",
+              "tathehivecortex:log",
               "thehive:logs"
             ],
             "tags": [

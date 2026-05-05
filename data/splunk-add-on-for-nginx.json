@@ -31,7 +31,7 @@
         "description": "The Splunk Add-on for NGINX allows a Splunk software administrator to collect Web server activities, performance metrics, and error logs using file monitoring and API inputs.\n\nThis add-on provides the inputs and CIM-compatible knowledge to use with other Splunk apps, such as Splunk Enterprise Security, the Splunk App for PCI Compliance, and Splunk IT Service Intelligence.",
         "documentation": "<p>Documentation for this Add-on is posted at <a href=\"http://docs.splunk.com/Documentation/AddOns/latest/nginx/About\" title=\"Splunk Docs\">Splunk Docs</a>.</p>",
         "documentation_source": "Documentation for this Add-on is posted at [Splunk Docs](http://docs.splunk.com/Documentation/AddOns/latest/nginx/About \"Splunk Docs\").",
-        "download_count": 89589,
+        "download_count": 89629,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/43731336-6aa4-11ef-ab3b-faca7e54e553.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -110,18 +110,18 @@
           "size": 868236,
           "sourcetypes": [
             "nginx:plus:kv",
-            "nginx:plus:error",
-            "nginx:app:protect",
+            "nginx:plus:access",
             "nginx:plus:api",
-            "nginx:plus:access"
+            "nginx:plus:error",
+            "nginx:app:protect"
           ],
           "tags": [
-            "error",
             "attack",
+            "__no_tag__",
+            "error",
+            "ids",
             "inventory",
             "web",
-            "__no_tag__",
-            "ids",
             "activity"
           ],
           "tags_sourcetypes": {
@@ -225,8 +225,8 @@
             "path": "https://splunkbase.splunk.com/app/3258/release/3.3.0/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -237,18 +237,18 @@
             "size": 868236,
             "sourcetypes": [
               "nginx:plus:kv",
-              "nginx:plus:error",
-              "nginx:app:protect",
+              "nginx:plus:access",
               "nginx:plus:api",
-              "nginx:plus:access"
+              "nginx:plus:error",
+              "nginx:app:protect"
             ],
             "tags": [
-              "error",
               "attack",
+              "__no_tag__",
+              "error",
+              "ids",
               "inventory",
               "web",
-              "__no_tag__",
-              "ids",
               "activity"
             ],
             "tags_sourcetypes": {
@@ -350,7 +350,9 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/3258/release/3.0.0/download/",
             "platform": "independent",
-            "product_types": [],
+            "product_types": [
+              "enterprise"
+            ],
             "public": null,
             "public_ever_true": false,
             "published_datetime": "2020-10-16T20:54:48.331641Z",
@@ -360,18 +362,18 @@
             "size": 723828,
             "sourcetypes": [
               "nginx:plus:kv",
-              "nginx:plus:error",
-              "nginx:app:protect",
+              "nginx:plus:access",
               "nginx:plus:api",
-              "nginx:plus:access"
+              "nginx:plus:error",
+              "nginx:app:protect"
             ],
             "tags": [
-              "error",
               "attack",
+              "__no_tag__",
+              "error",
+              "ids",
               "inventory",
               "web",
-              "__no_tag__",
-              "ids",
               "activity"
             ],
             "tags_sourcetypes": {

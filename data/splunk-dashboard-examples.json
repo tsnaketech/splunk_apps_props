@@ -290,7 +290,9 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/1603/release/8.1.0/download/",
             "platform": "independent",
-            "product_types": [],
+            "product_types": [
+              "enterprise"
+            ],
             "public": null,
             "public_ever_true": false,
             "published_datetime": "2020-08-14T17:20:08.663433Z",
@@ -360,7 +362,9 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/1603/release/8.0.0/download/",
             "platform": "independent",
-            "product_types": [],
+            "product_types": [
+              "enterprise"
+            ],
             "public": null,
             "public_ever_true": false,
             "published_datetime": "2019-10-30T19:02:49.246453Z",

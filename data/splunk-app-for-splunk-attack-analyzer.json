@@ -165,8 +165,8 @@
             "path": "https://splunkbase.splunk.com/app/7000/release/1.2.1/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -246,8 +246,8 @@
             "path": "https://splunkbase.splunk.com/app/7000/release/1.2.0/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -307,8 +307,8 @@
             "path": "https://splunkbase.splunk.com/app/7000/release/1.1.1/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -368,8 +368,8 @@
             "path": "https://splunkbase.splunk.com/app/7000/release/1.1.0/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -429,8 +429,8 @@
             "path": "https://splunkbase.splunk.com/app/7000/release/1.0.0/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,

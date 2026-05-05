@@ -156,8 +156,8 @@
             "path": "https://splunkbase.splunk.com/app/4418/release/3.1.0/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -227,8 +227,8 @@
             "path": "https://splunkbase.splunk.com/app/4418/release/3.0.2/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -303,8 +303,8 @@
             "path": "https://splunkbase.splunk.com/app/4418/release/3.0.1/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -369,8 +369,8 @@
             "path": "https://splunkbase.splunk.com/app/4418/release/3.0.0/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -714,7 +714,9 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/4418/release/2.4.1/download/",
             "platform": "independent",
-            "product_types": [],
+            "product_types": [
+              "enterprise"
+            ],
             "public": null,
             "public_ever_true": false,
             "published_datetime": "2021-11-11T18:41:45.629345Z",
@@ -797,7 +799,9 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/4418/release/2.4.0/download/",
             "platform": "independent",
-            "product_types": [],
+            "product_types": [
+              "enterprise"
+            ],
             "public": null,
             "public_ever_true": false,
             "published_datetime": "2021-09-15T17:43:39.677765Z",
@@ -880,7 +884,9 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/4418/release/2.3.0/download/",
             "platform": "independent",
-            "product_types": [],
+            "product_types": [
+              "enterprise"
+            ],
             "public": null,
             "public_ever_true": false,
             "published_datetime": "2021-08-27T03:44:44.002617Z",
@@ -963,7 +969,9 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/4418/release/2.2.0/download/",
             "platform": "independent",
-            "product_types": [],
+            "product_types": [
+              "enterprise"
+            ],
             "public": null,
             "public_ever_true": false,
             "published_datetime": "2020-11-10T18:56:22.281980Z",
@@ -1046,7 +1054,9 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/4418/release/2.1.0/download/",
             "platform": "independent",
-            "product_types": [],
+            "product_types": [
+              "enterprise"
+            ],
             "public": null,
             "public_ever_true": false,
             "published_datetime": "2020-07-21T23:10:00.541940Z",
@@ -1129,7 +1139,9 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/4418/release/2.0.0/download/",
             "platform": "independent",
-            "product_types": [],
+            "product_types": [
+              "enterprise"
+            ],
             "public": null,
             "public_ever_true": false,
             "published_datetime": "2020-02-20T18:20:18.208981Z",
@@ -1212,7 +1224,9 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/4418/release/1.3.0/download/",
             "platform": "independent",
-            "product_types": [],
+            "product_types": [
+              "enterprise"
+            ],
             "public": null,
             "public_ever_true": false,
             "published_datetime": "2020-01-15T22:23:17.629875Z",
@@ -1265,7 +1279,9 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/4418/release/1.2.0/download/",
             "platform": "independent",
-            "product_types": [],
+            "product_types": [
+              "enterprise"
+            ],
             "public": null,
             "public_ever_true": false,
             "published_datetime": "2019-12-06T19:03:29.833516Z",
@@ -1322,7 +1338,9 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/4418/release/1.1.0/download/",
             "platform": "independent",
-            "product_types": [],
+            "product_types": [
+              "enterprise"
+            ],
             "public": null,
             "public_ever_true": false,
             "published_datetime": "2019-06-19T18:25:13.368423Z",
@@ -1370,7 +1388,9 @@
             "passed_validation": true,
             "path": "https://splunkbase.splunk.com/app/4418/release/1.0.0/download/",
             "platform": "independent",
-            "product_types": [],
+            "product_types": [
+              "enterprise"
+            ],
             "public": null,
             "public_ever_true": false,
             "published_datetime": "2019-03-05T19:07:05.057491Z",

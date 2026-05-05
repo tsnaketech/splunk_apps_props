@@ -207,8 +207,8 @@
             "path": "https://splunkbase.splunk.com/app/7066/release/1.3.0/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -309,8 +309,8 @@
             "path": "https://splunkbase.splunk.com/app/7066/release/1.2.0/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -375,8 +375,8 @@
             "path": "https://splunkbase.splunk.com/app/7066/release/1.1.0/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -447,8 +447,8 @@
             "path": "https://splunkbase.splunk.com/app/7066/release/1.0.9/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -519,8 +519,8 @@
             "path": "https://splunkbase.splunk.com/app/7066/release/1.0.7/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
@@ -591,8 +591,8 @@
             "path": "https://splunkbase.splunk.com/app/7066/release/1.0.6/download/",
             "platform": "independent",
             "product_types": [
-              "cloud",
-              "enterprise"
+              "enterprise",
+              "cloud"
             ],
             "public": null,
             "public_ever_true": false,
