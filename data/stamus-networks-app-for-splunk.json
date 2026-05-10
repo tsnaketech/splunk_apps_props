@@ -109,29 +109,29 @@
           "signed_available": true,
           "size": 181971,
           "sourcetypes": [
+            "suricata:http",
+            "suricata:tls",
             "suricata:netflow",
-            "suricata:dhcp",
             "suricata:stamus",
             "suricata:dns",
+            "suricata:alert",
             "suricata:flow",
-            "suricata:tls",
-            "suricata:http",
-            "suricata",
-            "suricata:alert"
+            "suricata:dhcp",
+            "suricata"
           ],
           "tags": [
-            "certificate",
-            "__no_tag__",
-            "ids",
-            "dns",
-            "dhcp",
             "network",
+            "ids",
+            "dhcp",
             "web",
-            "resolution",
+            "dns",
             "session",
-            "tls",
+            "__no_tag__",
+            "certificate",
+            "resolution",
             "communicate",
-            "attack"
+            "attack",
+            "tls"
           ],
           "tags_sourcetypes": {
             "__no_tag__": [
@@ -267,29 +267,29 @@
             "signed_available": true,
             "size": 181971,
             "sourcetypes": [
+              "suricata:http",
+              "suricata:tls",
               "suricata:netflow",
-              "suricata:dhcp",
               "suricata:stamus",
               "suricata:dns",
+              "suricata:alert",
               "suricata:flow",
-              "suricata:tls",
-              "suricata:http",
-              "suricata",
-              "suricata:alert"
+              "suricata:dhcp",
+              "suricata"
             ],
             "tags": [
-              "certificate",
-              "__no_tag__",
-              "ids",
-              "dns",
-              "dhcp",
               "network",
+              "ids",
+              "dhcp",
               "web",
-              "resolution",
+              "dns",
               "session",
-              "tls",
+              "__no_tag__",
+              "certificate",
+              "resolution",
               "communicate",
-              "attack"
+              "attack",
+              "tls"
             ],
             "tags_sourcetypes": {
               "__no_tag__": [
@@ -423,29 +423,29 @@
             "signed_available": true,
             "size": 181942,
             "sourcetypes": [
+              "suricata:http",
+              "suricata:tls",
               "suricata:netflow",
-              "suricata:dhcp",
               "suricata:stamus",
               "suricata:dns",
+              "suricata:alert",
               "suricata:flow",
-              "suricata:tls",
-              "suricata:http",
-              "suricata",
-              "suricata:alert"
+              "suricata:dhcp",
+              "suricata"
             ],
             "tags": [
-              "certificate",
-              "__no_tag__",
-              "ids",
-              "dns",
-              "dhcp",
               "network",
+              "ids",
+              "dhcp",
               "web",
-              "resolution",
+              "dns",
               "session",
-              "tls",
+              "__no_tag__",
+              "certificate",
+              "resolution",
               "communicate",
-              "attack"
+              "attack",
+              "tls"
             ],
             "tags_sourcetypes": {
               "__no_tag__": [
@@ -561,29 +561,29 @@
             "signed_available": true,
             "size": 181203,
             "sourcetypes": [
+              "suricata:http",
+              "suricata:tls",
               "suricata:netflow",
-              "suricata:dhcp",
               "suricata:stamus",
               "suricata:dns",
+              "suricata:alert",
               "suricata:flow",
-              "suricata:tls",
-              "suricata:http",
-              "suricata",
-              "suricata:alert"
+              "suricata:dhcp",
+              "suricata"
             ],
             "tags": [
-              "certificate",
-              "__no_tag__",
-              "ids",
-              "dns",
-              "dhcp",
               "network",
+              "ids",
+              "dhcp",
               "web",
-              "resolution",
+              "dns",
               "session",
-              "tls",
+              "__no_tag__",
+              "certificate",
+              "resolution",
               "communicate",
-              "attack"
+              "attack",
+              "tls"
             ],
             "tags_sourcetypes": {
               "__no_tag__": [
@@ -707,29 +707,29 @@
             "signed_available": true,
             "size": 182847,
             "sourcetypes": [
+              "suricata:http",
+              "suricata:tls",
               "suricata:netflow",
-              "suricata:dhcp",
               "suricata:stamus",
               "suricata:dns",
+              "suricata:alert",
               "suricata:flow",
-              "suricata:tls",
-              "suricata:http",
-              "suricata",
-              "suricata:alert"
+              "suricata:dhcp",
+              "suricata"
             ],
             "tags": [
-              "certificate",
-              "__no_tag__",
-              "ids",
-              "dns",
-              "dhcp",
               "network",
+              "ids",
+              "dhcp",
               "web",
-              "resolution",
+              "dns",
               "session",
-              "tls",
+              "__no_tag__",
+              "certificate",
+              "resolution",
               "communicate",
-              "attack"
+              "attack",
+              "tls"
             ],
             "tags_sourcetypes": {
               "__no_tag__": [
@@ -861,29 +861,29 @@
             "signed_available": true,
             "size": 182789,
             "sourcetypes": [
+              "suricata:http",
+              "suricata:tls",
               "suricata:netflow",
-              "suricata:dhcp",
               "suricata:stamus",
               "suricata:dns",
+              "suricata:alert",
               "suricata:flow",
-              "suricata:tls",
-              "suricata:http",
-              "suricata",
-              "suricata:alert"
+              "suricata:dhcp",
+              "suricata"
             ],
             "tags": [
-              "certificate",
-              "__no_tag__",
-              "ids",
-              "dns",
-              "dhcp",
               "network",
+              "ids",
+              "dhcp",
               "web",
-              "resolution",
+              "dns",
               "session",
-              "tls",
+              "__no_tag__",
+              "certificate",
+              "resolution",
               "communicate",
-              "attack"
+              "attack",
+              "tls"
             ],
             "tags_sourcetypes": {
               "__no_tag__": [
@@ -1019,29 +1019,29 @@
             "signed_available": true,
             "size": 175894,
             "sourcetypes": [
+              "suricata:http",
+              "suricata:tls",
               "suricata:netflow",
-              "suricata:dhcp",
               "suricata:stamus",
               "suricata:dns",
+              "suricata:alert",
               "suricata:flow",
-              "suricata:tls",
-              "suricata:http",
-              "suricata",
-              "suricata:alert"
+              "suricata:dhcp",
+              "suricata"
             ],
             "tags": [
-              "certificate",
-              "__no_tag__",
-              "ids",
-              "dns",
-              "dhcp",
               "network",
+              "ids",
+              "dhcp",
               "web",
-              "resolution",
+              "dns",
               "session",
-              "tls",
+              "__no_tag__",
+              "certificate",
+              "resolution",
               "communicate",
-              "attack"
+              "attack",
+              "tls"
             ],
             "tags_sourcetypes": {
               "__no_tag__": [
@@ -1175,29 +1175,29 @@
             "signed_available": true,
             "size": 171841,
             "sourcetypes": [
+              "suricata:http",
+              "suricata:tls",
               "suricata:netflow",
-              "suricata:dhcp",
               "suricata:stamus",
               "suricata:dns",
+              "suricata:alert",
               "suricata:flow",
-              "suricata:tls",
-              "suricata:http",
-              "suricata",
-              "suricata:alert"
+              "suricata:dhcp",
+              "suricata"
             ],
             "tags": [
-              "certificate",
-              "__no_tag__",
-              "ids",
-              "dns",
-              "dhcp",
               "network",
+              "ids",
+              "dhcp",
               "web",
-              "resolution",
+              "dns",
               "session",
-              "tls",
+              "__no_tag__",
+              "certificate",
+              "resolution",
               "communicate",
-              "attack"
+              "attack",
+              "tls"
             ],
             "tags_sourcetypes": {
               "__no_tag__": [
@@ -1329,29 +1329,29 @@
             "signed_available": true,
             "size": 171848,
             "sourcetypes": [
+              "suricata:http",
+              "suricata:tls",
               "suricata:netflow",
-              "suricata:dhcp",
               "suricata:stamus",
               "suricata:dns",
+              "suricata:alert",
               "suricata:flow",
-              "suricata:tls",
-              "suricata:http",
-              "suricata",
-              "suricata:alert"
+              "suricata:dhcp",
+              "suricata"
             ],
             "tags": [
-              "certificate",
-              "__no_tag__",
-              "ids",
-              "dns",
-              "dhcp",
               "network",
+              "ids",
+              "dhcp",
               "web",
-              "resolution",
+              "dns",
               "session",
-              "tls",
+              "__no_tag__",
+              "certificate",
+              "resolution",
               "communicate",
-              "attack"
+              "attack",
+              "tls"
             ],
             "tags_sourcetypes": {
               "__no_tag__": [
@@ -1485,29 +1485,29 @@
             "signed_available": true,
             "size": 169647,
             "sourcetypes": [
+              "suricata:http",
+              "suricata:tls",
               "suricata:netflow",
-              "suricata:dhcp",
               "suricata:stamus",
               "suricata:dns",
+              "suricata:alert",
               "suricata:flow",
-              "suricata:tls",
-              "suricata:http",
-              "suricata",
-              "suricata:alert"
+              "suricata:dhcp",
+              "suricata"
             ],
             "tags": [
-              "certificate",
-              "__no_tag__",
-              "ids",
-              "dns",
-              "dhcp",
               "network",
+              "ids",
+              "dhcp",
               "web",
-              "resolution",
+              "dns",
               "session",
-              "tls",
+              "__no_tag__",
+              "certificate",
+              "resolution",
               "communicate",
-              "attack"
+              "attack",
+              "tls"
             ],
             "tags_sourcetypes": {
               "__no_tag__": [
@@ -1639,29 +1639,29 @@
             "signed_available": true,
             "size": 169525,
             "sourcetypes": [
+              "suricata:http",
+              "suricata:tls",
               "suricata:netflow",
-              "suricata:dhcp",
               "suricata:stamus",
               "suricata:dns",
+              "suricata:alert",
               "suricata:flow",
-              "suricata:tls",
-              "suricata:http",
-              "suricata",
-              "suricata:alert"
+              "suricata:dhcp",
+              "suricata"
             ],
             "tags": [
-              "certificate",
-              "__no_tag__",
-              "ids",
-              "dns",
-              "dhcp",
               "network",
+              "ids",
+              "dhcp",
               "web",
-              "resolution",
+              "dns",
               "session",
-              "tls",
+              "__no_tag__",
+              "certificate",
+              "resolution",
               "communicate",
-              "attack"
+              "attack",
+              "tls"
             ],
             "tags_sourcetypes": {
               "__no_tag__": [
@@ -1793,29 +1793,29 @@
             "signed_available": true,
             "size": 168792,
             "sourcetypes": [
+              "suricata:http",
+              "suricata:tls",
               "suricata:netflow",
-              "suricata:dhcp",
               "suricata:stamus",
               "suricata:dns",
+              "suricata:alert",
               "suricata:flow",
-              "suricata:tls",
-              "suricata:http",
-              "suricata",
-              "suricata:alert"
+              "suricata:dhcp",
+              "suricata"
             ],
             "tags": [
-              "certificate",
-              "__no_tag__",
-              "ids",
-              "dns",
-              "dhcp",
               "network",
+              "ids",
+              "dhcp",
               "web",
-              "resolution",
+              "dns",
               "session",
-              "tls",
+              "__no_tag__",
+              "certificate",
+              "resolution",
               "communicate",
-              "attack"
+              "attack",
+              "tls"
             ],
             "tags_sourcetypes": {
               "__no_tag__": [
@@ -1947,29 +1947,29 @@
             "signed_available": true,
             "size": 168730,
             "sourcetypes": [
+              "suricata:http",
+              "suricata:tls",
               "suricata:netflow",
-              "suricata:dhcp",
               "suricata:stamus",
               "suricata:dns",
+              "suricata:alert",
               "suricata:flow",
-              "suricata:tls",
-              "suricata:http",
-              "suricata",
-              "suricata:alert"
+              "suricata:dhcp",
+              "suricata"
             ],
             "tags": [
-              "certificate",
-              "__no_tag__",
-              "ids",
-              "dns",
-              "dhcp",
               "network",
+              "ids",
+              "dhcp",
               "web",
-              "resolution",
+              "dns",
               "session",
-              "tls",
+              "__no_tag__",
+              "certificate",
+              "resolution",
               "communicate",
-              "attack"
+              "attack",
+              "tls"
             ],
             "tags_sourcetypes": {
               "__no_tag__": [
@@ -2101,29 +2101,29 @@
             "signed_available": true,
             "size": 168531,
             "sourcetypes": [
+              "suricata:http",
+              "suricata:tls",
               "suricata:netflow",
-              "suricata:dhcp",
               "suricata:stamus",
               "suricata:dns",
+              "suricata:alert",
               "suricata:flow",
-              "suricata:tls",
-              "suricata:http",
-              "suricata",
-              "suricata:alert"
+              "suricata:dhcp",
+              "suricata"
             ],
             "tags": [
-              "certificate",
-              "__no_tag__",
-              "ids",
-              "dns",
-              "dhcp",
               "network",
+              "ids",
+              "dhcp",
               "web",
-              "resolution",
+              "dns",
               "session",
-              "tls",
+              "__no_tag__",
+              "certificate",
+              "resolution",
               "communicate",
-              "attack"
+              "attack",
+              "tls"
             ],
             "tags_sourcetypes": {
               "__no_tag__": [
@@ -2255,29 +2255,29 @@
             "signed_available": true,
             "size": 167344,
             "sourcetypes": [
+              "suricata:http",
+              "suricata:tls",
               "suricata:netflow",
-              "suricata:dhcp",
               "suricata:stamus",
               "suricata:dns",
+              "suricata:alert",
               "suricata:flow",
-              "suricata:tls",
-              "suricata:http",
-              "suricata",
-              "suricata:alert"
+              "suricata:dhcp",
+              "suricata"
             ],
             "tags": [
-              "certificate",
-              "__no_tag__",
-              "ids",
-              "dns",
-              "dhcp",
               "network",
+              "ids",
+              "dhcp",
               "web",
-              "resolution",
+              "dns",
               "session",
-              "tls",
+              "__no_tag__",
+              "certificate",
+              "resolution",
               "communicate",
-              "attack"
+              "attack",
+              "tls"
             ],
             "tags_sourcetypes": {
               "__no_tag__": [
@@ -2409,29 +2409,29 @@
             "signed_available": true,
             "size": 163077,
             "sourcetypes": [
+              "suricata:http",
+              "suricata:tls",
               "suricata:netflow",
-              "suricata:dhcp",
               "suricata:stamus",
               "suricata:dns",
+              "suricata:alert",
               "suricata:flow",
-              "suricata:tls",
-              "suricata:http",
-              "suricata",
-              "suricata:alert"
+              "suricata:dhcp",
+              "suricata"
             ],
             "tags": [
-              "certificate",
-              "__no_tag__",
-              "ids",
-              "dns",
-              "dhcp",
               "network",
+              "ids",
+              "dhcp",
               "web",
-              "resolution",
+              "dns",
               "session",
-              "tls",
+              "__no_tag__",
+              "certificate",
+              "resolution",
               "communicate",
-              "attack"
+              "attack",
+              "tls"
             ],
             "tags_sourcetypes": {
               "__no_tag__": [
@@ -2563,29 +2563,29 @@
             "signed_available": true,
             "size": 162829,
             "sourcetypes": [
+              "suricata:http",
+              "suricata:tls",
               "suricata:netflow",
-              "suricata:dhcp",
               "suricata:stamus",
               "suricata:dns",
+              "suricata:alert",
               "suricata:flow",
-              "suricata:tls",
-              "suricata:http",
-              "suricata",
-              "suricata:alert"
+              "suricata:dhcp",
+              "suricata"
             ],
             "tags": [
-              "certificate",
-              "__no_tag__",
-              "ids",
-              "dns",
-              "dhcp",
               "network",
+              "ids",
+              "dhcp",
               "web",
-              "resolution",
+              "dns",
               "session",
-              "tls",
+              "__no_tag__",
+              "certificate",
+              "resolution",
               "communicate",
-              "attack"
+              "attack",
+              "tls"
             ],
             "tags_sourcetypes": {
               "__no_tag__": [
@@ -2717,29 +2717,29 @@
             "signed_available": true,
             "size": 162712,
             "sourcetypes": [
+              "suricata:http",
+              "suricata:tls",
               "suricata:netflow",
-              "suricata:dhcp",
               "suricata:stamus",
               "suricata:dns",
+              "suricata:alert",
               "suricata:flow",
-              "suricata:tls",
-              "suricata:http",
-              "suricata",
-              "suricata:alert"
+              "suricata:dhcp",
+              "suricata"
             ],
             "tags": [
-              "certificate",
-              "__no_tag__",
-              "ids",
-              "dns",
-              "dhcp",
               "network",
+              "ids",
+              "dhcp",
               "web",
-              "resolution",
+              "dns",
               "session",
-              "tls",
+              "__no_tag__",
+              "certificate",
+              "resolution",
               "communicate",
-              "attack"
+              "attack",
+              "tls"
             ],
             "tags_sourcetypes": {
               "__no_tag__": [
@@ -2861,29 +2861,29 @@
             "signed_available": true,
             "size": 161651,
             "sourcetypes": [
+              "suricata:http",
+              "suricata:tls",
               "suricata:netflow",
-              "suricata:dhcp",
               "suricata:stamus",
               "suricata:dns",
+              "suricata:alert",
               "suricata:flow",
-              "suricata:tls",
-              "suricata:http",
-              "suricata",
-              "suricata:alert"
+              "suricata:dhcp",
+              "suricata"
             ],
             "tags": [
-              "certificate",
-              "__no_tag__",
-              "ids",
-              "dns",
-              "dhcp",
               "network",
+              "ids",
+              "dhcp",
               "web",
-              "resolution",
+              "dns",
               "session",
-              "tls",
+              "__no_tag__",
+              "certificate",
+              "resolution",
               "communicate",
-              "attack"
+              "attack",
+              "tls"
             ],
             "tags_sourcetypes": {
               "__no_tag__": [
