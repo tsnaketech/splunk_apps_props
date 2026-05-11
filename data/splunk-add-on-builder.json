@@ -108,9 +108,9 @@
           "signed_available": true,
           "size": 24606289,
           "sourcetypes": [
-            "splunk:tabuilder:log",
             "splunk:tabuilder:validation",
-            "splunk:aob:monitor:metric"
+            "splunk:aob:monitor:metric",
+            "splunk:tabuilder:log"
           ],
           "tags": [
             "__no_tag__"
@@ -202,9 +202,9 @@
             "signed_available": true,
             "size": 24606289,
             "sourcetypes": [
-              "splunk:tabuilder:log",
               "splunk:tabuilder:validation",
-              "splunk:aob:monitor:metric"
+              "splunk:aob:monitor:metric",
+              "splunk:tabuilder:log"
             ],
             "tags": [
               "__no_tag__"
@@ -295,9 +295,9 @@
             "signed_available": true,
             "size": 23058641,
             "sourcetypes": [
-              "splunk:tabuilder:log",
               "splunk:tabuilder:validation",
-              "splunk:aob:monitor:metric"
+              "splunk:aob:monitor:metric",
+              "splunk:tabuilder:log"
             ],
             "tags": [
               "__no_tag__"
