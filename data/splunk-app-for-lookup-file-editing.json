@@ -63,7 +63,7 @@
         "description": "Ever want to edit a lookup within Splunk with a user interface? Now you can. This app provides an Excel-like interface for editing, importing, and exporting lookup files (KV store and CSV-based).\n\nThis app also makes your lookups work in Search Head Clustered environments (edits to lookups will be propagated to other search heads).\n\nRevision history is maintained for lookups so that you can view or restore older lookups quickly in the interface.\n\nCheck out the Documentation site: \nhttps://docs.splunk.com/Documentation/LookupEditor\n\nhttps://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew",
         "documentation": "<ul>\n<li><a href=\"https://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew\">What's new</a></li>\n<li><a href=\"https://docs.splunk.com/Documentation/LookupEditor\">Documentation Site</a></li>\n</ul>",
         "documentation_source": "*   [What's new](https://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew)\n*   [Documentation Site](https://docs.splunk.com/Documentation/LookupEditor)",
-        "download_count": 253649,
+        "download_count": 253698,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/cfe298e2-42ec-11f1-9e08-1ad9e1e469d5.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -187,6 +187,86 @@
           "spl_compatibility": "SPL1"
         },
         "releases": [
+          {
+            "actions": [],
+            "cim_compatibility": [
+              "6.x"
+            ],
+            "CIM_versions": [
+              19
+            ],
+            "cloud_compatible": true,
+            "content": [],
+            "fips_compatibility": false,
+            "filename": "splunk-app-for-lookup-file-editing_407.spl",
+            "id": 42645,
+            "install_method_distributed": "appmgmt_phase",
+            "install_method_single": "simple",
+            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk App for Lookup File Editing\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"lookup_editor\",\n      \"version\": \"4.0.7\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk, Inc.\",\n        \"email\": \"support@splunk.com\",\n        \"company\": \"Splunk, Inc.\"\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Provides a graphical interface for editing lookup files\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.txt\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": \"*\",\n  \"targetWorkloads\": \"_search_heads\"\n}\n",
+            "md5": "c29471bbdbf3024d2ad29850ff720661",
+            "min_product_version_str": null,
+            "name": "4.0.7",
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/1724/release/4.0.7/download/",
+            "platform": "independent",
+            "product_types": [
+              "enterprise",
+              "cloud"
+            ],
+            "public": null,
+            "public_ever_true": false,
+            "published_datetime": "2026-04-28T10:27:09.702321Z",
+            "release_notes": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise/manage-knowledge-objects/splunk-app-for-lookup-file-editing/4.0/release-notes/whats-new-in-the-splunk-app-for-lookup-file-editing\"></a><a href=\"https://help.splunk.com/en/splunk-enterprise/manage-knowledge-objects/splunk-app-for-lookup-file-editing/4.0/release-notes/whats-new-in-the-splunk-app-for-lookup-file-editing\">[https://help.splunk.com/en/splunk-enterprise/manage-knowledge-objects/splunk-app-for-lookup-file-editing/4.0/release-notes/whats-new-in-the-splunk-app-for-lookup-file-editing](https://help.splunk.com/en/splunk-enterprise/manage-knowledge-objects/splunk-app-for-lookup-file-editing/4.0/release-notes/whats-new-in-the-splunk-app-for-lookup-file-editing)</a></p>",
+            "sha256": "cdbaf44fcb9231ad275e423e6d45cd6886db3f4e85491d071646d015f1d865c8",
+            "signed_available": true,
+            "size": 7030566,
+            "sourcetypes": [
+              "lookup_backups_rest_handler",
+              "lookup_editor_rest_handler"
+            ],
+            "tags": [
+              "__no_tag__"
+            ],
+            "tags_sourcetypes": {
+              "__no_tag__": [
+                "lookup_editor_rest_handler",
+                "lookup_backups_rest_handler"
+              ]
+            },
+            "version_compatibility": [
+              {
+                "id": 128,
+                "status": "live",
+                "versionString": "10.3"
+              },
+              {
+                "id": 127,
+                "status": "live",
+                "versionString": "10.2"
+              },
+              {
+                "id": 121,
+                "status": "live",
+                "versionString": "10.1"
+              },
+              {
+                "id": 119,
+                "status": "live",
+                "versionString": "10.0"
+              },
+              {
+                "id": 115,
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "id": 111,
+                "status": "live",
+                "versionString": "9.3"
+              }
+            ],
+            "spl_compatibility": "SPL1"
+          },
           {
             "actions": [],
             "cim_compatibility": [
@@ -2888,7 +2968,7 @@
         "title": "Splunk App for Lookup File Editing",
         "troubleshooting": "",
         "troubleshooting_source": "",
-        "updated_time": "2026-04-30T10:35:16.917426Z",
+        "updated_time": "2026-05-12T23:35:44.478316Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
