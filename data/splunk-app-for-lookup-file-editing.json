@@ -63,7 +63,7 @@
         "description": "Ever want to edit a lookup within Splunk with a user interface? Now you can. This app provides an Excel-like interface for editing, importing, and exporting lookup files (KV store and CSV-based).\n\nThis app also makes your lookups work in Search Head Clustered environments (edits to lookups will be propagated to other search heads).\n\nRevision history is maintained for lookups so that you can view or restore older lookups quickly in the interface.\n\nCheck out the Documentation site: \nhttps://docs.splunk.com/Documentation/LookupEditor\n\nhttps://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew",
         "documentation": "<ul>\n<li><a href=\"https://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew\">What's new</a></li>\n<li><a href=\"https://docs.splunk.com/Documentation/LookupEditor\">Documentation Site</a></li>\n</ul>",
         "documentation_source": "*   [What's new](https://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew)\n*   [Documentation Site](https://docs.splunk.com/Documentation/LookupEditor)",
-        "download_count": 253990,
+        "download_count": 254007,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/cfe298e2-42ec-11f1-9e08-1ad9e1e469d5.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -135,8 +135,8 @@
           "signed_available": true,
           "size": 7140988,
           "sourcetypes": [
-            "lookup_backups_rest_handler",
-            "lookup_editor_rest_handler"
+            "lookup_editor_rest_handler",
+            "lookup_backups_rest_handler"
           ],
           "tags": [
             "__no_tag__"
@@ -221,8 +221,8 @@
             "signed_available": true,
             "size": 7030566,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -301,8 +301,8 @@
             "signed_available": true,
             "size": 7140988,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -386,8 +386,8 @@
             "signed_available": true,
             "size": 7372246,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -461,8 +461,8 @@
             "signed_available": true,
             "size": 7117021,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -531,8 +531,8 @@
             "signed_available": true,
             "size": 6007908,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -611,8 +611,8 @@
             "signed_available": true,
             "size": 5857933,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -687,8 +687,8 @@
             "signed_available": true,
             "size": 13618316,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -762,8 +762,8 @@
             "signed_available": true,
             "size": 727079,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -817,8 +817,8 @@
             "signed_available": true,
             "size": 558585,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -897,8 +897,8 @@
             "signed_available": true,
             "size": 541262,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -977,8 +977,8 @@
             "signed_available": true,
             "size": 541228,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1057,8 +1057,8 @@
             "signed_available": true,
             "size": 541199,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1137,8 +1137,8 @@
             "signed_available": true,
             "size": 540756,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1217,8 +1217,8 @@
             "signed_available": true,
             "size": 540706,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1297,8 +1297,8 @@
             "signed_available": true,
             "size": 540662,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1377,8 +1377,8 @@
             "signed_available": true,
             "size": 841838,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1457,8 +1457,8 @@
             "signed_available": true,
             "size": 832729,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1522,8 +1522,8 @@
             "signed_available": true,
             "size": 832469,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1587,8 +1587,8 @@
             "signed_available": true,
             "size": 832450,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1647,8 +1647,8 @@
             "signed_available": true,
             "size": 826246,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1707,8 +1707,8 @@
             "signed_available": true,
             "size": 826165,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1767,8 +1767,8 @@
             "signed_available": true,
             "size": 825795,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1827,8 +1827,8 @@
             "signed_available": true,
             "size": 728779,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1887,8 +1887,8 @@
             "signed_available": true,
             "size": 728672,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1947,8 +1947,8 @@
             "signed_available": true,
             "size": 728413,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -2002,8 +2002,8 @@
             "signed_available": true,
             "size": 728021,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -2057,8 +2057,8 @@
             "signed_available": true,
             "size": 727426,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -2112,8 +2112,8 @@
             "signed_available": true,
             "size": 726852,
             "sourcetypes": [
-              "lookup_backups_rest_handler",
-              "lookup_editor_rest_handler"
+              "lookup_editor_rest_handler",
+              "lookup_backups_rest_handler"
             ],
             "tags": [
               "__no_tag__"
