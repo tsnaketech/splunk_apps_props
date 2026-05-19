@@ -27,7 +27,7 @@
         "documentation": "<h3>Functionality includes:</h3>\n<p><strong>Ingestion of ThreatQ Data into Splunk</strong><br>\nEnable users to customize what data is ingested by leveraging ThreatQ exports and Splunk input filters. Customization continues for advanced users with the ability to modify leveraged indexes and Splunk saved searches that drive the ThreatQuotient App for Splunk to meet the needs of their environment.</p>\n<p><strong>Matching of Splunk Events with ThreatQ Indicators</strong><br>\nProvide context on possible malicious activity by matching Splunk Events with ThreatQ indicators. Matching is customizable by ThreatQ indicator status and score to meet the differing needs of customer environments and workflows.</p>\n<p><strong>Reporting of Matches in Splunk back to ThreatQ as Sighting Events</strong><br>\nSighting events in ThreatQ will show indicator matches from Splunk and will be grouped by indicator.</p>\n<p><strong>Workflow Actions</strong><br>\nUsers can modify ThreatQ data based on any indexed indicators within Splunk.</p>\n<p><strong>Workflow actions include:</strong><br>\n- ThreatQ: Add Indicator<br>\n- ThreatQ: Update Indicator Status<br>\n- ThreatQ: Lookup Indicator<br>\n- ThreatQ: Mark as False Positive<br>\n- ThreatQ: Mark as True Positive</p>\n<p><strong>Note:</strong> Support for ingesting ThreatQ data into Splunk Enterprise Security will be leveraged in the additional workflows provided within that application.</p>\n<h3>Deployability</h3>\n<p>The ThreatQuotient App for Splunk has been re-designed to scale to our customers' growing needs, supporting installations in Splunk deployments of all sizes.</p>",
         "documentation_source": "### Functionality includes:\n\n**Ingestion of ThreatQ Data into Splunk**\nEnable users to customize what data is ingested by leveraging ThreatQ exports and Splunk input filters. Customization continues for advanced users with the ability to modify leveraged indexes and Splunk saved searches that drive the ThreatQuotient App for Splunk to meet the needs of their environment.\n\n**Matching of Splunk Events with ThreatQ Indicators**\nProvide context on possible malicious activity by matching Splunk Events with ThreatQ indicators. Matching is customizable by ThreatQ indicator status and score to meet the differing needs of customer environments and workflows.\n\n**Reporting of Matches in Splunk back to ThreatQ as Sighting Events**\nSighting events in ThreatQ will show indicator matches from Splunk and will be grouped by indicator.\n\n**Workflow Actions**\nUsers can modify ThreatQ data based on any indexed indicators within Splunk.\n\n**Workflow actions include:**\n- ThreatQ: Add Indicator\n- ThreatQ: Update Indicator Status\n- ThreatQ: Lookup Indicator\n- ThreatQ: Mark as False Positive\n- ThreatQ: Mark as True Positive\n\n\n**Note:** Support for ingesting ThreatQ data into Splunk Enterprise Security will be leveraged in the additional workflows provided within that application.\n\n### Deployability\nThe ThreatQuotient App for Splunk has been re-designed to scale to our customers' growing needs, supporting installations in Splunk deployments of all sizes.",
         "download_count": 4876,
-        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/7ba1013a-dcf1-11f0-9c27-42f882befca2.png",
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/794fe74c-5277-11f1-a771-229e6c6a53f2.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
         "is_archived": false,
@@ -49,7 +49,8 @@
         "product": "splunk",
         "product_compatibility": "splunk",
         "product_types": [
-          "enterprise"
+          "enterprise",
+          "cloud"
         ],
         "public": true,
         "ranking": [
@@ -72,16 +73,16 @@
             "alert_actions"
           ],
           "fips_compatibility": false,
-          "filename": "threatquotient-app-for-splunk_310.tgz",
-          "id": 40753,
+          "filename": "threatquotient-app-for-splunk_320.spl",
+          "id": 42986,
           "install_method_distributed": "appmgmt_phase",
           "install_method_single": "simple",
-          "manifest": "{\n  \"schemaVersion\": \"1.0.0\",\n  \"info\": {\n    \"title\": \"ThreatQAppforSplunk\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"ThreatQAppforSplunk\",\n      \"version\": \"3.1.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"ThreatQuotient Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"App for ThreatQuotient\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    }\n  },\n  \"dependencies\": {\n  },\n  \"tasks\": [],\n  \"inputGroups\": {\n  },\n  \"incompatibleApps\": {\n  },\n  \"platformRequirements\": {\n    \"splunk\": {\n      \"Enterprise\": \">=7.0.0\"\n    }\n  }\n}\n",
-          "md5": "49e388a7f81db741a2ec8d86d2fa7f47",
+          "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"ThreatQuotient App for Splunk\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"ThreatQAppforSplunk\",\n      \"version\": \"3.2.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"ThreatQuotient Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"ThreatQuotient App for Splunk\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    }\n  },\n  \"dependencies\": {\n  },\n  \"tasks\": [],\n  \"inputGroups\": {\n  },\n  \"incompatibleApps\": {\n  },\n  \"platformRequirements\": {\n    \"splunk\": {\n      \"Enterprise\": \"*\"\n    }\n  },\n  \"supportedDeployments\": [\n    \"*\"\n  ],\n  \"targetWorkloads\": [\n    \"*\"\n  ]\n}",
+          "md5": "b7011399de1e30d1ca6a1b15838f1c88",
           "min_product_version_str": null,
-          "name": "3.1.0",
+          "name": "3.2.0",
           "passed_validation": true,
-          "path": "https://splunkbase.splunk.com/app/4418/release/3.1.0/download/",
+          "path": "https://splunkbase.splunk.com/app/4418/release/3.2.0/download/",
           "platform": "independent",
           "product_types": [
             "enterprise",
@@ -89,11 +90,11 @@
           ],
           "public": null,
           "public_ever_true": false,
-          "published_datetime": "2025-12-19T15:44:19.113017Z",
-          "release_notes": "<p>ThreatQ APP 3.1.0<br>\n  - Release Notes:<br>\n    - Added OAuth authentication support for account configuration.<br>\n    - Added an option to skip the Splunk's port to be posted on the ThreatQ server as a part of the attribute.</p>",
-          "sha256": "c00302f0b75f392035dc7ff6fc25aa090ed8755bac6300faea42534a96b92675",
+          "published_datetime": "2026-05-18T05:07:32.067133Z",
+          "release_notes": "",
+          "sha256": "013b60b20d96d180f994142998c64d8d375b625491723d99e43699f4b66344e2",
           "signed_available": true,
-          "size": 3956705,
+          "size": 7085856,
           "sourcetypes": [
             "threatq:indicators:ar"
           ],
@@ -106,6 +107,11 @@
             ]
           },
           "version_compatibility": [
+            {
+              "id": 127,
+              "status": "live",
+              "versionString": "10.2"
+            },
             {
               "id": 121,
               "status": "live",
@@ -125,16 +131,82 @@
               "id": 111,
               "status": "live",
               "versionString": "9.3"
-            },
-            {
-              "id": 110,
-              "status": "live",
-              "versionString": "9.2"
             }
           ],
           "spl_compatibility": "SPL1"
         },
         "releases": [
+          {
+            "actions": [],
+            "cim_compatibility": [],
+            "CIM_versions": [],
+            "cloud_compatible": true,
+            "content": [
+              "alert_actions"
+            ],
+            "fips_compatibility": false,
+            "filename": "threatquotient-app-for-splunk_320.spl",
+            "id": 42986,
+            "install_method_distributed": "appmgmt_phase",
+            "install_method_single": "simple",
+            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"ThreatQuotient App for Splunk\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"ThreatQAppforSplunk\",\n      \"version\": \"3.2.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"ThreatQuotient Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"ThreatQuotient App for Splunk\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    }\n  },\n  \"dependencies\": {\n  },\n  \"tasks\": [],\n  \"inputGroups\": {\n  },\n  \"incompatibleApps\": {\n  },\n  \"platformRequirements\": {\n    \"splunk\": {\n      \"Enterprise\": \"*\"\n    }\n  },\n  \"supportedDeployments\": [\n    \"*\"\n  ],\n  \"targetWorkloads\": [\n    \"*\"\n  ]\n}",
+            "md5": "b7011399de1e30d1ca6a1b15838f1c88",
+            "min_product_version_str": null,
+            "name": "3.2.0",
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/4418/release/3.2.0/download/",
+            "platform": "independent",
+            "product_types": [
+              "enterprise",
+              "cloud"
+            ],
+            "public": null,
+            "public_ever_true": false,
+            "published_datetime": "2026-05-18T05:07:32.067133Z",
+            "release_notes": "",
+            "sha256": "013b60b20d96d180f994142998c64d8d375b625491723d99e43699f4b66344e2",
+            "signed_available": true,
+            "size": 7085856,
+            "sourcetypes": [
+              "threatq:indicators:ar"
+            ],
+            "tags": [
+              "modaction_result"
+            ],
+            "tags_sourcetypes": {
+              "modaction_result": [
+                "threatq:indicators:ar"
+              ]
+            },
+            "version_compatibility": [
+              {
+                "id": 127,
+                "status": "live",
+                "versionString": "10.2"
+              },
+              {
+                "id": 121,
+                "status": "live",
+                "versionString": "10.1"
+              },
+              {
+                "id": 119,
+                "status": "live",
+                "versionString": "10.0"
+              },
+              {
+                "id": 115,
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "id": 111,
+                "status": "live",
+                "versionString": "9.3"
+              }
+            ],
+            "spl_compatibility": "SPL1"
+          },
           {
             "actions": [],
             "cim_compatibility": [],
@@ -1430,7 +1502,7 @@
         "title": "ThreatQuotient App for Splunk",
         "troubleshooting": "",
         "troubleshooting_source": "",
-        "updated_time": "2026-04-30T14:02:46.883147Z",
+        "updated_time": "2026-05-18T07:41:07.460549Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
