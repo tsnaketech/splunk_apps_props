@@ -31,7 +31,7 @@
         "description": "This TA allows to add interaction features between TheHive or Cortex (https://www.strangebee.com/) and Splunk. It allows to retrieve all kind of information from TheHive/Cortex and to perform actions on these instances using Splunk, from a search or from a predefined dashboard.\n\nThis TA is supporting only TheHive 5. For having an app supporting TheHive 3 or 4, please check the oldest releases. It's also supporting the Cortex 3 version.\n\nMore information here: https://github.com/LetMeR00t/TA-thehive-cortex",
         "documentation": "<p>The objective is to interface a SIEM tool such as Splunk in order to be able to perform automated tasks on observables/IOCs or TTPs.<br>\nThis TA has been designed in such a way that :</p>\n<ul>\n<li>You can pull events periodically from TheHive about the different cases/alerts that were created or updated</li>\n<li>You can create new alert or case from Splunk in TheHive using the power of Splunk whether in a search or in a predefined dashboard.</li>\n<li>You can run a function in TheHive from an alert action</li>\n<li>You can interface Splunk Enterprise Security with TheHive</li>\n<li>You can retrieve information from Cortex about the different jobs that are being performed on the scanners.</li>\n<li>You can run new tasks from Splunk in Cortex using the power of Splunk whether in a search or a predefined dashboard.</li>\n</ul>\n<p>If you need any documentation or help, please visit the related Github : <a href=\"https://github.com/LetMeR00t/TA-thehive-cortex\">https://github.com/LetMeR00t/TA-thehive-cortex</a></p>",
         "documentation_source": "The objective is to interface a SIEM tool such as Splunk in order to be able to perform automated tasks on observables/IOCs or TTPs.\nThis TA has been designed in such a way that :\n\n- You can pull events periodically from TheHive about the different cases/alerts that were created or updated\n- You can create new alert or case from Splunk in TheHive using the power of Splunk whether in a search or in a predefined dashboard.\n- You can run a function in TheHive from an alert action\n- You can interface Splunk Enterprise Security with TheHive\n- You can retrieve information from Cortex about the different jobs that are being performed on the scanners.\n- You can run new tasks from Splunk in Cortex using the power of Splunk whether in a search or a predefined dashboard.\n\nIf you need any documentation or help, please visit the related Github : https://github.com/LetMeR00t/TA-thehive-cortex",
-        "download_count": 4176,
+        "download_count": 4177,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/7565a178-252a-11f1-8ab2-8e1c694f89e1.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -114,26 +114,26 @@
           "signed_available": true,
           "size": 6588367,
           "sourcetypes": [
-            "thehive:cases:updatedAt",
-            "thehive:cases:tasks:updatedAt",
-            "thehive:cases:createdAt",
+            "thehive:*",
+            "thehive:tasks:updatedAt",
+            "thehive:observables:updatedAt",
+            "thehive:alerts:updatedAt",
             "thehive:audit",
             "thehive:alerts:occuredDate",
-            "thehive:observables:updatedAt",
-            "thehive:tasks:createdAt",
-            "thehive:*",
+            "thehive:cases:createdAt",
             "thehive:observables:createdAt",
-            "thehive:status",
-            "thehive:tasks:startDate",
-            "thehive:alerts:createdAt",
-            "thehive:alerts:updatedAt",
-            "thehive:cases:tasks:createdAt",
-            "thehive:tasks",
-            "thehive:cases:tasks:startDate",
             "thehive:cases:startDate",
+            "thehive:alerts:createdAt",
+            "thehive:tasks:startDate",
+            "thehive:status",
+            "thehive:tasks:createdAt",
+            "thehive:tasks",
+            "thehive:cases:tasks:updatedAt",
+            "thehive:cases:updatedAt",
+            "thehive:timeline",
             "tathehivecortex:log",
-            "thehive:tasks:updatedAt",
-            "thehive:timeline"
+            "thehive:cases:tasks:startDate",
+            "thehive:cases:tasks:createdAt"
           ],
           "tags": [
             "__no_tag__"
@@ -258,26 +258,26 @@
             "signed_available": true,
             "size": 6588367,
             "sourcetypes": [
-              "thehive:cases:updatedAt",
-              "thehive:cases:tasks:updatedAt",
-              "thehive:cases:createdAt",
+              "thehive:*",
+              "thehive:tasks:updatedAt",
+              "thehive:observables:updatedAt",
+              "thehive:alerts:updatedAt",
               "thehive:audit",
               "thehive:alerts:occuredDate",
-              "thehive:observables:updatedAt",
-              "thehive:tasks:createdAt",
-              "thehive:*",
+              "thehive:cases:createdAt",
               "thehive:observables:createdAt",
-              "thehive:status",
-              "thehive:tasks:startDate",
-              "thehive:alerts:createdAt",
-              "thehive:alerts:updatedAt",
-              "thehive:cases:tasks:createdAt",
-              "thehive:tasks",
-              "thehive:cases:tasks:startDate",
               "thehive:cases:startDate",
+              "thehive:alerts:createdAt",
+              "thehive:tasks:startDate",
+              "thehive:status",
+              "thehive:tasks:createdAt",
+              "thehive:tasks",
+              "thehive:cases:tasks:updatedAt",
+              "thehive:cases:updatedAt",
+              "thehive:timeline",
               "tathehivecortex:log",
-              "thehive:tasks:updatedAt",
-              "thehive:timeline"
+              "thehive:cases:tasks:startDate",
+              "thehive:cases:tasks:createdAt"
             ],
             "tags": [
               "__no_tag__"
@@ -401,20 +401,20 @@
             "signed_available": true,
             "size": 6563283,
             "sourcetypes": [
-              "thehive:cases:startDate",
-              "thehive:cases:updatedAt",
+              "thehive:alerts:occuredDate",
+              "thehive:*",
               "thehive:tasks:startDate",
+              "thehive:tasks:updatedAt",
               "tathehivecortex:log",
+              "thehive:observables:updatedAt",
               "thehive:cases:createdAt",
               "thehive:tasks:createdAt",
-              "thehive:tasks:updatedAt",
-              "thehive:audit",
-              "thehive:alerts:createdAt",
-              "thehive:*",
-              "thehive:alerts:occuredDate",
               "thehive:observables:createdAt",
               "thehive:alerts:updatedAt",
-              "thehive:observables:updatedAt"
+              "thehive:cases:updatedAt",
+              "thehive:audit",
+              "thehive:cases:startDate",
+              "thehive:alerts:createdAt"
             ],
             "tags": [
               "__no_tag__"
@@ -534,15 +534,15 @@
             "signed_available": true,
             "size": 3436199,
             "sourcetypes": [
+              "thehive:last_created:cases",
+              "thehive:*",
               "tathehivecortex:log",
+              "thehive:last_created:observables",
               "thehive:last_created:audit",
-              "thehive:last_updated:observables",
               "thehive:last_updated:cases",
               "thehive:last_updated:alerts",
-              "thehive:last_created:alerts",
-              "thehive:last_created:observables",
-              "thehive:*",
-              "thehive:last_created:cases"
+              "thehive:last_updated:observables",
+              "thehive:last_created:alerts"
             ],
             "tags": [
               "__no_tag__"
@@ -654,9 +654,9 @@
             "size": 6448428,
             "sourcetypes": [
               "thehive:logs",
-              "tathehivecortex:log",
               "thehive:supervisor",
-              "cortex:supervisor"
+              "cortex:supervisor",
+              "tathehivecortex:log"
             ],
             "tags": [
               "__no_tag__"
@@ -751,7 +751,7 @@
   "query": {
     "id": "5329"
   },
-  "buildId": "fgZ-4FOeuq5Lsczkih6JB",
+  "buildId": "zn29CVcod93U417nvRFfR",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
