@@ -59,14 +59,14 @@
         "public": true,
         "ranking": [
           {
-            "rank": 652,
-            "category_name": "security_compliance",
-            "category_display_name": "Security, Fraud & Compliance"
-          },
-          {
             "rank": 337,
             "category_name": "utilities",
             "category_display_name": "Utilities"
+          },
+          {
+            "rank": 652,
+            "category_name": "security_compliance",
+            "category_display_name": "Security, Fraud & Compliance"
           }
         ],
         "rating": {
