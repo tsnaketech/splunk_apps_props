@@ -31,7 +31,7 @@
         "description": "The Splunk Add-on for NGINX allows a Splunk software administrator to collect Web server activities, performance metrics, and error logs using file monitoring and API inputs.\n\nThis add-on provides the inputs and CIM-compatible knowledge to use with other Splunk apps, such as Splunk Enterprise Security, the Splunk App for PCI Compliance, and Splunk IT Service Intelligence.",
         "documentation": "<p>Documentation for this Add-on is posted at <a href=\"http://docs.splunk.com/Documentation/AddOns/latest/nginx/About\" title=\"Splunk Docs\">Splunk Docs</a>.</p>",
         "documentation_source": "Documentation for this Add-on is posted at [Splunk Docs](http://docs.splunk.com/Documentation/AddOns/latest/nginx/About \"Splunk Docs\").",
-        "download_count": 91114,
+        "download_count": 91126,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/43731336-6aa4-11ef-ab3b-faca7e54e553.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -111,18 +111,18 @@
           "sourcetypes": [
             "nginx:plus:access",
             "nginx:app:protect",
-            "nginx:plus:kv",
             "nginx:plus:api",
+            "nginx:plus:kv",
             "nginx:plus:error"
           ],
           "tags": [
-            "attack",
-            "inventory",
-            "__no_tag__",
             "ids",
+            "attack",
+            "activity",
             "error",
             "web",
-            "activity"
+            "__no_tag__",
+            "inventory"
           ],
           "tags_sourcetypes": {
             "__no_tag__": [
@@ -243,18 +243,18 @@
             "sourcetypes": [
               "nginx:plus:access",
               "nginx:app:protect",
-              "nginx:plus:kv",
               "nginx:plus:api",
+              "nginx:plus:kv",
               "nginx:plus:error"
             ],
             "tags": [
-              "attack",
-              "inventory",
-              "__no_tag__",
               "ids",
+              "attack",
+              "activity",
               "error",
               "web",
-              "activity"
+              "__no_tag__",
+              "inventory"
             ],
             "tags_sourcetypes": {
               "__no_tag__": [
@@ -373,18 +373,18 @@
             "sourcetypes": [
               "nginx:plus:access",
               "nginx:app:protect",
-              "nginx:plus:kv",
               "nginx:plus:api",
+              "nginx:plus:kv",
               "nginx:plus:error"
             ],
             "tags": [
-              "attack",
-              "inventory",
-              "__no_tag__",
               "ids",
+              "attack",
+              "activity",
               "error",
               "web",
-              "activity"
+              "__no_tag__",
+              "inventory"
             ],
             "tags_sourcetypes": {
               "__no_tag__": [
