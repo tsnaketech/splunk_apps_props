@@ -37,7 +37,7 @@
         "documentation": "<p>See the application documentation <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/\">here</a> for more information on installing, configuring and using it.</p>\n<p>Credit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.<br>\nThanks to Dean Luxton for reporting issues, fixes and improvement ideas!</p>",
         "documentation_source": "See the application documentation [here](https://splunk.github.io/Splunk_App_for_Detection_Insights/) for more information on installing, configuring and using it.\n\nCredit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.\nThanks to Dean Luxton for reporting issues, fixes and improvement ideas!",
         "download_count": 2562,
-        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/f1f4cbe6-5781-11f0-ba1e-5a77e051378c.png",
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/4ee9f8a8-6339-11f1-9167-caaa152ce87e.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
         "is_archived": false,
@@ -82,26 +82,28 @@
         "release": {
           "actions": [],
           "cim_compatibility": [
+            "8.x",
             "6.x",
             "5.x"
           ],
           "CIM_versions": [
+            52,
             19,
             17
           ],
           "cloud_compatible": true,
           "content": [],
           "fips_compatibility": false,
-          "filename": "sa-detectioninsights_130.tgz",
-          "id": 38435,
+          "filename": "sa-detectioninsights_131.tar.gz",
+          "id": 43406,
           "install_method_distributed": "appmgmt_phase",
           "install_method_single": "simple",
-          "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk App for Detection Insights\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"Splunk_App_for_Detection_Insights\",\n      \"version\": \"1.3.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Christian Cloutier\",\n        \"email\": \"ccloutier@splunk.com\",\n        \"company\": \"Splunk, Inc.\"\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Splunk App for Detection Insights aim to provide richer insights and visualizations of your Enterprise Security Security Detections.\",\n    \"classification\": {\n      \"intendedAudience\": \"Security Specialists\",\n      \"categories\": [\n        \"Security, Fraud & Compliance\"\n      ],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": \"Splunk General Terms (SGT)\",\n      \"text\": \"./README\",\n      \"uri\": \"https://www.splunk.com/en_us/legal/splunk-general-terms.html\"\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\"\n  ],\n  \"targetWorkloads\": [\n    \"_search_heads\"\n  ]\n}",
-          "md5": "1c014a94fd08a69739d03a310a2eaf0a",
+          "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk App for Detection Insights\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"Splunk_App_for_Detection_Insights\",\n      \"version\": \"1.3.1\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Christian Cloutier\",\n        \"email\": \"ccloutier@splunk.com\",\n        \"company\": \"Splunk, Inc.\"\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Splunk App for Detection Insights aim to provide richer insights and visualizations of your Enterprise Security Security Detections.\",\n    \"classification\": {\n      \"intendedAudience\": \"Security Specialists\",\n      \"categories\": [\n        \"Security, Fraud & Compliance\"\n      ],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": \"Splunk General Terms (SGT)\",\n      \"text\": \"./README\",\n      \"uri\": \"https://www.splunk.com/en_us/legal/splunk-general-terms.html\"\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\"\n  ],\n  \"targetWorkloads\": [\n    \"_search_heads\"\n  ]\n}",
+          "md5": "d0e62c0c683ce71d4f1c73cb4e5d4f18",
           "min_product_version_str": null,
-          "name": "1.3.0",
+          "name": "1.3.1",
           "passed_validation": true,
-          "path": "https://splunkbase.splunk.com/app/7066/release/1.3.0/download/",
+          "path": "https://splunkbase.splunk.com/app/7066/release/1.3.1/download/",
           "platform": "independent",
           "product_types": [
             "enterprise",
@@ -109,11 +111,11 @@
           ],
           "public": null,
           "public_ever_true": false,
-          "published_datetime": "2025-07-02T20:23:52.516205Z",
-          "release_notes": "<h1>Fixed issues</h1>\n<ul>\n<li>Fix issue with EOL'ed dependencies (Viz) (#138)</li>\n<li>Fix conflict with <code>nist_lookup/nist.csv</code> in ES 8.1 (#139)<blockquote>\n<p>Note: As a result of the above fix, all lookups have been prefixed with \"di\".</p>\n</blockquote>\n</li>\n<li>Look into removing macros that are no longer used (#130)</li>\n</ul>\n<h1>Others / Code Quality</h1>\n<ul>\n<li>Repackaged the deprecated <strong>Calendar Heat Map - Custom Visualization</strong> with a new ID so it can still be used in this app despite being out of support (from Splunk) officially.  See the application's prerequisite tab for details/download.  The application supports using both the original or the newly repackaged version.</li>\n<li>Removed the dependency on the <strong>Status Indicator - Custom Visualization</strong> app.</li>\n</ul>",
-          "sha256": "393f7991d5dfae7cb02419bdb8253e92e6c40e2f61f81e578eec14f998ea1f56",
+          "published_datetime": "2026-06-08T12:55:21.423539Z",
+          "release_notes": "<ul>\n<li>Added data_source information to the overview checks and multiple dashboards</li>\n</ul>\n<p><strong>Important Note:</strong>\u00a0This release has a new visualization requirement:\u00a0<a href=\"https://splunkbase.splunk.com/app/7977\">https://splunkbase.splunk.com/app/7977</a></p>",
+          "sha256": "d462c20a30a940f44b5b04d82da9ef2643ce2499205a029a9f7a0e4d21cf4196",
           "signed_available": true,
-          "size": 941580,
+          "size": 943993,
           "sourcetypes": [],
           "tags": [],
           "tags_sourcetypes": {},
@@ -152,41 +154,90 @@
               "id": 111,
               "status": "live",
               "versionString": "9.3"
-            },
-            {
-              "id": 110,
-              "status": "live",
-              "versionString": "9.2"
-            },
-            {
-              "id": 59,
-              "status": "live",
-              "versionString": "9.1"
-            },
-            {
-              "id": 54,
-              "status": "live",
-              "versionString": "9.0"
-            },
-            {
-              "id": 32,
-              "status": "live",
-              "versionString": "8.2"
-            },
-            {
-              "id": 31,
-              "status": "live",
-              "versionString": "8.1"
-            },
-            {
-              "id": 25,
-              "status": "live",
-              "versionString": "8.0"
             }
           ],
           "spl_compatibility": "SPL1"
         },
         "releases": [
+          {
+            "actions": [],
+            "cim_compatibility": [
+              "8.x",
+              "6.x",
+              "5.x"
+            ],
+            "CIM_versions": [
+              52,
+              19,
+              17
+            ],
+            "cloud_compatible": true,
+            "content": [],
+            "fips_compatibility": false,
+            "filename": "sa-detectioninsights_131.tar.gz",
+            "id": 43406,
+            "install_method_distributed": "appmgmt_phase",
+            "install_method_single": "simple",
+            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk App for Detection Insights\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"Splunk_App_for_Detection_Insights\",\n      \"version\": \"1.3.1\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Christian Cloutier\",\n        \"email\": \"ccloutier@splunk.com\",\n        \"company\": \"Splunk, Inc.\"\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Splunk App for Detection Insights aim to provide richer insights and visualizations of your Enterprise Security Security Detections.\",\n    \"classification\": {\n      \"intendedAudience\": \"Security Specialists\",\n      \"categories\": [\n        \"Security, Fraud & Compliance\"\n      ],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": \"Splunk General Terms (SGT)\",\n      \"text\": \"./README\",\n      \"uri\": \"https://www.splunk.com/en_us/legal/splunk-general-terms.html\"\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\"\n  ],\n  \"targetWorkloads\": [\n    \"_search_heads\"\n  ]\n}",
+            "md5": "d0e62c0c683ce71d4f1c73cb4e5d4f18",
+            "min_product_version_str": null,
+            "name": "1.3.1",
+            "passed_validation": true,
+            "path": "https://splunkbase.splunk.com/app/7066/release/1.3.1/download/",
+            "platform": "independent",
+            "product_types": [
+              "enterprise",
+              "cloud"
+            ],
+            "public": null,
+            "public_ever_true": false,
+            "published_datetime": "2026-06-08T12:55:21.423539Z",
+            "release_notes": "<ul>\n<li>Added data_source information to the overview checks and multiple dashboards</li>\n</ul>\n<p><strong>Important Note:</strong>\u00a0This release has a new visualization requirement:\u00a0<a href=\"https://splunkbase.splunk.com/app/7977\">https://splunkbase.splunk.com/app/7977</a></p>",
+            "sha256": "d462c20a30a940f44b5b04d82da9ef2643ce2499205a029a9f7a0e4d21cf4196",
+            "signed_available": true,
+            "size": 943993,
+            "sourcetypes": [],
+            "tags": [],
+            "tags_sourcetypes": {},
+            "version_compatibility": [
+              {
+                "id": 129,
+                "status": "live",
+                "versionString": "10.4"
+              },
+              {
+                "id": 128,
+                "status": "live",
+                "versionString": "10.3"
+              },
+              {
+                "id": 127,
+                "status": "live",
+                "versionString": "10.2"
+              },
+              {
+                "id": 121,
+                "status": "live",
+                "versionString": "10.1"
+              },
+              {
+                "id": 119,
+                "status": "live",
+                "versionString": "10.0"
+              },
+              {
+                "id": 115,
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "id": 111,
+                "status": "live",
+                "versionString": "9.3"
+              }
+            ],
+            "spl_compatibility": "SPL1"
+          },
           {
             "actions": [],
             "cim_compatibility": [
@@ -664,7 +715,7 @@
         "title": "SA-DetectionInsights",
         "troubleshooting": "<p>Please refer to the application documentation <a href=\"https://splunk.github.io/Splunk_App_for_Detection_Insights/\">here</a> for troubleshooting guidance.</p>",
         "troubleshooting_source": "Please refer to the application documentation [here](https://splunk.github.io/Splunk_App_for_Detection_Insights/) for troubleshooting guidance.",
-        "updated_time": "2026-04-30T13:35:31.809625Z",
+        "updated_time": "2026-06-08T13:01:47.553290Z",
         "video_link": null,
         "app_type": "app",
         "schedule_release": null,
@@ -686,7 +737,7 @@
   "query": {
     "id": "7066"
   },
-  "buildId": "81bid0MFgBUTGwD60cFzi",
+  "buildId": "8Go3rKT1_VxCZq_-EZlR0",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
