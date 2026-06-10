@@ -77,14 +77,12 @@
           "min_product_version_str": null,
           "name": "null",
           "passed_validation": false,
-          "path": null,
           "platform": "independent",
           "product_types": [],
           "public": null,
           "public_ever_true": false,
           "published_datetime": "2022-04-11T19:24:55.740289Z",
           "release_notes": "",
-          "sha256": null,
           "signed_available": false,
           "size": 0,
           "sourcetypes": [],
@@ -127,7 +125,7 @@
   "query": {
     "id": "6157"
   },
-  "buildId": "8Go3rKT1_VxCZq_-EZlR0",
+  "buildId": "kp0MagHg0j2yLuZm2Yb5i",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
