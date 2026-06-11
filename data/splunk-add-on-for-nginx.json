@@ -31,7 +31,7 @@
         "description": "The Splunk Add-on for NGINX allows a Splunk software administrator to collect Web server activities, performance metrics, and error logs using file monitoring and API inputs.\n\nThis add-on provides the inputs and CIM-compatible knowledge to use with other Splunk apps, such as Splunk Enterprise Security, the Splunk App for PCI Compliance, and Splunk IT Service Intelligence.",
         "documentation": "<p>Documentation for this Add-on is posted at <a href=\"http://docs.splunk.com/Documentation/AddOns/latest/nginx/About\" title=\"Splunk Docs\">Splunk Docs</a>.</p>",
         "documentation_source": "Documentation for this Add-on is posted at [Splunk Docs](http://docs.splunk.com/Documentation/AddOns/latest/nginx/About \"Splunk Docs\").",
-        "download_count": 91153,
+        "download_count": 91187,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/43731336-6aa4-11ef-ab3b-faca7e54e553.png",
         "inquiry_buttontext": "Learn More",
         "inquiry_url": "",
@@ -110,18 +110,18 @@
           "size": 868236,
           "sourcetypes": [
             "nginx:plus:error",
+            "nginx:plus:api",
             "nginx:app:protect",
-            "nginx:plus:kv",
             "nginx:plus:access",
-            "nginx:plus:api"
+            "nginx:plus:kv"
           ],
           "tags": [
+            "inventory",
             "attack",
-            "activity",
+            "__no_tag__",
             "web",
             "ids",
-            "__no_tag__",
-            "inventory",
+            "activity",
             "error"
           ],
           "tags_sourcetypes": {
@@ -242,18 +242,18 @@
             "size": 868236,
             "sourcetypes": [
               "nginx:plus:error",
+              "nginx:plus:api",
               "nginx:app:protect",
-              "nginx:plus:kv",
               "nginx:plus:access",
-              "nginx:plus:api"
+              "nginx:plus:kv"
             ],
             "tags": [
+              "inventory",
               "attack",
-              "activity",
+              "__no_tag__",
               "web",
               "ids",
-              "__no_tag__",
-              "inventory",
+              "activity",
               "error"
             ],
             "tags_sourcetypes": {
@@ -372,18 +372,18 @@
             "size": 723828,
             "sourcetypes": [
               "nginx:plus:error",
+              "nginx:plus:api",
               "nginx:app:protect",
-              "nginx:plus:kv",
               "nginx:plus:access",
-              "nginx:plus:api"
+              "nginx:plus:kv"
             ],
             "tags": [
+              "inventory",
               "attack",
-              "activity",
+              "__no_tag__",
               "web",
               "ids",
-              "__no_tag__",
-              "inventory",
+              "activity",
               "error"
             ],
             "tags_sourcetypes": {
@@ -498,7 +498,7 @@
   "query": {
     "id": "3258"
   },
-  "buildId": "kp0MagHg0j2yLuZm2Yb5i",
+  "buildId": "fnn7QBkJSkATzSFrY0cTZ",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
