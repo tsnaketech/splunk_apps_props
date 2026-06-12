@@ -4,7 +4,7 @@
       "appDetails": {
         "id": 3258,
         "access": "unrestricted",
-        "approval_status": "approved",
+        "approvalStatus": "approved",
         "categories": [
           {
             "id": 2,
@@ -17,56 +17,56 @@
             "label": "Security, Fraud & Compliance"
           }
         ],
-        "cloud_compatible": true,
+        "cloudCompatible": true,
         "contributors": [],
         "collections": [],
-        "contact_email": "",
-        "contact_notes": "",
-        "contact_notes_source": "",
-        "display_author": {
+        "contactEmail": "",
+        "contactNotes": "",
+        "contactNotesSource": "",
+        "displayAuthor": {
           "isPartner": false,
           "name": "Splunk LLC",
           "redirectTo": "Splunk"
         },
         "description": "The Splunk Add-on for NGINX allows a Splunk software administrator to collect Web server activities, performance metrics, and error logs using file monitoring and API inputs.\n\nThis add-on provides the inputs and CIM-compatible knowledge to use with other Splunk apps, such as Splunk Enterprise Security, the Splunk App for PCI Compliance, and Splunk IT Service Intelligence.",
         "documentation": "<p>Documentation for this Add-on is posted at <a href=\"http://docs.splunk.com/Documentation/AddOns/latest/nginx/About\" title=\"Splunk Docs\">Splunk Docs</a>.</p>",
-        "documentation_source": "Documentation for this Add-on is posted at [Splunk Docs](http://docs.splunk.com/Documentation/AddOns/latest/nginx/About \"Splunk Docs\").",
-        "download_count": 91187,
+        "documentationSource": "Documentation for this Add-on is posted at [Splunk Docs](http://docs.splunk.com/Documentation/AddOns/latest/nginx/About \"Splunk Docs\").",
+        "downloadCount": 91203,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/43731336-6aa4-11ef-ab3b-faca7e54e553.png",
-        "inquiry_buttontext": "Learn More",
-        "inquiry_url": "",
-        "is_archived": false,
-        "is_directory_listing": false,
-        "is_soar_certified": false,
-        "is_splunk_built": true,
+        "inquiryButtonText": "Learn More",
+        "inquiryUrl": "",
+        "isArchived": false,
+        "isDirectoryListing": false,
+        "isSoarCertified": false,
+        "isSplunkBuilt": true,
         "installation": "",
-        "installation_source": "",
+        "installationSource": "",
         "license": {
-          "canonical_name": "Splunk General Terms",
-          "display_name": "Splunk General Terms",
+          "canonicalName": "Splunk General Terms",
+          "displayName": "Splunk General Terms",
           "url": "https://www.splunk.com/en_us/legal/splunk-general-terms.html"
         },
-        "license_name": "Splunk General Terms",
-        "license_url": "https://www.splunk.com/en_us/legal/splunk-general-terms.html",
-        "license_agreement_read_required": false,
-        "partner_metadata": null,
-        "pending_owner_transfer_event": null,
+        "licenseName": "Splunk General Terms",
+        "licenseUrl": "https://www.splunk.com/en_us/legal/splunk-general-terms.html",
+        "licenseAgreementReadRequired": false,
+        "partnerMetadata": null,
+        "pendingOwnerTransferEvent": null,
         "product": "splunk",
-        "product_compatibility": "splunk",
-        "product_types": [
+        "productCompatibility": "splunk",
+        "productTypes": [
           "enterprise"
         ],
         "public": true,
         "ranking": [
           {
-            "rank": 23,
-            "category_name": "it_operations_management",
-            "category_display_name": "IT Operations"
+            "categoryDisplayName": "IT Operations",
+            "categoryName": "it_operations_management",
+            "rank": 23
           },
           {
-            "rank": 24,
-            "category_name": "security_compliance",
-            "category_display_name": "Security, Fraud & Compliance"
+            "categoryDisplayName": "Security, Fraud & Compliance",
+            "categoryName": "security_compliance",
+            "rank": 24
           }
         ],
         "rating": {
@@ -75,56 +75,56 @@
         },
         "release": {
           "actions": [],
-          "cim_compatibility": [
+          "cimCompatibility": [
             "5.x"
           ],
-          "CIM_versions": [
+          "cimVersions": [
             17
           ],
-          "cloud_compatible": true,
+          "cloudCompatible": true,
           "content": [
             "inputs"
           ],
-          "fips_compatibility": false,
+          "fipsCompatibility": false,
           "filename": "splunk-add-on-for-nginx_330.tgz",
           "id": 34511,
-          "install_method_distributed": "appmgmt_phase",
-          "install_method_single": "simple",
+          "installMethodDistributed": "appmgmt_phase",
+          "installMethodSingle": "simple",
           "manifest": "{\n  \"dependencies\": null,\n  \"incompatibleApps\": null,\n  \"info\": {\n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"classification\": {\n      \"categories\": [\n        \"IT Operations\",\n        \"Security, Fraud & Compliance\"\n      ],\n      \"developmentStatus\": \"Production/Stable\",\n      \"intendedAudience\": \"IT Professionals\"\n    },\n    \"commonInformationModels\": {\n      \"Intrusion Detection\": \"==5.0.1\",\n      \"Web\": \"==5.0.1\"\n    },\n    \"description\": \"Splunk Add-on for Nginx\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"Splunk_TA_nginx\",\n      \"version\": \"3.3.0\"\n    },\n    \"license\": {\n      \"name\": \"Splunk Software License Agreement\",\n      \"text\": \"LICENSES/LicenseRef-Splunk-8-2021.txt\",\n      \"uri\": \"http://www.splunk.com/view/SP-CAAAAFA\"\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseDate\": null,\n    \"releaseNotes\": {\n      \"name\": \"README\",\n      \"text\": \"README.txt\",\n      \"uri\": \"https://docs.splunk.com/Documentation/AddOns/released/NGINX/Releasenotes\"\n    },\n    \"title\": \"Splunk Add-on for Nginx\"\n  },\n  \"inputGroups\": null,\n  \"platformRequirements\": null,\n  \"schemaVersion\": \"2.0.0\",\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\",\n    \"_search_head_clustering\"\n  ],\n  \"targetWorkloads\": [\n    \"_indexers\",\n    \"_search_heads\",\n    \"_forwarders\"\n  ],\n  \"tasks\": null\n}",
           "md5": "8be4cf5624bb2df71e5fb88d77181237",
-          "min_product_version_str": null,
+          "minProductVersionStr": null,
           "name": "3.3.0",
-          "passed_validation": true,
+          "passedValidation": true,
           "path": "https://splunkbase.splunk.com/app/3258/release/3.3.0/download/",
           "platform": "independent",
-          "product_types": [
+          "productTypes": [
             "enterprise",
             "cloud"
           ],
           "public": null,
-          "public_ever_true": false,
-          "published_datetime": "2024-09-09T16:09:29.716407Z",
-          "release_notes": "",
+          "publicEverTrue": false,
+          "publishedDatetime": "2024-09-09T16:09:29.716407Z",
+          "releaseNotes": "",
           "sha256": "41b6864ba610385347553340e4056aa3007ec4684140e2842b1884bef4360cad",
-          "signed_available": true,
+          "signedAvailable": true,
           "size": 868236,
           "sourcetypes": [
-            "nginx:plus:error",
-            "nginx:plus:api",
             "nginx:app:protect",
-            "nginx:plus:access",
-            "nginx:plus:kv"
+            "nginx:plus:kv",
+            "nginx:plus:api",
+            "nginx:plus:error",
+            "nginx:plus:access"
           ],
           "tags": [
-            "inventory",
-            "attack",
+            "error",
+            "ids",
             "__no_tag__",
             "web",
-            "ids",
+            "attack",
             "activity",
-            "error"
+            "inventory"
           ],
-          "tags_sourcetypes": {
+          "tagsSourcetypes": {
             "__no_tag__": [
               "nginx:plus:api"
             ],
@@ -150,7 +150,7 @@
               "nginx:plus:access"
             ]
           },
-          "version_compatibility": [
+          "versionCompatibility": [
             {
               "id": 129,
               "status": "live",
@@ -202,61 +202,61 @@
               "versionString": "9.0"
             }
           ],
-          "spl_compatibility": "SPL1"
+          "splCompatibility": "SPL1"
         },
         "releases": [
           {
             "actions": [],
-            "cim_compatibility": [
+            "cimCompatibility": [
               "5.x"
             ],
-            "CIM_versions": [
+            "cimVersions": [
               17
             ],
-            "cloud_compatible": true,
+            "cloudCompatible": true,
             "content": [
               "inputs"
             ],
-            "fips_compatibility": false,
+            "fipsCompatibility": false,
             "filename": "splunk-add-on-for-nginx_330.tgz",
             "id": 34511,
-            "install_method_distributed": "appmgmt_phase",
-            "install_method_single": "simple",
+            "installMethodDistributed": "appmgmt_phase",
+            "installMethodSingle": "simple",
             "manifest": "{\n  \"dependencies\": null,\n  \"incompatibleApps\": null,\n  \"info\": {\n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"classification\": {\n      \"categories\": [\n        \"IT Operations\",\n        \"Security, Fraud & Compliance\"\n      ],\n      \"developmentStatus\": \"Production/Stable\",\n      \"intendedAudience\": \"IT Professionals\"\n    },\n    \"commonInformationModels\": {\n      \"Intrusion Detection\": \"==5.0.1\",\n      \"Web\": \"==5.0.1\"\n    },\n    \"description\": \"Splunk Add-on for Nginx\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"Splunk_TA_nginx\",\n      \"version\": \"3.3.0\"\n    },\n    \"license\": {\n      \"name\": \"Splunk Software License Agreement\",\n      \"text\": \"LICENSES/LicenseRef-Splunk-8-2021.txt\",\n      \"uri\": \"http://www.splunk.com/view/SP-CAAAAFA\"\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseDate\": null,\n    \"releaseNotes\": {\n      \"name\": \"README\",\n      \"text\": \"README.txt\",\n      \"uri\": \"https://docs.splunk.com/Documentation/AddOns/released/NGINX/Releasenotes\"\n    },\n    \"title\": \"Splunk Add-on for Nginx\"\n  },\n  \"inputGroups\": null,\n  \"platformRequirements\": null,\n  \"schemaVersion\": \"2.0.0\",\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\",\n    \"_search_head_clustering\"\n  ],\n  \"targetWorkloads\": [\n    \"_indexers\",\n    \"_search_heads\",\n    \"_forwarders\"\n  ],\n  \"tasks\": null\n}",
             "md5": "8be4cf5624bb2df71e5fb88d77181237",
-            "min_product_version_str": null,
+            "minProductVersionStr": null,
             "name": "3.3.0",
-            "passed_validation": true,
+            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/3258/release/3.3.0/download/",
             "platform": "independent",
-            "product_types": [
+            "productTypes": [
               "enterprise",
               "cloud"
             ],
             "public": null,
-            "public_ever_true": false,
-            "published_datetime": "2024-09-09T16:09:29.716407Z",
-            "release_notes": "",
+            "publicEverTrue": false,
+            "publishedDatetime": "2024-09-09T16:09:29.716407Z",
+            "releaseNotes": "",
             "sha256": "41b6864ba610385347553340e4056aa3007ec4684140e2842b1884bef4360cad",
-            "signed_available": true,
+            "signedAvailable": true,
             "size": 868236,
             "sourcetypes": [
-              "nginx:plus:error",
-              "nginx:plus:api",
               "nginx:app:protect",
-              "nginx:plus:access",
-              "nginx:plus:kv"
+              "nginx:plus:kv",
+              "nginx:plus:api",
+              "nginx:plus:error",
+              "nginx:plus:access"
             ],
             "tags": [
-              "inventory",
-              "attack",
+              "error",
+              "ids",
               "__no_tag__",
               "web",
-              "ids",
+              "attack",
               "activity",
-              "error"
+              "inventory"
             ],
-            "tags_sourcetypes": {
+            "tagsSourcetypes": {
               "__no_tag__": [
                 "nginx:plus:api"
               ],
@@ -282,7 +282,7 @@
                 "nginx:plus:access"
               ]
             },
-            "version_compatibility": [
+            "versionCompatibility": [
               {
                 "id": 129,
                 "status": "live",
@@ -334,59 +334,59 @@
                 "versionString": "9.0"
               }
             ],
-            "spl_compatibility": "SPL1"
+            "splCompatibility": "SPL1"
           },
           {
             "actions": [],
-            "cim_compatibility": [
+            "cimCompatibility": [
               "4.x"
             ],
-            "CIM_versions": [
+            "cimVersions": [
               16
             ],
-            "cloud_compatible": false,
+            "cloudCompatible": false,
             "content": [
               "inputs"
             ],
-            "fips_compatibility": true,
+            "fipsCompatibility": true,
             "filename": "splunk-add-on-for-nginx_300.tgz",
             "id": 18499,
-            "install_method_distributed": "rejected",
-            "install_method_single": "rejected",
+            "installMethodDistributed": "rejected",
+            "installMethodSingle": "rejected",
             "manifest": null,
             "md5": "2205e4d24c130410fd8a1688fa0e0d39",
-            "min_product_version_str": null,
+            "minProductVersionStr": null,
             "name": "3.0.0",
-            "passed_validation": true,
+            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/3258/release/3.0.0/download/",
             "platform": "independent",
-            "product_types": [
+            "productTypes": [
               "enterprise"
             ],
             "public": null,
-            "public_ever_true": false,
-            "published_datetime": "2020-10-16T20:54:48.331641Z",
-            "release_notes": "",
+            "publicEverTrue": false,
+            "publishedDatetime": "2020-10-16T20:54:48.331641Z",
+            "releaseNotes": "",
             "sha256": "4cfa7d20c7bef95477a6df29e98f029a3feb24249130358293a681a517c4785d",
-            "signed_available": true,
+            "signedAvailable": true,
             "size": 723828,
             "sourcetypes": [
-              "nginx:plus:error",
-              "nginx:plus:api",
               "nginx:app:protect",
-              "nginx:plus:access",
-              "nginx:plus:kv"
+              "nginx:plus:kv",
+              "nginx:plus:api",
+              "nginx:plus:error",
+              "nginx:plus:access"
             ],
             "tags": [
-              "inventory",
-              "attack",
+              "error",
+              "ids",
               "__no_tag__",
               "web",
-              "ids",
+              "attack",
               "activity",
-              "error"
+              "inventory"
             ],
-            "tags_sourcetypes": {
+            "tagsSourcetypes": {
               "__no_tag__": [
                 "nginx:plus:api"
               ],
@@ -412,7 +412,7 @@
                 "nginx:plus:access"
               ]
             },
-            "version_compatibility": [
+            "versionCompatibility": [
               {
                 "id": 115,
                 "status": "live",
@@ -464,27 +464,27 @@
                 "versionString": "7.2"
               }
             ],
-            "spl_compatibility": "SPL1"
+            "splCompatibility": "SPL1"
           }
         ],
-        "repo_name": "",
-        "repo_url": "",
+        "repoName": "",
+        "repoUrl": "",
         "screenshots": [],
-        "show_as_built_by": null,
-        "short_description": "",
+        "showAsBuiltBy": null,
+        "shortDescription": "",
         "support": "splunk",
         "title": "Splunk Add-on for NGINX",
         "troubleshooting": "",
-        "troubleshooting_source": "",
-        "updated_time": "2026-04-29T18:56:11.570370Z",
-        "video_link": null,
-        "app_type": "addon",
-        "schedule_release": null,
+        "troubleshootingSource": "",
+        "updatedTime": "2026-04-29T18:56:11.570370Z",
+        "videoLink": null,
+        "appType": "addon",
+        "scheduleRelease": null,
         "name": "Splunk Add-on for NGINX",
-        "published_datetime": "2016-08-08T04:22:59.771573Z",
+        "publishedDatetime": "2016-08-08T04:22:59.771573Z",
         "draft": false,
-        "display_editors": false,
-        "spl_compatibility": "SPL1"
+        "displayEditors": false,
+        "splCompatibility": "SPL1"
       },
       "initialAuthState": {
         "isLoggedIn": false,
@@ -498,7 +498,7 @@
   "query": {
     "id": "3258"
   },
-  "buildId": "fnn7QBkJSkATzSFrY0cTZ",
+  "buildId": "9lPt_ufMPny3r4cGzxBGg",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

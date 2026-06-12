@@ -4,7 +4,7 @@
       "appDetails": {
         "id": 2962,
         "access": "unrestricted",
-        "approval_status": "approved",
+        "approvalStatus": "approved",
         "categories": [
           {
             "id": 1,
@@ -17,56 +17,56 @@
             "label": "Utilities"
           }
         ],
-        "cloud_compatible": false,
+        "cloudCompatible": false,
         "contributors": [],
         "collections": [],
-        "contact_email": "",
-        "contact_notes": "",
-        "contact_notes_source": "",
-        "display_author": {
+        "contactEmail": "",
+        "contactNotes": "",
+        "contactNotesSource": "",
+        "displayAuthor": {
           "isPartner": false,
           "name": "Splunk LLC",
           "redirectTo": "Splunk"
         },
         "description": "The Splunk Add-on Builder is a Splunk app that helps you build and validate technology add-ons for your Splunk Enterprise deployment. \n\nThe goals of the Splunk Add-on Builder are to:\n* Guide you through all of the necessary steps of creating an add-on\n* Build alert actions and adaptive response actions for Splunk Enterprise Security\n* Reduce development and testing time\n* Follow best practices and naming conventions\n* Maintain CIM compliance\n* Maintain quality of add-ons\n*  Validate and test the add-on, helping you to check for certification readiness and to identify any limitations such as compatibilities and dependencies\n* Maintain a consistent look and feel while still making it easy for you to add branding",
         "documentation": "<p>For documentation, see the <a href=\"http://docs.splunk.com/Documentation/AddonBuilder/latest/UserGuide/Overview\">Splunk Add-on Builder User Guide</a>.</p>",
-        "documentation_source": "For documentation, see the [Splunk Add-on Builder User Guide](http://docs.splunk.com/Documentation/AddonBuilder/latest/UserGuide/Overview).",
-        "download_count": 83692,
+        "documentationSource": "For documentation, see the [Splunk Add-on Builder User Guide](http://docs.splunk.com/Documentation/AddonBuilder/latest/UserGuide/Overview).",
+        "downloadCount": 83714,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/aaa700e8-9ea7-11f0-8de2-aa0bae502bcc.png",
-        "inquiry_buttontext": "Join Pre-release Program",
-        "inquiry_url": "http://goo.gl/forms/I0UQhn3U4C",
-        "is_archived": false,
-        "is_directory_listing": false,
-        "is_soar_certified": false,
-        "is_splunk_built": true,
+        "inquiryButtonText": "Join Pre-release Program",
+        "inquiryUrl": "http://goo.gl/forms/I0UQhn3U4C",
+        "isArchived": false,
+        "isDirectoryListing": false,
+        "isSoarCertified": false,
+        "isSplunkBuilt": true,
         "installation": "",
-        "installation_source": "",
+        "installationSource": "",
         "license": {
-          "canonical_name": "Splunk App End User License Agreement",
-          "display_name": "Splunk App End User License Agreement",
+          "canonicalName": "Splunk App End User License Agreement",
+          "displayName": "Splunk App End User License Agreement",
           "url": "https://www.splunk.com/en_us/legal/splunk-general-terms.html#splunk-warranties"
         },
-        "license_name": "Splunk App End User License Agreement",
-        "license_url": "https://www.splunk.com/en_us/legal/splunk-general-terms.html#splunk-warranties",
-        "license_agreement_read_required": false,
-        "partner_metadata": null,
-        "pending_owner_transfer_event": null,
+        "licenseName": "Splunk App End User License Agreement",
+        "licenseUrl": "https://www.splunk.com/en_us/legal/splunk-general-terms.html#splunk-warranties",
+        "licenseAgreementReadRequired": false,
+        "partnerMetadata": null,
+        "pendingOwnerTransferEvent": null,
         "product": "splunk",
-        "product_compatibility": "splunk",
-        "product_types": [
+        "productCompatibility": "splunk",
+        "productTypes": [
           "enterprise"
         ],
         "public": true,
         "ranking": [
           {
-            "rank": 10,
-            "category_name": "utilities",
-            "category_display_name": "Utilities"
+            "categoryDisplayName": "Utilities",
+            "categoryName": "utilities",
+            "rank": 10
           },
           {
-            "rank": 29,
-            "category_name": "security_compliance",
-            "category_display_name": "Security, Fraud & Compliance"
+            "categoryDisplayName": "Security, Fraud & Compliance",
+            "categoryName": "security_compliance",
+            "rank": 29
           }
         ],
         "rating": {
@@ -75,54 +75,54 @@
         },
         "release": {
           "actions": [],
-          "cim_compatibility": [
+          "cimCompatibility": [
             "5.x"
           ],
-          "CIM_versions": [
+          "cimVersions": [
             17
           ],
-          "cloud_compatible": false,
+          "cloudCompatible": false,
           "content": [
             "inputs"
           ],
-          "fips_compatibility": false,
+          "fipsCompatibility": false,
           "filename": "splunk-add-on-builder_451.tgz",
           "id": 39849,
-          "install_method_distributed": "rejected",
-          "install_method_single": "rejected",
+          "installMethodDistributed": "rejected",
+          "installMethodSingle": "rejected",
           "manifest": null,
           "md5": "d224cca4d718b83a4baa57fbd86d755e",
-          "min_product_version_str": null,
+          "minProductVersionStr": null,
           "name": "4.5.1",
-          "passed_validation": true,
+          "passedValidation": true,
           "path": "https://splunkbase.splunk.com/app/2962/release/4.5.1/download/",
           "platform": "independent",
-          "product_types": [
+          "productTypes": [
             "enterprise"
           ],
           "public": null,
-          "public_ever_true": false,
-          "published_datetime": "2025-10-01T10:11:03.930482Z",
-          "release_notes": "",
+          "publicEverTrue": false,
+          "publishedDatetime": "2025-10-01T10:11:03.930482Z",
+          "releaseNotes": "",
           "sha256": "ea5785208d230ac321804fb1d2e1e211c1394fc87776ded684e1632b23f10b8a",
-          "signed_available": true,
+          "signedAvailable": true,
           "size": 24606289,
           "sourcetypes": [
             "splunk:tabuilder:validation",
-            "splunk:aob:monitor:metric",
-            "splunk:tabuilder:log"
+            "splunk:tabuilder:log",
+            "splunk:aob:monitor:metric"
           ],
           "tags": [
             "__no_tag__"
           ],
-          "tags_sourcetypes": {
+          "tagsSourcetypes": {
             "__no_tag__": [
               "splunk:tabuilder:validation",
               "splunk:tabuilder:log",
               "splunk:aob:monitor:metric"
             ]
           },
-          "version_compatibility": [
+          "versionCompatibility": [
             {
               "id": 129,
               "status": "live",
@@ -169,59 +169,59 @@
               "versionString": "9.1"
             }
           ],
-          "spl_compatibility": "SPL1"
+          "splCompatibility": "SPL1"
         },
         "releases": [
           {
             "actions": [],
-            "cim_compatibility": [
+            "cimCompatibility": [
               "5.x"
             ],
-            "CIM_versions": [
+            "cimVersions": [
               17
             ],
-            "cloud_compatible": false,
+            "cloudCompatible": false,
             "content": [
               "inputs"
             ],
-            "fips_compatibility": false,
+            "fipsCompatibility": false,
             "filename": "splunk-add-on-builder_451.tgz",
             "id": 39849,
-            "install_method_distributed": "rejected",
-            "install_method_single": "rejected",
+            "installMethodDistributed": "rejected",
+            "installMethodSingle": "rejected",
             "manifest": null,
             "md5": "d224cca4d718b83a4baa57fbd86d755e",
-            "min_product_version_str": null,
+            "minProductVersionStr": null,
             "name": "4.5.1",
-            "passed_validation": true,
+            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/2962/release/4.5.1/download/",
             "platform": "independent",
-            "product_types": [
+            "productTypes": [
               "enterprise"
             ],
             "public": null,
-            "public_ever_true": false,
-            "published_datetime": "2025-10-01T10:11:03.930482Z",
-            "release_notes": "",
+            "publicEverTrue": false,
+            "publishedDatetime": "2025-10-01T10:11:03.930482Z",
+            "releaseNotes": "",
             "sha256": "ea5785208d230ac321804fb1d2e1e211c1394fc87776ded684e1632b23f10b8a",
-            "signed_available": true,
+            "signedAvailable": true,
             "size": 24606289,
             "sourcetypes": [
               "splunk:tabuilder:validation",
-              "splunk:aob:monitor:metric",
-              "splunk:tabuilder:log"
+              "splunk:tabuilder:log",
+              "splunk:aob:monitor:metric"
             ],
             "tags": [
               "__no_tag__"
             ],
-            "tags_sourcetypes": {
+            "tagsSourcetypes": {
               "__no_tag__": [
                 "splunk:tabuilder:validation",
                 "splunk:tabuilder:log",
                 "splunk:aob:monitor:metric"
               ]
             },
-            "version_compatibility": [
+            "versionCompatibility": [
               {
                 "id": 129,
                 "status": "live",
@@ -268,58 +268,58 @@
                 "versionString": "9.1"
               }
             ],
-            "spl_compatibility": "SPL1"
+            "splCompatibility": "SPL1"
           },
           {
             "actions": [],
-            "cim_compatibility": [
+            "cimCompatibility": [
               "5.x"
             ],
-            "CIM_versions": [
+            "cimVersions": [
               17
             ],
-            "cloud_compatible": false,
+            "cloudCompatible": false,
             "content": [
               "inputs"
             ],
-            "fips_compatibility": false,
+            "fipsCompatibility": false,
             "filename": "splunk-add-on-builder_450.tgz",
             "id": 37995,
-            "install_method_distributed": "rejected",
-            "install_method_single": "rejected",
+            "installMethodDistributed": "rejected",
+            "installMethodSingle": "rejected",
             "manifest": null,
             "md5": "49634d5413f191281c7b32270aa28ec5",
-            "min_product_version_str": null,
+            "minProductVersionStr": null,
             "name": "4.5.0",
-            "passed_validation": true,
+            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/2962/release/4.5.0/download/",
             "platform": "independent",
-            "product_types": [
+            "productTypes": [
               "enterprise"
             ],
             "public": null,
-            "public_ever_true": false,
-            "published_datetime": "2025-05-28T13:53:13.238475Z",
-            "release_notes": "",
+            "publicEverTrue": false,
+            "publishedDatetime": "2025-05-28T13:53:13.238475Z",
+            "releaseNotes": "",
             "sha256": "c109d1abdb297410b7c76094ea7558bf8003af75620322b161445085636304ef",
-            "signed_available": true,
+            "signedAvailable": true,
             "size": 23058641,
             "sourcetypes": [
               "splunk:tabuilder:validation",
-              "splunk:aob:monitor:metric",
-              "splunk:tabuilder:log"
+              "splunk:tabuilder:log",
+              "splunk:aob:monitor:metric"
             ],
             "tags": [
               "__no_tag__"
             ],
-            "tags_sourcetypes": {
+            "tagsSourcetypes": {
               "__no_tag__": [
                 "splunk:tabuilder:validation",
                 "splunk:tabuilder:log",
                 "splunk:aob:monitor:metric"
               ]
             },
-            "version_compatibility": [
+            "versionCompatibility": [
               {
                 "id": 121,
                 "status": "live",
@@ -346,11 +346,11 @@
                 "versionString": "9.2"
               }
             ],
-            "spl_compatibility": "SPL1"
+            "splCompatibility": "SPL1"
           }
         ],
-        "repo_name": "",
-        "repo_url": "",
+        "repoName": "",
+        "repoUrl": "",
         "screenshots": [
           "https://cdn.splunkbase.splunk.com/media/public/screenshots/da4a48dc-90d3-11e6-9c31-064a37f1a5b3.png",
           "https://cdn.splunkbase.splunk.com/media/public/screenshots/dcc902f6-90d3-11e6-a53d-064a37f1a5b3.png",
@@ -358,21 +358,21 @@
           "https://cdn.splunkbase.splunk.com/media/public/screenshots/2584b21e-90d5-11e6-93ff-064a37f1a5b3.png",
           "https://cdn.splunkbase.splunk.com/media/public/screenshots/288d3b84-90d5-11e6-9c31-064a37f1a5b3.png"
         ],
-        "show_as_built_by": null,
-        "short_description": "",
+        "showAsBuiltBy": null,
+        "shortDescription": "",
         "support": "splunk",
         "title": "Splunk Add-on Builder",
         "troubleshooting": "",
-        "troubleshooting_source": "",
-        "updated_time": "2026-03-27T15:17:20.132386Z",
-        "video_link": null,
-        "app_type": "app",
-        "schedule_release": null,
+        "troubleshootingSource": "",
+        "updatedTime": "2026-03-27T15:17:20.132386Z",
+        "videoLink": null,
+        "appType": "app",
+        "scheduleRelease": null,
         "name": "Splunk Add-on Builder",
-        "published_datetime": "2015-12-01T00:39:02.700116Z",
+        "publishedDatetime": "2015-12-01T00:39:02.700116Z",
         "draft": false,
-        "display_editors": false,
-        "spl_compatibility": "SPL1"
+        "displayEditors": false,
+        "splCompatibility": "SPL1"
       },
       "initialAuthState": {
         "isLoggedIn": false,
@@ -386,7 +386,7 @@
   "query": {
     "id": "2962"
   },
-  "buildId": "fnn7QBkJSkATzSFrY0cTZ",
+  "buildId": "9lPt_ufMPny3r4cGzxBGg",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

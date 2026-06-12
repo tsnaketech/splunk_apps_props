@@ -4,7 +4,7 @@
       "appDetails": {
         "id": 3186,
         "access": "unrestricted",
-        "approval_status": "approved",
+        "approvalStatus": "approved",
         "categories": [
           {
             "id": 2,
@@ -12,51 +12,51 @@
             "label": "IT Operations"
           }
         ],
-        "cloud_compatible": true,
+        "cloudCompatible": true,
         "contributors": [],
         "collections": [],
-        "contact_email": "",
-        "contact_notes": "",
-        "contact_notes_source": "",
-        "display_author": {
+        "contactEmail": "",
+        "contactNotes": "",
+        "contactNotesSource": "",
+        "displayAuthor": {
           "isPartner": false,
           "name": "Splunk LLC",
           "redirectTo": "Splunk"
         },
         "description": "The Splunk Add-on for Apache Web Server allows a Splunk software administrator to collect and analyze data from Apache Web Server using file monitoring. After the Splunk platform indexes the events, you can analyze the data using the prebuilt panels included with the add-on. \n\nThis add-on provides the inputs and CIM-compatible knowledge to use with other Splunk apps, such as Web.",
         "documentation": "<p>Documentation for this add-on can be found here: <a href=\"http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About\">http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About</a></p>",
-        "documentation_source": "Documentation for this add-on can be found here: http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About",
-        "download_count": 37001,
+        "documentationSource": "Documentation for this add-on can be found here: http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About",
+        "downloadCount": 37021,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/c349dc2a-3401-11f1-9b1f-5ab5123230fd.png",
-        "inquiry_buttontext": "Learn More",
-        "inquiry_url": null,
-        "is_archived": false,
-        "is_directory_listing": false,
-        "is_soar_certified": false,
-        "is_splunk_built": true,
+        "inquiryButtonText": "Learn More",
+        "inquiryUrl": null,
+        "isArchived": false,
+        "isDirectoryListing": false,
+        "isSoarCertified": false,
+        "isSplunkBuilt": true,
         "installation": "",
-        "installation_source": "",
+        "installationSource": "",
         "license": {
-          "canonical_name": "Splunk General Terms",
-          "display_name": "Splunk General Terms",
+          "canonicalName": "Splunk General Terms",
+          "displayName": "Splunk General Terms",
           "url": "https://www.splunk.com/en_us/legal/splunk-general-terms.html"
         },
-        "license_name": "Splunk General Terms",
-        "license_url": "https://www.splunk.com/en_us/legal/splunk-general-terms.html",
-        "license_agreement_read_required": false,
-        "partner_metadata": null,
-        "pending_owner_transfer_event": null,
+        "licenseName": "Splunk General Terms",
+        "licenseUrl": "https://www.splunk.com/en_us/legal/splunk-general-terms.html",
+        "licenseAgreementReadRequired": false,
+        "partnerMetadata": null,
+        "pendingOwnerTransferEvent": null,
         "product": "splunk",
-        "product_compatibility": "splunk",
-        "product_types": [
+        "productCompatibility": "splunk",
+        "productTypes": [
           "enterprise"
         ],
         "public": true,
         "ranking": [
           {
-            "rank": 64,
-            "category_name": "it_operations_management",
-            "category_display_name": "IT Operations"
+            "categoryDisplayName": "IT Operations",
+            "categoryName": "it_operations_management",
+            "rank": 64
           }
         ],
         "rating": {
@@ -65,50 +65,50 @@
         },
         "release": {
           "actions": [],
-          "cim_compatibility": [
+          "cimCompatibility": [
             "6.x"
           ],
-          "CIM_versions": [
+          "cimVersions": [
             19
           ],
-          "cloud_compatible": true,
+          "cloudCompatible": true,
           "content": [],
-          "fips_compatibility": false,
+          "fipsCompatibility": false,
           "filename": "splunk-add-on-for-apache-web-server_300.spl",
           "id": 42297,
-          "install_method_distributed": "appmgmt_phase",
-          "install_method_single": "simple",
+          "installMethodDistributed": "appmgmt_phase",
+          "installMethodSingle": "simple",
           "manifest": "{\n  \"dependencies\": null,\n  \"incompatibleApps\": null,\n  \"info\": {\n    \"author\": [\n      {\n        \"name\": \"Splunk LLC\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"classification\": {\n      \"categories\": [\n        \"IT Operations\"\n      ],\n      \"developmentStatus\": \"Production/Stable\",\n      \"intendedAudience\": \"IT Professionals\"\n    },\n    \"commonInformationModels\": {\n      \"Web\": \"=6.2.0\"\n    },\n    \"description\": \"Splunk Add-on for Apache Web Server\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"Splunk_TA_apache\",\n      \"version\": \"3.0.0\"\n    },\n    \"license\": {\n      \"name\": null,\n      \"text\": \"LICENSES/LicenseRef-Splunk-8-2021.txt\",\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseDate\": null,\n    \"releaseNotes\": {\n      \"name\": \"README\",\n      \"text\": \"README.txt\",\n      \"uri\": \"https://docs.splunk.com/Documentation/AddOns/released/ApacheWebServer/About\"\n    },\n    \"title\": \"Splunk Add-on for Apache Web Server\"\n  },\n  \"inputGroups\": null,\n  \"platformRequirements\": null,\n  \"schemaVersion\": \"2.0.0\",\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\",\n    \"_search_head_clustering\"\n  ],\n  \"targetWorkloads\": [\n    \"_search_heads\",\n    \"_indexers\"\n  ],\n  \"tasks\": null\n}",
           "md5": "c4ab16911883b892891ef1e48a30b523",
-          "min_product_version_str": null,
+          "minProductVersionStr": null,
           "name": "3.0.0",
-          "passed_validation": true,
+          "passedValidation": true,
           "path": "https://splunkbase.splunk.com/app/3186/release/3.0.0/download/",
           "platform": "independent",
-          "product_types": [
+          "productTypes": [
             "enterprise",
             "cloud"
           ],
           "public": null,
-          "public_ever_true": false,
-          "published_datetime": "2026-04-09T10:49:20.173957Z",
-          "release_notes": "<p>Depreciated the support for python3.7 version<br>\nSecurity fixes</p>",
+          "publicEverTrue": false,
+          "publishedDatetime": "2026-04-09T10:49:20.173957Z",
+          "releaseNotes": "<p>Depreciated the support for python3.7 version<br>\nSecurity fixes</p>",
           "sha256": "cd9b7b0f4aaddcae1a777055e6e9174fb27f651868df1e3a2039360239146852",
-          "signed_available": true,
+          "signedAvailable": true,
           "size": 224485,
           "sourcetypes": [
             "apache:error",
             "apache:access:combined",
-            "apache:access:kv",
+            "apache:access",
             "apache:access:json",
-            "apache:access"
+            "apache:access:kv"
           ],
           "tags": [
+            "error",
             "web",
-            "__no_tag__",
-            "error"
+            "__no_tag__"
           ],
-          "tags_sourcetypes": {
+          "tagsSourcetypes": {
             "__no_tag__": [
               "apache:access:combined"
             ],
@@ -121,7 +121,7 @@
               "apache:access"
             ]
           },
-          "version_compatibility": [
+          "versionCompatibility": [
             {
               "id": 129,
               "status": "live",
@@ -158,55 +158,55 @@
               "versionString": "9.3"
             }
           ],
-          "spl_compatibility": "SPL1"
+          "splCompatibility": "SPL1"
         },
         "releases": [
           {
             "actions": [],
-            "cim_compatibility": [
+            "cimCompatibility": [
               "6.x"
             ],
-            "CIM_versions": [
+            "cimVersions": [
               19
             ],
-            "cloud_compatible": true,
+            "cloudCompatible": true,
             "content": [],
-            "fips_compatibility": false,
+            "fipsCompatibility": false,
             "filename": "splunk-add-on-for-apache-web-server_300.spl",
             "id": 42297,
-            "install_method_distributed": "appmgmt_phase",
-            "install_method_single": "simple",
+            "installMethodDistributed": "appmgmt_phase",
+            "installMethodSingle": "simple",
             "manifest": "{\n  \"dependencies\": null,\n  \"incompatibleApps\": null,\n  \"info\": {\n    \"author\": [\n      {\n        \"name\": \"Splunk LLC\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"classification\": {\n      \"categories\": [\n        \"IT Operations\"\n      ],\n      \"developmentStatus\": \"Production/Stable\",\n      \"intendedAudience\": \"IT Professionals\"\n    },\n    \"commonInformationModels\": {\n      \"Web\": \"=6.2.0\"\n    },\n    \"description\": \"Splunk Add-on for Apache Web Server\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"Splunk_TA_apache\",\n      \"version\": \"3.0.0\"\n    },\n    \"license\": {\n      \"name\": null,\n      \"text\": \"LICENSES/LicenseRef-Splunk-8-2021.txt\",\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseDate\": null,\n    \"releaseNotes\": {\n      \"name\": \"README\",\n      \"text\": \"README.txt\",\n      \"uri\": \"https://docs.splunk.com/Documentation/AddOns/released/ApacheWebServer/About\"\n    },\n    \"title\": \"Splunk Add-on for Apache Web Server\"\n  },\n  \"inputGroups\": null,\n  \"platformRequirements\": null,\n  \"schemaVersion\": \"2.0.0\",\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\",\n    \"_search_head_clustering\"\n  ],\n  \"targetWorkloads\": [\n    \"_search_heads\",\n    \"_indexers\"\n  ],\n  \"tasks\": null\n}",
             "md5": "c4ab16911883b892891ef1e48a30b523",
-            "min_product_version_str": null,
+            "minProductVersionStr": null,
             "name": "3.0.0",
-            "passed_validation": true,
+            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/3186/release/3.0.0/download/",
             "platform": "independent",
-            "product_types": [
+            "productTypes": [
               "enterprise",
               "cloud"
             ],
             "public": null,
-            "public_ever_true": false,
-            "published_datetime": "2026-04-09T10:49:20.173957Z",
-            "release_notes": "<p>Depreciated the support for python3.7 version<br>\nSecurity fixes</p>",
+            "publicEverTrue": false,
+            "publishedDatetime": "2026-04-09T10:49:20.173957Z",
+            "releaseNotes": "<p>Depreciated the support for python3.7 version<br>\nSecurity fixes</p>",
             "sha256": "cd9b7b0f4aaddcae1a777055e6e9174fb27f651868df1e3a2039360239146852",
-            "signed_available": true,
+            "signedAvailable": true,
             "size": 224485,
             "sourcetypes": [
               "apache:error",
               "apache:access:combined",
-              "apache:access:kv",
+              "apache:access",
               "apache:access:json",
-              "apache:access"
+              "apache:access:kv"
             ],
             "tags": [
+              "error",
               "web",
-              "__no_tag__",
-              "error"
+              "__no_tag__"
             ],
-            "tags_sourcetypes": {
+            "tagsSourcetypes": {
               "__no_tag__": [
                 "apache:access:combined"
               ],
@@ -219,7 +219,7 @@
                 "apache:access"
               ]
             },
-            "version_compatibility": [
+            "versionCompatibility": [
               {
                 "id": 129,
                 "status": "live",
@@ -256,27 +256,27 @@
                 "versionString": "9.3"
               }
             ],
-            "spl_compatibility": "SPL1"
+            "splCompatibility": "SPL1"
           }
         ],
-        "repo_name": "",
-        "repo_url": "",
+        "repoName": "",
+        "repoUrl": "",
         "screenshots": [],
-        "show_as_built_by": null,
-        "short_description": "",
+        "showAsBuiltBy": null,
+        "shortDescription": "",
         "support": "splunk",
         "title": "Splunk Add-on for Apache Web Server",
         "troubleshooting": "",
-        "troubleshooting_source": "",
-        "updated_time": "2026-04-23T15:58:59.172396Z",
-        "video_link": null,
-        "app_type": "addon",
-        "schedule_release": null,
+        "troubleshootingSource": "",
+        "updatedTime": "2026-04-23T15:58:59.172396Z",
+        "videoLink": null,
+        "appType": "addon",
+        "scheduleRelease": null,
         "name": "Splunk Add-on for Apache Web Server",
-        "published_datetime": "2016-06-07T23:37:51.978840Z",
+        "publishedDatetime": "2016-06-07T23:37:51.978840Z",
         "draft": false,
-        "display_editors": false,
-        "spl_compatibility": "SPL1"
+        "displayEditors": false,
+        "splCompatibility": "SPL1"
       },
       "initialAuthState": {
         "isLoggedIn": false,
@@ -290,7 +290,7 @@
   "query": {
     "id": "3186"
   },
-  "buildId": "fnn7QBkJSkATzSFrY0cTZ",
+  "buildId": "9lPt_ufMPny3r4cGzxBGg",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
