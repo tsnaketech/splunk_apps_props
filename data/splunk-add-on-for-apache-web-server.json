@@ -26,7 +26,7 @@
         "description": "The Splunk Add-on for Apache Web Server allows a Splunk software administrator to collect and analyze data from Apache Web Server using file monitoring. After the Splunk platform indexes the events, you can analyze the data using the prebuilt panels included with the add-on. \n\nThis add-on provides the inputs and CIM-compatible knowledge to use with other Splunk apps, such as Web.",
         "documentation": "<p>Documentation for this add-on can be found here: <a href=\"http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About\">http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About</a></p>",
         "documentationSource": "Documentation for this add-on can be found here: http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About",
-        "downloadCount": 37061,
+        "downloadCount": 37085,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/c349dc2a-3401-11f1-9b1f-5ab5123230fd.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": null,
@@ -49,7 +49,8 @@
         "product": "splunk",
         "productCompatibility": "splunk",
         "productTypes": [
-          "enterprise"
+          "enterprise",
+          "cloud"
         ],
         "public": true,
         "ranking": [
@@ -97,16 +98,16 @@
           "signedAvailable": true,
           "size": 224485,
           "sourcetypes": [
-            "apache:error",
-            "apache:access:combined",
             "apache:access",
+            "apache:access:combined",
             "apache:access:json",
+            "apache:error",
             "apache:access:kv"
           ],
           "tags": [
+            "error",
             "web",
-            "__no_tag__",
-            "error"
+            "__no_tag__"
           ],
           "tagsSourcetypes": {
             "__no_tag__": [
@@ -195,16 +196,16 @@
             "signedAvailable": true,
             "size": 224485,
             "sourcetypes": [
-              "apache:error",
-              "apache:access:combined",
               "apache:access",
+              "apache:access:combined",
               "apache:access:json",
+              "apache:error",
               "apache:access:kv"
             ],
             "tags": [
+              "error",
               "web",
-              "__no_tag__",
-              "error"
+              "__no_tag__"
             ],
             "tagsSourcetypes": {
               "__no_tag__": [
@@ -268,7 +269,7 @@
         "title": "Splunk Add-on for Apache Web Server",
         "troubleshooting": "",
         "troubleshootingSource": "",
-        "updatedTime": "2026-04-23T15:58:59.172396Z",
+        "updatedTime": "2026-06-15T10:38:31.304618Z",
         "videoLink": null,
         "appType": "addon",
         "scheduleRelease": null,
@@ -290,7 +291,7 @@
   "query": {
     "id": "3186"
   },
-  "buildId": "9lPt_ufMPny3r4cGzxBGg",
+  "buildId": "ogPwvh43HFIlGECCf2sDP",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
