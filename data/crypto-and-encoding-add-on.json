@@ -90,7 +90,62 @@
           "id": 39633,
           "installMethodDistributed": "appmgmt_phase",
           "installMethodSingle": "simple",
-          "manifest": "{\n    \"schemaVersion\": \"2.0.0\",\n    \"info\": {\n        \"title\": \"Crypto and Encoding Add-On\",\n        \"id\": {\n            \"group\": null,\n            \"name\": \"TA-cryptosuite\",\n            \"version\": \"2.4.3\"\n        },\n        \"author\": [\n            {\n                \"name\": \"Harun Kuessner\",\n                \"email\": null,\n                \"company\": null\n            }\n        ],\n        \"releaseDate\": null,\n        \"description\": \"Custom search commands for ciphering/deciphering, encrypting/decrypting, encoding/decoding and hashing fields and events at search time\",\n        \"classification\": {\n            \"intendedAudience\": null,\n            \"categories\": [],\n            \"developmentStatus\": null\n        },\n        \"commonInformationModels\": null,\n        \"license\": {\n            \"name\": null,\n            \"text\": null,\n            \"uri\": null\n        },\n        \"privacyPolicy\": {\n            \"name\": null,\n            \"text\": null,\n            \"uri\": null\n        },\n        \"releaseNotes\": {\n            \"name\": null,\n            \"text\": null,\n            \"uri\": null\n        }\n    },\n    \"dependencies\": {},\n    \"tasks\": [],\n    \"inputGroups\": {},\n    \"incompatibleApps\": {},\n    \"platformRequirements\": {\n        \"splunk\": {\n            \"Enterprise\": \"*\"\n        }\n    },\n    \"supportedDeployments\": [\n        \"*\"\n    ],\n    \"targetWorkloads\": [\n        \"*\"\n    ]\n}\n",
+          "manifest": {
+            "schemaVersion": "2.0.0",
+            "info": {
+              "title": "Crypto and Encoding Add-On",
+              "id": {
+                "group": null,
+                "name": "TA-cryptosuite",
+                "version": "2.4.3"
+              },
+              "author": [
+                {
+                  "name": "Harun Kuessner",
+                  "email": null,
+                  "company": null
+                }
+              ],
+              "releaseDate": null,
+              "description": "Custom search commands for ciphering/deciphering, encrypting/decrypting, encoding/decoding and hashing fields and events at search time",
+              "classification": {
+                "intendedAudience": null,
+                "categories": [],
+                "developmentStatus": null
+              },
+              "commonInformationModels": null,
+              "license": {
+                "name": null,
+                "text": null,
+                "uri": null
+              },
+              "privacyPolicy": {
+                "name": null,
+                "text": null,
+                "uri": null
+              },
+              "releaseNotes": {
+                "name": null,
+                "text": null,
+                "uri": null
+              }
+            },
+            "dependencies": {},
+            "tasks": [],
+            "inputGroups": {},
+            "incompatibleApps": {},
+            "platformRequirements": {
+              "splunk": {
+                "Enterprise": "*"
+              }
+            },
+            "supportedDeployments": [
+              "*"
+            ],
+            "targetWorkloads": [
+              "*"
+            ]
+          },
           "md5": "4d3c4f098ff864820aa47973828cffae",
           "minProductVersionStr": null,
           "name": "2.4.3",
@@ -186,7 +241,62 @@
             "id": 39633,
             "installMethodDistributed": "appmgmt_phase",
             "installMethodSingle": "simple",
-            "manifest": "{\n    \"schemaVersion\": \"2.0.0\",\n    \"info\": {\n        \"title\": \"Crypto and Encoding Add-On\",\n        \"id\": {\n            \"group\": null,\n            \"name\": \"TA-cryptosuite\",\n            \"version\": \"2.4.3\"\n        },\n        \"author\": [\n            {\n                \"name\": \"Harun Kuessner\",\n                \"email\": null,\n                \"company\": null\n            }\n        ],\n        \"releaseDate\": null,\n        \"description\": \"Custom search commands for ciphering/deciphering, encrypting/decrypting, encoding/decoding and hashing fields and events at search time\",\n        \"classification\": {\n            \"intendedAudience\": null,\n            \"categories\": [],\n            \"developmentStatus\": null\n        },\n        \"commonInformationModels\": null,\n        \"license\": {\n            \"name\": null,\n            \"text\": null,\n            \"uri\": null\n        },\n        \"privacyPolicy\": {\n            \"name\": null,\n            \"text\": null,\n            \"uri\": null\n        },\n        \"releaseNotes\": {\n            \"name\": null,\n            \"text\": null,\n            \"uri\": null\n        }\n    },\n    \"dependencies\": {},\n    \"tasks\": [],\n    \"inputGroups\": {},\n    \"incompatibleApps\": {},\n    \"platformRequirements\": {\n        \"splunk\": {\n            \"Enterprise\": \"*\"\n        }\n    },\n    \"supportedDeployments\": [\n        \"*\"\n    ],\n    \"targetWorkloads\": [\n        \"*\"\n    ]\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Crypto and Encoding Add-On",
+                "id": {
+                  "group": null,
+                  "name": "TA-cryptosuite",
+                  "version": "2.4.3"
+                },
+                "author": [
+                  {
+                    "name": "Harun Kuessner",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Custom search commands for ciphering/deciphering, encrypting/decrypting, encoding/decoding and hashing fields and events at search time",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": {},
+              "tasks": [],
+              "inputGroups": {},
+              "incompatibleApps": {},
+              "platformRequirements": {
+                "splunk": {
+                  "Enterprise": "*"
+                }
+              },
+              "supportedDeployments": [
+                "*"
+              ],
+              "targetWorkloads": [
+                "*"
+              ]
+            },
             "md5": "4d3c4f098ff864820aa47973828cffae",
             "minProductVersionStr": null,
             "name": "2.4.3",
@@ -277,7 +387,62 @@
             "id": 38811,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n    \"schemaVersion\": \"2.0.0\",\n    \"info\": {\n        \"title\": \"Crypto and Encoding Add-On\",\n        \"id\": {\n            \"group\": null,\n            \"name\": \"TA-cryptosuite\",\n            \"version\": \"2.4.2\"\n        },\n        \"author\": [\n            {\n                \"name\": \"Harun Kuessner\",\n                \"email\": null,\n                \"company\": null\n            }\n        ],\n        \"releaseDate\": null,\n        \"description\": \"Custom search commands for ciphering/deciphering, encrypting/decrypting, encoding/decoding and hashing fields and events at search time\",\n        \"classification\": {\n            \"intendedAudience\": null,\n            \"categories\": [],\n            \"developmentStatus\": null\n        },\n        \"commonInformationModels\": null,\n        \"license\": {\n            \"name\": null,\n            \"text\": null,\n            \"uri\": null\n        },\n        \"privacyPolicy\": {\n            \"name\": null,\n            \"text\": null,\n            \"uri\": null\n        },\n        \"releaseNotes\": {\n            \"name\": null,\n            \"text\": null,\n            \"uri\": null\n        }\n    },\n    \"dependencies\": {},\n    \"tasks\": [],\n    \"inputGroups\": {},\n    \"incompatibleApps\": {},\n    \"platformRequirements\": {\n        \"splunk\": {\n            \"Enterprise\": \"*\"\n        }\n    },\n    \"supportedDeployments\": [\n        \"*\"\n    ],\n    \"targetWorkloads\": [\n        \"*\"\n    ]\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Crypto and Encoding Add-On",
+                "id": {
+                  "group": null,
+                  "name": "TA-cryptosuite",
+                  "version": "2.4.2"
+                },
+                "author": [
+                  {
+                    "name": "Harun Kuessner",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Custom search commands for ciphering/deciphering, encrypting/decrypting, encoding/decoding and hashing fields and events at search time",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": {},
+              "tasks": [],
+              "inputGroups": {},
+              "incompatibleApps": {},
+              "platformRequirements": {
+                "splunk": {
+                  "Enterprise": "*"
+                }
+              },
+              "supportedDeployments": [
+                "*"
+              ],
+              "targetWorkloads": [
+                "*"
+              ]
+            },
             "md5": "a6d158cdeb5358db25ec702a8ff703de",
             "minProductVersionStr": null,
             "name": "2.4.2",
@@ -372,7 +537,62 @@
             "id": 36349,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n    \"schemaVersion\": \"2.0.0\",\n    \"info\": {\n        \"title\": \"Crypto and Encoding Add-On\",\n        \"id\": {\n            \"group\": null,\n            \"name\": \"TA-cryptosuite\",\n            \"version\": \"2.4.1\"\n        },\n        \"author\": [\n            {\n                \"name\": \"Harun Kuessner\",\n                \"email\": null,\n                \"company\": null\n            }\n        ],\n        \"releaseDate\": null,\n        \"description\": \"Custom search commands for ciphering/deciphering, encrypting/decrypting, encoding/decoding and hashing fields and events at search time\",\n        \"classification\": {\n            \"intendedAudience\": null,\n            \"categories\": [],\n            \"developmentStatus\": null\n        },\n        \"commonInformationModels\": null,\n        \"license\": {\n            \"name\": null,\n            \"text\": null,\n            \"uri\": null\n        },\n        \"privacyPolicy\": {\n            \"name\": null,\n            \"text\": null,\n            \"uri\": null\n        },\n        \"releaseNotes\": {\n            \"name\": null,\n            \"text\": null,\n            \"uri\": null\n        }\n    },\n    \"dependencies\": {},\n    \"tasks\": [],\n    \"inputGroups\": {},\n    \"incompatibleApps\": {},\n    \"platformRequirements\": {\n        \"splunk\": {\n            \"Enterprise\": \"*\"\n        }\n    },\n    \"supportedDeployments\": [\n        \"*\"\n    ],\n    \"targetWorkloads\": [\n        \"*\"\n    ]\n}",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Crypto and Encoding Add-On",
+                "id": {
+                  "group": null,
+                  "name": "TA-cryptosuite",
+                  "version": "2.4.1"
+                },
+                "author": [
+                  {
+                    "name": "Harun Kuessner",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Custom search commands for ciphering/deciphering, encrypting/decrypting, encoding/decoding and hashing fields and events at search time",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": {},
+              "tasks": [],
+              "inputGroups": {},
+              "incompatibleApps": {},
+              "platformRequirements": {
+                "splunk": {
+                  "Enterprise": "*"
+                }
+              },
+              "supportedDeployments": [
+                "*"
+              ],
+              "targetWorkloads": [
+                "*"
+              ]
+            },
             "md5": "079d31e7641ebda8600130218483711a",
             "minProductVersionStr": null,
             "name": "2.4.1",
@@ -457,7 +677,56 @@
             "id": 19148,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\r\n  \"schemaVersion\": \"1.0.0\",\r\n  \"info\": {\r\n    \"title\": \"Cryptosuite\",\r\n    \"id\": {\r\n      \"group\": null,\r\n      \"name\": \"TA-cryptosuite\",\r\n      \"version\": \"2.1\"\r\n    },\r\n    \"author\": [\r\n      {\r\n        \"name\": \"Harun Kuessner\",\r\n        \"email\": null,\r\n        \"company\": null\r\n      }\r\n    ],\r\n    \"releaseDate\": null,\r\n    \"description\": \"Custom search commands for encrypting, decrypting and hashing fields and events\",\r\n    \"classification\": {\r\n      \"intendedAudience\": null,\r\n      \"categories\": [],\r\n      \"developmentStatus\": null\r\n    },\r\n    \"commonInformationModels\": null,\r\n    \"license\": {\r\n      \"name\": null,\r\n      \"text\": null,\r\n      \"uri\": null\r\n    },\r\n    \"privacyPolicy\": {\r\n      \"name\": null,\r\n      \"text\": null,\r\n      \"uri\": null\r\n    },\r\n    \"releaseNotes\": {\r\n      \"name\": null,\r\n      \"text\": null,\r\n      \"uri\": null\r\n    }\r\n  },\r\n  \"dependencies\": {\r\n  },\r\n  \"tasks\": [],\r\n  \"inputGroups\": {\r\n  },\r\n  \"incompatibleApps\": {\r\n  },\r\n  \"platformRequirements\": {\r\n    \"splunk\": {\r\n      \"Enterprise\": \"*\"\r\n    }\r\n  }\r\n}",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "Cryptosuite",
+                "id": {
+                  "group": null,
+                  "name": "TA-cryptosuite",
+                  "version": "2.1"
+                },
+                "author": [
+                  {
+                    "name": "Harun Kuessner",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Custom search commands for encrypting, decrypting and hashing fields and events",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": {},
+              "tasks": [],
+              "inputGroups": {},
+              "incompatibleApps": {},
+              "platformRequirements": {
+                "splunk": {
+                  "Enterprise": "*"
+                }
+              }
+            },
             "md5": "73721fcbd7e36f66ab74b892532a5e49",
             "minProductVersionStr": null,
             "name": "2.1",
@@ -571,7 +840,7 @@
   "query": {
     "id": "5062"
   },
-  "buildId": "A_x1zQdzW4DRP-cLJABzH",
+  "buildId": "dLt2S5SzCPnZf1It5b_7A",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

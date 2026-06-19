@@ -26,7 +26,7 @@
         "description": "The Common Information Model is a set of field names and tags which are expected to define the least common denominator of a domain of interest. It is implemented as documentation on the Splunk docs website and JSON data model files in this add-on. Use the CIM add-on when modeling data or building apps to ensure compatibility between apps, or to just take advantage of these data models to pivot and report.",
         "documentation": "<p><a href=\"https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on\">Release Notes</a><br>\nPlease see the <a href=\"https://help.splunk.com/en/data-management/common-information-model/6.1/introduction/overview-of-the-splunk-common-information-model\">Splunk Common Information Model Add-on user documentation</a>.</p>",
         "documentationSource": "[Release Notes](https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on)\nPlease see the [Splunk Common Information Model Add-on user documentation](https://help.splunk.com/en/data-management/common-information-model/6.1/introduction/overview-of-the-splunk-common-information-model).",
-        "downloadCount": 425128,
+        "downloadCount": 425286,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/e438112e-2ed2-11f1-8be0-0a1fd842b6f5.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": "",
@@ -81,7 +81,63 @@
           "id": 42213,
           "installMethodDistributed": "appmgmt_phase",
           "installMethodSingle": "simple",
-          "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk Supporting Common Information Model Add-on\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"Splunk_SA_CIM\",\n      \"version\": \"8.5.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk, Inc.\",\n        \"email\": \"support@splunk.com\",\n        \"company\": \"Splunk, Inc.\"\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Splunk Supporting Common Information Model Add-on\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": \"./license-eula.txt\",\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.txt\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": [\n    \"batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model\"\n  ],\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\",\n    \"_search_head_clustering\"\n  ],\n  \"targetWorkloads\": [\n    \"_search_heads\",\n    \"_indexers\"\n  ]\n}\n",
+          "manifest": {
+            "schemaVersion": "2.0.0",
+            "info": {
+              "title": "Splunk Supporting Common Information Model Add-on",
+              "id": {
+                "group": null,
+                "name": "Splunk_SA_CIM",
+                "version": "8.5.0"
+              },
+              "author": [
+                {
+                  "name": "Splunk, Inc.",
+                  "email": "support@splunk.com",
+                  "company": "Splunk, Inc."
+                }
+              ],
+              "releaseDate": null,
+              "description": "Splunk Supporting Common Information Model Add-on",
+              "classification": {
+                "intendedAudience": null,
+                "categories": [],
+                "developmentStatus": null
+              },
+              "commonInformationModels": null,
+              "license": {
+                "name": null,
+                "text": "./license-eula.txt",
+                "uri": null
+              },
+              "privacyPolicy": {
+                "name": null,
+                "text": null,
+                "uri": null
+              },
+              "releaseNotes": {
+                "name": null,
+                "text": "./README.txt",
+                "uri": null
+              }
+            },
+            "dependencies": null,
+            "tasks": [
+              "batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model"
+            ],
+            "inputGroups": null,
+            "incompatibleApps": null,
+            "platformRequirements": null,
+            "supportedDeployments": [
+              "_standalone",
+              "_distributed",
+              "_search_head_clustering"
+            ],
+            "targetWorkloads": [
+              "_search_heads",
+              "_indexers"
+            ]
+          },
           "md5": "dacdfd27d35675a591f2ad3b207a25bc",
           "minProductVersionStr": null,
           "name": "8.5.0",
@@ -100,15 +156,15 @@
           "signedAvailable": true,
           "size": 2230520,
           "sourcetypes": [
-            "modaction:invocations_rest_handler",
             "splunkd",
-            "audittrail",
-            "modaction:adhoc_rest_handler",
-            "modaction:queue_handler",
-            "splunk_web_access",
-            "relaymodaction",
             "datamodelsimple",
-            "stash_common_action_model"
+            "modaction:queue_handler",
+            "modaction:invocations_rest_handler",
+            "stash_common_action_model",
+            "audittrail",
+            "splunk_web_access",
+            "modaction:adhoc_rest_handler",
+            "relaymodaction"
           ],
           "tags": [
             "__no_tag__"
@@ -183,7 +239,63 @@
             "id": 42213,
             "installMethodDistributed": "appmgmt_phase",
             "installMethodSingle": "simple",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk Supporting Common Information Model Add-on\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"Splunk_SA_CIM\",\n      \"version\": \"8.5.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk, Inc.\",\n        \"email\": \"support@splunk.com\",\n        \"company\": \"Splunk, Inc.\"\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Splunk Supporting Common Information Model Add-on\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": \"./license-eula.txt\",\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.txt\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": [\n    \"batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model\"\n  ],\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\",\n    \"_search_head_clustering\"\n  ],\n  \"targetWorkloads\": [\n    \"_search_heads\",\n    \"_indexers\"\n  ]\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk Supporting Common Information Model Add-on",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_SA_CIM",
+                  "version": "8.5.0"
+                },
+                "author": [
+                  {
+                    "name": "Splunk, Inc.",
+                    "email": "support@splunk.com",
+                    "company": "Splunk, Inc."
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Splunk Supporting Common Information Model Add-on",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": "./license-eula.txt",
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": [
+                "batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model"
+              ],
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed",
+                "_search_head_clustering"
+              ],
+              "targetWorkloads": [
+                "_search_heads",
+                "_indexers"
+              ]
+            },
             "md5": "dacdfd27d35675a591f2ad3b207a25bc",
             "minProductVersionStr": null,
             "name": "8.5.0",
@@ -202,15 +314,15 @@
             "signedAvailable": true,
             "size": 2230520,
             "sourcetypes": [
-              "modaction:invocations_rest_handler",
               "splunkd",
-              "audittrail",
-              "modaction:adhoc_rest_handler",
-              "modaction:queue_handler",
-              "splunk_web_access",
-              "relaymodaction",
               "datamodelsimple",
-              "stash_common_action_model"
+              "modaction:queue_handler",
+              "modaction:invocations_rest_handler",
+              "stash_common_action_model",
+              "audittrail",
+              "splunk_web_access",
+              "modaction:adhoc_rest_handler",
+              "relaymodaction"
             ],
             "tags": [
               "__no_tag__"
@@ -284,7 +396,63 @@
             "id": 41238,
             "installMethodDistributed": "appmgmt_phase",
             "installMethodSingle": "simple",
-            "manifest": "{\r\n  \"schemaVersion\": \"2.0.0\",\r\n  \"info\": {\r\n    \"title\": \"Splunk Supporting Common Information Model Add-on\",\r\n    \"id\": {\r\n      \"group\": null,\r\n      \"name\": \"Splunk_SA_CIM\",\r\n      \"version\": \"6.4.0\"\r\n    },\r\n    \"author\": [\r\n      {\r\n        \"name\": \"Splunk, Inc.\",\r\n        \"email\": \"support@splunk.com\",\r\n        \"company\": \"Splunk, Inc.\"\r\n      }\r\n    ],\r\n    \"releaseDate\": null,\r\n    \"description\": \"Splunk Supporting Common Information Model Add-on\",\r\n    \"classification\": {\r\n      \"intendedAudience\": null,\r\n      \"categories\": [],\r\n      \"developmentStatus\": null\r\n    },\r\n    \"commonInformationModels\": null,\r\n    \"license\": {\r\n      \"name\": null,\r\n      \"text\": \"./license-eula.txt\",\r\n      \"uri\": null\r\n    },\r\n    \"privacyPolicy\": {\r\n      \"name\": null,\r\n      \"text\": null,\r\n      \"uri\": null\r\n    },\r\n    \"releaseNotes\": {\r\n      \"name\": null,\r\n      \"text\": \"./README.txt\",\r\n      \"uri\": null\r\n    }\r\n  },\r\n  \"dependencies\": null,\r\n  \"tasks\": [\r\n    \"batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model\"\r\n  ],\r\n  \"inputGroups\": null,\r\n  \"incompatibleApps\": null,\r\n  \"platformRequirements\": null,\r\n  \"supportedDeployments\": [\r\n    \"_standalone\",\r\n    \"_distributed\",\r\n    \"_search_head_clustering\"\r\n  ],\r\n  \"targetWorkloads\": [\r\n    \"_search_heads\",\r\n    \"_indexers\"\r\n  ]\r\n}",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk Supporting Common Information Model Add-on",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_SA_CIM",
+                  "version": "6.4.0"
+                },
+                "author": [
+                  {
+                    "name": "Splunk, Inc.",
+                    "email": "support@splunk.com",
+                    "company": "Splunk, Inc."
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Splunk Supporting Common Information Model Add-on",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": "./license-eula.txt",
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": [
+                "batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model"
+              ],
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed",
+                "_search_head_clustering"
+              ],
+              "targetWorkloads": [
+                "_search_heads",
+                "_indexers"
+              ]
+            },
             "md5": "533c943f002d42bddd7bf2dadf5a3562",
             "minProductVersionStr": null,
             "name": "6.4.0",
@@ -303,15 +471,15 @@
             "signedAvailable": true,
             "size": 2229272,
             "sourcetypes": [
-              "modaction:invocations_rest_handler",
               "splunkd",
-              "audittrail",
-              "modaction:adhoc_rest_handler",
-              "modaction:queue_handler",
-              "splunk_web_access",
-              "relaymodaction",
               "datamodelsimple",
-              "stash_common_action_model"
+              "modaction:queue_handler",
+              "modaction:invocations_rest_handler",
+              "stash_common_action_model",
+              "audittrail",
+              "splunk_web_access",
+              "modaction:adhoc_rest_handler",
+              "relaymodaction"
             ],
             "tags": [
               "__no_tag__"
@@ -395,7 +563,63 @@
             "id": 40419,
             "installMethodDistributed": "appmgmt_phase",
             "installMethodSingle": "simple",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk Supporting Common Information Model Add-on\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"Splunk_SA_CIM\",\n      \"version\": \"6.3.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk, Inc.\",\n        \"email\": \"support@splunk.com\",\n        \"company\": \"Splunk, Inc.\"\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Splunk Supporting Common Information Model Add-on\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": \"./license-eula.txt\",\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.txt\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": [\n    \"batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model\"\n  ],\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\",\n    \"_search_head_clustering\"\n  ],\n  \"targetWorkloads\": [\n    \"_search_heads\",\n    \"_indexers\"\n  ]\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk Supporting Common Information Model Add-on",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_SA_CIM",
+                  "version": "6.3.0"
+                },
+                "author": [
+                  {
+                    "name": "Splunk, Inc.",
+                    "email": "support@splunk.com",
+                    "company": "Splunk, Inc."
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Splunk Supporting Common Information Model Add-on",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": "./license-eula.txt",
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": [
+                "batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model"
+              ],
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed",
+                "_search_head_clustering"
+              ],
+              "targetWorkloads": [
+                "_search_heads",
+                "_indexers"
+              ]
+            },
             "md5": "2286c9df42b52df9e269902db6404247",
             "minProductVersionStr": null,
             "name": "6.3.0",
@@ -414,15 +638,15 @@
             "signedAvailable": true,
             "size": 2229098,
             "sourcetypes": [
-              "modaction:invocations_rest_handler",
               "splunkd",
-              "audittrail",
-              "modaction:adhoc_rest_handler",
-              "modaction:queue_handler",
-              "splunk_web_access",
-              "relaymodaction",
               "datamodelsimple",
-              "stash_common_action_model"
+              "modaction:queue_handler",
+              "modaction:invocations_rest_handler",
+              "stash_common_action_model",
+              "audittrail",
+              "splunk_web_access",
+              "modaction:adhoc_rest_handler",
+              "relaymodaction"
             ],
             "tags": [
               "__no_tag__"
@@ -506,7 +730,63 @@
             "id": 39214,
             "installMethodDistributed": "appmgmt_phase",
             "installMethodSingle": "simple",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk Supporting Common Information Model Add-on\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"Splunk_SA_CIM\",\n      \"version\": \"6.2.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk, Inc.\",\n        \"email\": \"support@splunk.com\",\n        \"company\": \"Splunk, Inc.\"\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Splunk Supporting Common Information Model Add-on\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": \"./license-eula.txt\",\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.txt\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": [\n    \"batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model\"\n  ],\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\",\n    \"_search_head_clustering\"\n  ],\n  \"targetWorkloads\": [\n    \"_search_heads\",\n    \"_indexers\"\n  ]\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk Supporting Common Information Model Add-on",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_SA_CIM",
+                  "version": "6.2.0"
+                },
+                "author": [
+                  {
+                    "name": "Splunk, Inc.",
+                    "email": "support@splunk.com",
+                    "company": "Splunk, Inc."
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Splunk Supporting Common Information Model Add-on",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": "./license-eula.txt",
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": [
+                "batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model"
+              ],
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed",
+                "_search_head_clustering"
+              ],
+              "targetWorkloads": [
+                "_search_heads",
+                "_indexers"
+              ]
+            },
             "md5": "dc9502b0a1f69bff17c8ca085ad3e4de",
             "minProductVersionStr": null,
             "name": "6.2.0",
@@ -525,15 +805,15 @@
             "signedAvailable": true,
             "size": 2229096,
             "sourcetypes": [
-              "modaction:invocations_rest_handler",
               "splunkd",
-              "audittrail",
-              "modaction:adhoc_rest_handler",
-              "modaction:queue_handler",
-              "splunk_web_access",
-              "relaymodaction",
               "datamodelsimple",
-              "stash_common_action_model"
+              "modaction:queue_handler",
+              "modaction:invocations_rest_handler",
+              "stash_common_action_model",
+              "audittrail",
+              "splunk_web_access",
+              "modaction:adhoc_rest_handler",
+              "relaymodaction"
             ],
             "tags": [
               "__no_tag__"
@@ -602,7 +882,63 @@
             "id": 37998,
             "installMethodDistributed": "appmgmt_phase",
             "installMethodSingle": "simple",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk Supporting Common Information Model Add-on\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"Splunk_SA_CIM\",\n      \"version\": \"6.1.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk, Inc.\",\n        \"email\": \"support@splunk.com\",\n        \"company\": \"Splunk, Inc.\"\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Splunk Supporting Common Information Model Add-on\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": \"./license-eula.txt\",\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.txt\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": [\n    \"batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model\"\n  ],\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\",\n    \"_search_head_clustering\"\n  ],\n  \"targetWorkloads\": [\n    \"_search_heads\",\n    \"_indexers\"\n  ]\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk Supporting Common Information Model Add-on",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_SA_CIM",
+                  "version": "6.1.0"
+                },
+                "author": [
+                  {
+                    "name": "Splunk, Inc.",
+                    "email": "support@splunk.com",
+                    "company": "Splunk, Inc."
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Splunk Supporting Common Information Model Add-on",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": "./license-eula.txt",
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": [
+                "batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model"
+              ],
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed",
+                "_search_head_clustering"
+              ],
+              "targetWorkloads": [
+                "_search_heads",
+                "_indexers"
+              ]
+            },
             "md5": "3f3dbf116da9d2b57322a7d9374f056f",
             "minProductVersionStr": null,
             "name": "6.1.0",
@@ -621,15 +957,15 @@
             "signedAvailable": true,
             "size": 2228905,
             "sourcetypes": [
-              "modaction:invocations_rest_handler",
               "splunkd",
-              "audittrail",
-              "modaction:adhoc_rest_handler",
-              "modaction:queue_handler",
-              "splunk_web_access",
-              "relaymodaction",
               "datamodelsimple",
-              "stash_common_action_model"
+              "modaction:queue_handler",
+              "modaction:invocations_rest_handler",
+              "stash_common_action_model",
+              "audittrail",
+              "splunk_web_access",
+              "modaction:adhoc_rest_handler",
+              "relaymodaction"
             ],
             "tags": [
               "__no_tag__"
@@ -698,7 +1034,63 @@
             "id": 37605,
             "installMethodDistributed": "appmgmt_phase",
             "installMethodSingle": "simple",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk Supporting Common Information Model Add-on\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"Splunk_SA_CIM\",\n      \"version\": \"6.0.4\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk, Inc.\",\n        \"email\": \"support@splunk.com\",\n        \"company\": \"Splunk, Inc.\"\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Splunk Supporting Common Information Model Add-on\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": \"./license-eula.txt\",\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.txt\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": [\n    \"batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model\"\n  ],\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\",\n    \"_search_head_clustering\"\n  ],\n  \"targetWorkloads\": [\n    \"_search_heads\",\n    \"_indexers\"\n  ]\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk Supporting Common Information Model Add-on",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_SA_CIM",
+                  "version": "6.0.4"
+                },
+                "author": [
+                  {
+                    "name": "Splunk, Inc.",
+                    "email": "support@splunk.com",
+                    "company": "Splunk, Inc."
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Splunk Supporting Common Information Model Add-on",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": "./license-eula.txt",
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": [
+                "batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model"
+              ],
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed",
+                "_search_head_clustering"
+              ],
+              "targetWorkloads": [
+                "_search_heads",
+                "_indexers"
+              ]
+            },
             "md5": "674e548fa76df7cdd477b2ac90aa98e0",
             "minProductVersionStr": null,
             "name": "6.0.4",
@@ -717,15 +1109,15 @@
             "signedAvailable": true,
             "size": 2227500,
             "sourcetypes": [
-              "modaction:invocations_rest_handler",
               "splunkd",
-              "audittrail",
-              "modaction:adhoc_rest_handler",
-              "modaction:queue_handler",
-              "splunk_web_access",
-              "relaymodaction",
               "datamodelsimple",
-              "stash_common_action_model"
+              "modaction:queue_handler",
+              "modaction:invocations_rest_handler",
+              "stash_common_action_model",
+              "audittrail",
+              "splunk_web_access",
+              "modaction:adhoc_rest_handler",
+              "relaymodaction"
             ],
             "tags": [
               "__no_tag__"
@@ -789,7 +1181,63 @@
             "id": 37009,
             "installMethodDistributed": "appmgmt_phase",
             "installMethodSingle": "simple",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk Supporting Common Information Model Add-on\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"Splunk_SA_CIM\",\n      \"version\": \"6.0.3\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk, Inc.\",\n        \"email\": \"support@splunk.com\",\n        \"company\": \"Splunk, Inc.\"\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Splunk Supporting Common Information Model Add-on\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": \"./license-eula.txt\",\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.txt\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": [\n    \"batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model\"\n  ],\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\",\n    \"_search_head_clustering\"\n  ],\n  \"targetWorkloads\": [\n    \"_search_heads\",\n    \"_indexers\"\n  ]\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk Supporting Common Information Model Add-on",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_SA_CIM",
+                  "version": "6.0.3"
+                },
+                "author": [
+                  {
+                    "name": "Splunk, Inc.",
+                    "email": "support@splunk.com",
+                    "company": "Splunk, Inc."
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Splunk Supporting Common Information Model Add-on",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": "./license-eula.txt",
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": [
+                "batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model"
+              ],
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed",
+                "_search_head_clustering"
+              ],
+              "targetWorkloads": [
+                "_search_heads",
+                "_indexers"
+              ]
+            },
             "md5": "0bbdb60cf39b544c474cbc6e3a227bda",
             "minProductVersionStr": null,
             "name": "6.0.3",
@@ -808,15 +1256,15 @@
             "signedAvailable": true,
             "size": 2227359,
             "sourcetypes": [
-              "modaction:invocations_rest_handler",
               "splunkd",
-              "audittrail",
-              "modaction:adhoc_rest_handler",
-              "modaction:queue_handler",
-              "splunk_web_access",
-              "relaymodaction",
               "datamodelsimple",
-              "stash_common_action_model"
+              "modaction:queue_handler",
+              "modaction:invocations_rest_handler",
+              "stash_common_action_model",
+              "audittrail",
+              "splunk_web_access",
+              "modaction:adhoc_rest_handler",
+              "relaymodaction"
             ],
             "tags": [
               "__no_tag__"
@@ -880,7 +1328,63 @@
             "id": 36623,
             "installMethodDistributed": "appmgmt_phase",
             "installMethodSingle": "simple",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk Supporting Common Information Model Add-on\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"Splunk_SA_CIM\",\n      \"version\": \"5.3.3\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk, Inc.\",\n        \"email\": \"support@splunk.com\",\n        \"company\": \"Splunk, Inc.\"\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Splunk Supporting Common Information Model Add-on\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": \"./license-eula.txt\",\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.txt\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": [\n    \"batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model\"\n  ],\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\",\n    \"_search_head_clustering\"\n  ],\n  \"targetWorkloads\": [\n    \"_search_heads\",\n    \"_indexers\"\n  ]\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk Supporting Common Information Model Add-on",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_SA_CIM",
+                  "version": "5.3.3"
+                },
+                "author": [
+                  {
+                    "name": "Splunk, Inc.",
+                    "email": "support@splunk.com",
+                    "company": "Splunk, Inc."
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Splunk Supporting Common Information Model Add-on",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": "./license-eula.txt",
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": [
+                "batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model"
+              ],
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed",
+                "_search_head_clustering"
+              ],
+              "targetWorkloads": [
+                "_search_heads",
+                "_indexers"
+              ]
+            },
             "md5": "e8721a8190f2b64946f7addaf148c34b",
             "minProductVersionStr": null,
             "name": "5.3.3",
@@ -899,15 +1403,15 @@
             "signedAvailable": true,
             "size": 2226591,
             "sourcetypes": [
-              "modaction:invocations_rest_handler",
               "splunkd",
-              "audittrail",
-              "modaction:adhoc_rest_handler",
-              "modaction:queue_handler",
-              "splunk_web_access",
-              "relaymodaction",
               "datamodelsimple",
-              "stash_common_action_model"
+              "modaction:queue_handler",
+              "modaction:invocations_rest_handler",
+              "stash_common_action_model",
+              "audittrail",
+              "splunk_web_access",
+              "modaction:adhoc_rest_handler",
+              "relaymodaction"
             ],
             "tags": [
               "__no_tag__"
@@ -971,7 +1475,63 @@
             "id": 36297,
             "installMethodDistributed": "appmgmt_phase",
             "installMethodSingle": "simple",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk Supporting Common Information Model Add-on\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"Splunk_SA_CIM\",\n      \"version\": \"6.0.2\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk, Inc.\",\n        \"email\": \"support@splunk.com\",\n        \"company\": \"Splunk, Inc.\"\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Splunk Supporting Common Information Model Add-on\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": \"./license-eula.txt\",\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.txt\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": [\n    \"batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model\"\n  ],\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\",\n    \"_search_head_clustering\"\n  ],\n  \"targetWorkloads\": [\n    \"_search_heads\",\n    \"_indexers\"\n  ]\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk Supporting Common Information Model Add-on",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_SA_CIM",
+                  "version": "6.0.2"
+                },
+                "author": [
+                  {
+                    "name": "Splunk, Inc.",
+                    "email": "support@splunk.com",
+                    "company": "Splunk, Inc."
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Splunk Supporting Common Information Model Add-on",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": "./license-eula.txt",
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": [
+                "batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model"
+              ],
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed",
+                "_search_head_clustering"
+              ],
+              "targetWorkloads": [
+                "_search_heads",
+                "_indexers"
+              ]
+            },
             "md5": "80e3da16a5fedab32524c328d32de9f1",
             "minProductVersionStr": null,
             "name": "6.0.2",
@@ -990,15 +1550,15 @@
             "signedAvailable": true,
             "size": 2227323,
             "sourcetypes": [
-              "modaction:invocations_rest_handler",
               "splunkd",
-              "audittrail",
-              "modaction:adhoc_rest_handler",
-              "modaction:queue_handler",
-              "splunk_web_access",
-              "relaymodaction",
               "datamodelsimple",
-              "stash_common_action_model"
+              "modaction:queue_handler",
+              "modaction:invocations_rest_handler",
+              "stash_common_action_model",
+              "audittrail",
+              "splunk_web_access",
+              "modaction:adhoc_rest_handler",
+              "relaymodaction"
             ],
             "tags": [
               "__no_tag__"
@@ -1062,7 +1622,63 @@
             "id": 35670,
             "installMethodDistributed": "appmgmt_phase",
             "installMethodSingle": "simple",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk Supporting Common Information Model Add-on\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"Splunk_SA_CIM\",\n      \"version\": \"6.0.1\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk, Inc.\",\n        \"email\": \"support@splunk.com\",\n        \"company\": \"Splunk, Inc.\"\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Splunk Supporting Common Information Model Add-on\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": \"./license-eula.txt\",\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.txt\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": [\n    \"batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model\"\n  ],\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\",\n    \"_search_head_clustering\"\n  ],\n  \"targetWorkloads\": [\n    \"_search_heads\",\n    \"_indexers\"\n  ]\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk Supporting Common Information Model Add-on",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_SA_CIM",
+                  "version": "6.0.1"
+                },
+                "author": [
+                  {
+                    "name": "Splunk, Inc.",
+                    "email": "support@splunk.com",
+                    "company": "Splunk, Inc."
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Splunk Supporting Common Information Model Add-on",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": "./license-eula.txt",
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": [
+                "batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model"
+              ],
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed",
+                "_search_head_clustering"
+              ],
+              "targetWorkloads": [
+                "_search_heads",
+                "_indexers"
+              ]
+            },
             "md5": "c3facaee9f9cbc5fb9a1be87f98448b5",
             "minProductVersionStr": null,
             "name": "6.0.1",
@@ -1081,15 +1697,15 @@
             "signedAvailable": true,
             "size": 2227286,
             "sourcetypes": [
-              "modaction:invocations_rest_handler",
               "splunkd",
-              "audittrail",
-              "modaction:adhoc_rest_handler",
-              "modaction:queue_handler",
-              "splunk_web_access",
-              "relaymodaction",
               "datamodelsimple",
-              "stash_common_action_model"
+              "modaction:queue_handler",
+              "modaction:invocations_rest_handler",
+              "stash_common_action_model",
+              "audittrail",
+              "splunk_web_access",
+              "modaction:adhoc_rest_handler",
+              "relaymodaction"
             ],
             "tags": [
               "__no_tag__"
@@ -1172,15 +1788,15 @@
             "signedAvailable": true,
             "size": 2227288,
             "sourcetypes": [
-              "modaction:invocations_rest_handler",
               "splunkd",
-              "audittrail",
-              "modaction:adhoc_rest_handler",
-              "modaction:queue_handler",
-              "splunk_web_access",
-              "relaymodaction",
               "datamodelsimple",
-              "stash_common_action_model"
+              "modaction:queue_handler",
+              "modaction:invocations_rest_handler",
+              "stash_common_action_model",
+              "audittrail",
+              "splunk_web_access",
+              "modaction:adhoc_rest_handler",
+              "relaymodaction"
             ],
             "tags": [
               "__no_tag__"
@@ -1244,7 +1860,63 @@
             "id": 32675,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk Supporting Common Information Model Add-on\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"Splunk_SA_CIM\",\n      \"version\": \"5.3.2\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk, Inc.\",\n        \"email\": \"support@splunk.com\",\n        \"company\": \"Splunk, Inc.\"\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Splunk Supporting Common Information Model Add-on\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": \"./license-eula.txt\",\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.txt\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": [\n    \"batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model\"\n  ],\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\",\n    \"_search_head_clustering\"\n  ],\n  \"targetWorkloads\": [\n    \"_search_heads\",\n    \"_indexers\"\n  ]\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk Supporting Common Information Model Add-on",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_SA_CIM",
+                  "version": "5.3.2"
+                },
+                "author": [
+                  {
+                    "name": "Splunk, Inc.",
+                    "email": "support@splunk.com",
+                    "company": "Splunk, Inc."
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Splunk Supporting Common Information Model Add-on",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": "./license-eula.txt",
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": [
+                "batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model"
+              ],
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed",
+                "_search_head_clustering"
+              ],
+              "targetWorkloads": [
+                "_search_heads",
+                "_indexers"
+              ]
+            },
             "md5": "8ec9dda3f5f46538514c16c103cb29b0",
             "minProductVersionStr": null,
             "name": "5.3.2",
@@ -1262,15 +1934,15 @@
             "signedAvailable": true,
             "size": 2226444,
             "sourcetypes": [
-              "modaction:invocations_rest_handler",
               "splunkd",
-              "audittrail",
-              "modaction:adhoc_rest_handler",
-              "modaction:queue_handler",
-              "splunk_web_access",
-              "relaymodaction",
               "datamodelsimple",
-              "stash_common_action_model"
+              "modaction:queue_handler",
+              "modaction:invocations_rest_handler",
+              "stash_common_action_model",
+              "audittrail",
+              "splunk_web_access",
+              "modaction:adhoc_rest_handler",
+              "relaymodaction"
             ],
             "tags": [
               "__no_tag__"
@@ -1352,15 +2024,15 @@
             "signedAvailable": true,
             "size": 2226453,
             "sourcetypes": [
-              "modaction:invocations_rest_handler",
               "splunkd",
-              "audittrail",
-              "modaction:adhoc_rest_handler",
-              "modaction:queue_handler",
-              "splunk_web_access",
-              "relaymodaction",
               "datamodelsimple",
-              "stash_common_action_model"
+              "modaction:queue_handler",
+              "modaction:invocations_rest_handler",
+              "stash_common_action_model",
+              "audittrail",
+              "splunk_web_access",
+              "modaction:adhoc_rest_handler",
+              "relaymodaction"
             ],
             "tags": [
               "__no_tag__"
@@ -1442,15 +2114,15 @@
             "signedAvailable": true,
             "size": 2226260,
             "sourcetypes": [
-              "modaction:invocations_rest_handler",
               "splunkd",
-              "audittrail",
-              "modaction:adhoc_rest_handler",
-              "modaction:queue_handler",
-              "splunk_web_access",
-              "relaymodaction",
               "datamodelsimple",
-              "stash_common_action_model"
+              "modaction:queue_handler",
+              "modaction:invocations_rest_handler",
+              "stash_common_action_model",
+              "audittrail",
+              "splunk_web_access",
+              "modaction:adhoc_rest_handler",
+              "relaymodaction"
             ],
             "tags": [
               "__no_tag__"
@@ -1537,15 +2209,15 @@
             "signedAvailable": true,
             "size": 2226064,
             "sourcetypes": [
-              "modaction:invocations_rest_handler",
               "splunkd",
-              "audittrail",
-              "modaction:adhoc_rest_handler",
-              "modaction:queue_handler",
-              "splunk_web_access",
-              "relaymodaction",
               "datamodelsimple",
-              "stash_common_action_model"
+              "modaction:queue_handler",
+              "modaction:invocations_rest_handler",
+              "stash_common_action_model",
+              "audittrail",
+              "splunk_web_access",
+              "modaction:adhoc_rest_handler",
+              "relaymodaction"
             ],
             "tags": [
               "__no_tag__"
@@ -1632,15 +2304,15 @@
             "signedAvailable": true,
             "size": 2226048,
             "sourcetypes": [
-              "modaction:invocations_rest_handler",
               "splunkd",
-              "audittrail",
-              "modaction:adhoc_rest_handler",
-              "modaction:queue_handler",
-              "splunk_web_access",
-              "relaymodaction",
               "datamodelsimple",
-              "stash_common_action_model"
+              "modaction:queue_handler",
+              "modaction:invocations_rest_handler",
+              "stash_common_action_model",
+              "audittrail",
+              "splunk_web_access",
+              "modaction:adhoc_rest_handler",
+              "relaymodaction"
             ],
             "tags": [
               "__no_tag__"
@@ -1727,15 +2399,15 @@
             "signedAvailable": true,
             "size": 2171266,
             "sourcetypes": [
-              "modaction:invocations_rest_handler",
               "splunkd",
-              "audittrail",
-              "modaction:adhoc_rest_handler",
-              "modaction:queue_handler",
-              "splunk_web_access",
-              "relaymodaction",
               "datamodelsimple",
-              "stash_common_action_model"
+              "modaction:queue_handler",
+              "modaction:invocations_rest_handler",
+              "stash_common_action_model",
+              "audittrail",
+              "splunk_web_access",
+              "modaction:adhoc_rest_handler",
+              "relaymodaction"
             ],
             "tags": [
               "__no_tag__"
@@ -1822,15 +2494,15 @@
             "signedAvailable": true,
             "size": 2170778,
             "sourcetypes": [
-              "modaction:invocations_rest_handler",
               "splunkd",
-              "audittrail",
-              "modaction:adhoc_rest_handler",
-              "modaction:queue_handler",
-              "splunk_web_access",
-              "relaymodaction",
               "datamodelsimple",
-              "stash_common_action_model"
+              "modaction:queue_handler",
+              "modaction:invocations_rest_handler",
+              "stash_common_action_model",
+              "audittrail",
+              "splunk_web_access",
+              "modaction:adhoc_rest_handler",
+              "relaymodaction"
             ],
             "tags": [
               "__no_tag__"
@@ -1895,7 +2567,63 @@
             "id": 24281,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk Supporting Common Information Model Add-on\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"Splunk_SA_CIM\",\n      \"version\": \"5.0.1\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk, Inc.\",\n        \"email\": \"support@splunk.com\",\n        \"company\": \"Splunk, Inc.\"\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Splunk Supporting Common Information Model Add-on\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": \"./license-eula.txt\",\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.txt\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": [\n    \"batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model\"\n  ],\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\",\n    \"_search_head_clustering\"\n  ],\n  \"targetWorkloads\": [\n    \"_search_heads\",\n    \"_indexers\"\n  ]\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk Supporting Common Information Model Add-on",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_SA_CIM",
+                  "version": "5.0.1"
+                },
+                "author": [
+                  {
+                    "name": "Splunk, Inc.",
+                    "email": "support@splunk.com",
+                    "company": "Splunk, Inc."
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Splunk Supporting Common Information Model Add-on",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": "./license-eula.txt",
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": [
+                "batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model"
+              ],
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed",
+                "_search_head_clustering"
+              ],
+              "targetWorkloads": [
+                "_search_heads",
+                "_indexers"
+              ]
+            },
             "md5": "1e636781a38f7829af8a67dcdadc8f3c",
             "minProductVersionStr": null,
             "name": "5.0.1",
@@ -1913,15 +2641,15 @@
             "signedAvailable": true,
             "size": 2168892,
             "sourcetypes": [
-              "modaction:invocations_rest_handler",
               "splunkd",
-              "audittrail",
-              "modaction:adhoc_rest_handler",
-              "modaction:queue_handler",
-              "splunk_web_access",
-              "relaymodaction",
               "datamodelsimple",
-              "stash_common_action_model"
+              "modaction:queue_handler",
+              "modaction:invocations_rest_handler",
+              "stash_common_action_model",
+              "audittrail",
+              "splunk_web_access",
+              "modaction:adhoc_rest_handler",
+              "relaymodaction"
             ],
             "tags": [
               "__no_tag__"
@@ -2004,15 +2732,15 @@
             "signedAvailable": true,
             "size": 2168638,
             "sourcetypes": [
-              "modaction:invocations_rest_handler",
               "splunkd",
-              "audittrail",
-              "modaction:adhoc_rest_handler",
-              "modaction:queue_handler",
-              "splunk_web_access",
-              "relaymodaction",
               "datamodelsimple",
-              "stash_common_action_model"
+              "modaction:queue_handler",
+              "modaction:invocations_rest_handler",
+              "stash_common_action_model",
+              "audittrail",
+              "splunk_web_access",
+              "modaction:adhoc_rest_handler",
+              "relaymodaction"
             ],
             "tags": [
               "__no_tag__"
@@ -2099,15 +2827,15 @@
             "signedAvailable": true,
             "size": 2053708,
             "sourcetypes": [
-              "modaction:invocations_rest_handler",
               "splunkd",
-              "audittrail",
-              "modaction:adhoc_rest_handler",
-              "modaction:queue_handler",
-              "splunk_web_access",
-              "relaymodaction",
               "datamodelsimple",
-              "stash_common_action_model"
+              "modaction:queue_handler",
+              "modaction:invocations_rest_handler",
+              "stash_common_action_model",
+              "audittrail",
+              "splunk_web_access",
+              "modaction:adhoc_rest_handler",
+              "relaymodaction"
             ],
             "tags": [
               "__no_tag__"
@@ -2186,7 +2914,63 @@
             "id": 20827,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk Supporting Common Information Model Add-on\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"Splunk_SA_CIM\",\n      \"version\": \"4.20.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk, Inc.\",\n        \"email\": \"support@splunk.com\",\n        \"company\": \"Splunk, Inc.\"\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Splunk Supporting Common Information Model Add-on\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": \"./license-eula.txt\",\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.txt\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": [\n    \"batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model\"\n  ],\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\",\n    \"_search_head_clustering\"\n  ],\n  \"targetWorkloads\": [\n    \"_search_heads\",\n    \"_indexers\"\n  ]\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk Supporting Common Information Model Add-on",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_SA_CIM",
+                  "version": "4.20.0"
+                },
+                "author": [
+                  {
+                    "name": "Splunk, Inc.",
+                    "email": "support@splunk.com",
+                    "company": "Splunk, Inc."
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Splunk Supporting Common Information Model Add-on",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": "./license-eula.txt",
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": [
+                "batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model"
+              ],
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed",
+                "_search_head_clustering"
+              ],
+              "targetWorkloads": [
+                "_search_heads",
+                "_indexers"
+              ]
+            },
             "md5": "e4675cbe75b925840aa316433c3fb87e",
             "minProductVersionStr": null,
             "name": "4.20.0",
@@ -2204,15 +2988,15 @@
             "signedAvailable": true,
             "size": 2054907,
             "sourcetypes": [
-              "modaction:invocations_rest_handler",
               "splunkd",
-              "audittrail",
-              "modaction:adhoc_rest_handler",
-              "modaction:queue_handler",
-              "splunk_web_access",
-              "relaymodaction",
               "datamodelsimple",
-              "stash_common_action_model"
+              "modaction:queue_handler",
+              "modaction:invocations_rest_handler",
+              "stash_common_action_model",
+              "audittrail",
+              "splunk_web_access",
+              "modaction:adhoc_rest_handler",
+              "relaymodaction"
             ],
             "tags": [
               "__no_tag__"
@@ -2309,15 +3093,15 @@
             "signedAvailable": true,
             "size": 258322,
             "sourcetypes": [
-              "modaction:invocations_rest_handler",
               "splunkd",
-              "audittrail",
-              "modaction:adhoc_rest_handler",
-              "modaction:queue_handler",
-              "splunk_web_access",
-              "relaymodaction",
               "datamodelsimple",
-              "stash_common_action_model"
+              "modaction:queue_handler",
+              "modaction:invocations_rest_handler",
+              "stash_common_action_model",
+              "audittrail",
+              "splunk_web_access",
+              "modaction:adhoc_rest_handler",
+              "relaymodaction"
             ],
             "tags": [
               "__no_tag__"
@@ -2414,15 +3198,15 @@
             "signedAvailable": true,
             "size": 257913,
             "sourcetypes": [
-              "modaction:invocations_rest_handler",
               "splunkd",
-              "audittrail",
-              "modaction:adhoc_rest_handler",
-              "modaction:queue_handler",
-              "splunk_web_access",
-              "relaymodaction",
               "datamodelsimple",
-              "stash_common_action_model"
+              "modaction:queue_handler",
+              "modaction:invocations_rest_handler",
+              "stash_common_action_model",
+              "audittrail",
+              "splunk_web_access",
+              "modaction:adhoc_rest_handler",
+              "relaymodaction"
             ],
             "tags": [
               "__no_tag__"
@@ -2501,7 +3285,63 @@
             "id": 18821,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk Supporting Common Information Model Add-on\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"Splunk_SA_CIM\",\n      \"version\": \"4.18.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk, Inc.\",\n        \"email\": \"support@splunk.com\",\n        \"company\": \"Splunk, Inc.\"\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Splunk Supporting Common Information Model Add-on\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": \"./license-eula.txt\",\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.txt\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": [\n    \"batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model\"\n  ],\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\",\n    \"_search_head_clustering\"\n  ],\n  \"targetWorkloads\": [\n    \"_search_heads\",\n    \"_indexers\"\n  ]\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk Supporting Common Information Model Add-on",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_SA_CIM",
+                  "version": "4.18.0"
+                },
+                "author": [
+                  {
+                    "name": "Splunk, Inc.",
+                    "email": "support@splunk.com",
+                    "company": "Splunk, Inc."
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Splunk Supporting Common Information Model Add-on",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": "./license-eula.txt",
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": [
+                "batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model"
+              ],
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed",
+                "_search_head_clustering"
+              ],
+              "targetWorkloads": [
+                "_search_heads",
+                "_indexers"
+              ]
+            },
             "md5": "94d2dc2bf80c049a77510f1806a1429d",
             "minProductVersionStr": null,
             "name": "4.18.0",
@@ -2519,15 +3359,15 @@
             "signedAvailable": true,
             "size": 257829,
             "sourcetypes": [
-              "modaction:invocations_rest_handler",
               "splunkd",
-              "audittrail",
-              "modaction:adhoc_rest_handler",
-              "modaction:queue_handler",
-              "splunk_web_access",
-              "relaymodaction",
               "datamodelsimple",
-              "stash_common_action_model"
+              "modaction:queue_handler",
+              "modaction:invocations_rest_handler",
+              "stash_common_action_model",
+              "audittrail",
+              "splunk_web_access",
+              "modaction:adhoc_rest_handler",
+              "relaymodaction"
             ],
             "tags": [
               "__no_tag__"
@@ -2606,7 +3446,61 @@
             "id": 17660,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk Supporting Common Information Model Add-on\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"Splunk_SA_CIM\",\n      \"version\": \"4.17.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk, Inc.\",\n        \"email\": \"support@splunk.com\",\n        \"company\": \"Splunk, Inc.\"\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Splunk Supporting Common Information Model Add-on\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": \"./license-eula.txt\",\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.txt\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\",\n    \"_search_head_clustering\"\n  ],\n  \"targetWorkloads\": [\n    \"_search_heads\",\n    \"_indexers\"\n  ]\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk Supporting Common Information Model Add-on",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_SA_CIM",
+                  "version": "4.17.0"
+                },
+                "author": [
+                  {
+                    "name": "Splunk, Inc.",
+                    "email": "support@splunk.com",
+                    "company": "Splunk, Inc."
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Splunk Supporting Common Information Model Add-on",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": "./license-eula.txt",
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed",
+                "_search_head_clustering"
+              ],
+              "targetWorkloads": [
+                "_search_heads",
+                "_indexers"
+              ]
+            },
             "md5": "ac8559ceb225360f7a6bbb8ebb686073",
             "minProductVersionStr": null,
             "name": "4.17.0",
@@ -2624,15 +3518,15 @@
             "signedAvailable": true,
             "size": 254514,
             "sourcetypes": [
-              "modaction:invocations_rest_handler",
               "splunkd",
-              "audittrail",
-              "modaction:adhoc_rest_handler",
-              "modaction:queue_handler",
-              "splunk_web_access",
-              "relaymodaction",
               "datamodelsimple",
-              "stash_common_action_model"
+              "modaction:queue_handler",
+              "modaction:invocations_rest_handler",
+              "stash_common_action_model",
+              "audittrail",
+              "splunk_web_access",
+              "modaction:adhoc_rest_handler",
+              "relaymodaction"
             ],
             "tags": [
               "__no_tag__"
@@ -2716,7 +3610,57 @@
             "id": 16942,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk Common Information Model\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"Splunk_SA_CIM\",\n      \"version\": \"4.16.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"The Common Information Model add-on provides a collection of datamodels that make building apps and add-ons easier.\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.txt\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\"\n  ],\n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk Common Information Model",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_SA_CIM",
+                  "version": "4.16.0"
+                },
+                "author": [
+                  {
+                    "name": "Splunk",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "The Common Information Model add-on provides a collection of datamodels that make building apps and add-ons easier.",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "16edcdc2d2eab34a8ea1f2861cac38f8",
             "minProductVersionStr": null,
             "name": "4.16.0",
@@ -2734,15 +3678,15 @@
             "signedAvailable": true,
             "size": 254079,
             "sourcetypes": [
-              "modaction:invocations_rest_handler",
               "splunkd",
-              "audittrail",
-              "modaction:adhoc_rest_handler",
-              "modaction:queue_handler",
-              "splunk_web_access",
-              "relaymodaction",
               "datamodelsimple",
-              "stash_common_action_model"
+              "modaction:queue_handler",
+              "modaction:invocations_rest_handler",
+              "stash_common_action_model",
+              "audittrail",
+              "splunk_web_access",
+              "modaction:adhoc_rest_handler",
+              "relaymodaction"
             ],
             "tags": [
               "__no_tag__"
@@ -2851,15 +3795,15 @@
             "signedAvailable": true,
             "size": 253353,
             "sourcetypes": [
-              "modaction:invocations_rest_handler",
               "splunkd",
-              "audittrail",
-              "modaction:adhoc_rest_handler",
-              "modaction:queue_handler",
-              "splunk_web_access",
-              "relaymodaction",
               "datamodelsimple",
-              "stash_common_action_model"
+              "modaction:queue_handler",
+              "modaction:invocations_rest_handler",
+              "stash_common_action_model",
+              "audittrail",
+              "splunk_web_access",
+              "modaction:adhoc_rest_handler",
+              "relaymodaction"
             ],
             "tags": [
               "__no_tag__"
@@ -2953,7 +3897,57 @@
             "id": 14346,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Splunk Common Information Model\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"Splunk_SA_CIM\", \n      \"version\": \"4.14.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"The Common Information Model add-on provides a collection of datamodels that make building apps and add-ons easier.\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk Common Information Model",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_SA_CIM",
+                  "version": "4.14.0"
+                },
+                "author": [
+                  {
+                    "name": "Splunk",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "The Common Information Model add-on provides a collection of datamodels that make building apps and add-ons easier.",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "5a10f14a279983b5307ff8ba1a21aa29",
             "minProductVersionStr": null,
             "name": "4.14.0",
@@ -2971,15 +3965,15 @@
             "signedAvailable": true,
             "size": 198774,
             "sourcetypes": [
-              "modaction:invocations_rest_handler",
               "splunkd",
-              "audittrail",
-              "modaction:adhoc_rest_handler",
-              "modaction:queue_handler",
-              "splunk_web_access",
-              "relaymodaction",
               "datamodelsimple",
-              "stash_common_action_model"
+              "modaction:queue_handler",
+              "modaction:invocations_rest_handler",
+              "stash_common_action_model",
+              "audittrail",
+              "splunk_web_access",
+              "modaction:adhoc_rest_handler",
+              "relaymodaction"
             ],
             "tags": [
               "__no_tag__"
@@ -3068,7 +4062,57 @@
             "id": 12727,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Splunk Common Information Model\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"Splunk_SA_CIM\", \n      \"version\": \"4.13.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"The Common Information Model add-on provides a collection of datamodels that make building apps and add-ons easier.\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk Common Information Model",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_SA_CIM",
+                  "version": "4.13.0"
+                },
+                "author": [
+                  {
+                    "name": "Splunk",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "The Common Information Model add-on provides a collection of datamodels that make building apps and add-ons easier.",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "a0f5ee18d177b50cb8ac953381097b5a",
             "minProductVersionStr": null,
             "name": "4.13.0",
@@ -3086,15 +4130,15 @@
             "signedAvailable": true,
             "size": 197340,
             "sourcetypes": [
-              "modaction:invocations_rest_handler",
               "splunkd",
-              "audittrail",
-              "modaction:adhoc_rest_handler",
-              "modaction:queue_handler",
-              "splunk_web_access",
-              "relaymodaction",
               "datamodelsimple",
-              "stash_common_action_model"
+              "modaction:queue_handler",
+              "modaction:invocations_rest_handler",
+              "stash_common_action_model",
+              "audittrail",
+              "splunk_web_access",
+              "modaction:adhoc_rest_handler",
+              "relaymodaction"
             ],
             "tags": [
               "__no_tag__"
@@ -3144,7 +4188,57 @@
             "id": 11281,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Splunk Common Information Model\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"Splunk_SA_CIM\", \n      \"version\": \"4.12.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"The Common Information Model add-on provides a collection of datamodels that make building apps and add-ons easier.\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk Common Information Model",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_SA_CIM",
+                  "version": "4.12.0"
+                },
+                "author": [
+                  {
+                    "name": "Splunk",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "The Common Information Model add-on provides a collection of datamodels that make building apps and add-ons easier.",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "a39f7ad7ae076c339faf707cad922b7c",
             "minProductVersionStr": null,
             "name": "4.12.0",
@@ -3162,20 +4256,20 @@
             "signedAvailable": true,
             "size": 260333,
             "sourcetypes": [
-              "modaction:invocations_rest_handler",
               "splunkd",
-              "audittrail",
-              "modaction:adhoc_rest_handler",
-              "modaction:queue_handler",
-              "splunk_web_access",
-              "relaymodaction",
               "datamodelsimple",
-              "stash_common_action_model"
+              "modaction:queue_handler",
+              "modaction:invocations_rest_handler",
+              "stash_common_action_model",
+              "audittrail",
+              "splunk_web_access",
+              "modaction:adhoc_rest_handler",
+              "relaymodaction"
             ],
             "tags": [
-              "modaction",
               "__no_tag__",
-              "invocation"
+              "invocation",
+              "modaction"
             ],
             "tagsSourcetypes": {
               "modaction": [
@@ -3252,7 +4346,7 @@
   "query": {
     "id": "1621"
   },
-  "buildId": "A_x1zQdzW4DRP-cLJABzH",
+  "buildId": "dLt2S5SzCPnZf1It5b_7A",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

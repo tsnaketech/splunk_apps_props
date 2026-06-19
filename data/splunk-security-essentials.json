@@ -67,7 +67,7 @@
         "description": "Get started with Splunk for Security with Splunk Security Essentials (SSE). Explore security use cases and discover security content to start address threats and challenges. \n\nSecurity Content Library\nFind security content for Splunk Cloud and Splunk's SIEM and SOAR offerings and deploy out-of-the-box security detections and analytic stories to enhance your investigations and improve your security posture. \n\nCybersecurity Frameworks\nIdentify gaps in your defenses and take control of your security posture with automatic mapping of data and security detections to MITRE ATT&CK\u00ae and Cyber Kill Chain\u00ae framework.\n\nData and Content Introspection\nGain visibility of the data coming into your environment to add context and telemetry to security events. Enrich your security detections with metadata and tags from the Security Content Library.\n\nSecurity Data Journey\nGet prescriptive security and data recommendations and establish a data strategy to develop a security maturity roadmap. \n\nWe have changed the security content delivery endpoint for ESCU to comply with Splunk guidance. This means that if you have SSE version 3.7.1 or lower, the last supported ESCU version is ESCU 4.22.0. In order to get the latest ESCU version, you will need to upgrade SSE to version 3.8.0.\n\nLearn more:\nDownload the Product Brief : https://www.splunk.com/pdfs/product-briefs/splunk-security-essentials.pdf\nTry out Splunk Security Essentials: https://www.splunk.com/en_us/form/splunk-security-essentials-online-demo.html\nCheck out the Documentation site: https://docs.splunk.com/Documentation/SSE",
         "documentation": "<p>Overview</p>\n<ul>\n<li><a href=\"https://splunkvideo.hubs.vidyard.com/watch/FLgbpKZ2gvd1RB6mak2KV8\">What is Splunk Security Essentials?</a> (Video)</li>\n<li><a href=\"https://docs.splunk.com/Documentation/SSE/latest/ReleaseNotes/Enhancements\">Release Notes</a></li>\n<li><a href=\"https://docs.splunk.com/Documentation/SSE\">Documentation Site</a></li>\n</ul>\n<p>Support\n* <a href=\"&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#115;&#101;&#45;&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#115;&#112;&#108;&#117;&#110;&#107;&#46;&#99;&#111;&#109;\">&#115;&#115;&#101;&#45;&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#115;&#112;&#108;&#117;&#110;&#107;&#46;&#99;&#111;&#109;</a></p>",
         "documentationSource": "Overview\n\n* [What is Splunk Security Essentials?](https://splunkvideo.hubs.vidyard.com/watch/FLgbpKZ2gvd1RB6mak2KV8) (Video)\n* [Release Notes](https://docs.splunk.com/Documentation/SSE/latest/ReleaseNotes/Enhancements)\n* [Documentation Site](https://docs.splunk.com/Documentation/SSE)\n\nSupport\n* <sse-support@splunk.com>",
-        "downloadCount": 225269,
+        "downloadCount": 225307,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/c8b4023a-f4f5-11f0-912e-666ad1df12e9.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": "",
@@ -301,7 +301,7 @@
             "id": 38024,
             "installMethodDistributed": "appmgmt_phase",
             "installMethodSingle": "simple",
-            "manifest": "",
+            "manifest": null,
             "md5": "a4904c8257b35a4b5215a835b4767637",
             "minProductVersionStr": null,
             "name": "3.8.2",
@@ -371,7 +371,7 @@
             "id": 35179,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "",
+            "manifest": null,
             "md5": "383249b3a6b698d2c6fb9a887da1585b",
             "minProductVersionStr": null,
             "name": "3.8.1",
@@ -1660,7 +1660,57 @@
             "id": 15960,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk Security Essentials\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"Splunk_Security_Essentials\",\n      \"version\": \"3.1.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Splunk Security Essentials\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": \"./LICENSE.txt\",\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\"\n  ],\n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk Security Essentials",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_Security_Essentials",
+                  "version": "3.1.0"
+                },
+                "author": [
+                  {
+                    "name": "Splunk",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Splunk Security Essentials",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": "./LICENSE.txt",
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "90022c343ea6721df4b0818f4e67e865",
             "minProductVersionStr": null,
             "name": "3.1.0",
@@ -2040,7 +2090,57 @@
             "id": 14865,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Splunk Security Essentials\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"Splunk_Security_Essentials\", \n      \"version\": \"3.0.2\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Splunk Security Essentials\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": \"./LICENSE.txt\", \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk Security Essentials",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_Security_Essentials",
+                  "version": "3.0.2"
+                },
+                "author": [
+                  {
+                    "name": "Splunk",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Splunk Security Essentials",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": "./LICENSE.txt",
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "48fad12d5d6430edd25bdb47cc54acfe",
             "minProductVersionStr": null,
             "name": "3.0.2",
@@ -2230,7 +2330,57 @@
             "id": 14220,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Splunk Security Essentials\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"Splunk_Security_Essentials\", \n      \"version\": \"3.0.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Splunk Security Essentials\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": \"./LICENSE.txt\", \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk Security Essentials",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_Security_Essentials",
+                  "version": "3.0.0"
+                },
+                "author": [
+                  {
+                    "name": "Splunk",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Splunk Security Essentials",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": "./LICENSE.txt",
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "a85038b20cb20c8aa21d5807efd1643c",
             "minProductVersionStr": null,
             "name": "3.0.0",
@@ -2325,7 +2475,57 @@
             "id": 13756,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Splunk Security Essentials\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"Splunk_Security_Essentials\", \n      \"version\": \"2.5.1\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Splunk Security Essentials\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": \"./LICENSE.txt\", \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk Security Essentials",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_Security_Essentials",
+                  "version": "2.5.1"
+                },
+                "author": [
+                  {
+                    "name": "Splunk",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Splunk Security Essentials",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": "./LICENSE.txt",
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "66133ef88018c7ffdc18b15d85983650",
             "minProductVersionStr": null,
             "name": "2.5.1",
@@ -2380,7 +2580,57 @@
             "id": 13668,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Splunk Security Essentials\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"Splunk_Security_Essentials\", \n      \"version\": \"2.5.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Splunk Security Essentials\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": \"./LICENSE.txt\", \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk Security Essentials",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_Security_Essentials",
+                  "version": "2.5.0"
+                },
+                "author": [
+                  {
+                    "name": "Splunk",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Splunk Security Essentials",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": "./LICENSE.txt",
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "d4fc5af5b4e75e3f1ac7ec02bdb5049e",
             "minProductVersionStr": null,
             "name": "2.5.0",
@@ -2435,7 +2685,57 @@
             "id": 13188,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Splunk Security Essentials\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"Splunk_Security_Essentials\", \n      \"version\": \"2.4.2\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Splunk Security Essentials\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": \"./LICENSE.txt\", \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk Security Essentials",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_Security_Essentials",
+                  "version": "2.4.2"
+                },
+                "author": [
+                  {
+                    "name": "Splunk",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Splunk Security Essentials",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": "./LICENSE.txt",
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "150040cdde953243d545b47d66540735",
             "minProductVersionStr": null,
             "name": "2.4.2",
@@ -2490,7 +2790,57 @@
             "id": 11991,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Splunk Security Essentials\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"Splunk_Security_Essentials\", \n      \"version\": \"2.3.1\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Splunk Security Essentials\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": \"./LICENSE.txt\", \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk Security Essentials",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_Security_Essentials",
+                  "version": "2.3.1"
+                },
+                "author": [
+                  {
+                    "name": "Splunk",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Splunk Security Essentials",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": "./LICENSE.txt",
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "05694b83f6286c1ac1733d08628719fd",
             "minProductVersionStr": null,
             "name": "2.3.1",
@@ -2540,7 +2890,57 @@
             "id": 11655,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Splunk Security Essentials\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"Splunk_Security_Essentials\", \n      \"version\": \"2.3.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Splunk Security Essentials\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": \"./LICENSE.txt\", \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk Security Essentials",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_Security_Essentials",
+                  "version": "2.3.0"
+                },
+                "author": [
+                  {
+                    "name": "Splunk",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Splunk Security Essentials",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": "./LICENSE.txt",
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "4e28f6811909cbc56bb1ddf40940cc52",
             "minProductVersionStr": null,
             "name": "2.3.0",
@@ -2590,7 +2990,57 @@
             "id": 11044,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Splunk Security Essentials\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"Splunk_Security_Essentials\", \n      \"version\": \"2.2.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Splunk Security Essentials\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": \"./LICENSE.txt\", \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk Security Essentials",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_Security_Essentials",
+                  "version": "2.2.0"
+                },
+                "author": [
+                  {
+                    "name": "Splunk",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Splunk Security Essentials",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": "./LICENSE.txt",
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "2f10a4f99e0ccd8ad988af7467ef589e",
             "minProductVersionStr": null,
             "name": "2.2.0",
@@ -2640,7 +3090,57 @@
             "id": 9727,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Splunk Security Essentials\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"Splunk_Security_Essentials\", \n      \"version\": \"2.0.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Splunk Security Essentials\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": \"./LICENSE.txt\", \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk Security Essentials",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_Security_Essentials",
+                  "version": "2.0.0"
+                },
+                "author": [
+                  {
+                    "name": "Splunk",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Splunk Security Essentials",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": "./LICENSE.txt",
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "5e1f4036bdcdd4df2242df2f535549c8",
             "minProductVersionStr": null,
             "name": "2.0.0",
@@ -2680,7 +3180,52 @@
             "id": 8147,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\", \n  \"info\": {\n    \"title\": \"Splunk Security Essentials\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"Splunk_Security_Essentials\", \n      \"version\": \"1.4.5\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Splunk Security Essentials\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "Splunk Security Essentials",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_Security_Essentials",
+                  "version": "1.4.5"
+                },
+                "author": [
+                  {
+                    "name": "Splunk",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Splunk Security Essentials",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null
+            },
             "md5": "85800a359f9dae944cf59329195ee915",
             "minProductVersionStr": null,
             "name": "1.4.5",
@@ -2714,7 +3259,52 @@
             "id": 8100,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\", \n  \"info\": {\n    \"title\": \"Splunk Security Essentials\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"Splunk_Security_Essentials\", \n      \"version\": \"1.4.4\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Splunk Security Essentials\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "Splunk Security Essentials",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_Security_Essentials",
+                  "version": "1.4.4"
+                },
+                "author": [
+                  {
+                    "name": "Splunk",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Splunk Security Essentials",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null
+            },
             "md5": "eba8c20a1aedfdae3f0d315ac1bd4ae8",
             "minProductVersionStr": null,
             "name": "1.4.4",
@@ -2769,7 +3359,7 @@
   "query": {
     "id": "3435"
   },
-  "buildId": "A_x1zQdzW4DRP-cLJABzH",
+  "buildId": "dLt2S5SzCPnZf1It5b_7A",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

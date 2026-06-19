@@ -26,7 +26,7 @@
         "description": "The Splunk Dashboard app v8.2.6 will reach end of support on Dec 19, 2024. No new versions of the app will be released. Simple XML examples are available in SimpleXML reference guide documentation and the Dashboards & Visualizations forum on Splunk Community. Check out this Splunk Lantern article to learn more: https://lantern.splunk.com/@go/page/7411\n-----\nThe Splunk Dashboard app delivers examples that give you a hands-on way to learn the basic concepts and tools needed to rapidly create rich dashboards using Simple XML. This new app incorporates learn-by-doing Simple XML examples, including extensions to Simple XML for further customization of layout, interactivity, and visualizations.\n\nWith the app you will learn basic Simple XML concepts and how to incorporate the built-in components. All the included examples deliver a recipe for implementing dashboard elements, beginning with the most basic and progressing to more advanced elements.  Each example in the app includes an actual runtime visualization followed by a description and supporting source code.\n\n(c) 2016-2020 Splunk Inc. All Rights Reserved.",
         "documentation": "",
         "documentationSource": "",
-        "downloadCount": 300550,
+        "downloadCount": 300555,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/8989c616-7fd8-11ed-8c6e-d6a48ae8285c.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": "",
@@ -355,7 +355,57 @@
             "id": 14605,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Splunk Dashboard Examples\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"simple_xml_examples\", \n      \"version\": \"8.0.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"This dashboard examples app gives you a hands-on way to learn the basic concepts and tools needed to create rich dashboards using Simple XML.\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk Dashboard Examples",
+                "id": {
+                  "group": null,
+                  "name": "simple_xml_examples",
+                  "version": "8.0.0"
+                },
+                "author": [
+                  {
+                    "name": "Splunk",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "This dashboard examples app gives you a hands-on way to learn the basic concepts and tools needed to create rich dashboards using Simple XML.",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "c6780caf8208b65376d63e591e630fc4",
             "minProductVersionStr": null,
             "name": "8.0.0",
@@ -457,7 +507,7 @@
   "query": {
     "id": "1603"
   },
-  "buildId": "A_x1zQdzW4DRP-cLJABzH",
+  "buildId": "dLt2S5SzCPnZf1It5b_7A",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

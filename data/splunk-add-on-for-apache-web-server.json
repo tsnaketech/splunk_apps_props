@@ -26,7 +26,7 @@
         "description": "The Splunk Add-on for Apache Web Server allows a Splunk software administrator to collect and analyze data from Apache Web Server using file monitoring. After the Splunk platform indexes the events, you can analyze the data using the prebuilt panels included with the add-on. \n\nThis add-on provides the inputs and CIM-compatible knowledge to use with other Splunk apps, such as Web.",
         "documentation": "<p>Documentation for this add-on can be found here: <a href=\"http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About\">http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About</a></p>",
         "documentationSource": "Documentation for this add-on can be found here: http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About",
-        "downloadCount": 37128,
+        "downloadCount": 37135,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/c349dc2a-3401-11f1-9b1f-5ab5123230fd.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": null,
@@ -79,7 +79,65 @@
           "id": 42297,
           "installMethodDistributed": "appmgmt_phase",
           "installMethodSingle": "simple",
-          "manifest": "{\n  \"dependencies\": null,\n  \"incompatibleApps\": null,\n  \"info\": {\n    \"author\": [\n      {\n        \"name\": \"Splunk LLC\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"classification\": {\n      \"categories\": [\n        \"IT Operations\"\n      ],\n      \"developmentStatus\": \"Production/Stable\",\n      \"intendedAudience\": \"IT Professionals\"\n    },\n    \"commonInformationModels\": {\n      \"Web\": \"=6.2.0\"\n    },\n    \"description\": \"Splunk Add-on for Apache Web Server\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"Splunk_TA_apache\",\n      \"version\": \"3.0.0\"\n    },\n    \"license\": {\n      \"name\": null,\n      \"text\": \"LICENSES/LicenseRef-Splunk-8-2021.txt\",\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseDate\": null,\n    \"releaseNotes\": {\n      \"name\": \"README\",\n      \"text\": \"README.txt\",\n      \"uri\": \"https://docs.splunk.com/Documentation/AddOns/released/ApacheWebServer/About\"\n    },\n    \"title\": \"Splunk Add-on for Apache Web Server\"\n  },\n  \"inputGroups\": null,\n  \"platformRequirements\": null,\n  \"schemaVersion\": \"2.0.0\",\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\",\n    \"_search_head_clustering\"\n  ],\n  \"targetWorkloads\": [\n    \"_search_heads\",\n    \"_indexers\"\n  ],\n  \"tasks\": null\n}",
+          "manifest": {
+            "dependencies": null,
+            "incompatibleApps": null,
+            "info": {
+              "author": [
+                {
+                  "name": "Splunk LLC",
+                  "email": null,
+                  "company": null
+                }
+              ],
+              "classification": {
+                "categories": [
+                  "IT Operations"
+                ],
+                "developmentStatus": "Production/Stable",
+                "intendedAudience": "IT Professionals"
+              },
+              "commonInformationModels": {
+                "Web": "=6.2.0"
+              },
+              "description": "Splunk Add-on for Apache Web Server",
+              "id": {
+                "group": null,
+                "name": "Splunk_TA_apache",
+                "version": "3.0.0"
+              },
+              "license": {
+                "name": null,
+                "text": "LICENSES/LicenseRef-Splunk-8-2021.txt",
+                "uri": null
+              },
+              "privacyPolicy": {
+                "name": null,
+                "text": null,
+                "uri": null
+              },
+              "releaseDate": null,
+              "releaseNotes": {
+                "name": "README",
+                "text": "README.txt",
+                "uri": "https://docs.splunk.com/Documentation/AddOns/released/ApacheWebServer/About"
+              },
+              "title": "Splunk Add-on for Apache Web Server"
+            },
+            "inputGroups": null,
+            "platformRequirements": null,
+            "schemaVersion": "2.0.0",
+            "supportedDeployments": [
+              "_standalone",
+              "_distributed",
+              "_search_head_clustering"
+            ],
+            "targetWorkloads": [
+              "_search_heads",
+              "_indexers"
+            ],
+            "tasks": null
+          },
           "md5": "c4ab16911883b892891ef1e48a30b523",
           "minProductVersionStr": null,
           "name": "3.0.0",
@@ -98,16 +156,16 @@
           "signedAvailable": true,
           "size": 224485,
           "sourcetypes": [
-            "apache:error",
-            "apache:access",
-            "apache:access:kv",
             "apache:access:combined",
-            "apache:access:json"
+            "apache:access:kv",
+            "apache:access",
+            "apache:access:json",
+            "apache:error"
           ],
           "tags": [
+            "web",
             "__no_tag__",
-            "error",
-            "web"
+            "error"
           ],
           "tagsSourcetypes": {
             "__no_tag__": [
@@ -177,7 +235,65 @@
             "id": 42297,
             "installMethodDistributed": "appmgmt_phase",
             "installMethodSingle": "simple",
-            "manifest": "{\n  \"dependencies\": null,\n  \"incompatibleApps\": null,\n  \"info\": {\n    \"author\": [\n      {\n        \"name\": \"Splunk LLC\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"classification\": {\n      \"categories\": [\n        \"IT Operations\"\n      ],\n      \"developmentStatus\": \"Production/Stable\",\n      \"intendedAudience\": \"IT Professionals\"\n    },\n    \"commonInformationModels\": {\n      \"Web\": \"=6.2.0\"\n    },\n    \"description\": \"Splunk Add-on for Apache Web Server\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"Splunk_TA_apache\",\n      \"version\": \"3.0.0\"\n    },\n    \"license\": {\n      \"name\": null,\n      \"text\": \"LICENSES/LicenseRef-Splunk-8-2021.txt\",\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseDate\": null,\n    \"releaseNotes\": {\n      \"name\": \"README\",\n      \"text\": \"README.txt\",\n      \"uri\": \"https://docs.splunk.com/Documentation/AddOns/released/ApacheWebServer/About\"\n    },\n    \"title\": \"Splunk Add-on for Apache Web Server\"\n  },\n  \"inputGroups\": null,\n  \"platformRequirements\": null,\n  \"schemaVersion\": \"2.0.0\",\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\",\n    \"_search_head_clustering\"\n  ],\n  \"targetWorkloads\": [\n    \"_search_heads\",\n    \"_indexers\"\n  ],\n  \"tasks\": null\n}",
+            "manifest": {
+              "dependencies": null,
+              "incompatibleApps": null,
+              "info": {
+                "author": [
+                  {
+                    "name": "Splunk LLC",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "classification": {
+                  "categories": [
+                    "IT Operations"
+                  ],
+                  "developmentStatus": "Production/Stable",
+                  "intendedAudience": "IT Professionals"
+                },
+                "commonInformationModels": {
+                  "Web": "=6.2.0"
+                },
+                "description": "Splunk Add-on for Apache Web Server",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_TA_apache",
+                  "version": "3.0.0"
+                },
+                "license": {
+                  "name": null,
+                  "text": "LICENSES/LicenseRef-Splunk-8-2021.txt",
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseDate": null,
+                "releaseNotes": {
+                  "name": "README",
+                  "text": "README.txt",
+                  "uri": "https://docs.splunk.com/Documentation/AddOns/released/ApacheWebServer/About"
+                },
+                "title": "Splunk Add-on for Apache Web Server"
+              },
+              "inputGroups": null,
+              "platformRequirements": null,
+              "schemaVersion": "2.0.0",
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed",
+                "_search_head_clustering"
+              ],
+              "targetWorkloads": [
+                "_search_heads",
+                "_indexers"
+              ],
+              "tasks": null
+            },
             "md5": "c4ab16911883b892891ef1e48a30b523",
             "minProductVersionStr": null,
             "name": "3.0.0",
@@ -196,16 +312,16 @@
             "signedAvailable": true,
             "size": 224485,
             "sourcetypes": [
-              "apache:error",
-              "apache:access",
-              "apache:access:kv",
               "apache:access:combined",
-              "apache:access:json"
+              "apache:access:kv",
+              "apache:access",
+              "apache:access:json",
+              "apache:error"
             ],
             "tags": [
+              "web",
               "__no_tag__",
-              "error",
-              "web"
+              "error"
             ],
             "tagsSourcetypes": {
               "__no_tag__": [
@@ -291,7 +407,7 @@
   "query": {
     "id": "3186"
   },
-  "buildId": "A_x1zQdzW4DRP-cLJABzH",
+  "buildId": "dLt2S5SzCPnZf1It5b_7A",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

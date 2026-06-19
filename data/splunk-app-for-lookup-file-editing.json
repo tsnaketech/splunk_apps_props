@@ -63,7 +63,7 @@
         "description": "Ever want to edit a lookup within Splunk with a user interface? Now you can. This app provides an Excel-like interface for editing, importing, and exporting lookup files (KV store and CSV-based).\n\nThis app also makes your lookups work in Search Head Clustered environments (edits to lookups will be propagated to other search heads).\n\nRevision history is maintained for lookups so that you can view or restore older lookups quickly in the interface.\n\nCheck out the Documentation site: \nhttps://docs.splunk.com/Documentation/LookupEditor\n\nhttps://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew",
         "documentation": "<ul>\n<li><a href=\"https://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew\">What's new</a></li>\n<li><a href=\"https://docs.splunk.com/Documentation/LookupEditor\">Documentation Site</a></li>\n</ul>",
         "documentationSource": "*   [What's new](https://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew)\n*   [Documentation Site](https://docs.splunk.com/Documentation/LookupEditor)",
-        "downloadCount": 256455,
+        "downloadCount": 256562,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/cfe298e2-42ec-11f1-9e08-1ad9e1e469d5.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": "",
@@ -116,7 +116,54 @@
           "id": 42645,
           "installMethodDistributed": "appmgmt_phase",
           "installMethodSingle": "simple",
-          "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk App for Lookup File Editing\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"lookup_editor\",\n      \"version\": \"4.0.7\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk, Inc.\",\n        \"email\": \"support@splunk.com\",\n        \"company\": \"Splunk, Inc.\"\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Provides a graphical interface for editing lookup files\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.txt\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": \"*\",\n  \"targetWorkloads\": \"_search_heads\"\n}\n",
+          "manifest": {
+            "schemaVersion": "2.0.0",
+            "info": {
+              "title": "Splunk App for Lookup File Editing",
+              "id": {
+                "group": null,
+                "name": "lookup_editor",
+                "version": "4.0.7"
+              },
+              "author": [
+                {
+                  "name": "Splunk, Inc.",
+                  "email": "support@splunk.com",
+                  "company": "Splunk, Inc."
+                }
+              ],
+              "releaseDate": null,
+              "description": "Provides a graphical interface for editing lookup files",
+              "classification": {
+                "intendedAudience": null,
+                "categories": [],
+                "developmentStatus": null
+              },
+              "commonInformationModels": null,
+              "license": {
+                "name": null,
+                "text": null,
+                "uri": null
+              },
+              "privacyPolicy": {
+                "name": null,
+                "text": null,
+                "uri": null
+              },
+              "releaseNotes": {
+                "name": null,
+                "text": "./README.txt",
+                "uri": null
+              }
+            },
+            "dependencies": null,
+            "tasks": null,
+            "inputGroups": null,
+            "incompatibleApps": null,
+            "platformRequirements": null,
+            "supportedDeployments": "*",
+            "targetWorkloads": "_search_heads"
+          },
           "md5": "c29471bbdbf3024d2ad29850ff720661",
           "minProductVersionStr": null,
           "name": "4.0.7",
@@ -202,7 +249,54 @@
             "id": 42645,
             "installMethodDistributed": "appmgmt_phase",
             "installMethodSingle": "simple",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk App for Lookup File Editing\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"lookup_editor\",\n      \"version\": \"4.0.7\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk, Inc.\",\n        \"email\": \"support@splunk.com\",\n        \"company\": \"Splunk, Inc.\"\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Provides a graphical interface for editing lookup files\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.txt\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": \"*\",\n  \"targetWorkloads\": \"_search_heads\"\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk App for Lookup File Editing",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "4.0.7"
+                },
+                "author": [
+                  {
+                    "name": "Splunk, Inc.",
+                    "email": "support@splunk.com",
+                    "company": "Splunk, Inc."
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": "*",
+              "targetWorkloads": "_search_heads"
+            },
             "md5": "c29471bbdbf3024d2ad29850ff720661",
             "minProductVersionStr": null,
             "name": "4.0.7",
@@ -287,7 +381,54 @@
             "id": 39455,
             "installMethodDistributed": "appmgmt_phase",
             "installMethodSingle": "simple",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk App for Lookup File Editing\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"lookup_editor\",\n      \"version\": \"4.0.6\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk, Inc.\",\n        \"email\": \"support@splunk.com\",\n        \"company\": \"Splunk, Inc.\"\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Provides a graphical interface for editing lookup files\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.txt\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": \"*\",\n  \"targetWorkloads\": \"_search_heads\"\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk App for Lookup File Editing",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "4.0.6"
+                },
+                "author": [
+                  {
+                    "name": "Splunk, Inc.",
+                    "email": "support@splunk.com",
+                    "company": "Splunk, Inc."
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": "*",
+              "targetWorkloads": "_search_heads"
+            },
             "md5": "904c8f3e3bda48515bb67986a762685c",
             "minProductVersionStr": null,
             "name": "4.0.6",
@@ -377,7 +518,54 @@
             "id": 36523,
             "installMethodDistributed": "appmgmt_phase",
             "installMethodSingle": "simple",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk App for Lookup File Editing\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"lookup_editor\",\n      \"version\": \"4.0.5\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk, Inc.\",\n        \"email\": \"support@splunk.com\",\n        \"company\": \"Splunk, Inc.\"\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Provides a graphical interface for editing lookup files\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.txt\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": \"*\",\n  \"targetWorkloads\": \"_search_heads\"\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk App for Lookup File Editing",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "4.0.5"
+                },
+                "author": [
+                  {
+                    "name": "Splunk, Inc.",
+                    "email": "support@splunk.com",
+                    "company": "Splunk, Inc."
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": "*",
+              "targetWorkloads": "_search_heads"
+            },
             "md5": "77f4db3de4d495d90d1becdb88105b3d",
             "minProductVersionStr": null,
             "name": "4.0.5",
@@ -452,7 +640,54 @@
             "id": 33888,
             "installMethodDistributed": "appmgmt_phase",
             "installMethodSingle": "simple",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk App for Lookup File Editing\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"lookup_editor\",\n      \"version\": \"4.0.4\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk, Inc.\",\n        \"email\": \"support@splunk.com\",\n        \"company\": \"Splunk, Inc.\"\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Provides a graphical interface for editing lookup files\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.txt\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": \"*\",\n  \"targetWorkloads\": \"_search_heads\"\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk App for Lookup File Editing",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "4.0.4"
+                },
+                "author": [
+                  {
+                    "name": "Splunk, Inc.",
+                    "email": "support@splunk.com",
+                    "company": "Splunk, Inc."
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": "*",
+              "targetWorkloads": "_search_heads"
+            },
             "md5": "759d8eeea600d10d5f1eded34cd57af5",
             "minProductVersionStr": null,
             "name": "4.0.4",
@@ -602,7 +837,54 @@
             "id": 29606,
             "installMethodDistributed": "appmgmt_phase",
             "installMethodSingle": "simple",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk App for Lookup File Editing\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"lookup_editor\",\n      \"version\": \"4.0.1\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk, Inc.\",\n        \"email\": \"support@splunk.com\",\n        \"company\": \"Splunk, Inc.\"\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Provides a graphical interface for editing lookup files\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.txt\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": \"*\",\n  \"targetWorkloads\": \"_search_heads\"\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk App for Lookup File Editing",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "4.0.1"
+                },
+                "author": [
+                  {
+                    "name": "Splunk, Inc.",
+                    "email": "support@splunk.com",
+                    "company": "Splunk, Inc."
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": "*",
+              "targetWorkloads": "_search_heads"
+            },
             "md5": "2d8f4ae54d18f132ac471ddb807824eb",
             "minProductVersionStr": null,
             "name": "4.0.1",
@@ -754,7 +1036,54 @@
             "id": 20874,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"3.5.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk, Inc.\", \n        \"email\": \"support@splunk.com\", \n        \"company\": \"Splunk, Inc.\"\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": \"*\", \n  \"targetWorkloads\": \"_search_heads\"\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "3.5.0"
+                },
+                "author": [
+                  {
+                    "name": "Splunk, Inc.",
+                    "email": "support@splunk.com",
+                    "company": "Splunk, Inc."
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": "*",
+              "targetWorkloads": "_search_heads"
+            },
             "md5": "8dc8e5c2e7388d66aa7573d4a7d4f03a",
             "minProductVersionStr": null,
             "name": "3.5.0",
@@ -809,7 +1138,54 @@
             "id": 17344,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"3.4.6\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": \"luke.murphey@gmail.com\", \n        \"company\": \"lukemurphey.net\"\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": \"*\", \n  \"targetWorkloads\": \"_search_heads\"\n}",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "3.4.6"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": "luke.murphey@gmail.com",
+                    "company": "lukemurphey.net"
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": "*",
+              "targetWorkloads": "_search_heads"
+            },
             "md5": "e20eb020de26c75e3a3c89015e6cd9ac",
             "minProductVersionStr": null,
             "name": "3.4.6",
@@ -889,7 +1265,54 @@
             "id": 17303,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"3.4.5\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": \"luke.murphey@gmail.com\", \n        \"company\": \"lukemurphey.net\"\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": \"*\", \n  \"targetWorkloads\": \"_search_heads\"\n}",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "3.4.5"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": "luke.murphey@gmail.com",
+                    "company": "lukemurphey.net"
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": "*",
+              "targetWorkloads": "_search_heads"
+            },
             "md5": "f2a3b88ec48552c0bd27a650496d7e8c",
             "minProductVersionStr": null,
             "name": "3.4.5",
@@ -969,7 +1392,54 @@
             "id": 17066,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"3.4.4\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": \"luke.murphey@gmail.com\", \n        \"company\": \"lukemurphey.net\"\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": \"*\", \n  \"targetWorkloads\": \"_search_heads\"\n}",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "3.4.4"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": "luke.murphey@gmail.com",
+                    "company": "lukemurphey.net"
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": "*",
+              "targetWorkloads": "_search_heads"
+            },
             "md5": "d70acc923fb7b4843cdb2a987a400606",
             "minProductVersionStr": null,
             "name": "3.4.4",
@@ -1049,7 +1519,54 @@
             "id": 17041,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"3.4.3\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": \"luke.murphey@gmail.com\", \n        \"company\": \"lukemurphey.net\"\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": \"*\", \n  \"targetWorkloads\": \"_search_heads\"\n}",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "3.4.3"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": "luke.murphey@gmail.com",
+                    "company": "lukemurphey.net"
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": "*",
+              "targetWorkloads": "_search_heads"
+            },
             "md5": "fc85bfbd584b2362b502a5cde23f549b",
             "minProductVersionStr": null,
             "name": "3.4.3",
@@ -1129,7 +1646,57 @@
             "id": 16824,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Lookup Editor\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"lookup_editor\",\n      \"version\": \"3.4.2\"\n    },\n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Provides a graphical interface for editing lookup files\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.txt\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\"\n  ],\n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "3.4.2"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "a029ccfac32709920b6157e6e2472206",
             "minProductVersionStr": null,
             "name": "3.4.2",
@@ -1209,7 +1776,57 @@
             "id": 16162,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Lookup Editor\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"lookup_editor\",\n      \"version\": \"3.4.1\"\n    },\n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Provides a graphical interface for editing lookup files\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.txt\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\"\n  ],\n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "3.4.1"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "bf6991bd147476b05e1ed8f9e32f93a6",
             "minProductVersionStr": null,
             "name": "3.4.1",
@@ -1289,7 +1906,57 @@
             "id": 16056,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Lookup Editor\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"lookup_editor\",\n      \"version\": \"3.4.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Provides a graphical interface for editing lookup files\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.txt\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\"\n  ],\n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "3.4.0"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "cdcd23146ba7f091c13ebf1dd586599c",
             "minProductVersionStr": null,
             "name": "3.4.0",
@@ -1369,7 +2036,57 @@
             "id": 14775,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"3.3.3\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "3.3.3"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "55b63d80fe498efe0927743d787e858f",
             "minProductVersionStr": null,
             "name": "3.3.3",
@@ -1449,7 +2166,57 @@
             "id": 13447,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"3.3.2\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "3.3.2"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "56240437dcc4abe11c3ec8239f2a45ec",
             "minProductVersionStr": null,
             "name": "3.3.2",
@@ -1514,7 +2281,57 @@
             "id": 13018,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"3.3.1\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "3.3.1"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "4f1845dcf63be7fdf4534a3b34f98112",
             "minProductVersionStr": null,
             "name": "3.3.1",
@@ -1579,7 +2396,57 @@
             "id": 12984,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"3.3.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "3.3.0"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "256c8cb815b7362a3b629fed86d40a45",
             "minProductVersionStr": null,
             "name": "3.3",
@@ -1639,7 +2506,57 @@
             "id": 12553,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"3.2.1\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "3.2.1"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "2a8a3f64a3149b91f2e6c0ebd2118931",
             "minProductVersionStr": null,
             "name": "3.2.1",
@@ -1699,7 +2616,57 @@
             "id": 12443,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"3.2.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "3.2.0"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "aa11d95bf650dbfad40914dc7baf5a24",
             "minProductVersionStr": null,
             "name": "3.2.0",
@@ -1759,7 +2726,57 @@
             "id": 12304,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"3.1.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "3.1.0"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "b2fced0c465f6e4377348b52c7227aed",
             "minProductVersionStr": null,
             "name": "3.1.0",
@@ -1819,7 +2836,57 @@
             "id": 11762,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"3.0.5\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "3.0.5"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "0d16e881f0662d31065c3836c20431c6",
             "minProductVersionStr": null,
             "name": "3.0.5",
@@ -1879,7 +2946,57 @@
             "id": 10614,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"3.0.4\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "3.0.4"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "1a349cd700ee8d161a789b3b3efadc43",
             "minProductVersionStr": null,
             "name": "3.0.4",
@@ -1939,7 +3056,57 @@
             "id": 10489,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"3.0.3\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "3.0.3"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "cffabf127fdc8f4cf0335a05e5a97825",
             "minProductVersionStr": null,
             "name": "3.0.3",
@@ -1994,7 +3161,57 @@
             "id": 10359,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"3.0.2\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "3.0.2"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "6d7ccafbfb8923d6b2c0e498993fe853",
             "minProductVersionStr": null,
             "name": "3.0.2",
@@ -2049,7 +3266,57 @@
             "id": 10293,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"3.0.1\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "3.0.1"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "20c6cff9b17163e08883668df73a5a1e",
             "minProductVersionStr": null,
             "name": "3.0.1",
@@ -2104,7 +3371,57 @@
             "id": 10182,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"3.0.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "3.0.0"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "ccfff3082b31def4ef788e616137ea98",
             "minProductVersionStr": null,
             "name": "3.0.0",
@@ -2159,7 +3476,52 @@
             "id": 8612,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"2.7.1\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "2.7.1"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null
+            },
             "md5": "23f80f547a67865f92c30ab911e45f41",
             "minProductVersionStr": null,
             "name": "2.7.1",
@@ -2207,7 +3569,52 @@
             "id": 8042,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"2.7.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "2.7.0"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null
+            },
             "md5": "1289bbc0ed49d307812f37b73342a099",
             "minProductVersionStr": null,
             "name": "2.7.0",
@@ -2249,7 +3656,52 @@
             "id": 7985,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"2.6.2\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "2.6.2"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null
+            },
             "md5": "ceaafb95858fd368b56749d03680ab92",
             "minProductVersionStr": null,
             "name": "2.6.2",
@@ -2291,7 +3743,52 @@
             "id": 7859,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"2.6.1\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "2.6.1"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null
+            },
             "md5": "7a4b7b669d76e3aa957b2d935972dc41",
             "minProductVersionStr": null,
             "name": "2.6.1",
@@ -2333,7 +3830,52 @@
             "id": 7573,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"2.6.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "2.6.0"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null
+            },
             "md5": "b679b93f6fe3f071424049d4f61fa106",
             "minProductVersionStr": null,
             "name": "2.6.0",
@@ -2375,7 +3917,52 @@
             "id": 6727,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"2.5.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "2.5.0"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null
+            },
             "md5": "e20d6a6dd42ae7236914fe6e3214cebf",
             "minProductVersionStr": null,
             "name": "2.5.0",
@@ -2417,7 +4004,52 @@
             "id": 6533,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"2.4.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "2.4.0"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null
+            },
             "md5": "504451968a85b911ddf1263a354a1b84",
             "minProductVersionStr": null,
             "name": "2.4.0",
@@ -2459,7 +4091,52 @@
             "id": 6512,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"2.3.4\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "2.3.4"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null
+            },
             "md5": "2afcf3437dc46f574d7d7f1ae160108c",
             "minProductVersionStr": null,
             "name": "2.3.4",
@@ -2501,7 +4178,52 @@
             "id": 6432,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"2.3.3\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "2.3.3"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null
+            },
             "md5": "2e1c8ea8e3f190d7b04cbbe275fb06d7",
             "minProductVersionStr": null,
             "name": "2.3.3",
@@ -2543,7 +4265,52 @@
             "id": 6222,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"2.3.2\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "2.3.2"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null
+            },
             "md5": "85035145680b07aba588f3ab10f26c3a",
             "minProductVersionStr": null,
             "name": "2.3.2",
@@ -2585,7 +4352,52 @@
             "id": 5818,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"2.3.1\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "2.3.1"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null
+            },
             "md5": "5f3d69293a7a89af92c43307a25b6de3",
             "minProductVersionStr": null,
             "name": "2.3.1",
@@ -2627,7 +4439,52 @@
             "id": 5783,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"2.3.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "2.3.0"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null
+            },
             "md5": "be0a8bcd39fa5b4bc5cbe6ac7663cc8a",
             "minProductVersionStr": null,
             "name": "2.3",
@@ -2669,7 +4526,52 @@
             "id": 5655,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"2.2.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "2.2.0"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null
+            },
             "md5": "c4506074e1773b104b8bc389f056ae58",
             "minProductVersionStr": null,
             "name": "2.2",
@@ -2711,7 +4613,52 @@
             "id": 5355,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"2.1.2\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "2.1.2"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null
+            },
             "md5": "93d178651a0cdc15b78aa59a6f2eef37",
             "minProductVersionStr": null,
             "name": "2.1.2",
@@ -2753,7 +4700,52 @@
             "id": 4922,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"2.1.1\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "2.1.1"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null
+            },
             "md5": "7c735709d06c78fbe88db7681c4690be",
             "minProductVersionStr": null,
             "name": "2.1.1",
@@ -2795,7 +4787,52 @@
             "id": 4870,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"2.1.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "2.1.0"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null
+            },
             "md5": "ea908e08f873982140142912be327540",
             "minProductVersionStr": null,
             "name": "2.1.0",
@@ -2837,7 +4874,52 @@
             "id": 4530,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"2.0.3\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "2.0.3"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null
+            },
             "md5": "2153edcde17712eae7424392a1f9fbe0",
             "minProductVersionStr": null,
             "name": "2.0.3",
@@ -2871,7 +4953,52 @@
             "id": 4496,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"2.0.2\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "2.0.2"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null
+            },
             "md5": "352e96491a30f2458f21b1e22efcbb1b",
             "minProductVersionStr": null,
             "name": "2.0.2",
@@ -2905,7 +5032,52 @@
             "id": 4494,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"2.0.1\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "2.0.1"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null
+            },
             "md5": "0dcb4f7217e7044561d59ed9d74aa859",
             "minProductVersionStr": null,
             "name": "2.0.1",
@@ -2939,7 +5111,52 @@
             "id": 4472,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\", \n  \"info\": {\n    \"title\": \"Lookup Editor\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"lookup_editor\", \n      \"version\": \"2.0.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"LukeMurphey\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"Provides a graphical interface for editing lookup files\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.txt\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "Lookup Editor",
+                "id": {
+                  "group": null,
+                  "name": "lookup_editor",
+                  "version": "2.0.0"
+                },
+                "author": [
+                  {
+                    "name": "LukeMurphey",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Provides a graphical interface for editing lookup files",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null
+            },
             "md5": "503fd1fab66a21a6e59d666777eeae8d",
             "minProductVersionStr": null,
             "name": "2.0.0",
@@ -3000,7 +5217,7 @@
   "query": {
     "id": "1724"
   },
-  "buildId": "A_x1zQdzW4DRP-cLJABzH",
+  "buildId": "dLt2S5SzCPnZf1It5b_7A",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

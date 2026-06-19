@@ -26,7 +26,7 @@
         "description": "The Splunk Event Generator (Eventgen) is a utility which allows its users to easily build real-time event generators.\n\nEventgen allows an app developer to get events into Splunk to test their applications. It provides a somewhat ridiculous amount of configurability to allow users to simulate real data.\n\nTo join the development community, please go to https://github.com/splunk/eventgen.\nFor documentation, please go to the Eventgen Documentation(http://splunk.github.io/eventgen/).",
         "documentation": "<h1>The Splunk Event Generator</h1>\n<p>The Splunk Event Generator is a utility which allows its user to easily build real-time event generators.<br>\nThe current maintainers of this project are Jack Meixensperger (<a href=\"mailto:jackm@splunk.com\">jackm@splunk.com</a>) and Michael Guenther (<a href=\"mailto:mguenther@splunk.com\">mguenther@splunk.com</a>).</p>\n<p>The goals of this project:</p>\n<ul>\n<li>Provide a single data generation solution that all Splunk Apps can leverage</li>\n<li>Enable portable and re-usable configurations that can be quickly adapted between use cases</li>\n<li>Allow every type of Splunk event or transaction to be modeled inside Eventgen</li>\n</ul>\n<h3>Documentation</h3>\n<p>Documentation is hosted at <a href=\"http://splunk.github.io/eventgen/\">Eventgen Documentation</a>.</p>\n<p>For more information, please go to <a href=\"https://github.com/splunk/eventgen\">Eventgen Github Repository</a>.</p>",
         "documentationSource": "# The Splunk Event Generator\n\nThe Splunk Event Generator is a utility which allows its user to easily build real-time event generators.\nThe current maintainers of this project are Jack Meixensperger (jackm@splunk.com) and Michael Guenther (mguenther@splunk.com).\n\nThe goals of this project:\n\n* Provide a single data generation solution that all Splunk Apps can leverage\n* Enable portable and re-usable configurations that can be quickly adapted between use cases\n* Allow every type of Splunk event or transaction to be modeled inside Eventgen\n\n### Documentation\n\nDocumentation is hosted at [Eventgen Documentation](http://splunk.github.io/eventgen/).\n\nFor more information, please go to [Eventgen Github Repository](https://github.com/splunk/eventgen).",
-        "downloadCount": 290441,
+        "downloadCount": 290458,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/53e6a222-f960-11eb-97a2-3a6fb3f26e50.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": "https://github.com/splunk/eventgen",
@@ -77,7 +77,57 @@
           "id": 38511,
           "installMethodDistributed": "appmgmt_phase",
           "installMethodSingle": "simple",
-          "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"SA-Eventgen\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"SA-Eventgen\",\n      \"version\": \"8.2.1\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"SA-Eventgen app for dynamic data generation\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.md\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\"\n  ],\n  \"targetWorkloads\": null\n}\n",
+          "manifest": {
+            "schemaVersion": "2.0.0",
+            "info": {
+              "title": "SA-Eventgen",
+              "id": {
+                "group": null,
+                "name": "SA-Eventgen",
+                "version": "8.2.1"
+              },
+              "author": [
+                {
+                  "name": "Splunk Inc.",
+                  "email": null,
+                  "company": null
+                }
+              ],
+              "releaseDate": null,
+              "description": "SA-Eventgen app for dynamic data generation",
+              "classification": {
+                "intendedAudience": null,
+                "categories": [],
+                "developmentStatus": null
+              },
+              "commonInformationModels": null,
+              "license": {
+                "name": null,
+                "text": null,
+                "uri": null
+              },
+              "privacyPolicy": {
+                "name": null,
+                "text": null,
+                "uri": null
+              },
+              "releaseNotes": {
+                "name": null,
+                "text": "./README.md",
+                "uri": null
+              }
+            },
+            "dependencies": null,
+            "tasks": null,
+            "inputGroups": null,
+            "incompatibleApps": null,
+            "platformRequirements": null,
+            "supportedDeployments": [
+              "_standalone",
+              "_distributed"
+            ],
+            "targetWorkloads": null
+          },
           "md5": "0e1368cfce980001425aa72b444b1b54",
           "minProductVersionStr": null,
           "name": "8.2.1",
@@ -181,7 +231,57 @@
             "id": 41439,
             "installMethodDistributed": "appmgmt_phase",
             "installMethodSingle": "simple",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"SA-Eventgen\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"SA-Eventgen\",\n      \"version\": \"8.2.2\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"SA-Eventgen app for dynamic data generation\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.md\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\"\n  ],\n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "SA-Eventgen",
+                "id": {
+                  "group": null,
+                  "name": "SA-Eventgen",
+                  "version": "8.2.2"
+                },
+                "author": [
+                  {
+                    "name": "Splunk Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "SA-Eventgen app for dynamic data generation",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.md",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "a1ab06d6a4fc9166020557f1bc59598e",
             "minProductVersionStr": null,
             "name": "8.2.2",
@@ -284,7 +384,57 @@
             "id": 38511,
             "installMethodDistributed": "appmgmt_phase",
             "installMethodSingle": "simple",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"SA-Eventgen\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"SA-Eventgen\",\n      \"version\": \"8.2.1\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"SA-Eventgen app for dynamic data generation\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.md\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\"\n  ],\n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "SA-Eventgen",
+                "id": {
+                  "group": null,
+                  "name": "SA-Eventgen",
+                  "version": "8.2.1"
+                },
+                "author": [
+                  {
+                    "name": "Splunk Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "SA-Eventgen app for dynamic data generation",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.md",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "0e1368cfce980001425aa72b444b1b54",
             "minProductVersionStr": null,
             "name": "8.2.1",
@@ -387,7 +537,57 @@
             "id": 38043,
             "installMethodDistributed": "appmgmt_phase",
             "installMethodSingle": "simple",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"SA-Eventgen\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"SA-Eventgen\",\n      \"version\": \"8.2.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"SA-Eventgen app for dynamic data generation\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.md\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\"\n  ],\n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "SA-Eventgen",
+                "id": {
+                  "group": null,
+                  "name": "SA-Eventgen",
+                  "version": "8.2.0"
+                },
+                "author": [
+                  {
+                    "name": "Splunk Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "SA-Eventgen app for dynamic data generation",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.md",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "815f3ddb3d348e4064eac44fa3114562",
             "minProductVersionStr": null,
             "name": "8.2.0",
@@ -730,13 +930,13 @@
             "signedAvailable": true,
             "size": 3450204,
             "sourcetypes": [
-              "eventgen_metrics",
-              "eventgen_main",
               "eventgen",
-              "eventgen_hec_handler",
-              "eventgen_modinput",
+              "eventgen_metrics",
               "eventgen_errors",
-              "eventgen_listener_process"
+              "eventgen_modinput",
+              "eventgen_listener_process",
+              "eventgen_main",
+              "eventgen_hec_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -833,13 +1033,13 @@
             "signedAvailable": true,
             "size": 3593348,
             "sourcetypes": [
-              "eventgen_metrics",
-              "eventgen_main",
               "eventgen",
-              "eventgen_hec_handler",
-              "eventgen_modinput",
+              "eventgen_metrics",
               "eventgen_errors",
-              "eventgen_listener_process"
+              "eventgen_modinput",
+              "eventgen_listener_process",
+              "eventgen_main",
+              "eventgen_hec_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -918,7 +1118,57 @@
             "id": 18410,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"SA-Eventgen\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"SA-Eventgen\",\n      \"version\": \"7.2.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"SA-Eventgen app for dynamic data generation\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\"\n  ],\n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "SA-Eventgen",
+                "id": {
+                  "group": null,
+                  "name": "SA-Eventgen",
+                  "version": "7.2.0"
+                },
+                "author": [
+                  {
+                    "name": "Splunk Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "SA-Eventgen app for dynamic data generation",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "dcf0abd1c662713d239d49e95a494ac2",
             "minProductVersionStr": null,
             "name": "7.2.0",
@@ -936,13 +1186,13 @@
             "signedAvailable": true,
             "size": 3543892,
             "sourcetypes": [
-              "eventgen_metrics",
-              "eventgen_main",
               "eventgen",
-              "eventgen_hec_handler",
-              "eventgen_modinput",
+              "eventgen_metrics",
               "eventgen_errors",
-              "eventgen_listener_process"
+              "eventgen_modinput",
+              "eventgen_listener_process",
+              "eventgen_main",
+              "eventgen_hec_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1015,7 +1265,57 @@
             "id": 17397,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"SA-Eventgen\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"SA-Eventgen\",\n      \"version\": \"6.5.3\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"SA-Eventgen app for dynamic data generation\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\"\n  ],\n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "SA-Eventgen",
+                "id": {
+                  "group": null,
+                  "name": "SA-Eventgen",
+                  "version": "6.5.3"
+                },
+                "author": [
+                  {
+                    "name": "Splunk Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "SA-Eventgen app for dynamic data generation",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "e94bf87bef6d0fba8bd30e2ab77600af",
             "minProductVersionStr": null,
             "name": "6.5.3",
@@ -1033,13 +1333,13 @@
             "signedAvailable": true,
             "size": 4816700,
             "sourcetypes": [
-              "eventgen_metrics",
-              "eventgen_main",
               "eventgen",
-              "eventgen_hec_handler",
-              "eventgen_modinput",
+              "eventgen_metrics",
               "eventgen_errors",
-              "eventgen_listener_process"
+              "eventgen_modinput",
+              "eventgen_listener_process",
+              "eventgen_main",
+              "eventgen_hec_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1093,7 +1393,57 @@
             "id": 17393,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"SA-Eventgen\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"SA-Eventgen\",\n      \"version\": \"7.1.1\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"SA-Eventgen app for dynamic data generation\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\"\n  ],\n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "SA-Eventgen",
+                "id": {
+                  "group": null,
+                  "name": "SA-Eventgen",
+                  "version": "7.1.1"
+                },
+                "author": [
+                  {
+                    "name": "Splunk Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "SA-Eventgen app for dynamic data generation",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "ae7f8ab85b6d55d7a2d990076ecf1829",
             "minProductVersionStr": null,
             "name": "7.1.1",
@@ -1111,13 +1461,13 @@
             "signedAvailable": true,
             "size": 3529539,
             "sourcetypes": [
-              "eventgen_metrics",
-              "eventgen_main",
               "eventgen",
-              "eventgen_hec_handler",
-              "eventgen_modinput",
+              "eventgen_metrics",
               "eventgen_errors",
-              "eventgen_listener_process"
+              "eventgen_modinput",
+              "eventgen_listener_process",
+              "eventgen_main",
+              "eventgen_hec_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1196,7 +1546,57 @@
             "id": 15970,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"SA-Eventgen\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"SA-Eventgen\",\n      \"version\": \"7.1.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"SA-Eventgen app for dynamic data generation\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\"\n  ],\n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "SA-Eventgen",
+                "id": {
+                  "group": null,
+                  "name": "SA-Eventgen",
+                  "version": "7.1.0"
+                },
+                "author": [
+                  {
+                    "name": "Splunk Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "SA-Eventgen app for dynamic data generation",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "f36582c997a5192d9b68b70eee24e7e1",
             "minProductVersionStr": null,
             "name": "7.1.0",
@@ -1214,13 +1614,13 @@
             "signedAvailable": true,
             "size": 3561742,
             "sourcetypes": [
-              "eventgen_metrics",
-              "eventgen_main",
               "eventgen",
-              "eventgen_hec_handler",
-              "eventgen_modinput",
+              "eventgen_metrics",
               "eventgen_errors",
-              "eventgen_listener_process"
+              "eventgen_modinput",
+              "eventgen_listener_process",
+              "eventgen_main",
+              "eventgen_hec_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1293,7 +1693,57 @@
             "id": 14547,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"SA-Eventgen\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"SA-Eventgen\", \n      \"version\": \"7.0.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"SA-Eventgen app for dynamic data generation\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "SA-Eventgen",
+                "id": {
+                  "group": null,
+                  "name": "SA-Eventgen",
+                  "version": "7.0.0"
+                },
+                "author": [
+                  {
+                    "name": "Splunk Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "SA-Eventgen app for dynamic data generation",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "054a66e2b4778b13e0a045354b84374e",
             "minProductVersionStr": null,
             "name": "7.0.0",
@@ -1311,13 +1761,13 @@
             "signedAvailable": true,
             "size": 3034418,
             "sourcetypes": [
-              "eventgen_metrics",
-              "eventgen_main",
               "eventgen",
-              "eventgen_hec_handler",
-              "eventgen_modinput",
+              "eventgen_metrics",
               "eventgen_errors",
-              "eventgen_listener_process"
+              "eventgen_modinput",
+              "eventgen_listener_process",
+              "eventgen_main",
+              "eventgen_hec_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1390,7 +1840,57 @@
             "id": 14183,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"SA-Eventgen\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"SA-Eventgen\", \n      \"version\": \"6.5.2\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"SA-Eventgen app for dynamic data generation\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "SA-Eventgen",
+                "id": {
+                  "group": null,
+                  "name": "SA-Eventgen",
+                  "version": "6.5.2"
+                },
+                "author": [
+                  {
+                    "name": "Splunk Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "SA-Eventgen app for dynamic data generation",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "9be576f7bde7414d6153b3699bc9b41a",
             "minProductVersionStr": null,
             "name": "6.5.2",
@@ -1408,13 +1908,13 @@
             "signedAvailable": true,
             "size": 4764334,
             "sourcetypes": [
-              "eventgen_metrics",
-              "eventgen_main",
               "eventgen",
-              "eventgen_hec_handler",
-              "eventgen_modinput",
+              "eventgen_metrics",
               "eventgen_errors",
-              "eventgen_listener_process"
+              "eventgen_modinput",
+              "eventgen_listener_process",
+              "eventgen_main",
+              "eventgen_hec_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1462,7 +1962,57 @@
             "id": 13672,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"SA-Eventgen\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"SA-Eventgen\", \n      \"version\": \"6.5.1\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"SA-Eventgen app for dynamic data generation\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "SA-Eventgen",
+                "id": {
+                  "group": null,
+                  "name": "SA-Eventgen",
+                  "version": "6.5.1"
+                },
+                "author": [
+                  {
+                    "name": "Splunk Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "SA-Eventgen app for dynamic data generation",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "fd1c282c4d7b2a39a58897ff0fec0b0b",
             "minProductVersionStr": null,
             "name": "6.5.1",
@@ -1480,13 +2030,13 @@
             "signedAvailable": true,
             "size": 4839954,
             "sourcetypes": [
-              "eventgen_metrics",
-              "eventgen_main",
               "eventgen",
-              "eventgen_hec_handler",
-              "eventgen_modinput",
+              "eventgen_metrics",
               "eventgen_errors",
-              "eventgen_listener_process"
+              "eventgen_modinput",
+              "eventgen_listener_process",
+              "eventgen_main",
+              "eventgen_hec_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1539,7 +2089,57 @@
             "id": 13261,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"SA-Eventgen\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"SA-Eventgen\", \n      \"version\": \"6.4.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"SA-Eventgen app for dynamic data generation\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "SA-Eventgen",
+                "id": {
+                  "group": null,
+                  "name": "SA-Eventgen",
+                  "version": "6.4.0"
+                },
+                "author": [
+                  {
+                    "name": "Splunk Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "SA-Eventgen app for dynamic data generation",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "687313084b91e88dabbcdc21470aae8c",
             "minProductVersionStr": null,
             "name": "6.4.0",
@@ -1557,13 +2157,13 @@
             "signedAvailable": true,
             "size": 4819419,
             "sourcetypes": [
-              "eventgen_metrics",
-              "eventgen_main",
               "eventgen",
-              "eventgen_hec_handler",
-              "eventgen_modinput",
+              "eventgen_metrics",
               "eventgen_errors",
-              "eventgen_listener_process"
+              "eventgen_modinput",
+              "eventgen_listener_process",
+              "eventgen_main",
+              "eventgen_hec_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1611,7 +2211,57 @@
             "id": 13058,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"SA-Eventgen\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"SA-Eventgen\", \n      \"version\": \"6.3.6\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"SA-Eventgen app for dynamic data generation\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "SA-Eventgen",
+                "id": {
+                  "group": null,
+                  "name": "SA-Eventgen",
+                  "version": "6.3.6"
+                },
+                "author": [
+                  {
+                    "name": "Splunk Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "SA-Eventgen app for dynamic data generation",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "d3e56d2ce00c1851f7e002158ce979ef",
             "minProductVersionStr": null,
             "name": "6.3.6",
@@ -1629,13 +2279,13 @@
             "signedAvailable": true,
             "size": 4632817,
             "sourcetypes": [
-              "eventgen_metrics",
-              "eventgen_main",
               "eventgen",
-              "eventgen_hec_handler",
-              "eventgen_modinput",
+              "eventgen_metrics",
               "eventgen_errors",
-              "eventgen_listener_process"
+              "eventgen_modinput",
+              "eventgen_listener_process",
+              "eventgen_main",
+              "eventgen_hec_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1678,7 +2328,57 @@
             "id": 12607,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"SA-Eventgen\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"SA-Eventgen\", \n      \"version\": \"6.3.4\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"SA-Eventgen app for dynamic data generation\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "SA-Eventgen",
+                "id": {
+                  "group": null,
+                  "name": "SA-Eventgen",
+                  "version": "6.3.4"
+                },
+                "author": [
+                  {
+                    "name": "Splunk Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "SA-Eventgen app for dynamic data generation",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "131b74531a179b548d2b5b8190c2817a",
             "minProductVersionStr": null,
             "name": "6.3.4",
@@ -1696,13 +2396,13 @@
             "signedAvailable": true,
             "size": 4632277,
             "sourcetypes": [
-              "eventgen_metrics",
-              "eventgen_main",
               "eventgen",
-              "eventgen_hec_handler",
-              "eventgen_modinput",
+              "eventgen_metrics",
               "eventgen_errors",
-              "eventgen_listener_process"
+              "eventgen_modinput",
+              "eventgen_listener_process",
+              "eventgen_main",
+              "eventgen_hec_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1745,7 +2445,57 @@
             "id": 12514,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"SA-Eventgen\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"SA-Eventgen\", \n      \"version\": \"6.3.3\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"SA-Eventgen app for dynamic data generation\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "SA-Eventgen",
+                "id": {
+                  "group": null,
+                  "name": "SA-Eventgen",
+                  "version": "6.3.3"
+                },
+                "author": [
+                  {
+                    "name": "Splunk Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "SA-Eventgen app for dynamic data generation",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "4b98d949b938a3f8f1e1392e1bcdfbf6",
             "minProductVersionStr": null,
             "name": "6.3.3",
@@ -1763,13 +2513,13 @@
             "signedAvailable": true,
             "size": 4642418,
             "sourcetypes": [
-              "eventgen_metrics",
-              "eventgen_main",
               "eventgen",
-              "eventgen_hec_handler",
-              "eventgen_modinput",
+              "eventgen_metrics",
               "eventgen_errors",
-              "eventgen_listener_process"
+              "eventgen_modinput",
+              "eventgen_listener_process",
+              "eventgen_main",
+              "eventgen_hec_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1812,7 +2562,57 @@
             "id": 11761,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"SA-Eventgen\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"SA-Eventgen\", \n      \"version\": \"6.3.2\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"SA-Eventgen app for dynamic data generation\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "SA-Eventgen",
+                "id": {
+                  "group": null,
+                  "name": "SA-Eventgen",
+                  "version": "6.3.2"
+                },
+                "author": [
+                  {
+                    "name": "Splunk Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "SA-Eventgen app for dynamic data generation",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "81a364271441e4db3499306e0d51221a",
             "minProductVersionStr": null,
             "name": "6.3.2",
@@ -1830,13 +2630,13 @@
             "signedAvailable": true,
             "size": 4639872,
             "sourcetypes": [
-              "eventgen_metrics",
-              "eventgen_main",
               "eventgen",
-              "eventgen_hec_handler",
-              "eventgen_modinput",
+              "eventgen_metrics",
               "eventgen_errors",
-              "eventgen_listener_process"
+              "eventgen_modinput",
+              "eventgen_listener_process",
+              "eventgen_main",
+              "eventgen_hec_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1879,7 +2679,57 @@
             "id": 11738,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"SA-Eventgen\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"SA-Eventgen\", \n      \"version\": \"6.3.1\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"SA-Eventgen app for dynamic data generation\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "SA-Eventgen",
+                "id": {
+                  "group": null,
+                  "name": "SA-Eventgen",
+                  "version": "6.3.1"
+                },
+                "author": [
+                  {
+                    "name": "Splunk Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "SA-Eventgen app for dynamic data generation",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "414d923205d88936078a1f85983ddee8",
             "minProductVersionStr": null,
             "name": "6.3.1",
@@ -1897,13 +2747,13 @@
             "signedAvailable": true,
             "size": 4640390,
             "sourcetypes": [
-              "eventgen_metrics",
-              "eventgen_main",
               "eventgen",
-              "eventgen_hec_handler",
-              "eventgen_modinput",
+              "eventgen_metrics",
               "eventgen_errors",
-              "eventgen_listener_process"
+              "eventgen_modinput",
+              "eventgen_listener_process",
+              "eventgen_main",
+              "eventgen_hec_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1946,7 +2796,57 @@
             "id": 11595,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"SA-Eventgen\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"SA-Eventgen\", \n      \"version\": \"6.3.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"SA-Eventgen app for dynamic data generation\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "SA-Eventgen",
+                "id": {
+                  "group": null,
+                  "name": "SA-Eventgen",
+                  "version": "6.3.0"
+                },
+                "author": [
+                  {
+                    "name": "Splunk Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "SA-Eventgen app for dynamic data generation",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "48ecda43be35e500fcf901b93ee0eb44",
             "minProductVersionStr": null,
             "name": "6.3.0",
@@ -1964,13 +2864,13 @@
             "signedAvailable": true,
             "size": 4662724,
             "sourcetypes": [
-              "eventgen_metrics",
-              "eventgen_main",
               "eventgen",
-              "eventgen_hec_handler",
-              "eventgen_modinput",
+              "eventgen_metrics",
               "eventgen_errors",
-              "eventgen_listener_process"
+              "eventgen_modinput",
+              "eventgen_listener_process",
+              "eventgen_main",
+              "eventgen_hec_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -2013,7 +2913,57 @@
             "id": 10476,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"SA-Eventgen\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"SA-Eventgen\", \n      \"version\": \"6.2.1\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"SA-Eventgen app for dynamic data generation\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "SA-Eventgen",
+                "id": {
+                  "group": null,
+                  "name": "SA-Eventgen",
+                  "version": "6.2.1"
+                },
+                "author": [
+                  {
+                    "name": "Splunk Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "SA-Eventgen app for dynamic data generation",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "f0a5d26c58c61763861411209fdce4c7",
             "minProductVersionStr": null,
             "name": "6.2.1",
@@ -2031,13 +2981,13 @@
             "signedAvailable": true,
             "size": 4628255,
             "sourcetypes": [
-              "eventgen_metrics",
-              "eventgen_main",
               "eventgen",
-              "eventgen_hec_handler",
-              "eventgen_modinput",
+              "eventgen_metrics",
               "eventgen_errors",
-              "eventgen_listener_process"
+              "eventgen_modinput",
+              "eventgen_listener_process",
+              "eventgen_main",
+              "eventgen_hec_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -2099,7 +3049,7 @@
   "query": {
     "id": "1924"
   },
-  "buildId": "A_x1zQdzW4DRP-cLJABzH",
+  "buildId": "dLt2S5SzCPnZf1It5b_7A",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

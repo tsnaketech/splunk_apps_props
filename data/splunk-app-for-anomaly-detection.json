@@ -35,7 +35,7 @@
         "description": "The Splunk App for Anomaly Detection finds anomalies in time series datasets and provides an end-to-end workflow to manage and operationalize anomaly detection tasks. The app detects seasonal patterns and finds anomalies in just a couple of clicks.\n\n\nUsing the app, you can create anomaly detection jobs, run these jobs on a regular cadence, view SPL queries, and create alerts. The app works with any time series dataset that can be ingested into the Splunk platform, provided the points in the time series are evenly spaced.\n\n\nThe app uses machine learning to detect seasonality in the data without user inputs, lowering the barriers to realizing value. The app also performs health diagnostics on the time series to check whether the dataset is suitable for anomaly detection using our algorithm. If the dataset is not fit for anomaly detection with our algorithm, we have included steps to preprocess the data in the docs. (We are working on supporting more time series out of the box without preprocessing steps for the next version).\n\n\nWhen you create an anomaly detection job, the app generates an SPL query you can view and use elsewhere within Splunk.\n\n\nSimilar to other Splunk applications, the resource consumption of CPU and memory is commensurate with the size of the datasets that you use.\n\n\nThis app is available for both on-premise and cloud customers.",
         "documentation": "<p>For the Splunk App for Anomaly Detection documentation, see <a href=\"https://docs.splunk.com/Documentation/AnomalyApp\">https://docs.splunk.com/Documentation/AnomalyApp</a></p>\n<p><strong>Datasets</strong></p>\n<p>This application may contain certain sample files and datasets, which are provided for your convenience only. Such files and datasets contain information and data compiled by third parties, and Splunk makes no representation or warranty that the data contained in such files and datasets are true, accurate, complete, or sanitized.</p>",
         "documentationSource": "For the Splunk App for Anomaly Detection documentation, see https://docs.splunk.com/Documentation/AnomalyApp\n\n**Datasets**\n\nThis application may contain certain sample files and datasets, which are provided for your convenience only. Such files and datasets contain information and data compiled by third parties, and Splunk makes no representation or warranty that the data contained in such files and datasets are true, accurate, complete, or sanitized.",
-        "downloadCount": 4327,
+        "downloadCount": 4328,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/21bc8992-8405-11ee-8d26-7e3a32636d24.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": "",
@@ -389,7 +389,57 @@
             "id": 29012,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"Splunk_App_for_Anomaly_Detection\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"Splunk_App_for_Anomaly_Detection\",\n      \"version\": \"1.0.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"Splunk, Inc.\",\n        \"email\": \"mlsupport@splunk.com\",\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"Given a time series, the Splunk App for Anomaly Detection automatically tunes and generates the optimal SPL query for anomaly detection.\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [\"Security, Fraud & Compliance\", \"DevOps\"],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": \"Splunk Software License Agreement\",\n      \"text\": null,\n      \"uri\": \"https://www.splunk.com/en_us/legal/splunk-software-license-agreement.html\"\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    }\n  },\n  \"tasks\": null,\n  \"supportedDeployments\": [\n    \"_standalone\"\n  ],\n  \"targetWorkloads\": [\n    \"_search_heads\"\n  ]\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk_App_for_Anomaly_Detection",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_App_for_Anomaly_Detection",
+                  "version": "1.0.0"
+                },
+                "author": [
+                  {
+                    "name": "Splunk, Inc.",
+                    "email": "mlsupport@splunk.com",
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Given a time series, the Splunk App for Anomaly Detection automatically tunes and generates the optimal SPL query for anomaly detection.",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [
+                    "Security, Fraud & Compliance",
+                    "DevOps"
+                  ],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": "Splunk Software License Agreement",
+                  "text": null,
+                  "uri": "https://www.splunk.com/en_us/legal/splunk-software-license-agreement.html"
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "tasks": null,
+              "supportedDeployments": [
+                "_standalone"
+              ],
+              "targetWorkloads": [
+                "_search_heads"
+              ]
+            },
             "md5": "a7f383b6677a53adf7748ec87b7c6a33",
             "minProductVersionStr": null,
             "name": "1.0.0",
@@ -488,7 +538,7 @@
   "query": {
     "id": "6843"
   },
-  "buildId": "A_x1zQdzW4DRP-cLJABzH",
+  "buildId": "dLt2S5SzCPnZf1It5b_7A",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

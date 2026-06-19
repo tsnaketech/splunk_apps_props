@@ -26,7 +26,7 @@
         "description": "The new ThreatQuotient App for Splunk improves on our previous capability while incorporating feedback collected from our customers around functionality and deployability.\n\nNote: The new ThreatQuotient App for Splunk requires the ThreatQuotient Add-on for Splunk as well as ThreatQ version 5.11 or later.\n\nThreatQuotient Splunk Support Documentation\nSee the Splunk Documentation located on the ThreatQuotient Help Center for more information.\n\n https://helpcenter.threatq.com/Integration_Documentation/app/Splunk.htm",
         "documentation": "<h3>Functionality includes:</h3>\n<p><strong>Ingestion of ThreatQ Data into Splunk</strong><br>\nEnable users to customize what data is ingested by leveraging ThreatQ exports and Splunk input filters. Customization continues for advanced users with the ability to modify leveraged indexes and Splunk saved searches that drive the ThreatQuotient App for Splunk to meet the needs of their environment.</p>\n<p><strong>Matching of Splunk Events with ThreatQ Indicators</strong><br>\nProvide context on possible malicious activity by matching Splunk Events with ThreatQ indicators. Matching is customizable by ThreatQ indicator status and score to meet the differing needs of customer environments and workflows.</p>\n<p><strong>Reporting of Matches in Splunk back to ThreatQ as Sighting Events</strong><br>\nSighting events in ThreatQ will show indicator matches from Splunk and will be grouped by indicator.</p>\n<p><strong>Workflow Actions</strong><br>\nUsers can modify ThreatQ data based on any indexed indicators within Splunk.</p>\n<p><strong>Workflow actions include:</strong><br>\n- ThreatQ: Add Indicator<br>\n- ThreatQ: Update Indicator Status<br>\n- ThreatQ: Lookup Indicator<br>\n- ThreatQ: Mark as False Positive<br>\n- ThreatQ: Mark as True Positive</p>\n<p><strong>Note:</strong> Support for ingesting ThreatQ data into Splunk Enterprise Security will be leveraged in the additional workflows provided within that application.</p>\n<h3>Deployability</h3>\n<p>The ThreatQuotient App for Splunk has been re-designed to scale to our customers' growing needs, supporting installations in Splunk deployments of all sizes.</p>",
         "documentationSource": "### Functionality includes:\n\n**Ingestion of ThreatQ Data into Splunk**\nEnable users to customize what data is ingested by leveraging ThreatQ exports and Splunk input filters. Customization continues for advanced users with the ability to modify leveraged indexes and Splunk saved searches that drive the ThreatQuotient App for Splunk to meet the needs of their environment.\n\n**Matching of Splunk Events with ThreatQ Indicators**\nProvide context on possible malicious activity by matching Splunk Events with ThreatQ indicators. Matching is customizable by ThreatQ indicator status and score to meet the differing needs of customer environments and workflows.\n\n**Reporting of Matches in Splunk back to ThreatQ as Sighting Events**\nSighting events in ThreatQ will show indicator matches from Splunk and will be grouped by indicator.\n\n**Workflow Actions**\nUsers can modify ThreatQ data based on any indexed indicators within Splunk.\n\n**Workflow actions include:**\n- ThreatQ: Add Indicator\n- ThreatQ: Update Indicator Status\n- ThreatQ: Lookup Indicator\n- ThreatQ: Mark as False Positive\n- ThreatQ: Mark as True Positive\n\n\n**Note:** Support for ingesting ThreatQ data into Splunk Enterprise Security will be leveraged in the additional workflows provided within that application.\n\n### Deployability\nThe ThreatQuotient App for Splunk has been re-designed to scale to our customers' growing needs, supporting installations in Splunk deployments of all sizes.",
-        "downloadCount": 4915,
+        "downloadCount": 4916,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/794fe74c-5277-11f1-a771-229e6c6a53f2.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": "",
@@ -77,7 +77,62 @@
           "id": 42986,
           "installMethodDistributed": "appmgmt_phase",
           "installMethodSingle": "simple",
-          "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"ThreatQuotient App for Splunk\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"ThreatQAppforSplunk\",\n      \"version\": \"3.2.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"ThreatQuotient Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"ThreatQuotient App for Splunk\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    }\n  },\n  \"dependencies\": {\n  },\n  \"tasks\": [],\n  \"inputGroups\": {\n  },\n  \"incompatibleApps\": {\n  },\n  \"platformRequirements\": {\n    \"splunk\": {\n      \"Enterprise\": \"*\"\n    }\n  },\n  \"supportedDeployments\": [\n    \"*\"\n  ],\n  \"targetWorkloads\": [\n    \"*\"\n  ]\n}",
+          "manifest": {
+            "schemaVersion": "2.0.0",
+            "info": {
+              "title": "ThreatQuotient App for Splunk",
+              "id": {
+                "group": null,
+                "name": "ThreatQAppforSplunk",
+                "version": "3.2.0"
+              },
+              "author": [
+                {
+                  "name": "ThreatQuotient Inc.",
+                  "email": null,
+                  "company": null
+                }
+              ],
+              "releaseDate": null,
+              "description": "ThreatQuotient App for Splunk",
+              "classification": {
+                "intendedAudience": null,
+                "categories": [],
+                "developmentStatus": null
+              },
+              "commonInformationModels": null,
+              "license": {
+                "name": null,
+                "text": null,
+                "uri": null
+              },
+              "privacyPolicy": {
+                "name": null,
+                "text": null,
+                "uri": null
+              },
+              "releaseNotes": {
+                "name": null,
+                "text": null,
+                "uri": null
+              }
+            },
+            "dependencies": {},
+            "tasks": [],
+            "inputGroups": {},
+            "incompatibleApps": {},
+            "platformRequirements": {
+              "splunk": {
+                "Enterprise": "*"
+              }
+            },
+            "supportedDeployments": [
+              "*"
+            ],
+            "targetWorkloads": [
+              "*"
+            ]
+          },
           "md5": "b7011399de1e30d1ca6a1b15838f1c88",
           "minProductVersionStr": null,
           "name": "3.2.0",
@@ -149,7 +204,62 @@
             "id": 42986,
             "installMethodDistributed": "appmgmt_phase",
             "installMethodSingle": "simple",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"ThreatQuotient App for Splunk\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"ThreatQAppforSplunk\",\n      \"version\": \"3.2.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"ThreatQuotient Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"ThreatQuotient App for Splunk\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    }\n  },\n  \"dependencies\": {\n  },\n  \"tasks\": [],\n  \"inputGroups\": {\n  },\n  \"incompatibleApps\": {\n  },\n  \"platformRequirements\": {\n    \"splunk\": {\n      \"Enterprise\": \"*\"\n    }\n  },\n  \"supportedDeployments\": [\n    \"*\"\n  ],\n  \"targetWorkloads\": [\n    \"*\"\n  ]\n}",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "ThreatQuotient App for Splunk",
+                "id": {
+                  "group": null,
+                  "name": "ThreatQAppforSplunk",
+                  "version": "3.2.0"
+                },
+                "author": [
+                  {
+                    "name": "ThreatQuotient Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "ThreatQuotient App for Splunk",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": {},
+              "tasks": [],
+              "inputGroups": {},
+              "incompatibleApps": {},
+              "platformRequirements": {
+                "splunk": {
+                  "Enterprise": "*"
+                }
+              },
+              "supportedDeployments": [
+                "*"
+              ],
+              "targetWorkloads": [
+                "*"
+              ]
+            },
             "md5": "b7011399de1e30d1ca6a1b15838f1c88",
             "minProductVersionStr": null,
             "name": "3.2.0",
@@ -220,7 +330,56 @@
             "id": 40753,
             "installMethodDistributed": "appmgmt_phase",
             "installMethodSingle": "simple",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\",\n  \"info\": {\n    \"title\": \"ThreatQAppforSplunk\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"ThreatQAppforSplunk\",\n      \"version\": \"3.1.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"ThreatQuotient Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"App for ThreatQuotient\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    }\n  },\n  \"dependencies\": {\n  },\n  \"tasks\": [],\n  \"inputGroups\": {\n  },\n  \"incompatibleApps\": {\n  },\n  \"platformRequirements\": {\n    \"splunk\": {\n      \"Enterprise\": \">=7.0.0\"\n    }\n  }\n}\n",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "ThreatQAppforSplunk",
+                "id": {
+                  "group": null,
+                  "name": "ThreatQAppforSplunk",
+                  "version": "3.1.0"
+                },
+                "author": [
+                  {
+                    "name": "ThreatQuotient Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "App for ThreatQuotient",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": {},
+              "tasks": [],
+              "inputGroups": {},
+              "incompatibleApps": {},
+              "platformRequirements": {
+                "splunk": {
+                  "Enterprise": ">=7.0.0"
+                }
+              }
+            },
             "md5": "49e388a7f81db741a2ec8d86d2fa7f47",
             "minProductVersionStr": null,
             "name": "3.1.0",
@@ -291,7 +450,56 @@
             "id": 38714,
             "installMethodDistributed": "appmgmt_phase",
             "installMethodSingle": "simple",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\",\n  \"info\": {\n    \"title\": \"ThreatQAppforSplunk\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"ThreatQAppforSplunk\",\n      \"version\": \"3.0.2\"\n    },\n    \"author\": [\n      {\n        \"name\": \"ThreatQuotient Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"App for ThreatQuotient\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    }\n  },\n  \"dependencies\": {\n  },\n  \"tasks\": [],\n  \"inputGroups\": {\n  },\n  \"incompatibleApps\": {\n  },\n  \"platformRequirements\": {\n    \"splunk\": {\n      \"Enterprise\": \">=7.0.0\"\n    }\n  }\n}\n",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "ThreatQAppforSplunk",
+                "id": {
+                  "group": null,
+                  "name": "ThreatQAppforSplunk",
+                  "version": "3.0.2"
+                },
+                "author": [
+                  {
+                    "name": "ThreatQuotient Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "App for ThreatQuotient",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": {},
+              "tasks": [],
+              "inputGroups": {},
+              "incompatibleApps": {},
+              "platformRequirements": {
+                "splunk": {
+                  "Enterprise": ">=7.0.0"
+                }
+              }
+            },
             "md5": "b92f59e75a288071031110a7b8bebf04",
             "minProductVersionStr": null,
             "name": "3.0.2",
@@ -367,7 +575,56 @@
             "id": 37997,
             "installMethodDistributed": "appmgmt_phase",
             "installMethodSingle": "simple",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\",\n  \"info\": {\n    \"title\": \"ThreatQAppforSplunk\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"ThreatQAppforSplunk\",\n      \"version\": \"3.0.1\"\n    },\n    \"author\": [\n      {\n        \"name\": \"ThreatQuotient Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"App for ThreatQuotient\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    }\n  },\n  \"dependencies\": {\n  },\n  \"tasks\": [],\n  \"inputGroups\": {\n  },\n  \"incompatibleApps\": {\n  },\n  \"platformRequirements\": {\n    \"splunk\": {\n      \"Enterprise\": \">=7.0.0\"\n    }\n  }\n}\n",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "ThreatQAppforSplunk",
+                "id": {
+                  "group": null,
+                  "name": "ThreatQAppforSplunk",
+                  "version": "3.0.1"
+                },
+                "author": [
+                  {
+                    "name": "ThreatQuotient Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "App for ThreatQuotient",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": {},
+              "tasks": [],
+              "inputGroups": {},
+              "incompatibleApps": {},
+              "platformRequirements": {
+                "splunk": {
+                  "Enterprise": ">=7.0.0"
+                }
+              }
+            },
             "md5": "7a6efe7149ebeac8c4691b3ebe36a11e",
             "minProductVersionStr": null,
             "name": "3.0.1",
@@ -433,7 +690,56 @@
             "id": 36756,
             "installMethodDistributed": "appmgmt_phase",
             "installMethodSingle": "simple",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\",\n  \"info\": {\n    \"title\": \"ThreatQAppforSplunk\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"ThreatQAppforSplunk\",\n      \"version\": \"3.0.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"ThreatQuotient Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"App for ThreatQuotient\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    }\n  },\n  \"dependencies\": {\n  },\n  \"tasks\": [],\n  \"inputGroups\": {\n  },\n  \"incompatibleApps\": {\n  },\n  \"platformRequirements\": {\n    \"splunk\": {\n      \"Enterprise\": \">=7.0.0\"\n    }\n  }\n}\n",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "ThreatQAppforSplunk",
+                "id": {
+                  "group": null,
+                  "name": "ThreatQAppforSplunk",
+                  "version": "3.0.0"
+                },
+                "author": [
+                  {
+                    "name": "ThreatQuotient Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "App for ThreatQuotient",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": {},
+              "tasks": [],
+              "inputGroups": {},
+              "incompatibleApps": {},
+              "platformRequirements": {
+                "splunk": {
+                  "Enterprise": ">=7.0.0"
+                }
+              }
+            },
             "md5": "bc03cc742eb4082f8ca576c158f907ba",
             "minProductVersionStr": null,
             "name": "3.0.0",
@@ -499,7 +805,56 @@
             "id": 34173,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\",\n  \"info\": {\n    \"title\": \"ThreatQAppforSplunk\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"ThreatQAppforSplunk\",\n      \"version\": \"2.8.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"ThreatQuotient Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"App for ThreatQuotient\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    }\n  },\n  \"dependencies\": {\n  },\n  \"tasks\": [],\n  \"inputGroups\": {\n  },\n  \"incompatibleApps\": {\n  },\n  \"platformRequirements\": {\n    \"splunk\": {\n      \"Enterprise\": \">=7.0.0\"\n    }\n  }\n}\n",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "ThreatQAppforSplunk",
+                "id": {
+                  "group": null,
+                  "name": "ThreatQAppforSplunk",
+                  "version": "2.8.0"
+                },
+                "author": [
+                  {
+                    "name": "ThreatQuotient Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "App for ThreatQuotient",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": {},
+              "tasks": [],
+              "inputGroups": {},
+              "incompatibleApps": {},
+              "platformRequirements": {
+                "splunk": {
+                  "Enterprise": ">=7.0.0"
+                }
+              }
+            },
             "md5": "41f818342c7d0a113201de82fcf548f5",
             "minProductVersionStr": null,
             "name": "2.8.0",
@@ -554,7 +909,56 @@
             "id": 31927,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\",\n  \"info\": {\n    \"title\": \"ThreatQAppforSplunk\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"ThreatQAppforSplunk\",\n      \"version\": \"2.7.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"ThreatQuotient Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"App for ThreatQuotient\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    }\n  },\n  \"dependencies\": {\n  },\n  \"tasks\": [],\n  \"inputGroups\": {\n  },\n  \"incompatibleApps\": {\n  },\n  \"platformRequirements\": {\n    \"splunk\": {\n      \"Enterprise\": \">=7.0.0\"\n    }\n  }\n}\n",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "ThreatQAppforSplunk",
+                "id": {
+                  "group": null,
+                  "name": "ThreatQAppforSplunk",
+                  "version": "2.7.0"
+                },
+                "author": [
+                  {
+                    "name": "ThreatQuotient Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "App for ThreatQuotient",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": {},
+              "tasks": [],
+              "inputGroups": {},
+              "incompatibleApps": {},
+              "platformRequirements": {
+                "splunk": {
+                  "Enterprise": ">=7.0.0"
+                }
+              }
+            },
             "md5": "de331c037056e39d52f7bbdd82c789fc",
             "minProductVersionStr": null,
             "name": "2.7.0",
@@ -630,7 +1034,56 @@
             "id": 29513,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\",\n  \"info\": {\n    \"title\": \"ThreatQAppforSplunk\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"ThreatQAppforSplunk\",\n      \"version\": \"2.6.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"ThreatQuotient Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"App for ThreatQuotient\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    }\n  },\n  \"dependencies\": {\n  },\n  \"tasks\": [],\n  \"inputGroups\": {\n  },\n  \"incompatibleApps\": {\n  },\n  \"platformRequirements\": {\n    \"splunk\": {\n      \"Enterprise\": \">=7.0.0\"\n    }\n  }\n}\n",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "ThreatQAppforSplunk",
+                "id": {
+                  "group": null,
+                  "name": "ThreatQAppforSplunk",
+                  "version": "2.6.0"
+                },
+                "author": [
+                  {
+                    "name": "ThreatQuotient Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "App for ThreatQuotient",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": {},
+              "tasks": [],
+              "inputGroups": {},
+              "incompatibleApps": {},
+              "platformRequirements": {
+                "splunk": {
+                  "Enterprise": ">=7.0.0"
+                }
+              }
+            },
             "md5": "0abfbf249ff1c2610dc4a1036fcbf5c1",
             "minProductVersionStr": null,
             "name": "2.6.0",
@@ -709,7 +1162,56 @@
             "id": 25905,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\",\n  \"info\": {\n    \"title\": \"ThreatQAppforSplunk\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"ThreatQAppforSplunk\",\n      \"version\": \"2.5.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"ThreatQuotient Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"App for ThreatQuotient\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    }\n  },\n  \"dependencies\": {\n  },\n  \"tasks\": [],\n  \"inputGroups\": {\n  },\n  \"incompatibleApps\": {\n  },\n  \"platformRequirements\": {\n    \"splunk\": {\n      \"Enterprise\": \">=7.0.0\"\n    }\n  }\n}",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "ThreatQAppforSplunk",
+                "id": {
+                  "group": null,
+                  "name": "ThreatQAppforSplunk",
+                  "version": "2.5.0"
+                },
+                "author": [
+                  {
+                    "name": "ThreatQuotient Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "App for ThreatQuotient",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": {},
+              "tasks": [],
+              "inputGroups": {},
+              "incompatibleApps": {},
+              "platformRequirements": {
+                "splunk": {
+                  "Enterprise": ">=7.0.0"
+                }
+              }
+            },
             "md5": "5ccdd3a23e868f6017b8d53af28aa469",
             "minProductVersionStr": null,
             "name": "2.5.0",
@@ -779,7 +1281,56 @@
             "id": 22812,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\",\n  \"info\": {\n    \"title\": \"ThreatQAppforSplunk\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"ThreatQAppforSplunk\",\n      \"version\": \"2.4.1\"\n    },\n    \"author\": [\n      {\n        \"name\": \"ThreatQuotient Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"App for ThreatQuotient\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    }\n  },\n  \"dependencies\": {\n  },\n  \"tasks\": [],\n  \"inputGroups\": {\n  },\n  \"incompatibleApps\": {\n  },\n  \"platformRequirements\": {\n    \"splunk\": {\n      \"Enterprise\": \">=7.0.0\"\n    }\n  }\n}",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "ThreatQAppforSplunk",
+                "id": {
+                  "group": null,
+                  "name": "ThreatQAppforSplunk",
+                  "version": "2.4.1"
+                },
+                "author": [
+                  {
+                    "name": "ThreatQuotient Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "App for ThreatQuotient",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": {},
+              "tasks": [],
+              "inputGroups": {},
+              "incompatibleApps": {},
+              "platformRequirements": {
+                "splunk": {
+                  "Enterprise": ">=7.0.0"
+                }
+              }
+            },
             "md5": "725a8aa60c6b0bc4fe8144ee3a854c2d",
             "minProductVersionStr": null,
             "name": "2.4.1",
@@ -864,7 +1415,56 @@
             "id": 21790,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"1.0.0\",\n  \"info\": {\n    \"title\": \"ThreatQAppforSplunk\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"ThreatQAppforSplunk\",\n      \"version\": \"2.4.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"ThreatQuotient Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"App for ThreatQuotient\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    }\n  },\n  \"dependencies\": {\n  },\n  \"tasks\": [],\n  \"inputGroups\": {\n  },\n  \"incompatibleApps\": {\n  },\n  \"platformRequirements\": {\n    \"splunk\": {\n      \"Enterprise\": \">=7.0.0\"\n    }\n  }\n}",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "ThreatQAppforSplunk",
+                "id": {
+                  "group": null,
+                  "name": "ThreatQAppforSplunk",
+                  "version": "2.4.0"
+                },
+                "author": [
+                  {
+                    "name": "ThreatQuotient Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "App for ThreatQuotient",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": {},
+              "tasks": [],
+              "inputGroups": {},
+              "incompatibleApps": {},
+              "platformRequirements": {
+                "splunk": {
+                  "Enterprise": ">=7.0.0"
+                }
+              }
+            },
             "md5": "64b8c385851cd5a876f311ebd8dcd72f",
             "minProductVersionStr": null,
             "name": "2.4.0",
@@ -1119,7 +1719,57 @@
             "id": 17395,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\",\n  \"info\": {\n    \"title\": \"ThreatQuotient App for Splunk\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"ThreatQAppforSplunk\",\n      \"version\": \"2.1.0\"\n    },\n    \"author\": [\n      {\n        \"name\": \"ThreatQuotient Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"releaseDate\": null,\n    \"description\": \"ThreatQuotient App for Splunk\",\n    \"classification\": {\n      \"intendedAudience\": null,\n      \"categories\": [],\n      \"developmentStatus\": null\n    },\n    \"commonInformationModels\": null,\n    \"license\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseNotes\": {\n      \"name\": null,\n      \"text\": \"./README.md\",\n      \"uri\": null\n    }\n  },\n  \"dependencies\": null,\n  \"tasks\": null,\n  \"inputGroups\": null,\n  \"incompatibleApps\": null,\n  \"platformRequirements\": null,\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\"\n  ],\n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "ThreatQuotient App for Splunk",
+                "id": {
+                  "group": null,
+                  "name": "ThreatQAppforSplunk",
+                  "version": "2.1.0"
+                },
+                "author": [
+                  {
+                    "name": "ThreatQuotient Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "ThreatQuotient App for Splunk",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.md",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "566c677d0b0cbea6b19f4f97bcb865cb",
             "minProductVersionStr": null,
             "name": "2.1.0",
@@ -1204,7 +1854,57 @@
             "id": 15542,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"ThreatQuotient App for Splunk\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"ThreatQAppforSplunk\", \n      \"version\": \"2.0.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"ThreatQuotient Inc.\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"ThreatQuotient App for Splunk\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.md\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "ThreatQuotient App for Splunk",
+                "id": {
+                  "group": null,
+                  "name": "ThreatQAppforSplunk",
+                  "version": "2.0.0"
+                },
+                "author": [
+                  {
+                    "name": "ThreatQuotient Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "ThreatQuotient App for Splunk",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.md",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "9e62c3c0fbb705979075152592e96170",
             "minProductVersionStr": null,
             "name": "2.0.0",
@@ -1289,7 +1989,57 @@
             "id": 15205,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"ThreatQuotient App for Splunk\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"ThreatQAppforSplunk\", \n      \"version\": \"1.3.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"ThreatQuotient Inc.\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"ThreatQuotient App for Splunk\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.md\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "ThreatQuotient App for Splunk",
+                "id": {
+                  "group": null,
+                  "name": "ThreatQAppforSplunk",
+                  "version": "1.3.0"
+                },
+                "author": [
+                  {
+                    "name": "ThreatQuotient Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "ThreatQuotient App for Splunk",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.md",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "b0eba39eea97f610e5b85fac0e1c1a64",
             "minProductVersionStr": null,
             "name": "1.3.0",
@@ -1344,7 +2094,57 @@
             "id": 14910,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"ThreatQuotient App for Splunk\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"ThreatQAppforSplunk\", \n      \"version\": \"1.2.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"ThreatQuotient Inc.\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"ThreatQuotient App for Splunk\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.md\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "ThreatQuotient App for Splunk",
+                "id": {
+                  "group": null,
+                  "name": "ThreatQAppforSplunk",
+                  "version": "1.2.0"
+                },
+                "author": [
+                  {
+                    "name": "ThreatQuotient Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "ThreatQuotient App for Splunk",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.md",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "5863c5ebd8115b4a56613baf0b765197",
             "minProductVersionStr": null,
             "name": "1.2.0",
@@ -1403,7 +2203,57 @@
             "id": 13383,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"ThreatQuotient App for Splunk\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"ThreatQAppforSplunk\", \n      \"version\": \"1.1.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"ThreatQuotient Inc.\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"ThreatQuotient App for Splunk\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.md\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "ThreatQuotient App for Splunk",
+                "id": {
+                  "group": null,
+                  "name": "ThreatQAppforSplunk",
+                  "version": "1.1.0"
+                },
+                "author": [
+                  {
+                    "name": "ThreatQuotient Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "ThreatQuotient App for Splunk",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.md",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "4ae3b89e5c4ab47298b0705bc2be4cc6",
             "minProductVersionStr": null,
             "name": "1.1.0",
@@ -1453,7 +2303,57 @@
             "id": 12517,
             "installMethodDistributed": "rejected",
             "installMethodSingle": "rejected",
-            "manifest": "{\n  \"schemaVersion\": \"2.0.0\", \n  \"info\": {\n    \"title\": \"ThreatQuotient App for Splunk\", \n    \"id\": {\n      \"group\": null, \n      \"name\": \"ThreatQAppforSplunk\", \n      \"version\": \"1.0.0\"\n    }, \n    \"author\": [\n      {\n        \"name\": \"ThreatQuotient Inc.\", \n        \"email\": null, \n        \"company\": null\n      }\n    ], \n    \"releaseDate\": null, \n    \"description\": \"ThreatQuotient App for Splunk\", \n    \"classification\": {\n      \"intendedAudience\": null, \n      \"categories\": [], \n      \"developmentStatus\": null\n    }, \n    \"commonInformationModels\": null, \n    \"license\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"privacyPolicy\": {\n      \"name\": null, \n      \"text\": null, \n      \"uri\": null\n    }, \n    \"releaseNotes\": {\n      \"name\": null, \n      \"text\": \"./README.md\", \n      \"uri\": null\n    }\n  }, \n  \"dependencies\": null, \n  \"tasks\": null, \n  \"inputGroups\": null, \n  \"incompatibleApps\": null, \n  \"platformRequirements\": null, \n  \"supportedDeployments\": [\n    \"_standalone\", \n    \"_distributed\"\n  ], \n  \"targetWorkloads\": null\n}\n",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "ThreatQuotient App for Splunk",
+                "id": {
+                  "group": null,
+                  "name": "ThreatQAppforSplunk",
+                  "version": "1.0.0"
+                },
+                "author": [
+                  {
+                    "name": "ThreatQuotient Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "releaseDate": null,
+                "description": "ThreatQuotient App for Splunk",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.md",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": null
+            },
             "md5": "f28cec7b7744dc54a7ad2d0a336673ee",
             "minProductVersionStr": null,
             "name": "1.0.0",
@@ -1524,7 +2424,7 @@
   "query": {
     "id": "4418"
   },
-  "buildId": "A_x1zQdzW4DRP-cLJABzH",
+  "buildId": "dLt2S5SzCPnZf1It5b_7A",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

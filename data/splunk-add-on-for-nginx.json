@@ -31,7 +31,7 @@
         "description": "The Splunk Add-on for NGINX allows a Splunk software administrator to collect Web server activities, performance metrics, and error logs using file monitoring and API inputs.\n\nThis add-on provides the inputs and CIM-compatible knowledge to use with other Splunk apps, such as Splunk Enterprise Security, the Splunk App for PCI Compliance, and Splunk IT Service Intelligence.",
         "documentation": "<p>Documentation for this Add-on is posted at <a href=\"http://docs.splunk.com/Documentation/AddOns/latest/nginx/About\" title=\"Splunk Docs\">Splunk Docs</a>.</p>",
         "documentationSource": "Documentation for this Add-on is posted at [Splunk Docs](http://docs.splunk.com/Documentation/AddOns/latest/nginx/About \"Splunk Docs\").",
-        "downloadCount": 91324,
+        "downloadCount": 91337,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/43731336-6aa4-11ef-ab3b-faca7e54e553.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": "",
@@ -91,7 +91,68 @@
           "id": 34511,
           "installMethodDistributed": "appmgmt_phase",
           "installMethodSingle": "simple",
-          "manifest": "{\n  \"dependencies\": null,\n  \"incompatibleApps\": null,\n  \"info\": {\n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"classification\": {\n      \"categories\": [\n        \"IT Operations\",\n        \"Security, Fraud & Compliance\"\n      ],\n      \"developmentStatus\": \"Production/Stable\",\n      \"intendedAudience\": \"IT Professionals\"\n    },\n    \"commonInformationModels\": {\n      \"Intrusion Detection\": \"==5.0.1\",\n      \"Web\": \"==5.0.1\"\n    },\n    \"description\": \"Splunk Add-on for Nginx\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"Splunk_TA_nginx\",\n      \"version\": \"3.3.0\"\n    },\n    \"license\": {\n      \"name\": \"Splunk Software License Agreement\",\n      \"text\": \"LICENSES/LicenseRef-Splunk-8-2021.txt\",\n      \"uri\": \"http://www.splunk.com/view/SP-CAAAAFA\"\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseDate\": null,\n    \"releaseNotes\": {\n      \"name\": \"README\",\n      \"text\": \"README.txt\",\n      \"uri\": \"https://docs.splunk.com/Documentation/AddOns/released/NGINX/Releasenotes\"\n    },\n    \"title\": \"Splunk Add-on for Nginx\"\n  },\n  \"inputGroups\": null,\n  \"platformRequirements\": null,\n  \"schemaVersion\": \"2.0.0\",\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\",\n    \"_search_head_clustering\"\n  ],\n  \"targetWorkloads\": [\n    \"_indexers\",\n    \"_search_heads\",\n    \"_forwarders\"\n  ],\n  \"tasks\": null\n}",
+          "manifest": {
+            "dependencies": null,
+            "incompatibleApps": null,
+            "info": {
+              "author": [
+                {
+                  "name": "Splunk Inc.",
+                  "email": null,
+                  "company": null
+                }
+              ],
+              "classification": {
+                "categories": [
+                  "IT Operations",
+                  "Security, Fraud & Compliance"
+                ],
+                "developmentStatus": "Production/Stable",
+                "intendedAudience": "IT Professionals"
+              },
+              "commonInformationModels": {
+                "Intrusion Detection": "==5.0.1",
+                "Web": "==5.0.1"
+              },
+              "description": "Splunk Add-on for Nginx",
+              "id": {
+                "group": null,
+                "name": "Splunk_TA_nginx",
+                "version": "3.3.0"
+              },
+              "license": {
+                "name": "Splunk Software License Agreement",
+                "text": "LICENSES/LicenseRef-Splunk-8-2021.txt",
+                "uri": "http://www.splunk.com/view/SP-CAAAAFA"
+              },
+              "privacyPolicy": {
+                "name": null,
+                "text": null,
+                "uri": null
+              },
+              "releaseDate": null,
+              "releaseNotes": {
+                "name": "README",
+                "text": "README.txt",
+                "uri": "https://docs.splunk.com/Documentation/AddOns/released/NGINX/Releasenotes"
+              },
+              "title": "Splunk Add-on for Nginx"
+            },
+            "inputGroups": null,
+            "platformRequirements": null,
+            "schemaVersion": "2.0.0",
+            "supportedDeployments": [
+              "_standalone",
+              "_distributed",
+              "_search_head_clustering"
+            ],
+            "targetWorkloads": [
+              "_indexers",
+              "_search_heads",
+              "_forwarders"
+            ],
+            "tasks": null
+          },
           "md5": "8be4cf5624bb2df71e5fb88d77181237",
           "minProductVersionStr": null,
           "name": "3.3.0",
@@ -110,20 +171,20 @@
           "signedAvailable": true,
           "size": 868236,
           "sourcetypes": [
+            "nginx:plus:kv",
             "nginx:plus:error",
             "nginx:app:protect",
-            "nginx:plus:kv",
             "nginx:plus:api",
             "nginx:plus:access"
           ],
           "tags": [
-            "__no_tag__",
+            "inventory",
             "activity",
             "web",
             "error",
-            "inventory",
+            "ids",
             "attack",
-            "ids"
+            "__no_tag__"
           ],
           "tagsSourcetypes": {
             "__no_tag__": [
@@ -223,7 +284,68 @@
             "id": 34511,
             "installMethodDistributed": "appmgmt_phase",
             "installMethodSingle": "simple",
-            "manifest": "{\n  \"dependencies\": null,\n  \"incompatibleApps\": null,\n  \"info\": {\n    \"author\": [\n      {\n        \"name\": \"Splunk Inc.\",\n        \"email\": null,\n        \"company\": null\n      }\n    ],\n    \"classification\": {\n      \"categories\": [\n        \"IT Operations\",\n        \"Security, Fraud & Compliance\"\n      ],\n      \"developmentStatus\": \"Production/Stable\",\n      \"intendedAudience\": \"IT Professionals\"\n    },\n    \"commonInformationModels\": {\n      \"Intrusion Detection\": \"==5.0.1\",\n      \"Web\": \"==5.0.1\"\n    },\n    \"description\": \"Splunk Add-on for Nginx\",\n    \"id\": {\n      \"group\": null,\n      \"name\": \"Splunk_TA_nginx\",\n      \"version\": \"3.3.0\"\n    },\n    \"license\": {\n      \"name\": \"Splunk Software License Agreement\",\n      \"text\": \"LICENSES/LicenseRef-Splunk-8-2021.txt\",\n      \"uri\": \"http://www.splunk.com/view/SP-CAAAAFA\"\n    },\n    \"privacyPolicy\": {\n      \"name\": null,\n      \"text\": null,\n      \"uri\": null\n    },\n    \"releaseDate\": null,\n    \"releaseNotes\": {\n      \"name\": \"README\",\n      \"text\": \"README.txt\",\n      \"uri\": \"https://docs.splunk.com/Documentation/AddOns/released/NGINX/Releasenotes\"\n    },\n    \"title\": \"Splunk Add-on for Nginx\"\n  },\n  \"inputGroups\": null,\n  \"platformRequirements\": null,\n  \"schemaVersion\": \"2.0.0\",\n  \"supportedDeployments\": [\n    \"_standalone\",\n    \"_distributed\",\n    \"_search_head_clustering\"\n  ],\n  \"targetWorkloads\": [\n    \"_indexers\",\n    \"_search_heads\",\n    \"_forwarders\"\n  ],\n  \"tasks\": null\n}",
+            "manifest": {
+              "dependencies": null,
+              "incompatibleApps": null,
+              "info": {
+                "author": [
+                  {
+                    "name": "Splunk Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "classification": {
+                  "categories": [
+                    "IT Operations",
+                    "Security, Fraud & Compliance"
+                  ],
+                  "developmentStatus": "Production/Stable",
+                  "intendedAudience": "IT Professionals"
+                },
+                "commonInformationModels": {
+                  "Intrusion Detection": "==5.0.1",
+                  "Web": "==5.0.1"
+                },
+                "description": "Splunk Add-on for Nginx",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_TA_nginx",
+                  "version": "3.3.0"
+                },
+                "license": {
+                  "name": "Splunk Software License Agreement",
+                  "text": "LICENSES/LicenseRef-Splunk-8-2021.txt",
+                  "uri": "http://www.splunk.com/view/SP-CAAAAFA"
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseDate": null,
+                "releaseNotes": {
+                  "name": "README",
+                  "text": "README.txt",
+                  "uri": "https://docs.splunk.com/Documentation/AddOns/released/NGINX/Releasenotes"
+                },
+                "title": "Splunk Add-on for Nginx"
+              },
+              "inputGroups": null,
+              "platformRequirements": null,
+              "schemaVersion": "2.0.0",
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed",
+                "_search_head_clustering"
+              ],
+              "targetWorkloads": [
+                "_indexers",
+                "_search_heads",
+                "_forwarders"
+              ],
+              "tasks": null
+            },
             "md5": "8be4cf5624bb2df71e5fb88d77181237",
             "minProductVersionStr": null,
             "name": "3.3.0",
@@ -242,20 +364,20 @@
             "signedAvailable": true,
             "size": 868236,
             "sourcetypes": [
+              "nginx:plus:kv",
               "nginx:plus:error",
               "nginx:app:protect",
-              "nginx:plus:kv",
               "nginx:plus:api",
               "nginx:plus:access"
             ],
             "tags": [
-              "__no_tag__",
+              "inventory",
               "activity",
               "web",
               "error",
-              "inventory",
+              "ids",
               "attack",
-              "ids"
+              "__no_tag__"
             ],
             "tagsSourcetypes": {
               "__no_tag__": [
@@ -372,20 +494,20 @@
             "signedAvailable": true,
             "size": 723828,
             "sourcetypes": [
+              "nginx:plus:kv",
               "nginx:plus:error",
               "nginx:app:protect",
-              "nginx:plus:kv",
               "nginx:plus:api",
               "nginx:plus:access"
             ],
             "tags": [
-              "__no_tag__",
+              "inventory",
               "activity",
               "web",
               "error",
-              "inventory",
+              "ids",
               "attack",
-              "ids"
+              "__no_tag__"
             ],
             "tagsSourcetypes": {
               "__no_tag__": [
@@ -499,7 +621,7 @@
   "query": {
     "id": "3258"
   },
-  "buildId": "A_x1zQdzW4DRP-cLJABzH",
+  "buildId": "dLt2S5SzCPnZf1It5b_7A",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
