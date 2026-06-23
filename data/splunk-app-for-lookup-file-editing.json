@@ -57,13 +57,13 @@
         "contactNotesSource": "",
         "displayAuthor": {
           "isPartner": false,
-          "name": "Splunk LLC",
-          "redirectTo": "Splunk"
+          "name": "Splunk",
+          "redirectTo": "splunk"
         },
         "description": "Ever want to edit a lookup within Splunk with a user interface? Now you can. This app provides an Excel-like interface for editing, importing, and exporting lookup files (KV store and CSV-based).\n\nThis app also makes your lookups work in Search Head Clustered environments (edits to lookups will be propagated to other search heads).\n\nRevision history is maintained for lookups so that you can view or restore older lookups quickly in the interface.\n\nCheck out the Documentation site: \nhttps://docs.splunk.com/Documentation/LookupEditor\n\nhttps://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew",
         "documentation": "<ul>\n<li><a href=\"https://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew\">What's new</a></li>\n<li><a href=\"https://docs.splunk.com/Documentation/LookupEditor\">Documentation Site</a></li>\n</ul>",
         "documentationSource": "*   [What's new](https://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew)\n*   [Documentation Site](https://docs.splunk.com/Documentation/LookupEditor)",
-        "downloadCount": 256687,
+        "downloadCount": 256710,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/cfe298e2-42ec-11f1-9e08-1ad9e1e469d5.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": "",
@@ -813,11 +813,6 @@
                 "id": 54,
                 "status": "live",
                 "versionString": "9.0"
-              },
-              {
-                "id": 32,
-                "status": "live",
-                "versionString": "8.2"
               }
             ],
             "splCompatibility": "SPL1"
@@ -940,11 +935,6 @@
                 "id": 54,
                 "status": "live",
                 "versionString": "9.0"
-              },
-              {
-                "id": 32,
-                "status": "live",
-                "versionString": "8.2"
               }
             ],
             "splCompatibility": "SPL1"
@@ -1016,11 +1006,6 @@
                 "id": 54,
                 "status": "live",
                 "versionString": "9.0"
-              },
-              {
-                "id": 32,
-                "status": "live",
-                "versionString": "8.2"
               }
             ],
             "splCompatibility": "SPL1"
@@ -1113,18 +1098,7 @@
                 "lookup_backups_rest_handler"
               ]
             },
-            "versionCompatibility": [
-              {
-                "id": 32,
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "id": 31,
-                "status": "live",
-                "versionString": "8.1"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -1215,43 +1189,7 @@
                 "lookup_backups_rest_handler"
               ]
             },
-            "versionCompatibility": [
-              {
-                "id": 32,
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "id": 31,
-                "status": "live",
-                "versionString": "8.1"
-              },
-              {
-                "id": 25,
-                "status": "live",
-                "versionString": "8.0"
-              },
-              {
-                "id": 24,
-                "status": "live",
-                "versionString": "7.3"
-              },
-              {
-                "id": 21,
-                "status": "live",
-                "versionString": "7.2"
-              },
-              {
-                "id": 20,
-                "status": "live",
-                "versionString": "7.1"
-              },
-              {
-                "id": 19,
-                "status": "live",
-                "versionString": "7.0"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -1342,43 +1280,7 @@
                 "lookup_backups_rest_handler"
               ]
             },
-            "versionCompatibility": [
-              {
-                "id": 32,
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "id": 31,
-                "status": "live",
-                "versionString": "8.1"
-              },
-              {
-                "id": 25,
-                "status": "live",
-                "versionString": "8.0"
-              },
-              {
-                "id": 24,
-                "status": "live",
-                "versionString": "7.3"
-              },
-              {
-                "id": 21,
-                "status": "live",
-                "versionString": "7.2"
-              },
-              {
-                "id": 20,
-                "status": "live",
-                "versionString": "7.1"
-              },
-              {
-                "id": 19,
-                "status": "live",
-                "versionString": "7.0"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -1469,43 +1371,7 @@
                 "lookup_backups_rest_handler"
               ]
             },
-            "versionCompatibility": [
-              {
-                "id": 32,
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "id": 31,
-                "status": "live",
-                "versionString": "8.1"
-              },
-              {
-                "id": 25,
-                "status": "live",
-                "versionString": "8.0"
-              },
-              {
-                "id": 24,
-                "status": "live",
-                "versionString": "7.3"
-              },
-              {
-                "id": 21,
-                "status": "live",
-                "versionString": "7.2"
-              },
-              {
-                "id": 20,
-                "status": "live",
-                "versionString": "7.1"
-              },
-              {
-                "id": 19,
-                "status": "live",
-                "versionString": "7.0"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -1596,43 +1462,7 @@
                 "lookup_backups_rest_handler"
               ]
             },
-            "versionCompatibility": [
-              {
-                "id": 32,
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "id": 31,
-                "status": "live",
-                "versionString": "8.1"
-              },
-              {
-                "id": 25,
-                "status": "live",
-                "versionString": "8.0"
-              },
-              {
-                "id": 24,
-                "status": "live",
-                "versionString": "7.3"
-              },
-              {
-                "id": 21,
-                "status": "live",
-                "versionString": "7.2"
-              },
-              {
-                "id": 20,
-                "status": "live",
-                "versionString": "7.1"
-              },
-              {
-                "id": 19,
-                "status": "live",
-                "versionString": "7.0"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -1726,43 +1556,7 @@
                 "lookup_backups_rest_handler"
               ]
             },
-            "versionCompatibility": [
-              {
-                "id": 32,
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "id": 31,
-                "status": "live",
-                "versionString": "8.1"
-              },
-              {
-                "id": 25,
-                "status": "live",
-                "versionString": "8.0"
-              },
-              {
-                "id": 24,
-                "status": "live",
-                "versionString": "7.3"
-              },
-              {
-                "id": 21,
-                "status": "live",
-                "versionString": "7.2"
-              },
-              {
-                "id": 20,
-                "status": "live",
-                "versionString": "7.1"
-              },
-              {
-                "id": 19,
-                "status": "live",
-                "versionString": "7.0"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -1856,43 +1650,7 @@
                 "lookup_backups_rest_handler"
               ]
             },
-            "versionCompatibility": [
-              {
-                "id": 32,
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "id": 31,
-                "status": "live",
-                "versionString": "8.1"
-              },
-              {
-                "id": 25,
-                "status": "live",
-                "versionString": "8.0"
-              },
-              {
-                "id": 24,
-                "status": "live",
-                "versionString": "7.3"
-              },
-              {
-                "id": 21,
-                "status": "live",
-                "versionString": "7.2"
-              },
-              {
-                "id": 20,
-                "status": "live",
-                "versionString": "7.1"
-              },
-              {
-                "id": 19,
-                "status": "live",
-                "versionString": "7.0"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -1986,43 +1744,7 @@
                 "lookup_backups_rest_handler"
               ]
             },
-            "versionCompatibility": [
-              {
-                "id": 32,
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "id": 31,
-                "status": "live",
-                "versionString": "8.1"
-              },
-              {
-                "id": 25,
-                "status": "live",
-                "versionString": "8.0"
-              },
-              {
-                "id": 24,
-                "status": "live",
-                "versionString": "7.3"
-              },
-              {
-                "id": 21,
-                "status": "live",
-                "versionString": "7.2"
-              },
-              {
-                "id": 20,
-                "status": "live",
-                "versionString": "7.1"
-              },
-              {
-                "id": 19,
-                "status": "live",
-                "versionString": "7.0"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -2116,43 +1838,7 @@
                 "lookup_backups_rest_handler"
               ]
             },
-            "versionCompatibility": [
-              {
-                "id": 32,
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "id": 31,
-                "status": "live",
-                "versionString": "8.1"
-              },
-              {
-                "id": 25,
-                "status": "live",
-                "versionString": "8.0"
-              },
-              {
-                "id": 24,
-                "status": "live",
-                "versionString": "7.3"
-              },
-              {
-                "id": 21,
-                "status": "live",
-                "versionString": "7.2"
-              },
-              {
-                "id": 20,
-                "status": "live",
-                "versionString": "7.1"
-              },
-              {
-                "id": 19,
-                "status": "live",
-                "versionString": "7.0"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -2246,28 +1932,7 @@
                 "lookup_backups_rest_handler"
               ]
             },
-            "versionCompatibility": [
-              {
-                "id": 24,
-                "status": "live",
-                "versionString": "7.3"
-              },
-              {
-                "id": 21,
-                "status": "live",
-                "versionString": "7.2"
-              },
-              {
-                "id": 20,
-                "status": "live",
-                "versionString": "7.1"
-              },
-              {
-                "id": 19,
-                "status": "live",
-                "versionString": "7.0"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -2361,28 +2026,7 @@
                 "lookup_backups_rest_handler"
               ]
             },
-            "versionCompatibility": [
-              {
-                "id": 24,
-                "status": "live",
-                "versionString": "7.3"
-              },
-              {
-                "id": 21,
-                "status": "live",
-                "versionString": "7.2"
-              },
-              {
-                "id": 20,
-                "status": "live",
-                "versionString": "7.1"
-              },
-              {
-                "id": 19,
-                "status": "live",
-                "versionString": "7.0"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -2476,23 +2120,7 @@
                 "lookup_backups_rest_handler"
               ]
             },
-            "versionCompatibility": [
-              {
-                "id": 21,
-                "status": "live",
-                "versionString": "7.2"
-              },
-              {
-                "id": 20,
-                "status": "live",
-                "versionString": "7.1"
-              },
-              {
-                "id": 19,
-                "status": "live",
-                "versionString": "7.0"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -2586,23 +2214,7 @@
                 "lookup_backups_rest_handler"
               ]
             },
-            "versionCompatibility": [
-              {
-                "id": 21,
-                "status": "live",
-                "versionString": "7.2"
-              },
-              {
-                "id": 20,
-                "status": "live",
-                "versionString": "7.1"
-              },
-              {
-                "id": 19,
-                "status": "live",
-                "versionString": "7.0"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -2696,23 +2308,7 @@
                 "lookup_backups_rest_handler"
               ]
             },
-            "versionCompatibility": [
-              {
-                "id": 21,
-                "status": "live",
-                "versionString": "7.2"
-              },
-              {
-                "id": 20,
-                "status": "live",
-                "versionString": "7.1"
-              },
-              {
-                "id": 19,
-                "status": "live",
-                "versionString": "7.0"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -2806,23 +2402,7 @@
                 "lookup_backups_rest_handler"
               ]
             },
-            "versionCompatibility": [
-              {
-                "id": 21,
-                "status": "live",
-                "versionString": "7.2"
-              },
-              {
-                "id": 20,
-                "status": "live",
-                "versionString": "7.1"
-              },
-              {
-                "id": 19,
-                "status": "live",
-                "versionString": "7.0"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -2916,23 +2496,7 @@
                 "lookup_backups_rest_handler"
               ]
             },
-            "versionCompatibility": [
-              {
-                "id": 21,
-                "status": "live",
-                "versionString": "7.2"
-              },
-              {
-                "id": 20,
-                "status": "live",
-                "versionString": "7.1"
-              },
-              {
-                "id": 19,
-                "status": "live",
-                "versionString": "7.0"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -3026,23 +2590,7 @@
                 "lookup_backups_rest_handler"
               ]
             },
-            "versionCompatibility": [
-              {
-                "id": 21,
-                "status": "live",
-                "versionString": "7.2"
-              },
-              {
-                "id": 20,
-                "status": "live",
-                "versionString": "7.1"
-              },
-              {
-                "id": 19,
-                "status": "live",
-                "versionString": "7.0"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -3136,18 +2684,7 @@
                 "lookup_backups_rest_handler"
               ]
             },
-            "versionCompatibility": [
-              {
-                "id": 20,
-                "status": "live",
-                "versionString": "7.1"
-              },
-              {
-                "id": 19,
-                "status": "live",
-                "versionString": "7.0"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -3241,18 +2778,7 @@
                 "lookup_backups_rest_handler"
               ]
             },
-            "versionCompatibility": [
-              {
-                "id": 20,
-                "status": "live",
-                "versionString": "7.1"
-              },
-              {
-                "id": 19,
-                "status": "live",
-                "versionString": "7.0"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -3346,18 +2872,7 @@
                 "lookup_backups_rest_handler"
               ]
             },
-            "versionCompatibility": [
-              {
-                "id": 20,
-                "status": "live",
-                "versionString": "7.1"
-              },
-              {
-                "id": 19,
-                "status": "live",
-                "versionString": "7.0"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -3451,18 +2966,7 @@
                 "lookup_backups_rest_handler"
               ]
             },
-            "versionCompatibility": [
-              {
-                "id": 20,
-                "status": "live",
-                "versionString": "7.1"
-              },
-              {
-                "id": 19,
-                "status": "live",
-                "versionString": "7.0"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -3549,13 +3053,7 @@
                 "lookup_editor_controller"
               ]
             },
-            "versionCompatibility": [
-              {
-                "id": 19,
-                "status": "live",
-                "versionString": "7.0"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -5217,7 +4715,7 @@
   "query": {
     "id": "1724"
   },
-  "buildId": "dLt2S5SzCPnZf1It5b_7A",
+  "buildId": "PVnoSOb5jEf21BxCtt1yh",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

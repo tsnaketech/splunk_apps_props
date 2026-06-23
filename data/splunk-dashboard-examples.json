@@ -20,8 +20,8 @@
         "contactNotesSource": "",
         "displayAuthor": {
           "isPartner": false,
-          "name": "Splunk LLC",
-          "redirectTo": "Splunk"
+          "name": "Splunk",
+          "redirectTo": "splunk"
         },
         "description": "The Splunk Dashboard app v8.2.6 will reach end of support on Dec 19, 2024. No new versions of the app will be released. Simple XML examples are available in SimpleXML reference guide documentation and the Dashboards & Visualizations forum on Splunk Community. Check out this Splunk Lantern article to learn more: https://lantern.splunk.com/@go/page/7411\n-----\nThe Splunk Dashboard app delivers examples that give you a hands-on way to learn the basic concepts and tools needed to rapidly create rich dashboards using Simple XML. This new app incorporates learn-by-doing Simple XML examples, including extensions to Simple XML for further customization of layout, interactivity, and visualizations.\n\nWith the app you will learn basic Simple XML concepts and how to incorporate the built-in components. All the included examples deliver a recipe for implementing dashboard elements, beginning with the most basic and progressing to more advanced elements.  Each example in the app includes an actual runtime visualization followed by a description and supporting source code.\n\n(c) 2016-2020 Splunk Inc. All Rights Reserved.",
         "documentation": "",
@@ -121,11 +121,6 @@
               "id": 54,
               "status": "live",
               "versionString": "9.0"
-            },
-            {
-              "id": 32,
-              "status": "live",
-              "versionString": "8.2"
             }
           ],
           "splCompatibility": "SPL1"
@@ -189,11 +184,6 @@
                 "id": 54,
                 "status": "live",
                 "versionString": "9.0"
-              },
-              {
-                "id": 32,
-                "status": "live",
-                "versionString": "8.2"
               }
             ],
             "splCompatibility": "SPL1"
@@ -256,16 +246,6 @@
                 "id": 54,
                 "status": "live",
                 "versionString": "9.0"
-              },
-              {
-                "id": 32,
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "id": 31,
-                "status": "live",
-                "versionString": "8.1"
               }
             ],
             "splCompatibility": "SPL1"
@@ -328,16 +308,6 @@
                 "id": 54,
                 "status": "live",
                 "versionString": "9.0"
-              },
-              {
-                "id": 32,
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "id": 31,
-                "status": "live",
-                "versionString": "8.1"
               }
             ],
             "splCompatibility": "SPL1"
@@ -450,21 +420,6 @@
                 "id": 54,
                 "status": "live",
                 "versionString": "9.0"
-              },
-              {
-                "id": 32,
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "id": 31,
-                "status": "live",
-                "versionString": "8.1"
-              },
-              {
-                "id": 25,
-                "status": "live",
-                "versionString": "8.0"
               }
             ],
             "splCompatibility": "SPL1"
@@ -507,7 +462,7 @@
   "query": {
     "id": "1603"
   },
-  "buildId": "dLt2S5SzCPnZf1It5b_7A",
+  "buildId": "PVnoSOb5jEf21BxCtt1yh",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

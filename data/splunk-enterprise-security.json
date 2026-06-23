@@ -24,8 +24,8 @@
         "contactNotesSource": "",
         "displayAuthor": {
           "isPartner": false,
-          "name": "Splunk LLC",
-          "redirectTo": "Splunk"
+          "name": "Splunk",
+          "redirectTo": "splunk"
         },
         "description": "Splunk Enterprise Security (ES) solves a wide range of security analytics and operations use cases including continuous security monitoring, advanced threat detection, compliance, incident investigation, forensics and incident response. Splunk ES delivers an end-to-end view of organizations\u2019 security postures with flexible investigations, unmatched performance, and the most flexible deployment options offered in the cloud, on-premises or hybrid deployment models. Splunk ES enables you to: \n\n- Conquer alert fatigue with high-fidelity Risk-Based Alerting.\n- Bring visibility across your hybrid environment with multicloud security monitoring.\n- Conduct flexible investigations for effective threat hunting across security, IT and DevOps data sources.\n\nSplunk ES is a premium security solution requiring a paid license.",
         "documentation": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.2/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security\">Release Notes</a><br>\n<a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/install/8.2/\">Splunk Enterprise Security Documentation</a></p>",
@@ -331,34 +331,34 @@
             "signedAvailable": true,
             "size": 771499444,
             "sourcetypes": [
-              "es_investigations_rest_handler",
-              "es_editions_manager",
-              "es_asset_exporter",
-              "ba_enablement",
-              "app_permissions_manager",
-              "send2ba_riskdm_modalert",
+              "esconfighealth",
+              "behavioral_analytics_rest_handler",
               "es_identity_exporter",
-              "event_sequencing_engine_log",
-              "ess_configured_handler",
+              "tim_cmp_key_rotation",
+              "sequence_instance_rest_handler",
               "send2ba_notable_modalert",
               "es_ingestion_volume_manager",
+              "send2ba_riskdm_modalert",
+              "apps_shc_es_deployer_rest_handler",
+              "app_permissions_manager",
               "clone_udf_dashboard_rest_handler.py",
               "sequence_templates_rest_handler",
-              "tim_rest_handler",
-              "tim_cmp_key_rotation",
-              "federated_analytics_rest_handler",
-              "security_analytics_identity",
-              "sequence_instance_rest_handler",
-              "security_analytics_asset",
-              "enterprise_security_risk_datamodel",
-              "behavioral_analytics_rest_handler",
               "enterprise_security_notable",
+              "es_investigations_rest_handler",
+              "es_asset_exporter",
+              "enterprise_security_risk_datamodel",
+              "app_permissions_rest_handler",
+              "ess_configured_handler",
+              "security_analytics_identity",
+              "federated_analytics_rest_handler",
+              "tim_rest_handler",
+              "event_sequencing_engine_log",
               "essinstall2",
-              "ess_content_importer",
+              "ba_enablement",
               "investigation_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
-              "esconfighealth",
-              "app_permissions_rest_handler"
+              "ess_content_importer",
+              "security_analytics_asset",
+              "es_editions_manager"
             ],
             "tags": [
               "__no_tag__"
@@ -471,34 +471,34 @@
             "signedAvailable": false,
             "size": 824512892,
             "sourcetypes": [
-              "es_investigations_rest_handler",
-              "es_editions_manager",
-              "es_asset_exporter",
-              "ba_enablement",
-              "app_permissions_manager",
-              "send2ba_riskdm_modalert",
+              "esconfighealth",
+              "behavioral_analytics_rest_handler",
               "es_identity_exporter",
-              "event_sequencing_engine_log",
-              "ess_configured_handler",
+              "tim_cmp_key_rotation",
+              "sequence_instance_rest_handler",
               "send2ba_notable_modalert",
               "es_ingestion_volume_manager",
+              "send2ba_riskdm_modalert",
+              "apps_shc_es_deployer_rest_handler",
+              "app_permissions_manager",
               "clone_udf_dashboard_rest_handler.py",
               "sequence_templates_rest_handler",
-              "tim_rest_handler",
-              "tim_cmp_key_rotation",
-              "federated_analytics_rest_handler",
-              "security_analytics_identity",
-              "sequence_instance_rest_handler",
-              "security_analytics_asset",
-              "enterprise_security_risk_datamodel",
-              "behavioral_analytics_rest_handler",
               "enterprise_security_notable",
+              "es_investigations_rest_handler",
+              "es_asset_exporter",
+              "enterprise_security_risk_datamodel",
+              "app_permissions_rest_handler",
+              "ess_configured_handler",
+              "security_analytics_identity",
+              "federated_analytics_rest_handler",
+              "tim_rest_handler",
+              "event_sequencing_engine_log",
               "essinstall2",
-              "ess_content_importer",
+              "ba_enablement",
               "investigation_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
-              "esconfighealth",
-              "app_permissions_rest_handler"
+              "ess_content_importer",
+              "security_analytics_asset",
+              "es_editions_manager"
             ],
             "tags": [
               "__no_tag__"
@@ -611,33 +611,33 @@
             "signedAvailable": false,
             "size": 761699696,
             "sourcetypes": [
-              "es_investigations_rest_handler",
-              "es_asset_exporter",
-              "ba_enablement",
-              "app_permissions_manager",
-              "send2ba_riskdm_modalert",
+              "esconfighealth",
+              "behavioral_analytics_rest_handler",
               "es_identity_exporter",
-              "event_sequencing_engine_log",
-              "ess_configured_handler",
+              "tim_cmp_key_rotation",
+              "sequence_instance_rest_handler",
               "send2ba_notable_modalert",
               "es_ingestion_volume_manager",
+              "send2ba_riskdm_modalert",
+              "apps_shc_es_deployer_rest_handler",
+              "app_permissions_manager",
               "clone_udf_dashboard_rest_handler.py",
               "sequence_templates_rest_handler",
-              "tim_rest_handler",
-              "tim_cmp_key_rotation",
-              "federated_analytics_rest_handler",
-              "security_analytics_identity",
-              "sequence_instance_rest_handler",
-              "security_analytics_asset",
-              "enterprise_security_risk_datamodel",
-              "behavioral_analytics_rest_handler",
               "enterprise_security_notable",
+              "es_investigations_rest_handler",
+              "es_asset_exporter",
+              "enterprise_security_risk_datamodel",
+              "app_permissions_rest_handler",
+              "ess_configured_handler",
+              "security_analytics_identity",
+              "federated_analytics_rest_handler",
+              "tim_rest_handler",
+              "event_sequencing_engine_log",
               "essinstall2",
-              "ess_content_importer",
+              "ba_enablement",
               "investigation_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
-              "esconfighealth",
-              "app_permissions_rest_handler"
+              "ess_content_importer",
+              "security_analytics_asset"
             ],
             "tags": [
               "__no_tag__"
@@ -749,33 +749,33 @@
             "signedAvailable": true,
             "size": 697734043,
             "sourcetypes": [
-              "es_investigations_rest_handler",
-              "es_asset_exporter",
-              "ba_enablement",
-              "app_permissions_manager",
-              "send2ba_riskdm_modalert",
+              "esconfighealth",
+              "behavioral_analytics_rest_handler",
               "es_identity_exporter",
-              "event_sequencing_engine_log",
-              "ess_configured_handler",
+              "tim_cmp_key_rotation",
+              "sequence_instance_rest_handler",
               "send2ba_notable_modalert",
               "es_ingestion_volume_manager",
+              "send2ba_riskdm_modalert",
+              "apps_shc_es_deployer_rest_handler",
+              "app_permissions_manager",
               "clone_udf_dashboard_rest_handler.py",
               "sequence_templates_rest_handler",
-              "tim_rest_handler",
-              "tim_cmp_key_rotation",
-              "federated_analytics_rest_handler",
-              "security_analytics_identity",
-              "sequence_instance_rest_handler",
-              "security_analytics_asset",
-              "enterprise_security_risk_datamodel",
-              "behavioral_analytics_rest_handler",
               "enterprise_security_notable",
+              "es_investigations_rest_handler",
+              "es_asset_exporter",
+              "enterprise_security_risk_datamodel",
+              "app_permissions_rest_handler",
+              "ess_configured_handler",
+              "security_analytics_identity",
+              "federated_analytics_rest_handler",
+              "tim_rest_handler",
+              "event_sequencing_engine_log",
               "essinstall2",
-              "ess_content_importer",
+              "ba_enablement",
               "investigation_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
-              "esconfighealth",
-              "app_permissions_rest_handler"
+              "ess_content_importer",
+              "security_analytics_asset"
             ],
             "tags": [
               "__no_tag__"
@@ -1257,30 +1257,30 @@
             "signedAvailable": false,
             "size": 920287317,
             "sourcetypes": [
-              "es_investigations_rest_handler",
-              "es_asset_exporter",
-              "ba_enablement",
-              "app_permissions_manager",
-              "send2ba_riskdm_modalert",
+              "esconfighealth",
+              "behavioral_analytics_rest_handler",
               "es_identity_exporter",
-              "event_sequencing_engine_log",
-              "ess_configured_handler",
               "send2ba_notable_modalert",
+              "sequence_instance_rest_handler",
               "es_ingestion_volume_manager",
+              "send2ba_riskdm_modalert",
+              "apps_shc_es_deployer_rest_handler",
+              "app_permissions_manager",
               "clone_udf_dashboard_rest_handler.py",
               "sequence_templates_rest_handler",
-              "security_analytics_identity",
-              "sequence_instance_rest_handler",
-              "security_analytics_asset",
-              "enterprise_security_risk_datamodel",
-              "behavioral_analytics_rest_handler",
               "enterprise_security_notable",
+              "es_investigations_rest_handler",
+              "es_asset_exporter",
+              "enterprise_security_risk_datamodel",
+              "app_permissions_rest_handler",
+              "ess_configured_handler",
+              "security_analytics_identity",
+              "event_sequencing_engine_log",
               "essinstall2",
-              "ess_content_importer",
+              "ba_enablement",
               "investigation_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
-              "esconfighealth",
-              "app_permissions_rest_handler"
+              "ess_content_importer",
+              "security_analytics_asset"
             ],
             "tags": [
               "__no_tag__"
@@ -1374,30 +1374,30 @@
             "signedAvailable": false,
             "size": 920140748,
             "sourcetypes": [
-              "es_investigations_rest_handler",
-              "es_asset_exporter",
-              "ba_enablement",
-              "app_permissions_manager",
-              "send2ba_riskdm_modalert",
+              "esconfighealth",
+              "behavioral_analytics_rest_handler",
               "es_identity_exporter",
-              "event_sequencing_engine_log",
-              "ess_configured_handler",
               "send2ba_notable_modalert",
+              "sequence_instance_rest_handler",
               "es_ingestion_volume_manager",
+              "send2ba_riskdm_modalert",
+              "apps_shc_es_deployer_rest_handler",
+              "app_permissions_manager",
               "clone_udf_dashboard_rest_handler.py",
               "sequence_templates_rest_handler",
-              "security_analytics_identity",
-              "sequence_instance_rest_handler",
-              "security_analytics_asset",
-              "enterprise_security_risk_datamodel",
-              "behavioral_analytics_rest_handler",
               "enterprise_security_notable",
+              "es_investigations_rest_handler",
+              "es_asset_exporter",
+              "enterprise_security_risk_datamodel",
+              "app_permissions_rest_handler",
+              "ess_configured_handler",
+              "security_analytics_identity",
+              "event_sequencing_engine_log",
               "essinstall2",
-              "ess_content_importer",
+              "ba_enablement",
               "investigation_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
-              "esconfighealth",
-              "app_permissions_rest_handler"
+              "ess_content_importer",
+              "security_analytics_asset"
             ],
             "tags": [
               "__no_tag__"
@@ -1481,29 +1481,29 @@
             "signedAvailable": false,
             "size": 921470742,
             "sourcetypes": [
+              "esconfighealth",
+              "behavioral_analytics_rest_handler",
+              "es_identity_exporter",
+              "send2ba_notable_modalert",
+              "sequence_instance_rest_handler",
+              "es_ingestion_volume_manager",
+              "send2ba_riskdm_modalert",
+              "apps_shc_es_deployer_rest_handler",
+              "app_permissions_manager",
+              "sequence_templates_rest_handler",
+              "enterprise_security_notable",
               "es_investigations_rest_handler",
               "es_asset_exporter",
-              "ba_enablement",
-              "app_permissions_manager",
-              "send2ba_riskdm_modalert",
-              "es_identity_exporter",
-              "event_sequencing_engine_log",
-              "ess_configured_handler",
-              "send2ba_notable_modalert",
-              "es_ingestion_volume_manager",
-              "sequence_templates_rest_handler",
-              "security_analytics_identity",
-              "sequence_instance_rest_handler",
-              "security_analytics_asset",
               "enterprise_security_risk_datamodel",
-              "behavioral_analytics_rest_handler",
-              "enterprise_security_notable",
+              "app_permissions_rest_handler",
+              "ess_configured_handler",
+              "security_analytics_identity",
+              "event_sequencing_engine_log",
               "essinstall2",
-              "ess_content_importer",
+              "ba_enablement",
               "investigation_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
-              "esconfighealth",
-              "app_permissions_rest_handler"
+              "ess_content_importer",
+              "security_analytics_asset"
             ],
             "tags": [
               "__no_tag__"
@@ -1591,29 +1591,29 @@
             "signedAvailable": false,
             "size": 958918852,
             "sourcetypes": [
+              "esconfighealth",
+              "behavioral_analytics_rest_handler",
+              "es_identity_exporter",
+              "send2ba_notable_modalert",
+              "sequence_instance_rest_handler",
+              "es_ingestion_volume_manager",
+              "send2ba_riskdm_modalert",
+              "apps_shc_es_deployer_rest_handler",
+              "app_permissions_manager",
+              "sequence_templates_rest_handler",
+              "enterprise_security_notable",
               "es_investigations_rest_handler",
               "es_asset_exporter",
-              "ba_enablement",
-              "app_permissions_manager",
-              "send2ba_riskdm_modalert",
-              "es_identity_exporter",
-              "event_sequencing_engine_log",
-              "ess_configured_handler",
-              "send2ba_notable_modalert",
-              "es_ingestion_volume_manager",
-              "sequence_templates_rest_handler",
-              "security_analytics_identity",
-              "sequence_instance_rest_handler",
-              "security_analytics_asset",
               "enterprise_security_risk_datamodel",
-              "behavioral_analytics_rest_handler",
-              "enterprise_security_notable",
+              "app_permissions_rest_handler",
+              "ess_configured_handler",
+              "security_analytics_identity",
+              "event_sequencing_engine_log",
               "essinstall2",
-              "ess_content_importer",
+              "ba_enablement",
               "investigation_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
-              "esconfighealth",
-              "app_permissions_rest_handler"
+              "ess_content_importer",
+              "security_analytics_asset"
             ],
             "tags": [
               "__no_tag__"
@@ -1701,29 +1701,29 @@
             "signedAvailable": false,
             "size": 957162226,
             "sourcetypes": [
+              "esconfighealth",
+              "behavioral_analytics_rest_handler",
+              "es_identity_exporter",
+              "send2ba_notable_modalert",
+              "sequence_instance_rest_handler",
+              "es_ingestion_volume_manager",
+              "send2ba_riskdm_modalert",
+              "apps_shc_es_deployer_rest_handler",
+              "app_permissions_manager",
+              "sequence_templates_rest_handler",
+              "enterprise_security_notable",
               "es_investigations_rest_handler",
               "es_asset_exporter",
-              "ba_enablement",
-              "app_permissions_manager",
-              "send2ba_riskdm_modalert",
-              "es_identity_exporter",
-              "event_sequencing_engine_log",
-              "ess_configured_handler",
-              "send2ba_notable_modalert",
-              "es_ingestion_volume_manager",
-              "sequence_templates_rest_handler",
-              "security_analytics_identity",
-              "sequence_instance_rest_handler",
-              "security_analytics_asset",
               "enterprise_security_risk_datamodel",
-              "behavioral_analytics_rest_handler",
-              "enterprise_security_notable",
+              "app_permissions_rest_handler",
+              "ess_configured_handler",
+              "security_analytics_identity",
+              "event_sequencing_engine_log",
               "essinstall2",
-              "ess_content_importer",
+              "ba_enablement",
               "investigation_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
-              "esconfighealth",
-              "app_permissions_rest_handler"
+              "ess_content_importer",
+              "security_analytics_asset"
             ],
             "tags": [
               "__no_tag__"
@@ -1806,29 +1806,29 @@
             "signedAvailable": false,
             "size": 958737227,
             "sourcetypes": [
+              "esconfighealth",
+              "behavioral_analytics_rest_handler",
+              "es_identity_exporter",
+              "send2ba_notable_modalert",
+              "sequence_instance_rest_handler",
+              "es_ingestion_volume_manager",
+              "send2ba_riskdm_modalert",
+              "apps_shc_es_deployer_rest_handler",
+              "app_permissions_manager",
+              "sequence_templates_rest_handler",
+              "enterprise_security_notable",
               "es_investigations_rest_handler",
               "es_asset_exporter",
-              "ba_enablement",
-              "app_permissions_manager",
-              "send2ba_riskdm_modalert",
-              "es_identity_exporter",
-              "event_sequencing_engine_log",
-              "ess_configured_handler",
-              "send2ba_notable_modalert",
-              "es_ingestion_volume_manager",
-              "sequence_templates_rest_handler",
-              "security_analytics_identity",
-              "sequence_instance_rest_handler",
-              "security_analytics_asset",
               "enterprise_security_risk_datamodel",
-              "behavioral_analytics_rest_handler",
-              "enterprise_security_notable",
+              "app_permissions_rest_handler",
+              "ess_configured_handler",
+              "security_analytics_identity",
+              "event_sequencing_engine_log",
               "essinstall2",
-              "ess_content_importer",
+              "ba_enablement",
               "investigation_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
-              "esconfighealth",
-              "app_permissions_rest_handler"
+              "ess_content_importer",
+              "security_analytics_asset"
             ],
             "tags": [
               "__no_tag__"
@@ -1875,11 +1875,6 @@
                 "id": 54,
                 "status": "live",
                 "versionString": "9.0"
-              },
-              {
-                "id": 32,
-                "status": "live",
-                "versionString": "8.2"
               }
             ],
             "splCompatibility": "SPL1"
@@ -1921,29 +1916,29 @@
             "signedAvailable": false,
             "size": 900137505,
             "sourcetypes": [
+              "esconfighealth",
+              "behavioral_analytics_rest_handler",
+              "es_identity_exporter",
+              "send2ba_notable_modalert",
+              "sequence_instance_rest_handler",
+              "es_ingestion_volume_manager",
+              "enterprise_security_identity_exporter",
+              "send2ba_riskdm_modalert",
+              "apps_shc_es_deployer_rest_handler",
+              "app_permissions_manager",
+              "sequence_templates_rest_handler",
+              "enterprise_security_notable",
               "es_investigations_rest_handler",
               "es_asset_exporter",
-              "ba_enablement",
-              "app_permissions_manager",
-              "send2ba_riskdm_modalert",
-              "es_identity_exporter",
-              "event_sequencing_engine_log",
-              "ess_configured_handler",
-              "send2ba_notable_modalert",
-              "es_ingestion_volume_manager",
-              "sequence_templates_rest_handler",
-              "enterprise_security_identity_exporter",
-              "sequence_instance_rest_handler",
               "enterprise_security_risk_datamodel",
+              "app_permissions_rest_handler",
+              "ess_configured_handler",
               "enterprise_security_asset_exporter",
-              "behavioral_analytics_rest_handler",
-              "enterprise_security_notable",
+              "event_sequencing_engine_log",
               "essinstall2",
-              "ess_content_importer",
+              "ba_enablement",
               "investigation_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
-              "esconfighealth",
-              "app_permissions_rest_handler"
+              "ess_content_importer"
             ],
             "tags": [
               "__no_tag__"
@@ -1990,16 +1985,6 @@
                 "id": 54,
                 "status": "live",
                 "versionString": "9.0"
-              },
-              {
-                "id": 32,
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "id": 31,
-                "status": "live",
-                "versionString": "8.1"
               }
             ],
             "splCompatibility": "SPL1"
@@ -2040,18 +2025,18 @@
             "signedAvailable": false,
             "size": 892447521,
             "sourcetypes": [
-              "es_investigations_rest_handler",
-              "sequence_templates_rest_handler",
-              "ess_content_importer",
-              "app_permissions_manager",
-              "ess_configured_handler",
-              "essinstall2",
-              "event_sequencing_engine_log",
-              "sequence_instance_rest_handler",
-              "investigation_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
+              "app_permissions_rest_handler",
               "esconfighealth",
-              "app_permissions_rest_handler"
+              "essinstall2",
+              "ess_configured_handler",
+              "investigation_rest_handler",
+              "app_permissions_manager",
+              "sequence_instance_rest_handler",
+              "ess_content_importer",
+              "sequence_templates_rest_handler",
+              "es_investigations_rest_handler",
+              "apps_shc_es_deployer_rest_handler",
+              "event_sequencing_engine_log"
             ],
             "tags": [
               "__no_tag__"
@@ -2087,16 +2072,6 @@
                 "id": 54,
                 "status": "live",
                 "versionString": "9.0"
-              },
-              {
-                "id": 32,
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "id": 31,
-                "status": "live",
-                "versionString": "8.1"
               }
             ],
             "splCompatibility": "SPL1"
@@ -2141,16 +2116,6 @@
                 "id": 54,
                 "status": "live",
                 "versionString": "9.0"
-              },
-              {
-                "id": 32,
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "id": 31,
-                "status": "live",
-                "versionString": "8.1"
               }
             ],
             "splCompatibility": "SPL1"
@@ -2188,18 +2153,18 @@
             "signedAvailable": false,
             "size": 846238949,
             "sourcetypes": [
-              "es_investigations_rest_handler",
-              "sequence_templates_rest_handler",
-              "ess_content_importer",
-              "app_permissions_manager",
-              "ess_configured_handler",
-              "essinstall2",
-              "event_sequencing_engine_log",
-              "sequence_instance_rest_handler",
-              "investigation_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
+              "app_permissions_rest_handler",
               "esconfighealth",
-              "app_permissions_rest_handler"
+              "essinstall2",
+              "ess_configured_handler",
+              "investigation_rest_handler",
+              "app_permissions_manager",
+              "sequence_instance_rest_handler",
+              "ess_content_importer",
+              "sequence_templates_rest_handler",
+              "es_investigations_rest_handler",
+              "apps_shc_es_deployer_rest_handler",
+              "event_sequencing_engine_log"
             ],
             "tags": [
               "__no_tag__"
@@ -2225,16 +2190,6 @@
                 "id": 54,
                 "status": "live",
                 "versionString": "9.0"
-              },
-              {
-                "id": 32,
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "id": 31,
-                "status": "live",
-                "versionString": "8.1"
               }
             ],
             "splCompatibility": "SPL1"
@@ -2272,18 +2227,18 @@
             "signedAvailable": true,
             "size": 675765589,
             "sourcetypes": [
-              "es_investigations_rest_handler",
-              "sequence_templates_rest_handler",
-              "ess_content_importer",
-              "app_permissions_manager",
-              "ess_configured_handler",
-              "essinstall2",
-              "event_sequencing_engine_log",
-              "sequence_instance_rest_handler",
-              "investigation_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
+              "app_permissions_rest_handler",
               "esconfighealth",
-              "app_permissions_rest_handler"
+              "essinstall2",
+              "ess_configured_handler",
+              "investigation_rest_handler",
+              "app_permissions_manager",
+              "sequence_instance_rest_handler",
+              "ess_content_importer",
+              "sequence_templates_rest_handler",
+              "es_investigations_rest_handler",
+              "apps_shc_es_deployer_rest_handler",
+              "event_sequencing_engine_log"
             ],
             "tags": [
               "__no_tag__"
@@ -2309,21 +2264,6 @@
                 "id": 54,
                 "status": "live",
                 "versionString": "9.0"
-              },
-              {
-                "id": 32,
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "id": 31,
-                "status": "live",
-                "versionString": "8.1"
-              },
-              {
-                "id": 25,
-                "status": "live",
-                "versionString": "8.0"
               }
             ],
             "splCompatibility": "SPL1"
@@ -2361,23 +2301,7 @@
             "sourcetypes": [],
             "tags": [],
             "tagsSourcetypes": {},
-            "versionCompatibility": [
-              {
-                "id": 32,
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "id": 31,
-                "status": "live",
-                "versionString": "8.1"
-              },
-              {
-                "id": 25,
-                "status": "live",
-                "versionString": "8.0"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -2413,23 +2337,7 @@
             "sourcetypes": [],
             "tags": [],
             "tagsSourcetypes": {},
-            "versionCompatibility": [
-              {
-                "id": 32,
-                "status": "live",
-                "versionString": "8.2"
-              },
-              {
-                "id": 31,
-                "status": "live",
-                "versionString": "8.1"
-              },
-              {
-                "id": 25,
-                "status": "live",
-                "versionString": "8.0"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -2465,18 +2373,7 @@
             "sourcetypes": [],
             "tags": [],
             "tagsSourcetypes": {},
-            "versionCompatibility": [
-              {
-                "id": 31,
-                "status": "live",
-                "versionString": "8.1"
-              },
-              {
-                "id": 25,
-                "status": "live",
-                "versionString": "8.0"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -2512,18 +2409,18 @@
             "signedAvailable": true,
             "size": 671340341,
             "sourcetypes": [
-              "es_investigations_rest_handler",
-              "sequence_templates_rest_handler",
-              "ess_content_importer",
-              "app_permissions_manager",
-              "ess_configured_handler",
-              "essinstall2",
-              "event_sequencing_engine_log",
-              "sequence_instance_rest_handler",
-              "investigation_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
+              "app_permissions_rest_handler",
               "esconfighealth",
-              "app_permissions_rest_handler"
+              "essinstall2",
+              "ess_configured_handler",
+              "investigation_rest_handler",
+              "app_permissions_manager",
+              "sequence_instance_rest_handler",
+              "ess_content_importer",
+              "sequence_templates_rest_handler",
+              "es_investigations_rest_handler",
+              "apps_shc_es_deployer_rest_handler",
+              "event_sequencing_engine_log"
             ],
             "tags": [
               "__no_tag__"
@@ -2544,18 +2441,7 @@
                 "app_permissions_manager"
               ]
             },
-            "versionCompatibility": [
-              {
-                "id": 31,
-                "status": "live",
-                "versionString": "8.1"
-              },
-              {
-                "id": 25,
-                "status": "live",
-                "versionString": "8.0"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -2641,18 +2527,18 @@
             "signedAvailable": false,
             "size": 674651205,
             "sourcetypes": [
-              "es_investigations_rest_handler",
-              "sequence_templates_rest_handler",
-              "ess_content_importer",
-              "app_permissions_manager",
-              "ess_configured_handler",
-              "essinstall2",
-              "event_sequencing_engine_log",
-              "sequence_instance_rest_handler",
-              "investigation_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
+              "app_permissions_rest_handler",
               "esconfighealth",
-              "app_permissions_rest_handler"
+              "essinstall2",
+              "ess_configured_handler",
+              "investigation_rest_handler",
+              "app_permissions_manager",
+              "sequence_instance_rest_handler",
+              "ess_content_importer",
+              "sequence_templates_rest_handler",
+              "es_investigations_rest_handler",
+              "apps_shc_es_deployer_rest_handler",
+              "event_sequencing_engine_log"
             ],
             "tags": [
               "__no_tag__"
@@ -2673,13 +2559,7 @@
                 "app_permissions_manager"
               ]
             },
-            "versionCompatibility": [
-              {
-                "id": 25,
-                "status": "live",
-                "versionString": "8.0"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -2765,19 +2645,19 @@
             "signedAvailable": true,
             "size": 529855817,
             "sourcetypes": [
-              "es_investigations_rest_handler",
-              "sequence_templates_rest_handler",
-              "ess_content_importer",
-              "app_permissions_manager",
-              "ess_configured_handler",
-              "essinstall2",
-              "event_sequencing_engine_log",
-              "sequence_instance_rest_handler",
-              "es_installer_controller",
-              "investigation_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
+              "app_permissions_rest_handler",
               "esconfighealth",
-              "app_permissions_rest_handler"
+              "essinstall2",
+              "ess_configured_handler",
+              "investigation_rest_handler",
+              "app_permissions_manager",
+              "sequence_instance_rest_handler",
+              "ess_content_importer",
+              "es_installer_controller",
+              "sequence_templates_rest_handler",
+              "es_investigations_rest_handler",
+              "apps_shc_es_deployer_rest_handler",
+              "event_sequencing_engine_log"
             ],
             "tags": [
               "__no_tag__"
@@ -2799,23 +2679,7 @@
                 "app_permissions_manager"
               ]
             },
-            "versionCompatibility": [
-              {
-                "id": 25,
-                "status": "live",
-                "versionString": "8.0"
-              },
-              {
-                "id": 24,
-                "status": "live",
-                "versionString": "7.3"
-              },
-              {
-                "id": 21,
-                "status": "live",
-                "versionString": "7.2"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -2897,13 +2761,7 @@
             "sourcetypes": [],
             "tags": [],
             "tagsSourcetypes": {},
-            "versionCompatibility": [
-              {
-                "id": 25,
-                "status": "live",
-                "versionString": "8.0"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -2989,20 +2847,20 @@
             "signedAvailable": true,
             "size": 46151668,
             "sourcetypes": [
-              "es_investigations_rest_handler",
-              "app_permissions_controller",
-              "sequence_templates_rest_handler",
-              "ess_content_importer",
-              "app_permissions_manager",
-              "ess_configured_handler",
-              "essinstall2",
-              "event_sequencing_engine_log",
-              "sequence_instance_rest_handler",
-              "es_installer_controller",
-              "investigation_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
+              "es_deployment_manager",
               "esconfighealth",
-              "es_deployment_manager"
+              "essinstall2",
+              "ess_configured_handler",
+              "investigation_rest_handler",
+              "app_permissions_manager",
+              "sequence_instance_rest_handler",
+              "app_permissions_controller",
+              "ess_content_importer",
+              "es_installer_controller",
+              "sequence_templates_rest_handler",
+              "es_investigations_rest_handler",
+              "apps_shc_es_deployer_rest_handler",
+              "event_sequencing_engine_log"
             ],
             "tags": [
               "__no_tag__"
@@ -3025,23 +2883,7 @@
                 "app_permissions_controller"
               ]
             },
-            "versionCompatibility": [
-              {
-                "id": 24,
-                "status": "live",
-                "versionString": "7.3"
-              },
-              {
-                "id": 21,
-                "status": "live",
-                "versionString": "7.2"
-              },
-              {
-                "id": 20,
-                "status": "live",
-                "versionString": "7.1"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -3127,20 +2969,20 @@
             "signedAvailable": true,
             "size": 48047823,
             "sourcetypes": [
-              "es_investigations_rest_handler",
-              "app_permissions_controller",
-              "sequence_templates_rest_handler",
-              "ess_content_importer",
-              "app_permissions_manager",
-              "ess_configured_handler",
-              "essinstall2",
-              "event_sequencing_engine_log",
-              "sequence_instance_rest_handler",
-              "es_installer_controller",
-              "investigation_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
+              "es_deployment_manager",
               "esconfighealth",
-              "es_deployment_manager"
+              "essinstall2",
+              "ess_configured_handler",
+              "investigation_rest_handler",
+              "app_permissions_manager",
+              "sequence_instance_rest_handler",
+              "app_permissions_controller",
+              "ess_content_importer",
+              "es_installer_controller",
+              "sequence_templates_rest_handler",
+              "es_investigations_rest_handler",
+              "apps_shc_es_deployer_rest_handler",
+              "event_sequencing_engine_log"
             ],
             "tags": [
               "__no_tag__"
@@ -3163,23 +3005,7 @@
                 "app_permissions_controller"
               ]
             },
-            "versionCompatibility": [
-              {
-                "id": 24,
-                "status": "live",
-                "versionString": "7.3"
-              },
-              {
-                "id": 21,
-                "status": "live",
-                "versionString": "7.2"
-              },
-              {
-                "id": 20,
-                "status": "live",
-                "versionString": "7.1"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -3265,21 +3091,21 @@
             "signedAvailable": true,
             "size": 47375531,
             "sourcetypes": [
+              "es_deployment_manager",
+              "esconfighealth",
+              "essinstall2",
+              "ess_configured_handler",
+              "investigation_rest_handler",
+              "app_permissions_manager",
+              "sequence_instance_rest_handler",
+              "file_storage_ess",
+              "investigative_canvas_controller",
+              "ess_content_importer",
+              "es_installer_controller",
+              "sequence_templates_rest_handler",
               "es_investigations_rest_handler",
               "app_permissions_controller",
-              "investigative_canvas_controller",
-              "sequence_templates_rest_handler",
-              "ess_content_importer",
-              "app_permissions_manager",
-              "ess_configured_handler",
-              "essinstall2",
-              "file_storage_ess",
-              "event_sequencing_engine_log",
-              "sequence_instance_rest_handler",
-              "es_installer_controller",
-              "investigation_rest_handler",
-              "esconfighealth",
-              "es_deployment_manager"
+              "event_sequencing_engine_log"
             ],
             "tags": [
               "__no_tag__"
@@ -3303,18 +3129,7 @@
                 "app_permissions_controller"
               ]
             },
-            "versionCompatibility": [
-              {
-                "id": 21,
-                "status": "live",
-                "versionString": "7.2"
-              },
-              {
-                "id": 20,
-                "status": "live",
-                "versionString": "7.1"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -3400,18 +3215,18 @@
             "signedAvailable": true,
             "size": 47040455,
             "sourcetypes": [
-              "es_investigations_rest_handler",
-              "app_permissions_controller",
-              "investigative_canvas_controller",
-              "app_permissions_manager",
-              "essinstall2",
-              "file_storage_ess",
-              "ess_content_importer",
-              "ess_configured_handler",
-              "es_installer_controller",
-              "investigation_rest_handler",
+              "es_deployment_manager",
               "esconfighealth",
-              "es_deployment_manager"
+              "essinstall2",
+              "ess_configured_handler",
+              "investigation_rest_handler",
+              "app_permissions_manager",
+              "file_storage_ess",
+              "investigative_canvas_controller",
+              "ess_content_importer",
+              "es_installer_controller",
+              "es_investigations_rest_handler",
+              "app_permissions_controller"
             ],
             "tags": [
               "__no_tag__"
@@ -3432,18 +3247,7 @@
                 "app_permissions_controller"
               ]
             },
-            "versionCompatibility": [
-              {
-                "id": 21,
-                "status": "live",
-                "versionString": "7.2"
-              },
-              {
-                "id": 20,
-                "status": "live",
-                "versionString": "7.1"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -3529,18 +3333,18 @@
             "signedAvailable": true,
             "size": 44958999,
             "sourcetypes": [
-              "es_investigations_rest_handler",
-              "app_permissions_controller",
-              "investigative_canvas_controller",
-              "app_permissions_manager",
-              "essinstall2",
-              "file_storage_ess",
-              "ess_content_importer",
-              "ess_configured_handler",
-              "es_installer_controller",
-              "investigation_rest_handler",
+              "es_deployment_manager",
               "esconfighealth",
-              "es_deployment_manager"
+              "essinstall2",
+              "ess_configured_handler",
+              "investigation_rest_handler",
+              "app_permissions_manager",
+              "file_storage_ess",
+              "investigative_canvas_controller",
+              "ess_content_importer",
+              "es_installer_controller",
+              "es_investigations_rest_handler",
+              "app_permissions_controller"
             ],
             "tags": [
               "__no_tag__"
@@ -3561,13 +3365,7 @@
                 "app_permissions_controller"
               ]
             },
-            "versionCompatibility": [
-              {
-                "id": 19,
-                "status": "live",
-                "versionString": "7.0"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -3603,16 +3401,16 @@
             "signedAvailable": true,
             "size": 43971818,
             "sourcetypes": [
-              "app_permissions_controller",
-              "app_permissions_manager",
-              "essinstall2",
-              "file_storage_ess",
-              "ess_content_importer",
-              "ess_configured_handler",
-              "es_installer_controller",
-              "investigative_canvas_controller",
+              "es_deployment_manager",
               "esconfighealth",
-              "es_deployment_manager"
+              "essinstall2",
+              "ess_configured_handler",
+              "app_permissions_manager",
+              "file_storage_ess",
+              "investigative_canvas_controller",
+              "ess_content_importer",
+              "es_installer_controller",
+              "app_permissions_controller"
             ],
             "tags": [
               "__no_tag__"
@@ -3631,13 +3429,7 @@
                 "app_permissions_controller"
               ]
             },
-            "versionCompatibility": [
-              {
-                "id": 19,
-                "status": "live",
-                "versionString": "7.0"
-              }
-            ],
+            "versionCompatibility": [],
             "splCompatibility": "SPL1"
           },
           {
@@ -3714,16 +3506,16 @@
             "signedAvailable": true,
             "size": 36717390,
             "sourcetypes": [
-              "app_permissions_controller",
-              "essinstall",
-              "app_permissions_manager",
+              "es_deployment_manager",
               "essinstall2",
-              "file_storage_ess",
-              "ess_content_importer",
               "ess_configured_handler",
-              "es_installer_controller",
+              "app_permissions_manager",
+              "file_storage_ess",
               "investigative_canvas_controller",
-              "es_deployment_manager"
+              "ess_content_importer",
+              "es_installer_controller",
+              "essinstall",
+              "app_permissions_controller"
             ],
             "tags": [
               "__no_tag__"
@@ -3760,7 +3552,7 @@
         "title": "Splunk Enterprise Security",
         "troubleshooting": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security\">https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security</a></p>",
         "troubleshootingSource": "https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security",
-        "updatedTime": "2026-06-10T08:48:48.993555Z",
+        "updatedTime": "2026-06-22T10:51:48.617494Z",
         "videoLink": null,
         "appType": "app",
         "scheduleRelease": null,
@@ -3782,7 +3574,7 @@
   "query": {
     "id": "263"
   },
-  "buildId": "dLt2S5SzCPnZf1It5b_7A",
+  "buildId": "PVnoSOb5jEf21BxCtt1yh",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
