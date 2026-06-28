@@ -25,5 +25,5 @@ Splunk Supporting Add-on for Active Directory,splunk-supporting-add-on-for-activ
 Stamus Networks App for Splunk,stamus-networks-app-for-splunk.json,1.0.4,1.0.3,1970-01-01 00:00:00
 TA - Common Visualization Collection,ta-common-visualization-collection.json,N/A,N/A,1970-01-01 00:00:00
 TA - Custom Login Page,ta-custom-login-page.json,N/A,N/A,1970-01-01 00:00:00
-TheHive/Cortex,thehivecortex.json,4.1.0,4.0.0,1970-01-01 00:00:00
+TheHive/Cortex,thehivecortex.json,4.2.0,4.1.0,1970-01-01 00:00:00
 ThreatQuotient App for Splunk,threatquotient-app-for-splunk.json,3.2.0,3.1.0,1970-01-01 00:00:00
