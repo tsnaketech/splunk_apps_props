@@ -31,7 +31,7 @@
         "description": "The Splunk Add-on for NGINX allows a Splunk software administrator to collect Web server activities, performance metrics, and error logs using file monitoring and API inputs.\n\nThis add-on provides the inputs and CIM-compatible knowledge to use with other Splunk apps, such as Splunk Enterprise Security, the Splunk App for PCI Compliance, and Splunk IT Service Intelligence.",
         "documentation": "<p>Documentation for this Add-on is posted at <a href=\"http://docs.splunk.com/Documentation/AddOns/latest/nginx/About\" title=\"Splunk Docs\">Splunk Docs</a>.</p>",
         "documentationSource": "Documentation for this Add-on is posted at [Splunk Docs](http://docs.splunk.com/Documentation/AddOns/latest/nginx/About \"Splunk Docs\").",
-        "downloadCount": 91439,
+        "downloadCount": 91445,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/43731336-6aa4-11ef-ab3b-faca7e54e553.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": "",
@@ -178,13 +178,13 @@
             "nginx:plus:api"
           ],
           "tags": [
-            "attack",
-            "web",
-            "ids",
-            "__no_tag__",
             "activity",
+            "ids",
             "error",
-            "inventory"
+            "web",
+            "attack",
+            "inventory",
+            "__no_tag__"
           ],
           "tagsSourcetypes": {
             "__no_tag__": [
@@ -371,13 +371,13 @@
               "nginx:plus:api"
             ],
             "tags": [
-              "attack",
-              "web",
-              "ids",
-              "__no_tag__",
               "activity",
+              "ids",
               "error",
-              "inventory"
+              "web",
+              "attack",
+              "inventory",
+              "__no_tag__"
             ],
             "tagsSourcetypes": {
               "__no_tag__": [
@@ -501,13 +501,13 @@
               "nginx:plus:api"
             ],
             "tags": [
-              "attack",
-              "web",
-              "ids",
-              "__no_tag__",
               "activity",
+              "ids",
               "error",
-              "inventory"
+              "web",
+              "attack",
+              "inventory",
+              "__no_tag__"
             ],
             "tagsSourcetypes": {
               "__no_tag__": [
