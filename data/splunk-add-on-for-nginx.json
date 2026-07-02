@@ -31,7 +31,7 @@
         "description": "The Splunk Add-on for NGINX allows a Splunk software administrator to collect Web server activities, performance metrics, and error logs using file monitoring and API inputs.\n\nThis add-on provides the inputs and CIM-compatible knowledge to use with other Splunk apps, such as Splunk Enterprise Security, the Splunk App for PCI Compliance, and Splunk IT Service Intelligence.",
         "documentation": "<p>Documentation for this Add-on is posted at <a href=\"http://docs.splunk.com/Documentation/AddOns/latest/nginx/About\" title=\"Splunk Docs\">Splunk Docs</a>.</p>",
         "documentationSource": "Documentation for this Add-on is posted at [Splunk Docs](http://docs.splunk.com/Documentation/AddOns/latest/nginx/About \"Splunk Docs\").",
-        "downloadCount": 91468,
+        "downloadCount": 91484,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/43731336-6aa4-11ef-ab3b-faca7e54e553.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": "",
@@ -171,19 +171,19 @@
           "signedAvailable": true,
           "size": 868236,
           "sourcetypes": [
-            "nginx:plus:api",
-            "nginx:plus:error",
-            "nginx:app:protect",
             "nginx:plus:access",
-            "nginx:plus:kv"
+            "nginx:app:protect",
+            "nginx:plus:kv",
+            "nginx:plus:api",
+            "nginx:plus:error"
           ],
           "tags": [
-            "inventory",
+            "web",
+            "error",
             "__no_tag__",
             "ids",
             "activity",
-            "error",
-            "web",
+            "inventory",
             "attack"
           ],
           "tagsSourcetypes": {
@@ -213,6 +213,11 @@
             ]
           },
           "versionCompatibility": [
+            {
+              "id": 132,
+              "status": "live",
+              "versionString": "10.5"
+            },
             {
               "id": 129,
               "status": "live",
@@ -364,19 +369,19 @@
             "signedAvailable": true,
             "size": 868236,
             "sourcetypes": [
-              "nginx:plus:api",
-              "nginx:plus:error",
-              "nginx:app:protect",
               "nginx:plus:access",
-              "nginx:plus:kv"
+              "nginx:app:protect",
+              "nginx:plus:kv",
+              "nginx:plus:api",
+              "nginx:plus:error"
             ],
             "tags": [
-              "inventory",
+              "web",
+              "error",
               "__no_tag__",
               "ids",
               "activity",
-              "error",
-              "web",
+              "inventory",
               "attack"
             ],
             "tagsSourcetypes": {
@@ -406,6 +411,11 @@
               ]
             },
             "versionCompatibility": [
+              {
+                "id": 132,
+                "status": "live",
+                "versionString": "10.5"
+              },
               {
                 "id": 129,
                 "status": "live",
@@ -494,19 +504,19 @@
             "signedAvailable": true,
             "size": 723828,
             "sourcetypes": [
-              "nginx:plus:api",
-              "nginx:plus:error",
-              "nginx:app:protect",
               "nginx:plus:access",
-              "nginx:plus:kv"
+              "nginx:app:protect",
+              "nginx:plus:kv",
+              "nginx:plus:api",
+              "nginx:plus:error"
             ],
             "tags": [
-              "inventory",
+              "web",
+              "error",
               "__no_tag__",
               "ids",
               "activity",
-              "error",
-              "web",
+              "inventory",
               "attack"
             ],
             "tagsSourcetypes": {
@@ -596,7 +606,7 @@
   "query": {
     "id": "3258"
   },
-  "buildId": "4-O8l3e8aN_eveAM2pTBZ",
+  "buildId": "W-MZhxlydi4NawhV5e19M",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

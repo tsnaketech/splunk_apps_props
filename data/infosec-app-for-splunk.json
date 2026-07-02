@@ -71,7 +71,7 @@
         "description": "InfoSec app for Splunk is your starter security pack. \n\nInfoSec app is designed to address the most common security use cases, including continuous monitoring and security investigations. InfoSec app also includes a number of advanced threat detection use cases. \n\nAll of the components of InfoSec app can be easily expanded using free security resources available for Splunk like Security Essentials app for Splunk: https://splunkbase.splunk.com/app/3435/",
         "documentation": "<p>IMPORTANT: PREREQUISITES</p>\n<ul>\n<li>\n<p>At a minimum, you should have data from the following security sources collected by your Splunk environment:</p>\n<ul>\n<li>Firewall data like Cisco ASA, Palo Alto Networks, Check Point, Juniper, Fortinet, etc.</li>\n<li>Active Directory security logs (make sure that your audit policy enables logging failed and successful authentication attempts)</li>\n<li>Antivirus/Malware data like McAfee, Symantec, Trend Micro, etc. </li>\n</ul>\n</li>\n<li>\n<p>The following free Splunk Add-ons must be installed before you can start using InfoSec App:</p>\n<ul>\n<li>Splunk Common Information Model (CIM): <a href=\"https://splunkbase.splunk.com/app/1621/\">https://splunkbase.splunk.com/app/1621/</a></li>\n<li>Lookup File Editor: <a href=\"https://splunkbase.splunk.com/app/1724/\">https://splunkbase.splunk.com/app/1724/</a> (new requirement starting from InfoSec v1.5)</li>\n</ul>\n</li>\n<li>\n<p>The following Data Models must be accelerated: </p>\n<ul>\n<li>Authentication</li>\n<li>Change (for app version 1.6.x and newer) or Change Analysis (for app version 1.5.3 and older)</li>\n<li>Intrusion_Detection</li>\n<li>Malware</li>\n<li>Network_Sessions</li>\n<li>Network_Traffic</li>\n<li>Endpoint</li>\n<li>Web (new requirement starting from InfoSec v1.5)</li>\n</ul>\n</li>\n<li>\n<p>All data used by InfoSec app must be Common Information Model (CIM)-compliant. The easiest way to accomplish that is to use CIM-compliant Splunk Add-ons for your security data sources</p>\n</li>\n</ul>\n<p>WHERE TO INSTALL THE APP</p>\n<p>The app can be installed on a standalone Splunk server, a Search Head or a Search Head Cluster. In a distributed environment do not install the app on Indexers; the app should only be installed on Search Head(s).</p>\n<p>INFOSEC APP DOCUMENTATION</p>\n<p><a href=\"https://docs.splunk.com/Documentation/InfoSec\">https://docs.splunk.com/Documentation/InfoSec</a></p>",
         "documentationSource": "IMPORTANT: PREREQUISITES\n\n- At a minimum, you should have data from the following security sources collected by your Splunk environment:\n    - Firewall data like Cisco ASA, Palo Alto Networks, Check Point, Juniper, Fortinet, etc.\n\t- Active Directory security logs (make sure that your audit policy enables logging failed and successful authentication attempts)\n\t- Antivirus/Malware data like McAfee, Symantec, Trend Micro, etc. \n\n- The following free Splunk Add-ons must be installed before you can start using InfoSec App:\n\t- Splunk Common Information Model (CIM): https://splunkbase.splunk.com/app/1621/\n    - Lookup File Editor: https://splunkbase.splunk.com/app/1724/ (new requirement starting from InfoSec v1.5)\n\n- The following Data Models must be accelerated: \n    - Authentication\n    - Change (for app version 1.6.x and newer) or Change Analysis (for app version 1.5.3 and older)\n\t- Intrusion_Detection\n\t- Malware\n\t- Network_Sessions\n\t- Network_Traffic\n    - Endpoint\n    - Web (new requirement starting from InfoSec v1.5)\n\n- All data used by InfoSec app must be Common Information Model (CIM)-compliant. The easiest way to accomplish that is to use CIM-compliant Splunk Add-ons for your security data sources\n\n\n\n\nWHERE TO INSTALL THE APP\n\nThe app can be installed on a standalone Splunk server, a Search Head or a Search Head Cluster. In a distributed environment do not install the app on Indexers; the app should only be installed on Search Head(s).\n\n\nINFOSEC APP DOCUMENTATION\n\nhttps://docs.splunk.com/Documentation/InfoSec",
-        "downloadCount": 39687,
+        "downloadCount": 39706,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/dc4ac420-7171-11f1-abc0-ee11b1988db6.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": null,
@@ -112,16 +112,16 @@
         "release": {
           "actions": [],
           "cimCompatibility": [
-            "5.x"
+            "6.x"
           ],
           "cimVersions": [
-            17
+            19
           ],
           "cloudCompatible": true,
           "content": [],
           "fipsCompatibility": false,
-          "filename": "infosec-app-for-splunk_171.tgz",
-          "id": 38712,
+          "filename": "infosec-app-for-splunk_172.tgz",
+          "id": 122133,
           "installMethodDistributed": "appmgmt_phase",
           "installMethodSingle": "simple",
           "manifest": {
@@ -131,7 +131,7 @@
               "id": {
                 "group": null,
                 "name": "InfoSec_App_for_Splunk",
-                "version": "1.7.1"
+                "version": "1.7.2"
               },
               "author": [
                 {
@@ -170,11 +170,11 @@
             "incompatibleApps": null,
             "platformRequirements": null
           },
-          "md5": "3b3e2d80fa7a8fde4e359df7b91618e9",
+          "md5": "5884a03ff86d6c490287950a0273609d",
           "minProductVersionStr": null,
-          "name": "1.7.1",
+          "name": "1.7.2",
           "passedValidation": true,
-          "path": "https://splunkbase.splunk.com/app/4240/release/1.7.1/download/",
+          "path": "https://splunkbase.splunk.com/app/4240/release/1.7.2/download/",
           "platform": "independent",
           "productTypes": [
             "enterprise",
@@ -182,15 +182,20 @@
           ],
           "public": null,
           "publicEverTrue": false,
-          "publishedDatetime": "2025-08-01T17:46:50.487186Z",
-          "releaseNotes": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise/infosec-app-for-splunk/use-infosec-app-for-splunk/1.7/introduction-to-the-infosec-app-for-splunk/overview-of-the-infosec-app-for-splunk#whats-new-in-version-1.7.1-0\">https://help.splunk.com/en/splunk-enterprise/infosec-app-for-splunk/use-infosec-app-for-splunk/1.7/introduction-to-the-infosec-app-for-splunk/overview-of-the-infosec-app-for-splunk#whats-new-in-version-1.7.1-0</a></p>",
-          "sha256": "4447136a4f971213f5b4090de9aa8bc28c81f19455d5d46c3854c3a6b06927e4",
+          "publishedDatetime": "2026-06-26T15:15:26.664722Z",
+          "releaseNotes": "",
+          "sha256": "e8c3906fa9fc57dada911a8554f1d72ac652db56f2bbf4c41eabbd89f46f58a1",
           "signedAvailable": true,
-          "size": 231941,
+          "size": 231942,
           "sourcetypes": [],
           "tags": [],
           "tagsSourcetypes": {},
           "versionCompatibility": [
+            {
+              "id": 132,
+              "status": "live",
+              "versionString": "10.5"
+            },
             {
               "id": 129,
               "status": "live",
@@ -200,36 +205,111 @@
               "id": 128,
               "status": "live",
               "versionString": "10.3"
-            },
-            {
-              "id": 127,
-              "status": "live",
-              "versionString": "10.2"
-            },
-            {
-              "id": 121,
-              "status": "live",
-              "versionString": "10.1"
-            },
-            {
-              "id": 119,
-              "status": "live",
-              "versionString": "10.0"
-            },
-            {
-              "id": 115,
-              "status": "live",
-              "versionString": "9.4"
-            },
-            {
-              "id": 111,
-              "status": "live",
-              "versionString": "9.3"
             }
           ],
           "splCompatibility": "SPL1"
         },
         "releases": [
+          {
+            "actions": [],
+            "cimCompatibility": [
+              "6.x"
+            ],
+            "cimVersions": [
+              19
+            ],
+            "cloudCompatible": true,
+            "content": [],
+            "fipsCompatibility": false,
+            "filename": "infosec-app-for-splunk_172.tgz",
+            "id": 122133,
+            "installMethodDistributed": "appmgmt_phase",
+            "installMethodSingle": "simple",
+            "manifest": {
+              "schemaVersion": "1.0.0",
+              "info": {
+                "title": "InfoSec App for Splunk",
+                "id": {
+                  "group": null,
+                  "name": "InfoSec_App_for_Splunk",
+                  "version": "1.7.2"
+                },
+                "author": [
+                  {
+                    "name": "Splunk, Inc.",
+                    "email": "support@splunk.com",
+                    "company": "Splunk, Inc."
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Starter pack for continuous security monitoring, investigation and advanced threat detection",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null
+            },
+            "md5": "5884a03ff86d6c490287950a0273609d",
+            "minProductVersionStr": null,
+            "name": "1.7.2",
+            "passedValidation": true,
+            "path": "https://splunkbase.splunk.com/app/4240/release/1.7.2/download/",
+            "platform": "independent",
+            "productTypes": [
+              "enterprise",
+              "cloud"
+            ],
+            "public": null,
+            "publicEverTrue": false,
+            "publishedDatetime": "2026-06-26T15:15:26.664722Z",
+            "releaseNotes": "",
+            "sha256": "e8c3906fa9fc57dada911a8554f1d72ac652db56f2bbf4c41eabbd89f46f58a1",
+            "signedAvailable": true,
+            "size": 231942,
+            "sourcetypes": [],
+            "tags": [],
+            "tagsSourcetypes": {},
+            "versionCompatibility": [
+              {
+                "id": 132,
+                "status": "live",
+                "versionString": "10.5"
+              },
+              {
+                "id": 129,
+                "status": "live",
+                "versionString": "10.4"
+              },
+              {
+                "id": 128,
+                "status": "live",
+                "versionString": "10.3"
+              }
+            ],
+            "splCompatibility": "SPL1"
+          },
           {
             "actions": [],
             "cimCompatibility": [
@@ -312,6 +392,11 @@
             "tags": [],
             "tagsSourcetypes": {},
             "versionCompatibility": [
+              {
+                "id": 132,
+                "status": "live",
+                "versionString": "10.5"
+              },
               {
                 "id": 129,
                 "status": "live",
@@ -436,6 +521,11 @@
             "tags": [],
             "tagsSourcetypes": {},
             "versionCompatibility": [
+              {
+                "id": 132,
+                "status": "live",
+                "versionString": "10.5"
+              },
               {
                 "id": 129,
                 "status": "live",
@@ -1135,7 +1225,7 @@
         "title": "InfoSec App for Splunk",
         "troubleshooting": "",
         "troubleshootingSource": "",
-        "updatedTime": "2026-06-26T15:18:17.341573Z",
+        "updatedTime": "2026-07-01T20:08:14.232971Z",
         "videoLink": "v_po-rPjZfg",
         "appType": "app",
         "scheduleRelease": null,
@@ -1157,7 +1247,7 @@
   "query": {
     "id": "4240"
   },
-  "buildId": "4-O8l3e8aN_eveAM2pTBZ",
+  "buildId": "W-MZhxlydi4NawhV5e19M",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
