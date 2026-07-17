@@ -34,7 +34,7 @@
         "downloadCount": 13586,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/02f38dbe-f091-11e9-b32c-0a6a3062727a.png",
         "inquiryButtonText": "Learn More",
-        "inquiryUrl": "https://github.com/splunk/splunk-connect-for-syslog",
+        "inquiryUrl": "https://api.splunkbase.splunk.com/app/4740/download_dl/",
         "isArchived": false,
         "isDirectoryListing": true,
         "isSoarCertified": false,
@@ -139,7 +139,7 @@
   "query": {
     "id": "4740"
   },
-  "buildId": "f8_aZQlWTLVJ8CJLejZhw",
+  "buildId": "ACmPDiCuMM7SeOkW5VoXy",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

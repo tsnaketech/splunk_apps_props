@@ -29,7 +29,7 @@
         "downloadCount": 41,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/4ea092a6-3244-11ec-8941-02614432a155.png",
         "inquiryButtonText": "Learn More",
-        "inquiryUrl": "https://github.com/splunk-app-and-ta-development/ta_custom-logo-and-favicon",
+        "inquiryUrl": "https://api.splunkbase.splunk.com/app/6157/download_dl/",
         "isArchived": false,
         "isDirectoryListing": true,
         "isSoarCertified": false,
@@ -125,7 +125,7 @@
   "query": {
     "id": "6157"
   },
-  "buildId": "f8_aZQlWTLVJ8CJLejZhw",
+  "buildId": "ACmPDiCuMM7SeOkW5VoXy",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

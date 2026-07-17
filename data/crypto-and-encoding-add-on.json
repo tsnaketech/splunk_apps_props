@@ -34,7 +34,7 @@
         "downloadCount": 1528,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/b8a4f4e6-8fbd-11f0-aa56-6e5085444b13.png",
         "inquiryButtonText": "Learn More",
-        "inquiryUrl": "",
+        "inquiryUrl": null,
         "isArchived": false,
         "isDirectoryListing": false,
         "isSoarCertified": false,
@@ -750,7 +750,7 @@
   "query": {
     "id": "5062"
   },
-  "buildId": "f8_aZQlWTLVJ8CJLejZhw",
+  "buildId": "ACmPDiCuMM7SeOkW5VoXy",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
