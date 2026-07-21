@@ -26,7 +26,7 @@
         "description": "The Splunk Add-on for Apache Web Server allows a Splunk software administrator to collect and analyze data from Apache Web Server using file monitoring. After the Splunk platform indexes the events, you can analyze the data using the prebuilt panels included with the add-on. \n\nThis add-on provides the inputs and CIM-compatible knowledge to use with other Splunk apps, such as Web.",
         "documentation": "<p>Documentation for this add-on can be found here: <a href=\"http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About\">http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About</a></p>",
         "documentationSource": "Documentation for this add-on can be found here: http://docs.splunk.com/Documentation/AddOns/latest/ApacheWebServer/About",
-        "downloadCount": 37510,
+        "downloadCount": 37515,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/c349dc2a-3401-11f1-9b1f-5ab5123230fd.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": null,
@@ -151,16 +151,16 @@
           "public": null,
           "publicEverTrue": false,
           "publishedDatetime": "2026-04-09T10:49:20.173957Z",
-          "releaseNotes": "<p>Depreciated the support for python3.7 version<br>\nSecurity fixes</p>",
+          "releaseNotes": "Depreciated the support for python3.7 version\nSecurity fixes",
           "sha256": "cd9b7b0f4aaddcae1a777055e6e9174fb27f651868df1e3a2039360239146852",
           "signedAvailable": true,
           "size": 224485,
           "sourcetypes": [
             "apache:access:json",
-            "apache:access",
-            "apache:access:combined",
             "apache:access:kv",
-            "apache:error"
+            "apache:error",
+            "apache:access:combined",
+            "apache:access"
           ],
           "tags": [
             "error",
@@ -312,16 +312,16 @@
             "public": null,
             "publicEverTrue": false,
             "publishedDatetime": "2026-04-09T10:49:20.173957Z",
-            "releaseNotes": "<p>Depreciated the support for python3.7 version<br>\nSecurity fixes</p>",
+            "releaseNotes": "Depreciated the support for python3.7 version\nSecurity fixes",
             "sha256": "cd9b7b0f4aaddcae1a777055e6e9174fb27f651868df1e3a2039360239146852",
             "signedAvailable": true,
             "size": 224485,
             "sourcetypes": [
               "apache:access:json",
-              "apache:access",
-              "apache:access:combined",
               "apache:access:kv",
-              "apache:error"
+              "apache:error",
+              "apache:access:combined",
+              "apache:access"
             ],
             "tags": [
               "error",
@@ -417,7 +417,7 @@
   "query": {
     "id": "3186"
   },
-  "buildId": "ACmPDiCuMM7SeOkW5VoXy",
+  "buildId": "27v9NHUSIMrCEiGkdrRUP",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

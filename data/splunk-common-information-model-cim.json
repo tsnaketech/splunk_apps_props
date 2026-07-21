@@ -26,7 +26,7 @@
         "description": "The Common Information Model is a set of field names and tags which are expected to define the least common denominator of a domain of interest. It is implemented as documentation on the Splunk docs website and JSON data model files in this add-on. Use the CIM add-on when modeling data or building apps to ensure compatibility between apps, or to just take advantage of these data models to pivot and report.",
         "documentation": "<p><a href=\"https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on\">Release Notes</a><br>\nPlease see the <a href=\"https://help.splunk.com/en/data-management/common-information-model/6.1/introduction/overview-of-the-splunk-common-information-model\">Splunk Common Information Model Add-on user documentation</a>.</p>",
         "documentationSource": "[Release Notes](https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on)\nPlease see the [Splunk Common Information Model Add-on user documentation](https://help.splunk.com/en/data-management/common-information-model/6.1/introduction/overview-of-the-splunk-common-information-model).",
-        "downloadCount": 428123,
+        "downloadCount": 428159,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/cb441a06-80a2-11f1-90b7-1a4f842bcf06.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": null,
@@ -151,20 +151,20 @@
           "public": null,
           "publicEverTrue": false,
           "publishedDatetime": "2026-04-02T20:31:13.577920Z",
-          "releaseNotes": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/common-information-model/6.4/introduction/release-notes-for-the-splunk-common-information-model-add-on\">https://help.splunk.com/en/splunk-enterprise-security-8/common-information-model/6.4/introduction/release-notes-for-the-splunk-common-information-model-add-on</a></p>",
+          "releaseNotes": "https://help.splunk.com/en/splunk-enterprise-security-8/common-information-model/6.4/introduction/release-notes-for-the-splunk-common-information-model-add-on",
           "sha256": "ed93ba614f12805ab428d71d45053ced12ce2ff1198b2f46b48537c0e0d6a412",
           "signedAvailable": true,
           "size": 2230520,
           "sourcetypes": [
-            "relaymodaction",
-            "datamodelsimple",
-            "modaction:invocations_rest_handler",
             "audittrail",
-            "splunkd",
+            "modaction:invocations_rest_handler",
             "modaction:queue_handler",
-            "modaction:adhoc_rest_handler",
+            "relaymodaction",
+            "splunkd",
+            "splunk_web_access",
+            "datamodelsimple",
             "stash_common_action_model",
-            "splunk_web_access"
+            "modaction:adhoc_rest_handler"
           ],
           "tags": [
             "__no_tag__"
@@ -314,20 +314,20 @@
             "public": null,
             "publicEverTrue": false,
             "publishedDatetime": "2026-04-02T20:31:13.577920Z",
-            "releaseNotes": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/common-information-model/6.4/introduction/release-notes-for-the-splunk-common-information-model-add-on\">https://help.splunk.com/en/splunk-enterprise-security-8/common-information-model/6.4/introduction/release-notes-for-the-splunk-common-information-model-add-on</a></p>",
+            "releaseNotes": "https://help.splunk.com/en/splunk-enterprise-security-8/common-information-model/6.4/introduction/release-notes-for-the-splunk-common-information-model-add-on",
             "sha256": "ed93ba614f12805ab428d71d45053ced12ce2ff1198b2f46b48537c0e0d6a412",
             "signedAvailable": true,
             "size": 2230520,
             "sourcetypes": [
-              "relaymodaction",
-              "datamodelsimple",
-              "modaction:invocations_rest_handler",
               "audittrail",
-              "splunkd",
+              "modaction:invocations_rest_handler",
               "modaction:queue_handler",
-              "modaction:adhoc_rest_handler",
+              "relaymodaction",
+              "splunkd",
+              "splunk_web_access",
+              "datamodelsimple",
               "stash_common_action_model",
-              "splunk_web_access"
+              "modaction:adhoc_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -476,20 +476,20 @@
             "public": null,
             "publicEverTrue": false,
             "publishedDatetime": "2026-02-18T01:56:01Z",
-            "releaseNotes": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/common-information-model/6.4/introduction/release-notes-for-the-splunk-common-information-model-add-on\">https://help.splunk.com/en/splunk-enterprise-security-8/common-information-model/6.4/introduction/release-notes-for-the-splunk-common-information-model-add-on</a></p>",
+            "releaseNotes": "https://help.splunk.com/en/splunk-enterprise-security-8/common-information-model/6.4/introduction/release-notes-for-the-splunk-common-information-model-add-on",
             "sha256": "48c77135fd30f14dbd27827cf1993066eb40279015d6c4a8956a5cbfbaf8c6c8",
             "signedAvailable": true,
             "size": 2229272,
             "sourcetypes": [
-              "relaymodaction",
-              "datamodelsimple",
-              "modaction:invocations_rest_handler",
               "audittrail",
-              "splunkd",
+              "modaction:invocations_rest_handler",
               "modaction:queue_handler",
-              "modaction:adhoc_rest_handler",
+              "relaymodaction",
+              "splunkd",
+              "splunk_web_access",
+              "datamodelsimple",
               "stash_common_action_model",
-              "splunk_web_access"
+              "modaction:adhoc_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -648,20 +648,20 @@
             "public": null,
             "publicEverTrue": false,
             "publishedDatetime": "2025-11-19T21:22:42.009106Z",
-            "releaseNotes": "<p><a href=\"https://help.splunk.com/en/data-management/common-information-model/6.3/introduction/release-notes-for-the-splunk-common-information-model-add-on\">https://help.splunk.com/en/data-management/common-information-model/6.3/introduction/release-notes-for-the-splunk-common-information-model-add-on</a></p>",
+            "releaseNotes": "https://help.splunk.com/en/data-management/common-information-model/6.3/introduction/release-notes-for-the-splunk-common-information-model-add-on",
             "sha256": "81754774231bedc06d90674b8fba6a5855b6fe093a7965103f0e9daae12f9a17",
             "signedAvailable": true,
             "size": 2229098,
             "sourcetypes": [
-              "relaymodaction",
-              "datamodelsimple",
-              "modaction:invocations_rest_handler",
               "audittrail",
-              "splunkd",
+              "modaction:invocations_rest_handler",
               "modaction:queue_handler",
-              "modaction:adhoc_rest_handler",
+              "relaymodaction",
+              "splunkd",
+              "splunk_web_access",
+              "datamodelsimple",
               "stash_common_action_model",
-              "splunk_web_access"
+              "modaction:adhoc_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -820,20 +820,20 @@
             "public": null,
             "publicEverTrue": false,
             "publishedDatetime": "2025-09-09T05:05:03.912550Z",
-            "releaseNotes": "<p><a href=\"https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on\">https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on</a></p>",
+            "releaseNotes": "https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on",
             "sha256": "a920d02e83f973146d6ee7e1727421f4d3d0462c7e7a5f40fc9c2e61b7963839",
             "signedAvailable": true,
             "size": 2229096,
             "sourcetypes": [
-              "relaymodaction",
-              "datamodelsimple",
-              "modaction:invocations_rest_handler",
               "audittrail",
-              "splunkd",
+              "modaction:invocations_rest_handler",
               "modaction:queue_handler",
-              "modaction:adhoc_rest_handler",
+              "relaymodaction",
+              "splunkd",
+              "splunk_web_access",
+              "datamodelsimple",
               "stash_common_action_model",
-              "splunk_web_access"
+              "modaction:adhoc_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -972,20 +972,20 @@
             "public": null,
             "publicEverTrue": false,
             "publishedDatetime": "2025-06-10T20:34:38.298431Z",
-            "releaseNotes": "<p><a href=\"https://help.splunk.com/en/data-management/common-information-model/6.1/introduction/release-notes-for-the-splunk-common-information-model-add-on\">https://help.splunk.com/en/data-management/common-information-model/6.1/introduction/release-notes-for-the-splunk-common-information-model-add-on</a></p>",
+            "releaseNotes": "https://help.splunk.com/en/data-management/common-information-model/6.1/introduction/release-notes-for-the-splunk-common-information-model-add-on",
             "sha256": "639a515870d468a591bcc26467a652bde22ce9bbae2837c6112155b0181c771d",
             "signedAvailable": true,
             "size": 2228905,
             "sourcetypes": [
-              "relaymodaction",
-              "datamodelsimple",
-              "modaction:invocations_rest_handler",
               "audittrail",
-              "splunkd",
+              "modaction:invocations_rest_handler",
               "modaction:queue_handler",
-              "modaction:adhoc_rest_handler",
+              "relaymodaction",
+              "splunkd",
+              "splunk_web_access",
+              "datamodelsimple",
               "stash_common_action_model",
-              "splunk_web_access"
+              "modaction:adhoc_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1124,20 +1124,20 @@
             "public": null,
             "publicEverTrue": false,
             "publishedDatetime": "2025-04-30T23:24:39.062112Z",
-            "releaseNotes": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/6.0.4/User/Releasenotes\">https://docs.splunk.com/Documentation/CIM/6.0.4/User/Releasenotes</a></p>",
+            "releaseNotes": "https://docs.splunk.com/Documentation/CIM/6.0.4/User/Releasenotes",
             "sha256": "0390b1c626ac2a5509684f00c7573ca2c792d63f648301c5139eaf0ab0a9b535",
             "signedAvailable": true,
             "size": 2227500,
             "sourcetypes": [
-              "relaymodaction",
-              "datamodelsimple",
-              "modaction:invocations_rest_handler",
               "audittrail",
-              "splunkd",
+              "modaction:invocations_rest_handler",
               "modaction:queue_handler",
-              "modaction:adhoc_rest_handler",
+              "relaymodaction",
+              "splunkd",
+              "splunk_web_access",
+              "datamodelsimple",
               "stash_common_action_model",
-              "splunk_web_access"
+              "modaction:adhoc_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1271,20 +1271,20 @@
             "public": null,
             "publicEverTrue": false,
             "publishedDatetime": "2025-03-24T22:17:16.401992Z",
-            "releaseNotes": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/6.0.3/User/Releasenotes\">https://docs.splunk.com/Documentation/CIM/6.0.3/User/Releasenotes</a></p>",
+            "releaseNotes": "https://docs.splunk.com/Documentation/CIM/6.0.3/User/Releasenotes",
             "sha256": "f56d7fe29bd37126f68a9251f909fef4139771c3a2d2a7344979ae14041cc554",
             "signedAvailable": true,
             "size": 2227359,
             "sourcetypes": [
-              "relaymodaction",
-              "datamodelsimple",
-              "modaction:invocations_rest_handler",
               "audittrail",
-              "splunkd",
+              "modaction:invocations_rest_handler",
               "modaction:queue_handler",
-              "modaction:adhoc_rest_handler",
+              "relaymodaction",
+              "splunkd",
+              "splunk_web_access",
+              "datamodelsimple",
               "stash_common_action_model",
-              "splunk_web_access"
+              "modaction:adhoc_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1418,20 +1418,20 @@
             "public": null,
             "publicEverTrue": false,
             "publishedDatetime": "2025-02-12T19:47:22.449166Z",
-            "releaseNotes": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/5.3.3/User/Releasenotes\">https://docs.splunk.com/Documentation/CIM/5.3.3/User/Releasenotes</a></p>",
+            "releaseNotes": "https://docs.splunk.com/Documentation/CIM/5.3.3/User/Releasenotes",
             "sha256": "754c25f7ee2f2494be0dee2ecd770ba0bc69506e8b509a7bfd682d8b6ebc84a2",
             "signedAvailable": true,
             "size": 2226591,
             "sourcetypes": [
-              "relaymodaction",
-              "datamodelsimple",
-              "modaction:invocations_rest_handler",
               "audittrail",
-              "splunkd",
+              "modaction:invocations_rest_handler",
               "modaction:queue_handler",
-              "modaction:adhoc_rest_handler",
+              "relaymodaction",
+              "splunkd",
+              "splunk_web_access",
+              "datamodelsimple",
               "stash_common_action_model",
-              "splunk_web_access"
+              "modaction:adhoc_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1565,20 +1565,20 @@
             "public": null,
             "publicEverTrue": false,
             "publishedDatetime": "2025-01-22T05:27:06.471488Z",
-            "releaseNotes": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/6.0.2/User/Releasenotes\">https://docs.splunk.com/Documentation/CIM/6.0.2/User/Releasenotes</a></p>",
+            "releaseNotes": "https://docs.splunk.com/Documentation/CIM/6.0.2/User/Releasenotes",
             "sha256": "5125ec31ee55549f3a03036c4fbaeef21bb952b08b912030ddae05e5003e90b8",
             "signedAvailable": true,
             "size": 2227323,
             "sourcetypes": [
-              "relaymodaction",
-              "datamodelsimple",
-              "modaction:invocations_rest_handler",
               "audittrail",
-              "splunkd",
+              "modaction:invocations_rest_handler",
               "modaction:queue_handler",
-              "modaction:adhoc_rest_handler",
+              "relaymodaction",
+              "splunkd",
+              "splunk_web_access",
+              "datamodelsimple",
               "stash_common_action_model",
-              "splunk_web_access"
+              "modaction:adhoc_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1712,20 +1712,20 @@
             "public": null,
             "publicEverTrue": false,
             "publishedDatetime": "2024-12-06T01:54:33.782005Z",
-            "releaseNotes": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/6.0.1/User/Releasenotes\">https://docs.splunk.com/Documentation/CIM/6.0.1/User/Releasenotes</a></p>",
+            "releaseNotes": "https://docs.splunk.com/Documentation/CIM/6.0.1/User/Releasenotes",
             "sha256": "f96cfc01cfbbb8d6bde9a53a6ccc812eb89d597297b33d856cd59be5a2382dcd",
             "signedAvailable": true,
             "size": 2227286,
             "sourcetypes": [
-              "relaymodaction",
-              "datamodelsimple",
-              "modaction:invocations_rest_handler",
               "audittrail",
-              "splunkd",
+              "modaction:invocations_rest_handler",
               "modaction:queue_handler",
-              "modaction:adhoc_rest_handler",
+              "relaymodaction",
+              "splunkd",
+              "splunk_web_access",
+              "datamodelsimple",
               "stash_common_action_model",
-              "splunk_web_access"
+              "modaction:adhoc_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1803,20 +1803,20 @@
             "public": null,
             "publicEverTrue": false,
             "publishedDatetime": "2024-11-07T20:59:48.480230Z",
-            "releaseNotes": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/6.0.0/User/Releasenotes\">https://docs.splunk.com/Documentation/CIM/6.0.0/User/Releasenotes</a></p>",
+            "releaseNotes": "https://docs.splunk.com/Documentation/CIM/6.0.0/User/Releasenotes",
             "sha256": "cf4ac914cb8632dda3596eb079f0b70017f99d03e71e7b726b3285afbeb76430",
             "signedAvailable": true,
             "size": 2227288,
             "sourcetypes": [
-              "relaymodaction",
-              "datamodelsimple",
-              "modaction:invocations_rest_handler",
               "audittrail",
-              "splunkd",
+              "modaction:invocations_rest_handler",
               "modaction:queue_handler",
-              "modaction:adhoc_rest_handler",
+              "relaymodaction",
+              "splunkd",
+              "splunk_web_access",
+              "datamodelsimple",
               "stash_common_action_model",
-              "splunk_web_access"
+              "modaction:adhoc_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -1949,20 +1949,20 @@
             "public": null,
             "publicEverTrue": false,
             "publishedDatetime": "2024-03-27T17:25:49.217387Z",
-            "releaseNotes": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/5.3.2/User/Releasenotes\">https://docs.splunk.com/Documentation/CIM/5.3.2/User/Releasenotes</a></p>",
+            "releaseNotes": "https://docs.splunk.com/Documentation/CIM/5.3.2/User/Releasenotes",
             "sha256": "3e5078d6f4001c706a14610232309732eafd6aa0cf9acc3443b22902e4cf4259",
             "signedAvailable": true,
             "size": 2226444,
             "sourcetypes": [
-              "relaymodaction",
-              "datamodelsimple",
-              "modaction:invocations_rest_handler",
               "audittrail",
-              "splunkd",
+              "modaction:invocations_rest_handler",
               "modaction:queue_handler",
-              "modaction:adhoc_rest_handler",
+              "relaymodaction",
+              "splunkd",
+              "splunk_web_access",
+              "datamodelsimple",
               "stash_common_action_model",
-              "splunk_web_access"
+              "modaction:adhoc_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -2039,20 +2039,20 @@
             "public": null,
             "publicEverTrue": false,
             "publishedDatetime": "2023-12-19T06:34:35.760621Z",
-            "releaseNotes": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/5.3.1/User/Releasenotes\">https://docs.splunk.com/Documentation/CIM/5.3.1/User/Releasenotes</a></p>",
+            "releaseNotes": "https://docs.splunk.com/Documentation/CIM/5.3.1/User/Releasenotes",
             "sha256": "2dd4880f6ad34ceb7ff451f4935ffaab0914c4f455c36a0ddbf7fc641b526352",
             "signedAvailable": true,
             "size": 2226453,
             "sourcetypes": [
-              "relaymodaction",
-              "datamodelsimple",
-              "modaction:invocations_rest_handler",
               "audittrail",
-              "splunkd",
+              "modaction:invocations_rest_handler",
               "modaction:queue_handler",
-              "modaction:adhoc_rest_handler",
+              "relaymodaction",
+              "splunkd",
+              "splunk_web_access",
+              "datamodelsimple",
               "stash_common_action_model",
-              "splunk_web_access"
+              "modaction:adhoc_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -2129,20 +2129,20 @@
             "public": null,
             "publicEverTrue": false,
             "publishedDatetime": "2023-11-08T13:51:19.476306Z",
-            "releaseNotes": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/5.1.2/User/Releasenotes\">https://docs.splunk.com/Documentation/CIM/5.1.2/User/Releasenotes</a></p>",
+            "releaseNotes": "https://docs.splunk.com/Documentation/CIM/5.1.2/User/Releasenotes",
             "sha256": "05196b270bcc431fd0b063f610be47c8f254314d3ecce0764f4d72e45c47eaee",
             "signedAvailable": true,
             "size": 2226260,
             "sourcetypes": [
-              "relaymodaction",
-              "datamodelsimple",
-              "modaction:invocations_rest_handler",
               "audittrail",
-              "splunkd",
+              "modaction:invocations_rest_handler",
               "modaction:queue_handler",
-              "modaction:adhoc_rest_handler",
+              "relaymodaction",
+              "splunkd",
+              "splunk_web_access",
+              "datamodelsimple",
               "stash_common_action_model",
-              "splunk_web_access"
+              "modaction:adhoc_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -2219,20 +2219,20 @@
             "public": null,
             "publicEverTrue": false,
             "publishedDatetime": "2023-09-01T21:57:54.115685Z",
-            "releaseNotes": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/5.2.0/User/Releasenotes\">https://docs.splunk.com/Documentation/CIM/5.2.0/User/Releasenotes</a></p>",
+            "releaseNotes": "https://docs.splunk.com/Documentation/CIM/5.2.0/User/Releasenotes",
             "sha256": "4946a2c05f2c46299097da49dca2d74cecb4f5704f4c62a5705a42c85083c3ae",
             "signedAvailable": true,
             "size": 2226064,
             "sourcetypes": [
-              "relaymodaction",
-              "datamodelsimple",
-              "modaction:invocations_rest_handler",
               "audittrail",
-              "splunkd",
+              "modaction:invocations_rest_handler",
               "modaction:queue_handler",
-              "modaction:adhoc_rest_handler",
+              "relaymodaction",
+              "splunkd",
+              "splunk_web_access",
+              "datamodelsimple",
               "stash_common_action_model",
-              "splunk_web_access"
+              "modaction:adhoc_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -2309,20 +2309,20 @@
             "public": null,
             "publicEverTrue": false,
             "publishedDatetime": "2023-04-04T21:41:25.523673Z",
-            "releaseNotes": "<p><a href=\"https://docs.splunk.com/Documentation/CIM/5.1.1/User/Releasenotes\">https://docs.splunk.com/Documentation/CIM/5.1.1/User/Releasenotes</a></p>",
+            "releaseNotes": "https://docs.splunk.com/Documentation/CIM/5.1.1/User/Releasenotes",
             "sha256": "a0cec651d6f7d156737afa4896a928af9b31ce583d11500fe4edaf8406bb729a",
             "signedAvailable": true,
             "size": 2226048,
             "sourcetypes": [
-              "relaymodaction",
-              "datamodelsimple",
-              "modaction:invocations_rest_handler",
               "audittrail",
-              "splunkd",
+              "modaction:invocations_rest_handler",
               "modaction:queue_handler",
-              "modaction:adhoc_rest_handler",
+              "relaymodaction",
+              "splunkd",
+              "splunk_web_access",
+              "datamodelsimple",
               "stash_common_action_model",
-              "splunk_web_access"
+              "modaction:adhoc_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -2404,15 +2404,15 @@
             "signedAvailable": true,
             "size": 2171266,
             "sourcetypes": [
-              "relaymodaction",
-              "datamodelsimple",
-              "modaction:invocations_rest_handler",
               "audittrail",
-              "splunkd",
+              "modaction:invocations_rest_handler",
               "modaction:queue_handler",
-              "modaction:adhoc_rest_handler",
+              "relaymodaction",
+              "splunkd",
+              "splunk_web_access",
+              "datamodelsimple",
               "stash_common_action_model",
-              "splunk_web_access"
+              "modaction:adhoc_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -2494,15 +2494,15 @@
             "signedAvailable": true,
             "size": 2170778,
             "sourcetypes": [
-              "relaymodaction",
-              "datamodelsimple",
-              "modaction:invocations_rest_handler",
               "audittrail",
-              "splunkd",
+              "modaction:invocations_rest_handler",
               "modaction:queue_handler",
-              "modaction:adhoc_rest_handler",
+              "relaymodaction",
+              "splunkd",
+              "splunk_web_access",
+              "datamodelsimple",
               "stash_common_action_model",
-              "splunk_web_access"
+              "modaction:adhoc_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -2636,15 +2636,15 @@
             "signedAvailable": true,
             "size": 2168892,
             "sourcetypes": [
-              "relaymodaction",
-              "datamodelsimple",
-              "modaction:invocations_rest_handler",
               "audittrail",
-              "splunkd",
+              "modaction:invocations_rest_handler",
               "modaction:queue_handler",
-              "modaction:adhoc_rest_handler",
+              "relaymodaction",
+              "splunkd",
+              "splunk_web_access",
+              "datamodelsimple",
               "stash_common_action_model",
-              "splunk_web_access"
+              "modaction:adhoc_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -2722,15 +2722,15 @@
             "signedAvailable": true,
             "size": 2168638,
             "sourcetypes": [
-              "relaymodaction",
-              "datamodelsimple",
-              "modaction:invocations_rest_handler",
               "audittrail",
-              "splunkd",
+              "modaction:invocations_rest_handler",
               "modaction:queue_handler",
-              "modaction:adhoc_rest_handler",
+              "relaymodaction",
+              "splunkd",
+              "splunk_web_access",
+              "datamodelsimple",
               "stash_common_action_model",
-              "splunk_web_access"
+              "modaction:adhoc_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -2812,15 +2812,15 @@
             "signedAvailable": true,
             "size": 2053708,
             "sourcetypes": [
-              "relaymodaction",
-              "datamodelsimple",
-              "modaction:invocations_rest_handler",
               "audittrail",
-              "splunkd",
+              "modaction:invocations_rest_handler",
               "modaction:queue_handler",
-              "modaction:adhoc_rest_handler",
+              "relaymodaction",
+              "splunkd",
+              "splunk_web_access",
+              "datamodelsimple",
               "stash_common_action_model",
-              "splunk_web_access"
+              "modaction:adhoc_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -2958,15 +2958,15 @@
             "signedAvailable": true,
             "size": 2054907,
             "sourcetypes": [
-              "relaymodaction",
-              "datamodelsimple",
-              "modaction:invocations_rest_handler",
               "audittrail",
-              "splunkd",
+              "modaction:invocations_rest_handler",
               "modaction:queue_handler",
-              "modaction:adhoc_rest_handler",
+              "relaymodaction",
+              "splunkd",
+              "splunk_web_access",
+              "datamodelsimple",
               "stash_common_action_model",
-              "splunk_web_access"
+              "modaction:adhoc_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -3048,15 +3048,15 @@
             "signedAvailable": true,
             "size": 258322,
             "sourcetypes": [
-              "relaymodaction",
-              "datamodelsimple",
-              "modaction:invocations_rest_handler",
               "audittrail",
-              "splunkd",
+              "modaction:invocations_rest_handler",
               "modaction:queue_handler",
-              "modaction:adhoc_rest_handler",
+              "relaymodaction",
+              "splunkd",
+              "splunk_web_access",
+              "datamodelsimple",
               "stash_common_action_model",
-              "splunk_web_access"
+              "modaction:adhoc_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -3138,15 +3138,15 @@
             "signedAvailable": true,
             "size": 257913,
             "sourcetypes": [
-              "relaymodaction",
-              "datamodelsimple",
-              "modaction:invocations_rest_handler",
               "audittrail",
-              "splunkd",
+              "modaction:invocations_rest_handler",
               "modaction:queue_handler",
-              "modaction:adhoc_rest_handler",
+              "relaymodaction",
+              "splunkd",
+              "splunk_web_access",
+              "datamodelsimple",
               "stash_common_action_model",
-              "splunk_web_access"
+              "modaction:adhoc_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -3284,15 +3284,15 @@
             "signedAvailable": true,
             "size": 257829,
             "sourcetypes": [
-              "relaymodaction",
-              "datamodelsimple",
-              "modaction:invocations_rest_handler",
               "audittrail",
-              "splunkd",
+              "modaction:invocations_rest_handler",
               "modaction:queue_handler",
-              "modaction:adhoc_rest_handler",
+              "relaymodaction",
+              "splunkd",
+              "splunk_web_access",
+              "datamodelsimple",
               "stash_common_action_model",
-              "splunk_web_access"
+              "modaction:adhoc_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -3428,15 +3428,15 @@
             "signedAvailable": true,
             "size": 254514,
             "sourcetypes": [
-              "relaymodaction",
-              "datamodelsimple",
-              "modaction:invocations_rest_handler",
               "audittrail",
-              "splunkd",
+              "modaction:invocations_rest_handler",
               "modaction:queue_handler",
-              "modaction:adhoc_rest_handler",
+              "relaymodaction",
+              "splunkd",
+              "splunk_web_access",
+              "datamodelsimple",
               "stash_common_action_model",
-              "splunk_web_access"
+              "modaction:adhoc_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -3568,15 +3568,15 @@
             "signedAvailable": true,
             "size": 254079,
             "sourcetypes": [
-              "relaymodaction",
-              "datamodelsimple",
-              "modaction:invocations_rest_handler",
               "audittrail",
-              "splunkd",
+              "modaction:invocations_rest_handler",
               "modaction:queue_handler",
-              "modaction:adhoc_rest_handler",
+              "relaymodaction",
+              "splunkd",
+              "splunk_web_access",
+              "datamodelsimple",
               "stash_common_action_model",
-              "splunk_web_access"
+              "modaction:adhoc_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -3660,15 +3660,15 @@
             "signedAvailable": true,
             "size": 253353,
             "sourcetypes": [
-              "relaymodaction",
-              "datamodelsimple",
-              "modaction:invocations_rest_handler",
               "audittrail",
-              "splunkd",
+              "modaction:invocations_rest_handler",
               "modaction:queue_handler",
-              "modaction:adhoc_rest_handler",
+              "relaymodaction",
+              "splunkd",
+              "splunk_web_access",
+              "datamodelsimple",
               "stash_common_action_model",
-              "splunk_web_access"
+              "modaction:adhoc_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -3800,15 +3800,15 @@
             "signedAvailable": true,
             "size": 198774,
             "sourcetypes": [
-              "relaymodaction",
-              "datamodelsimple",
-              "modaction:invocations_rest_handler",
               "audittrail",
-              "splunkd",
+              "modaction:invocations_rest_handler",
               "modaction:queue_handler",
-              "modaction:adhoc_rest_handler",
+              "relaymodaction",
+              "splunkd",
+              "splunk_web_access",
+              "datamodelsimple",
               "stash_common_action_model",
-              "splunk_web_access"
+              "modaction:adhoc_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -3940,15 +3940,15 @@
             "signedAvailable": true,
             "size": 197340,
             "sourcetypes": [
-              "relaymodaction",
-              "datamodelsimple",
-              "modaction:invocations_rest_handler",
               "audittrail",
-              "splunkd",
+              "modaction:invocations_rest_handler",
               "modaction:queue_handler",
-              "modaction:adhoc_rest_handler",
+              "relaymodaction",
+              "splunkd",
+              "splunk_web_access",
+              "datamodelsimple",
               "stash_common_action_model",
-              "splunk_web_access"
+              "modaction:adhoc_rest_handler"
             ],
             "tags": [
               "__no_tag__"
@@ -4045,25 +4045,25 @@
             "public": null,
             "publicEverTrue": false,
             "publishedDatetime": "2018-10-09T23:15:59.879260Z",
-            "releaseNotes": "<p>Splunk Common Information Model 4.12.0 Copyright (C) 2013-2018 Splunk Inc. All rights reserved. For the Release Notes see: <a href=\"http://docs.splunk.com/Documentation/CIM/4.12.0/User/Releasenotes\">http://docs.splunk.com/Documentation/CIM/4.12.0/User/Releasenotes</a></p>",
+            "releaseNotes": "Splunk Common Information Model 4.12.0 Copyright (C) 2013-2018 Splunk Inc. All rights reserved. For the Release Notes see: http://docs.splunk.com/Documentation/CIM/4.12.0/User/Releasenotes",
             "sha256": "65657364e53463bc00bd3cd76fed61f6771fb82176afcd19d0cebe964b04597a",
             "signedAvailable": true,
             "size": 260333,
             "sourcetypes": [
-              "relaymodaction",
-              "datamodelsimple",
-              "modaction:invocations_rest_handler",
               "audittrail",
-              "splunkd",
+              "modaction:invocations_rest_handler",
               "modaction:queue_handler",
-              "modaction:adhoc_rest_handler",
+              "relaymodaction",
+              "splunkd",
+              "splunk_web_access",
+              "datamodelsimple",
               "stash_common_action_model",
-              "splunk_web_access"
+              "modaction:adhoc_rest_handler"
             ],
             "tags": [
+              "__no_tag__",
               "modaction",
-              "invocation",
-              "__no_tag__"
+              "invocation"
             ],
             "tagsSourcetypes": {
               "modaction": [
@@ -4124,7 +4124,7 @@
   "query": {
     "id": "1621"
   },
-  "buildId": "ACmPDiCuMM7SeOkW5VoXy",
+  "buildId": "27v9NHUSIMrCEiGkdrRUP",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
