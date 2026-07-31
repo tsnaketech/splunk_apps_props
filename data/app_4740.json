@@ -1,0 +1,13 @@
+{
+  "props": {
+    "pageProps": {}
+  },
+  "page": "/500",
+  "query": {},
+  "buildId": "Fr2F0M3RXeBAYZZnrhG1D",
+  "assetPrefix": "https://cdn.splunkbase.splunk.com",
+  "nextExport": true,
+  "autoExport": true,
+  "isFallback": false,
+  "scriptLoader": []
+}
