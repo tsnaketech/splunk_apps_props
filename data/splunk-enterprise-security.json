@@ -4,7 +4,7 @@
       "appDetails": {
         "id": 263,
         "access": "restricted",
-        "approvalStatus": "approved",
+        "approvalStatus": null,
         "categories": [
           {
             "id": 1,
@@ -21,32 +21,27 @@
         ],
         "contactEmail": "",
         "contactNotes": "",
-        "contactNotesSource": "",
         "displayAuthor": {
           "isPartner": false,
           "name": "Splunk LLC",
           "redirectTo": "splunk"
         },
         "description": "Splunk Enterprise Security (ES) solves a wide range of security analytics and operations use cases including continuous security monitoring, advanced threat detection, compliance, incident investigation, forensics and incident response. Splunk ES delivers an end-to-end view of organizations\u2019 security postures with flexible investigations, unmatched performance, and the most flexible deployment options offered in the cloud, on-premises or hybrid deployment models. Splunk ES enables you to: \n\n- Conquer alert fatigue with high-fidelity Risk-Based Alerting.\n- Bring visibility across your hybrid environment with multicloud security monitoring.\n- Conduct flexible investigations for effective threat hunting across security, IT and DevOps data sources.\n\nSplunk ES is a premium security solution requiring a paid license.",
-        "documentation": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.2/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security\">Release Notes</a><br>\n<a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/install/8.2/\">Splunk Enterprise Security Documentation</a></p>",
-        "documentationSource": "[Release Notes](https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.2/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security)\n[Splunk Enterprise Security Documentation](https://help.splunk.com/en/splunk-enterprise-security-8/install/8.2/)",
+        "documentation": "[Release Notes](https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.2/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security)\n[Splunk Enterprise Security Documentation](https://help.splunk.com/en/splunk-enterprise-security-8/install/8.2/)",
         "downloadCount": 0,
-        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/5f41a1f0-7bae-11f1-843b-5e70158ca11f.png",
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/518913ba-8ca0-11f1-9e59-cad90d7b8d38.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": "https://api.splunkbase.splunk.com/api/v2/apps/263/inquire",
         "isArchived": false,
         "isDirectoryListing": false,
         "isSoarCertified": false,
         "isSplunkBuilt": true,
-        "installation": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/install/8.3/introduction/deploy-and-upgrade-splunk-enterprise-security\">https://help.splunk.com/en/splunk-enterprise-security-8/install/8.3/introduction/deploy-and-upgrade-splunk-enterprise-security</a></p>\n<p>Please validate compatibility before installation and upgrade. <a href=\"https://help.splunk.com/en/splunk-enterprise/release-notes-and-updates/compatibility-matrix/splunk-products-version-compatibility/splunk-products-version-compatibility-matrix\">https://help.splunk.com/en/splunk-enterprise/release-notes-and-updates/compatibility-matrix/splunk-products-version-compatibility/splunk-products-version-compatibility-matrix</a></p>",
-        "installationSource": "https://help.splunk.com/en/splunk-enterprise-security-8/install/8.3/introduction/deploy-and-upgrade-splunk-enterprise-security\n\nPlease validate compatibility before installation and upgrade. https://help.splunk.com/en/splunk-enterprise/release-notes-and-updates/compatibility-matrix/splunk-products-version-compatibility/splunk-products-version-compatibility-matrix",
+        "installation": "https://help.splunk.com/en/splunk-enterprise-security-8/install/8.3/introduction/deploy-and-upgrade-splunk-enterprise-security\n\nPlease validate compatibility before installation and upgrade. https://help.splunk.com/en/splunk-enterprise/release-notes-and-updates/compatibility-matrix/splunk-products-version-compatibility/splunk-products-version-compatibility-matrix",
         "license": {
           "canonicalName": "Splunk General Terms",
           "displayName": "Splunk General Terms",
           "url": "https://www.splunk.com/en_us/legal/splunk-general-terms.html"
         },
-        "licenseName": "Splunk General Terms",
-        "licenseUrl": "https://www.splunk.com/en_us/legal/splunk-general-terms.html",
         "licenseAgreementReadRequired": false,
         "partnerMetadata": null,
         "pendingOwnerTransferEvent": null,
@@ -56,7 +51,7 @@
           "enterprise",
           "cloud"
         ],
-        "public": true,
+        "public": null,
         "ranking": [
           {
             "categoryDisplayName": "Security, Fraud & Compliance",
@@ -87,7 +82,6 @@
           "md5": "5ad5530bd8e99cfe68026a91931084e0",
           "minProductVersionStr": null,
           "name": "8.5.1",
-          "passedValidation": true,
           "path": "https://splunkbase.splunk.com/app/263/release/8.5.1/download/",
           "platform": "independent",
           "productTypes": [
@@ -99,10 +93,7 @@
           "publishedDatetime": "2026-04-16T13:16:08Z",
           "releaseNotes": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.5/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security\" /><a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.5/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security\">[https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.5/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security](https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.5/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security)</a></p>",
           "sha256": "3b6fa84a1769b363bd6cd4dc007c7dbcdd52db934a4cdbc3e6b85ed3e17cad47",
-          "signedAvailable": true,
           "size": 777226714,
-          "sourcetypes": [],
-          "tags": [],
           "tagsSourcetypes": {},
           "versionCompatibility": [
             {
@@ -168,7 +159,6 @@
             "md5": "5ad5530bd8e99cfe68026a91931084e0",
             "minProductVersionStr": null,
             "name": "8.5.1",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/263/release/8.5.1/download/",
             "platform": "independent",
             "productTypes": [
@@ -180,10 +170,7 @@
             "publishedDatetime": "2026-04-16T13:16:08Z",
             "releaseNotes": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.5/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security\" /><a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.5/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security\">[https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.5/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security](https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.5/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security)</a></p>",
             "sha256": "3b6fa84a1769b363bd6cd4dc007c7dbcdd52db934a4cdbc3e6b85ed3e17cad47",
-            "signedAvailable": true,
             "size": 777226714,
-            "sourcetypes": [],
-            "tags": [],
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
@@ -248,7 +235,6 @@
             "md5": "588e08d75dac2e1ff8fa2356671f2243",
             "minProductVersionStr": null,
             "name": "8.4.1",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/263/release/8.4.1/download/",
             "platform": "independent",
             "productTypes": [
@@ -260,10 +246,7 @@
             "publishedDatetime": "2026-04-16T13:15:31Z",
             "releaseNotes": "[https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.4/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security](https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.4/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security)",
             "sha256": "0e690099bd8b0308d690ecb4503b90959b2949e120ba3cfb8d3c461f7f775320",
-            "signedAvailable": true,
             "size": 772466719,
-            "sourcetypes": [],
-            "tags": [],
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
@@ -331,7 +314,6 @@
             "md5": "59ed18d664ef0077147c8997699652e7",
             "minProductVersionStr": null,
             "name": "8.4.0",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/8.4.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -343,41 +325,7 @@
             "publishedDatetime": "2026-02-18T22:11:27Z",
             "releaseNotes": "https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.4/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security",
             "sha256": "58c165fc74d72117c3bf0ca9607c651243bc02f253dc32339b1cd9871a1d11de",
-            "signedAvailable": true,
             "size": 771499444,
-            "sourcetypes": [
-              "es_investigations_rest_handler",
-              "security_analytics_asset",
-              "security_analytics_identity",
-              "clone_udf_dashboard_rest_handler.py",
-              "tim_rest_handler",
-              "ba_enablement",
-              "send2ba_notable_modalert",
-              "essinstall2",
-              "ess_content_importer",
-              "enterprise_security_risk_datamodel",
-              "event_sequencing_engine_log",
-              "enterprise_security_notable",
-              "federated_analytics_rest_handler",
-              "esconfighealth",
-              "behavioral_analytics_rest_handler",
-              "app_permissions_manager",
-              "ess_configured_handler",
-              "es_ingestion_volume_manager",
-              "sequence_templates_rest_handler",
-              "es_asset_exporter",
-              "sequence_instance_rest_handler",
-              "send2ba_riskdm_modalert",
-              "es_editions_manager",
-              "app_permissions_rest_handler",
-              "tim_cmp_key_rotation",
-              "es_identity_exporter",
-              "apps_shc_es_deployer_rest_handler",
-              "investigation_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "tim_rest_handler",
@@ -476,7 +424,6 @@
             "md5": "9bb04811dc198606b262fedeb9884a75",
             "minProductVersionStr": null,
             "name": "8.3.0",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/8.3.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -488,41 +435,7 @@
             "publishedDatetime": "2025-11-19T21:21:45.970628Z",
             "releaseNotes": "https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.3/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security",
             "sha256": "4f9dafcf9e4a0c327279d6426118cc1fdcce1125b510ab921ca4da4537d913a7",
-            "signedAvailable": false,
             "size": 824512892,
-            "sourcetypes": [
-              "es_investigations_rest_handler",
-              "security_analytics_asset",
-              "security_analytics_identity",
-              "clone_udf_dashboard_rest_handler.py",
-              "tim_rest_handler",
-              "ba_enablement",
-              "send2ba_notable_modalert",
-              "essinstall2",
-              "ess_content_importer",
-              "enterprise_security_risk_datamodel",
-              "event_sequencing_engine_log",
-              "enterprise_security_notable",
-              "federated_analytics_rest_handler",
-              "esconfighealth",
-              "behavioral_analytics_rest_handler",
-              "app_permissions_manager",
-              "ess_configured_handler",
-              "es_ingestion_volume_manager",
-              "sequence_templates_rest_handler",
-              "es_asset_exporter",
-              "sequence_instance_rest_handler",
-              "send2ba_riskdm_modalert",
-              "es_editions_manager",
-              "app_permissions_rest_handler",
-              "tim_cmp_key_rotation",
-              "es_identity_exporter",
-              "apps_shc_es_deployer_rest_handler",
-              "investigation_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "tim_rest_handler",
@@ -621,7 +534,6 @@
             "md5": "598f21abfebfa825dfc7ac9a073c7ed4",
             "minProductVersionStr": null,
             "name": "8.2.3",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/8.2.3/download/",
             "platform": "independent",
             "productTypes": [
@@ -633,40 +545,7 @@
             "publishedDatetime": "2025-10-08T03:11:46.400170Z",
             "releaseNotes": "https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.2/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security",
             "sha256": "572489a9be71a422a274d1c8bced56ef63bff263334bab29c4a8a55f30c0b5d0",
-            "signedAvailable": false,
             "size": 761699696,
-            "sourcetypes": [
-              "es_investigations_rest_handler",
-              "security_analytics_asset",
-              "security_analytics_identity",
-              "clone_udf_dashboard_rest_handler.py",
-              "tim_rest_handler",
-              "ba_enablement",
-              "send2ba_notable_modalert",
-              "essinstall2",
-              "ess_content_importer",
-              "enterprise_security_risk_datamodel",
-              "event_sequencing_engine_log",
-              "enterprise_security_notable",
-              "federated_analytics_rest_handler",
-              "esconfighealth",
-              "behavioral_analytics_rest_handler",
-              "app_permissions_manager",
-              "ess_configured_handler",
-              "es_ingestion_volume_manager",
-              "sequence_templates_rest_handler",
-              "es_asset_exporter",
-              "sequence_instance_rest_handler",
-              "send2ba_riskdm_modalert",
-              "app_permissions_rest_handler",
-              "tim_cmp_key_rotation",
-              "es_identity_exporter",
-              "apps_shc_es_deployer_rest_handler",
-              "investigation_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "tim_rest_handler",
@@ -764,7 +643,6 @@
             "md5": "9c5742a19f5b0d37a2adba76601a2139",
             "minProductVersionStr": null,
             "name": "8.1.1",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/8.1.1/download/",
             "platform": "independent",
             "productTypes": [
@@ -776,40 +654,7 @@
             "publishedDatetime": "2025-07-18T00:36:56.058595Z",
             "releaseNotes": "https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.1/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security",
             "sha256": "8c8e4151535d1d53e8c6f9fc50d6779b26a85924acc93cde85c494945dc39c5c",
-            "signedAvailable": true,
             "size": 697734043,
-            "sourcetypes": [
-              "es_investigations_rest_handler",
-              "security_analytics_asset",
-              "security_analytics_identity",
-              "clone_udf_dashboard_rest_handler.py",
-              "tim_rest_handler",
-              "ba_enablement",
-              "send2ba_notable_modalert",
-              "essinstall2",
-              "ess_content_importer",
-              "enterprise_security_risk_datamodel",
-              "event_sequencing_engine_log",
-              "enterprise_security_notable",
-              "federated_analytics_rest_handler",
-              "esconfighealth",
-              "behavioral_analytics_rest_handler",
-              "app_permissions_manager",
-              "ess_configured_handler",
-              "es_ingestion_volume_manager",
-              "sequence_templates_rest_handler",
-              "es_asset_exporter",
-              "sequence_instance_rest_handler",
-              "send2ba_riskdm_modalert",
-              "app_permissions_rest_handler",
-              "tim_cmp_key_rotation",
-              "es_identity_exporter",
-              "apps_shc_es_deployer_rest_handler",
-              "investigation_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "tim_rest_handler",
@@ -884,7 +729,6 @@
             "md5": "ea29c3bf9c647a0c08d7cef22d933909",
             "minProductVersionStr": null,
             "name": "7.3.4",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/263/release/7.3.4/download/",
             "platform": "independent",
             "productTypes": [
@@ -896,10 +740,7 @@
             "publishedDatetime": "2025-07-03T00:02:15.586178Z",
             "releaseNotes": "https://help.splunk.com/en/splunk-enterprise-security-7/release-notes-and-resources/7.3/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security",
             "sha256": "e8d78028036d0a5727bbb9eb5c41ea55ec593de4dbb7e6faabde6cfbe66a5819",
-            "signedAvailable": true,
             "size": 671001907,
-            "sourcetypes": [],
-            "tags": [],
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
@@ -939,7 +780,6 @@
             "md5": "087ccf04a19795c144696f3134bf8c10",
             "minProductVersionStr": null,
             "name": "8.1.0",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/8.1.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -951,10 +791,7 @@
             "publishedDatetime": "2025-06-10T09:58:26.675905Z",
             "releaseNotes": "https://docs.splunk.com/Documentation/ES/8.1.0/RN/NewFeatures",
             "sha256": "37083026a3f59a9eff5c593dab9b4e111e173d3afab8919a61713c9d4c60c501",
-            "signedAvailable": true,
             "size": 696513469,
-            "sourcetypes": [],
-            "tags": [],
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
@@ -989,7 +826,6 @@
             "md5": "333e177ca9af9e1172345f3770744ff2",
             "minProductVersionStr": null,
             "name": "8.0.40",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/8.0.40/download/",
             "platform": "independent",
             "productTypes": [
@@ -1001,10 +837,7 @@
             "publishedDatetime": "2025-04-28T10:50:41.200087Z",
             "releaseNotes": "https://docs.splunk.com/Documentation/ES/8.0.40/RN/NewFeatures",
             "sha256": "2041c69a0752a5bb794ba9d164ef6613403752f0208cbfa50b8686021a395783",
-            "signedAvailable": true,
             "size": 709922728,
-            "sourcetypes": [],
-            "tags": [],
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
@@ -1044,7 +877,6 @@
             "md5": "7d0a8ce11b604485a07aad4f129d0eab",
             "minProductVersionStr": null,
             "name": "8.0.31",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/8.0.31/download/",
             "platform": "independent",
             "productTypes": [
@@ -1056,10 +888,7 @@
             "publishedDatetime": "2025-04-17T11:51:07.850308Z",
             "releaseNotes": "https://docs.splunk.com/Documentation/ES/8.0.31/RN/NewFeatures",
             "sha256": "7000b1f85620726aa070609904a342ffc503c156153bba9054e2fd550c374624",
-            "signedAvailable": true,
             "size": 695823192,
-            "sourcetypes": [],
-            "tags": [],
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
@@ -1099,7 +928,6 @@
             "md5": "0f791e25a33e32eb7a43d20dee943d2a",
             "minProductVersionStr": null,
             "name": "8.0.3",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/8.0.3/download/",
             "platform": "independent",
             "productTypes": [
@@ -1111,10 +939,7 @@
             "publishedDatetime": "2025-03-24T22:16:46.559677Z",
             "releaseNotes": "https://docs.splunk.com/Documentation/ES/8.0.3/RN/NewFeatures",
             "sha256": "d92dd433048585d138be4c480153949ba664a623bef2e93a77f4493b80f74f1d",
-            "signedAvailable": true,
             "size": 695585706,
-            "sourcetypes": [],
-            "tags": [],
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
@@ -1154,7 +979,6 @@
             "md5": "f9b847319935b87f8d96205ffb57a4f7",
             "minProductVersionStr": null,
             "name": "7.3.3",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/7.3.3/download/",
             "platform": "independent",
             "productTypes": [
@@ -1166,10 +990,7 @@
             "publishedDatetime": "2025-02-12T19:46:52.758725Z",
             "releaseNotes": "https://docs.splunk.com/Documentation/ES/7.3.3/RN",
             "sha256": "ffde3dd82673569b11b379080371a5a9bb667a4978f7b13d8e0d6c9a51ee5b1b",
-            "signedAvailable": false,
             "size": 920266083,
-            "sourcetypes": [],
-            "tags": [],
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
@@ -1214,7 +1035,6 @@
             "md5": "9dd96c61f508c67d1fafb7f19632e10d",
             "minProductVersionStr": null,
             "name": "8.0.2",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/8.0.2/download/",
             "platform": "independent",
             "productTypes": [
@@ -1226,10 +1046,7 @@
             "publishedDatetime": "2025-01-22T22:33:53.368810Z",
             "releaseNotes": "https://docs.splunk.com/Documentation/ES/8.0.2/RN/NewFeatures",
             "sha256": "4f996b12b7ff9ed8d27aebb8b0646864e06bca869b3e04472ff9a91dddeab5fe",
-            "signedAvailable": true,
             "size": 695347741,
-            "sourcetypes": [],
-            "tags": [],
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
@@ -1272,7 +1089,6 @@
             "md5": "c29f2ea59b83cc4c4ac3bd9a7f2cc449",
             "minProductVersionStr": null,
             "name": "7.3.2",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/7.3.2/download/",
             "platform": "independent",
             "productTypes": [
@@ -1284,37 +1100,7 @@
             "publishedDatetime": "2024-06-11T19:20:38.696237Z",
             "releaseNotes": "https://docs.splunk.com/Documentation/ES/7.3.2/RN/Enhancements",
             "sha256": "37581ae057a26f9c7eac04e16f46c11ed8d7bf194491857ff478d874e6f8d1aa",
-            "signedAvailable": false,
             "size": 920287317,
-            "sourcetypes": [
-              "es_investigations_rest_handler",
-              "security_analytics_asset",
-              "security_analytics_identity",
-              "clone_udf_dashboard_rest_handler.py",
-              "ba_enablement",
-              "send2ba_notable_modalert",
-              "essinstall2",
-              "ess_content_importer",
-              "enterprise_security_risk_datamodel",
-              "event_sequencing_engine_log",
-              "enterprise_security_notable",
-              "esconfighealth",
-              "behavioral_analytics_rest_handler",
-              "app_permissions_manager",
-              "ess_configured_handler",
-              "es_ingestion_volume_manager",
-              "sequence_templates_rest_handler",
-              "es_asset_exporter",
-              "sequence_instance_rest_handler",
-              "send2ba_riskdm_modalert",
-              "app_permissions_rest_handler",
-              "es_identity_exporter",
-              "apps_shc_es_deployer_rest_handler",
-              "investigation_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "sequence_templates_rest_handler",
@@ -1389,7 +1175,6 @@
             "md5": "8da2cab87fc419e9fbc337bd36b9e383",
             "minProductVersionStr": null,
             "name": "7.3.1",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/7.3.1/download/",
             "platform": "independent",
             "productTypes": [
@@ -1401,37 +1186,7 @@
             "publishedDatetime": "2024-03-25T21:27:41.234073Z",
             "releaseNotes": "https://docs.splunk.com/Documentation/ES/7.3.1/RN/Enhancements",
             "sha256": "1ec5e756206eae020135d52bba4e716a9afc0353a3d2793f25bd351117070102",
-            "signedAvailable": false,
             "size": 920140748,
-            "sourcetypes": [
-              "es_investigations_rest_handler",
-              "security_analytics_asset",
-              "security_analytics_identity",
-              "clone_udf_dashboard_rest_handler.py",
-              "ba_enablement",
-              "send2ba_notable_modalert",
-              "essinstall2",
-              "ess_content_importer",
-              "enterprise_security_risk_datamodel",
-              "event_sequencing_engine_log",
-              "enterprise_security_notable",
-              "esconfighealth",
-              "behavioral_analytics_rest_handler",
-              "app_permissions_manager",
-              "ess_configured_handler",
-              "es_ingestion_volume_manager",
-              "sequence_templates_rest_handler",
-              "es_asset_exporter",
-              "sequence_instance_rest_handler",
-              "send2ba_riskdm_modalert",
-              "app_permissions_rest_handler",
-              "es_identity_exporter",
-              "apps_shc_es_deployer_rest_handler",
-              "investigation_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "sequence_templates_rest_handler",
@@ -1496,7 +1251,6 @@
             "md5": "bef20cb46ac390e1844dcb14042ac89b",
             "minProductVersionStr": null,
             "name": "7.3.0",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/7.3.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -1508,36 +1262,7 @@
             "publishedDatetime": "2023-12-19T06:34:36.163890Z",
             "releaseNotes": "https://docs.splunk.com/Documentation/ES/7.3.0/RN/Enhancements",
             "sha256": "568f72730d61159175495bec665fb2ae2282b760aa9698b52b1682e2acf925dc",
-            "signedAvailable": false,
             "size": 921470742,
-            "sourcetypes": [
-              "es_investigations_rest_handler",
-              "security_analytics_asset",
-              "security_analytics_identity",
-              "ba_enablement",
-              "send2ba_notable_modalert",
-              "essinstall2",
-              "ess_content_importer",
-              "enterprise_security_risk_datamodel",
-              "event_sequencing_engine_log",
-              "enterprise_security_notable",
-              "esconfighealth",
-              "behavioral_analytics_rest_handler",
-              "app_permissions_manager",
-              "ess_configured_handler",
-              "es_ingestion_volume_manager",
-              "sequence_templates_rest_handler",
-              "es_asset_exporter",
-              "sequence_instance_rest_handler",
-              "send2ba_riskdm_modalert",
-              "app_permissions_rest_handler",
-              "es_identity_exporter",
-              "apps_shc_es_deployer_rest_handler",
-              "investigation_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "sequence_templates_rest_handler",
@@ -1606,7 +1331,6 @@
             "md5": "6a7e9ee4a6a7fc640911689745e9b294",
             "minProductVersionStr": null,
             "name": "7.1.2",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/7.1.2/download/",
             "platform": "independent",
             "productTypes": [
@@ -1618,36 +1342,7 @@
             "publishedDatetime": "2023-11-07T23:54:21.572529Z",
             "releaseNotes": "https://docs.splunk.com/Documentation/ES/7.1.2/RN/Enhancements",
             "sha256": "e5d2ee7f531cde19e61ab471375fcd595fa224219bcc2962a9db6c87990cdf08",
-            "signedAvailable": false,
             "size": 958918852,
-            "sourcetypes": [
-              "es_investigations_rest_handler",
-              "security_analytics_asset",
-              "security_analytics_identity",
-              "ba_enablement",
-              "send2ba_notable_modalert",
-              "essinstall2",
-              "ess_content_importer",
-              "enterprise_security_risk_datamodel",
-              "event_sequencing_engine_log",
-              "enterprise_security_notable",
-              "esconfighealth",
-              "behavioral_analytics_rest_handler",
-              "app_permissions_manager",
-              "ess_configured_handler",
-              "es_ingestion_volume_manager",
-              "sequence_templates_rest_handler",
-              "es_asset_exporter",
-              "sequence_instance_rest_handler",
-              "send2ba_riskdm_modalert",
-              "app_permissions_rest_handler",
-              "es_identity_exporter",
-              "apps_shc_es_deployer_rest_handler",
-              "investigation_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "sequence_templates_rest_handler",
@@ -1716,7 +1411,6 @@
             "md5": "e251b6ad777254e098eb9e7aa2a86e9c",
             "minProductVersionStr": null,
             "name": "7.2.0",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/7.2.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -1728,36 +1422,7 @@
             "publishedDatetime": "2023-09-01T18:50:29.155321Z",
             "releaseNotes": "https://docs.splunk.com/Documentation/ES/7.2.0/RN/Enhancements",
             "sha256": "a0782af46e32e329bf4eaaf6996476a302a480e20d76255410f6970ce5f5687b",
-            "signedAvailable": false,
             "size": 957162226,
-            "sourcetypes": [
-              "es_investigations_rest_handler",
-              "security_analytics_asset",
-              "security_analytics_identity",
-              "ba_enablement",
-              "send2ba_notable_modalert",
-              "essinstall2",
-              "ess_content_importer",
-              "enterprise_security_risk_datamodel",
-              "event_sequencing_engine_log",
-              "enterprise_security_notable",
-              "esconfighealth",
-              "behavioral_analytics_rest_handler",
-              "app_permissions_manager",
-              "ess_configured_handler",
-              "es_ingestion_volume_manager",
-              "sequence_templates_rest_handler",
-              "es_asset_exporter",
-              "sequence_instance_rest_handler",
-              "send2ba_riskdm_modalert",
-              "app_permissions_rest_handler",
-              "es_identity_exporter",
-              "apps_shc_es_deployer_rest_handler",
-              "investigation_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "sequence_templates_rest_handler",
@@ -1821,7 +1486,6 @@
             "md5": "af5742832c167d550381ac9bcc3647d4",
             "minProductVersionStr": null,
             "name": "7.1.1",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/7.1.1/download/",
             "platform": "independent",
             "productTypes": [
@@ -1833,36 +1497,7 @@
             "publishedDatetime": "2023-04-04T23:00:36.609872Z",
             "releaseNotes": "https://docs.splunk.com/Documentation/ES/7.1.1/RN/Enhancements#What.27s_new",
             "sha256": "b871297c0a518f7362a8a0b6cf829fcefc4bdd24602d0b75d79bb1bc38050e1d",
-            "signedAvailable": false,
             "size": 958737227,
-            "sourcetypes": [
-              "es_investigations_rest_handler",
-              "security_analytics_asset",
-              "security_analytics_identity",
-              "ba_enablement",
-              "send2ba_notable_modalert",
-              "essinstall2",
-              "ess_content_importer",
-              "enterprise_security_risk_datamodel",
-              "event_sequencing_engine_log",
-              "enterprise_security_notable",
-              "esconfighealth",
-              "behavioral_analytics_rest_handler",
-              "app_permissions_manager",
-              "ess_configured_handler",
-              "es_ingestion_volume_manager",
-              "sequence_templates_rest_handler",
-              "es_asset_exporter",
-              "sequence_instance_rest_handler",
-              "send2ba_riskdm_modalert",
-              "app_permissions_rest_handler",
-              "es_identity_exporter",
-              "apps_shc_es_deployer_rest_handler",
-              "investigation_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "sequence_templates_rest_handler",
@@ -1931,7 +1566,6 @@
             "md5": "63fb574c6e7889494fc9c0a91c0c1510",
             "minProductVersionStr": null,
             "name": "7.1.0",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/7.1.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -1943,36 +1577,7 @@
             "publishedDatetime": "2023-01-11T22:25:30.531238Z",
             "releaseNotes": "https://docs.splunk.com/Documentation/ES/7.1.0/RN/Enhancements#What.27s_new",
             "sha256": "a45bc6a1a583426e8f587bc0693dbf0296fa61ca2cd9d927e1cf99cab9c351cd",
-            "signedAvailable": false,
             "size": 900137505,
-            "sourcetypes": [
-              "es_investigations_rest_handler",
-              "enterprise_security_asset_exporter",
-              "ba_enablement",
-              "send2ba_notable_modalert",
-              "essinstall2",
-              "ess_content_importer",
-              "enterprise_security_risk_datamodel",
-              "event_sequencing_engine_log",
-              "enterprise_security_notable",
-              "esconfighealth",
-              "behavioral_analytics_rest_handler",
-              "app_permissions_manager",
-              "ess_configured_handler",
-              "es_ingestion_volume_manager",
-              "sequence_templates_rest_handler",
-              "es_asset_exporter",
-              "sequence_instance_rest_handler",
-              "send2ba_riskdm_modalert",
-              "enterprise_security_identity_exporter",
-              "app_permissions_rest_handler",
-              "es_identity_exporter",
-              "apps_shc_es_deployer_rest_handler",
-              "investigation_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "sequence_templates_rest_handler",
@@ -2040,7 +1645,6 @@
             "md5": "b075ac0f7f88b5d9cac4879a2eede91b",
             "minProductVersionStr": null,
             "name": "7.0.2",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/7.0.2/download/",
             "platform": "independent",
             "productTypes": [
@@ -2052,25 +1656,7 @@
             "publishedDatetime": "2022-10-05T15:55:42.117632Z",
             "releaseNotes": "",
             "sha256": "44cd5e63dfdef0e945aa5cf9cd919b50644dc3dee6faaf6d5b29a8c3e4e732ed",
-            "signedAvailable": false,
             "size": 892447521,
-            "sourcetypes": [
-              "es_investigations_rest_handler",
-              "essinstall2",
-              "ess_content_importer",
-              "app_permissions_rest_handler",
-              "sequence_templates_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
-              "event_sequencing_engine_log",
-              "sequence_instance_rest_handler",
-              "investigation_rest_handler",
-              "esconfighealth",
-              "app_permissions_manager",
-              "ess_configured_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "sequence_templates_rest_handler",
@@ -2125,7 +1711,6 @@
             "md5": "f8c787858294c26713ac868c62b8963e",
             "minProductVersionStr": null,
             "name": "7.0.1",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/7.0.1/download/",
             "platform": "independent",
             "productTypes": [
@@ -2136,10 +1721,7 @@
             "publishedDatetime": "2022-03-03T18:16:16.340412Z",
             "releaseNotes": "",
             "sha256": "cf3d4afc06bd20f5ab039c01a533b1f5c29c6fbe3dc9dbcf5ef177ef66f36cac",
-            "signedAvailable": false,
             "size": 892268599,
-            "sourcetypes": [],
-            "tags": [],
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
@@ -2158,20 +1740,19 @@
             "cimVersions": [
               17
             ],
-            "cloudCompatible": true,
+            "cloudCompatible": false,
             "content": [
               "inputs"
             ],
             "fipsCompatibility": true,
             "filename": "splunk-enterprise-security_700.spl",
             "id": 23191,
-            "installMethodDistributed": "assisted",
-            "installMethodSingle": "assisted",
+            "installMethodDistributed": "rejected",
+            "installMethodSingle": "rejected",
             "manifest": null,
             "md5": "21f51f7aa3ed820b3b98d657f81af204",
             "minProductVersionStr": null,
             "name": "7.0.0",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/7.0.0/download/",
             "platform": "independent",
             "productTypes": [],
@@ -2180,25 +1761,7 @@
             "publishedDatetime": "2021-12-17T00:25:47Z",
             "releaseNotes": "https://docs.splunk.com/Documentation/ES/7.0.0/RN/Enhancements",
             "sha256": "fc83e107f709df2cf4bbebedb5e044b859c5f07ce8a6e21fafcab44bebf60ef4",
-            "signedAvailable": false,
             "size": 846238949,
-            "sourcetypes": [
-              "es_investigations_rest_handler",
-              "essinstall2",
-              "ess_content_importer",
-              "app_permissions_rest_handler",
-              "sequence_templates_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
-              "event_sequencing_engine_log",
-              "sequence_instance_rest_handler",
-              "investigation_rest_handler",
-              "esconfighealth",
-              "app_permissions_manager",
-              "ess_configured_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "sequence_templates_rest_handler",
@@ -2232,20 +1795,19 @@
             "cimVersions": [
               16
             ],
-            "cloudCompatible": true,
+            "cloudCompatible": false,
             "content": [
               "inputs"
             ],
             "fipsCompatibility": false,
             "filename": "splunk-enterprise-security_662.spl",
             "id": 21779,
-            "installMethodDistributed": "assisted",
-            "installMethodSingle": "assisted",
+            "installMethodDistributed": "rejected",
+            "installMethodSingle": "rejected",
             "manifest": null,
             "md5": "f014a99f854faa7659123b4713549bd5",
             "minProductVersionStr": null,
             "name": "6.6.2",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/6.6.2/download/",
             "platform": "independent",
             "productTypes": [],
@@ -2254,25 +1816,7 @@
             "publishedDatetime": "2021-09-15T01:37:29Z",
             "releaseNotes": "",
             "sha256": "2928d7f39b97c61a2d97306c083b1e04eb455df3a5070d9553f6679aacf2fdb4",
-            "signedAvailable": true,
             "size": 675765589,
-            "sourcetypes": [
-              "es_investigations_rest_handler",
-              "essinstall2",
-              "ess_content_importer",
-              "app_permissions_rest_handler",
-              "sequence_templates_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
-              "event_sequencing_engine_log",
-              "sequence_instance_rest_handler",
-              "investigation_rest_handler",
-              "esconfighealth",
-              "app_permissions_manager",
-              "ess_configured_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "sequence_templates_rest_handler",
@@ -2306,18 +1850,17 @@
             "cimVersions": [
               16
             ],
-            "cloudCompatible": true,
+            "cloudCompatible": false,
             "content": [],
             "fipsCompatibility": true,
             "filename": "splunk-enterprise-security_660.spl",
             "id": 20830,
-            "installMethodDistributed": "assisted",
-            "installMethodSingle": "assisted",
+            "installMethodDistributed": "rejected",
+            "installMethodSingle": "rejected",
             "manifest": null,
             "md5": "35d0c650f22ea3d4204f93b3a04fb37b",
             "minProductVersionStr": null,
             "name": "6.6.0",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/6.6.0/download/",
             "platform": "independent",
             "productTypes": [],
@@ -2326,10 +1869,7 @@
             "publishedDatetime": "2021-06-25T17:45:41Z",
             "releaseNotes": "This release of Splunk Enterprise Security includes the following enhancements:\r\n- UX update for Incident Review\r\n- Content management filters to triage notables\r\n- Dispositions on notables to identify false positives\r\n- Visualizations for improved analysis of risk notables\r\n- CIM Data Access data model\r\n- Ability to modify risk factors upon upgrade",
             "sha256": "0e2b72f1396a82a155851b414401740179d955381498ec0d90a6dde70db2479f",
-            "signedAvailable": true,
             "size": 676008944,
-            "sourcetypes": [],
-            "tags": [],
             "tagsSourcetypes": {},
             "versionCompatibility": [],
             "splCompatibility": "SPL1"
@@ -2342,18 +1882,17 @@
             "cimVersions": [
               16
             ],
-            "cloudCompatible": true,
+            "cloudCompatible": false,
             "content": [],
             "fipsCompatibility": false,
             "filename": "splunk-enterprise-security_641.spl",
             "id": 19279,
-            "installMethodDistributed": "assisted",
-            "installMethodSingle": "assisted",
+            "installMethodDistributed": "rejected",
+            "installMethodSingle": "rejected",
             "manifest": null,
             "md5": "c2d8e9e5bbc477d5a109685380f988ad",
             "minProductVersionStr": null,
             "name": "6.4.1",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/6.4.1/download/",
             "platform": "independent",
             "productTypes": [],
@@ -2362,10 +1901,7 @@
             "publishedDatetime": "2021-01-19T17:45:58Z",
             "releaseNotes": "",
             "sha256": "f44dbc248cb85e8100f7afefe70d7949efab873269657d77e6488ba95c0df077",
-            "signedAvailable": true,
             "size": 708911706,
-            "sourcetypes": [],
-            "tags": [],
             "tagsSourcetypes": {},
             "versionCompatibility": [],
             "splCompatibility": "SPL1"
@@ -2378,18 +1914,17 @@
             "cimVersions": [
               16
             ],
-            "cloudCompatible": true,
+            "cloudCompatible": false,
             "content": [],
             "fipsCompatibility": false,
             "filename": "splunk-enterprise-security_640.spl",
             "id": 19003,
-            "installMethodDistributed": "assisted",
-            "installMethodSingle": "assisted",
+            "installMethodDistributed": "rejected",
+            "installMethodSingle": "rejected",
             "manifest": null,
             "md5": "d3048cf838f641a15ccf9260e91395cb",
             "minProductVersionStr": null,
             "name": "6.4.0",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/6.4.0/download/",
             "platform": "independent",
             "productTypes": [],
@@ -2398,10 +1933,7 @@
             "publishedDatetime": "2020-12-09T19:39:56Z",
             "releaseNotes": "",
             "sha256": "940d83e15d4059b09f6a5518bbdc62ce32b6680f4c076a1d46e64cd0c54723c8",
-            "signedAvailable": false,
             "size": 708556903,
-            "sourcetypes": [],
-            "tags": [],
             "tagsSourcetypes": {},
             "versionCompatibility": [],
             "splCompatibility": "SPL1"
@@ -2414,20 +1946,19 @@
             "cimVersions": [
               16
             ],
-            "cloudCompatible": true,
+            "cloudCompatible": false,
             "content": [
               "inputs"
             ],
             "fipsCompatibility": true,
             "filename": "splunk-enterprise-security_620.spl",
             "id": 16712,
-            "installMethodDistributed": "assisted",
-            "installMethodSingle": "assisted",
+            "installMethodDistributed": "rejected",
+            "installMethodSingle": "rejected",
             "manifest": null,
             "md5": "c24950cacb0f6438038b31eb2a07c567",
             "minProductVersionStr": null,
             "name": "6.2.0",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/6.2.0/download/",
             "platform": "independent",
             "productTypes": [],
@@ -2436,25 +1967,7 @@
             "publishedDatetime": "2020-05-30T00:56:59Z",
             "releaseNotes": "",
             "sha256": "dff6806efdbe41141ae8a6b91c1f991d718ce10d8528640b173ea918b8233cd9",
-            "signedAvailable": true,
             "size": 671340341,
-            "sourcetypes": [
-              "es_investigations_rest_handler",
-              "essinstall2",
-              "ess_content_importer",
-              "app_permissions_rest_handler",
-              "sequence_templates_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
-              "event_sequencing_engine_log",
-              "sequence_instance_rest_handler",
-              "investigation_rest_handler",
-              "esconfighealth",
-              "app_permissions_manager",
-              "ess_configured_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "sequence_templates_rest_handler",
@@ -2482,15 +1995,15 @@
             "cimVersions": [
               16
             ],
-            "cloudCompatible": true,
+            "cloudCompatible": false,
             "content": [
               "inputs"
             ],
             "fipsCompatibility": false,
             "filename": "splunk-enterprise-security_611.spl",
             "id": 16008,
-            "installMethodDistributed": "assisted",
-            "installMethodSingle": "assisted",
+            "installMethodDistributed": "rejected",
+            "installMethodSingle": "rejected",
             "manifest": {
               "schemaVersion": "2.0.0",
               "info": {
@@ -2545,7 +2058,6 @@
             "md5": "6f51408f91a8900f59476dcf9e8f6b84",
             "minProductVersionStr": null,
             "name": "6.1.1",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/6.1.1/download/",
             "platform": "independent",
             "productTypes": [],
@@ -2554,25 +2066,7 @@
             "publishedDatetime": "2020-04-15T01:42:15Z",
             "releaseNotes": "",
             "sha256": "0dc6dc6e275c958cd336ac962dd0fe223d18e4f95b03d636728e417b406c5979",
-            "signedAvailable": false,
             "size": 674651205,
-            "sourcetypes": [
-              "es_investigations_rest_handler",
-              "essinstall2",
-              "ess_content_importer",
-              "app_permissions_rest_handler",
-              "sequence_templates_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
-              "event_sequencing_engine_log",
-              "sequence_instance_rest_handler",
-              "investigation_rest_handler",
-              "esconfighealth",
-              "app_permissions_manager",
-              "ess_configured_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "sequence_templates_rest_handler",
@@ -2600,15 +2094,15 @@
             "cimVersions": [
               16
             ],
-            "cloudCompatible": true,
+            "cloudCompatible": false,
             "content": [
               "inputs"
             ],
             "fipsCompatibility": false,
             "filename": "splunk-enterprise-security_602.spl",
             "id": 15998,
-            "installMethodDistributed": "assisted",
-            "installMethodSingle": "assisted",
+            "installMethodDistributed": "rejected",
+            "installMethodSingle": "rejected",
             "manifest": {
               "schemaVersion": "2.0.0",
               "info": {
@@ -2663,7 +2157,6 @@
             "md5": "b4a4bcbf6e302d93300fff5c6270e428",
             "minProductVersionStr": null,
             "name": "6.0.2",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/6.0.2/download/",
             "platform": "independent",
             "productTypes": [],
@@ -2672,26 +2165,7 @@
             "publishedDatetime": "2020-04-08T23:41:28Z",
             "releaseNotes": "",
             "sha256": "f2920d72d25926474d44bdcbd3eb04c1f968d55e09de33b1bfc97dafeee97a3f",
-            "signedAvailable": true,
             "size": 529855817,
-            "sourcetypes": [
-              "es_investigations_rest_handler",
-              "es_installer_controller",
-              "essinstall2",
-              "ess_content_importer",
-              "app_permissions_rest_handler",
-              "sequence_templates_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
-              "event_sequencing_engine_log",
-              "sequence_instance_rest_handler",
-              "investigation_rest_handler",
-              "esconfighealth",
-              "app_permissions_manager",
-              "ess_configured_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "sequence_templates_rest_handler",
@@ -2722,13 +2196,13 @@
               16,
               15
             ],
-            "cloudCompatible": true,
+            "cloudCompatible": false,
             "content": [],
             "fipsCompatibility": true,
             "filename": "splunk-enterprise-security_610.spl",
             "id": 15260,
-            "installMethodDistributed": "assisted",
-            "installMethodSingle": "assisted",
+            "installMethodDistributed": "rejected",
+            "installMethodSingle": "rejected",
             "manifest": {
               "schemaVersion": "2.0.0",
               "info": {
@@ -2777,7 +2251,6 @@
             "md5": "7f6d5cb7872c6a5918ca2a243b5a9441",
             "minProductVersionStr": null,
             "name": "6.1.0",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/6.1.0/download/",
             "platform": "independent",
             "productTypes": [],
@@ -2786,10 +2259,7 @@
             "publishedDatetime": "2020-01-23T23:59:47Z",
             "releaseNotes": "This is a Python 3 only Release",
             "sha256": "f36d5c7fdda4d7ebbb7271f1d849565f58b0dfe6e25f304439ec67978f8298ab",
-            "signedAvailable": true,
             "size": 689386935,
-            "sourcetypes": [],
-            "tags": [],
             "tagsSourcetypes": {},
             "versionCompatibility": [],
             "splCompatibility": "SPL1"
@@ -2802,15 +2272,15 @@
             "cimVersions": [
               16
             ],
-            "cloudCompatible": true,
+            "cloudCompatible": false,
             "content": [
               "inputs"
             ],
             "fipsCompatibility": false,
             "filename": "splunk-enterprise-security_531.spl",
             "id": 13612,
-            "installMethodDistributed": "assisted",
-            "installMethodSingle": "assisted",
+            "installMethodDistributed": "rejected",
+            "installMethodSingle": "rejected",
             "manifest": {
               "schemaVersion": "2.0.0",
               "info": {
@@ -2865,7 +2335,6 @@
             "md5": "b9188b22776127550378bba0ecd41b3d",
             "minProductVersionStr": null,
             "name": "5.3.1",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/5.3.1/download/",
             "platform": "independent",
             "productTypes": [],
@@ -2874,27 +2343,7 @@
             "publishedDatetime": "2019-07-24T03:59:10Z",
             "releaseNotes": "",
             "sha256": "2ed1ec05066b7c6492c701de93955a94bae88b793d5ededca27310082083fd24",
-            "signedAvailable": true,
             "size": 46151668,
-            "sourcetypes": [
-              "es_investigations_rest_handler",
-              "es_installer_controller",
-              "essinstall2",
-              "ess_content_importer",
-              "sequence_templates_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
-              "event_sequencing_engine_log",
-              "sequence_instance_rest_handler",
-              "investigation_rest_handler",
-              "esconfighealth",
-              "app_permissions_manager",
-              "app_permissions_controller",
-              "ess_configured_handler",
-              "es_deployment_manager"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "sequence_templates_rest_handler",
@@ -2924,15 +2373,15 @@
             "cimVersions": [
               16
             ],
-            "cloudCompatible": true,
+            "cloudCompatible": false,
             "content": [
               "inputs"
             ],
             "fipsCompatibility": false,
             "filename": "splunk-enterprise-security_530.spl",
             "id": 12702,
-            "installMethodDistributed": "assisted",
-            "installMethodSingle": "assisted",
+            "installMethodDistributed": "rejected",
+            "installMethodSingle": "rejected",
             "manifest": {
               "schemaVersion": "2.0.0",
               "info": {
@@ -2987,7 +2436,6 @@
             "md5": "621efd85550ed4b6a681169a2f0e11c8",
             "minProductVersionStr": null,
             "name": "5.3.0",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/5.3.0/download/",
             "platform": "independent",
             "productTypes": [],
@@ -2996,27 +2444,7 @@
             "publishedDatetime": "2019-03-28T16:13:54Z",
             "releaseNotes": "",
             "sha256": "3790e3aa5ec02579c0aaa6ce3e16c19a9ebaa5e1eb2d9bbb5ed8fd2dfdedbf96",
-            "signedAvailable": true,
             "size": 48047823,
-            "sourcetypes": [
-              "es_investigations_rest_handler",
-              "es_installer_controller",
-              "essinstall2",
-              "ess_content_importer",
-              "sequence_templates_rest_handler",
-              "apps_shc_es_deployer_rest_handler",
-              "event_sequencing_engine_log",
-              "sequence_instance_rest_handler",
-              "investigation_rest_handler",
-              "esconfighealth",
-              "app_permissions_manager",
-              "app_permissions_controller",
-              "ess_configured_handler",
-              "es_deployment_manager"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "sequence_templates_rest_handler",
@@ -3046,15 +2474,15 @@
             "cimVersions": [
               16
             ],
-            "cloudCompatible": true,
+            "cloudCompatible": false,
             "content": [
               "inputs"
             ],
             "fipsCompatibility": false,
             "filename": "splunk-enterprise-security_522.spl",
             "id": 11992,
-            "installMethodDistributed": "assisted",
-            "installMethodSingle": "assisted",
+            "installMethodDistributed": "rejected",
+            "installMethodSingle": "rejected",
             "manifest": {
               "schemaVersion": "2.0.0",
               "info": {
@@ -3109,7 +2537,6 @@
             "md5": "76539f93da5f259cc81ac6a3e225a1c0",
             "minProductVersionStr": null,
             "name": "5.2.2",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/5.2.2/download/",
             "platform": "independent",
             "productTypes": [],
@@ -3118,28 +2545,7 @@
             "publishedDatetime": "2019-01-03T22:36:06Z",
             "releaseNotes": "Splunk Enterprise Security 5.2.2 Copyright (C) 2005-2019 Splunk Inc. All rights reserved.\r\n\r\nFor the Release Notes, What's New, and Getting Started documentation for this release see: http://docs.splunk.com/Documentation/ES/5.2.2/RN/FixedIssues",
             "sha256": "944eeb780f9ae5414d6e9503a8a6994619a879b58bfe2f7afd7ee7ea2cf3099c",
-            "signedAvailable": true,
             "size": 47375531,
-            "sourcetypes": [
-              "es_investigations_rest_handler",
-              "es_installer_controller",
-              "essinstall2",
-              "ess_content_importer",
-              "file_storage_ess",
-              "sequence_templates_rest_handler",
-              "event_sequencing_engine_log",
-              "sequence_instance_rest_handler",
-              "investigative_canvas_controller",
-              "investigation_rest_handler",
-              "esconfighealth",
-              "app_permissions_manager",
-              "app_permissions_controller",
-              "ess_configured_handler",
-              "es_deployment_manager"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "sequence_templates_rest_handler",
@@ -3170,15 +2576,15 @@
             "cimVersions": [
               16
             ],
-            "cloudCompatible": true,
+            "cloudCompatible": false,
             "content": [
               "inputs"
             ],
             "fipsCompatibility": false,
             "filename": "splunk-enterprise-security_511.spl",
             "id": 11161,
-            "installMethodDistributed": "assisted",
-            "installMethodSingle": "assisted",
+            "installMethodDistributed": "rejected",
+            "installMethodSingle": "rejected",
             "manifest": {
               "schemaVersion": "2.0.0",
               "info": {
@@ -3233,7 +2639,6 @@
             "md5": "e565831485207dde0a56e591d7bb8607",
             "minProductVersionStr": null,
             "name": "5.1.1",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/5.1.1/download/",
             "platform": "independent",
             "productTypes": [],
@@ -3242,25 +2647,7 @@
             "publishedDatetime": "2018-09-17T21:47:59Z",
             "releaseNotes": "",
             "sha256": "ff3bbf8d2b7b4f3b71a5c6bc68ef7fb2e92bc64b54bfb473b11b800709fac9d1",
-            "signedAvailable": true,
             "size": 47040455,
-            "sourcetypes": [
-              "es_investigations_rest_handler",
-              "es_installer_controller",
-              "essinstall2",
-              "ess_content_importer",
-              "file_storage_ess",
-              "investigative_canvas_controller",
-              "investigation_rest_handler",
-              "esconfighealth",
-              "app_permissions_manager",
-              "app_permissions_controller",
-              "ess_configured_handler",
-              "es_deployment_manager"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "investigative_canvas_controller",
@@ -3288,15 +2675,15 @@
             "cimVersions": [
               16
             ],
-            "cloudCompatible": true,
+            "cloudCompatible": false,
             "content": [
               "inputs"
             ],
             "fipsCompatibility": false,
             "filename": "splunk-enterprise-security_501.spl",
             "id": 10572,
-            "installMethodDistributed": "assisted",
-            "installMethodSingle": "assisted",
+            "installMethodDistributed": "rejected",
+            "installMethodSingle": "rejected",
             "manifest": {
               "schemaVersion": "2.0.0",
               "info": {
@@ -3351,7 +2738,6 @@
             "md5": "4e6262910cdbc9a8ec8eb0fd2fd12d2d",
             "minProductVersionStr": null,
             "name": "5.0.1",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/5.0.1/download/",
             "platform": "independent",
             "productTypes": [],
@@ -3360,25 +2746,7 @@
             "publishedDatetime": "2018-06-15T16:12:36Z",
             "releaseNotes": "",
             "sha256": "da2c413a371818cd4bad2ac1aba8bd46241bd25e62faced19fbfc953e2a67504",
-            "signedAvailable": true,
             "size": 44958999,
-            "sourcetypes": [
-              "es_investigations_rest_handler",
-              "es_installer_controller",
-              "essinstall2",
-              "ess_content_importer",
-              "file_storage_ess",
-              "investigative_canvas_controller",
-              "investigation_rest_handler",
-              "esconfighealth",
-              "app_permissions_manager",
-              "app_permissions_controller",
-              "ess_configured_handler",
-              "es_deployment_manager"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "investigative_canvas_controller",
@@ -3406,20 +2774,19 @@
             "cimVersions": [
               16
             ],
-            "cloudCompatible": true,
+            "cloudCompatible": false,
             "content": [
               "inputs"
             ],
             "fipsCompatibility": false,
             "filename": "splunk-enterprise-security_476.spl",
             "id": 10024,
-            "installMethodDistributed": "assisted",
-            "installMethodSingle": "assisted",
+            "installMethodDistributed": "rejected",
+            "installMethodSingle": "rejected",
             "manifest": null,
             "md5": "253130b28c0a68f93c947c0eca115bd4",
             "minProductVersionStr": null,
             "name": "4.7.6",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/4.7.6/download/",
             "platform": "independent",
             "productTypes": [],
@@ -3428,23 +2795,7 @@
             "publishedDatetime": "2018-04-09T21:36:40Z",
             "releaseNotes": "Splunk Enterprise Security 4.7.6 Copyright (C) 2005-2017 Splunk Inc. All rights reserved.\r\n\r\nFor the Release Notes, What's New, and Getting Started documentation for this release see: http://docs.splunk.com/Documentation/ES/4.7.6/RN/FixedIssues",
             "sha256": "9abaf6fc34cfa647ff9f2b562fff5e78f885bf0e0bd9686e41ffe52bb00113b4",
-            "signedAvailable": true,
             "size": 43971818,
-            "sourcetypes": [
-              "es_installer_controller",
-              "essinstall2",
-              "ess_content_importer",
-              "investigative_canvas_controller",
-              "file_storage_ess",
-              "esconfighealth",
-              "app_permissions_manager",
-              "app_permissions_controller",
-              "ess_configured_handler",
-              "es_deployment_manager"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "investigative_canvas_controller",
@@ -3466,15 +2817,15 @@
             "actions": [],
             "cimCompatibility": [],
             "cimVersions": [],
-            "cloudCompatible": true,
+            "cloudCompatible": false,
             "content": [
               "inputs"
             ],
             "fipsCompatibility": false,
             "filename": "splunk-enterprise-security_453.spl",
             "id": 7980,
-            "installMethodDistributed": "assisted",
-            "installMethodSingle": "assisted",
+            "installMethodDistributed": "rejected",
+            "installMethodSingle": "rejected",
             "manifest": {
               "schemaVersion": "1.0.0",
               "info": {
@@ -3524,7 +2875,6 @@
             "md5": "bf173384302711845f1ad6f5b138a4be",
             "minProductVersionStr": null,
             "name": "4.5.3",
-            "passedValidation": false,
             "path": "https://splunkbase.splunk.com/app/263/release/4.5.3/download/",
             "platform": "independent",
             "productTypes": [],
@@ -3533,23 +2883,7 @@
             "publishedDatetime": "2017-05-19T06:12:43Z",
             "releaseNotes": "Splunk Enterprise Security 4.5.3 Copyright (C) 2005-2017 Splunk Inc. All rights reserved.\r\n\r\nFor the Release Notes, What's New, and Getting Started documentation for this release see: http://docs.splunk.com/Documentation/ES/4.5.3/RN/Enhancements",
             "sha256": "33fef0f9f3ee83c17cccff671cd7b6c5f9957ba6334fb803eb1baed03cdf2ddc",
-            "signedAvailable": true,
             "size": 36717390,
-            "sourcetypes": [
-              "es_installer_controller",
-              "essinstall2",
-              "ess_content_importer",
-              "investigative_canvas_controller",
-              "file_storage_ess",
-              "essinstall",
-              "app_permissions_manager",
-              "app_permissions_controller",
-              "ess_configured_handler",
-              "es_deployment_manager"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "investigative_canvas_controller",
@@ -3580,16 +2914,15 @@
         "shortDescription": "",
         "support": "premium",
         "title": "Splunk Enterprise Security",
-        "troubleshooting": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security\">https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security</a></p>",
-        "troubleshootingSource": "https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security",
-        "updatedTime": "2026-07-09T16:11:32.952111Z",
+        "troubleshooting": "https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security",
+        "updatedTime": "2026-07-31T13:09:39.095958Z",
         "videoLink": null,
         "appType": "app",
         "scheduleRelease": null,
         "name": "Splunk Enterprise Security",
         "publishedDatetime": "2009-07-19T08:59:00Z",
-        "draft": false,
-        "displayEditors": false,
+        "draft": null,
+        "displayEditors": null,
         "splCompatibility": "SPL1"
       },
       "initialAuthState": {
@@ -3604,7 +2937,7 @@
   "query": {
     "id": "263"
   },
-  "buildId": "s92zLKSgQiUzY-sYXUJrW",
+  "buildId": "cnkE8_hkVUqyyCJZnRahc",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

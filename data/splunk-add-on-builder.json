@@ -4,7 +4,7 @@
       "appDetails": {
         "id": 2962,
         "access": "unrestricted",
-        "approvalStatus": "approved",
+        "approvalStatus": null,
         "categories": [
           {
             "id": 1,
@@ -22,16 +22,14 @@
         "collections": [],
         "contactEmail": "",
         "contactNotes": "",
-        "contactNotesSource": "",
         "displayAuthor": {
           "isPartner": false,
           "name": "Splunk LLC",
           "redirectTo": "splunk"
         },
         "description": "The Splunk Add-on Builder is a Splunk app that helps you build and validate technology add-ons for your Splunk Enterprise deployment. \n\nThe goals of the Splunk Add-on Builder are to:\n* Guide you through all of the necessary steps of creating an add-on\n* Build alert actions and adaptive response actions for Splunk Enterprise Security\n* Reduce development and testing time\n* Follow best practices and naming conventions\n* Maintain CIM compliance\n* Maintain quality of add-ons\n*  Validate and test the add-on, helping you to check for certification readiness and to identify any limitations such as compatibilities and dependencies\n* Maintain a consistent look and feel while still making it easy for you to add branding",
-        "documentation": "<p>For documentation, see the <a href=\"http://docs.splunk.com/Documentation/AddonBuilder/latest/UserGuide/Overview\">Splunk Add-on Builder User Guide</a>.</p>",
-        "documentationSource": "For documentation, see the [Splunk Add-on Builder User Guide](http://docs.splunk.com/Documentation/AddonBuilder/latest/UserGuide/Overview).",
-        "downloadCount": 84503,
+        "documentation": "For documentation, see the [Splunk Add-on Builder User Guide](http://docs.splunk.com/Documentation/AddonBuilder/latest/UserGuide/Overview).",
+        "downloadCount": 84555,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/aaa700e8-9ea7-11f0-8de2-aa0bae502bcc.png",
         "inquiryButtonText": "Join Pre-release Program",
         "inquiryUrl": null,
@@ -40,14 +38,11 @@
         "isSoarCertified": false,
         "isSplunkBuilt": true,
         "installation": "",
-        "installationSource": "",
         "license": {
           "canonicalName": "Splunk App End User License Agreement",
           "displayName": "Splunk App End User License Agreement",
           "url": "https://www.splunk.com/en_us/legal/splunk-general-terms.html#splunk-warranties"
         },
-        "licenseName": "Splunk App End User License Agreement",
-        "licenseUrl": "https://www.splunk.com/en_us/legal/splunk-general-terms.html#splunk-warranties",
         "licenseAgreementReadRequired": false,
         "partnerMetadata": null,
         "pendingOwnerTransferEvent": null,
@@ -56,7 +51,7 @@
         "productTypes": [
           "enterprise"
         ],
-        "public": true,
+        "public": null,
         "ranking": [
           {
             "categoryDisplayName": "Utilities",
@@ -94,7 +89,6 @@
           "md5": "d224cca4d718b83a4baa57fbd86d755e",
           "minProductVersionStr": null,
           "name": "4.5.1",
-          "passedValidation": true,
           "path": "https://splunkbase.splunk.com/app/2962/release/4.5.1/download/",
           "platform": "independent",
           "productTypes": [
@@ -105,16 +99,7 @@
           "publishedDatetime": "2025-10-01T10:11:03.930482Z",
           "releaseNotes": "",
           "sha256": "ea5785208d230ac321804fb1d2e1e211c1394fc87776ded684e1632b23f10b8a",
-          "signedAvailable": true,
           "size": 24606289,
-          "sourcetypes": [
-            "splunk:tabuilder:validation",
-            "splunk:aob:monitor:metric",
-            "splunk:tabuilder:log"
-          ],
-          "tags": [
-            "__no_tag__"
-          ],
           "tagsSourcetypes": {
             "__no_tag__": [
               "splunk:tabuilder:validation",
@@ -198,7 +183,6 @@
             "md5": "d224cca4d718b83a4baa57fbd86d755e",
             "minProductVersionStr": null,
             "name": "4.5.1",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/2962/release/4.5.1/download/",
             "platform": "independent",
             "productTypes": [
@@ -209,16 +193,7 @@
             "publishedDatetime": "2025-10-01T10:11:03.930482Z",
             "releaseNotes": "",
             "sha256": "ea5785208d230ac321804fb1d2e1e211c1394fc87776ded684e1632b23f10b8a",
-            "signedAvailable": true,
             "size": 24606289,
-            "sourcetypes": [
-              "splunk:tabuilder:validation",
-              "splunk:aob:monitor:metric",
-              "splunk:tabuilder:log"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "splunk:tabuilder:validation",
@@ -301,7 +276,6 @@
             "md5": "49634d5413f191281c7b32270aa28ec5",
             "minProductVersionStr": null,
             "name": "4.5.0",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/2962/release/4.5.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -312,16 +286,7 @@
             "publishedDatetime": "2025-05-28T13:53:13.238475Z",
             "releaseNotes": "",
             "sha256": "c109d1abdb297410b7c76094ea7558bf8003af75620322b161445085636304ef",
-            "signedAvailable": true,
             "size": 23058641,
-            "sourcetypes": [
-              "splunk:tabuilder:validation",
-              "splunk:aob:monitor:metric",
-              "splunk:tabuilder:log"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "splunk:tabuilder:validation",
@@ -373,15 +338,14 @@
         "support": "splunk",
         "title": "Splunk Add-on Builder",
         "troubleshooting": "",
-        "troubleshootingSource": "",
         "updatedTime": "2026-03-27T15:17:20.132386Z",
         "videoLink": null,
         "appType": "app",
         "scheduleRelease": null,
         "name": "Splunk Add-on Builder",
         "publishedDatetime": "2015-12-01T00:39:02.700116Z",
-        "draft": false,
-        "displayEditors": false,
+        "draft": null,
+        "displayEditors": null,
         "splCompatibility": "SPL1"
       },
       "initialAuthState": {
@@ -396,7 +360,7 @@
   "query": {
     "id": "2962"
   },
-  "buildId": "s92zLKSgQiUzY-sYXUJrW",
+  "buildId": "cnkE8_hkVUqyyCJZnRahc",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

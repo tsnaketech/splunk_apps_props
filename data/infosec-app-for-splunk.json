@@ -4,7 +4,7 @@
       "appDetails": {
         "id": 4240,
         "access": "unrestricted",
-        "approvalStatus": "approved",
+        "approvalStatus": null,
         "categories": [
           {
             "id": 1,
@@ -62,16 +62,14 @@
         "collections": [],
         "contactEmail": "",
         "contactNotes": "",
-        "contactNotesSource": "",
         "displayAuthor": {
           "isPartner": false,
           "name": "Splunk LLC",
           "redirectTo": "splunk"
         },
         "description": "InfoSec app for Splunk is your starter security pack. \n\nInfoSec app is designed to address the most common security use cases, including continuous monitoring and security investigations. InfoSec app also includes a number of advanced threat detection use cases. \n\nAll of the components of InfoSec app can be easily expanded using free security resources available for Splunk like Security Essentials app for Splunk: https://splunkbase.splunk.com/app/3435/",
-        "documentation": "<p>IMPORTANT: PREREQUISITES</p>\n<ul>\n<li>\n<p>At a minimum, you should have data from the following security sources collected by your Splunk environment:</p>\n<ul>\n<li>Firewall data like Cisco ASA, Palo Alto Networks, Check Point, Juniper, Fortinet, etc.</li>\n<li>Active Directory security logs (make sure that your audit policy enables logging failed and successful authentication attempts)</li>\n<li>Antivirus/Malware data like McAfee, Symantec, Trend Micro, etc. </li>\n</ul>\n</li>\n<li>\n<p>The following free Splunk Add-ons must be installed before you can start using InfoSec App:</p>\n<ul>\n<li>Splunk Common Information Model (CIM): <a href=\"https://splunkbase.splunk.com/app/1621/\">https://splunkbase.splunk.com/app/1621/</a></li>\n<li>Lookup File Editor: <a href=\"https://splunkbase.splunk.com/app/1724/\">https://splunkbase.splunk.com/app/1724/</a> (new requirement starting from InfoSec v1.5)</li>\n</ul>\n</li>\n<li>\n<p>The following Data Models must be accelerated: </p>\n<ul>\n<li>Authentication</li>\n<li>Change (for app version 1.6.x and newer) or Change Analysis (for app version 1.5.3 and older)</li>\n<li>Intrusion_Detection</li>\n<li>Malware</li>\n<li>Network_Sessions</li>\n<li>Network_Traffic</li>\n<li>Endpoint</li>\n<li>Web (new requirement starting from InfoSec v1.5)</li>\n</ul>\n</li>\n<li>\n<p>All data used by InfoSec app must be Common Information Model (CIM)-compliant. The easiest way to accomplish that is to use CIM-compliant Splunk Add-ons for your security data sources</p>\n</li>\n</ul>\n<p>WHERE TO INSTALL THE APP</p>\n<p>The app can be installed on a standalone Splunk server, a Search Head or a Search Head Cluster. In a distributed environment do not install the app on Indexers; the app should only be installed on Search Head(s).</p>\n<p>INFOSEC APP DOCUMENTATION</p>\n<p><a href=\"https://docs.splunk.com/Documentation/InfoSec\">https://docs.splunk.com/Documentation/InfoSec</a></p>",
-        "documentationSource": "IMPORTANT: PREREQUISITES\n\n- At a minimum, you should have data from the following security sources collected by your Splunk environment:\n    - Firewall data like Cisco ASA, Palo Alto Networks, Check Point, Juniper, Fortinet, etc.\n\t- Active Directory security logs (make sure that your audit policy enables logging failed and successful authentication attempts)\n\t- Antivirus/Malware data like McAfee, Symantec, Trend Micro, etc. \n\n- The following free Splunk Add-ons must be installed before you can start using InfoSec App:\n\t- Splunk Common Information Model (CIM): https://splunkbase.splunk.com/app/1621/\n    - Lookup File Editor: https://splunkbase.splunk.com/app/1724/ (new requirement starting from InfoSec v1.5)\n\n- The following Data Models must be accelerated: \n    - Authentication\n    - Change (for app version 1.6.x and newer) or Change Analysis (for app version 1.5.3 and older)\n\t- Intrusion_Detection\n\t- Malware\n\t- Network_Sessions\n\t- Network_Traffic\n    - Endpoint\n    - Web (new requirement starting from InfoSec v1.5)\n\n- All data used by InfoSec app must be Common Information Model (CIM)-compliant. The easiest way to accomplish that is to use CIM-compliant Splunk Add-ons for your security data sources\n\n\n\n\nWHERE TO INSTALL THE APP\n\nThe app can be installed on a standalone Splunk server, a Search Head or a Search Head Cluster. In a distributed environment do not install the app on Indexers; the app should only be installed on Search Head(s).\n\n\nINFOSEC APP DOCUMENTATION\n\nhttps://docs.splunk.com/Documentation/InfoSec",
-        "downloadCount": 40410,
+        "documentation": "IMPORTANT: PREREQUISITES\n\n- At a minimum, you should have data from the following security sources collected by your Splunk environment:\n    - Firewall data like Cisco ASA, Palo Alto Networks, Check Point, Juniper, Fortinet, etc.\n\t- Active Directory security logs (make sure that your audit policy enables logging failed and successful authentication attempts)\n\t- Antivirus/Malware data like McAfee, Symantec, Trend Micro, etc. \n\n- The following free Splunk Add-ons must be installed before you can start using InfoSec App:\n\t- Splunk Common Information Model (CIM): https://splunkbase.splunk.com/app/1621/\n    - Lookup File Editor: https://splunkbase.splunk.com/app/1724/ (new requirement starting from InfoSec v1.5)\n\n- The following Data Models must be accelerated: \n    - Authentication\n    - Change (for app version 1.6.x and newer) or Change Analysis (for app version 1.5.3 and older)\n\t- Intrusion_Detection\n\t- Malware\n\t- Network_Sessions\n\t- Network_Traffic\n    - Endpoint\n    - Web (new requirement starting from InfoSec v1.5)\n\n- All data used by InfoSec app must be Common Information Model (CIM)-compliant. The easiest way to accomplish that is to use CIM-compliant Splunk Add-ons for your security data sources\n\n\n\n\nWHERE TO INSTALL THE APP\n\nThe app can be installed on a standalone Splunk server, a Search Head or a Search Head Cluster. In a distributed environment do not install the app on Indexers; the app should only be installed on Search Head(s).\n\n\nINFOSEC APP DOCUMENTATION\n\nhttps://docs.splunk.com/Documentation/InfoSec",
+        "downloadCount": 40462,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/dc4ac420-7171-11f1-abc0-ee11b1988db6.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": null,
@@ -80,14 +78,11 @@
         "isSoarCertified": false,
         "isSplunkBuilt": true,
         "installation": "",
-        "installationSource": "",
         "license": {
           "canonicalName": "Splunk General Terms",
           "displayName": "Splunk General Terms",
           "url": "https://www.splunk.com/en_us/legal/splunk-general-terms.html"
         },
-        "licenseName": "Splunk General Terms",
-        "licenseUrl": "https://www.splunk.com/en_us/legal/splunk-general-terms.html",
         "licenseAgreementReadRequired": false,
         "partnerMetadata": null,
         "pendingOwnerTransferEvent": null,
@@ -97,7 +92,7 @@
           "enterprise",
           "cloud"
         ],
-        "public": true,
+        "public": null,
         "ranking": [
           {
             "categoryDisplayName": "Security, Fraud & Compliance",
@@ -173,7 +168,6 @@
           "md5": "5884a03ff86d6c490287950a0273609d",
           "minProductVersionStr": null,
           "name": "1.7.2",
-          "passedValidation": true,
           "path": "https://splunkbase.splunk.com/app/4240/release/1.7.2/download/",
           "platform": "independent",
           "productTypes": [
@@ -185,10 +179,7 @@
           "publishedDatetime": "2026-06-26T15:15:26.664722Z",
           "releaseNotes": "",
           "sha256": "e8c3906fa9fc57dada911a8554f1d72ac652db56f2bbf4c41eabbd89f46f58a1",
-          "signedAvailable": true,
           "size": 231942,
-          "sourcetypes": [],
-          "tags": [],
           "tagsSourcetypes": {},
           "versionCompatibility": [
             {
@@ -299,7 +290,6 @@
             "md5": "5884a03ff86d6c490287950a0273609d",
             "minProductVersionStr": null,
             "name": "1.7.2",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/4240/release/1.7.2/download/",
             "platform": "independent",
             "productTypes": [
@@ -311,10 +301,7 @@
             "publishedDatetime": "2026-06-26T15:15:26.664722Z",
             "releaseNotes": "",
             "sha256": "e8c3906fa9fc57dada911a8554f1d72ac652db56f2bbf4c41eabbd89f46f58a1",
-            "signedAvailable": true,
             "size": 231942,
-            "sourcetypes": [],
-            "tags": [],
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
@@ -424,7 +411,6 @@
             "md5": "3b3e2d80fa7a8fde4e359df7b91618e9",
             "minProductVersionStr": null,
             "name": "1.7.1",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/4240/release/1.7.1/download/",
             "platform": "independent",
             "productTypes": [
@@ -436,10 +422,7 @@
             "publishedDatetime": "2025-08-01T17:46:50.487186Z",
             "releaseNotes": "https://help.splunk.com/en/splunk-enterprise/infosec-app-for-splunk/use-infosec-app-for-splunk/1.7/introduction-to-the-infosec-app-for-splunk/overview-of-the-infosec-app-for-splunk#whats-new-in-version-1.7.1-0",
             "sha256": "4447136a4f971213f5b4090de9aa8bc28c81f19455d5d46c3854c3a6b06927e4",
-            "signedAvailable": true,
             "size": 231941,
-            "sourcetypes": [],
-            "tags": [],
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
@@ -553,7 +536,6 @@
             "md5": "4495743d46a132d108fe445bb81066c4",
             "minProductVersionStr": null,
             "name": "1.7.0",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/4240/release/1.7.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -565,10 +547,7 @@
             "publishedDatetime": "2021-06-29T00:11:45.339551Z",
             "releaseNotes": "- Officially supported as a Splunk built app",
             "sha256": "8cc773b3c34c8cb141043631fb383b2087cd9279a746dd77482305280fe145b6",
-            "signedAvailable": true,
             "size": 229528,
-            "sourcetypes": [],
-            "tags": [],
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
@@ -693,7 +672,6 @@
             "md5": "690159099004ef66062d70846d98420a",
             "minProductVersionStr": null,
             "name": "1.6.4",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/4240/release/1.6.4/download/",
             "platform": "independent",
             "productTypes": [
@@ -704,10 +682,7 @@
             "publishedDatetime": "2020-10-09T20:53:26.405132Z",
             "releaseNotes": "- Basic data quality checks and warnings added to Security Posture and Health dashboards\n- Added detailed CIM data summary report to Health dashboard\n- Switched to 'Change' CIM data model from deprecated 'Change Analysis' model \n- Added links to InfoSec App documentation \n- Added city and source information in Scanning Activity report on IDS/IPS dashboard\n- Cosmetic changes to dashboards \n- Bug fixes",
             "sha256": "c290b0e524722e5c4d242a39571a95688c0e41426585d9c1776f80ba80c994d5",
-            "signedAvailable": true,
             "size": 71302,
-            "sourcetypes": [],
-            "tags": [],
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
@@ -802,7 +777,6 @@
             "md5": "f69c342258408604bf5bae3c63ac32f5",
             "minProductVersionStr": null,
             "name": "1.5.3",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/4240/release/1.5.3/download/",
             "platform": "independent",
             "productTypes": [
@@ -813,10 +787,7 @@
             "publishedDatetime": "2020-04-05T23:06:48.661588Z",
             "releaseNotes": "- VPN Access dashboard is added under Search > Experimental Dashboards (requires CIM compliant VPN data mapped to VPN dataset of Network Sessions data model and Sankey diagram visualization)\n- Calculations of event counts on maps are fixed\n- Display limit of 10,000 events introduced in investigation dashboards for all events with host/user\n- Updated Health dashboard to list optional Sankey diagram visualization, optional VPN data\n- Shortened main menu item names to accommodate lower resolution displays",
             "sha256": "e4b6ec91eb472de41e509f01ab43c8f7ea29c5c018a14552b5780ed036d8be85",
-            "signedAvailable": true,
             "size": 434240,
-            "sourcetypes": [],
-            "tags": [],
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
@@ -911,7 +882,6 @@
             "md5": "b0165df5904abd579cebd2b59e728525",
             "minProductVersionStr": null,
             "name": "1.5.2",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/4240/release/1.5.2/download/",
             "platform": "independent",
             "productTypes": [
@@ -922,10 +892,7 @@
             "publishedDatetime": "2019-12-09T03:43:35.468177Z",
             "releaseNotes": "- Reports are adjusted to better reflect fields extracted and not extracted by current Windows add-on\n- Time axis is fixed for 360 reports on Security Posture dashboard\n- Miscellaneous cosmetic fixes",
             "sha256": "9d6bc1daae0c129eb27989fc06f436a06de37102315dcd8d25cf6ea5edfa3e36",
-            "signedAvailable": true,
             "size": 433928,
-            "sourcetypes": [],
-            "tags": [],
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
@@ -1020,7 +987,6 @@
             "md5": "9805f8c197a7928ff16c8439dc37f3d0",
             "minProductVersionStr": null,
             "name": "1.5.0",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/4240/release/1.5.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -1031,10 +997,7 @@
             "publishedDatetime": "2019-11-01T23:42:45.231865Z",
             "releaseNotes": "- Added infosec_hosts and infosec_user lookups; the lookups provide additional user and host information on investigation dashboards\n- Search > Lookups menu item is added and links to users and hosts lookups (requires Lookup Editor app: https://splunkbase.splunk.com/app/1724/)\n- Network Traffic dashboard is split into Firewall and Network Traffic dashboards\n- Pannel showing installed required add-ons is added to Health and Stats dashboard\n- Over 15 pannels are added to dashboards under Continuous Monitoring and Advanced Threats\n- Web CIM data model must be accelerated to display next gen firewall and/or web proxy data in Top Blocked Traffic Categories panel",
             "sha256": "4684f5ac821211c75e0f6d9673ad1534348c1de1a5d61290299f8732fa70185a",
-            "signedAvailable": true,
             "size": 433560,
-            "sourcetypes": [],
-            "tags": [],
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
@@ -1129,7 +1092,6 @@
             "md5": "07db135622be26ac3dd37e96d35acea9",
             "minProductVersionStr": null,
             "name": "1.4.0",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/4240/release/1.4.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -1140,10 +1102,7 @@
             "publishedDatetime": "2019-04-13T00:12:11.999896Z",
             "releaseNotes": "- InfoSec Stats dashboard renamed to Health and Stats; the dashboard now shows count of events for each data model used by the app\n- New app menu item Search > Experimental Dashboards\n- New experimental Endpoints dashboard under Search > Experimental Dashboards(requires endpoint data to be sent to Splunk)\n- Existing experimental Cloud Security dashboard is linked under Search > Experimental Dashboards (requires AWS data to be sent to Splunk)\n- Intrusion Detection (IDS/IPS) dashboard: can now filter by allowed/blocked intrusion attempts\n- Network Traffic dashboard > Network Communication Map: can now filter properly if network traffic app name has backslashes\n- Several dashboards have references to advanced functionality available in Splunk Enterprise Security\n- Additional Resources dashboard: added security journey stages, reference to Splunk Enterprise Security\n- Bug fixes",
             "sha256": "fd6e410c86ec21215a78ce039e70180023c29174b58050438598236cd5fec8df",
-            "signedAvailable": true,
             "size": 427568,
-            "sourcetypes": [],
-            "tags": [],
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
@@ -1240,7 +1199,6 @@
             "md5": "5d4e6cb503ffa4602e7aaf0d3207b987",
             "minProductVersionStr": null,
             "name": "1.3.2",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/4240/release/1.3.2/download/",
             "platform": "independent",
             "productTypes": [
@@ -1251,10 +1209,7 @@
             "publishedDatetime": "2019-02-02T00:46:46.052559Z",
             "releaseNotes": "Version 1.3.2 - February 1, 2019\nBug fixes: \n- search for malware indicator on Security Posture dashboard;\n- drilldowns on Compliance dashboard;\n- app package manifest schema changed to v1.0.0 for compatibility with older Splunk Cloud versions",
             "sha256": "f9bf95779d85f78512bca0a6d2b20ca9c9e44c05b683b9bb0699fc2a69ddbc64",
-            "signedAvailable": true,
             "size": 44100,
-            "sourcetypes": [],
-            "tags": [],
             "tagsSourcetypes": {},
             "versionCompatibility": [],
             "splCompatibility": "SPL1"
@@ -1274,15 +1229,14 @@
         "support": "splunk",
         "title": "InfoSec App for Splunk",
         "troubleshooting": "",
-        "troubleshootingSource": "",
         "updatedTime": "2026-07-17T15:40:14.632003Z",
         "videoLink": "v_po-rPjZfg",
         "appType": "app",
         "scheduleRelease": null,
         "name": "InfoSec App for Splunk",
         "publishedDatetime": "2018-10-25T22:09:50.390329Z",
-        "draft": false,
-        "displayEditors": true,
+        "draft": null,
+        "displayEditors": null,
         "splCompatibility": "SPL1"
       },
       "initialAuthState": {
@@ -1297,7 +1251,7 @@
   "query": {
     "id": "4240"
   },
-  "buildId": "s92zLKSgQiUzY-sYXUJrW",
+  "buildId": "cnkE8_hkVUqyyCJZnRahc",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

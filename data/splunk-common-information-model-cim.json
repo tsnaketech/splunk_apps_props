@@ -4,7 +4,7 @@
       "appDetails": {
         "id": 1621,
         "access": "unrestricted",
-        "approvalStatus": "approved",
+        "approvalStatus": null,
         "categories": [
           {
             "id": 5,
@@ -17,16 +17,14 @@
         "collections": [],
         "contactEmail": "",
         "contactNotes": "",
-        "contactNotesSource": "",
         "displayAuthor": {
           "isPartner": false,
           "name": "Splunk LLC",
           "redirectTo": "splunk"
         },
         "description": "The Common Information Model is a set of field names and tags which are expected to define the least common denominator of a domain of interest. It is implemented as documentation on the Splunk docs website and JSON data model files in this add-on. Use the CIM add-on when modeling data or building apps to ensure compatibility between apps, or to just take advantage of these data models to pivot and report.",
-        "documentation": "<p><a href=\"https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on\">Release Notes</a><br>\nPlease see the <a href=\"https://help.splunk.com/en/data-management/common-information-model/6.1/introduction/overview-of-the-splunk-common-information-model\">Splunk Common Information Model Add-on user documentation</a>.</p>",
-        "documentationSource": "[Release Notes](https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on)\nPlease see the [Splunk Common Information Model Add-on user documentation](https://help.splunk.com/en/data-management/common-information-model/6.1/introduction/overview-of-the-splunk-common-information-model).",
-        "downloadCount": 429465,
+        "documentation": "[Release Notes](https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on)\nPlease see the [Splunk Common Information Model Add-on user documentation](https://help.splunk.com/en/data-management/common-information-model/6.1/introduction/overview-of-the-splunk-common-information-model).",
+        "downloadCount": 429770,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/cb441a06-80a2-11f1-90b7-1a4f842bcf06.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": null,
@@ -35,14 +33,11 @@
         "isSoarCertified": false,
         "isSplunkBuilt": true,
         "installation": "",
-        "installationSource": "",
         "license": {
           "canonicalName": "Splunk General Terms",
           "displayName": "Splunk General Terms",
           "url": "https://www.splunk.com/en_us/legal/splunk-general-terms.html"
         },
-        "licenseName": "Splunk General Terms",
-        "licenseUrl": "https://www.splunk.com/en_us/legal/splunk-general-terms.html",
         "licenseAgreementReadRequired": false,
         "partnerMetadata": null,
         "pendingOwnerTransferEvent": null,
@@ -52,7 +47,7 @@
           "cloud",
           "enterprise"
         ],
-        "public": true,
+        "public": null,
         "ranking": [
           {
             "categoryDisplayName": "Utilities",
@@ -141,7 +136,6 @@
           "md5": "dacdfd27d35675a591f2ad3b207a25bc",
           "minProductVersionStr": null,
           "name": "8.5.0",
-          "passedValidation": true,
           "path": "https://splunkbase.splunk.com/app/1621/release/8.5.0/download/",
           "platform": "independent",
           "productTypes": [
@@ -153,22 +147,7 @@
           "publishedDatetime": "2026-04-02T20:31:13.577920Z",
           "releaseNotes": "https://help.splunk.com/en/splunk-enterprise-security-8/common-information-model/6.4/introduction/release-notes-for-the-splunk-common-information-model-add-on",
           "sha256": "ed93ba614f12805ab428d71d45053ced12ce2ff1198b2f46b48537c0e0d6a412",
-          "signedAvailable": true,
           "size": 2230520,
-          "sourcetypes": [
-            "audittrail",
-            "splunk_web_access",
-            "modaction:adhoc_rest_handler",
-            "datamodelsimple",
-            "relaymodaction",
-            "modaction:queue_handler",
-            "stash_common_action_model",
-            "splunkd",
-            "modaction:invocations_rest_handler"
-          ],
-          "tags": [
-            "__no_tag__"
-          ],
           "tagsSourcetypes": {
             "__no_tag__": [
               "stash_common_action_model",
@@ -304,7 +283,6 @@
             "md5": "d625d1544ee7b2c7e001e331b29177a6",
             "minProductVersionStr": null,
             "name": "8.6.0",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/8.6.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -316,22 +294,7 @@
             "publishedDatetime": "2026-07-15T23:13:31.103015Z",
             "releaseNotes": "[https://help.splunk.com/en/splunk-enterprise/common-information-model/8.6/introduction/release-notes-for-the-splunk-common-information-model-add-on](https://help.splunk.com/en/splunk-enterprise/common-information-model/8.6/introduction/release-notes-for-the-splunk-common-information-model-add-on)",
             "sha256": "51adeb1c25de8935484cdc68021bd48daec65219f2f11ecc3c9b2b701ce90442",
-            "signedAvailable": true,
             "size": 851921,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "stash_common_action_model",
@@ -466,7 +429,6 @@
             "md5": "dacdfd27d35675a591f2ad3b207a25bc",
             "minProductVersionStr": null,
             "name": "8.5.0",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/8.5.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -478,22 +440,7 @@
             "publishedDatetime": "2026-04-02T20:31:13.577920Z",
             "releaseNotes": "https://help.splunk.com/en/splunk-enterprise-security-8/common-information-model/6.4/introduction/release-notes-for-the-splunk-common-information-model-add-on",
             "sha256": "ed93ba614f12805ab428d71d45053ced12ce2ff1198b2f46b48537c0e0d6a412",
-            "signedAvailable": true,
             "size": 2230520,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "stash_common_action_model",
@@ -628,7 +575,6 @@
             "md5": "533c943f002d42bddd7bf2dadf5a3562",
             "minProductVersionStr": null,
             "name": "6.4.0",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/6.4.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -640,22 +586,7 @@
             "publishedDatetime": "2026-02-18T01:56:01Z",
             "releaseNotes": "https://help.splunk.com/en/splunk-enterprise-security-8/common-information-model/6.4/introduction/release-notes-for-the-splunk-common-information-model-add-on",
             "sha256": "48c77135fd30f14dbd27827cf1993066eb40279015d6c4a8956a5cbfbaf8c6c8",
-            "signedAvailable": true,
             "size": 2229272,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "stash_common_action_model",
@@ -800,7 +731,6 @@
             "md5": "2286c9df42b52df9e269902db6404247",
             "minProductVersionStr": null,
             "name": "6.3.0",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/6.3.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -812,22 +742,7 @@
             "publishedDatetime": "2025-11-19T21:22:42.009106Z",
             "releaseNotes": "https://help.splunk.com/en/data-management/common-information-model/6.3/introduction/release-notes-for-the-splunk-common-information-model-add-on",
             "sha256": "81754774231bedc06d90674b8fba6a5855b6fe093a7965103f0e9daae12f9a17",
-            "signedAvailable": true,
             "size": 2229098,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "stash_common_action_model",
@@ -972,7 +887,6 @@
             "md5": "dc9502b0a1f69bff17c8ca085ad3e4de",
             "minProductVersionStr": null,
             "name": "6.2.0",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/6.2.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -984,22 +898,7 @@
             "publishedDatetime": "2025-09-09T05:05:03.912550Z",
             "releaseNotes": "https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on",
             "sha256": "a920d02e83f973146d6ee7e1727421f4d3d0462c7e7a5f40fc9c2e61b7963839",
-            "signedAvailable": true,
             "size": 2229096,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "stash_common_action_model",
@@ -1124,7 +1023,6 @@
             "md5": "3f3dbf116da9d2b57322a7d9374f056f",
             "minProductVersionStr": null,
             "name": "6.1.0",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/6.1.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -1136,22 +1034,7 @@
             "publishedDatetime": "2025-06-10T20:34:38.298431Z",
             "releaseNotes": "https://help.splunk.com/en/data-management/common-information-model/6.1/introduction/release-notes-for-the-splunk-common-information-model-add-on",
             "sha256": "639a515870d468a591bcc26467a652bde22ce9bbae2837c6112155b0181c771d",
-            "signedAvailable": true,
             "size": 2228905,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "stash_common_action_model",
@@ -1276,7 +1159,6 @@
             "md5": "674e548fa76df7cdd477b2ac90aa98e0",
             "minProductVersionStr": null,
             "name": "6.0.4",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/6.0.4/download/",
             "platform": "independent",
             "productTypes": [
@@ -1288,22 +1170,7 @@
             "publishedDatetime": "2025-04-30T23:24:39.062112Z",
             "releaseNotes": "https://docs.splunk.com/Documentation/CIM/6.0.4/User/Releasenotes",
             "sha256": "0390b1c626ac2a5509684f00c7573ca2c792d63f648301c5139eaf0ab0a9b535",
-            "signedAvailable": true,
             "size": 2227500,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "stash_common_action_model",
@@ -1423,7 +1290,6 @@
             "md5": "0bbdb60cf39b544c474cbc6e3a227bda",
             "minProductVersionStr": null,
             "name": "6.0.3",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/6.0.3/download/",
             "platform": "independent",
             "productTypes": [
@@ -1435,22 +1301,7 @@
             "publishedDatetime": "2025-03-24T22:17:16.401992Z",
             "releaseNotes": "https://docs.splunk.com/Documentation/CIM/6.0.3/User/Releasenotes",
             "sha256": "f56d7fe29bd37126f68a9251f909fef4139771c3a2d2a7344979ae14041cc554",
-            "signedAvailable": true,
             "size": 2227359,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "stash_common_action_model",
@@ -1570,7 +1421,6 @@
             "md5": "e8721a8190f2b64946f7addaf148c34b",
             "minProductVersionStr": null,
             "name": "5.3.3",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/5.3.3/download/",
             "platform": "independent",
             "productTypes": [
@@ -1582,22 +1432,7 @@
             "publishedDatetime": "2025-02-12T19:47:22.449166Z",
             "releaseNotes": "https://docs.splunk.com/Documentation/CIM/5.3.3/User/Releasenotes",
             "sha256": "754c25f7ee2f2494be0dee2ecd770ba0bc69506e8b509a7bfd682d8b6ebc84a2",
-            "signedAvailable": true,
             "size": 2226591,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "stash_common_action_model",
@@ -1717,7 +1552,6 @@
             "md5": "80e3da16a5fedab32524c328d32de9f1",
             "minProductVersionStr": null,
             "name": "6.0.2",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/6.0.2/download/",
             "platform": "independent",
             "productTypes": [
@@ -1729,22 +1563,7 @@
             "publishedDatetime": "2025-01-22T05:27:06.471488Z",
             "releaseNotes": "https://docs.splunk.com/Documentation/CIM/6.0.2/User/Releasenotes",
             "sha256": "5125ec31ee55549f3a03036c4fbaeef21bb952b08b912030ddae05e5003e90b8",
-            "signedAvailable": true,
             "size": 2227323,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "stash_common_action_model",
@@ -1864,7 +1683,6 @@
             "md5": "c3facaee9f9cbc5fb9a1be87f98448b5",
             "minProductVersionStr": null,
             "name": "6.0.1",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/6.0.1/download/",
             "platform": "independent",
             "productTypes": [
@@ -1876,22 +1694,7 @@
             "publishedDatetime": "2024-12-06T01:54:33.782005Z",
             "releaseNotes": "https://docs.splunk.com/Documentation/CIM/6.0.1/User/Releasenotes",
             "sha256": "f96cfc01cfbbb8d6bde9a53a6ccc812eb89d597297b33d856cd59be5a2382dcd",
-            "signedAvailable": true,
             "size": 2227286,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "stash_common_action_model",
@@ -1955,7 +1758,6 @@
             "md5": "22e6125c3e70de29bea306352e5fc294",
             "minProductVersionStr": null,
             "name": "6.0.0",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/6.0.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -1967,22 +1769,7 @@
             "publishedDatetime": "2024-11-07T20:59:48.480230Z",
             "releaseNotes": "https://docs.splunk.com/Documentation/CIM/6.0.0/User/Releasenotes",
             "sha256": "cf4ac914cb8632dda3596eb079f0b70017f99d03e71e7b726b3285afbeb76430",
-            "signedAvailable": true,
             "size": 2227288,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "stash_common_action_model",
@@ -2102,7 +1889,6 @@
             "md5": "8ec9dda3f5f46538514c16c103cb29b0",
             "minProductVersionStr": null,
             "name": "5.3.2",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/5.3.2/download/",
             "platform": "independent",
             "productTypes": [
@@ -2113,22 +1899,7 @@
             "publishedDatetime": "2024-03-27T17:25:49.217387Z",
             "releaseNotes": "https://docs.splunk.com/Documentation/CIM/5.3.2/User/Releasenotes",
             "sha256": "3e5078d6f4001c706a14610232309732eafd6aa0cf9acc3443b22902e4cf4259",
-            "signedAvailable": true,
             "size": 2226444,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "stash_common_action_model",
@@ -2192,7 +1963,6 @@
             "md5": "ceba8f45bf456ed034b98e234dc9360f",
             "minProductVersionStr": null,
             "name": "5.3.1",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/5.3.1/download/",
             "platform": "independent",
             "productTypes": [
@@ -2203,22 +1973,7 @@
             "publishedDatetime": "2023-12-19T06:34:35.760621Z",
             "releaseNotes": "https://docs.splunk.com/Documentation/CIM/5.3.1/User/Releasenotes",
             "sha256": "2dd4880f6ad34ceb7ff451f4935ffaab0914c4f455c36a0ddbf7fc641b526352",
-            "signedAvailable": true,
             "size": 2226453,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "stash_common_action_model",
@@ -2282,7 +2037,6 @@
             "md5": "0789ddfd49f31f3783b69b26e8647807",
             "minProductVersionStr": null,
             "name": "5.1.2",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/5.1.2/download/",
             "platform": "independent",
             "productTypes": [
@@ -2293,22 +2047,7 @@
             "publishedDatetime": "2023-11-08T13:51:19.476306Z",
             "releaseNotes": "https://docs.splunk.com/Documentation/CIM/5.1.2/User/Releasenotes",
             "sha256": "05196b270bcc431fd0b063f610be47c8f254314d3ecce0764f4d72e45c47eaee",
-            "signedAvailable": true,
             "size": 2226260,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "stash_common_action_model",
@@ -2372,7 +2111,6 @@
             "md5": "29fd5574f2e00eafa744d4932043d08d",
             "minProductVersionStr": null,
             "name": "5.2.0",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/5.2.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -2383,22 +2121,7 @@
             "publishedDatetime": "2023-09-01T21:57:54.115685Z",
             "releaseNotes": "https://docs.splunk.com/Documentation/CIM/5.2.0/User/Releasenotes",
             "sha256": "4946a2c05f2c46299097da49dca2d74cecb4f5704f4c62a5705a42c85083c3ae",
-            "signedAvailable": true,
             "size": 2226064,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "stash_common_action_model",
@@ -2462,7 +2185,6 @@
             "md5": "d2362d9a698773608c232b34a6d554b0",
             "minProductVersionStr": null,
             "name": "5.1.1",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/5.1.1/download/",
             "platform": "independent",
             "productTypes": [
@@ -2473,22 +2195,7 @@
             "publishedDatetime": "2023-04-04T21:41:25.523673Z",
             "releaseNotes": "https://docs.splunk.com/Documentation/CIM/5.1.1/User/Releasenotes",
             "sha256": "a0cec651d6f7d156737afa4896a928af9b31ce583d11500fe4edaf8406bb729a",
-            "signedAvailable": true,
             "size": 2226048,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "stash_common_action_model",
@@ -2552,7 +2259,6 @@
             "md5": "d632f63b7920c223b400efabb9ccf409",
             "minProductVersionStr": null,
             "name": "5.1.0",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/5.1.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -2563,22 +2269,7 @@
             "publishedDatetime": "2023-01-11T18:16:05.438683Z",
             "releaseNotes": "",
             "sha256": "d7cfc19045e34a38b4068e39ec40175e3c6d0a9056b15d447f7812522eaf40d1",
-            "signedAvailable": true,
             "size": 2171266,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "stash_common_action_model",
@@ -2642,7 +2333,6 @@
             "md5": "bc549eb2ab8a47137fa05f63380038b4",
             "minProductVersionStr": null,
             "name": "5.0.2",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/5.0.2/download/",
             "platform": "independent",
             "productTypes": [
@@ -2653,22 +2343,7 @@
             "publishedDatetime": "2022-10-04T23:13:37.184844Z",
             "releaseNotes": "",
             "sha256": "48b9e68eda67e718e9dc2e330f4972bee288c87c8aa0168753cd50b86218f98c",
-            "signedAvailable": true,
             "size": 2170778,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "stash_common_action_model",
@@ -2784,7 +2459,6 @@
             "md5": "1e636781a38f7829af8a67dcdadc8f3c",
             "minProductVersionStr": null,
             "name": "5.0.1",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/5.0.1/download/",
             "platform": "independent",
             "productTypes": [
@@ -2795,22 +2469,7 @@
             "publishedDatetime": "2022-03-22T21:52:21.430726Z",
             "releaseNotes": "",
             "sha256": "78036c643c6ffbf4c1b93b00106ca413309530c946739169d5efe21836df0eee",
-            "signedAvailable": true,
             "size": 2168892,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "stash_common_action_model",
@@ -2870,7 +2529,6 @@
             "md5": "b4ee33ae8be0aacf180c34b69bf72d84",
             "minProductVersionStr": null,
             "name": "5.0.0",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/5.0.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -2881,22 +2539,7 @@
             "publishedDatetime": "2021-11-29T19:14:34.374436Z",
             "releaseNotes": "",
             "sha256": "2085cd89bd1d148e2066720a28220b302a77b73d16357cb0fac513cd614a8609",
-            "signedAvailable": true,
             "size": 2168638,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "stash_common_action_model",
@@ -2960,7 +2603,6 @@
             "md5": "5baf0c338b328d0a9ed1c4ec2b70dbcd",
             "minProductVersionStr": null,
             "name": "4.20.2",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/4.20.2/download/",
             "platform": "independent",
             "productTypes": [
@@ -2971,22 +2613,7 @@
             "publishedDatetime": "2021-09-14T20:18:21.072724Z",
             "releaseNotes": "",
             "sha256": "f4d19ac64ab48c6f8d0064b4136d6edf44e77ebbdecb00376f7c6ffdf5b7df4f",
-            "signedAvailable": true,
             "size": 2053708,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "stash_common_action_model",
@@ -3106,7 +2733,6 @@
             "md5": "e4675cbe75b925840aa316433c3fb87e",
             "minProductVersionStr": null,
             "name": "4.20.0",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/4.20.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -3117,22 +2743,7 @@
             "publishedDatetime": "2021-06-23T23:09:42.778057Z",
             "releaseNotes": "",
             "sha256": "b75340b604a95304b21b8d546cd43ec9318ffaa9ec070cb286bffe0845c3d0c0",
-            "signedAvailable": true,
             "size": 2054907,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "stash_common_action_model",
@@ -3196,7 +2807,6 @@
             "md5": "952b68d84f65629db1e42eae3d6af1ab",
             "minProductVersionStr": null,
             "name": "4.19.0",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/4.19.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -3207,22 +2817,7 @@
             "publishedDatetime": "2021-02-19T01:57:20.285186Z",
             "releaseNotes": "",
             "sha256": "053c8c18d643d0ce6e70918fd83c156f379267780e71fbc6db3fefbe9cd0f611",
-            "signedAvailable": true,
             "size": 258322,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "stash_common_action_model",
@@ -3286,7 +2881,6 @@
             "md5": "cd48e7c44507ea45af82c6c6aa3e52e2",
             "minProductVersionStr": null,
             "name": "4.18.1",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/4.18.1/download/",
             "platform": "independent",
             "productTypes": [
@@ -3297,22 +2891,7 @@
             "publishedDatetime": "2021-02-10T22:54:15.369578Z",
             "releaseNotes": "",
             "sha256": "1f3b9ea1a00d57fa0e253110d6e04e0327dc85dab409c853325759265dbb06bb",
-            "signedAvailable": true,
             "size": 257913,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "stash_common_action_model",
@@ -3432,7 +3011,6 @@
             "md5": "94d2dc2bf80c049a77510f1806a1429d",
             "minProductVersionStr": null,
             "name": "4.18.0",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/4.18.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -3443,22 +3021,7 @@
             "publishedDatetime": "2020-11-18T00:34:42.661232Z",
             "releaseNotes": "",
             "sha256": "a9891f77559108fd8702c95e90f3ebe060d5870951372cd4c2974a39cbb7d9ee",
-            "signedAvailable": true,
             "size": 257829,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "stash_common_action_model",
@@ -3576,7 +3139,6 @@
             "md5": "ac8559ceb225360f7a6bbb8ebb686073",
             "minProductVersionStr": null,
             "name": "4.17.0",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/4.17.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -3587,22 +3149,7 @@
             "publishedDatetime": "2020-08-12T03:13:20.247827Z",
             "releaseNotes": "",
             "sha256": "5cf2a58dae8e48e7b7d195f6231c77adc9311897966067bc6b3a84e7956c46bc",
-            "signedAvailable": true,
             "size": 254514,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "stash_common_action_model",
@@ -3716,7 +3263,6 @@
             "md5": "16edcdc2d2eab34a8ea1f2861cac38f8",
             "minProductVersionStr": null,
             "name": "4.16.0",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/4.16.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -3727,22 +3273,7 @@
             "publishedDatetime": "2020-06-16T19:12:37.650430Z",
             "releaseNotes": "",
             "sha256": "6bcaa0d8769a3a0f2af86f8550ecf8db2f9f760add2f526a415a3b28e2627890",
-            "signedAvailable": true,
             "size": 254079,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "stash_common_action_model",
@@ -3808,7 +3339,6 @@
             "md5": "ce1449ab613366cd6c55b33dc5647095",
             "minProductVersionStr": null,
             "name": "4.15.0",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/4.15.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -3819,22 +3349,7 @@
             "publishedDatetime": "2020-02-14T02:21:32.707322Z",
             "releaseNotes": "",
             "sha256": "f68d4d50e2c2ed43d3335fb09eac1c33c447ec1dac2c208d8f9858ca452155e1",
-            "signedAvailable": true,
             "size": 253353,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "stash_common_action_model",
@@ -3948,7 +3463,6 @@
             "md5": "5a10f14a279983b5307ff8ba1a21aa29",
             "minProductVersionStr": null,
             "name": "4.14.0",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/4.14.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -3959,22 +3473,7 @@
             "publishedDatetime": "2019-10-17T15:49:56.017729Z",
             "releaseNotes": "",
             "sha256": "5aa83a4d4817790301ef06f2e9ea35bb35f734a6cb56a41cb9f90ff2be5c3ce7",
-            "signedAvailable": true,
             "size": 198774,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "stash_common_action_model",
@@ -4088,7 +3587,6 @@
             "md5": "a0f5ee18d177b50cb8ac953381097b5a",
             "minProductVersionStr": null,
             "name": "4.13.0",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/4.13.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -4099,22 +3597,7 @@
             "publishedDatetime": "2019-04-02T18:03:37.781956Z",
             "releaseNotes": "",
             "sha256": "29d69603004df3b5404bb941932de7287008abeb6beb7cdfd1b421ff7b7b75e3",
-            "signedAvailable": true,
             "size": 197340,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "__no_tag__"
-            ],
             "tagsSourcetypes": {
               "__no_tag__": [
                 "stash_common_action_model",
@@ -4198,7 +3681,6 @@
             "md5": "a39f7ad7ae076c339faf707cad922b7c",
             "minProductVersionStr": null,
             "name": "4.12.0",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/1621/release/4.12.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -4209,24 +3691,7 @@
             "publishedDatetime": "2018-10-09T23:15:59.879260Z",
             "releaseNotes": "Splunk Common Information Model 4.12.0 Copyright (C) 2013-2018 Splunk Inc. All rights reserved. For the Release Notes see: http://docs.splunk.com/Documentation/CIM/4.12.0/User/Releasenotes",
             "sha256": "65657364e53463bc00bd3cd76fed61f6771fb82176afcd19d0cebe964b04597a",
-            "signedAvailable": true,
             "size": 260333,
-            "sourcetypes": [
-              "audittrail",
-              "splunk_web_access",
-              "modaction:adhoc_rest_handler",
-              "datamodelsimple",
-              "relaymodaction",
-              "modaction:queue_handler",
-              "stash_common_action_model",
-              "splunkd",
-              "modaction:invocations_rest_handler"
-            ],
-            "tags": [
-              "modaction",
-              "__no_tag__",
-              "invocation"
-            ],
             "tagsSourcetypes": {
               "modaction": [
                 "splunkd"
@@ -4263,15 +3728,14 @@
         "support": "splunk",
         "title": "Splunk Common Information Model (CIM)",
         "troubleshooting": "",
-        "troubleshootingSource": "",
         "updatedTime": "2026-07-22T00:54:09.975712Z",
         "videoLink": null,
         "appType": "addon",
         "scheduleRelease": null,
         "name": "Splunk Common Information Model (CIM)",
         "publishedDatetime": "2013-10-18T17:46:05.935709Z",
-        "draft": false,
-        "displayEditors": false,
+        "draft": null,
+        "displayEditors": null,
         "splCompatibility": "SPL1"
       },
       "initialAuthState": {
@@ -4286,7 +3750,7 @@
   "query": {
     "id": "1621"
   },
-  "buildId": "s92zLKSgQiUzY-sYXUJrW",
+  "buildId": "cnkE8_hkVUqyyCJZnRahc",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

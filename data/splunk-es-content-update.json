@@ -4,7 +4,7 @@
       "appDetails": {
         "id": 3449,
         "access": "unrestricted",
-        "approvalStatus": "approved",
+        "approvalStatus": null,
         "categories": [
           {
             "id": 1,
@@ -16,17 +16,15 @@
         "contributors": [],
         "collections": [],
         "contactEmail": "",
-        "contactNotes": "<p>Contact us at <a href=\"mailto:research@splunk.com\">research@splunk.com</a></p>",
-        "contactNotesSource": "Contact us at research@splunk.com",
+        "contactNotes": "Contact us at research@splunk.com",
         "displayAuthor": {
           "isPartner": false,
           "name": "Splunk LLC",
           "redirectTo": "splunk"
         },
         "description": "The Splunk ES Content Update (ESCU) app delivers pre-packaged Security Content. ESCU provides regular Security Content updates to help security practitioners address ongoing time-sensitive threats, attack methods, and other security issues.\n\nSecurity Content consists of tactics, techniques, and methodologies that help with detection, investigation, and response. Security Content enables security teams to directly operationalize detection searches, investigative searches, and other supporting details. ESCU can generate Notable/Risk Events in Splunk Enterprise Security. Security Content also contains easy-to-read background information and guidance, for key context on motivations and risks associated with attack techniques, as well as pragmatic advice on how to combat those techniques.\n\nThe analytic stories and their searches are also available at - https://github.com/splunk/security_content.",
-        "documentation": "<p>For more information please visit the <a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update\">Splunk ES Content Update user documentation</a>.</p>",
-        "documentationSource": "For more information please visit the [Splunk ES Content Update user documentation](https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update).",
-        "downloadCount": 184127,
+        "documentation": "For more information please visit the [Splunk ES Content Update user documentation](https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update).",
+        "downloadCount": 184441,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/d25e4644-8b57-11f1-bc8b-9688965be9f9.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": null,
@@ -34,15 +32,12 @@
         "isDirectoryListing": false,
         "isSoarCertified": false,
         "isSplunkBuilt": true,
-        "installation": "<p><a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/installation-guide/5.7/installation/install-the-splunk-enterprise-security-content-update-subscription-service\">Splunk ES Content Update Installation</a>.</p>",
-        "installationSource": "[Splunk ES Content Update Installation](https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/installation-guide/5.7/installation/install-the-splunk-enterprise-security-content-update-subscription-service).",
+        "installation": "[Splunk ES Content Update Installation](https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/installation-guide/5.7/installation/install-the-splunk-enterprise-security-content-update-subscription-service).",
         "license": {
           "canonicalName": "Apache License Version 2.0",
           "displayName": "Apache License Version 2.0",
           "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
         },
-        "licenseName": "Apache License Version 2.0",
-        "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.html",
         "licenseAgreementReadRequired": false,
         "partnerMetadata": null,
         "pendingOwnerTransferEvent": null,
@@ -52,7 +47,7 @@
           "enterprise",
           "cloud"
         ],
-        "public": true,
+        "public": null,
         "ranking": [
           {
             "categoryDisplayName": "Security, Fraud & Compliance",
@@ -87,7 +82,6 @@
           "md5": "19e32356cb7435b7a5d2dc7bb6c11ecc",
           "minProductVersionStr": null,
           "name": "6.2.0",
-          "passedValidation": true,
           "path": "https://splunkbase.splunk.com/app/3449/release/6.2.0/download/",
           "platform": "independent",
           "productTypes": [
@@ -99,10 +93,7 @@
           "publishedDatetime": "2026-07-13T17:55:00.850999Z",
           "releaseNotes": "GitHub - https://github.com/splunk/security_content/releases/tag/v6.2.0\nSplunk Docs - [https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/release-notes/6.2/splunk-security-content-release-notes/whats-new](https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/release-notes/6.2/splunk-security-content-release-notes/whats-new)",
           "sha256": "04548e7e74b1d5fa6ad6da56aa904d74c5468045c68a888949f9d9f6ec1b3112",
-          "signedAvailable": true,
           "size": 8572034,
-          "sourcetypes": [],
-          "tags": [],
           "tagsSourcetypes": {},
           "versionCompatibility": [
             {
@@ -189,7 +180,6 @@
             "md5": "3843adcfd724262b7ffdc05d4a9217a1",
             "minProductVersionStr": null,
             "name": "6.3.0",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/6.3.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -201,10 +191,7 @@
             "publishedDatetime": "2026-07-29T14:14:35.629756Z",
             "releaseNotes": "GitHub - [https://github.com/splunk/security\\_content/releases/tag/v6.3.0](https://github.com/splunk/security_content/releases/tag/v6.3.0)\n\nSplunk Docs - [https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/release-notes/6.3/splunk-security-content-release-notes/whats-new](https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/release-notes/6.3/splunk-security-content-release-notes/whats-new)",
             "sha256": "1831504c0945075e61e9eebc269f206b40da8c6a1a4e4a928a04fcfe19235c6c",
-            "signedAvailable": true,
             "size": 8574398,
-            "sourcetypes": [],
-            "tags": [],
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
@@ -288,7 +275,6 @@
             "md5": "19e32356cb7435b7a5d2dc7bb6c11ecc",
             "minProductVersionStr": null,
             "name": "6.2.0",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/6.2.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -300,10 +286,7 @@
             "publishedDatetime": "2026-07-13T17:55:00.850999Z",
             "releaseNotes": "GitHub - https://github.com/splunk/security_content/releases/tag/v6.2.0\nSplunk Docs - [https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/release-notes/6.2/splunk-security-content-release-notes/whats-new](https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/release-notes/6.2/splunk-security-content-release-notes/whats-new)",
             "sha256": "04548e7e74b1d5fa6ad6da56aa904d74c5468045c68a888949f9d9f6ec1b3112",
-            "signedAvailable": true,
             "size": 8572034,
-            "sourcetypes": [],
-            "tags": [],
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
@@ -387,7 +370,6 @@
             "md5": "bddeb8f074a6ff9b0645ee89c5392ba1",
             "minProductVersionStr": null,
             "name": "6.1.0",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/6.1.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -399,10 +381,7 @@
             "publishedDatetime": "2026-06-17T17:14:58.003593Z",
             "releaseNotes": "GitHub - [https://github.com/splunk/security\\_content/releases/tag/v6.1.0](https://github.com/splunk/security_content/releases/tag/v6.1.0)\n\nSplunk Docs - [https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/release-notes/6.1/splunk-security-content-release-notes/whats-new](https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/release-notes/6.1/splunk-security-content-release-notes/whats-new)",
             "sha256": "0a39969e5797963ff2dbf744aebd74cdd1be5362af0ae23efceabcbf8b5d8226",
-            "signedAvailable": true,
             "size": 8552692,
-            "sourcetypes": [],
-            "tags": [],
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
@@ -486,7 +465,6 @@
             "md5": "32dc4b6e7251ec0c642c472f143c3b6d",
             "minProductVersionStr": null,
             "name": "6.0.0",
-            "passedValidation": true,
             "path": "https://splunkbase.splunk.com/app/3449/release/6.0.0/download/",
             "platform": "independent",
             "productTypes": [
@@ -498,10 +476,7 @@
             "publishedDatetime": "2026-06-01T19:11:26.575079Z",
             "releaseNotes": "<p>GitHub - <a href=\"https://github.com/splunk/security_content/releases/tag/v6.0.0\">https://github.com/splunk/security\\_content/releases/tag/v6.0.0</a></p>\n<p>Splunk Docs - <a href=\"https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/release-notes/6.0/splunk-security-content-release-notes/whats-new\">https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/release-notes/6.0/splunk-security-content-release-notes/whats-new</a></p>",
             "sha256": "319c8ed20b3c61acf0b9b1aaf233e8b7af89e609c5bded5deac869aaabfb19ab",
-            "signedAvailable": true,
             "size": 8521144,
-            "sourcetypes": [],
-            "tags": [],
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
@@ -574,16 +549,15 @@
         "shortDescription": "",
         "support": "splunk",
         "title": "Splunk ES Content Update",
-        "troubleshooting": "<p>Open a Splunk Support Case or reach out to us directly at <a href=\"mailto:research@splunk.com\">research@splunk.com</a>.</p>",
-        "troubleshootingSource": "Open a Splunk Support Case or reach out to us directly at research@splunk.com.",
+        "troubleshooting": "Open a Splunk Support Case or reach out to us directly at research@splunk.com.",
         "updatedTime": "2026-07-29T14:35:05.299466Z",
         "videoLink": null,
         "appType": "addon",
         "scheduleRelease": null,
         "name": "Splunk ES Content Update",
         "publishedDatetime": "2017-01-19T17:59:07.794039Z",
-        "draft": false,
-        "displayEditors": false,
+        "draft": null,
+        "displayEditors": null,
         "splCompatibility": "SPL1"
       },
       "initialAuthState": {
@@ -598,7 +572,7 @@
   "query": {
     "id": "3449"
   },
-  "buildId": "s92zLKSgQiUzY-sYXUJrW",
+  "buildId": "cnkE8_hkVUqyyCJZnRahc",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
