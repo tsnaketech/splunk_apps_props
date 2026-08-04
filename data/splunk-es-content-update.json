@@ -24,7 +24,7 @@
         },
         "description": "The Splunk ES Content Update (ESCU) app delivers pre-packaged Security Content. ESCU provides regular Security Content updates to help security practitioners address ongoing time-sensitive threats, attack methods, and other security issues.\n\nSecurity Content consists of tactics, techniques, and methodologies that help with detection, investigation, and response. Security Content enables security teams to directly operationalize detection searches, investigative searches, and other supporting details. ESCU can generate Notable/Risk Events in Splunk Enterprise Security. Security Content also contains easy-to-read background information and guidance, for key context on motivations and risks associated with attack techniques, as well as pragmatic advice on how to combat those techniques.\n\nThe analytic stories and their searches are also available at - https://github.com/splunk/security_content.",
         "documentation": "For more information please visit the [Splunk ES Content Update user documentation](https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update).",
-        "downloadCount": 184588,
+        "downloadCount": 184641,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/d25e4644-8b57-11f1-bc8b-9688965be9f9.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": null,
@@ -62,11 +62,13 @@
         "release": {
           "actions": [],
           "cimCompatibility": [
+            "8.x",
             "6.x",
             "5.x",
             "4.x"
           ],
           "cimVersions": [
+            52,
             19,
             17,
             16
@@ -74,15 +76,15 @@
           "cloudCompatible": true,
           "content": [],
           "fipsCompatibility": false,
-          "filename": "splunk-es-content-update_620.tar.gz",
-          "id": 122387,
+          "filename": "splunk-es-content-update_630.tar.gz",
+          "id": 123024,
           "installMethodDistributed": "appmgmt_phase",
           "installMethodSingle": "simple",
           "manifest": null,
-          "md5": "19e32356cb7435b7a5d2dc7bb6c11ecc",
+          "md5": "3843adcfd724262b7ffdc05d4a9217a1",
           "minProductVersionStr": null,
-          "name": "6.2.0",
-          "path": "https://splunkbase.splunk.com/app/3449/release/6.2.0/download/",
+          "name": "6.3.0",
+          "path": "https://splunkbase.splunk.com/app/3449/release/6.3.0/download/",
           "platform": "independent",
           "productTypes": [
             "enterprise",
@@ -90,10 +92,10 @@
           ],
           "public": null,
           "publicEverTrue": false,
-          "publishedDatetime": "2026-07-13T17:55:00.850999Z",
-          "releaseNotes": "GitHub - https://github.com/splunk/security_content/releases/tag/v6.2.0\nSplunk Docs - [https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/release-notes/6.2/splunk-security-content-release-notes/whats-new](https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/release-notes/6.2/splunk-security-content-release-notes/whats-new)",
-          "sha256": "04548e7e74b1d5fa6ad6da56aa904d74c5468045c68a888949f9d9f6ec1b3112",
-          "size": 8572034,
+          "publishedDatetime": "2026-07-29T14:14:35.629756Z",
+          "releaseNotes": "GitHub - [https://github.com/splunk/security\\_content/releases/tag/v6.3.0](https://github.com/splunk/security_content/releases/tag/v6.3.0)\n\nSplunk Docs - [https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/release-notes/6.3/splunk-security-content-release-notes/whats-new](https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/release-notes/6.3/splunk-security-content-release-notes/whats-new)",
+          "sha256": "1831504c0945075e61e9eebc269f206b40da8c6a1a4e4a928a04fcfe19235c6c",
+          "size": 8574398,
           "tagsSourcetypes": {},
           "versionCompatibility": [
             {
@@ -550,7 +552,7 @@
         "support": "splunk",
         "title": "Splunk ES Content Update",
         "troubleshooting": "Open a Splunk Support Case or reach out to us directly at research@splunk.com.",
-        "updatedTime": "2026-07-29T14:35:05.299466Z",
+        "updatedTime": "2026-08-03T16:27:10.668074Z",
         "videoLink": null,
         "appType": "addon",
         "scheduleRelease": null,
