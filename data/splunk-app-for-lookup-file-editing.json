@@ -4297,7 +4297,7 @@
         "support": "splunk",
         "title": "Splunk App for Lookup File Editing",
         "troubleshooting": "",
-        "updatedTime": "2026-08-04T13:29:14.026372Z",
+        "updatedTime": "2026-08-10T21:26:53.443858Z",
         "videoLink": null,
         "appType": "app",
         "scheduleRelease": null,
@@ -4319,7 +4319,7 @@
   "query": {
     "id": "1724"
   },
-  "buildId": "nn8MxhGRlviCghsAQ55yI",
+  "buildId": "keli0FODLsfBM2xM29N4X",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
