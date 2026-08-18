@@ -29,8 +29,8 @@
         },
         "description": "*** Important: Read upgrade instructions and test add-on update before deploying to production ***\nThe Splunk Add-on for Windows 5.0.0 introduced breaking changes. If you are upgrading from a version of the Splunk Add-on for Windows that is earlier than 5.0.0, you must follow the documented upgrade instructions to avoid data loss. A best practice is to test the upgraded version in a non-production environment before deploying to production.\n\nNeither the Splunk Add-on for Windows DNS version 1.0.1 nor the Splunk Add-on for Windows Active Directory version 1.0.0 is supported when installed alongside the Splunk Add-on for Windows version 6.0.0. The Splunk Add-on for Windows version 6.0.0 includes the Splunk Add-on for Windows DNS and the Splunk Add-on for Microsoft Active Directory.\n\nThe Splunk for Microsoft Windows add-on includes predefined inputs to collect data from Windows systems and maps to normalize the data to the Common Information Model.",
         "documentation": "To learn about the Splunk Add-on for Microsoft Windows, see the official documentation here on [docs.splunk.com](https://docs.splunk.com/Documentation/AddOns/released/Windows/).\r\n\r\nFor information on what has been fixed as well as known issues, see the [release notes](https://docs.splunk.com/Documentation/AddOns/released/Windows/Releasenote).",
-        "downloadCount": 769707,
-        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/3de02d18-9672-11f1-a44d-ea15ad7a6800.png",
+        "downloadCount": 769775,
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/50382bd2-9a0f-11f1-a713-8eefeb85aa85.png",
         "inquiryButtonText": "",
         "inquiryUrl": null,
         "isArchived": false,
@@ -80,8 +80,8 @@
           "cloudCompatible": true,
           "content": [],
           "fipsCompatibility": false,
-          "filename": "splunk-add-on-for-microsoft-windows_1101.spl",
-          "id": 123535,
+          "filename": "splunk-add-on-for-microsoft-windows_1102.spl",
+          "id": 123609,
           "installMethodDistributed": "appmgmt_phase",
           "installMethodSingle": "simple",
           "manifest": {
@@ -124,7 +124,7 @@
               "id": {
                 "group": null,
                 "name": "Splunk_TA_windows",
-                "version": "11.0.1"
+                "version": "11.0.2"
               },
               "license": {
                 "name": null,
@@ -159,10 +159,10 @@
             ],
             "tasks": null
           },
-          "md5": "c13be55774974f34f120189c0bf512a3",
+          "md5": "6e22e37cebf698fe6db075538447f2b2",
           "minProductVersionStr": null,
-          "name": "11.0.1",
-          "path": "https://splunkbase.splunk.com/app/742/release/11.0.1/download/",
+          "name": "11.0.2",
+          "path": "https://splunkbase.splunk.com/app/742/release/11.0.2/download/",
           "platform": "independent",
           "productTypes": [
             "enterprise",
@@ -170,12 +170,33 @@
           ],
           "public": null,
           "publicEverTrue": false,
-          "publishedDatetime": "2026-08-12T17:21:24.008908Z",
+          "publishedDatetime": "2026-08-17T07:43:19.349495Z",
           "releaseNotes": "",
-          "sha256": "1791e1201d0806586990c070df0e6ba361140344ea0f6ad3ccb9e63b6e23a9ff",
-          "size": 242647,
+          "sha256": "cf1d7c862a839fa2ded0083c0471f30e2f9655477e8d93930f4a38f55ce1baa5",
+          "size": 242721,
           "tagsSourcetypes": {
             "__no_tag__": [
+              "WinEventLog:Microsoft-Windows-CodeIntegrity/Operational",
+              "WinEventLog:Microsoft-Windows-CAPI2/Operational",
+              "WinEventLog:Microsoft-Windows-Application-Experience/Program-Inventory",
+              "WinEventLog:Microsoft-Windows-AppLocker/Packaged app-Execution",
+              "WinEventLog:Microsoft-Windows-AppLocker/Packaged app-Deployment",
+              "WinEventLog:Microsoft-Windows-AppLocker/MSI and Script",
+              "WinEventLog:Microsoft-Windows-AppLocker/EXE and DLL",
+              "WinEventLog:Key-Management-Service",
+              "WinEventLog:File-Replication-Service",
+              "WinEventLog:Directory-Service",
+              "WinEventLog:DNS-Server",
+              "WinEventLog:DFS-Replication",
+              "WinEventLog:Application",
+              "MSAD:SubnetAffinity",
+              "MSAD:NT6:SiteInfo",
+              "MSAD:NT6:Replication",
+              "MSAD:NT6:Netlogon",
+              "MSAD:NT6:Health",
+              "MSAD:NT6:DNS-Zone-Information",
+              "MSAD:NT6:DNS-Health",
+              "ActiveDirectory",
               "wmi",
               "XmlWinEventLog:Windows PowerShell",
               "XmlWinEventLog:System",
@@ -235,28 +256,7 @@
               "WinEventLog:Microsoft-Windows-Kernel-PnP/Device Configuration",
               "WinEventLog:Microsoft-Windows-DriverFrameworks-UserMode/Operational",
               "WinEventLog:Microsoft-Windows-Defender/Operational",
-              "WinEventLog:Microsoft-Windows-DNS-Client/Operational",
-              "WinEventLog:Microsoft-Windows-CodeIntegrity/Operational",
-              "WinEventLog:Microsoft-Windows-CAPI2/Operational",
-              "WinEventLog:Microsoft-Windows-Application-Experience/Program-Inventory",
-              "WinEventLog:Microsoft-Windows-AppLocker/Packaged app-Execution",
-              "WinEventLog:Microsoft-Windows-AppLocker/Packaged app-Deployment",
-              "WinEventLog:Microsoft-Windows-AppLocker/MSI and Script",
-              "WinEventLog:Microsoft-Windows-AppLocker/EXE and DLL",
-              "WinEventLog:Key-Management-Service",
-              "WinEventLog:File-Replication-Service",
-              "WinEventLog:Directory-Service",
-              "WinEventLog:DNS-Server",
-              "WinEventLog:DFS-Replication",
-              "WinEventLog:Application",
-              "MSAD:SubnetAffinity",
-              "MSAD:NT6:SiteInfo",
-              "MSAD:NT6:Replication",
-              "MSAD:NT6:Netlogon",
-              "MSAD:NT6:Health",
-              "MSAD:NT6:DNS-Zone-Information",
-              "MSAD:NT6:DNS-Health",
-              "ActiveDirectory"
+              "WinEventLog:Microsoft-Windows-DNS-Client/Operational"
             ],
             "communicate": [
               "WindowsFirewallLog"
@@ -651,6 +651,587 @@
           "splCompatibility": "SPL1"
         },
         "releases": [
+          {
+            "actions": [],
+            "cimCompatibility": [
+              "5.x"
+            ],
+            "cimVersions": [
+              17
+            ],
+            "cloudCompatible": true,
+            "content": [],
+            "fipsCompatibility": false,
+            "filename": "splunk-add-on-for-microsoft-windows_1102.spl",
+            "id": 123609,
+            "installMethodDistributed": "appmgmt_phase",
+            "installMethodSingle": "simple",
+            "manifest": {
+              "dependencies": null,
+              "incompatibleApps": {
+                "Splunk_TA_microsoft_ad": "<=1.0.0",
+                "Splunk_TA_microsoft_dns": "<=1.0.1"
+              },
+              "info": {
+                "author": [
+                  {
+                    "name": "Splunk, Inc.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "classification": {
+                  "categories": [
+                    "IT Operations",
+                    "Utilities",
+                    "Security, Fraud & Compliance"
+                  ],
+                  "developmentStatus": "Production/Stable",
+                  "intendedAudience": "IT Professionals"
+                },
+                "commonInformationModels": {
+                  "Application_State": "=4.15.0",
+                  "Authentication": "=4.18.0",
+                  "Change": "=4.18.0",
+                  "Change_Analysis": "=4.15.0",
+                  "Compute_Inventory": "=4.15.0",
+                  "Endpoint": "=4.18.0",
+                  "Event_Signatures": "=4.18.0",
+                  "Network_Sessions": "=4.15.0",
+                  "Performance": "=4.15.0",
+                  "Updates": "=4.15.0",
+                  "Vulnerabilities": "=4.15.0"
+                },
+                "description": "Splunk Add-on for Microsoft Windows",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_TA_windows",
+                  "version": "11.0.2"
+                },
+                "license": {
+                  "name": null,
+                  "text": "LICENSES/LicenseRef-Splunk-8-2021.txt",
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseDate": null,
+                "releaseNotes": {
+                  "name": "README",
+                  "text": "./README.txt",
+                  "uri": "http://docs.splunk.com/Documentation/WindowsAddOn/latest/User/Releasenotes"
+                },
+                "title": "Splunk Add-on for Microsoft Windows"
+              },
+              "inputGroups": null,
+              "platformRequirements": null,
+              "schemaVersion": "2.0.0",
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed",
+                "_search_head_clustering"
+              ],
+              "targetWorkloads": [
+                "_search_heads",
+                "_forwarders",
+                "_indexers"
+              ],
+              "tasks": null
+            },
+            "md5": "6e22e37cebf698fe6db075538447f2b2",
+            "minProductVersionStr": null,
+            "name": "11.0.2",
+            "path": "https://splunkbase.splunk.com/app/742/release/11.0.2/download/",
+            "platform": "independent",
+            "productTypes": [
+              "enterprise",
+              "cloud"
+            ],
+            "public": null,
+            "publicEverTrue": false,
+            "publishedDatetime": "2026-08-17T07:43:19.349495Z",
+            "releaseNotes": "",
+            "sha256": "cf1d7c862a839fa2ded0083c0471f30e2f9655477e8d93930f4a38f55ce1baa5",
+            "size": 242721,
+            "tagsSourcetypes": {
+              "__no_tag__": [
+                "WinEventLog:Microsoft-Windows-CodeIntegrity/Operational",
+                "WinEventLog:Microsoft-Windows-CAPI2/Operational",
+                "WinEventLog:Microsoft-Windows-Application-Experience/Program-Inventory",
+                "WinEventLog:Microsoft-Windows-AppLocker/Packaged app-Execution",
+                "WinEventLog:Microsoft-Windows-AppLocker/Packaged app-Deployment",
+                "WinEventLog:Microsoft-Windows-AppLocker/MSI and Script",
+                "WinEventLog:Microsoft-Windows-AppLocker/EXE and DLL",
+                "WinEventLog:Key-Management-Service",
+                "WinEventLog:File-Replication-Service",
+                "WinEventLog:Directory-Service",
+                "WinEventLog:DNS-Server",
+                "WinEventLog:DFS-Replication",
+                "WinEventLog:Application",
+                "MSAD:SubnetAffinity",
+                "MSAD:NT6:SiteInfo",
+                "MSAD:NT6:Replication",
+                "MSAD:NT6:Netlogon",
+                "MSAD:NT6:Health",
+                "MSAD:NT6:DNS-Zone-Information",
+                "MSAD:NT6:DNS-Health",
+                "ActiveDirectory",
+                "wmi",
+                "XmlWinEventLog:Windows PowerShell",
+                "XmlWinEventLog:System",
+                "XmlWinEventLog:Setup",
+                "XmlWinEventLog:Security",
+                "XmlWinEventLog:Microsoft-Windows-WindowsUpdateClient/Operational",
+                "XmlWinEventLog:Microsoft-Windows-Windows Firewall With Advanced Security/Firewall",
+                "XmlWinEventLog:Microsoft-Windows-Windows Defender/Operational",
+                "XmlWinEventLog:Microsoft-Windows-WinRM/Operational",
+                "XmlWinEventLog:Microsoft-Windows-WLAN-Autoconfig/Operational",
+                "XmlWinEventLog:Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational",
+                "XmlWinEventLog:Microsoft-Windows-TerminalServices-RemoteConnectionManager/Admin",
+                "XmlWinEventLog:Microsoft-Windows-TerminalServices-RDPClient/Operational",
+                "XmlWinEventLog:Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+                "XmlWinEventLog:Microsoft-Windows-TerminalServices-LocalSessionManager/Admin",
+                "XmlWinEventLog:Microsoft-Windows-TaskScheduler/Operational",
+                "XmlWinEventLog:Microsoft-Windows-SmartCard-Audit/Authentication",
+                "XmlWinEventLog:Microsoft-Windows-SMBClient/Operational",
+                "XmlWinEventLog:Microsoft-Windows-PrintService/Operational",
+                "XmlWinEventLog:Microsoft-Windows-PowerShell/Operational",
+                "XmlWinEventLog:Microsoft-Windows-NetworkProfile/Operational",
+                "XmlWinEventLog:Microsoft-Windows-LSA/Operational",
+                "XmlWinEventLog:Microsoft-Windows-Kernel-PnP/Device Configuration",
+                "XmlWinEventLog:Microsoft-Windows-DriverFrameworks-UserMode/Operational",
+                "XmlWinEventLog:Microsoft-Windows-Defender/Operational",
+                "XmlWinEventLog:Microsoft-Windows-DNS-Client/Operational",
+                "XmlWinEventLog:Microsoft-Windows-CodeIntegrity/Operational",
+                "XmlWinEventLog:Microsoft-Windows-CAPI2/Operational",
+                "XmlWinEventLog:Microsoft-Windows-Application-Experience/Program-Inventory",
+                "XmlWinEventLog:Microsoft-Windows-AppLocker/Packaged app-Execution",
+                "XmlWinEventLog:Microsoft-Windows-AppLocker/Packaged app-Deployment",
+                "XmlWinEventLog:Microsoft-Windows-AppLocker/MSI and Script",
+                "XmlWinEventLog:Microsoft-Windows-AppLocker/EXE and DLL",
+                "XmlWinEventLog:Application",
+                "WinEventLog:Windows PowerShell",
+                "WinEventLog:System:IAS",
+                "WinEventLog:System",
+                "WinEventLog:Setup",
+                "WinEventLog:Security",
+                "WinEventLog:Microsoft-Windows-WindowsUpdateClient/Operational",
+                "WinEventLog:Microsoft-Windows-Windows Firewall With Advanced Security/Firewall",
+                "WinEventLog:Microsoft-Windows-Windows Defender/Operational",
+                "WinEventLog:Microsoft-Windows-WinRM/Operational",
+                "WinEventLog:Microsoft-Windows-WLAN-Autoconfig/Operational",
+                "WinEventLog:Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational",
+                "WinEventLog:Microsoft-Windows-TerminalServices-RemoteConnectionManager/Admin",
+                "WinEventLog:Microsoft-Windows-TerminalServices-RDPClient/Operational",
+                "WinEventLog:Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+                "WinEventLog:Microsoft-Windows-TerminalServices-LocalSessionManager/Admin",
+                "WinEventLog:Microsoft-Windows-TaskScheduler/Operational",
+                "WinEventLog:Microsoft-Windows-SmartCard-Audit/Authentication",
+                "WinEventLog:Microsoft-Windows-SMBClient/Operational",
+                "WinEventLog:Microsoft-Windows-PrintService/Operational",
+                "WinEventLog:Microsoft-Windows-PowerShell/Operational",
+                "WinEventLog:Microsoft-Windows-NetworkProfile/Operational",
+                "WinEventLog:Microsoft-Windows-LSA/Operational",
+                "WinEventLog:Microsoft-Windows-Kernel-PnP/Device Configuration",
+                "WinEventLog:Microsoft-Windows-DriverFrameworks-UserMode/Operational",
+                "WinEventLog:Microsoft-Windows-Defender/Operational",
+                "WinEventLog:Microsoft-Windows-DNS-Client/Operational"
+              ],
+              "communicate": [
+                "WindowsFirewallLog"
+              ],
+              "dns": [
+                "msdns:analytical",
+                "MSAD:NT6:DNS"
+              ],
+              "resolution": [
+                "msdns:analytical",
+                "MSAD:NT6:DNS"
+              ],
+              "version": [
+                "WMI:Version"
+              ],
+              "user": [
+                "WMI:UserAccounts"
+              ],
+              "uptime": [
+                "WMI:Uptime"
+              ],
+              "service": [
+                "WinHostMon",
+                "WMI:Service"
+              ],
+              "disk": [
+                "WMI:LogicalDisk",
+                "WMI:FreeDiskSpace",
+                "PerfmonMk:LogicalDisk",
+                "Perfmon:LogicalDisk",
+                "Perfmon:FreeDiskSpace"
+              ],
+              "anomalous": [
+                "WMI:Uptime",
+                "WMI:Service",
+                "WMI:Memory",
+                "WMI:LocalProcesses",
+                "WMI:FreeDiskSpace",
+                "WMI:CPUTime",
+                "PerfmonMk:Memory",
+                "PerfmonMk:CPU",
+                "Perfmon:Memory",
+                "Perfmon:FreeDiskSpace",
+                "Perfmon:CPUTime",
+                "Perfmon:CPU"
+              ],
+              "status": [
+                "WindowsUpdateLog",
+                "WMI:InstalledUpdates"
+              ],
+              "update": [
+                "WindowsUpdateLog",
+                "WMI:InstalledUpdates"
+              ],
+              "system": [
+                "WindowsUpdateLog",
+                "WMI:Version",
+                "WMI:InstalledUpdates"
+              ],
+              "failure": [
+                "Script:TimesyncStatus"
+              ],
+              "success": [
+                "Script:TimesyncStatus"
+              ],
+              "synchronize": [
+                "WinHostMon",
+                "Script:TimesyncStatus"
+              ],
+              "time": [
+                "WinHostMon",
+                "Script:TimesyncStatus"
+              ],
+              "listening": [
+                "Script:ListeningPorts"
+              ],
+              "port": [
+                "Script:ListeningPorts"
+              ],
+              "account": [
+                "WMI:UserAccounts"
+              ],
+              "end": [
+                "DhcpSrvLog"
+              ],
+              "start": [
+                "msdhcp",
+                "DhcpSrvLog"
+              ],
+              "session": [
+                "msdhcp",
+                "DhcpSrvLog"
+              ],
+              "network": [
+                "msdns:analytical",
+                "msdhcp",
+                "WindowsFirewallLog",
+                "WMI:LocalNetwork",
+                "PerfmonMk:Network",
+                "Perfmon:Network",
+                "Perfmon:LocalNetwork",
+                "MSAD:NT6:DNS",
+                "DhcpSrvLog"
+              ],
+              "dhcp": [
+                "msdhcp",
+                "DhcpSrvLog"
+              ],
+              "registry": [
+                "WinRegistry"
+              ],
+              "change": [
+                "WinRegistry"
+              ],
+              "endpoint": [
+                "WinRegistry"
+              ],
+              "storage": [
+                "WinHostMon",
+                "WMI:LogicalDisk",
+                "WMI:FreeDiskSpace",
+                "PerfmonMk:LogicalDisk",
+                "Perfmon:LogicalDisk",
+                "Perfmon:FreeDiskSpace"
+              ],
+              "inventory": [
+                "WinHostMon",
+                "WMI:Version",
+                "WMI:UserAccounts"
+              ],
+              "oshost": [
+                "WinHostMon",
+                "PerfmonMk:System",
+                "PerfmonMk:Process",
+                "PerfmonMk:Network",
+                "PerfmonMk:Memory",
+                "PerfmonMk:LogicalDisk",
+                "PerfmonMk:CPU",
+                "Perfmon:System",
+                "Perfmon:Process",
+                "Perfmon:Network",
+                "Perfmon:Memory",
+                "Perfmon:LogicalDisk",
+                "Perfmon:LocalNetwork",
+                "Perfmon:FreeDiskSpace",
+                "Perfmon:CPUTime",
+                "Perfmon:CPU"
+              ],
+              "memory": [
+                "WinHostMon",
+                "WMI:Memory",
+                "WMI:ComputerSystem",
+                "PerfmonMk:Memory",
+                "Perfmon:Memory"
+              ],
+              "cpu": [
+                "WinHostMon",
+                "WMI:CPUTime",
+                "PerfmonMk:System",
+                "PerfmonMk:ProcessorInformation",
+                "PerfmonMk:CPU",
+                "Perfmon:System",
+                "Perfmon:ProcessorInformation",
+                "Perfmon:CPUTime",
+                "Perfmon:CPU"
+              ],
+              "performance": [
+                "WinHostMon",
+                "WMI:Uptime",
+                "WMI:Memory",
+                "WMI:LogicalDisk",
+                "WMI:LocalNetwork",
+                "WMI:FreeDiskSpace",
+                "WMI:ComputerSystem",
+                "WMI:CPUTime",
+                "Script:TimesyncStatus",
+                "PerfmonMk:System",
+                "PerfmonMk:ProcessorInformation",
+                "PerfmonMk:Process",
+                "PerfmonMk:Network",
+                "PerfmonMk:Memory",
+                "PerfmonMk:LogicalDisk",
+                "PerfmonMk:CPU",
+                "Perfmon:System",
+                "Perfmon:ProcessorInformation",
+                "Perfmon:Process",
+                "Perfmon:Network",
+                "Perfmon:Memory",
+                "Perfmon:LogicalDisk",
+                "Perfmon:LocalNetwork",
+                "Perfmon:FreeDiskSpace",
+                "Perfmon:CPUTime",
+                "Perfmon:CPU"
+              ],
+              "report": [
+                "WinHostMon",
+                "WMI:Version",
+                "WMI:UserAccounts",
+                "WMI:Uptime",
+                "WMI:Service",
+                "WMI:Memory",
+                "WMI:LocalProcesses",
+                "WMI:FreeDiskSpace",
+                "WMI:CPUTime",
+                "Script:TimesyncStatus",
+                "Script:ListeningPorts",
+                "PerfmonMk:System",
+                "PerfmonMk:ProcessorInformation",
+                "PerfmonMk:Process",
+                "PerfmonMk:Memory",
+                "PerfmonMk:CPU",
+                "Perfmon:System",
+                "Perfmon:ProcessorInformation",
+                "Perfmon:Process",
+                "Perfmon:Memory",
+                "Perfmon:FreeDiskSpace",
+                "Perfmon:CPUTime",
+                "Perfmon:CPU"
+              ],
+              "process": [
+                "WinHostMon",
+                "WMI:LocalProcesses",
+                "PerfmonMk:ProcessorInformation",
+                "PerfmonMk:Process",
+                "Perfmon:ProcessorInformation",
+                "Perfmon:Process"
+              ],
+              "windows": [
+                "msdhcp",
+                "WindowsUpdateLog",
+                "WinRegistry",
+                "WinPrintMon",
+                "WinNetMon",
+                "WinHostMon",
+                "WMI:WinEventLog:System",
+                "WMI:WinEventLog:Security",
+                "WMI:WinEventLog:Application",
+                "WMI:Version",
+                "WMI:UserAccounts",
+                "WMI:Uptime",
+                "WMI:Service",
+                "WMI:ScheduledJobs",
+                "WMI:Memory",
+                "WMI:LogicalDisk",
+                "WMI:LocalProcesses",
+                "WMI:LocalPhysicalDisk",
+                "WMI:LocalNetwork",
+                "WMI:InstalledUpdates",
+                "WMI:FreeDiskSpace",
+                "WMI:ComputerSystem",
+                "WMI:CPUTime",
+                "Script:TimesyncStatus",
+                "Script:TimesyncConfiguration",
+                "Script:NetworkConfiguration",
+                "Script:ListeningPorts",
+                "Script:InstalledApps",
+                "PerfmonMk:System",
+                "PerfmonMk:ProcessorInformation",
+                "PerfmonMk:Processor",
+                "PerfmonMk:Process",
+                "PerfmonMk:PhysicalDisk",
+                "PerfmonMk:Network_Interface",
+                "PerfmonMk:Network",
+                "PerfmonMk:Memory",
+                "PerfmonMk:LogicalDisk",
+                "PerfmonMk:CPU",
+                "Perfmon:System",
+                "Perfmon:ProcessorInformation",
+                "Perfmon:Processor",
+                "Perfmon:Process",
+                "Perfmon:PhysicalDisk",
+                "Perfmon:Network_Interface",
+                "Perfmon:Network",
+                "Perfmon:NTDS",
+                "Perfmon:Memory",
+                "Perfmon:LogicalDisk",
+                "Perfmon:LocalNetwork",
+                "Perfmon:FreeDiskSpace",
+                "Perfmon:DNS",
+                "Perfmon:DFS_Replicated_Folders",
+                "Perfmon:CPUTime",
+                "Perfmon:CPU",
+                "DhcpSrvLog"
+              ],
+              "os": [
+                "WindowsUpdateLog",
+                "WinRegistry",
+                "WinPrintMon",
+                "WinNetMon",
+                "WinHostMon",
+                "WMI:WinEventLog:System",
+                "WMI:WinEventLog:Security",
+                "WMI:WinEventLog:Application",
+                "WMI:Version",
+                "WMI:UserAccounts",
+                "WMI:Uptime",
+                "WMI:Service",
+                "WMI:ScheduledJobs",
+                "WMI:Memory",
+                "WMI:LogicalDisk",
+                "WMI:LocalProcesses",
+                "WMI:LocalPhysicalDisk",
+                "WMI:LocalNetwork",
+                "WMI:InstalledUpdates",
+                "WMI:FreeDiskSpace",
+                "WMI:ComputerSystem",
+                "WMI:CPUTime",
+                "Script:TimesyncStatus",
+                "Script:TimesyncConfiguration",
+                "Script:NetworkConfiguration",
+                "Script:ListeningPorts",
+                "Script:InstalledApps",
+                "PerfmonMk:System",
+                "PerfmonMk:ProcessorInformation",
+                "PerfmonMk:Processor",
+                "PerfmonMk:Process",
+                "PerfmonMk:PhysicalDisk",
+                "PerfmonMk:Network_Interface",
+                "PerfmonMk:Network",
+                "PerfmonMk:Memory",
+                "PerfmonMk:LogicalDisk",
+                "PerfmonMk:CPU",
+                "Perfmon:System",
+                "Perfmon:ProcessorInformation",
+                "Perfmon:Processor",
+                "Perfmon:Process",
+                "Perfmon:PhysicalDisk",
+                "Perfmon:Network_Interface",
+                "Perfmon:Network",
+                "Perfmon:NTDS",
+                "Perfmon:Memory",
+                "Perfmon:LogicalDisk",
+                "Perfmon:LocalNetwork",
+                "Perfmon:FreeDiskSpace",
+                "Perfmon:DNS",
+                "Perfmon:DFS_Replicated_Folders",
+                "Perfmon:CPUTime",
+                "Perfmon:CPU"
+              ],
+              "track_event_signatures": [
+                "xmlwineventlog",
+                "wineventlog",
+                "XmlWinEventLog",
+                "WinEventLog",
+                "WMI:WinEventLog:System",
+                "WMI:WinEventLog:Security",
+                "WMI:WinEventLog:Application"
+              ]
+            },
+            "versionCompatibility": [
+              {
+                "id": 132,
+                "status": "live",
+                "versionString": "10.5"
+              },
+              {
+                "id": 129,
+                "status": "live",
+                "versionString": "10.4"
+              },
+              {
+                "id": 128,
+                "status": "live",
+                "versionString": "10.3"
+              },
+              {
+                "id": 127,
+                "status": "live",
+                "versionString": "10.2"
+              },
+              {
+                "id": 121,
+                "status": "live",
+                "versionString": "10.1"
+              },
+              {
+                "id": 119,
+                "status": "live",
+                "versionString": "10.0"
+              },
+              {
+                "id": 115,
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "id": 111,
+                "status": "live",
+                "versionString": "9.3"
+              }
+            ],
+            "splCompatibility": "SPL1"
+          },
           {
             "actions": [],
             "cimCompatibility": [
@@ -1822,7 +2403,7 @@
         "support": "splunk",
         "title": "Splunk Add-on for Microsoft Windows",
         "troubleshooting": "",
-        "updatedTime": "2026-08-12T17:27:20.749378Z",
+        "updatedTime": "2026-08-17T07:46:48.209184Z",
         "videoLink": null,
         "appType": "addon",
         "scheduleRelease": null,
@@ -1844,7 +2425,7 @@
   "query": {
     "id": "742"
   },
-  "buildId": "w-5txjCL8Knl4bydxpe68",
+  "buildId": "NDwHRL6xfeMig5mJYZCQ6",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
