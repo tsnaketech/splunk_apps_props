@@ -36,7 +36,7 @@ MITRE Framework App for Splunk,mitre-framework-app-for-splunk.json,3.15.1,3.15.0
 SA-DetectionInsights,sa-detectioninsights.json,1.3.1,1.3.0,1970-01-01 00:00:00
 Splunk Add-on Builder,splunk-add-on-builder.json,4.5.1,4.5.0,1970-01-01 00:00:00
 Splunk Add-on for Apache Web Server,splunk-add-on-for-apache-web-server.json,3.0.0,N/A,1970-01-01 00:00:00
-Splunk Add-on for Microsoft Windows,splunk-add-on-for-microsoft-windows.json,11.0.1,10.0.1,1970-01-01 00:00:00
+Splunk Add-on for Microsoft Windows,splunk-add-on-for-microsoft-windows.json,11.0.2,11.0.1,1970-01-01 00:00:00
 Splunk Add-on for NGINX,splunk-add-on-for-nginx.json,3.3.1,3.3.0,1970-01-01 00:00:00
 Splunk Add-on for Unix and Linux,splunk-add-on-for-unix-and-linux.json,10.3.3,10.3.2,1970-01-01 00:00:00
 Splunk App for Anomaly Detection,splunk-app-for-anomaly-detection.json,1.1.2,1.1.1,1970-01-01 00:00:00
