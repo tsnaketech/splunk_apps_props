@@ -24,7 +24,7 @@
         },
         "description": "The Splunk ES Content Update (ESCU) app delivers pre-packaged Security Content. ESCU provides regular Security Content updates to help security practitioners address ongoing time-sensitive threats, attack methods, and other security issues.\n\nSecurity Content consists of tactics, techniques, and methodologies that help with detection, investigation, and response. Security Content enables security teams to directly operationalize detection searches, investigative searches, and other supporting details. ESCU can generate Notable/Risk Events in Splunk Enterprise Security. Security Content also contains easy-to-read background information and guidance, for key context on motivations and risks associated with attack techniques, as well as pragmatic advice on how to combat those techniques.\n\nThe analytic stories and their searches are also available at - https://github.com/splunk/security_content.",
         "documentation": "For more information please visit the [Splunk ES Content Update user documentation](https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update).",
-        "downloadCount": 186202,
+        "downloadCount": 186232,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/11bc718c-965a-11f1-8486-3a2c2ba6d24b.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": null,
@@ -576,7 +576,7 @@
   "query": {
     "id": "3449"
   },
-  "buildId": "NDwHRL6xfeMig5mJYZCQ6",
+  "buildId": "v0iE9YRCr3LUuyQ-MiRre",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

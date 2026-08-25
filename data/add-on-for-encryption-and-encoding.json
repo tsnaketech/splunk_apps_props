@@ -71,19 +71,15 @@
         },
         "release": {
           "actions": [],
-          "cimCompatibility": [
-            "6.x"
-          ],
-          "cimVersions": [
-            19
-          ],
+          "cimCompatibility": [],
+          "cimVersions": [],
           "cloudCompatible": true,
           "content": [
             "inputs"
           ],
           "fipsCompatibility": false,
-          "filename": "add-on-for-encryption-and-encoding_243.tgz",
-          "id": 39633,
+          "filename": "add-on-for-encryption-and-encoding_244.tar.gz",
+          "id": 123713,
           "installMethodDistributed": "appmgmt_phase",
           "installMethodSingle": "simple",
           "manifest": {
@@ -93,7 +89,7 @@
               "id": {
                 "group": null,
                 "name": "TA-cryptosuite",
-                "version": "2.4.3"
+                "version": "2.4.4"
               },
               "author": [
                 {
@@ -142,10 +138,10 @@
               "*"
             ]
           },
-          "md5": "4d3c4f098ff864820aa47973828cffae",
+          "md5": "0e50db344804b5f4362ec75dff05a47e",
           "minProductVersionStr": null,
-          "name": "2.4.3",
-          "path": "https://splunkbase.splunk.com/app/5062/release/2.4.3/download/",
+          "name": "2.4.4",
+          "path": "https://splunkbase.splunk.com/app/5062/release/2.4.4/download/",
           "platform": "independent",
           "productTypes": [
             "enterprise",
@@ -153,16 +149,41 @@
           ],
           "public": null,
           "publicEverTrue": false,
-          "publishedDatetime": "2025-09-12T10:26:54.974108Z",
-          "releaseNotes": "* Ensured future cloud compatibility\n* Updated Splunk Python SDK",
-          "sha256": "1ca06a219f03cd232bf2e3cf9fbfb4e2a17acba1388b47fa38ad3a86e20e8f4a",
-          "size": 5994393,
+          "publishedDatetime": "2026-08-23T20:07:13.072091Z",
+          "releaseNotes": "* ensured future splunk cloud compatibility",
+          "sha256": "a5bb96df11597e82a8f615e3066e2ee669bac59ea4bca0775b87a23a737453ae",
+          "size": 5994834,
           "tagsSourcetypes": {
             "__no_tag__": [
               "tacryptosuite:log"
             ]
           },
           "versionCompatibility": [
+            {
+              "id": 132,
+              "status": "live",
+              "versionString": "10.5"
+            },
+            {
+              "id": 129,
+              "status": "live",
+              "versionString": "10.4"
+            },
+            {
+              "id": 128,
+              "status": "live",
+              "versionString": "10.3"
+            },
+            {
+              "id": 127,
+              "status": "live",
+              "versionString": "10.2"
+            },
+            {
+              "id": 121,
+              "status": "live",
+              "versionString": "10.1"
+            },
             {
               "id": 119,
               "status": "live",
@@ -591,7 +612,7 @@
         "support": "not_supported",
         "title": "Add-On for Encryption and Encoding",
         "troubleshooting": "",
-        "updatedTime": "2026-08-23T20:12:13.128314Z",
+        "updatedTime": "2026-08-24T07:12:58.330927Z",
         "videoLink": null,
         "appType": "addon",
         "scheduleRelease": null,
@@ -613,7 +634,7 @@
   "query": {
     "id": "5062"
   },
-  "buildId": "NDwHRL6xfeMig5mJYZCQ6",
+  "buildId": "v0iE9YRCr3LUuyQ-MiRre",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
