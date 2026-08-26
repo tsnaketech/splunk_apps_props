@@ -34,8 +34,8 @@
         },
         "description": "Detection Insights is an application for Splunk Enterprise Security providing additional insights into everything surrounding and/or impacting your security detections.",
         "documentation": "See the application documentation [here](https://splunk.github.io/Splunk_App_for_Detection_Insights/) for more information on installing, configuring and using it.\n\nCredit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.\nThanks to Dean Luxton for reporting issues, fixes and improvement ideas!",
-        "downloadCount": 2852,
-        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/4ee9f8a8-6339-11f1-9167-caaa152ce87e.png",
+        "downloadCount": 2856,
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/94e63068-a0c6-11f1-bcf9-f2ac0c59514a.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": null,
         "isArchived": false,
@@ -89,8 +89,8 @@
           "cloudCompatible": true,
           "content": [],
           "fipsCompatibility": false,
-          "filename": "sa-detectioninsights_131.tar.gz",
-          "id": 43406,
+          "filename": "sa-detectioninsights_132.tar.gz",
+          "id": 123761,
           "installMethodDistributed": "appmgmt_phase",
           "installMethodSingle": "simple",
           "manifest": {
@@ -100,7 +100,7 @@
               "id": {
                 "group": null,
                 "name": "Splunk_App_for_Detection_Insights",
-                "version": "1.3.1"
+                "version": "1.3.2"
               },
               "author": [
                 {
@@ -148,10 +148,10 @@
               "_search_heads"
             ]
           },
-          "md5": "d0e62c0c683ce71d4f1c73cb4e5d4f18",
+          "md5": "4354df85110daacee1092be62a19b358",
           "minProductVersionStr": null,
-          "name": "1.3.1",
-          "path": "https://splunkbase.splunk.com/app/7066/release/1.3.1/download/",
+          "name": "1.3.2",
+          "path": "https://splunkbase.splunk.com/app/7066/release/1.3.2/download/",
           "platform": "independent",
           "productTypes": [
             "enterprise",
@@ -159,10 +159,10 @@
           ],
           "public": null,
           "publicEverTrue": false,
-          "publishedDatetime": "2026-06-08T12:55:21.423539Z",
-          "releaseNotes": "* Added data\\_source information to the overview checks and multiple dashboards\n\n**Important Note:**\u00a0This release has a new visualization requirement:\u00a0[https://splunkbase.splunk.com/app/7977](https://splunkbase.splunk.com/app/7977)",
-          "sha256": "d462c20a30a940f44b5b04d82da9ef2643ce2499205a029a9f7a0e4d21cf4196",
-          "size": 943993,
+          "publishedDatetime": "2026-08-25T20:50:18.801782Z",
+          "releaseNotes": "\\- Fix issue that would prevent detection without data\\_source information from displaying properly (S2PL-1701)",
+          "sha256": "847e02981d900142e0476489438b65f7ea4fbfc7aa0dd6d8c0a76d540cca509d",
+          "size": 945433,
           "tagsSourcetypes": {},
           "versionCompatibility": [
             {
@@ -204,11 +204,175 @@
               "id": 111,
               "status": "live",
               "versionString": "9.3"
+            },
+            {
+              "id": 110,
+              "status": "live",
+              "versionString": "9.2"
+            },
+            {
+              "id": 59,
+              "status": "live",
+              "versionString": "9.1"
+            },
+            {
+              "id": 54,
+              "status": "live",
+              "versionString": "9.0"
             }
           ],
           "splCompatibility": "SPL1"
         },
         "releases": [
+          {
+            "actions": [],
+            "cimCompatibility": [
+              "8.x",
+              "6.x",
+              "5.x"
+            ],
+            "cimVersions": [
+              52,
+              19,
+              17
+            ],
+            "cloudCompatible": true,
+            "content": [],
+            "fipsCompatibility": false,
+            "filename": "sa-detectioninsights_132.tar.gz",
+            "id": 123761,
+            "installMethodDistributed": "appmgmt_phase",
+            "installMethodSingle": "simple",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk App for Detection Insights",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_App_for_Detection_Insights",
+                  "version": "1.3.2"
+                },
+                "author": [
+                  {
+                    "name": "Christian Cloutier",
+                    "email": "ccloutier@splunk.com",
+                    "company": "Splunk, Inc."
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Splunk App for Detection Insights aim to provide richer insights and visualizations of your Enterprise Security Security Detections.",
+                "classification": {
+                  "intendedAudience": "Security Specialists",
+                  "categories": [
+                    "Security, Fraud & Compliance"
+                  ],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": "Splunk General Terms (SGT)",
+                  "text": "./README",
+                  "uri": "https://www.splunk.com/en_us/legal/splunk-general-terms.html"
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": null,
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed"
+              ],
+              "targetWorkloads": [
+                "_search_heads"
+              ]
+            },
+            "md5": "4354df85110daacee1092be62a19b358",
+            "minProductVersionStr": null,
+            "name": "1.3.2",
+            "path": "https://splunkbase.splunk.com/app/7066/release/1.3.2/download/",
+            "platform": "independent",
+            "productTypes": [
+              "enterprise",
+              "cloud"
+            ],
+            "public": null,
+            "publicEverTrue": false,
+            "publishedDatetime": "2026-08-25T20:50:18.801782Z",
+            "releaseNotes": "\\- Fix issue that would prevent detection without data\\_source information from displaying properly (S2PL-1701)",
+            "sha256": "847e02981d900142e0476489438b65f7ea4fbfc7aa0dd6d8c0a76d540cca509d",
+            "size": 945433,
+            "tagsSourcetypes": {},
+            "versionCompatibility": [
+              {
+                "id": 132,
+                "status": "live",
+                "versionString": "10.5"
+              },
+              {
+                "id": 129,
+                "status": "live",
+                "versionString": "10.4"
+              },
+              {
+                "id": 128,
+                "status": "live",
+                "versionString": "10.3"
+              },
+              {
+                "id": 127,
+                "status": "live",
+                "versionString": "10.2"
+              },
+              {
+                "id": 121,
+                "status": "live",
+                "versionString": "10.1"
+              },
+              {
+                "id": 119,
+                "status": "live",
+                "versionString": "10.0"
+              },
+              {
+                "id": 115,
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "id": 111,
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "id": 110,
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "id": 59,
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "id": 54,
+                "status": "live",
+                "versionString": "9.0"
+              }
+            ],
+            "splCompatibility": "SPL1"
+          },
           {
             "actions": [],
             "cimCompatibility": [
@@ -1084,7 +1248,7 @@
         "support": "not_supported",
         "title": "SA-DetectionInsights",
         "troubleshooting": "Please refer to the application documentation [here](https://splunk.github.io/Splunk_App_for_Detection_Insights/) for troubleshooting guidance.",
-        "updatedTime": "2026-06-08T13:01:47.553290Z",
+        "updatedTime": "2026-08-25T20:55:14.062342Z",
         "videoLink": null,
         "appType": "app",
         "scheduleRelease": null,
@@ -1106,7 +1270,7 @@
   "query": {
     "id": "7066"
   },
-  "buildId": "v0iE9YRCr3LUuyQ-MiRre",
+  "buildId": "Fx_lNtJ3GFRXJglPKy1wq",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
