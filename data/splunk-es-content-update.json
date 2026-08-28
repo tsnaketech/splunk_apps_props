@@ -24,8 +24,8 @@
         },
         "description": "The Splunk ES Content Update (ESCU) app delivers pre-packaged Security Content. ESCU provides regular Security Content updates to help security practitioners address ongoing time-sensitive threats, attack methods, and other security issues.\n\nSecurity Content consists of tactics, techniques, and methodologies that help with detection, investigation, and response. Security Content enables security teams to directly operationalize detection searches, investigative searches, and other supporting details. ESCU can generate Notable/Risk Events in Splunk Enterprise Security. Security Content also contains easy-to-read background information and guidance, for key context on motivations and risks associated with attack techniques, as well as pragmatic advice on how to combat those techniques.\n\nThe analytic stories and their searches are also available at - https://github.com/splunk/security_content.",
         "documentation": "For more information please visit the [Splunk ES Content Update user documentation](https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update).",
-        "downloadCount": 186409,
-        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/11bc718c-965a-11f1-8486-3a2c2ba6d24b.png",
+        "downloadCount": 186488,
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/cba9dd48-a25b-11f1-9e3d-b692a99a1324.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": null,
         "isArchived": false,
@@ -76,15 +76,15 @@
           "cloudCompatible": true,
           "content": [],
           "fipsCompatibility": false,
-          "filename": "splunk-es-content-update_640.tar.gz",
-          "id": 123533,
+          "filename": "splunk-es-content-update_650.tar.gz",
+          "id": 123817,
           "installMethodDistributed": "appmgmt_phase",
           "installMethodSingle": "simple",
           "manifest": null,
-          "md5": "4190d06ccd40aaa56a91b5569fb22907",
+          "md5": "86525302511325ad83ccd5149b151e47",
           "minProductVersionStr": null,
-          "name": "6.4.0",
-          "path": "https://splunkbase.splunk.com/app/3449/release/6.4.0/download/",
+          "name": "6.5.0",
+          "path": "https://splunkbase.splunk.com/app/3449/release/6.5.0/download/",
           "platform": "independent",
           "productTypes": [
             "enterprise",
@@ -92,10 +92,10 @@
           ],
           "public": null,
           "publicEverTrue": false,
-          "publishedDatetime": "2026-08-12T14:28:23.723140Z",
-          "releaseNotes": "GitHub - [https://github.com/splunk/security\\_content/releases/tag/v6.4.0](https://github.com/splunk/security_content/releases/tag/v6.4.0)\n\nSplunk Docs - [https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/release-notes/6.4/splunk-security-content-release-notes/whats-new](https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/release-notes/6.4/splunk-security-content-release-notes/whats-new)",
-          "sha256": "2e90bd39c6c82a93ea8c0a06d2df744ea6d428bb3ad3663d9615914fbeda250a",
-          "size": 2761756,
+          "publishedDatetime": "2026-08-27T21:10:58.397592Z",
+          "releaseNotes": "GitHub - [https://github.com/splunk/security\\_content/releases/tag/v6.5.0](https://github.com/splunk/security_content/releases/tag/v6.5.0)\n\nSplunk Docs - [https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/release-notes/6.5/splunk-security-content-release-notes/whats-new](https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/release-notes/6.5/splunk-security-content-release-notes/whats-new)",
+          "sha256": "478c39bc8a83c9841f6a812f303f8ec03b1714d766cbdaae7c8b1906907974a5",
+          "size": 2781138,
           "tagsSourcetypes": {},
           "versionCompatibility": [
             {
@@ -157,6 +157,103 @@
           "splCompatibility": "SPL1"
         },
         "releases": [
+          {
+            "actions": [],
+            "cimCompatibility": [
+              "8.x",
+              "6.x",
+              "5.x",
+              "4.x"
+            ],
+            "cimVersions": [
+              52,
+              19,
+              17,
+              16
+            ],
+            "cloudCompatible": true,
+            "content": [],
+            "fipsCompatibility": false,
+            "filename": "splunk-es-content-update_650.tar.gz",
+            "id": 123817,
+            "installMethodDistributed": "appmgmt_phase",
+            "installMethodSingle": "simple",
+            "manifest": null,
+            "md5": "86525302511325ad83ccd5149b151e47",
+            "minProductVersionStr": null,
+            "name": "6.5.0",
+            "path": "https://splunkbase.splunk.com/app/3449/release/6.5.0/download/",
+            "platform": "independent",
+            "productTypes": [
+              "enterprise",
+              "cloud"
+            ],
+            "public": null,
+            "publicEverTrue": false,
+            "publishedDatetime": "2026-08-27T21:10:58.397592Z",
+            "releaseNotes": "GitHub - [https://github.com/splunk/security\\_content/releases/tag/v6.5.0](https://github.com/splunk/security_content/releases/tag/v6.5.0)\n\nSplunk Docs - [https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/release-notes/6.5/splunk-security-content-release-notes/whats-new](https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/release-notes/6.5/splunk-security-content-release-notes/whats-new)",
+            "sha256": "478c39bc8a83c9841f6a812f303f8ec03b1714d766cbdaae7c8b1906907974a5",
+            "size": 2781138,
+            "tagsSourcetypes": {},
+            "versionCompatibility": [
+              {
+                "id": 132,
+                "status": "live",
+                "versionString": "10.5"
+              },
+              {
+                "id": 129,
+                "status": "live",
+                "versionString": "10.4"
+              },
+              {
+                "id": 128,
+                "status": "live",
+                "versionString": "10.3"
+              },
+              {
+                "id": 127,
+                "status": "live",
+                "versionString": "10.2"
+              },
+              {
+                "id": 121,
+                "status": "live",
+                "versionString": "10.1"
+              },
+              {
+                "id": 119,
+                "status": "live",
+                "versionString": "10.0"
+              },
+              {
+                "id": 115,
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "id": 111,
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "id": 110,
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "id": 59,
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "id": 54,
+                "status": "live",
+                "versionString": "9.0"
+              }
+            ],
+            "splCompatibility": "SPL1"
+          },
           {
             "actions": [],
             "cimCompatibility": [
@@ -445,101 +542,6 @@
               }
             ],
             "splCompatibility": "SPL1"
-          },
-          {
-            "actions": [],
-            "cimCompatibility": [
-              "6.x",
-              "5.x",
-              "4.x"
-            ],
-            "cimVersions": [
-              19,
-              17,
-              16
-            ],
-            "cloudCompatible": true,
-            "content": [],
-            "fipsCompatibility": false,
-            "filename": "splunk-es-content-update_610.tar.gz",
-            "id": 121971,
-            "installMethodDistributed": "appmgmt_phase",
-            "installMethodSingle": "simple",
-            "manifest": null,
-            "md5": "bddeb8f074a6ff9b0645ee89c5392ba1",
-            "minProductVersionStr": null,
-            "name": "6.1.0",
-            "path": "https://splunkbase.splunk.com/app/3449/release/6.1.0/download/",
-            "platform": "independent",
-            "productTypes": [
-              "enterprise",
-              "cloud"
-            ],
-            "public": null,
-            "publicEverTrue": false,
-            "publishedDatetime": "2026-06-17T17:14:58.003593Z",
-            "releaseNotes": "GitHub - [https://github.com/splunk/security\\_content/releases/tag/v6.1.0](https://github.com/splunk/security_content/releases/tag/v6.1.0)\n\nSplunk Docs - [https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/release-notes/6.1/splunk-security-content-release-notes/whats-new](https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/release-notes/6.1/splunk-security-content-release-notes/whats-new)",
-            "sha256": "0a39969e5797963ff2dbf744aebd74cdd1be5362af0ae23efceabcbf8b5d8226",
-            "size": 8552692,
-            "tagsSourcetypes": {},
-            "versionCompatibility": [
-              {
-                "id": 132,
-                "status": "live",
-                "versionString": "10.5"
-              },
-              {
-                "id": 129,
-                "status": "live",
-                "versionString": "10.4"
-              },
-              {
-                "id": 128,
-                "status": "live",
-                "versionString": "10.3"
-              },
-              {
-                "id": 127,
-                "status": "live",
-                "versionString": "10.2"
-              },
-              {
-                "id": 121,
-                "status": "live",
-                "versionString": "10.1"
-              },
-              {
-                "id": 119,
-                "status": "live",
-                "versionString": "10.0"
-              },
-              {
-                "id": 115,
-                "status": "live",
-                "versionString": "9.4"
-              },
-              {
-                "id": 111,
-                "status": "live",
-                "versionString": "9.3"
-              },
-              {
-                "id": 110,
-                "status": "live",
-                "versionString": "9.2"
-              },
-              {
-                "id": 59,
-                "status": "live",
-                "versionString": "9.1"
-              },
-              {
-                "id": 54,
-                "status": "live",
-                "versionString": "9.0"
-              }
-            ],
-            "splCompatibility": "SPL1"
           }
         ],
         "repoName": "Splunk Security Content",
@@ -554,7 +556,7 @@
         "support": "splunk",
         "title": "Splunk ES Content Update",
         "troubleshooting": "Open a Splunk Support Case or reach out to us directly at research@splunk.com.",
-        "updatedTime": "2026-08-12T14:56:04.387855Z",
+        "updatedTime": "2026-08-27T21:22:00.378750Z",
         "videoLink": null,
         "appType": "addon",
         "scheduleRelease": null,
