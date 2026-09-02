@@ -29,8 +29,8 @@
         },
         "description": "*** Important: Read upgrade Instructions and test add-on update before deploying to production ***\nThere are changes to default indexes and .conf changes in version 6.0 of Splunk Add-on for Unix and Linux that can break an existing installation if upgrade instructions are not followed in detail. If an existing Splunk Add-on for Unix and Linux is being upgraded, please test in a non-production environment first.\n\n\nThe Splunk Add-on for Unix and Linux works with the Splunk App for Unix and Linux to provide rapid insights and operational visibility into large-scale Unix and Linux environments.  With its new pre-packaged alerting capability, flexible service-based hosts grouping, and easy management of many data sources, it arms administrators with a powerful ability to quickly identify performance and capacity bottlenecks and outliers in Unix and Linux environments.",
         "documentation": "To learn about the Splunk Add-on for Unix and Linux, see the official documentation here on [docs.splunk.com](http://docs.splunk.com/Documentation/AddOns/released/UnixLinux/About).\r\n\r\nFor information on what has been fixed as well as known issues, see the [release notes](http://docs.splunk.com/Documentation/AddOns/released/UnixLinux/Releasenotes).",
-        "downloadCount": 466938,
-        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/ae2b093c-958f-11f1-94a3-8a27b806d925.png",
+        "downloadCount": 467057,
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/ed15f1de-a5cf-11f1-af44-f25091ca5909.png",
         "inquiryButtonText": "",
         "inquiryUrl": null,
         "isArchived": false,
@@ -80,8 +80,8 @@
           "cloudCompatible": true,
           "content": [],
           "fipsCompatibility": false,
-          "filename": "splunk-add-on-for-unix-and-linux_1033.spl",
-          "id": 123516,
+          "filename": "splunk-add-on-for-unix-and-linux_1034.spl",
+          "id": 123876,
           "installMethodDistributed": "appmgmt_phase",
           "installMethodSingle": "simple",
           "manifest": {
@@ -115,7 +115,7 @@
               "id": {
                 "group": null,
                 "name": "Splunk_TA_nix",
-                "version": "10.3.3"
+                "version": "10.3.4"
               },
               "license": {
                 "name": "Splunk Software License Agreement",
@@ -150,10 +150,10 @@
             ],
             "tasks": null
           },
-          "md5": "5c395fc57d7b0b7946b9106a8de00f4e",
+          "md5": "9371a2c83d44429052e2e37eb3ca9e1b",
           "minProductVersionStr": null,
-          "name": "10.3.3",
-          "path": "https://splunkbase.splunk.com/app/833/release/10.3.3/download/",
+          "name": "10.3.4",
+          "path": "https://splunkbase.splunk.com/app/833/release/10.3.4/download/",
           "platform": "independent",
           "productTypes": [
             "enterprise",
@@ -161,84 +161,11 @@
           ],
           "public": null,
           "publicEverTrue": false,
-          "publishedDatetime": "2026-08-11T14:19:36.389630Z",
-          "releaseNotes": "Python 3.13 support: The add-on now supports Python 3.13 alongside Python 3.9.",
-          "sha256": "f162f6b9477b3e5f18ab6c9669c82bcd348e90e43cfce23e8ced286a8e4ac4b0",
-          "size": 138177,
+          "publishedDatetime": "2026-09-01T06:39:48.418217Z",
+          "releaseNotes": "Improved the performance and reliability of the `vmstat` scripted inputs by retrieving CPU-count information directly through operating system-specific commands, removing the dependency on `hardware.sh`. No configuration changes are required.",
+          "sha256": "9bfb2061b55961841d5babba04ead35509730dc73a7b6bfbc676a7216e7f1ca2",
+          "size": 138383,
           "tagsSourcetypes": {
-            "check": [
-              "df",
-              "Unix:UserAccounts",
-              "Unix:Service",
-              "Unix:ListeningPorts",
-              "Linux:SELinuxConfig"
-            ],
-            "host": [
-              "df"
-            ],
-            "df": [
-              "df"
-            ],
-            "anomalous": [
-              "cpu",
-              "WMI:Memory",
-              "WMI:FreeDiskSpace",
-              "WMI:CPUTime",
-              "Unix:UserAccounts",
-              "Unix:Service",
-              "Perfmon:Memory",
-              "Perfmon:FreeDiskSpace",
-              "Perfmon:CPUTime"
-            ],
-            "oshost": [
-              "vmstat",
-              "ps",
-              "iostat",
-              "hardware",
-              "df",
-              "cpu",
-              "bandwidth",
-              "WMI:FreeDiskSpace",
-              "Perfmon:FreeDiskSpace"
-            ],
-            "performance": [
-              "vmstat",
-              "ps",
-              "nfsiostat",
-              "iostat",
-              "df",
-              "cpu",
-              "bandwidth",
-              "WMI:FreeDiskSpace",
-              "Perfmon:FreeDiskSpace"
-            ],
-            "avail": [
-              "hardware",
-              "cpu",
-              "WMI:FreeDiskSpace",
-              "Perfmon:FreeDiskSpace"
-            ],
-            "cpu": [
-              "vmstat",
-              "ps",
-              "netstat",
-              "iostat",
-              "hardware",
-              "cpu"
-            ],
-            "report": [
-              "vmstat",
-              "time",
-              "openPorts",
-              "netstat",
-              "lsof",
-              "iostat",
-              "cpu",
-              "Unix:UserAccounts",
-              "Unix:Service",
-              "Unix:ListeningPorts",
-              "Linux:SELinuxConfig"
-            ],
             "__no_tag__": [
               "who",
               "vmstat_metric",
@@ -335,6 +262,79 @@
               "iostat",
               "df",
               "bandwidth"
+            ],
+            "check": [
+              "df",
+              "Unix:UserAccounts",
+              "Unix:Service",
+              "Unix:ListeningPorts",
+              "Linux:SELinuxConfig"
+            ],
+            "host": [
+              "df"
+            ],
+            "df": [
+              "df"
+            ],
+            "anomalous": [
+              "cpu",
+              "WMI:Memory",
+              "WMI:FreeDiskSpace",
+              "WMI:CPUTime",
+              "Unix:UserAccounts",
+              "Unix:Service",
+              "Perfmon:Memory",
+              "Perfmon:FreeDiskSpace",
+              "Perfmon:CPUTime"
+            ],
+            "oshost": [
+              "vmstat",
+              "ps",
+              "iostat",
+              "hardware",
+              "df",
+              "cpu",
+              "bandwidth",
+              "WMI:FreeDiskSpace",
+              "Perfmon:FreeDiskSpace"
+            ],
+            "performance": [
+              "vmstat",
+              "ps",
+              "nfsiostat",
+              "iostat",
+              "df",
+              "cpu",
+              "bandwidth",
+              "WMI:FreeDiskSpace",
+              "Perfmon:FreeDiskSpace"
+            ],
+            "avail": [
+              "hardware",
+              "cpu",
+              "WMI:FreeDiskSpace",
+              "Perfmon:FreeDiskSpace"
+            ],
+            "cpu": [
+              "vmstat",
+              "ps",
+              "netstat",
+              "iostat",
+              "hardware",
+              "cpu"
+            ],
+            "report": [
+              "vmstat",
+              "time",
+              "openPorts",
+              "netstat",
+              "lsof",
+              "iostat",
+              "cpu",
+              "Unix:UserAccounts",
+              "Unix:Service",
+              "Unix:ListeningPorts",
+              "Linux:SELinuxConfig"
             ],
             "resource": [
               "vmstat",
@@ -440,6 +440,376 @@
           "splCompatibility": "SPL1"
         },
         "releases": [
+          {
+            "actions": [],
+            "cimCompatibility": [
+              "6.x"
+            ],
+            "cimVersions": [
+              19
+            ],
+            "cloudCompatible": true,
+            "content": [],
+            "fipsCompatibility": false,
+            "filename": "splunk-add-on-for-unix-and-linux_1034.spl",
+            "id": 123876,
+            "installMethodDistributed": "appmgmt_phase",
+            "installMethodSingle": "simple",
+            "manifest": {
+              "dependencies": null,
+              "incompatibleApps": null,
+              "info": {
+                "author": [
+                  {
+                    "name": "Splunk LLC.",
+                    "email": null,
+                    "company": null
+                  }
+                ],
+                "classification": {
+                  "categories": [
+                    "IT Operations",
+                    "Utilities"
+                  ],
+                  "developmentStatus": "Production/Stable",
+                  "intendedAudience": "IT"
+                },
+                "commonInformationModels": {
+                  "Authentication": "=6.2.0",
+                  "Change": "=6.2.0",
+                  "Endpoint": "=6.2.0",
+                  "Inventory": "=6.2.0",
+                  "Network Sessions": "=6.2.0",
+                  "Performance": "=6.2.0"
+                },
+                "description": "Splunk Add-on for Unix and Linux",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_TA_nix",
+                  "version": "10.3.4"
+                },
+                "license": {
+                  "name": "Splunk Software License Agreement",
+                  "text": "LICENSES/LicenseRef-Splunk-8-2021.txt",
+                  "uri": "http://www.splunk.com/view/SP-CAAAAFA"
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseDate": null,
+                "releaseNotes": {
+                  "name": "README",
+                  "text": "./README.txt",
+                  "uri": "https://docs.splunk.com/Documentation/AddOns/released/UnixLinux/Releasenotes"
+                },
+                "title": "Splunk Add-on for Unix and Linux"
+              },
+              "inputGroups": null,
+              "platformRequirements": null,
+              "schemaVersion": "2.0.0",
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed",
+                "_search_head_clustering"
+              ],
+              "targetWorkloads": [
+                "_search_heads",
+                "_forwarders",
+                "_indexers"
+              ],
+              "tasks": null
+            },
+            "md5": "9371a2c83d44429052e2e37eb3ca9e1b",
+            "minProductVersionStr": null,
+            "name": "10.3.4",
+            "path": "https://splunkbase.splunk.com/app/833/release/10.3.4/download/",
+            "platform": "independent",
+            "productTypes": [
+              "enterprise",
+              "cloud"
+            ],
+            "public": null,
+            "publicEverTrue": false,
+            "publishedDatetime": "2026-09-01T06:39:48.418217Z",
+            "releaseNotes": "Improved the performance and reliability of the `vmstat` scripted inputs by retrieving CPU-count information directly through operating system-specific commands, removing the dependency on `hardware.sh`. No configuration changes are required.",
+            "sha256": "9bfb2061b55961841d5babba04ead35509730dc73a7b6bfbc676a7216e7f1ca2",
+            "size": 138383,
+            "tagsSourcetypes": {
+              "__no_tag__": [
+                "who",
+                "vmstat_metric",
+                "usersWithLoginPrivs",
+                "syslog",
+                "ps_metric",
+                "protocol",
+                "package",
+                "linux_audit",
+                "lastlog",
+                "iostat_metric",
+                "interfaces_metric",
+                "ignored_type",
+                "df_metric",
+                "cpu_metric",
+                "config_file",
+                "bash_history"
+              ],
+              "user": [
+                "Unix:UserAccounts"
+              ],
+              "service": [
+                "Unix:Service"
+              ],
+              "selinux": [
+                "Linux:SELinuxConfig"
+              ],
+              "config": [
+                "Unix:UserAccounts",
+                "Unix:Service",
+                "Unix:ListeningPorts",
+                "Linux:SELinuxConfig"
+              ],
+              "disk": [
+                "WMI:FreeDiskSpace",
+                "Perfmon:FreeDiskSpace"
+              ],
+              "application": [
+                "Linux:SELinuxConfig"
+              ],
+              "memory": [
+                "vmstat",
+                "hardware"
+              ],
+              "vmstat": [
+                "vmstat"
+              ],
+              "time": [
+                "time"
+              ],
+              "top": [
+                "top"
+              ],
+              "process": [
+                "top",
+                "ps"
+              ],
+              "ps": [
+                "ps"
+              ],
+              "port": [
+                "netstat"
+              ],
+              "listening": [
+                "netstat"
+              ],
+              "netstat": [
+                "netstat"
+              ],
+              "file": [
+                "lsof",
+                "auditd"
+              ],
+              "lsof": [
+                "lsof"
+              ],
+              "iostat": [
+                "iostat"
+              ],
+              "storage": [
+                "nfsiostat",
+                "iostat",
+                "df",
+                "WMI:FreeDiskSpace",
+                "Perfmon:FreeDiskSpace"
+              ],
+              "success": [
+                "vmstat",
+                "top",
+                "time",
+                "ps",
+                "netstat",
+                "lsof",
+                "iostat",
+                "df",
+                "bandwidth"
+              ],
+              "check": [
+                "df",
+                "Unix:UserAccounts",
+                "Unix:Service",
+                "Unix:ListeningPorts",
+                "Linux:SELinuxConfig"
+              ],
+              "host": [
+                "df"
+              ],
+              "df": [
+                "df"
+              ],
+              "anomalous": [
+                "cpu",
+                "WMI:Memory",
+                "WMI:FreeDiskSpace",
+                "WMI:CPUTime",
+                "Unix:UserAccounts",
+                "Unix:Service",
+                "Perfmon:Memory",
+                "Perfmon:FreeDiskSpace",
+                "Perfmon:CPUTime"
+              ],
+              "oshost": [
+                "vmstat",
+                "ps",
+                "iostat",
+                "hardware",
+                "df",
+                "cpu",
+                "bandwidth",
+                "WMI:FreeDiskSpace",
+                "Perfmon:FreeDiskSpace"
+              ],
+              "performance": [
+                "vmstat",
+                "ps",
+                "nfsiostat",
+                "iostat",
+                "df",
+                "cpu",
+                "bandwidth",
+                "WMI:FreeDiskSpace",
+                "Perfmon:FreeDiskSpace"
+              ],
+              "avail": [
+                "hardware",
+                "cpu",
+                "WMI:FreeDiskSpace",
+                "Perfmon:FreeDiskSpace"
+              ],
+              "cpu": [
+                "vmstat",
+                "ps",
+                "netstat",
+                "iostat",
+                "hardware",
+                "cpu"
+              ],
+              "report": [
+                "vmstat",
+                "time",
+                "openPorts",
+                "netstat",
+                "lsof",
+                "iostat",
+                "cpu",
+                "Unix:UserAccounts",
+                "Unix:Service",
+                "Unix:ListeningPorts",
+                "Linux:SELinuxConfig"
+              ],
+              "resource": [
+                "vmstat",
+                "lsof",
+                "iostat",
+                "cpu",
+                "bandwidth",
+                "auditd"
+              ],
+              "end": [
+                "linux_secure",
+                "dhcpd"
+              ],
+              "start": [
+                "linux_secure",
+                "dhcpd"
+              ],
+              "session": [
+                "linux_secure",
+                "dhcpd"
+              ],
+              "dhcp": [
+                "dhcpd"
+              ],
+              "network": [
+                "linux_secure",
+                "interfaces",
+                "dhcpd",
+                "bandwidth"
+              ],
+              "inventory": [
+                "interfaces",
+                "hardware",
+                "Unix:UserAccounts"
+              ],
+              "error": [
+                "dhcpd"
+              ],
+              "unix": [
+                "osx_secure",
+                "openPorts",
+                "linux_secure",
+                "hardware",
+                "dhcpd",
+                "cpu",
+                "auditd",
+                "aix_secure"
+              ],
+              "os": [
+                "top",
+                "time",
+                "osx_secure",
+                "openPorts",
+                "netstat",
+                "linux_secure",
+                "hardware",
+                "cpu",
+                "auditd",
+                "aix_secure",
+                "WMI:FreeDiskSpace",
+                "Unix:Service",
+                "Unix:ListeningPorts",
+                "Perfmon:FreeDiskSpace"
+              ]
+            },
+            "versionCompatibility": [
+              {
+                "id": 132,
+                "status": "live",
+                "versionString": "10.5"
+              },
+              {
+                "id": 129,
+                "status": "live",
+                "versionString": "10.4"
+              },
+              {
+                "id": 128,
+                "status": "live",
+                "versionString": "10.3"
+              },
+              {
+                "id": 127,
+                "status": "live",
+                "versionString": "10.2"
+              },
+              {
+                "id": 121,
+                "status": "live",
+                "versionString": "10.1"
+              },
+              {
+                "id": 119,
+                "status": "live",
+                "versionString": "10.0"
+              },
+              {
+                "id": 115,
+                "status": "live",
+                "versionString": "9.4"
+              }
+            ],
+            "splCompatibility": "SPL1"
+          },
           {
             "actions": [],
             "cimCompatibility": [
@@ -1579,7 +1949,7 @@
         "support": "splunk",
         "title": "Splunk Add-on for Unix and Linux",
         "troubleshooting": "",
-        "updatedTime": "2026-08-11T14:25:19.054275Z",
+        "updatedTime": "2026-09-01T06:46:14.139181Z",
         "videoLink": null,
         "appType": "addon",
         "scheduleRelease": null,
@@ -1601,7 +1971,7 @@
   "query": {
     "id": "833"
   },
-  "buildId": "VSSHt4A9V5DsMQ6AUU-j-",
+  "buildId": "_182weVRxRQDqMkwhz40n",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
