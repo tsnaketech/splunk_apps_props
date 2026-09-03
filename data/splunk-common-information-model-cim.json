@@ -24,7 +24,7 @@
         },
         "description": "The Common Information Model is a set of field names and tags which are expected to define the least common denominator of a domain of interest. It is implemented as documentation on the Splunk docs website and JSON data model files in this add-on. Use the CIM add-on when modeling data or building apps to ensure compatibility between apps, or to just take advantage of these data models to pivot and report.",
         "documentation": "[Release Notes](https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on)\nPlease see the [Splunk Common Information Model Add-on user documentation](https://help.splunk.com/en/data-management/common-information-model/6.1/introduction/overview-of-the-splunk-common-information-model).",
-        "downloadCount": 433101,
+        "downloadCount": 433232,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/b05a7bb8-a564-11f1-9ca3-362bc53b2c18.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": null,
@@ -72,8 +72,8 @@
             "inputs"
           ],
           "fipsCompatibility": false,
-          "filename": "splunk-common-information-model-cim_850.tgz",
-          "id": 42213,
+          "filename": "splunk-common-information-model-cim_870.tgz",
+          "id": 123873,
           "installMethodDistributed": "appmgmt_phase",
           "installMethodSingle": "simple",
           "manifest": {
@@ -83,7 +83,7 @@
               "id": {
                 "group": null,
                 "name": "Splunk_SA_CIM",
-                "version": "8.5.0"
+                "version": "8.7.0"
               },
               "author": [
                 {
@@ -133,10 +133,10 @@
               "_indexers"
             ]
           },
-          "md5": "dacdfd27d35675a591f2ad3b207a25bc",
+          "md5": "aef3195fde633d7218d3708e4e6f50a4",
           "minProductVersionStr": null,
-          "name": "8.5.0",
-          "path": "https://splunkbase.splunk.com/app/1621/release/8.5.0/download/",
+          "name": "8.7.0",
+          "path": "https://splunkbase.splunk.com/app/1621/release/8.7.0/download/",
           "platform": "independent",
           "productTypes": [
             "enterprise",
@@ -144,10 +144,10 @@
           ],
           "public": null,
           "publicEverTrue": false,
-          "publishedDatetime": "2026-04-02T20:31:13.577920Z",
-          "releaseNotes": "https://help.splunk.com/en/splunk-enterprise-security-8/common-information-model/6.4/introduction/release-notes-for-the-splunk-common-information-model-add-on",
-          "sha256": "ed93ba614f12805ab428d71d45053ced12ce2ff1198b2f46b48537c0e0d6a412",
-          "size": 2230520,
+          "publishedDatetime": "2026-09-02T17:52:10Z",
+          "releaseNotes": "[https://help.splunk.com/en/splunk-cloud-platform/common-information-model/8.7/introduction/release-notes-for-the-splunk-common-information-model-add-on](https://help.splunk.com/en/splunk-cloud-platform/common-information-model/8.7/introduction/release-notes-for-the-splunk-common-information-model-add-on)",
+          "sha256": "4c80c3b732ce99004c5343268f63467a6d70ebf99257dc42e5775d6890e46fcb",
+          "size": 972853,
           "tagsSourcetypes": {
             "__no_tag__": [
               "stash_common_action_model",
@@ -206,6 +206,152 @@
           "splCompatibility": "SPL1"
         },
         "releases": [
+          {
+            "actions": [],
+            "cimCompatibility": [
+              "8.x"
+            ],
+            "cimVersions": [
+              52
+            ],
+            "cloudCompatible": true,
+            "content": [
+              "inputs"
+            ],
+            "fipsCompatibility": false,
+            "filename": "splunk-common-information-model-cim_870.tgz",
+            "id": 123873,
+            "installMethodDistributed": "appmgmt_phase",
+            "installMethodSingle": "simple",
+            "manifest": {
+              "schemaVersion": "2.0.0",
+              "info": {
+                "title": "Splunk Supporting Common Information Model Add-on",
+                "id": {
+                  "group": null,
+                  "name": "Splunk_SA_CIM",
+                  "version": "8.7.0"
+                },
+                "author": [
+                  {
+                    "name": "Splunk, Inc.",
+                    "email": "support@splunk.com",
+                    "company": "Splunk, Inc."
+                  }
+                ],
+                "releaseDate": null,
+                "description": "Splunk Supporting Common Information Model Add-on",
+                "classification": {
+                  "intendedAudience": null,
+                  "categories": [],
+                  "developmentStatus": null
+                },
+                "commonInformationModels": null,
+                "license": {
+                  "name": null,
+                  "text": "./license-eula.txt",
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseNotes": {
+                  "name": null,
+                  "text": "./README.txt",
+                  "uri": null
+                }
+              },
+              "dependencies": null,
+              "tasks": [
+                "batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model"
+              ],
+              "inputGroups": null,
+              "incompatibleApps": null,
+              "platformRequirements": null,
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed",
+                "_search_head_clustering"
+              ],
+              "targetWorkloads": [
+                "_search_heads",
+                "_indexers"
+              ]
+            },
+            "md5": "aef3195fde633d7218d3708e4e6f50a4",
+            "minProductVersionStr": null,
+            "name": "8.7.0",
+            "path": "https://splunkbase.splunk.com/app/1621/release/8.7.0/download/",
+            "platform": "independent",
+            "productTypes": [
+              "enterprise",
+              "cloud"
+            ],
+            "public": null,
+            "publicEverTrue": false,
+            "publishedDatetime": "2026-09-02T17:52:10Z",
+            "releaseNotes": "[https://help.splunk.com/en/splunk-cloud-platform/common-information-model/8.7/introduction/release-notes-for-the-splunk-common-information-model-add-on](https://help.splunk.com/en/splunk-cloud-platform/common-information-model/8.7/introduction/release-notes-for-the-splunk-common-information-model-add-on)",
+            "sha256": "4c80c3b732ce99004c5343268f63467a6d70ebf99257dc42e5775d6890e46fcb",
+            "size": 972853,
+            "tagsSourcetypes": {
+              "__no_tag__": [
+                "stash_common_action_model",
+                "splunkd",
+                "splunk_web_access",
+                "relaymodaction",
+                "modaction:queue_handler",
+                "modaction:invocations_rest_handler",
+                "modaction:adhoc_rest_handler",
+                "datamodelsimple",
+                "audittrail"
+              ]
+            },
+            "versionCompatibility": [
+              {
+                "id": 132,
+                "status": "live",
+                "versionString": "10.5"
+              },
+              {
+                "id": 129,
+                "status": "live",
+                "versionString": "10.4"
+              },
+              {
+                "id": 128,
+                "status": "live",
+                "versionString": "10.3"
+              },
+              {
+                "id": 127,
+                "status": "live",
+                "versionString": "10.2"
+              },
+              {
+                "id": 121,
+                "status": "live",
+                "versionString": "10.1"
+              },
+              {
+                "id": 119,
+                "status": "live",
+                "versionString": "10.0"
+              },
+              {
+                "id": 115,
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "id": 111,
+                "status": "live",
+                "versionString": "9.3"
+              }
+            ],
+            "splCompatibility": "SPL1"
+          },
           {
             "actions": [],
             "cimCompatibility": [
@@ -3728,7 +3874,7 @@
         "support": "splunk",
         "title": "Splunk Common Information Model (CIM)",
         "troubleshooting": "",
-        "updatedTime": "2026-08-31T17:53:34.889169Z",
+        "updatedTime": "2026-09-02T14:56:51.431433Z",
         "videoLink": null,
         "appType": "addon",
         "scheduleRelease": null,

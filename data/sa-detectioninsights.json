@@ -34,7 +34,7 @@
         },
         "description": "Detection Insights is an application for Splunk Enterprise Security providing additional insights into everything surrounding and/or impacting your security detections.",
         "documentation": "See the application documentation [here](https://splunk.github.io/Splunk_App_for_Detection_Insights/) for more information on installing, configuring and using it.\n\nCredit goes to the awesome Gerry D'Costa for the Search Concurrency diagram.\nThanks to Dean Luxton for reporting issues, fixes and improvement ideas!",
-        "downloadCount": 2908,
+        "downloadCount": 2920,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/94e63068-a0c6-11f1-bcf9-f2ac0c59514a.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": null,
