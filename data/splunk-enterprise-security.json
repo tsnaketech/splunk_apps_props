@@ -1286,7 +1286,7 @@
         "support": "premium",
         "title": "Splunk Enterprise Security",
         "troubleshooting": "https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security",
-        "updatedTime": "2026-09-02T15:11:18.194448Z",
+        "updatedTime": "2026-09-09T15:22:58.858252Z",
         "videoLink": null,
         "appType": "app",
         "scheduleRelease": null,
@@ -1308,7 +1308,7 @@
   "query": {
     "id": "263"
   },
-  "buildId": "v7ubC6U95pTFw16ei9ERR",
+  "buildId": "JBfrwVBUvvuvos6yz-4mn",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

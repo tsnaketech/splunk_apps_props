@@ -24,8 +24,8 @@
         },
         "description": "The Splunk ES Content Update (ESCU) app delivers pre-packaged Security Content. ESCU provides regular Security Content updates to help security practitioners address ongoing time-sensitive threats, attack methods, and other security issues.\n\nSecurity Content consists of tactics, techniques, and methodologies that help with detection, investigation, and response. Security Content enables security teams to directly operationalize detection searches, investigative searches, and other supporting details. ESCU can generate Notable/Risk Events in Splunk Enterprise Security. Security Content also contains easy-to-read background information and guidance, for key context on motivations and risks associated with attack techniques, as well as pragmatic advice on how to combat those techniques.\n\nThe analytic stories and their searches are also available at - https://github.com/splunk/security_content.",
         "documentation": "For more information please visit the [Splunk ES Content Update user documentation](https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update).",
-        "downloadCount": 187466,
-        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/cba9dd48-a25b-11f1-9e3d-b692a99a1324.png",
+        "downloadCount": 187556,
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/0d5caf54-aca7-11f1-9610-6ad8863d2072.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": null,
         "isArchived": false,
@@ -556,7 +556,7 @@
         "support": "splunk",
         "title": "Splunk ES Content Update",
         "troubleshooting": "Open a Splunk Support Case or reach out to us directly at research@splunk.com.",
-        "updatedTime": "2026-08-27T21:22:00.378750Z",
+        "updatedTime": "2026-09-09T23:38:30.488763Z",
         "videoLink": null,
         "appType": "addon",
         "scheduleRelease": null,
@@ -578,7 +578,7 @@
   "query": {
     "id": "3449"
   },
-  "buildId": "v7ubC6U95pTFw16ei9ERR",
+  "buildId": "JBfrwVBUvvuvos6yz-4mn",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
