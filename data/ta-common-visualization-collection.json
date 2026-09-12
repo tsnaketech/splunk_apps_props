@@ -14,7 +14,6 @@
         ],
         "cloudCompatible": false,
         "contributors": [],
-        "collections": [],
         "contactEmail": "yoyonet-info@gmx.net",
         "contactNotes": "",
         "displayAuthor": {
@@ -116,7 +115,7 @@
   "query": {
     "id": "6137"
   },
-  "buildId": "JBfrwVBUvvuvos6yz-4mn",
+  "buildId": "NsiflYXjsiHBa8RY6_L1q",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

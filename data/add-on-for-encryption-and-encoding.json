@@ -19,7 +19,6 @@
         ],
         "cloudCompatible": true,
         "contributors": [],
-        "collections": [],
         "contactEmail": "",
         "contactNotes": "Feel free to submit issues via https://github.com/hRun/TA_cryptosuite/issues.",
         "displayAuthor": {
@@ -634,7 +633,7 @@
   "query": {
     "id": "5062"
   },
-  "buildId": "JBfrwVBUvvuvos6yz-4mn",
+  "buildId": "NsiflYXjsiHBa8RY6_L1q",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

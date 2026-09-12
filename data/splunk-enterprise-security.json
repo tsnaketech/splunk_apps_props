@@ -14,11 +14,6 @@
         ],
         "cloudCompatible": true,
         "contributors": [],
-        "collections": [
-          {
-            "displayName": "Getting Started with Security"
-          }
-        ],
         "contactEmail": "",
         "contactNotes": "",
         "displayAuthor": {
@@ -1308,7 +1303,7 @@
   "query": {
     "id": "263"
   },
-  "buildId": "JBfrwVBUvvuvos6yz-4mn",
+  "buildId": "NsiflYXjsiHBa8RY6_L1q",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
