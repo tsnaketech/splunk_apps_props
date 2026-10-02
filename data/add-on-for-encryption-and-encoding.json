@@ -159,6 +159,11 @@
           },
           "versionCompatibility": [
             {
+              "id": 136,
+              "status": "live",
+              "versionString": "10.6"
+            },
+            {
               "id": 132,
               "status": "live",
               "versionString": "10.5"
@@ -214,7 +219,9 @@
               "versionString": "9.0"
             }
           ],
-          "splCompatibility": "SPL1"
+          "splCompatibility": "SPL1",
+          "bundleSha256": null,
+          "bundleFilename": null
         },
         "releases": [
           {
@@ -308,6 +315,11 @@
             },
             "versionCompatibility": [
               {
+                "id": 136,
+                "status": "live",
+                "versionString": "10.6"
+              },
+              {
                 "id": 132,
                 "status": "live",
                 "versionString": "10.5"
@@ -363,7 +375,9 @@
                 "versionString": "9.0"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -490,7 +504,9 @@
                 "versionString": "9.0"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -597,7 +613,9 @@
                 "versionString": "9.0"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           }
         ],
         "repoName": "TA-Cryptosuite",
@@ -633,7 +651,7 @@
   "query": {
     "id": "5062"
   },
-  "buildId": "Y16KnsuAEUN0T-d99o0mt",
+  "buildId": "5ogAGi0-BpOA2k_iJ4VJm",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

@@ -28,7 +28,7 @@
         },
         "description": "*** Important: Read upgrade Instructions and test add-on update before deploying to production ***\nThere are changes to default indexes and .conf changes in version 6.0 of Splunk Add-on for Unix and Linux that can break an existing installation if upgrade instructions are not followed in detail. If an existing Splunk Add-on for Unix and Linux is being upgraded, please test in a non-production environment first.\n\n\nThe Splunk Add-on for Unix and Linux works with the Splunk App for Unix and Linux to provide rapid insights and operational visibility into large-scale Unix and Linux environments.  With its new pre-packaged alerting capability, flexible service-based hosts grouping, and easy management of many data sources, it arms administrators with a powerful ability to quickly identify performance and capacity bottlenecks and outliers in Unix and Linux environments.",
         "documentation": "To learn about the Splunk Add-on for Unix and Linux, see the official documentation here on [docs.splunk.com](http://docs.splunk.com/Documentation/AddOns/released/UnixLinux/About).\r\n\r\nFor information on what has been fixed as well as known issues, see the [release notes](http://docs.splunk.com/Documentation/AddOns/released/UnixLinux/Releasenotes).",
-        "downloadCount": 470627,
+        "downloadCount": 470817,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/ed15f1de-a5cf-11f1-af44-f25091ca5909.png",
         "inquiryButtonText": "",
         "inquiryUrl": null,
@@ -401,6 +401,11 @@
           },
           "versionCompatibility": [
             {
+              "id": 136,
+              "status": "live",
+              "versionString": "10.6"
+            },
+            {
               "id": 132,
               "status": "live",
               "versionString": "10.5"
@@ -436,7 +441,9 @@
               "versionString": "9.4"
             }
           ],
-          "splCompatibility": "SPL1"
+          "splCompatibility": "SPL1",
+          "bundleSha256": null,
+          "bundleFilename": null
         },
         "releases": [
           {
@@ -772,6 +779,11 @@
             },
             "versionCompatibility": [
               {
+                "id": 136,
+                "status": "live",
+                "versionString": "10.6"
+              },
+              {
                 "id": 132,
                 "status": "live",
                 "versionString": "10.5"
@@ -807,7 +819,9 @@
                 "versionString": "9.4"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1142,6 +1156,11 @@
             },
             "versionCompatibility": [
               {
+                "id": 136,
+                "status": "live",
+                "versionString": "10.6"
+              },
+              {
                 "id": 132,
                 "status": "live",
                 "versionString": "10.5"
@@ -1177,7 +1196,9 @@
                 "versionString": "9.4"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1512,6 +1533,11 @@
             },
             "versionCompatibility": [
               {
+                "id": 136,
+                "status": "live",
+                "versionString": "10.6"
+              },
+              {
                 "id": 132,
                 "status": "live",
                 "versionString": "10.5"
@@ -1557,7 +1583,9 @@
                 "versionString": "9.2"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1892,6 +1920,11 @@
             },
             "versionCompatibility": [
               {
+                "id": 136,
+                "status": "live",
+                "versionString": "10.6"
+              },
+              {
                 "id": 132,
                 "status": "live",
                 "versionString": "10.5"
@@ -1937,7 +1970,9 @@
                 "versionString": "9.2"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           }
         ],
         "repoName": "",
@@ -1970,7 +2005,7 @@
   "query": {
     "id": "833"
   },
-  "buildId": "Y16KnsuAEUN0T-d99o0mt",
+  "buildId": "5ogAGi0-BpOA2k_iJ4VJm",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

@@ -23,7 +23,7 @@
         },
         "description": "The Splunk ES Content Update (ESCU) app delivers pre-packaged Security Content. ESCU provides regular Security Content updates to help security practitioners address ongoing time-sensitive threats, attack methods, and other security issues.\n\nSecurity Content consists of tactics, techniques, and methodologies that help with detection, investigation, and response. Security Content enables security teams to directly operationalize detection searches, investigative searches, and other supporting details. ESCU can generate Notable/Risk Events in Splunk Enterprise Security. Security Content also contains easy-to-read background information and guidance, for key context on motivations and risks associated with attack techniques, as well as pragmatic advice on how to combat those techniques.\n\nThe analytic stories and their searches are also available at - https://github.com/splunk/security_content.",
         "documentation": "For more information please visit the [Splunk ES Content Update user documentation](https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update).",
-        "downloadCount": 189453,
+        "downloadCount": 189550,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/12b651fe-b75f-11f1-b4e3-261a0dae699a.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": null,
@@ -96,6 +96,11 @@
           "tagsSourcetypes": {},
           "versionCompatibility": [
             {
+              "id": 136,
+              "status": "live",
+              "versionString": "10.6"
+            },
+            {
               "id": 132,
               "status": "live",
               "versionString": "10.5"
@@ -151,7 +156,9 @@
               "versionString": "9.0"
             }
           ],
-          "splCompatibility": "SPL1"
+          "splCompatibility": "SPL1",
+          "bundleSha256": null,
+          "bundleFilename": null
         },
         "releases": [
           {
@@ -192,6 +199,11 @@
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
+                "id": 136,
+                "status": "live",
+                "versionString": "10.6"
+              },
+              {
                 "id": 132,
                 "status": "live",
                 "versionString": "10.5"
@@ -247,7 +259,9 @@
                 "versionString": "9.0"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -287,6 +301,11 @@
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
+                "id": 136,
+                "status": "live",
+                "versionString": "10.6"
+              },
+              {
                 "id": 132,
                 "status": "live",
                 "versionString": "10.5"
@@ -342,7 +361,9 @@
                 "versionString": "9.0"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -384,6 +405,11 @@
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
+                "id": 136,
+                "status": "live",
+                "versionString": "10.6"
+              },
+              {
                 "id": 132,
                 "status": "live",
                 "versionString": "10.5"
@@ -439,7 +465,9 @@
                 "versionString": "9.0"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -481,6 +509,11 @@
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
+                "id": 136,
+                "status": "live",
+                "versionString": "10.6"
+              },
+              {
                 "id": 132,
                 "status": "live",
                 "versionString": "10.5"
@@ -536,7 +569,9 @@
                 "versionString": "9.0"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           }
         ],
         "repoName": "Splunk Security Content",
@@ -573,7 +608,7 @@
   "query": {
     "id": "3449"
   },
-  "buildId": "Y16KnsuAEUN0T-d99o0mt",
+  "buildId": "5ogAGi0-BpOA2k_iJ4VJm",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

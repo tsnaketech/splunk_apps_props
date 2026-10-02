@@ -24,7 +24,7 @@
         "description": "Splunk Enterprise Security (ES) solves a wide range of security analytics and operations use cases including continuous security monitoring, advanced threat detection, compliance, incident investigation, forensics and incident response. Splunk ES delivers an end-to-end view of organizations\u2019 security postures with flexible investigations, unmatched performance, and the most flexible deployment options offered in the cloud, on-premises or hybrid deployment models. Splunk ES enables you to: \n\n- Conquer alert fatigue with high-fidelity Risk-Based Alerting.\n- Bring visibility across your hybrid environment with multicloud security monitoring.\n- Conduct flexible investigations for effective threat hunting across security, IT and DevOps data sources.\n\nSplunk ES is a premium security solution requiring a paid license.",
         "documentation": "[Release Notes](https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.2/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security)\n[Splunk Enterprise Security Documentation](https://help.splunk.com/en/splunk-enterprise-security-8/install/8.2/)",
         "downloadCount": 0,
-        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/98b845f4-a518-11f1-bfe8-8285df2daa36.png",
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/846774f4-bd90-11f1-b93c-2e8dc7bfe97f.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": "https://api.splunkbase.splunk.com/api/v2/apps/263/inquire",
         "isArchived": false,
@@ -128,6 +128,11 @@
           },
           "versionCompatibility": [
             {
+              "id": 136,
+              "status": "live",
+              "versionString": "10.6"
+            },
+            {
               "id": 132,
               "status": "live",
               "versionString": "10.5"
@@ -148,7 +153,9 @@
               "versionString": "10.2"
             }
           ],
-          "splCompatibility": "SPL1"
+          "splCompatibility": "SPL1",
+          "bundleSha256": null,
+          "bundleFilename": null
         },
         "releases": [
           {
@@ -221,6 +228,11 @@
             },
             "versionCompatibility": [
               {
+                "id": 136,
+                "status": "live",
+                "versionString": "10.6"
+              },
+              {
                 "id": 132,
                 "status": "live",
                 "versionString": "10.5"
@@ -241,7 +253,9 @@
                 "versionString": "10.2"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -313,6 +327,11 @@
             },
             "versionCompatibility": [
               {
+                "id": 136,
+                "status": "live",
+                "versionString": "10.6"
+              },
+              {
                 "id": 132,
                 "status": "live",
                 "versionString": "10.5"
@@ -343,7 +362,9 @@
                 "versionString": "10.0"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -415,6 +436,11 @@
             },
             "versionCompatibility": [
               {
+                "id": 136,
+                "status": "live",
+                "versionString": "10.6"
+              },
+              {
                 "id": 132,
                 "status": "live",
                 "versionString": "10.5"
@@ -445,7 +471,9 @@
                 "versionString": "10.0"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -481,6 +509,11 @@
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
+                "id": 136,
+                "status": "live",
+                "versionString": "10.6"
+              },
+              {
                 "id": 132,
                 "status": "live",
                 "versionString": "10.5"
@@ -521,7 +554,9 @@
                 "versionString": "9.3"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -557,6 +592,11 @@
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
+                "id": 136,
+                "status": "live",
+                "versionString": "10.6"
+              },
+              {
                 "id": 132,
                 "status": "live",
                 "versionString": "10.5"
@@ -597,7 +637,9 @@
                 "versionString": "9.3"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -667,6 +709,11 @@
             },
             "versionCompatibility": [
               {
+                "id": 136,
+                "status": "live",
+                "versionString": "10.6"
+              },
+              {
                 "id": 132,
                 "status": "live",
                 "versionString": "10.5"
@@ -707,7 +754,9 @@
                 "versionString": "9.3"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -777,6 +826,11 @@
             },
             "versionCompatibility": [
               {
+                "id": 136,
+                "status": "live",
+                "versionString": "10.6"
+              },
+              {
                 "id": 132,
                 "status": "live",
                 "versionString": "10.5"
@@ -817,7 +871,9 @@
                 "versionString": "9.3"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -886,6 +942,11 @@
             },
             "versionCompatibility": [
               {
+                "id": 136,
+                "status": "live",
+                "versionString": "10.6"
+              },
+              {
                 "id": 132,
                 "status": "live",
                 "versionString": "10.5"
@@ -926,7 +987,9 @@
                 "versionString": "9.3"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1015,7 +1078,9 @@
                 "versionString": "9.3"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1061,7 +1126,9 @@
                 "versionString": "9.3"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1112,7 +1179,9 @@
                 "versionString": "9.2"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1163,7 +1232,9 @@
                 "versionString": "9.2"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1214,7 +1285,9 @@
                 "versionString": "9.2"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1265,7 +1338,9 @@
                 "versionString": "9.2"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           }
         ],
         "repoName": "",
@@ -1281,7 +1356,7 @@
         "support": "premium",
         "title": "Splunk Enterprise Security",
         "troubleshooting": "https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security",
-        "updatedTime": "2026-09-28T10:16:40.674191Z",
+        "updatedTime": "2026-10-02T00:40:55.391900Z",
         "videoLink": null,
         "appType": "app",
         "scheduleRelease": null,
@@ -1303,7 +1378,7 @@
   "query": {
     "id": "263"
   },
-  "buildId": "Y16KnsuAEUN0T-d99o0mt",
+  "buildId": "5ogAGi0-BpOA2k_iJ4VJm",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

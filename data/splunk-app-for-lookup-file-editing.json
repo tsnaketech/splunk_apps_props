@@ -60,7 +60,7 @@
         },
         "description": "Ever want to edit a lookup within Splunk with a user interface? Now you can. This app provides an Excel-like interface for editing, importing, and exporting lookup files (KV store and CSV-based).\n\nThis app also makes your lookups work in Search Head Clustered environments (edits to lookups will be propagated to other search heads).\n\nRevision history is maintained for lookups so that you can view or restore older lookups quickly in the interface.\n\nCheck out the Documentation site: \nhttps://docs.splunk.com/Documentation/LookupEditor\n\nhttps://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew",
         "documentation": "*   [What's new](https://docs.splunk.com/Documentation/LookupEditor/4.0.4/User/Whatsnew)\n*   [Documentation Site](https://docs.splunk.com/Documentation/LookupEditor)",
-        "downloadCount": 263211,
+        "downloadCount": 263395,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/2764a304-96f2-11f1-a003-6abc518d0c40.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": null,
@@ -181,6 +181,11 @@
           },
           "versionCompatibility": [
             {
+              "id": 136,
+              "status": "live",
+              "versionString": "10.6"
+            },
+            {
               "id": 132,
               "status": "live",
               "versionString": "10.5"
@@ -226,7 +231,9 @@
               "versionString": "9.2"
             }
           ],
-          "splCompatibility": "SPL1"
+          "splCompatibility": "SPL1",
+          "bundleSha256": null,
+          "bundleFilename": null
         },
         "releases": [
           {
@@ -315,6 +322,11 @@
             },
             "versionCompatibility": [
               {
+                "id": 136,
+                "status": "live",
+                "versionString": "10.6"
+              },
+              {
                 "id": 132,
                 "status": "live",
                 "versionString": "10.5"
@@ -360,7 +372,9 @@
                 "versionString": "9.2"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -448,6 +462,11 @@
             },
             "versionCompatibility": [
               {
+                "id": 136,
+                "status": "live",
+                "versionString": "10.6"
+              },
+              {
                 "id": 132,
                 "status": "live",
                 "versionString": "10.5"
@@ -488,7 +507,9 @@
                 "versionString": "9.3"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -576,6 +597,11 @@
             },
             "versionCompatibility": [
               {
+                "id": 136,
+                "status": "live",
+                "versionString": "10.6"
+              },
+              {
                 "id": 132,
                 "status": "live",
                 "versionString": "10.5"
@@ -621,7 +647,9 @@
                 "versionString": "9.2"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -734,7 +762,9 @@
                 "versionString": "9.2"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -842,7 +872,9 @@
                 "versionString": "9.1"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -908,7 +940,9 @@
                 "versionString": "9.0"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1021,7 +1055,9 @@
                 "versionString": "9.0"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1083,7 +1119,9 @@
                 "versionString": "9.0"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1165,7 +1203,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1247,7 +1287,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1329,7 +1371,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1411,7 +1455,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1493,7 +1539,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1578,7 +1626,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1663,7 +1713,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1748,7 +1800,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1833,7 +1887,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1918,7 +1974,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -2003,7 +2061,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -2088,7 +2148,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -2173,7 +2235,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -2258,7 +2322,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -2343,7 +2409,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -2428,7 +2496,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -2513,7 +2583,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -2598,7 +2670,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -2683,7 +2757,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -2768,7 +2844,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -2853,7 +2931,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -2932,7 +3012,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -3011,7 +3093,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -3090,7 +3174,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -3169,7 +3255,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -3248,7 +3336,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -3327,7 +3417,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -3406,7 +3498,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -3485,7 +3579,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -3564,7 +3660,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -3643,7 +3741,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -3722,7 +3822,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -3801,7 +3903,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -3880,7 +3984,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -3959,7 +4065,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -4038,7 +4146,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -4117,7 +4227,9 @@
               ]
             },
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -4192,7 +4304,9 @@
             "size": 286754,
             "tagsSourcetypes": {},
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -4267,7 +4381,9 @@
             "size": 286676,
             "tagsSourcetypes": {},
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -4342,7 +4458,9 @@
             "size": 283632,
             "tagsSourcetypes": {},
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -4417,7 +4535,9 @@
             "size": 283452,
             "tagsSourcetypes": {},
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           }
         ],
         "repoName": "",
@@ -4456,7 +4576,7 @@
   "query": {
     "id": "1724"
   },
-  "buildId": "Y16KnsuAEUN0T-d99o0mt",
+  "buildId": "5ogAGi0-BpOA2k_iJ4VJm",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

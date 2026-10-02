@@ -79,7 +79,9 @@
           "size": 0,
           "tagsSourcetypes": {},
           "versionCompatibility": [],
-          "splCompatibility": "SPL1"
+          "splCompatibility": "SPL1",
+          "bundleSha256": null,
+          "bundleFilename": null
         },
         "releases": [],
         "repoName": "",
@@ -114,7 +116,7 @@
   "query": {
     "id": "6157"
   },
-  "buildId": "Y16KnsuAEUN0T-d99o0mt",
+  "buildId": "5ogAGi0-BpOA2k_iJ4VJm",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

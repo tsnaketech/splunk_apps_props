@@ -23,7 +23,7 @@
         },
         "description": "The new ThreatQuotient App for Splunk improves on our previous capability while incorporating feedback collected from our customers around functionality and deployability.\n\nNote: The new ThreatQuotient App for Splunk requires the ThreatQuotient Add-on for Splunk as well as ThreatQ version 5.11 or later.\n\nThreatQuotient Splunk Support Documentation\nSee the Splunk Documentation located on the ThreatQuotient Help Center for more information.\n\n https://helpcenter.threatq.com/Integration_Documentation/app/Splunk.htm",
         "documentation": "### Functionality includes:\n\n**Ingestion of ThreatQ Data into Splunk**\nEnable users to customize what data is ingested by leveraging ThreatQ exports and Splunk input filters. Customization continues for advanced users with the ability to modify leveraged indexes and Splunk saved searches that drive the ThreatQuotient App for Splunk to meet the needs of their environment.\n\n**Matching of Splunk Events with ThreatQ Indicators**\nProvide context on possible malicious activity by matching Splunk Events with ThreatQ indicators. Matching is customizable by ThreatQ indicator status and score to meet the differing needs of customer environments and workflows.\n\n**Reporting of Matches in Splunk back to ThreatQ as Sighting Events**\nSighting events in ThreatQ will show indicator matches from Splunk and will be grouped by indicator.\n\n**Workflow Actions**\nUsers can modify ThreatQ data based on any indexed indicators within Splunk.\n\n**Workflow actions include:**\n- ThreatQ: Add Indicator\n- ThreatQ: Update Indicator Status\n- ThreatQ: Lookup Indicator\n- ThreatQ: Mark as False Positive\n- ThreatQ: Mark as True Positive\n\n\n**Note:** Support for ingesting ThreatQ data into Splunk Enterprise Security will be leveraged in the additional workflows provided within that application.\n\n### Deployability\nThe ThreatQuotient App for Splunk has been re-designed to scale to our customers' growing needs, supporting installations in Splunk deployments of all sizes.",
-        "downloadCount": 5027,
+        "downloadCount": 5029,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/9ba3aba4-ae06-11f1-b791-52fc66fa96be.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": null,
@@ -179,7 +179,9 @@
               "versionString": "9.4"
             }
           ],
-          "splCompatibility": "SPL1"
+          "splCompatibility": "SPL1",
+          "bundleSha256": null,
+          "bundleFilename": null
         },
         "releases": [
           {
@@ -303,7 +305,9 @@
                 "versionString": "9.4"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -421,7 +425,9 @@
                 "versionString": "9.3"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -533,7 +539,9 @@
                 "versionString": "9.2"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -650,7 +658,9 @@
                 "versionString": "9.1"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -757,7 +767,9 @@
                 "versionString": "9.1"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -864,7 +876,9 @@
                 "versionString": "9.1"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -960,7 +974,9 @@
                 "versionString": "9.1"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1071,7 +1087,9 @@
                 "versionString": "9.0"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1188,7 +1206,9 @@
                 "versionString": "9.0"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1299,7 +1319,9 @@
                 "versionString": "9.0"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1404,7 +1426,9 @@
                 "versionString": "9.0"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1509,7 +1533,9 @@
                 "versionString": "9.0"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1565,7 +1591,9 @@
                 "versionString": "9.0"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1621,7 +1649,9 @@
                 "versionString": "9.0"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1727,7 +1757,9 @@
                 "versionString": "9.0"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1833,7 +1865,9 @@
                 "versionString": "9.0"
               }
             ],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1913,7 +1947,9 @@
             "size": 140278,
             "tagsSourcetypes": {},
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -1993,7 +2029,9 @@
             "size": 136156,
             "tagsSourcetypes": {},
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -2077,7 +2115,9 @@
             "size": 131959,
             "tagsSourcetypes": {},
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           },
           {
             "actions": [],
@@ -2157,7 +2197,9 @@
             "size": 123202,
             "tagsSourcetypes": {},
             "versionCompatibility": [],
-            "splCompatibility": "SPL1"
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
           }
         ],
         "repoName": "",
@@ -2190,7 +2232,7 @@
   "query": {
     "id": "4418"
   },
-  "buildId": "Y16KnsuAEUN0T-d99o0mt",
+  "buildId": "5ogAGi0-BpOA2k_iJ4VJm",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
