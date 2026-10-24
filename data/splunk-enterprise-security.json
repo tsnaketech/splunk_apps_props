@@ -24,7 +24,7 @@
         "description": "Splunk Enterprise Security (ES) solves a wide range of security analytics and operations use cases including continuous security monitoring, advanced threat detection, compliance, incident investigation, forensics and incident response. Splunk ES delivers an end-to-end view of organizations\u2019 security postures with flexible investigations, unmatched performance, and the most flexible deployment options offered in the cloud, on-premises or hybrid deployment models. Splunk ES enables you to: \n\n- Conquer alert fatigue with high-fidelity Risk-Based Alerting.\n- Bring visibility across your hybrid environment with multicloud security monitoring.\n- Conduct flexible investigations for effective threat hunting across security, IT and DevOps data sources.\n\nSplunk ES is a premium security solution requiring a paid license.",
         "documentation": "[Release Notes](https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.2/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security)\n[Splunk Enterprise Security Documentation](https://help.splunk.com/en/splunk-enterprise-security-8/install/8.2/)",
         "downloadCount": 0,
-        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/846774f4-bd90-11f1-b93c-2e8dc7bfe97f.png",
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/2abcebf6-cf05-11f1-8891-76b2010223be.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": "https://api.splunkbase.splunk.com/api/v2/apps/263/inquire",
         "isArchived": false,
@@ -72,15 +72,15 @@
             "alert_actions"
           ],
           "fipsCompatibility": true,
-          "filename": "splunk-enterprise-security_871.spl",
-          "id": 124505,
+          "filename": "splunk-enterprise-security_872.spl",
+          "id": 124965,
           "installMethodDistributed": "assisted",
           "installMethodSingle": "assisted",
           "manifest": null,
-          "md5": "0d9fa9a7082fb00c3c293dfc60372d52",
+          "md5": "61d28aa5659a453ce45b7b3695443ee9",
           "minProductVersionStr": null,
-          "name": "8.7.1",
-          "path": "https://splunkbase.splunk.com/app/263/release/8.7.1/download/",
+          "name": "8.7.2",
+          "path": "https://splunkbase.splunk.com/app/263/release/8.7.2/download/",
           "platform": "independent",
           "productTypes": [
             "enterprise",
@@ -88,10 +88,10 @@
           ],
           "public": null,
           "publicEverTrue": false,
-          "publishedDatetime": "2026-10-01T12:06:27Z",
+          "publishedDatetime": "2026-10-23T17:14:20.064007Z",
           "releaseNotes": "[https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.7/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security](https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.7/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security)",
-          "sha256": "303a3d87ecfe6d661d7da039725d01553a8d14d027146aab622d1fcb1147f0eb",
-          "size": 866559170,
+          "sha256": "84ea661651f745b2deb42327ce1c8a58b23fbc3edbff154129140591425ce83b",
+          "size": 866980607,
           "tagsSourcetypes": {
             "__no_tag__": [
               "tim_rest_handler",
@@ -158,6 +158,105 @@
           "bundleFilename": null
         },
         "releases": [
+          {
+            "actions": [],
+            "cimCompatibility": [
+              "8.x"
+            ],
+            "cimVersions": [
+              52
+            ],
+            "cloudCompatible": true,
+            "content": [
+              "inputs",
+              "alert_actions"
+            ],
+            "fipsCompatibility": true,
+            "filename": "splunk-enterprise-security_872.spl",
+            "id": 124965,
+            "installMethodDistributed": "assisted",
+            "installMethodSingle": "assisted",
+            "manifest": null,
+            "md5": "61d28aa5659a453ce45b7b3695443ee9",
+            "minProductVersionStr": null,
+            "name": "8.7.2",
+            "path": "https://splunkbase.splunk.com/app/263/release/8.7.2/download/",
+            "platform": "independent",
+            "productTypes": [
+              "enterprise",
+              "cloud"
+            ],
+            "public": null,
+            "publicEverTrue": false,
+            "publishedDatetime": "2026-10-23T17:14:20.064007Z",
+            "releaseNotes": "[https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.7/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security](https://help.splunk.com/en/splunk-enterprise-security-8/release-notes-and-resources/8.7/splunk-enterprise-security-release-notes/release-notes-for-splunk-enterprise-security)",
+            "sha256": "84ea661651f745b2deb42327ce1c8a58b23fbc3edbff154129140591425ce83b",
+            "size": 866980607,
+            "tagsSourcetypes": {
+              "__no_tag__": [
+                "tim_rest_handler",
+                "tim_cmp_key_rotation",
+                "sequence_templates_rest_handler",
+                "sequence_instance_rest_handler",
+                "send2ba_riskdm_modalert",
+                "send2ba_notable_modalert",
+                "security_analytics_identity",
+                "security_analytics_asset",
+                "investigation_rest_handler",
+                "federated_analytics_rest_handler",
+                "event_sequencing_engine_log",
+                "essinstall2",
+                "ess_content_importer",
+                "ess_configured_handler",
+                "esconfighealth",
+                "es_investigations_rest_handler",
+                "es_ingestion_volume_manager",
+                "es_identity_exporter",
+                "es_editions_manager",
+                "es_asset_exporter",
+                "enterprise_security_risk_datamodel",
+                "enterprise_security_notable",
+                "edition_info_rest_handler",
+                "cloud_connect_rest_handler",
+                "clone_udf_dashboard_rest_handler.py",
+                "behavioral_analytics_rest_handler",
+                "ba_enablement",
+                "apps_shc_es_deployer_rest_handler",
+                "app_permissions_rest_handler",
+                "app_permissions_manager"
+              ]
+            },
+            "versionCompatibility": [
+              {
+                "id": 136,
+                "status": "live",
+                "versionString": "10.6"
+              },
+              {
+                "id": 132,
+                "status": "live",
+                "versionString": "10.5"
+              },
+              {
+                "id": 129,
+                "status": "live",
+                "versionString": "10.4"
+              },
+              {
+                "id": 128,
+                "status": "live",
+                "versionString": "10.3"
+              },
+              {
+                "id": 127,
+                "status": "live",
+                "versionString": "10.2"
+              }
+            ],
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
+          },
           {
             "actions": [],
             "cimCompatibility": [
@@ -1455,7 +1554,7 @@
         "support": "premium",
         "title": "Splunk Enterprise Security",
         "troubleshooting": "https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security",
-        "updatedTime": "2026-10-02T01:20:15.629711Z",
+        "updatedTime": "2026-10-23T18:43:05.320906Z",
         "videoLink": null,
         "appType": "app",
         "scheduleRelease": null,
