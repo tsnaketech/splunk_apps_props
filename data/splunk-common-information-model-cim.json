@@ -23,7 +23,7 @@
         },
         "description": "The Common Information Model is a set of field names and tags which are expected to define the least common denominator of a domain of interest. It is implemented as documentation on the Splunk docs website and JSON data model files in this add-on. Use the CIM add-on when modeling data or building apps to ensure compatibility between apps, or to just take advantage of these data models to pivot and report.",
         "documentation": "[Release Notes](https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on)\nPlease see the [Splunk Common Information Model Add-on user documentation](https://help.splunk.com/en/data-management/common-information-model/6.1/introduction/overview-of-the-splunk-common-information-model).",
-        "downloadCount": 441668,
+        "downloadCount": 441838,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/5fe561f8-ccaa-11f1-967e-1eaa964cbe9c.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": null,
@@ -161,6 +161,11 @@
             ]
           },
           "versionCompatibility": [
+            {
+              "id": 137,
+              "status": "live",
+              "versionString": "10.7"
+            },
             {
               "id": 136,
               "status": "live",
@@ -311,6 +316,11 @@
             },
             "versionCompatibility": [
               {
+                "id": 137,
+                "status": "live",
+                "versionString": "10.7"
+              },
+              {
                 "id": 136,
                 "status": "live",
                 "versionString": "10.6"
@@ -459,6 +469,11 @@
             },
             "versionCompatibility": [
               {
+                "id": 137,
+                "status": "live",
+                "versionString": "10.7"
+              },
+              {
                 "id": 136,
                 "status": "live",
                 "versionString": "10.6"
@@ -606,6 +621,11 @@
               ]
             },
             "versionCompatibility": [
+              {
+                "id": 137,
+                "status": "live",
+                "versionString": "10.7"
+              },
               {
                 "id": 136,
                 "status": "live",
@@ -759,6 +779,11 @@
               ]
             },
             "versionCompatibility": [
+              {
+                "id": 137,
+                "status": "live",
+                "versionString": "10.7"
+              },
               {
                 "id": 136,
                 "status": "live",
@@ -4129,7 +4154,7 @@
   "query": {
     "id": "1621"
   },
-  "buildId": "xr_KLQ0n35U2QJcHh4Ogf",
+  "buildId": "k1e3EGVMUZj3gUloSpOiu",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

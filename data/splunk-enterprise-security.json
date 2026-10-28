@@ -128,6 +128,11 @@
           },
           "versionCompatibility": [
             {
+              "id": 137,
+              "status": "live",
+              "versionString": "10.7"
+            },
+            {
               "id": 136,
               "status": "live",
               "versionString": "10.6"
@@ -228,6 +233,11 @@
             },
             "versionCompatibility": [
               {
+                "id": 137,
+                "status": "live",
+                "versionString": "10.7"
+              },
+              {
                 "id": 136,
                 "status": "live",
                 "versionString": "10.6"
@@ -326,6 +336,11 @@
               ]
             },
             "versionCompatibility": [
+              {
+                "id": 137,
+                "status": "live",
+                "versionString": "10.7"
+              },
               {
                 "id": 136,
                 "status": "live",
@@ -524,6 +539,11 @@
               ]
             },
             "versionCompatibility": [
+              {
+                "id": 137,
+                "status": "live",
+                "versionString": "10.7"
+              },
               {
                 "id": 136,
                 "status": "live",
@@ -1576,7 +1596,7 @@
   "query": {
     "id": "263"
   },
-  "buildId": "xr_KLQ0n35U2QJcHh4Ogf",
+  "buildId": "k1e3EGVMUZj3gUloSpOiu",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
