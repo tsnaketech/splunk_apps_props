@@ -60,7 +60,7 @@
         },
         "description": "Get started with Splunk for Security with Splunk Security Essentials (SSE). Explore security use cases and discover security content to start address threats and challenges. \n\nSecurity Content Library\nFind security content for Splunk Cloud and Splunk's SIEM and SOAR offerings and deploy out-of-the-box security detections and analytic stories to enhance your investigations and improve your security posture. \n\nCybersecurity Frameworks\nIdentify gaps in your defenses and take control of your security posture with automatic mapping of data and security detections to MITRE ATT&CK\u00ae and Cyber Kill Chain\u00ae framework.\n\nData and Content Introspection\nGain visibility of the data coming into your environment to add context and telemetry to security events. Enrich your security detections with metadata and tags from the Security Content Library.\n\nSecurity Data Journey\nGet prescriptive security and data recommendations and establish a data strategy to develop a security maturity roadmap. \n\nWe have changed the security content delivery endpoint for ESCU to comply with Splunk guidance. This means that if you have SSE version 3.7.1 or lower, the last supported ESCU version is ESCU 4.22.0. In order to get the latest ESCU version, you will need to upgrade SSE to version 3.8.0.\n\nLearn more:\nDownload the Product Brief : https://www.splunk.com/pdfs/product-briefs/splunk-security-essentials.pdf\nTry out Splunk Security Essentials: https://www.splunk.com/en_us/form/splunk-security-essentials-online-demo.html\nCheck out the Documentation site: https://docs.splunk.com/Documentation/SSE",
         "documentation": "Overview\n\n* [What is Splunk Security Essentials?](https://splunkvideo.hubs.vidyard.com/watch/FLgbpKZ2gvd1RB6mak2KV8) (Video)\n* [Release Notes](https://docs.splunk.com/Documentation/SSE/latest/ReleaseNotes/Enhancements)\n* [Documentation Site](https://docs.splunk.com/Documentation/SSE)\n\nSupport\n* <sse-support@splunk.com>",
-        "downloadCount": 229769,
+        "downloadCount": 229806,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/f2a2bd42-d308-11f1-8514-7261a74a4502.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": null,
@@ -106,15 +106,15 @@
           "cloudCompatible": true,
           "content": [],
           "fipsCompatibility": false,
-          "filename": "splunk-security-essentials_383.tgz",
-          "id": 41060,
+          "filename": "splunk-security-essentials_384.tgz",
+          "id": 125044,
           "installMethodDistributed": "appmgmt_phase",
           "installMethodSingle": "simple",
           "manifest": null,
-          "md5": "d9b638cea97e97bf20a7725fc75b4009",
+          "md5": "9a1ec922dc38a14358bf88528ff7738b",
           "minProductVersionStr": null,
-          "name": "3.8.3",
-          "path": "https://splunkbase.splunk.com/app/3435/release/3.8.3/download/",
+          "name": "3.8.4",
+          "path": "https://splunkbase.splunk.com/app/3435/release/3.8.4/download/",
           "platform": "independent",
           "productTypes": [
             "enterprise",
@@ -122,12 +122,17 @@
           ],
           "public": null,
           "publicEverTrue": false,
-          "publishedDatetime": "2026-01-21T20:07:13.954632Z",
-          "releaseNotes": "https://help.splunk.com/en/splunk-enterprise-security-8/security-essentials/release-notes-and-resources/3.8/splunk-security-essentials-release-notes/whats-new-in-splunk-security-essentials",
-          "sha256": "f1b8d2d304ad651708cf9ac3c0dedd84eb6600af15520aa2ef67789f919b38ae",
-          "size": 68026657,
+          "publishedDatetime": "2026-10-28T19:51:22.294731Z",
+          "releaseNotes": "[https://help.splunk.com/en/splunk-enterprise-security-8/security-essentials/release-notes-and-resources/3.8/splunk-security-essentials-release-notes/whats-new-in-splunk-security-essentials](https://help.splunk.com/en/splunk-enterprise-security-8/security-essentials/release-notes-and-resources/3.8/splunk-security-essentials-release-notes/whats-new-in-splunk-security-essentials)",
+          "sha256": "e1052b88bb40e0829d47397973d096ea55bf5ff38d1d30238a3ff704e9d4c85b",
+          "size": 66864788,
           "tagsSourcetypes": {},
           "versionCompatibility": [
+            {
+              "id": 137,
+              "status": "live",
+              "versionString": "10.7"
+            },
             {
               "id": 136,
               "status": "live",
@@ -167,26 +172,6 @@
               "id": 115,
               "status": "live",
               "versionString": "9.4"
-            },
-            {
-              "id": 111,
-              "status": "live",
-              "versionString": "9.3"
-            },
-            {
-              "id": 110,
-              "status": "live",
-              "versionString": "9.2"
-            },
-            {
-              "id": 59,
-              "status": "live",
-              "versionString": "9.1"
-            },
-            {
-              "id": 54,
-              "status": "live",
-              "versionString": "9.0"
             }
           ],
           "splCompatibility": "SPL1",
@@ -194,6 +179,89 @@
           "bundleFilename": null
         },
         "releases": [
+          {
+            "actions": [],
+            "cimCompatibility": [
+              "5.x"
+            ],
+            "cimVersions": [
+              17
+            ],
+            "cloudCompatible": true,
+            "content": [],
+            "fipsCompatibility": false,
+            "filename": "splunk-security-essentials_384.tgz",
+            "id": 125044,
+            "installMethodDistributed": "appmgmt_phase",
+            "installMethodSingle": "simple",
+            "manifest": null,
+            "md5": "9a1ec922dc38a14358bf88528ff7738b",
+            "minProductVersionStr": null,
+            "name": "3.8.4",
+            "path": "https://splunkbase.splunk.com/app/3435/release/3.8.4/download/",
+            "platform": "independent",
+            "productTypes": [
+              "enterprise",
+              "cloud"
+            ],
+            "public": null,
+            "publicEverTrue": false,
+            "publishedDatetime": "2026-10-28T19:51:22.294731Z",
+            "releaseNotes": "[https://help.splunk.com/en/splunk-enterprise-security-8/security-essentials/release-notes-and-resources/3.8/splunk-security-essentials-release-notes/whats-new-in-splunk-security-essentials](https://help.splunk.com/en/splunk-enterprise-security-8/security-essentials/release-notes-and-resources/3.8/splunk-security-essentials-release-notes/whats-new-in-splunk-security-essentials)",
+            "sha256": "e1052b88bb40e0829d47397973d096ea55bf5ff38d1d30238a3ff704e9d4c85b",
+            "size": 66864788,
+            "tagsSourcetypes": {},
+            "versionCompatibility": [
+              {
+                "id": 137,
+                "status": "live",
+                "versionString": "10.7"
+              },
+              {
+                "id": 136,
+                "status": "live",
+                "versionString": "10.6"
+              },
+              {
+                "id": 132,
+                "status": "live",
+                "versionString": "10.5"
+              },
+              {
+                "id": 129,
+                "status": "live",
+                "versionString": "10.4"
+              },
+              {
+                "id": 128,
+                "status": "live",
+                "versionString": "10.3"
+              },
+              {
+                "id": 127,
+                "status": "live",
+                "versionString": "10.2"
+              },
+              {
+                "id": 121,
+                "status": "live",
+                "versionString": "10.1"
+              },
+              {
+                "id": 119,
+                "status": "live",
+                "versionString": "10.0"
+              },
+              {
+                "id": 115,
+                "status": "live",
+                "versionString": "9.4"
+              }
+            ],
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
+          },
           {
             "actions": [],
             "cimCompatibility": [
@@ -2604,7 +2672,7 @@
         "support": "splunk",
         "title": "Splunk Security Essentials",
         "troubleshooting": "",
-        "updatedTime": "2026-10-28T20:00:09.275378Z",
+        "updatedTime": "2026-10-29T15:55:51.746301Z",
         "videoLink": null,
         "appType": "app",
         "scheduleRelease": null,
@@ -2626,7 +2694,7 @@
   "query": {
     "id": "3435"
   },
-  "buildId": "_-35PlTT4ID5Qryqbp2tr",
+  "buildId": "6rbZyXuUk16oqlatb7Dts",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
