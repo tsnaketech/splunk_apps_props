@@ -28,8 +28,8 @@
         },
         "description": "This TA allows to add interaction features between TheHive or Cortex (https://www.strangebee.com/) and Splunk. It allows to retrieve all kind of information from TheHive/Cortex and to perform actions on these instances using Splunk, from a search or from a predefined dashboard.\n\nThis TA is supporting only TheHive 5. For having an app supporting TheHive 3 or 4, please check the oldest releases. It's also supporting the Cortex 3 version.\n\nMore information here: https://github.com/LetMeR00t/TA-thehive-cortex",
         "documentation": "The objective is to interface a SIEM tool such as Splunk in order to be able to perform automated tasks on observables/IOCs or TTPs.\nThis TA has been designed in such a way that :\n\n- You can pull events periodically from TheHive about the different cases/alerts that were created or updated\n- You can create new alert or case from Splunk in TheHive using the power of Splunk whether in a search or in a predefined dashboard.\n- You can run a function in TheHive from an alert action\n- You can interface Splunk Enterprise Security with TheHive\n- You can retrieve information from Cortex about the different jobs that are being performed on the scanners.\n- You can run new tasks from Splunk in Cortex using the power of Splunk whether in a search or a predefined dashboard.\n\nIf you need any documentation or help, please visit the related Github : https://github.com/LetMeR00t/TA-thehive-cortex",
-        "downloadCount": 4607,
-        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/86f8cc6e-d3c4-11f1-8495-ce2641f157be.png",
+        "downloadCount": 4609,
+        "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/4140631a-d7b8-11f1-a20e-6ab672454dfc.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": null,
         "isArchived": false,
@@ -78,8 +78,8 @@
             "alert_actions"
           ],
           "fipsCompatibility": false,
-          "filename": "thehivecortex_510.tar.gz",
-          "id": 125077,
+          "filename": "thehivecortex_520.tar.gz",
+          "id": 125209,
           "installMethodDistributed": "appmgmt_phase",
           "installMethodSingle": "simple",
           "manifest": {
@@ -103,7 +103,7 @@
               "id": {
                 "group": null,
                 "name": "TA-thehive-cortex",
-                "version": "5.1.0"
+                "version": "5.2.0"
               },
               "license": {
                 "name": null,
@@ -141,10 +141,10 @@
             ],
             "tasks": null
           },
-          "md5": "d3bb4b708c3944bee6c71d094ce31afd",
+          "md5": "0d60dce69b44b8dbff1e1c8c6480ba33",
           "minProductVersionStr": null,
-          "name": "5.1.0",
-          "path": "https://splunkbase.splunk.com/app/5329/release/5.1.0/download/",
+          "name": "5.2.0",
+          "path": "https://splunkbase.splunk.com/app/5329/release/5.2.0/download/",
           "platform": "independent",
           "productTypes": [
             "enterprise",
@@ -152,10 +152,10 @@
           ],
           "public": null,
           "publicEverTrue": false,
-          "publishedDatetime": "2026-10-29T18:14:06.110517Z",
-          "releaseNotes": "# v5.1.0\n\nLive inputs stop losing time, and four bugs found in production are fixed.\nNo input needs a change when you upgrade.\n\n## Compatibility\n\n|         | Minimum                  | Tested with       |\n| :------ | :----------------------- | :---------------- |\n| TheHive | 5.2.0                    | 5.8.1             |\n| Cortex  | 3.0.0                    | 4.2.0             |\n| Splunk  | 9.3 (Python 3.9 or 3.13) | Enterprise 10.2.1 |\n\n## New\n\n* **Inputs continue where they stopped.** Until now each run asked TheHive for\n  exactly the last interval and kept no state: a run that failed, hung or was\n  skipped lost its window for good. Each pull now remembers the end of the last\n  window it collected completely, in the KV store, and the next run continues\n  from there. A TheHive outage of a few minutes is caught up by the next run,\n  with no gap.\n* **Search head cluster:** only the captain collects; the others log `SKIP`.\n* **KV store disabled** (some heavy forwarders): the watermark is kept in the\n  input's checkpoint directory on that instance, with a `KV` warning.\n* Two optional settings on the alerts & cases, audit, observables, tasks and\n  timeline inputs: **lag_seconds** (default 60) and **max_catchup_seconds**\n  (default 21600).\n\n## Fixed\n\n* A collected object without `_createdAt` or `_updatedAt` no longer drops the\n  whole run: it is indexed with the best date available, and `TH127` names the\n  missing field.\n* A Splunk ES finding that annotates several techniques now gives one TTP per\n  technique, instead of one procedure TheHive rejected.\n* A multivalue `ttp` field gives one TTP per value.\n* TheHive unreachable fails fast: connecting has its own 10 s timeout, and a\n  request that timed out while reading is no longer sent again, so an alert can\n  no longer be created twice.\n\n## Upgrading\n\n* The first run after the upgrade creates the KV collection\n  `thehive_cortex_checkpoints`; the add-on's role needs write access to it\n  (`admin` and `sc_admin`, as in `default.meta`).\n* Events collected up to the upgrade are not collected again.\n* AppInspect: no failure and no error. One `check_for_custom_mako_templates`\n  notice remains on `appserver/templates/base.html`, a file generated by the UCC\n  framework.\n\n## Thanks\n\nA big thank you to **Matt C** ([@mjc420](https://github.com/mjc420)), who found\nthese problems running the add-on against TheHive 5.6.7 behind a proxy, and\ncontributed the fixes and the watermark (pull requests #138 and #139). All of\nthis release's fixes and the watermark are his work, and the commits keep his name.\n\nFull release notes: see `release_notes/v5.1.0.md` in the repos",
-          "sha256": "92d5ca09995ad189d3d1e5eb24849851074a8073c1bed895a1f2dcd9352a7069",
-          "size": 5440721,
+          "publishedDatetime": "2026-11-03T18:56:19.836591Z",
+          "releaseNotes": "# v5.2.0\n\nSplunk stops re-sending alerts TheHive already holds, and the add-on stops\nretrying them. No input needs a change when you upgrade.\n\n## Compatibility\n\n| | Minimum | Tested with |\n| :--- | :--- | :--- |\n| TheHive | 5.2.0 | 5.x |\n| Cortex | 3.0.0 | 4.2.0 (5.0.0 and 5.1.0) |\n| Splunk | 9.3 (Python 3.9 or 3.13) | Enterprise 10.6.1.1 + ES 8.4.0 |\n\nCompatible with Splunk Enterprise 10.4 to 10.6.\n\n## New\n\n- **Notable status once sent** (alert action *Create a new alert*, optional\n  `notable_status`): once TheHive holds the alert, the Splunk ES notable is set\n  to this review status ID so it is not picked up again. Empty by default; ES\n  mode only; the Splunk user needs `edit_notable_events`.\n\n## Fixed\n\n- An alert TheHive already holds (\"already exists\" or HTTP 409) is no longer\n  retried `thehive_creation_max_retry + 1` times: the add-on stops at once and\n  logs INFO `THCA-122`. A bare 400 stays a failure.\n\n## Upgrading\n\n- AppInspect: no failure and no error. One `check_for_custom_mako_templates`\n  warning remains on `appserver/templates/base.html`, generated by the UCC\n  framework.\n\nFull release notes: see `release_notes/v5.2.0.md` in the repository.",
+          "sha256": "01964d40ca1630cd376c80a83875171817516b01fea39ad403b7ed7d73d03191",
+          "size": 5441343,
           "tagsSourcetypes": {
             "__no_tag__": [
               "thehive:timeline",
@@ -181,6 +181,21 @@
             ]
           },
           "versionCompatibility": [
+            {
+              "id": 136,
+              "status": "live",
+              "versionString": "10.6"
+            },
+            {
+              "id": 132,
+              "status": "live",
+              "versionString": "10.5"
+            },
+            {
+              "id": 129,
+              "status": "live",
+              "versionString": "10.4"
+            },
             {
               "id": 128,
               "status": "live",
@@ -210,6 +225,21 @@
               "id": 111,
               "status": "live",
               "versionString": "9.3"
+            },
+            {
+              "id": 110,
+              "status": "live",
+              "versionString": "9.2"
+            },
+            {
+              "id": 59,
+              "status": "live",
+              "versionString": "9.1"
+            },
+            {
+              "id": 54,
+              "status": "live",
+              "versionString": "9.0"
             }
           ],
           "splCompatibility": "SPL1",
@@ -217,6 +247,184 @@
           "bundleFilename": null
         },
         "releases": [
+          {
+            "actions": [],
+            "cimCompatibility": [],
+            "cimVersions": [],
+            "cloudCompatible": true,
+            "content": [
+              "inputs",
+              "alert_actions"
+            ],
+            "fipsCompatibility": false,
+            "filename": "thehivecortex_520.tar.gz",
+            "id": 125209,
+            "installMethodDistributed": "appmgmt_phase",
+            "installMethodSingle": "simple",
+            "manifest": {
+              "dependencies": null,
+              "incompatibleApps": null,
+              "info": {
+                "author": [
+                  {
+                    "company": null,
+                    "email": null,
+                    "name": "LetMeR00t"
+                  }
+                ],
+                "classification": {
+                  "categories": [],
+                  "developmentStatus": null,
+                  "intendedAudience": null
+                },
+                "commonInformationModels": null,
+                "description": "Splunk Add-on for TheHive and Cortex",
+                "id": {
+                  "group": null,
+                  "name": "TA-thehive-cortex",
+                  "version": "5.2.0"
+                },
+                "license": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "privacyPolicy": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "releaseDate": null,
+                "releaseNotes": {
+                  "name": null,
+                  "text": null,
+                  "uri": null
+                },
+                "title": "TheHive-Cortex"
+              },
+              "inputGroups": null,
+              "platformRequirements": {
+                "splunk": {
+                  "Enterprise": "*"
+                }
+              },
+              "schemaVersion": "2.0.0",
+              "supportedDeployments": [
+                "_standalone",
+                "_distributed",
+                "_search_head_clustering"
+              ],
+              "targetWorkloads": [
+                "_search_heads",
+                "_indexers"
+              ],
+              "tasks": null
+            },
+            "md5": "0d60dce69b44b8dbff1e1c8c6480ba33",
+            "minProductVersionStr": null,
+            "name": "5.2.0",
+            "path": "https://splunkbase.splunk.com/app/5329/release/5.2.0/download/",
+            "platform": "independent",
+            "productTypes": [
+              "enterprise",
+              "cloud"
+            ],
+            "public": null,
+            "publicEverTrue": false,
+            "publishedDatetime": "2026-11-03T18:56:19.836591Z",
+            "releaseNotes": "# v5.2.0\n\nSplunk stops re-sending alerts TheHive already holds, and the add-on stops\nretrying them. No input needs a change when you upgrade.\n\n## Compatibility\n\n| | Minimum | Tested with |\n| :--- | :--- | :--- |\n| TheHive | 5.2.0 | 5.x |\n| Cortex | 3.0.0 | 4.2.0 (5.0.0 and 5.1.0) |\n| Splunk | 9.3 (Python 3.9 or 3.13) | Enterprise 10.6.1.1 + ES 8.4.0 |\n\nCompatible with Splunk Enterprise 10.4 to 10.6.\n\n## New\n\n- **Notable status once sent** (alert action *Create a new alert*, optional\n  `notable_status`): once TheHive holds the alert, the Splunk ES notable is set\n  to this review status ID so it is not picked up again. Empty by default; ES\n  mode only; the Splunk user needs `edit_notable_events`.\n\n## Fixed\n\n- An alert TheHive already holds (\"already exists\" or HTTP 409) is no longer\n  retried `thehive_creation_max_retry + 1` times: the add-on stops at once and\n  logs INFO `THCA-122`. A bare 400 stays a failure.\n\n## Upgrading\n\n- AppInspect: no failure and no error. One `check_for_custom_mako_templates`\n  warning remains on `appserver/templates/base.html`, generated by the UCC\n  framework.\n\nFull release notes: see `release_notes/v5.2.0.md` in the repository.",
+            "sha256": "01964d40ca1630cd376c80a83875171817516b01fea39ad403b7ed7d73d03191",
+            "size": 5441343,
+            "tagsSourcetypes": {
+              "__no_tag__": [
+                "thehive:timeline",
+                "thehive:tasks:updatedAt",
+                "thehive:tasks:startDate",
+                "thehive:tasks:createdAt",
+                "thehive:tasks",
+                "thehive:status",
+                "thehive:observables:updatedAt",
+                "thehive:observables:createdAt",
+                "thehive:cases:updatedAt",
+                "thehive:cases:tasks:updatedAt",
+                "thehive:cases:tasks:startDate",
+                "thehive:cases:tasks:createdAt",
+                "thehive:cases:startDate",
+                "thehive:cases:createdAt",
+                "thehive:audit",
+                "thehive:alerts:updatedAt",
+                "thehive:alerts:occuredDate",
+                "thehive:alerts:createdAt",
+                "thehive:*",
+                "tathehivecortex:log"
+              ]
+            },
+            "versionCompatibility": [
+              {
+                "id": 136,
+                "status": "live",
+                "versionString": "10.6"
+              },
+              {
+                "id": 132,
+                "status": "live",
+                "versionString": "10.5"
+              },
+              {
+                "id": 129,
+                "status": "live",
+                "versionString": "10.4"
+              },
+              {
+                "id": 128,
+                "status": "live",
+                "versionString": "10.3"
+              },
+              {
+                "id": 127,
+                "status": "live",
+                "versionString": "10.2"
+              },
+              {
+                "id": 121,
+                "status": "live",
+                "versionString": "10.1"
+              },
+              {
+                "id": 119,
+                "status": "live",
+                "versionString": "10.0"
+              },
+              {
+                "id": 115,
+                "status": "live",
+                "versionString": "9.4"
+              },
+              {
+                "id": 111,
+                "status": "live",
+                "versionString": "9.3"
+              },
+              {
+                "id": 110,
+                "status": "live",
+                "versionString": "9.2"
+              },
+              {
+                "id": 59,
+                "status": "live",
+                "versionString": "9.1"
+              },
+              {
+                "id": 54,
+                "status": "live",
+                "versionString": "9.0"
+              }
+            ],
+            "splCompatibility": "SPL1",
+            "bundleSha256": null,
+            "bundleFilename": null
+          },
           {
             "actions": [],
             "cimCompatibility": [],
@@ -330,6 +538,21 @@
               ]
             },
             "versionCompatibility": [
+              {
+                "id": 136,
+                "status": "live",
+                "versionString": "10.6"
+              },
+              {
+                "id": 132,
+                "status": "live",
+                "versionString": "10.5"
+              },
+              {
+                "id": 129,
+                "status": "live",
+                "versionString": "10.4"
+              },
               {
                 "id": 128,
                 "status": "live",
@@ -1737,7 +1960,7 @@
         "support": "developer",
         "title": "TheHive/Cortex",
         "troubleshooting": "You have a dedicated dashboard named \"Audit logs\" in order to check all logs.\nIf you enable the debug mode (only for troubleshooting purposes), you will be able to see all the information and especially errors.\n\nIf you need any assistance, you can contact me on the related Github: https://github.com/LetMeR00t/TA-thehive-cortex/issues",
-        "updatedTime": "2026-10-29T18:17:00.875647Z",
+        "updatedTime": "2026-11-03T19:07:29.725583Z",
         "videoLink": null,
         "appType": "app",
         "scheduleRelease": null,
@@ -1759,7 +1982,7 @@
   "query": {
     "id": "5329"
   },
-  "buildId": "HVCh_3k4YqfES2xyKjUGe",
+  "buildId": "DuY1H9IG2-8j_c9nb6-Nd",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
