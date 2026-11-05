@@ -23,7 +23,7 @@
         },
         "description": "The Common Information Model is a set of field names and tags which are expected to define the least common denominator of a domain of interest. It is implemented as documentation on the Splunk docs website and JSON data model files in this add-on. Use the CIM add-on when modeling data or building apps to ensure compatibility between apps, or to just take advantage of these data models to pivot and report.",
         "documentation": "[Release Notes](https://help.splunk.com/en/data-management/common-information-model/6.2/introduction/release-notes-for-the-splunk-common-information-model-add-on)\nPlease see the [Splunk Common Information Model Add-on user documentation](https://help.splunk.com/en/data-management/common-information-model/6.1/introduction/overview-of-the-splunk-common-information-model).",
-        "downloadCount": 442810,
+        "downloadCount": 443020,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/5fe561f8-ccaa-11f1-967e-1eaa964cbe9c.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": null,
@@ -71,8 +71,8 @@
             "inputs"
           ],
           "fipsCompatibility": false,
-          "filename": "splunk-common-information-model-cim_870.tgz",
-          "id": 123873,
+          "filename": "splunk-common-information-model-cim_880.tgz",
+          "id": 124864,
           "installMethodDistributed": "appmgmt_phase",
           "installMethodSingle": "simple",
           "manifest": {
@@ -82,7 +82,7 @@
               "id": {
                 "group": null,
                 "name": "Splunk_SA_CIM",
-                "version": "8.7.0"
+                "version": "8.8.0"
               },
               "author": [
                 {
@@ -132,10 +132,10 @@
               "_indexers"
             ]
           },
-          "md5": "aef3195fde633d7218d3708e4e6f50a4",
+          "md5": "f67f58c9d2e90042ba35b251ca68cfda",
           "minProductVersionStr": null,
-          "name": "8.7.0",
-          "path": "https://splunkbase.splunk.com/app/1621/release/8.7.0/download/",
+          "name": "8.8.0",
+          "path": "https://splunkbase.splunk.com/app/1621/release/8.8.0/download/",
           "platform": "independent",
           "productTypes": [
             "enterprise",
@@ -143,10 +143,10 @@
           ],
           "public": null,
           "publicEverTrue": false,
-          "publishedDatetime": "2026-09-02T17:52:10Z",
-          "releaseNotes": "[https://help.splunk.com/en/splunk-cloud-platform/common-information-model/8.7/introduction/release-notes-for-the-splunk-common-information-model-add-on](https://help.splunk.com/en/splunk-cloud-platform/common-information-model/8.7/introduction/release-notes-for-the-splunk-common-information-model-add-on)",
-          "sha256": "4c80c3b732ce99004c5343268f63467a6d70ebf99257dc42e5775d6890e46fcb",
-          "size": 972853,
+          "publishedDatetime": "2026-10-20T17:19:15.300148Z",
+          "releaseNotes": "[https://help.splunk.com/en/splunk-enterprise-security-8/common-information-model/8.8/introduction/release-notes-for-the-splunk-common-information-model-add-on](https://help.splunk.com/en/splunk-enterprise-security-8/common-information-model/8.8/introduction/release-notes-for-the-splunk-common-information-model-add-on)",
+          "sha256": "5a3ffb7657a15bb065aacd280296cf74511ad8b6311327bcb1db65c0530c7836",
+          "size": 1135442,
           "tagsSourcetypes": {
             "__no_tag__": [
               "stash_common_action_model",
@@ -4132,7 +4132,7 @@
         "support": "splunk",
         "title": "Splunk Common Information Model (CIM)",
         "troubleshooting": "",
-        "updatedTime": "2026-10-22T00:18:50.866158Z",
+        "updatedTime": "2026-11-04T16:45:30.604885Z",
         "videoLink": null,
         "appType": "addon",
         "scheduleRelease": null,
@@ -4154,7 +4154,7 @@
   "query": {
     "id": "1621"
   },
-  "buildId": "DuY1H9IG2-8j_c9nb6-Nd",
+  "buildId": "qJAbzdiihRmoY91XRzcUS",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
