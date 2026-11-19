@@ -55,7 +55,7 @@
           }
         ],
         "rating": {
-          "count": 233,
+          "count": 234,
           "average": 4
         },
         "release": {
@@ -1678,7 +1678,7 @@
         "support": "premium",
         "title": "Splunk Enterprise Security",
         "troubleshooting": "https://help.splunk.com/en/splunk-enterprise-security-8/troubleshoot/8.2/troubleshooting/troubleshoot-script-errors-in-splunk-enterprise-security",
-        "updatedTime": "2026-11-16T13:06:31.933052Z",
+        "updatedTime": "2026-11-18T12:14:11.234151Z",
         "videoLink": null,
         "appType": "app",
         "scheduleRelease": null,
@@ -1700,7 +1700,7 @@
   "query": {
     "id": "263"
   },
-  "buildId": "gUxbc7BwDgUsGo9-y0VyS",
+  "buildId": "lqAV66o9Le33CoaqMdqMt",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
