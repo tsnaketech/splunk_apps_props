@@ -159,6 +159,11 @@
           },
           "versionCompatibility": [
             {
+              "id": 138,
+              "status": "live",
+              "versionString": "10.8"
+            },
+            {
               "id": 137,
               "status": "live",
               "versionString": "10.7"
@@ -319,6 +324,11 @@
               ]
             },
             "versionCompatibility": [
+              {
+                "id": 138,
+                "status": "live",
+                "versionString": "10.8"
+              },
               {
                 "id": 137,
                 "status": "live",
@@ -816,7 +826,7 @@
   "query": {
     "id": "5062"
   },
-  "buildId": "lqAV66o9Le33CoaqMdqMt",
+  "buildId": "CkNb8tkG_kOZBF3phA5wi",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,

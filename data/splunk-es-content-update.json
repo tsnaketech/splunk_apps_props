@@ -23,7 +23,7 @@
         },
         "description": "The Splunk ES Content Update (ESCU) app delivers pre-packaged Security Content. ESCU provides regular Security Content updates to help security practitioners address ongoing time-sensitive threats, attack methods, and other security issues.\n\nSecurity Content consists of tactics, techniques, and methodologies that help with detection, investigation, and response. Security Content enables security teams to directly operationalize detection searches, investigative searches, and other supporting details. ESCU can generate Notable/Risk Events in Splunk Enterprise Security. Security Content also contains easy-to-read background information and guidance, for key context on motivations and risks associated with attack techniques, as well as pragmatic advice on how to combat those techniques.\n\nThe analytic stories and their searches are also available at - https://github.com/splunk/security_content.",
         "documentation": "For more information please visit the [Splunk ES Content Update user documentation](https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update).",
-        "downloadCount": 194121,
+        "downloadCount": 194219,
         "icon": "https://cdn.splunkbase.splunk.com/media/public/icons/6be1ea02-e394-11f1-9e07-f6885aa74af0.png",
         "inquiryButtonText": "Learn More",
         "inquiryUrl": null,
@@ -97,6 +97,11 @@
           "size": 2993014,
           "tagsSourcetypes": {},
           "versionCompatibility": [
+            {
+              "id": 138,
+              "status": "live",
+              "versionString": "10.8"
+            },
             {
               "id": 137,
               "status": "live",
@@ -208,6 +213,11 @@
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
+                "id": 138,
+                "status": "live",
+                "versionString": "10.8"
+              },
+              {
                 "id": 137,
                 "status": "live",
                 "versionString": "10.7"
@@ -317,6 +327,11 @@
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
+                "id": 138,
+                "status": "live",
+                "versionString": "10.8"
+              },
+              {
                 "id": 137,
                 "status": "live",
                 "versionString": "10.7"
@@ -423,6 +438,11 @@
             "size": 2951899,
             "tagsSourcetypes": {},
             "versionCompatibility": [
+              {
+                "id": 138,
+                "status": "live",
+                "versionString": "10.8"
+              },
               {
                 "id": 137,
                 "status": "live",
@@ -533,6 +553,11 @@
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
+                "id": 138,
+                "status": "live",
+                "versionString": "10.8"
+              },
+              {
                 "id": 137,
                 "status": "live",
                 "versionString": "10.7"
@@ -642,6 +667,11 @@
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
+                "id": 138,
+                "status": "live",
+                "versionString": "10.8"
+              },
+              {
                 "id": 137,
                 "status": "live",
                 "versionString": "10.7"
@@ -749,6 +779,11 @@
             "tagsSourcetypes": {},
             "versionCompatibility": [
               {
+                "id": 138,
+                "status": "live",
+                "versionString": "10.8"
+              },
+              {
                 "id": 137,
                 "status": "live",
                 "versionString": "10.7"
@@ -853,7 +888,7 @@
   "query": {
     "id": "3449"
   },
-  "buildId": "lqAV66o9Le33CoaqMdqMt",
+  "buildId": "CkNb8tkG_kOZBF3phA5wi",
   "assetPrefix": "https://cdn.splunkbase.splunk.com",
   "isFallback": false,
   "isExperimentalCompile": false,
